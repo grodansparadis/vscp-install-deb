@@ -49,6 +49,6 @@ cp ../../../HISTORY package/usr/share/vscp
 
 
 # * * * Buidl the package
-dpkg --build package vscp-0.3.3pre-i386.deb
+dpkg --build package vscp-0.4.0pre-i386.deb
 #dpkg -c vscp-0.2.9-i386.deb
 

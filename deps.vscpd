@@ -16,3 +16,7 @@
   NEEDED      libgcc_s.so.1
   NEEDED      libpthread.so.0
   NEEDED      libc.so.6
+  NEEDED      libmosquittopp.so
+  NEEDED      libmicrohttpd.so
+  NEEDED      libpcap.so
+  NEEDED      libwebsockets.so
