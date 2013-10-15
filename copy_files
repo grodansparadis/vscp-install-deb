@@ -12,6 +12,7 @@ mkdir -p package/usr/bin
 mkdir -p package/usr/share
 mkdir -p package/usr/share/doc
 mkdir -p package/usr/share/vscp
+mkdir -p package/usr/share/vscp/config-examples
 
 # * * * Control files
 cp control package/DEBIAN
@@ -19,17 +20,42 @@ cp postinst package/DEBIAN
 cp prerm package/DEBIAN
 
 # * * * Configuration files * * *
-cp ../../../vscpd.conf.linux.example package/etc/vscp/vscpd.conf
-cp ../../../dm.xml.example package/etc/vscp/dm.xml
-cp ../../../variable.xml.example package/etc/vscp/variable.xml
-cp ../../../vscpworks.conf.example package/etc/vscp/vscpworks.conf
-cp ../../../vscpd.startup_script_debian package/etc/init.d/vscpd
+cp ../vscp_software/config_examples/vscpd.conf.linux.example package/etc/vscp/vscpd.conf
+cp ../vscp_software/config_examples/dm.xml.example package/etc/vscp/dm.xml
+cp ../vscp_software/config_examples/variable.xml.example package/etc/vscp/variable.xml
+cp ../vscp_software/config_examples/vscpworks.conf.example package/etc/vscp/vscpworks.conf
+cp ../vscp_software/config_examples/vscpd.startup_script_debian package/etc/init.d/vscpd
+cp ../vscp_software/vscpd.startup_script_debian   mkdir -p package/etc/init.d/vscpd
 
-# * * * Binaries * * *
-cp ../daemon/linux/vscpd package/usr/bin/
-cp ../vscpworks/vscpworks package/usr/bin/
-cp ../mkpasswd/mkpasswd package/usr/bin
-cp ../vscpcmd/vscpcmd package/usr/bin/
+# * * * VSCP Binaries * * *
+cp ../vscp_software/src/vscp/daemon/linux/vscpd package/usr/bin/
+cp ../vscp_software/src/vscp/vscpworks/vscpworks package/usr/bin/
+cp ../vscp_software/src/vscp/mkpasswd/mkpasswd package/usr/bin
+cp ../vscp_software/src/vscp/vscpcmd/vscpcmd package/usr/bin/
+# * * * VSCP Driver Binaries * * *
+cp ../vscp_software/src/vscp/drivers/level1/logger/linux/canallogger.so package/usr/lib/
+cp ../vscp_software/src/vscp/drivers/level1/can232/linux/can232drv.so package/usr/lib/
+cp ../vscp_software/src/vscp/drivers/level1/xap/linux/xapdrv.so package/usr/lib/
+cp ../vscp_software/src/vscp/drivers/level1/socketcan/linux/socketcandrv.so package/usr/lib/
+cp ../vscp_software/src/vscp/drivers/level2/logger/linux/vscpl2_loggerdrv.so package/usr/lib/
+cp ../vscp_software/src/vscp/drivers/level2/lmsensors/linux/vscp2drv_lmsensors.so package/usr/lib/
+cp ../vscp_software/src/vscp/drivers/level2/lmsensors/linux/vscp2drv_mqtt.so package/usr/lib/
+cp ../vscp_software/src/vscp/drivers/level2/socketcan/linux/vscp2drv_socketcan.so package/usr/lib/
+cp ../vscp_software/src/vscp/drivers/level2/tcpdrv/linux/vscp2drv_tcpiplink.so package/usr/lib/
+cp ../vscp_software/src/vscp/drivers/level2/rawethernet/linux/vscp2drv_raweth.so package/usr/lib/
+# * * * VSCP General Library Binaries * * *
+cp ../vscp_software/src/vscp/linuxvscpl1/vscpl1.so package/usr/lib/
+cp ../vscp_software/src/vscp/helperlib/linux/libvscphelper.so package/usr/lib/
+
+# * * * libwebsockets * * *
+cp /usr/local/bin/libwebsockets-test-client package/usr/bin/
+cp /usr/local/bin/libwebsockets-test-ping package/usr/bin/
+cp /usr/local/bin/libwebsockets-test-echo package/usr/bin/
+cp /usr/local/bin/libwebsockets-test-server package/usr/bin/
+cp /usr/local/bin/libwebsockets-test-fraggle package/usr/bin/
+cp /usr/local/bin/libwebsockets-test-server-extpoll package/usr/bin/
+cp /usr/local/lib/libwebsockets.a package/usr/lib/
+cp /usr/local/lib/libwebsockets.so.4.0.0 package/usr/lib/
 
 # * * * Generate checksums
 cd package/usr/bin
@@ -37,18 +63,37 @@ md5sum vscpd >../../DEBIAN/md5sums
 md5sum vscpworks >>../..//DEBIAN/md5sums 
 md5sum mkpasswd >>../..//DEBIAN/md5sums
 md5sum vscpcmd >>../..//DEBIAN/md5sums
+md5sum libwebsockets-test-client >>../..//DEBIAN/md5sums 
+md5sum libwebsockets-test-ping >>../..//DEBIAN/md5sums 
+md5sum libwebsockets-test-echo >>../..//DEBIAN/md5sums 
+md5sum libwebsockets-test-server >>../..//DEBIAN/md5sums 
+md5sum libwebsockets-test-fraggle >>../..//DEBIAN/md5sums 
+md5sum libwebsockets-test-server-extpoll >>../..//DEBIAN/md5sums 
+cd ../lib
+md5sum libwebsockets.a >>../..//DEBIAN/md5sums 
+md5sum libwebsockets.so.4.0.0 >>../..//DEBIAN/md5sums
+md5sum canallogger.so >>../..//DEBIAN/md5sums 
+md5sum can232drv.so >>../..//DEBIAN/md5sums 
+md5sum xapdrv.so >>../..//DEBIAN/md5sums 
+md5sum socketcandrv.so >>../..//DEBIAN/md5sums 
+md5sum vscpl2_loggerdrv.so >>../..//DEBIAN/md5sums 
+md5sum vscp2drv_lmsensors.so >>../..//DEBIAN/md5sums 
+md5sum vscp2drv_mqtt.so >>../..//DEBIAN/md5sums 
+md5sum vscp2drv_socketcan.so >>../..//DEBIAN/md5sums 
+md5sum vscp2drv_tcpiplink.so >>../..//DEBIAN/md5sums 
+md5sum vscp2drv_raweth.so >>../..//DEBIAN/md5sums 
+md5sum vscpl1.so >>../..//DEBIAN/md5sums 
+md5sum libvscphelper.so >>../..//DEBIAN/md5sums 
 cd ../../..
 
 # * * * VSCP & Friends files
-cp ../../../README package/usr/share/vscp
-cp ../../../dm.* package/usr/share/vscp
-cp ../../../variable.* package/usr/share/vscp
-cp ../../../vscpd.conf.linux* package/usr/share/vscp
-cp ../../../CHANGELOG package/usr/share/vscp
-cp ../../../HISTORY package/usr/share/vscp
+cp ../vscp_software/README package/usr/share/vscp
+cp ../vscp_software/config_examples/* package/usr/share/vscp/config_examples
+cp ../vscp_software/CHANGELOG package/usr/share/vscp
+cp ../vscp_software/HISTORY package/usr/share/vscp
+cp ../vscp_software/COPYRIGHT package/usr/share/vscp
 
-
-# * * * Buidl the package
-dpkg --build package vscp-0.4.0pre-i386.deb
+# * * * Build the package
+dpkg --build package vscp-0.4.7-0-i386.deb
 #dpkg -c vscp-0.2.9-i386.deb
 
