@@ -1,9 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: vscp
-Source: <url://example.com>
+Source: https://github.com/grodansparadis/vscp_software
 
 Files: *
-Copyright: <years> <put author's name and email here>
+Copyright: 2000-2013 Ake Hedman, Grodans Paradis AB <akhe@grodansparadis.com>
            <years> <likewise for another author>
 License: <special license>
  <Put the license of the package here indented by 1 space>
