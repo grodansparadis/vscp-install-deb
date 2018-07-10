@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# get version from the version file
+MAJOR_VERSION=`sed '35!d' ../vscp/src/vscp/common/version.h  | cut -b 33-`
+MINOR_VERSION=`sed '36!d' ../vscp/src/vscp/common/version.h  | cut -b 33-`
+RELEASE_VERSION=`sed '37!d' ../vscp/src/vscp/common/version.h  | cut -b 33-`
+BUILD_VERSION=`sed '38!d' ../vscp/src/vscp/common/version.h  | cut -b 33-`
+NAME_PLUS_VER=vscp-$MAJOR_VERSION.$MINOR_VERSION.$RELEASE_VERSION
+BUILD_FOLDER=`date +vscp_build_%y%m%d_%H%M%S`
+echo $TAR_PLUS_VER
+rm $NAME_PLUS_VER.tar.gz
+rm $NAME_PLUS_VER.orig.tar.gz
+rm -rf $NAME_PLUS_VER/
+mkdir $BUILD_FOLDER
+cd ../vscp
+make clean
+rm dest/*
+./clean_for_dist
+echo "making tar"
+tar -zcf ../vscp-install-deb/$BUILD_FOLDER/$NAME_PLUS_VER.tar.gz *
+echo $NAME_PLUS_VER.tgz created.
+cd ../vscp-install-deb/$BUILD_FOLDER
+mkdir $NAME_PLUS_VER/
+cd $NAME_PLUS_VER/
+mkdir debian
+tar -zxvf ../$NAME_PLUS_VER.tar.gz
+dh_make -f ../$NAME_PLUS_VER.tar.gz -a -s -c mit -y
+cp -r ../../debian_orig/* debian/
+echo "Now do 'dpkg-buildpackage -us -uc' or 'dpkg-buildpackage -b'"
+
+
+
+
