@@ -1,1 +1,8 @@
 /usr/bin/vscpd
+config_examples/unix/vscpd.conf  /etc/vscp
+database/vscp_data.sqlite3 /srv/vscp/
+config_examples/unix/variables.xml /srv/vscp/
+config_examples/unix/dm.xml /srv/vscp/
+config_examples/simulation/simtempdata.txt /srv/vscp/
+config_examples/certs/server.pem /srv/vscp/certs/
+config_examples/certs/client.pem /srv/vscp/certs/
