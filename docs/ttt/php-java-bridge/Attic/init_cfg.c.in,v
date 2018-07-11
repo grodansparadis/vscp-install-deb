@@ -1,0 +1,1629 @@
+head	1.47;
+access;
+symbols
+	Release-5-5-4-1:1.46.0.4
+	Root_Release-5-5-4-1:1.46
+	Release-5-5-4:1.46.0.2
+	Root_Release-5-5-4:1.46
+	Release-5-5-3:1.45.0.6
+	ROOT_Release-5-5-3:1.45
+	Release-5-5-2:1.45.0.4
+	Root_Release-5-5-2:1.45
+	debian_version_5_5_1-1:1.45
+	Release-5-5-1:1.45.0.2
+	upstream_version_5_5_1:1.45
+	ROOT_Release-5-5-1:1.45
+	debian_version_5_5-1:1.44
+	upstream_version_5_5:1.44
+	ROOT_Release-5-5:1.44
+	Release-5-5:1.44.0.16
+	debian_version_5_4_4_2-3:1.44
+	Release-5-4-4-2-1:1.44.0.10
+	debian_version_5_4_4_2-2:1.44
+	debian_version_5_4_4_2-1:1.44
+	upstream_version_5_4_4_2:1.44
+	debian_version_5_4_4_1-1:1.44
+	upstream_version_5_4_4_1:1.44
+	debian_version_5_4_4-1:1.44
+	upstream_version_5_4_4:1.44
+	Release-5-4-4:1.44.0.12
+	Root_Release-5-4-4:1.44
+	debian_version_5_4_3_2-1:1.44
+	upstream_version_5_4_3_2:1.44
+	Release_5-4-3-2:1.44.0.8
+	Root_Release_5-4-3-2:1.44
+	upstream_version_5_4_3_1:1.44
+	debian_version_5_4_3_1-1:1.44
+	Release-5-4-3:1.44.0.6
+	Root_Release-5-4-3:1.44
+	Root_Release-5-4-1:1.44
+	Release-5-4-1:1.44.0.4
+	Root_Release-5-4:1.44
+	Release-5-4:1.44.0.2
+	upstream_version_5_3_4:1.43
+	debian_version_5_3_4-1:1.43
+	ROOT_Release-5-3-4:1.43
+	Release-5-3-4:1.43.0.14
+	ROOT_Release-5-3-3:1.43
+	Release-5-3-3:1.43.0.10
+	debian_version_5_3_2_1_2-1:1.43
+	upstream_version_5_3_2_1_2:1.43
+	debian_version_5_3_2_1_1-1:1.43
+	debian_version_5_3_2_1_1:1.43
+	upstream_version_5_3_2_1_1:1.43
+	Root_Release-5-3-2-1:1.43
+	Release-5-3-2-1:1.43
+	ROOT_RELEASE-5-3-2-1:1.43
+	RELEASE-5-3-2-1:1.43.0.12
+	Release-5-3-2:1.43.0.8
+	Root_Release-5-3-2:1.43
+	Root_Release-5-3-1:1.43
+	Release-5-3-1:1.43.0.6
+	Release-5-2-3-1:1.43.0.4
+	Root_Release-5-2-3-1:1.43
+	Release-5-2-2-4:1.43.0.2
+	Root_Release-5-2-2-4:1.43
+	Release-5-2-2-1:1.42.0.18
+	Root_Release-5-2-2-1:1.42
+	upstream_version_5_2_2:1.42
+	debian_version_5_2_2-1:1.42
+	Release-5-2-2:1.42.0.16
+	ROOT_Release-5-2-2:1.42
+	ROOT_Release-5-2-1:1.42
+	Release-5-2-1:1.42.0.14
+	Release-5-2-0:1.42.0.12
+	ROOT_Release-5-2-0:1.42
+	ROOT_Release-5-1-2:1.42
+	Release-5-1-2:1.42.0.10
+	Version-5-1-1:1.42.0.8
+	ROOT_Version-5-1-1:1.42
+	debian_version_5_1_0-1:1.42
+	upstream_version_5_1_0:1.42
+	ROOT_Release-5-1-0:1.42
+	Release-5-1-0:1.42.0.6
+	ROOT_Release-5-0-0:1.42
+	Release-5-0-0:1.42.0.4
+	Release-4-3-3:1.42.0.2
+	ROOT_Release-4-3-3:1.42
+	upstream_version_4_3_2:1.41
+	debian_version_4_3_2-1:1.41
+	ROOT_Release-4-3-2:1.41
+	Release-4-3-2:1.41.0.6
+	Release-4-3-1:1.41.0.4
+	ROOT_Release-4-3-1:1.41
+	debian_version_4_3_0-1:1.41
+	upstream_version_4_3_0:1.41
+	ROOT_Release-4-3-0:1.41
+	Release-4-3-0:1.41.0.2
+	debian_version_3_2_1b-2:1.38
+	debian_version_4_2_2-1:1.41
+	upstream_version_4_2_2:1.41
+	debian_version_3_2_1b-1:1.38
+	upstream_version_3_2_1b:1.38
+	Release-4-1-2:1.39.0.6
+	Release-4-0-8:1.39.0.4
+	debian_version_4_0_8a-1:1.39
+	upstream_version_4_0_8a:1.39
+	jostb-debian-ubuntu-patch:1.39.0.2
+	debian_version_4_0_8-1:1.39
+	upstream_version_4_0_8:1.39
+	debian_version_4_0_7-1:1.38
+	upstream_version_4_0_7:1.38
+	debian_version_4_0_6-1:1.38
+	upstream_version_4_0_6:1.38
+	debian_version_4_0_2-1:1.38
+	upstream_version_4_0_2:1.38
+	Release-4-0-2_Root:1.38
+	Release-4-0-2:1.38.0.4
+	upstream_version_4_0_1:1.38
+	debian_version_4_0_1-2:1.38
+	Release-3-2-1:1.38.0.2
+	Release-3-1-8:1.37.0.2
+	Release-3-0-8_root:1.27
+	Release-3-0-8_Root:1.30
+	Release-3-0-8:1.27.0.2
+	Release-2-0-8:1.21.0.4
+	Release-2-0-7_Root:1.17
+	Release-2-0-7:1.17.0.2
+	Release-2-0-6-branch:1.12.0.2
+	Version-1:1.7.0.6
+	Version-2:1.7.0.4
+	Release-2:1.7.0.2
+	PHP-5:1.1.0.4
+	Release-1-0-6:1.1.0.6;
+locks; strict;
+comment	@# @;
+
+
+1.47
+date	2010.02.18.17.25.32;	author jost_boekemeier;	state dead;
+branches;
+next	1.46;
+
+1.46
+date	2009.10.17.17.40.22;	author jost_boekemeier;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2009.08.22.16.43.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2008.12.11.21.05.45;	author jost_boekemeier;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2008.09.24.22.24.40;	author jost2345;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2007.12.28.13.56.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2007.07.09.14.35.06;	author jost_boekemeier;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2007.07.03.15.50.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2007.04.07.16.22.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2006.11.25.17.00.31;	author jost2345;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2006.08.27.14.40.11;	author jost2345;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2006.08.21.17.41.52;	author jost2345;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2006.08.08.17.20.45;	author jost2345;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2006.06.19.20.37.14;	author jost2345;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2006.05.15.19.03.29;	author jost2345;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2006.05.07.14.33.33;	author jost2345;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2006.05.04.17.48.13;	author jost2345;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2006.04.30.17.01.55;	author jost2345;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2006.04.28.18.15.02;	author jost2345;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2006.04.26.19.09.31;	author jost2345;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.01.30.19.39.53;	author jost2345;	state Exp;
+branches
+	1.27.2.1;
+next	1.26;
+
+1.26
+date	2006.01.08.23.44.40;	author jost2345;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.01.04.19.35.07;	author jost2345;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.12.19.19.36.40;	author jost2345;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.12.18.18.17.48;	author jost2345;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.12.11.22.24.40;	author jost2345;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.08.23.18.20.56;	author jost2345;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.08.21.11.39.39;	author jost2345;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.08.11.18.08.16;	author jost2345;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.07.25.20.42.27;	author jost2345;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.07.08.17.57.22;	author jost2345;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.06.21.20.17.30;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.06.19.20.45.40;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.06.16.16.10.41;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.06.15.15.18.02;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.05.11.17.28.48;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.03.27.15.45.45;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.02.21.17.53.19;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.02.19.13.29.25;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.02.17.21.57.22;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.01.06.17.09.32;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.01.02.14.02.10;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.12.20.20.04.43;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.11.19.16.54.33;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.11.11.18.36.00;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.11.03.20.13.39;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.10.24.10.58.47;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.27.2.1
+date	2006.05.05.18.29.54;	author jost2345;	state Exp;
+branches;
+next	1.27.2.2;
+
+1.27.2.2
+date	2006.05.15.19.02.12;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.47
+log
+@Release-6-0-0
+@
+text
+@/*-*- mode: C; tab-width:4 -*-*/
+
+#include "php_java.h"
+
+#ifdef HAVE_STRING_H
+#include <string.h>
+#endif
+
+/* strncasecmp */
+#ifdef HAVE_STRING_H
+#include <string.h>
+#endif
+#ifdef HAVE_STRINGS_H
+#include <strings.h>
+#endif
+
+
+/* mktemp */
+#include <stdlib.h>
+
+#include "protocol.h"
+#include "java_bridge.h"
+
+#ifndef EXTENSION_DIR
+#error EXTENSION_DIR must point to the PHP extension directory
+#endif
+
+#ifndef CFG_CLASSPATH
+#define CFG_CLASSPATH ""
+#endif
+#ifndef CFG_LD_LIBRARY_PATH
+#define CFG_LD_LIBRARY_PATH ""
+#endif
+
+#ifndef CFG_JAVA
+#if @@COND_GCJ@@ == 1
+#define CFG_JAVA ""
+#else
+#define CFG_JAVA "@@PHP_JAVA_BIN@@"
+#endif
+#endif
+
+#ifndef CFG_JAVA_HOME
+#if @@COND_GCJ@@ == 1
+#define CFG_JAVA_HOME ""
+#else
+#define CFG_JAVA_HOME "@@PHP_JAVA@@"
+#endif
+#endif
+
+const char * const EXT_GLOBAL (bridge_version) = BRIDGE_VERSION;
+
+EXT_EXTERN_MODULE_GLOBALS(EXT)
+
+static const char on[]="On";
+static const char on2[]="1";
+static const char off[]="Off";
+void EXT_GLOBAL(update_persistent_servlet_connections)(const char*new_value) {
+	if((EXT_GLOBAL (ini_set) &U_PERSISTENT_SERVLET_CONNECTIONS)) free(EXT_GLOBAL(cfg)->persistent_servlet_connections);
+	EXT_GLOBAL(cfg)->persistent_servlet_connections=strdup(new_value);
+	assert(EXT_GLOBAL(cfg)->persistent_servlet_connections); if(!EXT_GLOBAL(cfg)->persistent_servlet_connections) exit(6);
+	EXT_GLOBAL(ini_updated)|=U_PERSISTENT_SERVLET_CONNECTIONS;
+}
+void EXT_GLOBAL(update_hosts)(const char*new_value) {
+	if((EXT_GLOBAL (ini_set) &U_HOSTS)) free(EXT_GLOBAL(cfg)->hosts);
+	EXT_GLOBAL(cfg)->hosts=strdup(new_value);
+	assert(EXT_GLOBAL(cfg)->hosts); if(!EXT_GLOBAL(cfg)->hosts) exit(6);
+	EXT_GLOBAL(ini_updated)|=U_HOSTS;
+}
+void EXT_GLOBAL(update_servlet)(const char*new_value) {
+  if((EXT_GLOBAL (ini_set) &U_SERVLET)) free(EXT_GLOBAL(cfg)->servlet);
+  if(!strncasecmp(on, new_value, 2) || !strncasecmp(on2, new_value, 1)) {
+	EXT_GLOBAL(cfg)->servlet=strdup(DEFAULT_SERVLET);
+	EXT_GLOBAL(cfg)->servlet_is_default=1;
+  }
+  else {
+	EXT_GLOBAL(cfg)->servlet=strdup(new_value);
+	EXT_GLOBAL(cfg)->servlet_is_default=0;
+  }
+  assert(EXT_GLOBAL(cfg)->servlet); if(!EXT_GLOBAL(cfg)->servlet) exit(6);
+  EXT_GLOBAL(ini_updated)|=U_SERVLET;
+}
+void EXT_GLOBAL(update_socketname)(const char*new_value) {
+	if((EXT_GLOBAL (ini_set) &U_SOCKNAME)) free(EXT_GLOBAL(cfg)->sockname);
+	EXT_GLOBAL(cfg)->sockname=strdup(new_value);
+#if defined(HAVE_ABSTRACT_NAMESPACE) && !defined(CFG_JAVA_SOCKET_INET)
+	if (EXT_GLOBAL(cfg)->sockname[0]=='/')
+	  EXT_GLOBAL(cfg)->sockname[0]='@@';
+#endif
+	EXT_GLOBAL(cfg)->socketname_set=1;
+	assert(EXT_GLOBAL(cfg)->sockname); if(!EXT_GLOBAL(cfg)->sockname) exit(6);
+	EXT_GLOBAL(ini_updated)|=U_SOCKNAME;
+}
+static void override_hosts(const char*new_value) {
+  EXT_GLOBAL(update_hosts)(new_value);
+  EXT_GLOBAL(ini_override)|=U_HOSTS;
+}
+static void override_servlet(const char*new_value) {
+  EXT_GLOBAL(update_servlet)(new_value);
+  EXT_GLOBAL(ini_override)|=U_SERVLET;
+}
+static void override_socketname(const char*new_value) {
+  EXT_GLOBAL(update_socketname)(new_value);
+  EXT_GLOBAL(ini_override)|=U_SOCKNAME;
+}
+/*
+ * check for CGI environment and set hosts so that we can connect back
+ * to the sever from which we were called.
+ */
+static void override_ini_from_cgi(void) {
+  static const char on[]="User";
+  static const char key_socketname[]="java.socketname";
+  static const char key_hosts[]="java.hosts";
+  static const char key_servlet[] = "java.servlet";
+  char *hosts;
+  EXT_GLOBAL(cfg)->is_cgi_servlet=0;
+  EXT_GLOBAL(cfg)->is_fcgi_servlet=0;
+  
+#if EXTENSION == JAVA
+  if ((hosts=getenv("X_JAVABRIDGE_OVERRIDE_HOSTS"))) {
+#elif EXTENSION == MONO
+  if ((hosts=getenv("X_MONOBRIDGE_OVERRIDE_HOSTS"))) {
+#else
+  if (0) {
+#endif
+
+	switch(*hosts) {
+	case '/': 				/* this is fast cgi, override
+							   information will be passed via
+							   X_JAVABRIDGE_REDIRECT header (see
+							   override_ini_for_redirect()). */
+/* 	  zend_alter_ini_entry((char*)key_servlet, sizeof key_servlet, */
+/* 						   (char*)on, sizeof on, */
+/* 						   ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP); */
+	  override_servlet(on);
+	  EXT_GLOBAL(cfg)->socketname_set = 0;
+	  EXT_GLOBAL(cfg)->is_cgi_servlet=1;
+	  EXT_GLOBAL(cfg)->is_fcgi_servlet=1;
+	  break;
+
+	default:					/* cgi binary with redirect
+								   information */
+	  {
+		char *kontext, *host, *val;
+		val = host = strdup(hosts);
+		if((host[0]=='s' || host[0]=='h') && host[1]==':') {
+		  if(*host=='s') 
+			EXT_GLOBAL(ini_user) |= U_SECURE;
+		  else 
+			EXT_GLOBAL(ini_user) &= ~U_SECURE;
+		  host+=2;
+		}
+		kontext = strchr(host, '/');
+		if(kontext) *kontext++=0;
+/* 		zend_alter_ini_entry((char*)key_hosts, sizeof key_hosts, */
+/* 							 host, strlen(host)+1, */
+/* 							 ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP); */
+		override_hosts(host);
+/* 		zend_alter_ini_entry((char*)key_socketname, sizeof key_socketname, */
+/* 							 (char*)off, sizeof off, */
+/* 							 ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP); */
+		override_socketname(off);
+		EXT_GLOBAL(cfg)->socketname_set = 0;
+		if(!kontext) {
+/* 		  zend_alter_ini_entry((char*)key_servlet, sizeof key_servlet, */
+/* 							   (char*)on, sizeof on, */
+/* 							   ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP); */
+		  override_servlet(on);
+		} else {
+/* 		  zend_alter_ini_entry((char*)key_servlet, sizeof key_servlet, */
+/* 							   (char*)kontext, strlen(kontext)+1, */
+/* 							   ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP); */
+		  override_servlet(kontext);
+		}
+		free(val);
+	  }
+	  /* fall through */
+	case 0:					/* cgi binary, but redirect is off */
+	  EXT_GLOBAL(cfg)->is_cgi_servlet=1;
+	}
+  }
+}
+
+void EXT_GLOBAL (init_cfg) (TSRMLS_D) {
+
+#ifdef CFG_JAVA_SOCKET_INET
+  EXT_GLOBAL(cfg)->java_socket_inet = 1;
+#else
+  EXT_GLOBAL(cfg)->java_socket_inet = 0;
+#endif
+
+  override_ini_from_cgi();
+
+  if(!(EXT_GLOBAL (ini_updated) &U_SOCKNAME)) EXT_GLOBAL(cfg)->sockname=strdup("");
+  if(!(EXT_GLOBAL (ini_updated) &U_SERVLET)) EXT_GLOBAL(cfg)->servlet=strdup(DEFAULT_SERVLET);
+  if(!(EXT_GLOBAL (ini_updated) &U_HOSTS)) EXT_GLOBAL(cfg)->hosts=strdup("");
+  if(!(EXT_GLOBAL (ini_updated) &U_PERSISTENT_SERVLET_CONNECTIONS)) EXT_GLOBAL(cfg)->persistent_servlet_connections=strdup("");
+  if(!(EXT_GLOBAL (ini_updated) &U_LOGLEVEL)) {
+	EXT_GLOBAL(cfg)->logLevel=strdup(DEFAULT_LEVEL);
+	EXT_GLOBAL(cfg)->logLevel_val=atoi(DEFAULT_LEVEL);
+  }
+  EXT_GLOBAL(ini_set)=~0;
+  EXT_GLOBAL(ini_user)|=EXT_GLOBAL(ini_updated);
+  EXT_GLOBAL(ini_updated)=0;
+}
+
+void EXT_GLOBAL (destroy_cfg) (int EXT_GLOBAL (ini_updated) ) {
+  assert(EXT_GLOBAL(ini_updated) == ~0);
+  if(!(EXT_GLOBAL (ini_updated) &U_SERVLET)) free(EXT_GLOBAL(cfg)->servlet);
+  if(!(EXT_GLOBAL (ini_updated) &U_HOSTS)) free(EXT_GLOBAL(cfg)->hosts);
+  if(!(EXT_GLOBAL (ini_updated) &U_PERSISTENT_SERVLET_CONNECTIONS)) free(EXT_GLOBAL(cfg)->persistent_servlet_connections);
+
+  if(!(EXT_GLOBAL (ini_updated) &U_SOCKNAME)) free(EXT_GLOBAL(cfg)->sockname); 
+
+  if(!(EXT_GLOBAL (ini_updated) &U_LOGLEVEL)) free(EXT_GLOBAL(cfg)->logLevel);
+}
+
+/*
+ * return true only if the _user_ has set the option to true (not
+ * "off").
+ */
+short EXT_GLOBAL(option_set_by_user)(short option, int ini_user) {
+  static const char off[]="Off";
+  char *entry = 0;
+
+  if((option & ini_user)==0) return 0;
+
+  switch(option) {
+  case U_LOGLEVEL: entry = EXT_GLOBAL(cfg)->logLevel; break;
+  case U_SOCKNAME: entry = EXT_GLOBAL(cfg)->sockname; break;
+  case U_HOSTS:    entry = EXT_GLOBAL(cfg)->hosts; break; 
+  case U_SERVLET:  entry = EXT_GLOBAL(cfg)->servlet; break;
+  case U_PERSISTENT_SERVLET_CONNECTIONS:  entry = EXT_GLOBAL(cfg)->persistent_servlet_connections; break;
+  default: assert(0);
+  }  
+
+  if (!entry || !*entry) return 0;
+  if(!strncasecmp(off, entry, 3)) {
+	*entry=0;
+	return 0;
+  }
+  return 1;
+}
+
+#ifndef PHP_WRAPPER_H
+#error must include php_wrapper.h
+#endif
+@
+
+
+1.46
+log
+@Release-5-5-4
+@
+text
+@@
+
+
+1.45
+log
+@Release-5-5-1
+@
+text
+@d58 6
+d197 1
+d211 1
+d233 1
+@
+
+
+1.44
+log
+@java autostart removed
+@
+text
+@d81 2
+a82 1
+	EXT_GLOBAL(cfg)->sockname[0]='@@';
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@d80 3
+a86 12
+void EXT_GLOBAL(update_persistent_connections)(const char*new_value) {
+  /* don't bother enabling persistent connections if this sapi cannot
+	 handle them */
+  if ((!EXT_GLOBAL(cfg)->is_cgi_servlet ||
+	   (EXT_GLOBAL(cfg)->is_cgi_servlet&&!EXT_GLOBAL(cfg)->is_cgi_servlet))) {
+	if(!strncasecmp(on, new_value, 2) || !strncasecmp(on2, new_value, 1))
+	  EXT_GLOBAL(cfg)->persistent_connections=1;
+	else
+	  EXT_GLOBAL(cfg)->persistent_connections=0;
+	EXT_GLOBAL(ini_updated)|=U_PERSISTENT_CONNECTIONS;
+  }
+}
+a176 31
+#ifndef CFG_JAVA_SOCKET_INET
+#ifdef HAVE_ABSTRACT_NAMESPACE
+static void init_socket(void) {
+  static const char * const bridge="@@java-bridge-";
+  size_t len = strlen(bridge)+ sizeof(pid_t)*2; //assuming byte=8bit
+
+  char *sockname=malloc(len+1);
+  assert(sockname); if(!sockname) exit(6);
+
+  EXT_GLOBAL(snprintf)(sockname, len+1, "%s%lx", bridge,(unsigned long)getpid());
+  EXT_GLOBAL(cfg)->default_sockname = sockname;
+}
+#else 
+static void init_socket(void) {
+	char *n;
+	char*s=SOCKNAME;
+	char *sockname=malloc(strlen(s)+1);
+	assert(sockname); if(!sockname) exit(6);
+	strcpy(sockname, s);
+	n = mktemp(sockname);
+	assert(n); if(!n) exit(6);
+	EXT_GLOBAL(cfg)->default_sockname = sockname;
+}
+#endif
+#else 
+static void init_socket(void) {
+  EXT_GLOBAL(cfg)->default_sockname = strdup(DEFAULT_PORT);
+  assert(EXT_GLOBAL(cfg)->default_sockname); if(!EXT_GLOBAL(cfg)->default_sockname) exit(6);
+}
+#endif
+
+d187 1
+a187 5
+  init_socket();
+  if(!(EXT_GLOBAL (ini_updated) &U_SOCKNAME)) {
+	EXT_GLOBAL(cfg)->sockname=strdup(EXT_GLOBAL(cfg)->default_sockname);
+	EXT_GLOBAL(cfg)->socketname_set=0;
+  }
+a189 11
+  if(!(EXT_GLOBAL (ini_updated) &U_WRAPPER)) EXT_GLOBAL(cfg)->wrapper=strdup(DEFAULT_WRAPPER);
+  if(!(EXT_GLOBAL (ini_updated) &U_POLICY)) EXT_GLOBAL(cfg)->policy=0;
+  if(!(EXT_GLOBAL (ini_updated) &U_CLASSPATH)) EXT_GLOBAL(cfg)->classpath=strdup(CFG_CLASSPATH);
+  if(!(EXT_GLOBAL (ini_updated) &U_LIBRARY_PATH)) EXT_GLOBAL(cfg)->ld_library_path=strdup(CFG_LD_LIBRARY_PATH);
+  if(!(EXT_GLOBAL (ini_updated) &U_JAVA)) EXT_GLOBAL(cfg)->vm=strdup(CFG_JAVA);
+  if(!(EXT_GLOBAL (ini_updated) &U_JAVA_HOME)) EXT_GLOBAL(cfg)->vm_home=strdup(CFG_JAVA_HOME);
+#if defined(ZEND_ENGINE_2)
+  if(!(EXT_GLOBAL (ini_updated) &U_PERSISTENT_CONNECTIONS)) EXT_GLOBAL(cfg)->persistent_connections=1;
+#else  /* PHP4 */
+  if(!(EXT_GLOBAL (ini_updated) &U_PERSISTENT_CONNECTIONS)) EXT_GLOBAL(cfg)->persistent_connections=0; //BROKEN
+#endif
+a193 2
+  if(!(EXT_GLOBAL (ini_updated) &U_LOGFILE)) EXT_GLOBAL(cfg)->logFile=strdup(LOGFILE);
+  
+a196 5
+
+  EXT_GLOBAL(cfg)->can_fork = 
+	!(EXT_GLOBAL (option_set_by_user) (U_SOCKNAME, EXT_GLOBAL(ini_user))) &&
+	!(EXT_GLOBAL (option_set_by_user) (U_HOSTS, EXT_GLOBAL(ini_user))) &&
+	!(EXT_GLOBAL (option_set_by_user) (U_SERVLET, EXT_GLOBAL(ini_user)));
+a201 2
+  if(!(EXT_GLOBAL (ini_updated) &U_WRAPPER)) free(EXT_GLOBAL(cfg)->wrapper);
+  if(!(EXT_GLOBAL (ini_updated) &U_POLICY)) free(EXT_GLOBAL(cfg)->policy);
+a204 1
+  free(EXT_GLOBAL(cfg)->default_sockname);
+a205 4
+  if(!(EXT_GLOBAL (ini_updated) &U_CLASSPATH)) free(EXT_GLOBAL(cfg)->classpath);
+  if(!(EXT_GLOBAL (ini_updated) &U_LIBRARY_PATH)) free(EXT_GLOBAL(cfg)->ld_library_path);
+  if(!(EXT_GLOBAL (ini_updated) &U_JAVA)) free(EXT_GLOBAL(cfg)->vm);
+  if(!(EXT_GLOBAL (ini_updated) &U_JAVA_HOME)) free(EXT_GLOBAL(cfg)->vm_home);
+a206 1
+  if(!(EXT_GLOBAL (ini_updated) &U_LOGFILE)) free(EXT_GLOBAL(cfg)->logFile);
+a219 1
+  case U_LOGFILE: entry = EXT_GLOBAL(cfg)->logFile; break;
+a220 4
+  case U_JAVA_HOME: entry = EXT_GLOBAL(cfg)->vm_home; break;
+  case U_JAVA: entry = EXT_GLOBAL(cfg)->vm; break;
+  case U_LIBRARY_PATH: entry = EXT_GLOBAL(cfg)->ld_library_path; break;
+  case U_CLASSPATH: entry = EXT_GLOBAL(cfg)->classpath; break;
+d222 2
+a223 5
+  case U_HOSTS: { TSRMLS_FETCH(); entry = JG(hosts) ? JG(hosts) : EXT_GLOBAL(cfg)->hosts; break; }
+  case U_SERVLET: { TSRMLS_FETCH(); entry = JG(servlet) ? JG(servlet) : EXT_GLOBAL(cfg)->servlet; break; }
+  case U_WRAPPER: entry = EXT_GLOBAL(cfg)->wrapper; break;
+  case U_POLICY: entry = EXT_GLOBAL(cfg)->policy; break;
+  case U_PERSISTENT_CONNECTIONS: return EXT_GLOBAL(cfg)->persistent_connections;
+a234 11
+char *EXT_GLOBAL(get_servlet_context)(TSRMLS_D) {
+  if(!EXT_GLOBAL(option_set_by_user)(U_SERVLET, JG(ini_user))) return 0;
+  return JG(servlet);
+}
+
+char *EXT_GLOBAL(get_sockname)(TSRMLS_D) {
+  if(!EXT_GLOBAL(option_set_by_user)(U_SOCKNAME, EXT_GLOBAL(ini_user)))
+	return EXT_GLOBAL(cfg)->default_sockname;
+  return EXT_GLOBAL(cfg)->sockname;
+}
+
+@
+
+
+1.42
+log
+@Release-4-3-3
+@
+text
+@d121 1
+d123 6
+@
+
+
+1.41
+log
+@Release-4-1-8
+@
+text
+@a22 1
+#include "php_java_snprintf.h"
+a50 4
+#ifndef BRIDGE_VERSION
+#define BRIDGE_VERSION "@@BRIDGE_VERSION@@"
+#endif
+
+@
+
+
+1.40
+log
+@Release-4-1-7
+@
+text
+@d238 3
+d242 1
+@
+
+
+1.39
+log
+@Release-3-0-8
+@
+text
+@d238 1
+a238 1
+  if(!(EXT_GLOBAL (ini_updated) &U_PERSISTENT_CONNECTIONS)) EXT_GLOBAL(cfg)->persistent_connections=1;
+@
+
+
+1.38
+log
+@Release-3-2-1
+@
+text
+@d291 2
+a292 2
+  case U_HOSTS: entry = EXT_GLOBAL(cfg)->hosts; break;
+  case U_SERVLET: entry = EXT_GLOBAL(cfg)->servlet; break;
+@
+
+
+1.37
+log
+@Release-3-1-8rc
+@
+text
+@a124 1
+  EXT_GLOBAL(cfg)->is_secure=0;
+@
+
+
+1.36
+log
+@Release-3-1-8devel1
+@
+text
+@d125 1
+d145 8
+a152 5
+		char *kontext, *host = strdup(hosts);
+		/* FIXME: unpleasantly low tech */
+		if(host[0]=='s') {
+		  php_error(E_ERROR, "php_mod_"/**/EXT_NAME()/**/"(%d): SSL tunnel not supported. Please use a dedicated HTTP port instead: Switch off the servlet init-param \"override_hosts\" in the WEB-INF/web.xml, set the php .ini entry java.hosts=127.0.0.1:9157 and add &lt;Connector port=\"9157\" address=\"127.0.0.1\"  /&gt to your tomcat conf/server.xml.", 29);
+		  exit(7);
+a153 1
+		host+=2;
+d176 1
+a176 1
+		free(host);
+@
+
+
+1.35
+log
+@Release-3-1-7
+@
+text
+@d145 6
+d214 7
+@
+
+
+1.34
+log
+@Release-3-1-0
+@
+text
+@d3 15
+a20 3
+/* time */
+#include <time.h>
+
+a21 1
+#include "php_java.h"
+a88 7
+void EXT_GLOBAL(update_compatibility) (const char*new_value) {
+  if(!strncasecmp(on, new_value, 2) || !strncasecmp(on2, new_value, 1))
+	EXT_GLOBAL(cfg)->extJavaCompatibility=1;
+  else
+	EXT_GLOBAL(cfg)->extJavaCompatibility=0;
+  EXT_GLOBAL(ini_updated)|=U_EXT_JAVA_COMPATIBILITY;
+}
+a222 1
+  if(!(EXT_GLOBAL (ini_updated) &U_EXT_JAVA_COMPATIBILITY)) EXT_GLOBAL(cfg)->extJavaCompatibility=0;
+a279 1
+  case U_EXT_JAVA_COMPATIBILITY: return EXT_GLOBAL(cfg)->extJavaCompatibility;
+@
+
+
+1.33
+log
+@Release-3-1-0
+@
+text
+@d49 60
+a114 1
+  static const char off[]="Off";
+d128 4
+a131 3
+	  zend_alter_ini_entry((char*)key_servlet, sizeof key_servlet,
+						   (char*)on, sizeof on,
+						   ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP);
+d143 8
+a150 6
+		zend_alter_ini_entry((char*)key_hosts, sizeof key_hosts,
+							 host, strlen(host)+1,
+							 ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP);
+		zend_alter_ini_entry((char*)key_socketname, sizeof key_socketname,
+							 (char*)off, sizeof off,
+							 ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP);
+d153 4
+a156 3
+		  zend_alter_ini_entry((char*)key_servlet, sizeof key_servlet,
+							   (char*)on, sizeof on,
+							   ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP);
+d158 4
+a161 3
+		  zend_alter_ini_entry((char*)key_servlet, sizeof key_servlet,
+							   (char*)kontext, strlen(kontext)+1,
+							   ZEND_INI_SYSTEM, PHP_INI_STAGE_STARTUP);
+d186 1
+a186 1
+	int n;
+d214 1
+d241 1
+d276 1
+@
+
+
+1.32
+log
+@Release-3-1-0
+@
+text
+@d3 1
+a3 1
+/* mkstemp */
+d127 1
+a127 1
+	n = mkstemp(sockname);
+@
+
+
+1.31
+log
+@Release-3-1-0
+@
+text
+@d155 1
+a155 1
+  if(!(EXT_GLOBAL (ini_updated) &U_PERSISTENT_CONNECTIONS)) EXT_GLOBAL(cfg)->persistent_connections=0;
+@
+
+
+1.30
+log
+@Release-3-1-0
+@
+text
+@d12 1
+@
+
+
+1.29
+log
+@Release-3-1-0
+@
+text
+@d154 1
+d210 1
+@
+
+
+1.28
+log
+@Release-3-1-0
+@
+text
+@a70 1
+#ifdef HAVE_FAST_TCP_SOCKETS
+a73 3
+#else
+	  EXT_GLOBAL(cfg)->can_fork = 0;
+#endif
+a87 1
+#ifdef HAVE_FAST_TCP_SOCKETS
+a88 3
+#else
+		EXT_GLOBAL(cfg)->can_fork = 0;
+#endif
+a101 1
+#ifdef HAVE_FAST_TCP_SOCKETS
+a102 3
+#else
+		EXT_GLOBAL(cfg)->can_fork = 0;
+#endif
+@
+
+
+1.27
+log
+@Release-3.0.7
+@
+text
+@d71 1
+d75 3
+d92 1
+d94 3
+d110 1
+d112 3
+@
+
+
+1.27.2.1
+log
+@Release-3-0-8-1
+@
+text
+@a11 1
+#include "php_java_snprintf.h"
+@
+
+
+1.27.2.2
+log
+@Release-3-0-8-1
+@
+text
+@d3 1
+a3 1
+/* mktemp */
+d127 1
+a127 1
+	n = mktemp(sockname);
+@
+
+
+1.26
+log
+@Release-3.0.5
+@
+text
+@d60 1
+d72 2
+@
+
+
+1.25
+log
+@Release-3.0.5(pre)
+@
+text
+@d26 1
+a26 1
+#define CFG_JAVA EXTENSION_DIR/**/"/"/**/EXT_NAME()
+d34 1
+a34 1
+#define CFG_JAVA_HOME EXTENSION_DIR
+d54 2
+d70 1
+d82 4
+d136 2
+d139 4
+a142 1
+  if(!(EXT_GLOBAL (ini_updated) &U_SOCKNAME)) EXT_GLOBAL(cfg)->sockname=strdup(EXT_GLOBAL(cfg)->default_sockname);
+d150 1
+a164 2
+
+  override_ini_from_cgi();
+d205 1
+@
+
+
+1.24
+log
+@Release-3.0.3
+@
+text
+@a97 4
+static void destroy_sockname(void) {
+  free(EXT_GLOBAL(cfg)->default_sockname);
+}
+
+a125 3
+static void destroy_sockname(void) {
+  free(EXT_GLOBAL(cfg)->default_sockname);
+}
+d145 3
+d163 1
+a163 1
+  destroy_sockname();
+@
+
+
+1.23
+log
+@Release-3.0.3
+@
+text
+@a97 56
+static const char in[] = ".i";
+static const char out[] = ".o";
+static short create_pipe(char*sockname) {
+  if(mknod(sockname, S_IFIFO|0666, 0) == -1) return 0;
+  return 1;
+}
+static short create_pipes(char*basename, size_t basename_len) {
+  char *e = basename+basename_len;
+  short success;
+  if(mkstemp(basename) == -1) return 0;
+  if(!create_pipe(strcat(basename, in))) {
+	*e=0;
+	return 0;
+  }
+  *e=0;
+  success = create_pipe(strcat(basename, out));
+  assert(success); if(!success) exit(6);
+  EXT_GLOBAL(cfg)->channel_out = strdup(basename);
+  *e=0;
+  EXT_GLOBAL(cfg)->channel_in = strdup(strcat(basename, in));
+  *e=0;
+  EXT_GLOBAL(cfg)->channel = basename;
+}
+
+static void init_channel(void) {
+  static const char sockname[] = SOCKNAME;
+  static const char sockname_shm[] = SOCKNAME_SHM;
+  static const char length = sizeof(sockname)>sizeof(sockname_shm)?sizeof(sockname):sizeof(sockname_shm);
+  char *pipe;
+
+  /* pipe communication channel only available in servlets */
+  if(!EXT_GLOBAL(option_set_by_user) (U_SERVLET, EXT_GLOBAL(ini_updated))) return;
+
+  pipe=malloc(length+2); /* "name.i" */
+  assert(pipe); if(!pipe) exit(6);
+  
+  EXT_GLOBAL(cfg)->channel=0;
+  create_pipes(strcpy(pipe,sockname_shm), sizeof(sockname_shm)-1)||
+	create_pipes(strcpy(pipe,sockname), sizeof(sockname)-1);
+  assert(EXT_GLOBAL(cfg)->channel);
+  if(!(EXT_GLOBAL(cfg)->channel)) exit(6);
+}
+
+static void destroy_channel(void) {
+  char *channel = (EXT_GLOBAL(cfg)->channel);
+  if(!channel) return;
+
+  unlink(channel);
+  unlink(EXT_GLOBAL(cfg)->channel_in);
+  unlink(EXT_GLOBAL(cfg)->channel_out);
+  
+  free(channel);
+  free(EXT_GLOBAL(cfg)->channel_in);
+  free(EXT_GLOBAL(cfg)->channel_out);
+  EXT_GLOBAL(cfg)->channel_in = EXT_GLOBAL(cfg)->channel_out = (EXT_GLOBAL(cfg)->channel) = 0;
+}
+a99 1
+  destroy_channel();
+a132 4
+/* named pipes are not available on windows */
+static void init_channel(void) {
+  EXT_GLOBAL(cfg)->channel_in = EXT_GLOBAL(cfg)->channel_out = (EXT_GLOBAL(cfg)->channel) = 0;
+}
+d134 1
+a157 1
+  init_channel();
+@
+
+
+1.22
+log
+@Release-3-0-2
+@
+text
+@d48 48
+d98 61
+d187 7
+d216 3
+d224 1
+a226 1
+  free(EXT_GLOBAL(cfg)->default_sockname);
+d228 1
+d258 1
+@
+
+
+1.21
+log
+@Release-2.0.8(pre4)
+@
+text
+@d84 1
+@
+
+
+1.20
+log
+@Release-2.0.8(pre3)
+@
+text
+@d11 1
+d46 3
+d51 1
+a51 1
+static void init_socket() {
+d62 1
+a62 1
+static void init_socket() {
+d74 1
+a74 1
+static void init_socket() {
+d79 1
+a79 1
+void EXT_GLOBAL (init_cfg) () {
+d95 4
+d121 2
+a122 1
+short EXT_GLOBAL(option_set_by_user)(short option) {
+d125 1
+a125 1
+  if((option & EXT_GLOBAL(ini_user))==0) return 0;
+d140 6
+a145 1
+  return entry && strlen(entry) && strncasecmp("off", entry, 3);
+d148 3
+a150 5
+char *EXT_GLOBAL(get_servlet_context)() {
+  if(!EXT_GLOBAL(option_set_by_user)(U_SERVLET)) return 0;
+
+  if(!strncasecmp("on", EXT_GLOBAL(cfg)->servlet, 2) || !strncasecmp("1", EXT_GLOBAL(cfg)->servlet, 1)) return DEFAULT_SERVLET;
+  return EXT_GLOBAL(cfg)->servlet;
+d153 2
+a154 4
+char *EXT_GLOBAL(get_sockname)() {
+  if(!EXT_GLOBAL(option_set_by_user)(U_SOCKNAME)) return EXT_GLOBAL(cfg)->default_sockname;
+
+  if(!strncasecmp("on", EXT_GLOBAL(cfg)->servlet, 2) || !strncasecmp("1", EXT_GLOBAL(cfg)->servlet, 1))
+a155 1
+
+@
+
+
+1.19
+log
+@Release-2.0.8-preview
+@
+text
+@d55 1
+a55 1
+  EXT_GLOBAL(cfg)->sockname=sockname;
+d66 1
+a66 1
+	EXT_GLOBAL(cfg)->sockname=sockname;
+d71 2
+a72 1
+  EXT_GLOBAL(cfg)->sockname = strdup(DEFAULT_PORT);
+d76 2
+a77 3
+  if(!(EXT_GLOBAL (ini_updated)&U_SOCKNAME)) {
+	init_socket();
+  }
+d97 4
+a100 1
+  if(!(EXT_GLOBAL (ini_updated) &U_SOCKNAME)) free(EXT_GLOBAL(cfg)->sockname);
+d141 9
+@
+
+
+1.18
+log
+@PR1243638: Running php and jsp side by side
+@
+text
+@d17 1
+a17 1
+#define CFG_CLASSPATH EXTENSION_DIR/**/"/JavaBridge.jar"
+d20 1
+a20 1
+#define CFG_LD_LIBRARY_PATH EXTENSION_DIR
+d54 1
+a54 1
+  snprintf(sockname, len+1, "%s%lx", bridge,(unsigned long)getpid());
+d128 1
+a128 1
+  return entry && strncasecmp("off", entry, 3);
+@
+
+
+1.17
+log
+@Release-2.0.7
+@
+text
+@d89 2
+a90 3
+  EXT_GLOBAL(cfg)->can_fork=
+	((EXT_GLOBAL (ini_updated) &U_SOCKNAME)==0)&&
+	((EXT_GLOBAL (ini_updated) &U_HOSTS)==0);
+d94 1
+d106 23
+a128 2
+static short is_servlet() {
+  return ((EXT_GLOBAL (ini_last_updated)&U_SERVLET)!=0) && EXT_GLOBAL(cfg)->servlet && strlen(EXT_GLOBAL(cfg)->servlet) && strncasecmp("off", EXT_GLOBAL(cfg)->servlet, 3);
+d132 1
+a132 1
+  if(!is_servlet()) return 0;
+@
+
+
+1.16
+log
+@Release-2.0.7pre
+@
+text
+@a8 3
+/* assert */
+#include <assert.h>
+
+d113 1
+a113 1
+  if(!strncasecmp("on", EXT_GLOBAL(cfg)->servlet, 2)) return DEFAULT_SERVLET;
+d117 3
+@
+
+
+1.15
+log
+@Release-2.0.7-pre
+@
+text
+@d28 1
+a28 1
+#define CFG_JAVA EXTENSION_DIR/**/EXT_NAME()
+@
+
+
+1.14
+log
+@Tomcat 5
+@
+text
+@d28 1
+a28 1
+#define CFG_JAVA EXTENSION_DIR/**/"/java"
+d46 1
+a46 1
+const char * const java_bridge_version = BRIDGE_VERSION;
+d58 1
+a58 1
+  cfg->sockname=sockname;
+d69 1
+a69 1
+	cfg->sockname=sockname;
+d74 1
+a74 1
+  cfg->sockname = strdup(DEFAULT_PORT);
+d77 2
+a78 2
+void java_init_cfg() {
+  if(!(java_ini_updated&U_SOCKNAME)) {
+d81 9
+a89 9
+  if(!(java_ini_updated&U_SERVLET)) cfg->servlet=strdup(DEFAULT_SERVLET);
+  if(!(java_ini_updated&U_HOSTS)) cfg->hosts=strdup("");
+  if(!(java_ini_updated&U_CLASSPATH)) cfg->classpath=strdup(CFG_CLASSPATH);
+  if(!(java_ini_updated&U_LIBRARY_PATH)) cfg->ld_library_path=strdup(CFG_LD_LIBRARY_PATH);
+  if(!(java_ini_updated&U_JAVA)) cfg->java=strdup(CFG_JAVA);
+  if(!(java_ini_updated&U_JAVA_HOME)) cfg->java_home=strdup(CFG_JAVA_HOME);
+  if(!(java_ini_updated&U_LOGLEVEL)) {
+	cfg->logLevel=strdup(DEFAULT_LEVEL);
+	cfg->logLevel_val=atoi(DEFAULT_LEVEL);
+d91 16
+a106 16
+  if(!(java_ini_updated&U_LOGFILE)) cfg->logFile=strdup("");
+  cfg->can_fork=
+	((java_ini_updated&U_SOCKNAME)==0)&&
+	((java_ini_updated&U_HOSTS)==0);
+}
+
+void java_destroy_cfg(int java_ini_updated) {
+  if(!(java_ini_updated&U_SERVLET)) free(cfg->servlet);
+  if(!(java_ini_updated&U_HOSTS)) free(cfg->hosts);
+  if(!(java_ini_updated&U_SOCKNAME)) free(cfg->sockname);
+  if(!(java_ini_updated&U_CLASSPATH)) free(cfg->classpath);
+  if(!(java_ini_updated&U_LIBRARY_PATH)) free(cfg->ld_library_path);
+  if(!(java_ini_updated&U_JAVA)) free(cfg->java);
+  if(!(java_ini_updated&U_JAVA_HOME)) free(cfg->java_home);
+  if(!(java_ini_updated&U_LOGLEVEL)) free(cfg->logLevel);
+  if(!(java_ini_updated&U_LOGFILE)) free(cfg->logFile);
+d110 1
+a110 2
+  extern int java_ini_last_updated;
+  return ((java_ini_last_updated&U_SERVLET)!=0) && cfg->servlet && strlen(cfg->servlet) && strncasecmp("off", cfg->servlet, 3);
+d113 1
+a113 1
+char *get_servlet_context() {
+d116 2
+a117 2
+  if(!strncasecmp("on", cfg->servlet, 2)) return DEFAULT_SERVLET;
+  return cfg->servlet;
+@
+
+
+1.13
+log
+@Tomcat 5 support / multicasts removed
+@
+text
+@d87 4
+a90 1
+  if(!(java_ini_updated&U_LOGLEVEL)) cfg->logLevel=strdup(DEFAULT_LEVEL);
+d117 1
+a117 1
+  if(strncasecmp("on", cfg->servlet, 2)) return DEFAULT_SERVLET;
+@
+
+
+1.12
+log
+@load balancer rewrite
+@
+text
+@a13 1
+#include "multicast.h"
+d81 1
+a91 2
+
+  cfg->have_mc_backends = php_java_multicast_backends_available();
+d95 1
+d105 13
+@
+
+
+1.11
+log
+@mono
+@
+text
+@d93 1
+a93 1
+  cfg->mc_socket = php_java_init_multicast();
+a104 1
+  if(cfg->mc_socket!=-1) { close(cfg->mc_socket); cfg->mc_socket=-1; }
+@
+
+
+1.10
+log
+@do not change the channel if server was forked by the httpd
+@
+text
+@d14 1
+a14 1
+
+d92 2
+d105 1
+@
+
+
+1.9
+log
+@Protocol update
+@
+text
+@d89 3
+@
+
+
+1.8
+log
+@Protocol update
+@
+text
+@d21 1
+a21 1
+#define CFG_CLASSPATH EXTENSION_DIR
+d82 1
+a82 1
+  if(!(java_ini_updated&U_HOSTS)) cfg->hosts=strdup(DEFAULT_HOST/**/":"/**/DEFAULT_PORT);
+@
+
+
+1.7
+log
+@Release-1.0.8
+@
+text
+@d75 1
+a75 1
+  cfg->sockname = strdup("9147");
+d82 1
+d87 1
+a87 1
+  if(!(java_ini_updated&U_LOGLEVEL)) cfg->logLevel=strdup("0");
+d92 1
+@
+
+
+1.6
+log
+@ZTS
+@
+text
+@d49 1
+a61 1
+#ifndef CFG_JAVA_SOCKET_INET
+d72 1
+a77 1
+#endif
+@
+
+
+1.5
+log
+@use java security instead of dropping the process privileges
+@
+text
+@d50 1
+a50 1
+static void init_socket(struct cfg*cfg) {
+d52 1
+a52 1
+  size_t len = strlen(bridge)+ sizeof(uid_t)*2+ sizeof(time_t)*2; //assuming byte=8bit
+d57 1
+a57 2
+  snprintf(sockname, len+1, "%s%lx%lx", bridge, 
+		   (unsigned long)getuid(),(unsigned long)time(0));
+d62 1
+a62 1
+static void init_socket(struct cfg*cfg) {
+d73 1
+a73 1
+static void init_socket(struct cfg*cfg) {
+d78 1
+a78 1
+void java_init_cfg(struct cfg *cfg) {
+d80 1
+a80 1
+	init_socket(cfg);
+d90 1
+a90 1
+void java_destroy_cfg(int java_ini_updated, struct cfg*cfg) {
+@
+
+
+1.4
+log
+@php 4/5
+@
+text
+@d49 1
+a49 1
+#ifdef CFG_JAVA_SOCKET_ANON
+d66 1
+a66 1
+	char *sockname=malloc(strlen(s+1));
+@
+
+
+1.3
+log
+@win32/mingw
+@
+text
+@a18 1
+#define JAVA_HOME "@@PHP_JAVA@@"
+d78 1
+@
+
+
+1.2
+log
+@loop in malloc_consolidate when apache received a sighup
+@
+text
+@d62 2
+a63 1
+#else
+d74 4
+@
+
+
+1.1
+log
+@Load libraries from /usr/share/java or from ext_dir/lib
+@
+text
+@d87 7
+a93 7
+  if((java_ini_updated&U_SOCKNAME)) free(cfg->sockname);
+  if((java_ini_updated&U_CLASSPATH)) free(cfg->classpath);
+  if((java_ini_updated&U_LIBRARY_PATH)) free(cfg->ld_library_path);
+  if((java_ini_updated&U_JAVA)) free(cfg->java);
+  if((java_ini_updated&U_JAVA_HOME)) free(cfg->java_home);
+  if((java_ini_updated&U_LOGLEVEL)) free(cfg->logLevel);
+  if((java_ini_updated&U_LOGFILE)) free(cfg->logFile);
+@
+

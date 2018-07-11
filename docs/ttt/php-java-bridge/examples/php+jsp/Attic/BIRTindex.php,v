@@ -1,0 +1,131 @@
+head	1.2;
+access;
+symbols
+	Release-7-1-1:1.1.0.8
+	Root_Release-7-1-1:1.1
+	Root_Release_7-0-1:1.1
+	Release_7-0-1:1.1.0.6
+	Release_7-0-0:1.1.0.4
+	Root_Release_7-0-0:1.1
+	Release-6-2-2:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2017.04.14.13.01.09;	author jost_boekemeier;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2010.08.18.18.49.38;	author gromwe;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Removed JavaProxy.php
+@
+text
+@<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>PHP/Java Bridge examples</title>
+</head>
+<body bgcolor="#FFFFFF">
+<H1>BIRT PHP/Java Bridge examples</H1>
+
+<table BORDER=0 CELLSPACING=5 WIDTH="85%" >
+<tr VALIGN=TOP>
+<td>Run And Render Task HTML</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRunAndRenderHTML.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Run Task (Use Before Render only Task)</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRunTask.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Render Task HTML</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRenderTaskHTML.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Render Task HTML One Page</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRenderTaskHTMLOnePage.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+
+
+<tr VALIGN=TOP>
+<td>Run and Render Task Drill Through</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRunAndRenderHTMLDrillThrough.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+
+
+<tr VALIGN=TOP>
+<td>Run and Render Task HTML Embedded</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRunAndRenderHTMLEmbed.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+
+<tr VALIGN=TOP>
+<td>Run and Render Task PDF</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRunAndRenderPDF.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+
+<tr VALIGN=TOP>
+<td>Run and Render Task Word</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRunAndRenderWord.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+
+<tr VALIGN=TOP>
+<td>Run and Render Task XLS</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRunAndRenderXLS.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+
+<tr VALIGN=TOP>
+<td>Run and Render Task XLS To File</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpRunAndRenderXLSToFile.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Use Birt Library</td>
+<td VALIGN=TOP WIDTH="30%"><a href="PhpUseBirtLib.php">Execute</a></td>
+<td WIDTH="30%"></td>
+</tr>
+
+</table>
+</body>
+</html>@
+
+
+1.1
+log
+@birt 2.6 update
+@
+text
+@@
+

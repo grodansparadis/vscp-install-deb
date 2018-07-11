@@ -1,0 +1,111 @@
+head	1.2;
+access;
+symbols
+	Release-7-1-1:1.2.0.16
+	Root_Release-7-1-1:1.2
+	Root_Release_7-0-1:1.2
+	Release_7-0-1:1.2.0.14
+	Release_7-0-0:1.2.0.12
+	Root_Release_7-0-0:1.2
+	Release-6-2-2:1.2.0.10
+	Release-6-1-2-3:1.2
+	Root_Release-6-1-2-3:1.2
+	Release-6-1-2-2:1.2.0.8
+	Root_Release-6-1-2-2:1.2
+	debian_version_6_1_2_1-1:1.2
+	upstream_version_6_1_2_1:1.2
+	Release-6-1-2-1_new:1.2.0.6
+	Root_Release-6-1-2-1_new:1.2
+	Release-6-1-2-1:1.2.0.4
+	Root_Release-6-1-2-1:1.2
+	upstream_version_6_1_2:1.2
+	debian_version_6_1_2-1:1.2
+	Release-6-1-2:1.2.0.2
+	Root_Release-6-1-2:1.2
+	debian_version_6_1_1-2:1.2
+	debian_version_6_1_1-1:1.2
+	upstream_version_6_1_1:1.1
+	Release-6-1-1:1.1.0.24
+	Root_Release-6-1-1:1.1
+	Release-6-0-4:1.1.0.22
+	Root_Release-6-0-4:1.1
+	Release-6-0-3_NEW:1.1.0.18
+	Root_Release-6-0-3_NEW:1.1
+	Release-6-0-3:1.1.0.20
+	Root_Release-6-0-3:1.1
+	Release-6-0-0:1.1.0.16
+	Root_Release-6-0-0:1.1
+	Release-5-5-4-1:1.1.0.14
+	Root_Release-5-5-4-1:1.1
+	Release-5-5-4:1.1.0.12
+	Root_Release-5-5-4:1.1
+	Release-5-5-3:1.1.0.10
+	ROOT_Release-5-5-3:1.1
+	Release-5-5-2:1.1.0.8
+	Root_Release-5-5-2:1.1
+	debian_version_5_5_1-1:1.1
+	Release-5-5-1:1.1.0.4
+	upstream_version_5_5_1:1.1
+	ROOT_Release-5-5-1:1.1
+	debian_version_5_5-1:1.1
+	upstream_version_5_5:1.1
+	ROOT_Release-5-5:1.1
+	Release-5-5:1.1.0.6
+	debian_version_5_4_4_2-3:1.1
+	Release-5-4-4-2-1:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2010.04.06.17.06.08;	author andremachado;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2009.07.03.20.09.15;	author andremachado;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@New ant build system. C binary deprecated and removed. Dependency on newer debhelper. SERPRO sponsoring Debian package maintainer work.
+@
+text
+@#! /bin/sh /usr/share/dpatch/dpatch-run
+## 50_SELinuxReadmeDebian_patch.dpatch by  <andre.machado@@serpro.gov.br>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: No description.
+
+@@DPATCH@@
+diff -urNad php-java-bridge~/security/module/README php-java-bridge/security/module/README
+--- php-java-bridge~/security/module/README	2009-07-01 17:27:18.000000000 -0300
++++ php-java-bridge/security/module/README	2009-07-01 17:39:24.000000000 -0300
+@@@@ -1,4 +1,6 @@@@
+-Security Enhanced Linux rules for FC5, RHEL 5 and above.
++Security Enhanced Linux rules for FC5, RHEL 5, Debian 5.0 and above.
+ 
+-Type make to build and semodule -i php-java-bridge.pp to install.
++Type make to build and semodule -i php-java-bridge.pp  and 
++semodule -i php-java-bridge-tomcat.pp to install.
+ 
++Please, contribute better rules to the project.
+@
+
+
+1.1
+log
+@SE Linux experimental packaging. First, j2see.
+@
+text
+@d2 1
+a2 1
+## 50_SELinuxReadmeDebian_patch.dpatch by  <andremachado@@debian.pae.serpro>
+@
+

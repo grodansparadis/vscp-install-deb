@@ -1,0 +1,75 @@
+#!/bin/sh
+#
+# Post-installation script for the Samba package for Debian GNU/Linux
+#
+#
+
+set -e
+
+# We generate several files during the postinst, and we don't want
+#	them to be readable only by root.
+umask 022
+
+if dpkg --compare-versions "$2" gt 2:4.0 &&
+	dpkg --compare-versions "$2" lt-nl 2:4.0.11+dfsg ; then
+	# CVE-2013-4475
+	KEYFILE=/var/lib/samba/private/tls/key.pem
+	if [ -e $KEYFILE ]
+	then
+		KEYPERMS=`stat -c %a $KEYFILE`
+		if [ "$KEYPERMS" != "600" ]
+		then
+			echo "moving world readable public key to /var/lib/samba/private/tls/CVE-2013-4475"
+			mkdir -m 700 /var/lib/samba/private/tls/CVE-2013-4475
+			mv -n /var/lib/samba/private/tls/*pem /var/lib/samba/private/tls/CVE-2013-4475
+		fi
+	fi
+fi
+
+if dpkg --compare-versions "$2" lt-nl 2:3.6.15-2; then
+	if [ -e /etc/default/samba ]; then
+		# this config file's one setting is now obsolete; remove it
+		# unconditionally
+		rm -f /etc/default/samba
+	fi
+
+	# Remove NetBIOS entries from /etc/inetd.conf
+	if [ -x /usr/sbin/update-inetd ]; then
+		update-inetd --remove netbios-ssn
+	fi
+fi
+
+if dpkg --compare-versions "$2" lt-nl 2:4.0.12+dfsg-2~; then
+	if update-alternatives --list smbstatus >/dev/null 2>&1; then
+		update-alternatives --remove-all smbstatus
+	fi
+fi
+
+# add the sambashare group
+if ! getent group sambashare > /dev/null 2>&1
+then
+	addgroup --system sambashare
+	# Only on Ubuntu, use the "admin" group as a template for the
+	# initial users for this group; Debian has no equivalent group,
+	# so leaving the sambashare group empty is the more secure default
+	if [ -x "`which lsb_release 2>/dev/null`" ] \
+	   && [ "`lsb_release -s -i`" = "Ubuntu" ]
+	then
+		OLDIFS="$IFS"
+		IFS=","
+		for USER in `getent group admin | cut -f4 -d:`; do
+			adduser "$USER" sambashare \
+			|| ! getent passwd "$USER" >/dev/null
+		done
+		IFS="$OLDIFS"
+	fi
+fi
+
+if [ ! -e /var/lib/samba/usershares ]
+then
+	install -d -m 1770 -g sambashare /var/lib/samba/usershares
+fi
+
+#DEBHELPER#
+
+exit 0

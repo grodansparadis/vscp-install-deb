@@ -1,0 +1,67 @@
+head	1.2;
+access;
+symbols
+	debian_version_4_2_2-1:1.1
+	upstream_version_4_2_2:1.1
+	Release-4-1-2:1.1.0.8
+	Release-4-0-8:1.1.0.6
+	debian_version_4_0_8a-1:1.1
+	upstream_version_4_0_8a:1.1
+	jostb-debian-ubuntu-patch:1.1.0.4
+	debian_version_4_0_8-1:1.1
+	upstream_version_4_0_8:1.1
+	debian_version_4_0_7-1:1.1
+	upstream_version_4_0_7:1.1
+	debian_version_4_0_6-1:1.1
+	upstream_version_4_0_6:1.1
+	debian_version_4_0_2-1:1.1
+	upstream_version_4_0_2:1.1
+	Release-4-0-2_Root:1.1
+	Release-4-0-2:1.1.0.2
+	upstream_version_4_0_1:1.1
+	debian_version_4_0_1-2:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2007.09.30.16.14.35;	author jost_boekemeier;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2007.03.12.20.27.55;	author andremachado;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Release-4-3-0
+@
+text
+@* Compared with the C based implementation this code is 2 to 10 times
+slower. Identify the procedures which could be optimized.
+
+* Unlike the C based implementation this implementation doesn't use
+persistent connections to the Java back end. Especially on BSD based
+OS this is noticeable. Check if pfsockopen can be used instead of
+fsockopen and identiy the places which must be changed.
+
+* This code doesn't implement override_redirect; java_session() must
+be the first statement in a script. Add the code for
+override_redirect.
+@
+
+
+1.1
+log
+@Further inclusions of 4.0.1 code extracted from src.tgz. Andre Felipe Machado.
+@
+text
+@@
+

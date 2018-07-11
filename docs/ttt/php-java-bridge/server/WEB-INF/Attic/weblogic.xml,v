@@ -1,0 +1,48 @@
+head	1.2;
+access;
+symbols
+	Root_Release_7-0-1:1.1
+	Release_7-0-1:1.1.0.6
+	Release_7-0-0:1.1.0.4
+	Root_Release_7-0-0:1.1
+	Release-6-2-2:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2017.04.09.14.35.28;	author jost_boekemeier;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2010.07.30.14.31.19;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<?xml version="1.0" encoding="UTF-8"?>
+
+<weblogic-web-app xmlns="http://www.bea.com/ns/weblogic/90">
+<container-descriptor>
+<show-archived-real-path-enabled>true</show-archived-real-path-enabled>
+</container-descriptor>
+</weblogic-web-app>@
+
+
+1.1
+log
+@Release-6-2-1
+@
+text
+@@
+

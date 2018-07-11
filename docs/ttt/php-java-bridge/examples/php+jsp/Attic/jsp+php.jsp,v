@@ -1,0 +1,737 @@
+head	1.20;
+access;
+symbols
+	Release-7-1-1:1.19.0.8
+	Root_Release-7-1-1:1.19
+	Root_Release_7-0-1:1.19
+	Release_7-0-1:1.19.0.6
+	Release_7-0-0:1.19.0.4
+	Root_Release_7-0-0:1.19
+	Release-6-2-2:1.19.0.2
+	Release-6-1-2-3:1.10
+	Root_Release-6-1-2-3:1.10
+	Release-6-1-2-2:1.10.0.32
+	Root_Release-6-1-2-2:1.10
+	debian_version_6_1_2_1-1:1.10
+	upstream_version_6_1_2_1:1.10
+	Release-6-1-2-1_new:1.10.0.30
+	Root_Release-6-1-2-1_new:1.10
+	Release-6-1-2-1:1.10.0.28
+	Root_Release-6-1-2-1:1.10
+	upstream_version_6_1_2:1.10
+	debian_version_6_1_2-1:1.10
+	Release-6-1-2:1.10.0.26
+	Root_Release-6-1-2:1.10
+	debian_version_6_1_1-2:1.10
+	debian_version_6_1_1-1:1.10
+	upstream_version_6_1_1:1.10
+	Release-6-1-1:1.10.0.24
+	Root_Release-6-1-1:1.10
+	Release-6-0-4:1.10.0.22
+	Root_Release-6-0-4:1.10
+	Release-6-0-3_NEW:1.10.0.18
+	Root_Release-6-0-3_NEW:1.10
+	Release-6-0-3:1.10.0.20
+	Root_Release-6-0-3:1.10
+	Release-6-0-0:1.10.0.16
+	Root_Release-6-0-0:1.10
+	Release-5-5-4-1:1.10.0.14
+	Root_Release-5-5-4-1:1.10
+	Release-5-5-4:1.10.0.12
+	Root_Release-5-5-4:1.10
+	Release-5-5-3:1.10.0.10
+	ROOT_Release-5-5-3:1.10
+	Release-5-5-2:1.10.0.8
+	Root_Release-5-5-2:1.10
+	debian_version_5_5_1-1:1.10
+	Release-5-5-1:1.10.0.4
+	upstream_version_5_5_1:1.10
+	ROOT_Release-5-5-1:1.10
+	debian_version_5_5-1:1.10
+	upstream_version_5_5:1.10
+	ROOT_Release-5-5:1.10
+	Release-5-5:1.10.0.6
+	debian_version_5_4_4_2-3:1.10
+	Release-5-4-4-2-1:1.10.0.2
+	debian_version_5_4_4_2-2:1.10
+	debian_version_5_4_4_2-1:1.10
+	upstream_version_5_4_4_2:1.10
+	debian_version_5_4_4_1-1:1.10
+	upstream_version_5_4_4_1:1.10
+	debian_version_5_4_4-1:1.9
+	upstream_version_5_4_4:1.9
+	Release-5-4-4:1.9.0.4
+	Root_Release-5-4-4:1.9
+	debian_version_5_4_3_2-1:1.8
+	upstream_version_5_4_3_2:1.8
+	Release_5-4-3-2:1.8.0.8
+	Root_Release_5-4-3-2:1.8
+	upstream_version_5_4_3_1:1.8
+	debian_version_5_4_3_1-1:1.8
+	Release-5-4-3:1.8.0.6
+	Root_Release-5-4-3:1.8
+	Root_Release-5-4-1:1.8
+	Release-5-4-1:1.8.0.4
+	Root_Release-5-4:1.8
+	Release-5-4:1.8.0.2
+	upstream_version_5_3_4:1.7
+	debian_version_5_3_4-1:1.7
+	ROOT_Release-5-3-4:1.7
+	Release-5-3-4:1.7.0.2
+	ROOT_Release-5-3-3:1.6
+	Release-5-3-3:1.6.0.2
+	debian_version_5_3_2_1_2-1:1.4
+	upstream_version_5_3_2_1_2:1.4
+	debian_version_5_3_2_1_1-1:1.4
+	debian_version_5_3_2_1_1:1.4
+	upstream_version_5_3_2_1_1:1.4
+	Root_Release-5-3-2-1:1.4
+	Release-5-3-2-1:1.4
+	ROOT_RELEASE-5-3-2-1:1.4
+	RELEASE-5-3-2-1:1.4.0.12
+	Release-5-3-2:1.4.0.8
+	Root_Release-5-3-2:1.4
+	Root_Release-5-3-1:1.4
+	Release-5-3-1:1.4.0.6
+	Release-5-2-3-1:1.4.0.4
+	Root_Release-5-2-3-1:1.4
+	Release-5-2-2-4:1.4.0.2
+	Root_Release-5-2-2-4:1.4
+	Release-5-2-2-1:1.3.0.2
+	Root_Release-5-2-2-1:1.3
+	upstream_version_5_2_2:1.2
+	debian_version_5_2_2-1:1.2
+	Release-5-2-2:1.2.0.14
+	ROOT_Release-5-2-2:1.2
+	ROOT_Release-5-2-1:1.2
+	Release-5-2-1:1.2.0.12
+	Release-5-2-0:1.2.0.10
+	ROOT_Release-5-2-0:1.2
+	ROOT_Release-5-1-2:1.2
+	Release-5-1-2:1.2.0.8
+	Version-5-1-1:1.2.0.6
+	ROOT_Version-5-1-1:1.2
+	debian_version_5_1_0-1:1.2
+	upstream_version_5_1_0:1.2
+	ROOT_Release-5-1-0:1.2
+	Release-5-1-0:1.2.0.4
+	ROOT_Release-5-0-0:1.2
+	Release-5-0-0:1.2.0.2
+	Release-4-3-3:1.1.0.6
+	ROOT_Release-4-3-3:1.1
+	upstream_version_4_3_2:1.1
+	debian_version_4_3_2-1:1.1
+	ROOT_Release-4-3-2:1.1
+	Release-4-3-2:1.1.0.4
+	Release-4-3-1:1.1.0.2
+	ROOT_Release-4-3-1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.20
+date	2017.04.14.13.01.10;	author jost_boekemeier;	state dead;
+branches;
+next	1.19;
+
+1.19
+date	2010.10.31.14.12.42;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2010.09.25.11.18.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2010.08.01.10.38.35;	author jost_boekemeier;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2010.07.17.11.38.16;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2010.07.13.11.48.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2010.07.12.15.33.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2010.07.12.15.30.29;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2010.07.11.11.57.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2010.05.31.19.29.50;	author jost_boekemeier;	state dead;
+branches;
+next	1.10;
+
+1.10
+date	2009.03.15.15.33.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2009.03.08.14.34.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2008.12.09.12.55.03;	author jost_boekemeier;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2008.11.08.13.08.40;	author jost_boekemeier;	state Exp;
+branches
+	1.6.2.1;
+next	1.5;
+
+1.5
+date	2008.11.06.20.16.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.09.24.22.24.40;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2008.09.20.15.00.58;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.01.06.20.59.20;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.12.02.18.05.07;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+1.6.2.1
+date	2008.11.09.17.01.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.6.2.2;
+
+1.6.2.2
+date	2008.11.15.14.22.31;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.20
+log
+@Removed JavaProxy.php
+@
+text
+@<%@@page import="javax.script.*" %>
+<%@@page import="php.java.script.servlet.PhpHttpScriptContext" %>
+
+<%!
+private static final CompiledScript script;
+static {
+	try {
+		script =((Compilable)(new ScriptEngineManager().getEngineByName("php-invocable"))).compile(
+        "<?php echo 'Hello '.java_context()->get('hello').'!<br>\n'; function f($v){return (string)$v+1;};?>");
+	} catch (ScriptException e) {
+		throw new RuntimeException(e);
+	}
+}
+%>
+
+<%
+  // create a new copy of the compiled script
+  CompiledScript instance = (CompiledScript)((java.security.cert.CertStoreParameters)script).clone();
+  try {
+	  // create a custom ScriptContext to connect the engine to the ContextLoaderListener's FastCGI runner 
+	  instance.getEngine().setContext(new PhpHttpScriptContext(instance.getEngine().getContext(),this,application,request,response));
+	
+	  // display hello world
+	  instance.getEngine().put("hello", "eval1: " + Thread.currentThread());
+	  instance.eval();
+	  out.println(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{1})+"<br>\n");
+	  instance.getEngine().put("hello", "eval2: " + Thread.currentThread());
+	  instance.eval();
+	  out.println(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{2})+"<br>\n");
+	  instance.getEngine().put("hello", "eval3: " + Thread.currentThread());
+	  instance.eval();
+	  out.println(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{3})+"<br>\n");
+	  instance.getEngine().put("hello", "eval4: " + Thread.currentThread());
+	  instance.eval();
+	  out.println(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{4})+"<br>\n");
+	  out.println("thread ended: " + Thread.currentThread());
+  } catch (Exception ex) {
+	  out.println("Could not evaluate script: "+ex);
+  } finally {
+	  ((java.io.Closeable)instance.getEngine()).close();
+  }
+%>
+@
+
+
+1.19
+log
+@Release-6-2-1
+@
+text
+@@
+
+
+1.18
+log
+@Release-6-2-1
+@
+text
+@d21 1
+a21 1
+	  instance.getEngine().setContext(new PhpCompiledHttpScriptContext(instance.getEngine().getContext(),this,application,request,response));
+@
+
+
+1.17
+log
+@Release-6-2-1
+@
+text
+@d2 1
+a2 1
+<%@@page import="php.java.script.servlet.PhpCompiledHttpScriptContext" %>
+@
+
+
+1.16
+log
+@Release-6-2-1
+@
+text
+@d23 1
+a23 1
+	  // diplay hello world
+@
+
+
+1.15
+log
+@Release-6-3-1-test3
+
+Fixed synchronisation issue
+@
+text
+@d19 23
+a41 21
+
+  // create a custom ScriptContext to connect the engine to the ContextLoaderListener's FastCGI runner 
+  instance.getEngine().setContext(new PhpCompiledHttpScriptContext(instance.getEngine().getContext(),this,application,request,response));
+
+  // diplay hello world
+  instance.getEngine().put("hello", "eval1: " + Thread.currentThread());
+  instance.eval();
+  out.println(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{1})+"<br>\n");
+  instance.getEngine().put("hello", "eval2: " + Thread.currentThread());
+  instance.eval();
+  out.println(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{2})+"<br>\n");
+  instance.getEngine().put("hello", "eval3: " + Thread.currentThread());
+  instance.eval();
+  out.println(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{3})+"<br>\n");
+  instance.getEngine().put("hello", "eval4: " + Thread.currentThread());
+  instance.eval();
+  out.println(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{4})+"<br>\n");
+  out.println("thread ended: " + Thread.currentThread());
+  
+  // release the resources immediately
+  ((java.io.Closeable)instance.getEngine()).close();
+@
+
+
+1.14
+log
+@Release-6-2-1
+@
+text
+@a2 1
+<%@@page import="php.java.script.CloneableScript" %>
+d9 1
+a9 1
+        "<?php function f($v){return (string)$v+1;};?>");
+d17 17
+a33 2
+  CompiledScript  instance = (CompiledScript)((CloneableScript)script).clone();
+  instance.getEngine().setContext(new PhpCompiledHttpScriptContext(script.getEngine().getContext(),this,application,request,response));
+d35 4
+a38 1
+  out.println(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{1}));
+@
+
+
+1.13
+log
+@Release-6-2-1
+@
+text
+@a1 1
+<%@@page import="java.io.*" %>
+d3 1
+a3 1
+<%@@page import="java.security.cert.CertStoreParameters" %>
+d8 6
+a13 7
+	// compile a simple PHP script to cachable opcode
+	try {	 
+		script = ((Compilable)(new ScriptEngineManager().getEngineByName("php-invocable"))).compile(
+  				"<?php echo java_context()->get('hello'); function f($p){return (string)$p+1;};?>");
+ 	} catch (ScriptException e) {
+   		throw new RuntimeException(e);
+ 	}
+d18 5
+a22 24
+try {
+	// clone the compiled script and connect it to the servlet ContextLoaderListener's FastCGI runner
+	CompiledScript instance = (CompiledScript)((CertStoreParameters)script).clone();
+	instance.getEngine().setContext(new PhpCompiledHttpScriptContext(script.getEngine().getContext(),this,application,request,response));
+	// connect its output
+	instance.getEngine().getContext().setWriter(out);
+	instance.getEngine().getContext().setErrorWriter(out);
+
+   	// eval the compiled script, should display "hello world!"
+	instance.getEngine().put("hello", "hello world!<br>");
+	instance.eval();
+   	
+	// eval again, should display this
+	instance.getEngine().put("hello", String.valueOf(this)+"<br>");
+	instance.eval();
+  	
+	// now invoke the defined function f, passing it integer 1. Should return 2
+ 	out.println(String.valueOf(((Invocable)instance.getEngine()).invokeFunction("f", new Object[]{1}))+"<br>");
+  
+	// It is important to release the engine here or to register it with tomcat for shutdown, otherwise tomcat will complain
+  	((Closeable)instance.getEngine()).close();
+} catch (Throwable t) {
+  out.println(t);
+}
+@
+
+
+1.12
+log
+@Release-6-2-1
+@
+text
+@d3 2
+d11 1
+a11 1
+  		script = ((Compilable)(new ScriptEngineManager().getEngineByName("php-invocable"))).compile(
+d21 11
+a31 4
+	// eval the compiled script, should display "hello world!"
+	script.getEngine().put("hello", "hello world!<br>");
+       ScriptContext ctx = new php.java.script.servlet.PhpCompiledHttpScriptContext(script.getEngine().getContext(),this,application,request,response);
+	script.eval(ctx);
+d33 2
+a34 2
+	script.getEngine().put("hello", String.valueOf(this)+"<br>");
+	script.eval(ctx);
+d37 1
+a37 1
+ 	out.println(String.valueOf(((Invocable)script.getEngine()).invokeFunction("f", new Object[]{1}))+"<br>");
+d40 1
+a40 1
+  	((Closeable)script.getEngine()).close();
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d1 1
+a2 2
+<%@@page import="javax.script.*" %>
+<%@@page import="php.java.script.servlet.EngineFactory" %>
+d5 9
+a13 6
+private static File script;
+private static synchronized File getScript(String path) {
+  if(script!=null) return script;
+  return script=EngineFactory.getPhpScript(path, 
+    new StringReader(
+      "<?php function f($arg) {return 1 + java_values($arg); }; ?>"));
+d16 1
+a17 7
+/* Create a standard script engine */
+Object result = null;
+ScriptEngine e = 
+  EngineFactory.getInvocablePhpScriptEngine (this, 
+					     application, 
+					     request, 
+					     response);
+d19 15
+a33 18
+ /* and connect its standard output */
+ e.getContext().setWriter (out);
+
+ /* evaluate the script, cache it in the file ".../jsp+php.jsp._cache_.php" */
+ FileReader reader = EngineFactory.createPhpScriptFileReader(getScript(EngineFactory.getRealPath(application, request.getServletPath())+"._cache_.php"));
+ e.eval (reader);
+ reader.close();
+
+/* make the script engine invocable */
+ Invocable i = (Invocable) e;
+
+/* and invoke its phpinfo and f() functions */
+ result = i.invokeFunction("phpinfo", new Object[]{});
+ result = i.invokeFunction("f", new Object[]{new Integer(2)});
+
+} finally {
+ /* terminate the script engine and flush its output, get its result code */
+ e.eval ((Reader)null); // in JDK 1.5 and above use ((Closeable)e).close() instead
+a34 3
+/* print the result from the above f() method invocation */
+out.println("result from php::f(), printed from the servlet: " + result);
+
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.9
+log
+@Release-5-4-4
+@
+text
+@d27 1
+a27 1
+ FileReader reader = EngineFactory.createPhpScriptFileReader(getScript(EngineFactory.getRealPath(application, request.getServletPath())));
+@
+
+
+1.8
+log
+@Backward compatibility with BEA WL 8.1
+@
+text
+@d7 1
+a7 1
+private static File getScript(String path) {
+d16 1
+d19 11
+a29 10
+                                                    application, 
+                                                    request, 
+                                                    response);
+/* and connect its standard output */
+e.getContext().setWriter (out);
+
+/* evaluate the script, cache it in the file ".../jsp+php.jsp._cache_.php" */
+FileReader reader = EngineFactory.createPhpScriptFileReader(getScript(EngineFactory.getRealPath(application, request.getServletPath())));
+e.eval (reader);
+reader.close();
+d32 1
+a32 1
+Invocable i = (Invocable) e;
+d35 2
+a36 6
+Object result = null;
+result = i.invokeFunction("phpinfo", new Object[]{});
+result = i.invokeFunction("f", new Object[]{new Integer(2)});
+
+/* terminate the script engine and flush its output, get its result code */
+e.eval ((Reader)null); // in JDK 1.5 and above use ((Closeable)e).close() instead
+d38 4
+@
+
+
+1.7
+log
+@Release 5.3.3
+@
+text
+@d25 1
+a25 2
+File script = getScript(application.getRealPath(request.getServletPath()));
+FileReader reader = EngineFactory.createPhpScriptFileReader(script);
+d38 1
+a38 1
+((Closeable)e).close (); // flush the output generated by invokeXXX
+@
+
+
+1.6
+log
+@Release-5-3-3
+@
+text
+@d27 1
+a27 1
+Number cont = (Number)e.eval (reader);
+d39 1
+a39 1
+int rc = cont.intValue(); // flush the output generated by invokeXXX
+@
+
+
+1.6.2.1
+log
+@Release 5.3.3
+@
+text
+@d11 1
+a11 1
+      "<?php function f($arg) {return 1 + (int)(string)$arg; }; ?>"));
+d27 1
+a27 1
+e.eval (reader);
+d39 1
+a39 1
+((Closeable)e).close (); // flush the output generated by invokeXXX
+@
+
+
+1.6.2.2
+log
+@Release 5.3.3
+@
+text
+@d11 1
+a11 1
+      "<?php function f($arg) {return 1 + java_values($arg); }; ?>"));
+@
+
+
+1.5
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d27 1
+a27 1
+Number continuation = e.eval (reader);
+d39 1
+a39 1
+int rc = continuation.getIntValue(); // flush the output generated by invokeXXX
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d1 4
+d6 2
+a7 4
+/* The following code makes sure that the PHP script is generated with the servlet instance.
+   When the servlet is generated, a file jsp+php.jsp._cache_.php appears */
+private static java.io.File script;
+private static java.io.File getScript(String path) {
+d9 2
+a10 2
+  return script=php.java.script.servlet.EngineFactory.getPhpScript(path, 
+    new java.io.StringReader(
+d16 2
+a17 2
+javax.script.ScriptEngine e = 
+  php.java.script.servlet.EngineFactory.getInvocablePhpScriptEngine (this, 
+d25 3
+a27 3
+java.io.File script = getScript(application.getRealPath(request.getServletPath()));
+java.io.FileReader reader = php.java.script.servlet.EngineFactory.createPhpScriptFileReader(script);
+e.eval (reader);
+d31 1
+a31 1
+javax.script.Invocable i = (javax.script.Invocable) e;
+d38 2
+a39 2
+/* release the script engine, flushing its output */
+e.eval ((java.io.Reader)null); // flush the output generated by invokeXXX
+@
+
+
+1.3
+log
+@Release-5-2-2-1
+@
+text
+@d4 2
+a5 2
+private static java.io.Reader script;
+private static java.io.Reader getScript(String path) {
+d7 1
+a7 1
+  return script=php.java.script.EngineFactory.getPhpScript(path, 
+d15 1
+a15 1
+  php.java.script.EngineFactory.getInvocablePhpScriptEngine (this, 
+d23 4
+a26 1
+e.eval (getScript(application.getRealPath(request.getServletPath())));
+@
+
+
+1.2
+log
+@Release-5-0-0
+@
+text
+@d1 11
+d13 1
+a13 1
+
+d19 1
+d22 2
+a23 1
+e.eval ("<?php function f($arg) {return 1 + java_values($arg); }; ?>");
+d25 1
+d28 1
+d33 1
+a33 4
+// note that we have to flush the generated output, othewise the output
+// from the servlet will appear at the beginning of the page or somewhere
+// in between
+
+d36 1
+@
+
+
+1.1
+log
+@Release-4-3-1
+@
+text
+@d10 1
+a10 1
+e.eval ("<?php function f($arg) {return 1 + $arg->intValue(); }; ?>");
+@
+

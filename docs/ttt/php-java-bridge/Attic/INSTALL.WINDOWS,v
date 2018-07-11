@@ -1,0 +1,968 @@
+head	1.22;
+access;
+symbols
+	Release-3-0-8_root:1.17.2.1
+	Release-3-0-8_Root:1.20
+	Release-3-0-8:1.17.0.2
+	Release-2-0-8:1.10.0.4
+	Release-2-0-7_Root:1.9
+	Release-2-0-7:1.9.0.2
+	Release-2-0-6-branch:1.5.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.22
+date	2006.08.08.17.20.45;	author jost2345;	state dead;
+branches;
+next	1.21;
+
+1.21
+date	2006.06.19.20.37.14;	author jost2345;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2006.04.30.17.01.55;	author jost2345;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2006.04.13.16.09.10;	author jost2345;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2006.04.12.17.46.45;	author jost2345;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2006.03.07.18.59.27;	author jost2345;	state Exp;
+branches
+	1.17.2.1;
+next	1.16;
+
+1.16
+date	2006.02.13.18.34.16;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2006.02.03.17.42.22;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2006.02.03.17.41.36;	author jost2345;	state dead;
+branches;
+next	1.13;
+
+1.13
+date	2006.01.30.19.39.53;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.12.18.18.17.47;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.12.08.18.41.56;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.08.11.18.08.16;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.07.08.17.57.21;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.06.21.20.17.29;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.06.19.20.45.39;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.06.15.15.18.02;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.05.15.20.17.35;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.04.17.21.22.01;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.04.13.20.47.48;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.03.11.17.34.18;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.03.07.19.38.06;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.17.2.1
+date	2006.04.23.19.09.08;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.22
+log
+@Release-3-1-7
+@
+text
+@Installing the PHP/Java Bridge on Windows
+----------------------------------------- 
+
+* Install a J2RE >= 1.4.2, for example Sun JDK 1.5.0
+
+* Extract the files from the php-java-bridge J2EE download and deploy
+  JavaBridge.war into your J2EE server, visit
+  http://localhost:<port>/JavaBridge and click on test.php.
+  The <port> is 8888 (Oracle), 9080 (WebSphere) or 8080 (Tomcat).
+
+* Please see the README and http://php-java-bridge.sourceforge.net for
+  further information.
+
+
+Installing and testing the front-end on Windows
+-----------------------------------------------
+
+If the above test succeeded (or if you have skipped the test because
+you don't want to use a J2EE server), install a HTTP server, PHP, the
+php.ini, the php java extension "php_java.dll" and your java libraries
+(.jar files):
+
+* Install IIS or Apache, if not already installed.
+
+* Download and extract the php-5.1.x-Win32.zip into c:\php\. For
+  example with the commands:
+
+    c:
+    mkdir php
+    cd php
+    jar xvf c:\php-5.1.x-Win32.zip
+
+* Install PHP as an IIS or Apache module. For example add these lines
+  to the end of your Apache2 httpd.conf file:
+
+    LoadModule php5_module "c:/php/php5apache2.dll"
+    AddType application/x-httpd-php .php
+
+* Add the following to the php.ini in the windows system directory
+  (usually c:\winnt or c:\windows) and edit it so that the
+  "extension_dir" points to your PHP 5 extension directory. 
+  
+    extension_dir = "c:\php"
+    extension = php_java.dll
+
+* Copy the appropriate java-x86-windows.dll (from the JavaBridge.war)
+  into the extension_dir:
+
+  for PHP >= 4.3.4: php-4-java-x86-windows.dll
+  for PHP >= 5.0.0: php-5.0-java-x86-windows.dll
+  for PHP >= 5.1.0: java-x86-windows.dll
+  for PHP >= 6.0.0: php-6-java-x86-windows.dll
+
+  Rename it to php_java.dll. Or compile a php_java.dll from the
+  source, as described in the INSTALL document located in the source
+  download archive.
+
+* Copy your java libraries (.jar files) into extension_dir\lib.
+
+* If you have a servlet engine or j2ee server, edit the [java] section
+  of your php.ini file so that it contains:
+
+    [java]
+    java.hosts      = 127.0.0.1:8080 ;or 8888 for Oracle, 9080 for WebSphere
+    java.servlet    = On
+    java.log_level  = 3
+
+* If you don't have a servlet engine, copy the file JavaBridge.jar
+  (from the JavaBridge.war) into the extension_dir and edit the [java]
+  section of your php.ini file so that it contains:
+
+    [java]
+    ;java.socketname = 9267
+    ;java.java        = c:/jdk1.5/jre/bin/javaw.exe
+    ;java.java_home   = c:/jdk1.5
+    java.log_level   = 2
+
+  If you set the java.socketname, you must double-click on
+  JavaBridge.jar to start the standalone back-end once. If you leave it
+  off, the back-end automatically starts the default javaw or the
+  specified "java.java" program when your HTTP server starts.
+
+* Copy the test.php (from the JavaBridge.war) to your web server
+  document root, re-start the web server and check "java status" and
+  "java server":
+
+    http://yourHost/test.php
+
+* If you have a servlet engine or j2ee server and you want to share
+  the web server document root with the servlet engine or j2ee server,
+  change the web server document root. The following example sets the
+  document root in the apache2 httpd.conf to the tomcat 5 webapps
+  directory:
+
+    DocumentRoot "c:\Programme\Apache Software Foundation\Tomcat 5.5\webapps"
+    <Directory "c:\Programme\Apache Software Foundation\Tomcat 5.5\webapps">
+
+  Edit the [java] section of your php.ini file so that it contains:
+
+    [java]
+    java.hosts      = 127.0.0.1:8080 ;or 8888 for Oracle, 9080 for WebSphere
+    java.servlet    = User
+    java.log_level  = 3
+
+  Restart the web server and check "java status" and "java server":
+
+    http://yourHost/<userContext>/test.php
+
+  e.g:
+
+    http://yourHost/JavaBridge/test.php
+
+
+* On production systems set the following flags in your php ini file
+  so that the back-end can generate standard error pages.
+
+    log_errors     = On
+    display_errors = Off
+    html_errors    = Off
+
+* If there are problems, edit your php.ini and set the java.log_level
+  to 4 or a higher log level and examine the log file of the servlet
+  engine or "JavaBridge.log" located in the directory from which the
+  JavaBridge.jar was started.
+
+  If your php.ini does not have a java.log_level entry, the bridge
+  uses the log level supplied when it was started. For example the
+  following command starts the back-end with debug output enabled:
+
+    java -Djava.awt.headless=true -jar JavaBridge.jar INET:9267 4
+
+ * Please report bugs/problems to the mailing list:
+
+    php-java-bridge-users@@lists.sourceforge.net
+
+
+Known Windows Issues 
+--------------------
+
+* It is recommended to start Java outside of the HTTP server domain,
+  for example from a separate service script. The Apache/Tomcat servlet
+  engine for example installs such a service. It can be used by setting
+  the php.ini [java] options: java.servlet=On java.hosts=127.0.0.1:8080.
+
+* On windows the standalone Java program is called javaw.exe, not
+  java.exe. The java.exe can only be used from a console/terminal.
+
+* Local ("unix domain") sockets or named pipes, which are more than 3
+  times faster and more secure than TCP sockets, are not available. --
+  It is possible to implement a named pipe communication channel on some
+  windows variants, too. On Win>=2000, jdk1.5 it should be possible to
+  create a windows named pipe with PIPE_ACCESS_DUPLEX, call Accept in
+  the java extension's C code and modify the java back-end to not use a
+  Input or OutputStream but a RandomAccessFile. Please write to the
+  mailing list if you want to implement it.
+
+* A standalone FastCGI server is not available on windows. When Apache
+  or IIS is not available, the bridge uses the CGI interface. This is more
+  than 5 times slower than FastCGI.
+
+* Some public domain programs such as "WinZip" or "WinRar" destroy 
+  java file associations, a double-click on JavaBridge.jar opens that
+  file in the archive manager. Please either remove these programs
+  ("jar xvf archive.name" can be used instead) or install Sun java
+  again to overwrite the incorrect registry entries.
+@
+
+
+1.21
+log
+@Release-3-1-0
+@
+text
+@@
+
+
+1.20
+log
+@Release-3-1-0
+@
+text
+@d25 1
+a25 1
+* Download and extract the php-5.1.x-Win32.zip into c:\php5\. For
+d29 2
+a30 2
+    mkdir php5
+    cd php5
+d36 1
+a36 1
+    LoadModule php5_module "c:/php5/php5apache2.dll"
+d43 1
+a43 1
+    extension_dir = "c:\php5"
+d47 12
+a58 2
+  into the extension_dir, rename it to php_java.dll and copy your java
+  libraries (.jar files) into extension_dir\lib.
+d74 1
+a74 1
+    ;java.java        = c:/jdk1.5/jre/bin/javaw
+d140 8
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d11 6
+@
+
+
+1.18
+log
+@Release-3.0.8
+@
+text
+@d133 4
+@
+
+
+1.17
+log
+@Release-3.0.8pre2
+@
+text
+@d13 1
+a13 1
+you don't want to use a J2EE server), install a HTTP server, php, the
+d27 1
+a27 1
+* Install php as an IIS or Apache module. For example add these lines
+d63 2
+a64 2
+  JavaBridge.jar to start the standalone backend once. If you leave it
+  off, the backend automatically starts the default javaw or the
+d86 1
+a86 1
+    java.servlet    = MultiUser
+d99 1
+a99 1
+  so that the backend can generate standard error pages.
+d112 1
+a112 1
+  following command starts the backend with debug output enabled:
+d129 1
+a129 1
+  the java extension's C code and modify the java backend to not use a
+@
+
+
+1.17.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d13 1
+a13 1
+you don't want to use a J2EE server), install a HTTP server, PHP, the
+d27 1
+a27 1
+* Install PHP as an IIS or Apache module. For example add these lines
+d63 2
+a64 2
+  JavaBridge.jar to start the standalone back-end once. If you leave it
+  off, the back-end automatically starts the default javaw or the
+d86 1
+a86 1
+    java.servlet    = User
+d99 1
+a99 1
+  so that the back-end can generate standard error pages.
+d112 1
+a112 1
+  following command starts the back-end with debug output enabled:
+d129 1
+a129 1
+  the java extension's C code and modify the java back-end to not use a
+a132 4
+* A standalone FastCGI server is not available on windows. When Apache
+  or IIS is not available, the bridge uses the CGI interface. This is more
+  than 5 times slower than FastCGI.
+
+@
+
+
+1.16
+log
+@Release-3.0.7
+@
+text
+@d75 1
+a75 1
+  change the HTTP server document root. The following example sets the
+@
+
+
+1.15
+log
+@Release-3.0.7
+@
+text
+@d1 137
+a137 121
+Installing the PHP/Java Bridge on Windows
+----------------------------------------- 
+
+* Install a J2RE >= 1.4.2, for example Sun JDK 1.5.0
+
+* Extract the files from the php-java-bridge J2EE download and deploy
+  JavaBridge.war into your J2EE server, visit
+  http://localhost:8080/JavaBridge and click on test.php.
+
+
+If the above test succeeded (or if you have skipped the test because
+you don't want to use a J2EE server), install a HTTP server, php, the
+php.ini, the php java extension "php_java.dll" and your java libraries
+(.jar files):
+
+* Install IIS or Apache, if not already installed.
+
+* Download and extract the php-5.1.x-Win32.zip into c:\php5\. For
+  example with the commands:
+
+    c:
+    mkdir php5
+    cd php5
+    jar xvf c:\php-5.1.x-Win32.zip
+
+* Install php as an IIS or Apache module. For example add these lines
+  to the end of your Apache2 httpd.conf file:
+
+    LoadModule php5_module "c:/php5/php5apache2.dll"
+    AddType application/x-httpd-php .php
+
+* Add the following to the php.ini in the windows system directory
+  (usually c:\winnt or c:\windows) and edit it so that the
+  "extension_dir" points to your PHP 5 extension directory. 
+  
+    extension_dir = "c:\php5"
+    extension = php_java.dll
+
+* Copy the appropriate java-x86-windows.dll (from the JavaBridge.war)
+  into the extension_dir, rename it to php_java.dll and copy your java
+  libraries (.jar files) into extension_dir\lib.
+
+* If you have a servlet engine or j2ee server and you want to share
+  the web server document root with the servlet engine or j2ee
+  server, change the HTTP server document root and edit the [java]
+  section of your php.ini file so that it contains:
+
+    [java]
+    java.hosts      = 127.0.0.1:8080 ;or 8888 for Oracle, 9080 for WebSphere
+    java.servlet    = MultiUser
+    java.log_level  = 3
+
+* If you have a servlet engine or j2ee server, edit the [java] section
+  of your php.ini file so that it contains:
+
+    [java]
+    java.hosts      = 127.0.0.1:8080 ;or 8888 for Oracle, 9080 for WebSphere
+    java.servlet    = On
+    java.log_level  = 3
+
+* If you don't have a servlet engine, copy the file JavaBridge.jar
+  (from the JavaBridge.war) into the extension_dir and edit the [java]
+  section of your php.ini file so that it contains:
+
+    [java]
+    ;java.socketname = 9267
+    ;java.java        = c:/jdk1.5/jre/bin/javaw
+    ;java.java_home   = c:/jdk1.5
+    java.log_level   = 3
+
+  If you set the java.socketname, you must double-click on
+  JavaBridge.jar to start the standalone backend once. If you leave it
+  off, the backend automatically starts the default javaw or the
+  specified "java.java" program when your HTTP server starts.
+
+* On production systems set the following flags in your php ini file
+  so that the backend can generate standard error pages.
+
+    log_errors     = On
+    display_errors = Off
+    html_errors    = Off
+
+* Copy the test.php (from the JavaBridge.war) to your web server
+  document root, re-start the web server and and check "java status"
+  and "java server":
+
+   http://yourHost/test.php
+
+* If there are problems, edit your php.ini and set the java.log_level
+  to 4 or a higher log level and examine the log file of the servlet
+  engine or "JavaBridge.log" located in the directory from which the
+  JavaBridge.jar was started.
+
+  If your php.ini does not have a java.log_level entry, the bridge
+  uses the log level supplied when it was started. For example the
+  following command starts the backend with debug output enabled:
+
+    java -Djava.awt.headless=true -jar JavaBridge.jar INET:9267 4
+
+ * Please report bugs/problems to the mailing list:
+
+    php-java-bridge-users@@lists.sourceforge.net
+
+
+Known Windows Issues 
+--------------------
+
+* Local ("unix domain") sockets or named pipes, which are more than 3
+  times faster and more secure than TCP sockets, are not available. --
+  It is possible to implement a named pipe communication channel on some
+  windows variants, too. On Win>=2000, jdk1.5 it should be possible to
+  create a windows named pipe with PIPE_ACCESS_DUPLEX, call Accept in
+  the java extension's C code and modify the java backend to not use a
+  Input or OutputStream but a RandomAccessFile. Please write to the
+  mailing list if you want to implement it.
+
+* Some public domain programs such as "WinZip" or "WinRar" destroy 
+  java file associations, a double-click on JavaBridge.jar opens that
+  file in the archive manager. Please either remove these programs
+  ("jar xvf archive.name" can be used instead) or install Sun java
+  again to overwrite the incorrect registry entries.
+@
+
+
+1.14
+log
+@Release-3.0.7
+@
+text
+@a3 1
+
+d6 3
+a8 2
+* Download and deploy JavaBridge.war into your J2EE server, visit
+  http://localhost:8080/JavaBridge and click on test.php. 
+d12 19
+a30 2
+you don't want to use a J2EE server), install the php.ini, the php
+java extension "php_java.dll" and your java libraries (.jar files):
+d36 2
+a37 2
+  extension_dir = "c:\php5"
+  extension = php_java.dll
+d39 2
+a40 2
+* Copy the file java-x86-windows.dll (from the JavaBridge.war) into
+  the extension_dir, rename it to php_java.dll and copy your java
+d44 2
+a45 2
+  the HTTP server's document root with the servlet engine or j2ee
+  server, change the HTTP server's document root and edit the [java]
+d48 4
+a51 4
+  [java]
+  java.hosts      = 127.0.0.1:8080
+  java.servlet    = MultiUser
+  java.log_level  = 3
+d56 4
+a59 4
+  [java]
+  java.hosts      = 127.0.0.1:8080
+  java.servlet    = On
+  java.log_level  = 3
+d65 5
+a69 5
+  [java]
+  ;java.socketname = 9267
+  ;java.java        = c:/jdk1.5/jre/bin/javaw
+  ;java.java_home   = c:/jdk1.5
+  java.log_level   = 3
+d73 15
+a87 2
+  off, the backend automatically starts the default javaw or <java.java>
+  program when your HTTP server starts.
+d90 1
+a90 1
+  to 3 or a higher log level and examine the log file of the servlet
+d98 1
+a98 1
+   java -Djava.awt.headless=true -jar JavaBridge.jar INET:9267 4 JavaBridge.log
+d119 3
+a121 2
+  file in the archive manager. Please either remove these programs or
+  install Sun java again to overwrite the incorrect registry entries.
+@
+
+
+1.13
+log
+@Release-3.0.7
+@
+text
+@@
+
+
+1.12
+log
+@Release-3.0.3
+@
+text
+@d5 1
+a5 1
+* Install a J2RE >= 1.4.0, for example Sun JDK 1.5.0
+d7 2
+a8 2
+* Download and extract php-java-bridge_*-win32-php5.zip into the
+  folder: c:\php5.
+a9 25
+* Double-click on c:\php5\JavaBridge.jar. Or deploy JavaBridge.war
+  (from the J2EE download) into your servlet engine or java
+  application server and re-start it.
+
+* Double-click on c:\php5\test.bat.
+  Open the file result.html with a browser.  Search for the "java
+  status" entry, it should be "java status: running", and examine the
+  java properties at the bottom of the page. Search for the 
+  "extension_dir", it should be "c:\php5\ext" for this test.
+
+
+If the above test succeeded, install the php.ini, the php_java.dll and
+your java libraries (.jar files):
+
+* Copy or add the contents of the c:\php5\php.ini file to the php.ini
+  in the windows system directory (usually c:\winnt or c:\windows) and
+  edit it so that the "extension_dir" points to your PHP 5 extension
+  directory. Copy the files php_java.dll and JavaBridge.jar from the ext
+  folder into the extension_dir and copy your java libraries (.jar
+  files) into extension_dir\lib.
+
+* If you don't have a servlet engine, enable the java.socketname
+  option in your php.ini file and double-click on JavaBridge.jar to
+  start the standalone backend once. Then copy the test.php into your
+  web-server document root and browse to:
+d11 47
+a57 1
+    http://localhost/test.php
+d65 1
+a65 1
+  uses the log level supplied when it was started.  For example the
+d68 1
+a68 1
+    java -Djava.awt.headless=true -jar JavaBridge.jar INET:9267 4 JavaBridge.log
+d78 13
+a90 11
+* The php_java.dll is a php 5.0.x binary. If you want to use the
+  bridge with PHP 5.1.x or PHP 6.x you must compile it yourself.
+
+* All .ini entries except java.log_level, java.socketname, java.hosts
+  and java.servlet are meaningless.
+
+* The windows version does not start or re-start automatically when
+  the web-server starts or re-starts.
+
+* Local ("unix domain") sockets, which are faster and more secure than
+  TCP sockets, are not available.
+@
+
+
+1.11
+log
+@Release-3-0-2
+@
+text
+@d18 1
+a18 1
+  "extension_dir", it should be ".\ext" for this test.
+@
+
+
+1.10
+log
+@Release-2.0.8-preview
+@
+text
+@d10 3
+a12 3
+* Double-click on c:\php5\JavaBridge.jar. Or deploy
+  c:\php5\JavaBridge.war into your servlet engine or java application
+  server and re-start it.
+d18 1
+a18 1
+  "extension_dir", it should be "c:\php5" for this test.
+d24 6
+a29 6
+* Copy or add the contents of the c:\php5\php.ini file to the
+  php.ini in the windows system directory (usually c:\winnt or
+  c:\windows) and edit it so that the "extension_dir" points to your
+  PHP 5 extension directory. Copy the php_java.dll into the
+  extension_dir and copy your java libraries (.jar files) into
+  extension_dir\lib.
+d57 3
+@
+
+
+1.9
+log
+@Release-2.0.7
+@
+text
+@d31 4
+a34 1
+* Copy the test.php into your web-server document root and browse to:
+d47 1
+a47 1
+    java -jar JavaBridge.jar INET:9267 4 JavaBridge.log
+@
+
+
+1.8
+log
+@Release-2.0.7pre
+@
+text
+@a2 5
+It is recommended to use the Linux or Unix version of the PHP/Java
+Bridge.  Especially the Linux version can be installed very easily
+(with the command rpm -i php-java-bridge*.rpm), supports fine-grained
+access control through Security Enhanced Linux and allows one to audit
+the activity on the web server and the bridge.
+@
+
+
+1.7
+log
+@Release-2.0.7-pre
+@
+text
+@d42 1
+a42 1
+  engine or "Bridge.log" located in the same directory where the
+d49 1
+a49 1
+    java -jar JavaBridge.jar INET:9267 4 Bridge.log
+@
+
+
+1.6
+log
+@Tomcat 5 support / multicasts removed
+@
+text
+@d40 8
+a47 1
+* If there are problems, start the PHP/Java Bridge at log level 3
+d49 1
+a49 1
+    java -jar JavaBridge.jar INET:9167 3 output.log
+d51 1
+a51 2
+  or a higher log level and examine the output. Please report
+  bugs/problems to the mailing list:
+d59 2
+a60 2
+* All .ini entries except java.socketname, java.hosts and
+  java.servlet are meaningless.
+@
+
+
+1.5
+log
+@Version 2.0.6 (windows)
+@
+text
+@d15 3
+a17 5
+* Double-Click on c:\php5\JavaBridge.jar
+
+* Open a command window in c:\php5 and type:
+
+   .\php-cgi test.php >result.html 
+d19 1
+d22 2
+a23 1
+  java properties at the bottom of the page. 
+a24 3
+* Copy your java libraries (.jar files) into c:\php5\lib. Copy the
+  php_java.dll into the extension directory of your PHP 5.0.3
+  installation.
+d26 2
+a27 1
+* Add the following entry to your php.ini:
+d29 6
+a34 2
+          extension = php_java.dll
+          [java]
+d40 1
+a40 1
+* If you have problems, start the PHP/Java Bridge at log level 3
+d53 8
+a60 20
+* You cannot install your .jar files in /usr/share/java. Please copy
+  them to c:\php5\lib, e.g. c:\php5\lib\batStore.jar. 
+  The libraries can be linked with the java_require() statement, for
+  example java_require('c:\php5\lib\batStore.jar');
+
+* Both, the CGI version and the apache or isapi module are
+  supported. But it is recommended to use the CGI version.
+
+* All .ini entries except java.socketname and java.hosts are
+  meaningless.
+
+* The windows version does not support multicast sockets and therefore
+  load balancing is not available.  However, it is possible to start 
+  additional backends which may take over if the local backend becomes
+  unavailable.  The following .ini entry directs the bridge to two
+  additional backends listening on ports 9169 and 9170:
+
+          extension = php_java.dll
+          [java]
+          java.hosts="127.0.0.1:9169;127.0.0.1:9170"
+@
+
+
+1.4
+log
+@Version 2.0.6
+@
+text
+@d2 1
+a2 1
+-----------------------------------------
+d6 2
+a7 3
+access control through SEL, struct ucred and the linux abstract
+namespace and allows one to audit the activity going through the web
+server and the bridge.
+d25 3
+a27 5
+* Copy your java libraries (.jar files) into "java.ext.dirs" (see
+  result.html). Copy the php_java.dll into the extension directory
+  of your PHP 5.0.3 installation. (Or copy php-cgi.exe, php5ts.dll
+  and php_java.dll into the CGI bin folder of your web server and 
+  re-start the web server.)
+d40 1
+a40 1
+    java -jar JavaBridge.jar 9167 3 output.log
+d51 4
+a54 8
+* Security Enhanced Linux not supported.
+
+* Local ("unix domain") sockets, struct ucred and the Linux abstract
+  namespace not supported.
+  
+* You cannot install your .jar files in /usr/share/java.  Install your
+  .jar files into %JAVA_HOME\jre\lib\ext instead and then re-start the
+  java VM.
+d59 3
+@
+
+
+1.3
+log
+@docu
+@
+text
+@d24 1
+a24 2
+  java properties at the bottom of the page. Search for "file.encoding",
+  it should be UTF-8.
+a35 1
+          java.hosts="127.0.0.1:9167"
+d65 10
+@
+
+
+1.2
+log
+@windows fixes
+@
+text
+@a64 3
+* Windows 98 does not support UTF-8.  To force the bridge to use UTF-8
+  anyway, start it with: java -Dfile.encoding=UTF-8 JavaBridge.jar
+
+d66 1
+a66 15
+  supported. But it is recommended to use the CGI version:
+
+  Due to bugs in PHP5 the module version may leak resources.  You can
+  test this by starting the bridge with the command: java -jar
+  JavaBridge.jar 9167 5 "" and then type: php-cgi.exe -i. If you see a
+  "java.net.SocketException: Connection reset" exception message, this
+  means that your PHP version cannot handle resources correctly. -- The
+  exception means that PHP did not call the RSHUTDOWN hook and that the
+  socket was destroyed by the operating system upon CGI termination. If
+  this happens with the module version, the socket will stay open and
+  the operating system will run out of socket handles after some time.
+
+  The leak described above happens very seldom, for example if 
+  the PHP script is very short. But it may happen, not only with
+  the PHP/Java Bridge but also with SOAP and other modules.
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d37 2
+a38 1
+  
+d65 2
+a66 2
+* java.hosts option switched off. The windows version can only connect
+  to a single host: 127.0.0.1:9167.
+d68 2
+a69 6
+* The windows binary cannot be run as a sub-process of the Apache web
+  server.
+
+* Windows 98 does not support UTF-8.  To force the bridge to use UTF-8
+  anyway, start it with:
+  java -Dfile.encoding=UTF-8 JavaBridge.jar
+d71 13
+a83 4
+* Due to cr -> cr/lf conversion the bridge expects one more character
+  at the end of the stream and reports this if the log level is >=1.
+  The message is harmless and can be switched off by using log level 0,
+  which is default on windows.
+@
+

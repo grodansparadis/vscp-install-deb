@@ -1,0 +1,1175 @@
+head	1.28;
+access;
+symbols
+	Root_Release_7-0-1:1.27
+	Release_7-0-1:1.27.0.12
+	Release_7-0-0:1.27.0.10
+	Root_Release_7-0-0:1.27
+	Release-6-2-2:1.27.0.8
+	Release-6-1-2-3:1.27
+	Root_Release-6-1-2-3:1.27
+	Release-6-1-2-2:1.27.0.6
+	Root_Release-6-1-2-2:1.27
+	debian_version_6_1_2_1-1:1.27
+	upstream_version_6_1_2_1:1.27
+	Release-6-1-2-1_new:1.27.0.4
+	Root_Release-6-1-2-1_new:1.27
+	Release-6-1-2-1:1.27.0.2
+	Root_Release-6-1-2-1:1.27
+	upstream_version_6_1_2:1.26
+	debian_version_6_1_2-1:1.26
+	Release-6-1-2:1.26.0.2
+	Root_Release-6-1-2:1.26
+	debian_version_6_1_1-2:1.25
+	debian_version_6_1_1-1:1.25
+	upstream_version_6_1_1:1.25
+	Release-6-1-1:1.25.0.2
+	Root_Release-6-1-1:1.25
+	Release-6-0-4:1.24.0.6
+	Root_Release-6-0-4:1.24
+	Release-6-0-3_NEW:1.24.0.2
+	Root_Release-6-0-3_NEW:1.24
+	Release-6-0-3:1.24.0.4
+	Root_Release-6-0-3:1.24
+	Release-6-0-0:1.23.0.6
+	Root_Release-6-0-0:1.24
+	Release-5-5-4-1:1.23.0.4
+	Root_Release-5-5-4-1:1.23
+	Release-5-5-4:1.23.0.2
+	Root_Release-5-5-4:1.23
+	Release-5-5-3:1.22.0.2
+	ROOT_Release-5-5-3:1.22
+	Release-5-5-2:1.20.0.4
+	Root_Release-5-5-2:1.20
+	debian_version_5_5_1-1:1.20
+	Release-5-5-1:1.20.0.2
+	upstream_version_5_5_1:1.20
+	ROOT_Release-5-5-1:1.20
+	debian_version_5_5-1:1.19
+	upstream_version_5_5:1.19
+	ROOT_Release-5-5:1.19
+	Release-5-5:1.19.0.2
+	debian_version_5_4_4_2-3:1.18
+	Release-5-4-4-2-1:1.18.0.2
+	debian_version_5_4_4_2-2:1.18
+	debian_version_5_4_4_2-1:1.18
+	upstream_version_5_4_4_2:1.18
+	debian_version_5_4_4_1-1:1.18
+	upstream_version_5_4_4_1:1.18
+	debian_version_5_4_4-1:1.18
+	upstream_version_5_4_4:1.18
+	Release-5-4-4:1.18.0.4
+	Root_Release-5-4-4:1.18
+	debian_version_5_4_3_2-1:1.17
+	upstream_version_5_4_3_2:1.17
+	Release_5-4-3-2:1.17.0.2
+	Root_Release_5-4-3-2:1.17
+	upstream_version_5_4_3_1:1.16
+	debian_version_5_4_3_1-1:1.16
+	Release-5-4-3:1.16.0.4
+	Root_Release-5-4-3:1.16
+	Root_Release-5-4-1:1.16
+	Release-5-4-1:1.16.0.2
+	Root_Release-5-4:1.15
+	Release-5-4:1.15.0.4
+	upstream_version_5_3_4:1.15
+	debian_version_5_3_4-1:1.15
+	ROOT_Release-5-3-4:1.15
+	Release-5-3-4:1.15.0.2
+	ROOT_Release-5-3-3:1.14
+	Release-5-3-3:1.14.0.2
+	debian_version_5_3_2_1_2-1:1.14
+	upstream_version_5_3_2_1_2:1.14
+	debian_version_5_3_2_1_1-1:1.13
+	debian_version_5_3_2_1_1:1.13
+	upstream_version_5_3_2_1_1:1.13
+	Root_Release-5-3-2-1:1.13
+	Release-5-3-2-1:1.13
+	ROOT_RELEASE-5-3-2-1:1.13
+	RELEASE-5-3-2-1:1.13.0.16
+	Release-5-3-2:1.13.0.12
+	Root_Release-5-3-2:1.13
+	Root_Release-5-3-1:1.13
+	Release-5-3-1:1.13.0.10
+	Release-5-2-3-1:1.13.0.8
+	Root_Release-5-2-3-1:1.13
+	Release-5-2-2-4:1.13.0.6
+	Root_Release-5-2-2-4:1.13
+	Release-5-2-2-1:1.13.0.4
+	Root_Release-5-2-2-1:1.13
+	upstream_version_5_2_2:1.13
+	debian_version_5_2_2-1:1.13
+	Release-5-2-2:1.13.0.2
+	ROOT_Release-5-2-2:1.13
+	ROOT_Release-5-2-1:1.12
+	Release-5-2-1:1.12.0.12
+	Release-5-2-0:1.12.0.10
+	ROOT_Release-5-2-0:1.12
+	ROOT_Release-5-1-2:1.12
+	Release-5-1-2:1.12.0.8
+	Version-5-1-1:1.12.0.6
+	ROOT_Version-5-1-1:1.12
+	debian_version_5_1_0-1:1.12
+	upstream_version_5_1_0:1.12
+	ROOT_Release-5-1-0:1.12
+	Release-5-1-0:1.12.0.4
+	ROOT_Release-5-0-0:1.12
+	Release-5-0-0:1.12.0.2
+	Release-4-3-3:1.11.0.2
+	ROOT_Release-4-3-3:1.11
+	upstream_version_4_3_2:1.10
+	debian_version_4_3_2-1:1.10
+	ROOT_Release-4-3-2:1.10
+	Release-4-3-2:1.10.0.2
+	Release-4-3-1:1.9.0.4
+	ROOT_Release-4-3-1:1.9
+	debian_version_4_3_0-1:1.9
+	upstream_version_4_3_0:1.9
+	ROOT_Release-4-3-0:1.9
+	Release-4-3-0:1.9.0.2
+	debian_version_4_2_2-1:1.8
+	upstream_version_4_2_2:1.8
+	Release-4-1-2:1.4.0.2
+	Release-4-0-8:1.3.0.4
+	debian_version_4_0_8a-1:1.3
+	upstream_version_4_0_8a:1.3
+	jostb-debian-ubuntu-patch:1.3.0.2
+	debian_version_4_0_8-1:1.3
+	upstream_version_4_0_8:1.3
+	debian_version_4_0_7-1:1.3
+	upstream_version_4_0_7:1.3
+	debian_version_4_0_6-1:1.3
+	upstream_version_4_0_6:1.3
+	debian_version_4_0_2-1:1.2
+	upstream_version_4_0_2:1.2
+	Release-4-0-2_Root:1.2
+	Release-4-0-2:1.2.0.2
+	upstream_version_4_0_1:1.1
+	debian_version_4_0_1-2:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.28
+date	2017.04.09.14.00.07;	author jost_boekemeier;	state dead;
+branches;
+next	1.27;
+
+1.27
+date	2010.05.02.11.49.36;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2010.04.17.18.15.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2010.03.24.18.03.16;	author jost_boekemeier;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2010.02.28.15.20.43;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2009.10.17.17.40.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2009.09.27.17.39.22;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2009.09.14.16.52.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2009.08.22.16.37.06;	author jost_boekemeier;	state Exp;
+branches
+	1.20.4.1;
+next	1.19;
+
+1.19
+date	2009.07.25.13.56.02;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2009.03.08.14.34.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2009.02.15.22.15.46;	author jost_boekemeier;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2008.12.21.16.24.34;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.10.12.16.15.53;	author jost_boekemeier;	state Exp;
+branches
+	1.14.2.1;
+next	1.13;
+
+1.13
+date	2008.03.30.17.01.34;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2008.01.06.20.59.20;	author jost_boekemeier;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2007.12.28.13.56.42;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2007.12.09.15.13.12;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2007.09.30.16.07.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2007.08.04.17.34.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.07.22.12.54.43;	author jost_boekemeier;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.07.19.16.19.19;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2007.07.09.14.35.06;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2007.06.13.19.51.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2007.03.25.16.28.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2007.03.19.13.03.17;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.03.12.20.27.55;	author andremachado;	state Exp;
+branches;
+next	;
+
+1.14.2.1
+date	2008.11.15.14.22.31;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+1.20.4.1
+date	2009.09.14.16.23.59;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.28
+log
+@Release-7.1.1
+@
+text
+@<?php /*-*- mode: php; tab-width:4 -*-*/
+
+  /**
+   * Copyright (C) 2003-2007 Jost Boekemeier.
+   *
+   * Permission is hereby granted, free of charge, to any person
+   * obtaining a copy of this file (the "Software"), to deal in the
+   * Software without restriction, including without limitation the
+   * rights to use, copy, modify, merge, publish, distribute,
+   * sublicense, and/or sell copies of the Software, and to permit
+   * persons to whom the Software is furnished to do so, subject to the
+   * following conditions:
+   *
+   * The above copyright notice and this permission notice shall be included in
+   * all copies or substantial portions of the Software.
+   *
+   * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+   * THE COPYRIGHT HOLDER(S) OR AUTHOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES OR
+   * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+   * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+   * OTHER DEALINGS IN THE SOFTWARE.
+   *
+   * @@author     Jost Boekemeier
+   * @@license    GPL
+   * @@link       http://php-java-bridge.sf.net
+   */
+
+
+/**
+ * Helper function: Extract the URL from base and
+ * and set host, port and servlet accordingly.
+ * For example when the user has called:
+ * require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+ * the JAVA_HOSTS is set to localhost:8080 and
+ * JAVA_SERVLET to /JavaBridge/JavaBridge.phpjavabridge.
+ * @@access private
+ */
+function java_defineHostFromInitialQuery($java_base) {
+  if($java_base!="java") {
+	$url = parse_url($java_base);
+	if(isset($url["scheme"]) && ($url["scheme"]=="http" || $url["scheme"]=="https")) {
+	  $scheme = $url["scheme"] == "https" ? "ssl://" : "";
+	  $host = $url["host"];
+	  $port = $url["port"];
+	  $path = $url["path"];
+	  define ("JAVA_HOSTS", "${scheme}${host}:${port}");
+	  $dir = dirname($path);
+	  define ("JAVA_SERVLET", "$dir/servlet.phpjavabridge"); // On ;; On or User
+	  return true;
+	}
+  }
+  return false;
+}
+
+/**
+ * The version number of this PHP library.
+ */
+define ("JAVA_PEAR_VERSION", "6.1");
+
+if(!defined("JAVA_SEND_SIZE")) 
+  define("JAVA_SEND_SIZE", 8192);
+
+if(!defined("JAVA_RECV_SIZE")) 
+  define("JAVA_RECV_SIZE", 8192);
+
+/**
+ * The address of the HTTP back end. 
+ * 
+ * For example "127.0.0.1:8080"
+ * @@see JAVA_SERVLET
+ */
+if(!defined("JAVA_HOSTS")) {
+  if(!java_defineHostFromInitialQuery(java_get_base())) {
+	if ($java_ini=get_cfg_var("java.hosts")) define("JAVA_HOSTS", $java_ini); 
+	else                                define("JAVA_HOSTS", "127.0.0.1:8080"); // host1:port1;host2:port2;...
+  }
+}
+
+/**
+ * Rewrite rules for incoming HTTP requests.
+ * 
+ *Used in conjunction with
+ * JAVA_HOSTS and a servlet/JEE back end 
+ * <ul>
+ * <li>
+ * "On" or 1; Hard-codes the context to "JavaBridge":
+ * http://foo.com/test.php => http://host1:port1/JavaBridge/test.phpjavabridge
+ * cookie path: always "/"
+ *<li>
+ * "bar/JavaBridge.phpjavabridge"; Hard-codes the context to "bar":
+ * http://foo.com/test.php => http://host1:port1/bar/test.phpjavabridge
+ * cookie path: always "/"
+ *<li>
+ * "User"; Separates different web apps:
+ * http://foo.com/mApp1/test.php => http://host1:port1/mApp1/test.phpjavabridge
+ * cookie path: /mApp1
+ * http://foo.com/mApp2/test.php => http://host1:port1/mApp2/test.phpjavabridge
+ * cookie path: /mApp2
+ *<li>
+ * "Off" or 0 doesn't use a web context at all (no cookies are generated, no
+ * PHP/Java session sharing). Back-end must have been started with
+ * INET:PORT or INET_LOCAL:PORT, no Servlet engine, no JEE server.
+ * </ul>
+ */
+ if(!defined("JAVA_SERVLET")) {
+   if (!(($java_ini=get_cfg_var("java.servlet"))===false)) define("JAVA_SERVLET", $java_ini); 
+   else                                               define("JAVA_SERVLET", 1); // Off|0, On|1 or User
+}
+
+/** The request log level between 0 (log off) and 4 (log debug). 
+ * 
+ * The
+ * default request log level is initialized with the value from to the
+ * Java system property "php.java.bridge.default_log_level".  The
+ * servlet's init-param: servlet_log_level (see WEB-INF/web.xml)
+ * overrides this value. The default level is 2.
+ */
+if(!defined("JAVA_LOG_LEVEL"))
+  if (!(($java_ini=get_cfg_var("java.log_level"))===false)) define("JAVA_LOG_LEVEL", (int)$java_ini); 
+  else                                                 define("JAVA_LOG_LEVEL", null); // integer between 0 and 4
+
+
+/** Set to 1 for compatibility with earlier versions.
+ * 
+ * 
+ * When this flag is set, a value (null, int, ...) is returned
+ * immediately and java.lang.RuntimeException/java.lang.Error is
+ * thrown as a normal PHP JavaException. Otherwise a proxy
+ * (RuntimeExceptionErrorMarker, Request$PHPNULL, Integer,
+ * Boolean, ...) is returned and PHP must fetch Java values using
+ * java_values($proxy) or with (string)$proxy. java.lang.Exceptions are thrown as usual. 
+ * But java.lang.RuntimeException/Errors raise a warning and terminate the script with
+ * a fatal PHP error, unless the error condition is fetched and cleared within the
+ * current try/catch block using java_last_exception_get()/java_last_exception_clear().
+ */
+if (!defined("JAVA_PREFER_VALUES"))
+  if ($java_ini=get_cfg_var("java.prefer_values")) define("JAVA_PREFER_VALUES", $java_ini); 
+  else                                        define("JAVA_PREFER_VALUES", 0);
+  
+/**
+ * Debug mode for the client. 
+ * 
+ * This debug flag is for PHP only. To enable the VMBridge log restart
+ * Java with the -Dphp.java.bridge.default_log_level=... option.
+ */
+if(!defined("JAVA_DEBUG")) 
+  if ($java_ini=get_cfg_var("java.debug")) define("JAVA_DEBUG", $java_ini); 
+  else                                define("JAVA_DEBUG", false);
+@
+
+
+1.27
+log
+@Release-6-1-2-1
+@
+text
+@@
+
+
+1.26
+log
+@Release-6-1-2
+@
+text
+@d3 26
+a28 22
+/*
+ * Copyright (C) 2003-2007 Jost Boekemeier.
+ *
+ * Permission is hereby granted, free of charge, to any person
+ * obtaining a copy of this file (the "Software"), to deal in the
+ * Software without restriction, including without limitation the
+ * rights to use, copy, modify, merge, publish, distribute,
+ * sublicense, and/or sell copies of the Software, and to permit
+ * persons to whom the Software is furnished to do so, subject to the
+ * following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * THE COPYRIGHT HOLDER(S) OR AUTHOR(S) BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ * OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ * ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ * OTHER DEALINGS IN THE SOFTWARE.
+ */
+@
+
+
+1.25
+log
+@Release-6-1-1
+@
+text
+@d72 1
+a72 1
+	if ($ini=get_cfg_var("java.hosts")) define("JAVA_HOSTS", $ini); 
+d104 1
+a104 1
+   if (!(($ini=get_cfg_var("java.servlet"))===false)) define("JAVA_SERVLET", $ini); 
+d117 1
+a117 1
+  if (!(($ini=get_cfg_var("java.log_level"))===false)) define("JAVA_LOG_LEVEL", (int)$ini); 
+d135 1
+a135 1
+  if ($ini=get_cfg_var("java.prefer_values")) define("JAVA_PREFER_VALUES", $ini); 
+d145 1
+a145 1
+  if ($ini=get_cfg_var("java.debug")) define("JAVA_DEBUG", $ini); 
+@
+
+
+1.24
+log
+@Release-6-0-3
+@
+text
+@d37 1
+a37 1
+  if($java_base!="java/") {
+d39 2
+a40 1
+	if(isset($url["scheme"]) && ($url["scheme"]=="http")) {
+d44 1
+a44 1
+	  define ("JAVA_HOSTS", "$host:$port");
+d46 1
+a46 1
+	  define ("JAVA_SERVLET", "$dir/JavaBridge.phpjavabridge"); // On ;; On or User
+d56 1
+a56 1
+define ("JAVA_PEAR_VERSION", "5.5");
+@
+
+
+1.23
+log
+@Release-5-5-4
+@
+text
+@a119 13
+/** Use named pipes instead of local TCP sockets.  
+ * 
+ * Set this to
+ * the directory in which the named pipes should be created.
+ * Note that pipes are a little bit slower than persistent TCP
+ * sockets. But they are more secure.
+ * Example: define("JAVA_PIPE_DIR", "/tmp");
+ * Default is to use /dev/shm on Linux, false otherwise.
+ */
+if(!defined("JAVA_PIPE_DIR")) {
+  define("JAVA_PIPE_DIR", null);
+}
+
+a145 9
+
+/** Whether or not the PHP should keep persistent connections to the servlet.
+ * 
+ * Set this to true if you can guarantee that IIS or Apache's "maxClients" is less than
+ * or equal to the SERVLET's thread pool size (usually named "maxThreads").
+ **/
+if(!defined("JAVA_PERSISTENT_SERVLET_CONNECTIONS")) 
+  if ($ini=get_cfg_var("java.persistent_servlet_connections")) define("JAVA_PERSISTENT_SERVLET_CONNECTIONS", $ini); 
+  else                                                         define("JAVA_PERSISTENT_SERVLET_CONNECTIONS", false);
+@
+
+
+1.22
+log
+@Release 5.5.3
+@
+text
+@d80 1
+a80 1
+ * JAVA_HOSTS and a servlet/J2EE back end 
+d99 1
+a99 1
+ * INET:PORT or INET_LOCAL:PORT, no Servlet engine, no J2EE server.
+d141 4
+a144 2
+ * java_values($proxy) and Java RuntimeException/Errors using
+ * java_last_exception_get().
+@
+
+
+1.21
+log
+@Merged Release-5-5-2 branch into HEAD
+@
+text
+@d136 7
+a142 3
+ * When this flag is set, a value (null, int, ...) is returned immediately. Otherwise
+ * a proxy (Request$PHPNULL, Integer, ...) is returned and PHP must fetch its content
+ * using java_values($proxy);
+d160 1
+a160 1
+ * Set this to true if you can guarantee that IE or Apache's "maxClients" is less than
+@
+
+
+1.20
+log
+@Release-5-5-1
+@
+text
+@d130 1
+a130 5
+  if ($ini=get_cfg_var("java.pipe_dir"))  define("JAVA_PIPE_DIR", $ini); 
+  else
+	if (file_exists ("/dev/shm"))         define("JAVA_PIPE_DIR", "/dev/shm" );
+	else if (PHP_OS==='SunOS')            define("JAVA_PIPE_DIR", "/tmp"); // shared memory on Solaris
+	else                                  define("JAVA_PIPE_DIR", null);
+@
+
+
+1.20.4.1
+log
+@http://sourceforge.net/mailarchive/forum.php?thread_name=5B533386-AC83-4E48-9E12-9DDD8D6EA321%40mac.com&forum_name=php-java-bridge-users
+@
+text
+@d130 5
+a134 1
+  define("JAVA_PIPE_DIR", null);
+@
+
+
+1.19
+log
+@Release-5-5
+@
+text
+@d70 1
+a70 1
+  if(!java_defineHostFromInitialQuery($JAVA_BASE)) {
+@
+
+
+1.18
+log
+@Release-5-4-4
+@
+text
+@d55 1
+a55 1
+define ("JAVA_PEAR_VERSION", "5.4.3");
+d104 1
+a104 1
+   else                                               define("JAVA_SERVLET", 1); // "Off"|0, "On"|1 or "User"
+d133 1
+a133 1
+	else if (PHP_OS==='SunOS')            define("JAVA_PIPE_DIR", "/tmp"); # shared memory on Solaris
+@
+
+
+1.17
+log
+@eclipse birt integration
+@
+text
+@d133 1
+a133 1
+	else if (PHP_OS===SunOS)              define("JAVA_PIPE_DIR", "/tmp"); # shared memory on Solaris
+@
+
+
+1.16
+log
+@Release-5-4-1
+@
+text
+@d55 1
+a55 1
+define ("JAVA_PEAR_VERSION", "5.4.1");
+d133 1
+@
+
+
+1.15
+log
+@Release 5.3.3
+@
+text
+@d53 3
+a55 3
+* The version number of this PHP library.
+*/
+define ("JAVA_PEAR_VERSION", "5.3.3");
+a61 47
+ 
+if (defined ("JAVA_PARSE_INI_FILE") && JAVA_PARSE_INI_FILE) {
+  $ini=@@parse_ini_file("java.ini");
+	/**
+	 * The address of the HTTP back end. 
+	 * 
+	 * For example "127.0.0.1:8080"
+	 * @@see JAVA_SERVLET
+	 */
+  if(array_key_exists("java.hosts", $ini)) define("JAVA_HOSTS", $ini["java.hosts"]);
+	/**
+	 * Rewrite rules for incoming HTTP requests.
+	 * 
+	 *Used in conjunction with
+	* JAVA_HOSTS and a servlet/J2EE back end 
+	* <ul>
+	* <li>
+	* "On"; Hard-codes the context to "JavaBridge":
+	* http://foo.com/test.php => http://host1:port1/JavaBridge/test.phpjavabridge
+	* cookie path: always "/"
+	*<li>
+	* "bar/JavaBridge.phpjavabridge"; Hard-codes the context to "bar":
+	* http://foo.com/test.php => http://host1:port1/bar/test.phpjavabridge
+	* cookie path: always "/"
+	*<li>
+	* "User"; Separates different web apps:
+	* http://foo.com/mApp1/test.php => http://host1:port1/mApp1/test.phpjavabridge
+	* cookie path: /mApp1
+	* http://foo.com/mApp2/test.php => http://host1:port1/mApp2/test.phpjavabridge
+	* cookie path: /mApp2
+	*<li>
+	* "Off" doesn't use a web context at all (no cookies are generated, no
+	* PHP/Java session sharing). Back-end must have been started with
+	* INET:PORT or INET_LOCAL:PORT, no Servlet engine, no J2EE server.
+	* </ul>
+	*/
+    if(array_key_exists("java.servlet", $ini)) define("JAVA_SERVLET", $ini["java.servlet"]);
+	/** The request log level between 0 (log off) and 4 (log debug). 
+	 * 
+	 * The
+	* default request log level is initialized with the value from to the
+	* Java system property "php.java.bridge.default_log_level".  The
+	* servlet's init-param: servlet_log_level (see WEB-INF/web.xml)
+	* overrides this value. The default level is 2.
+	* */
+      if(array_key_exists("java.log_level", $ini)) define("JAVA_LOG_LEVEL", $ini["java.log_level"]);
+ }
+d63 7
+a69 1
+ if(!defined("JAVA_HOSTS")) {
+d71 2
+a72 1
+	define("JAVA_HOSTS", "127.0.0.1:8080"); // host1:port1;host2:port2;...
+d74 1
+a74 1
+ }
+d76 26
+d103 2
+a104 1
+  define("JAVA_SERVLET", "On"); // On ;; On or User
+d107 8
+d116 2
+a117 1
+  define ("JAVA_LOG_LEVEL", null); // integer between 0 and 4
+d123 6
+a128 6
+* the directory in which the named pipes should be created.
+* Note that pipes are a little bit slower than persistent TCP
+* sockets. But they are more secure.
+* Example: define("JAVA_PIPE_DIR", "/tmp");
+* Default is to use /dev/shm on Linux, false otherwise.
+* */
+d130 4
+a133 3
+  if (file_exists ("/dev/shm")) define("JAVA_PIPE_DIR", "/dev/shm" );
+  elseif (file_exists ("/tmp")) define("JAVA_PIPE_DIR", "/tmp" );
+  else                          define ("JAVA_PIPE_DIR", null);
+d139 4
+a142 4
+* When this flag is set, a value (null, int, ...) is returned immediately. Otherwise
+* a proxy (Request$PHPNULL, Integer, ...) is returned and PHP must fetch its content
+* using java_values($proxy);
+**/
+d144 2
+a145 1
+  define("JAVA_PREFER_VALUES", 0);
+d148 5
+a152 4
+* Debug mode for the client. 
+* 
+* This debug flag is for PHP only. To enable the VMBridge log restart Java with the -Dphp.java.bridge.default_log_level=... option.
+* */
+d154 11
+a164 1
+  define("JAVA_DEBUG", false);
+@
+
+
+1.14
+log
+@PR#2157571
+@
+text
+@d52 4
+a55 3
+// The version number of this pure PHP implementation
+
+define ("JAVA_PEAR_VERSION", "5.3.2");
+a62 2
+
+// parse "java.ini" for backward compatibility
+d65 6
+d72 36
+a107 2
+  if(array_key_exists("java.servlet", $ini)) define("JAVA_SERVLET", $ini["java.servlet"]);
+  if(array_key_exists("java.log_level", $ini)) define("JAVA_LOG_LEVEL", $ini["java.log_level"]);
+d110 1
+a110 4
+// Deploy JavaBridge.war and re-start the servlet engine or the
+// application server. The following settings direct PHP to the 
+// java virtual machine:
+if(!defined("JAVA_HOSTS")) {
+d116 1
+a116 21
+// Rewrite rules for incoming HTTP requests. Used in conjunction with
+// JAVA_HOSTS and a servlet/J2EE back end 
+// "On"; Hard-codes the context to "JavaBridge":
+// http://foo.com/test.php => http://host1:port1/JavaBridge/test.phpjavabridge
+// cookie path: always "/"
+//
+// "bar/JavaBridge.phpjavabridge"; Hard-codes the context to "bar":
+// http://foo.com/test.php => http://host1:port1/bar/test.phpjavabridge
+// cookie path: always "/"
+//
+// "User"; Separates different web apps:
+// http://foo.com/mApp1/test.php => http://host1:port1/mApp1/test.phpjavabridge
+// cookie path: /mApp1
+// http://foo.com/mApp2/test.php => http://host1:port1/mApp2/test.phpjavabridge
+// cookie path: /mApp2
+//
+// "Off" doesn't use a web context at all (no cookies are generated, no
+// PHP/Java session sharing). Back-end must have been started with
+// INET:PORT or INET_LOCAL:PORT, no Servlet engine, no J2EE server.
+//
+if(!defined("JAVA_SERVLET")) {
+a118 5
+// The request log level between 0 (log off) and 4 (log debug). The
+// default request log level is initialized with the value from to the
+// Java system property "php.java.bridge.default_log_level".  The
+// servlet's init-param: servlet_log_level (see WEB-INF/web.xml)
+// overrides this value. The default level is 2.
+d124 9
+a132 6
+// May we use named pipes instead of local TCP sockets?  Set this to
+// the directory in which the named pipes should be created.
+// Note that pipes are a little bit slower than persistent TCP
+// sockets. But they are more secure.
+// Example: define("JAVA_PIPE_DIR", "/tmp");
+// Default is to use /dev/shm on Linux, false otherwise.
+d139 7
+a145 1
+// Set to 1 for compatibility with earlier versions
+d148 6
+a153 2
+
+// debug mode
+@
+
+
+1.14.2.1
+log
+@Release 5.3.3
+@
+text
+@d52 3
+a54 4
+/**
+* The version number of this PHP library.
+*/
+define ("JAVA_PEAR_VERSION", "5.3.3");
+d62 2
+a65 6
+	/**
+	 * The address of the HTTP back end. 
+	 * 
+	 * For example "127.0.0.1:8080"
+	 * @@see JAVA_SERVLET
+	 */
+d67 2
+a68 36
+	/**
+	 * Rewrite rules for incoming HTTP requests.
+	 * 
+	 *Used in conjunction with
+	* JAVA_HOSTS and a servlet/J2EE back end 
+	* <ul>
+	* <li>
+	* "On"; Hard-codes the context to "JavaBridge":
+	* http://foo.com/test.php => http://host1:port1/JavaBridge/test.phpjavabridge
+	* cookie path: always "/"
+	*<li>
+	* "bar/JavaBridge.phpjavabridge"; Hard-codes the context to "bar":
+	* http://foo.com/test.php => http://host1:port1/bar/test.phpjavabridge
+	* cookie path: always "/"
+	*<li>
+	* "User"; Separates different web apps:
+	* http://foo.com/mApp1/test.php => http://host1:port1/mApp1/test.phpjavabridge
+	* cookie path: /mApp1
+	* http://foo.com/mApp2/test.php => http://host1:port1/mApp2/test.phpjavabridge
+	* cookie path: /mApp2
+	*<li>
+	* "Off" doesn't use a web context at all (no cookies are generated, no
+	* PHP/Java session sharing). Back-end must have been started with
+	* INET:PORT or INET_LOCAL:PORT, no Servlet engine, no J2EE server.
+	* </ul>
+	*/
+    if(array_key_exists("java.servlet", $ini)) define("JAVA_SERVLET", $ini["java.servlet"]);
+	/** The request log level between 0 (log off) and 4 (log debug). 
+	 * 
+	 * The
+	* default request log level is initialized with the value from to the
+	* Java system property "php.java.bridge.default_log_level".  The
+	* servlet's init-param: servlet_log_level (see WEB-INF/web.xml)
+	* overrides this value. The default level is 2.
+	* */
+      if(array_key_exists("java.log_level", $ini)) define("JAVA_LOG_LEVEL", $ini["java.log_level"]);
+d71 4
+a74 1
+ if(!defined("JAVA_HOSTS")) {
+d80 21
+a100 1
+ if(!defined("JAVA_SERVLET")) {
+d103 5
+d113 6
+a118 9
+/** Use named pipes instead of local TCP sockets.  
+ * 
+ * Set this to
+* the directory in which the named pipes should be created.
+* Note that pipes are a little bit slower than persistent TCP
+* sockets. But they are more secure.
+* Example: define("JAVA_PIPE_DIR", "/tmp");
+* Default is to use /dev/shm on Linux, false otherwise.
+* */
+d125 1
+a125 7
+/** Set to 1 for compatibility with earlier versions.
+ * 
+ * 
+* When this flag is set, a value (null, int, ...) is returned immediately. Otherwise
+* a proxy (Request$PHPNULL, Integer, ...) is returned and PHP must fetch its content
+* using java_values($proxy);
+**/
+d128 2
+a129 6
+  
+/**
+* Debug mode for the client. 
+* 
+* This debug flag is for PHP only. To enable the VMBridge log restart Java with the -Dphp.java.bridge.default_log_level=... option.
+* */
+@
+
+
+1.13
+log
+@Release-5-2-2
+@
+text
+@d54 1
+a54 1
+define ("JAVA_PEAR_VERSION", "5.0.0");
+d79 21
+@
+
+
+1.12
+log
+@Release-5-0-0
+@
+text
+@a76 1
+	define("JAVA_SERVLET", "On"); // On ;; On or User
+a77 3
+ } else {
+  if(!defined("JAVA_SERVLET")) 
+	define("JAVA_SERVLET", "On"); // On ;; On or User
+d79 3
+@
+
+
+1.11
+log
+@Release-4-3-3
+@
+text
+@d54 8
+a61 1
+define ("JAVA_PEAR_VERSION", "4.3.2");
+d104 5
+@
+
+
+1.10
+log
+@Release-4-3-2
+@
+text
+@a99 5
+
+// cache needs Proxy and ProxyException interfaces
+if(!defined("JAVA_CACHE_ENABLED")) 
+  define("JAVA_CACHE_ENABLED", false);
+
+@
+
+
+1.9
+log
+@Release-4-3-0
+@
+text
+@d54 1
+a54 1
+define ("JAVA_PEAR_VERSION", "4.2.1");
+d57 6
+a62 4
+$ini=@@parse_ini_file("java.ini");
+if(array_key_exists("java.hosts", $ini)) define("JAVA_HOSTS", $ini["java.hosts"]);
+if(array_key_exists("java.servlet", $ini)) define("JAVA_SERVLET", $ini["java.servlet"]);
+if(array_key_exists("java.log_level", $ini)) define("JAVA_LOG_LEVEL", $ini["java.log_level"]);
+d92 5
+a96 4
+if(!defined("JAVA_PIPE_DIR"))
+  define("JAVA_PIPE_DIR", file_exists("/dev/shm") ? "/dev/shm" 
+		 : file_exists("/tmp" ? "/tmp" : null ));
+
+@
+
+
+1.8
+log
+@Release-4-2-2
+@
+text
+@d34 1
+d36 1
+a36 1
+function defineHostFromInitialQuery($java_base) {
+d56 5
+d66 1
+a66 1
+  if(!defineHostFromInitialQuery($JAVA_BASE)) {
+@
+
+
+1.7
+log
+@Release-4-2-1
+@
+text
+@d94 1
+a94 1
+  define("JAVA_CACHE_ENABLED", true);
+@
+
+
+1.6
+log
+@Release-4-2-0
+@
+text
+@d53 1
+a53 1
+define ("JAVA_PEAR_VERSION", "4.2.0");
+@
+
+
+1.5
+log
+@Release-4-1-8
+@
+text
+@d53 1
+a53 1
+define ("JAVA_PEAR_VERSION", "4.1.0");
+d87 9
+@
+
+
+1.4
+log
+@Release-4-1-0
+@
+text
+@d59 8
+a66 4
+
+if(!defineHostFromInitialQuery($JAVA_BASE)) {
+  define("JAVA_HOSTS", "127.0.0.1:8080"); // host1:port1;host2:port2;...
+  define("JAVA_SERVLET", "On"); // On ;; On or User
+a67 2
+
+
+d74 2
+a75 1
+define ("JAVA_LOG_LEVEL", null); // integer between 0 and 4
+@
+
+
+1.3
+log
+@Release-4-0-5
+@
+text
+@d53 1
+a53 1
+define ("JAVA_PEAR_VERSION", "4.0.5");
+@
+
+
+1.2
+log
+@Release-4-0-2
+@
+text
+@d53 1
+a53 1
+define ("JAVA_PEAR_VERSION", "2.1.0");
+d73 11
+@
+
+
+1.1
+log
+@Further inclusions of 4.0.1 code extracted from src.tgz. Andre Felipe Machado.
+@
+text
+@a26 23
+// The version number of this pure PHP implementation
+
+define ("JAVA_PEAR_VERSION", "1.1.0");
+
+
+// Deploy JavaBridge.war and re-start the servlet engine or the
+// application server. The following settings direct PHP to the 
+// java virtual machine:
+
+if(!defineHostFromInitialQuery($JAVA_BASE)) {
+  define("JAVA_HOSTS", "127.0.0.1:8080"); // host1:port1;host2:port2;...
+  define("JAVA_SERVLET", "On"); // On ;; On or User
+ }
+
+
+// The request log level between 0 (log off) and 4 (log debug). The
+// default request log level is initialized with the value from to the
+// Java system property "php.java.bridge.default_log_level".  The
+// servlet's init-param: servlet_log_level (see WEB-INF/web.xml)
+// overrides this value. The default level is 2.
+
+define ("JAVA_LOG_LEVEL", null); // integer between 0 and 4
+
+d43 1
+a43 1
+	  $dir = dirname(dirname($path));
+d50 23
+@
+

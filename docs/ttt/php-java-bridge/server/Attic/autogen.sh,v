@@ -1,0 +1,76 @@
+head	1.4;
+access;
+symbols
+	PHP-5:1.3.0.4
+	Release-1-0-6:1.3.0.6;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2005.02.03.16.56.08;	author jost2345;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2004.10.26.18.19.48;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.10.24.17.09.47;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.10.23.15.57.36;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Release-1.0.8
+@
+text
+@#!/bin/sh
+rm -rf autom4te.cache
+aclocal
+autoheader
+autoconf
+libtoolize -f
+ln -s `which libtool` .
+automake -a --foreign 
+@
+
+
+1.3
+log
+@Split Makefile.am into two files
+@
+text
+@@
+
+
+1.2
+log
+@autoconf returns bogus value
+@
+text
+@a8 1
+exit 0
+@
+
+
+1.1
+log
+@Solaris and Win98 support
+@
+text
+@d9 1
+@
+

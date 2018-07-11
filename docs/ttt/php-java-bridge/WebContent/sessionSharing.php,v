@@ -1,0 +1,43 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2017.04.14.13.01.11;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Removed JavaProxy.php
+@
+text
+@<?php require_once("java/Java.inc");
+$session = java_session();
+?>
+
+<HTML>
+<TITLE>PHP and JSP session sharing</title>
+<BODY>
+<?php
+
+if(java_is_null($session->get("counter"))) {
+  $session->put("counter", 1);
+}
+
+$counter = java_values($session->get("counter"));
+print "HttpSession variable \"counter\": $counter<br>\n";
+$session->put("counter", $counter+1);
+?>
+<a href="sessionSharing.jsp">JSP page</a>
+</BODY>
+</HTML>
+@

@@ -1,0 +1,331 @@
+head	1.7;
+access;
+symbols
+	upstream_version_5_5:1.6
+	ROOT_Release-5-5:1.6
+	Release-5-5:1.6.0.8
+	debian_version_5_4_4_2-3:1.6
+	Release-5-4-4-2-1:1.6.0.4
+	debian_version_5_4_4_2-2:1.6
+	debian_version_5_4_4_2-1:1.6
+	upstream_version_5_4_4_2:1.6
+	debian_version_5_4_4_1-1:1.6
+	upstream_version_5_4_4_1:1.6
+	debian_version_5_4_4-1:1.6
+	upstream_version_5_4_4:1.6
+	Release-5-4-4:1.6.0.6
+	Root_Release-5-4-4:1.6
+	debian_version_5_4_3_2-1:1.6
+	upstream_version_5_4_3_2:1.6
+	Release_5-4-3-2:1.6.0.2
+	Root_Release_5-4-3-2:1.6
+	upstream_version_5_4_3_1:1.6
+	debian_version_5_4_3_1-1:1.6
+	Release-5-4-3:1.5.0.6
+	Root_Release-5-4-3:1.5
+	Root_Release-5-4-1:1.5
+	Release-5-4-1:1.5.0.4
+	Root_Release-5-4:1.5
+	Release-5-4:1.5.0.2
+	upstream_version_5_3_4:1.3
+	debian_version_5_3_4-1:1.5
+	ROOT_Release-5-3-4:1.3
+	Release-5-3-4:1.3.0.2
+	ROOT_Release-5-3-3:1.2
+	Release-5-3-3:1.2.0.16
+	debian_version_5_3_2_1_2-1:1.2
+	upstream_version_5_3_2_1_2:1.2
+	debian_version_5_3_2_1_1-1:1.2
+	debian_version_5_3_2_1_1:1.2
+	upstream_version_5_3_2_1_1:1.2
+	Root_Release-5-3-2-1:1.2
+	Release-5-3-2-1:1.2
+	ROOT_RELEASE-5-3-2-1:1.2
+	RELEASE-5-3-2-1:1.2.0.18
+	Release-5-3-2:1.2.0.14
+	Root_Release-5-3-2:1.2
+	Root_Release-5-3-1:1.2
+	Release-5-3-1:1.2.0.12
+	Release-5-2-3-1:1.2.0.10
+	Root_Release-5-2-3-1:1.2
+	Release-5-2-2-4:1.2.0.8
+	Root_Release-5-2-2-4:1.2
+	Release-5-2-2-1:1.2.0.6
+	Root_Release-5-2-2-1:1.2
+	upstream_version_5_2_2:1.2
+	debian_version_5_2_2-1:1.2
+	Release-5-2-2:1.2.0.4
+	ROOT_Release-5-2-2:1.2
+	ROOT_Release-5-2-1:1.2
+	Release-5-2-1:1.2.0.2
+	Release-5-2-0:1.1.0.18
+	ROOT_Release-5-2-0:1.1
+	ROOT_Release-5-1-2:1.1
+	Release-5-1-2:1.1.0.16
+	Version-5-1-1:1.1.0.14
+	ROOT_Version-5-1-1:1.1
+	debian_version_5_1_0-1:1.1
+	upstream_version_5_1_0:1.1
+	ROOT_Release-5-1-0:1.1
+	Release-5-1-0:1.1.0.12
+	ROOT_Release-5-0-0:1.1
+	Release-5-0-0:1.1.0.10
+	Release-4-3-3:1.1.0.8
+	ROOT_Release-4-3-3:1.1
+	upstream_version_4_3_2:1.1
+	debian_version_4_3_2-1:1.1
+	ROOT_Release-4-3-2:1.1
+	Release-4-3-2:1.1.0.6
+	Release-4-3-1:1.1.0.4
+	ROOT_Release-4-3-1:1.1
+	debian_version_4_3_0-1:1.1
+	upstream_version_4_3_0:1.1
+	ROOT_Release-4-3-0:1.1
+	Release-4-3-0:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.7
+date	2009.07.25.13.56.04;	author jost_boekemeier;	state dead;
+branches;
+next	1.6;
+
+1.6
+date	2009.01.06.17.05.11;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2008.12.02.21.56.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.12.02.19.16.01;	author jost_boekemeier;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.03.22.12.04.55;	author jost_boekemeier;	state Exp;
+branches
+	1.2.16.1;
+next	1.1;
+
+1.1
+date	2007.09.30.16.11.29;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+1.2.16.1
+date	2008.11.09.17.01.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2.16.2;
+
+1.2.16.2
+date	2008.11.10.17.54.17;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Release-5-5
+@
+text
+@body 
+{ 
+	background: #EEEEEE url(bg_left.png) repeat;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* Banner (top bar) classes */
+
+.banner {  }
+
+.banner-menu 
+{ 
+	clear: both;
+	padding: .5em;
+	border-top: 2px solid #999999;	
+}
+
+.banner-title 
+{ 
+	text-align: right; 
+	font-size: 20pt; 
+	font-weight: bold; 
+	margin: .2em;
+}
+
+.package-selector 
+{ 
+	background-color: #EEEEEE; 
+	border: 1px solid black; 
+	color: #0000C0;
+}
+@
+
+
+1.6
+log
+@Release-5-4-3
+@
+text
+@@
+
+
+1.5
+log
+@documentation
+@
+text
+@d3 2
+a4 2
+	background-color: #CCCCFF; 
+	margin: 0px; 
+d16 1
+a16 1
+	border-top: 2px solid #6666AA;	
+d29 1
+a29 1
+	background-color: #AAAADD; 
+d31 1
+a31 1
+	color: yellow;
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d3 2
+a4 2
+	background: #EEEEEE url(bg_left.png) repeat;
+	margin: 0px;
+d16 1
+a16 1
+	border-top: 2px solid #999999;	
+d29 1
+a29 1
+	background-color: #EEEEEE; 
+d31 1
+a31 1
+	color: #0000C0;
+@
+
+
+1.3
+log
+@Release 5.3.3
+@
+text
+@@
+
+
+1.2
+log
+@Release-5-2-1
+@
+text
+@d3 2
+a4 2
+	background-color: #CCCCFF; 
+	margin: 0px; 
+d16 1
+a16 1
+	border-top: 2px solid #6666AA;	
+d29 1
+a29 1
+	background-color: #AAAADD; 
+d31 1
+a31 1
+	color: yellow;
+@
+
+
+1.2.16.1
+log
+@Release 5.3.3
+@
+text
+@d3 1
+a3 1
+	background-color: #FFFFFF; 
+d16 1
+a16 1
+	border-top: 2px solid #999999;	
+d29 1
+a29 1
+	background-color: #EEEEEE; 
+d31 1
+a31 1
+	color: #0000C0;
+@
+
+
+1.2.16.2
+log
+@Release 5.3.3
+@
+text
+@d3 2
+a4 2
+	background: #EEEEEE url(bg_left.png) repeat;
+	margin: 0px;
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d1 32
+a32 32
+body 
+{ 
+	background-color: #CCCCFF; 
+	margin: 0px; 
+	padding: 0px;
+}
+
+/* Banner (top bar) classes */
+
+.banner {  }
+
+.banner-menu 
+{ 
+	clear: both;
+	padding: .5em;
+	border-top: 2px solid #6666AA;	
+}
+
+.banner-title 
+{ 
+	text-align: right; 
+	font-size: 20pt; 
+	font-weight: bold; 
+	margin: .2em;
+}
+
+.package-selector 
+{ 
+	background-color: #AAAADD; 
+	border: 1px solid black; 
+	color: yellow;
+}
+@
+

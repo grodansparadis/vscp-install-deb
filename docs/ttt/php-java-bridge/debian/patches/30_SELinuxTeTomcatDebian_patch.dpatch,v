@@ -1,0 +1,145 @@
+head	1.3;
+access;
+symbols
+	Release-7-1-1:1.3.0.10
+	Root_Release-7-1-1:1.3
+	Root_Release_7-0-1:1.3
+	Release_7-0-1:1.3.0.8
+	Release_7-0-0:1.3.0.6
+	Root_Release_7-0-0:1.3
+	Release-6-2-2:1.3.0.4
+	Release-6-1-2-3:1.3
+	Root_Release-6-1-2-3:1.3
+	Release-6-1-2-2:1.3.0.2
+	Root_Release-6-1-2-2:1.3
+	debian_version_6_1_2_1-1:1.3
+	upstream_version_6_1_2_1:1.2
+	Release-6-1-2-1_new:1.2.0.6
+	Root_Release-6-1-2-1_new:1.2
+	Release-6-1-2-1:1.2.0.4
+	Root_Release-6-1-2-1:1.2
+	upstream_version_6_1_2:1.2
+	debian_version_6_1_2-1:1.2
+	Release-6-1-2:1.2.0.2
+	Root_Release-6-1-2:1.2
+	debian_version_6_1_1-2:1.2
+	debian_version_6_1_1-1:1.2
+	upstream_version_6_1_1:1.1
+	Release-6-1-1:1.1.0.24
+	Root_Release-6-1-1:1.1
+	Release-6-0-4:1.1.0.22
+	Root_Release-6-0-4:1.1
+	Release-6-0-3_NEW:1.1.0.18
+	Root_Release-6-0-3_NEW:1.1
+	Release-6-0-3:1.1.0.20
+	Root_Release-6-0-3:1.1
+	Release-6-0-0:1.1.0.16
+	Root_Release-6-0-0:1.1
+	Release-5-5-4-1:1.1.0.14
+	Root_Release-5-5-4-1:1.1
+	Release-5-5-4:1.1.0.12
+	Root_Release-5-5-4:1.1
+	Release-5-5-3:1.1.0.10
+	ROOT_Release-5-5-3:1.1
+	Release-5-5-2:1.1.0.8
+	Root_Release-5-5-2:1.1
+	debian_version_5_5_1-1:1.1
+	Release-5-5-1:1.1.0.4
+	upstream_version_5_5_1:1.1
+	ROOT_Release-5-5-1:1.1
+	debian_version_5_5-1:1.1
+	upstream_version_5_5:1.1
+	ROOT_Release-5-5:1.1
+	Release-5-5:1.1.0.6
+	debian_version_5_4_4_2-3:1.1
+	Release-5-4-4-2-1:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2010.05.04.19.55.26;	author andremachado;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2010.04.06.17.06.08;	author andremachado;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2009.07.03.20.09.15;	author andremachado;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@New upstream version. Small corrections at Readme and SE Linux Tomcat Debian patch.
+@
+text
+@#! /bin/sh /usr/share/dpatch/dpatch-run
+## 30_SELinuxTeTomcatDebian_patch.dpatch by  <andre.machado@@serpro.gov.br>
+##
+## All lines beginning with `## DP:' are a description of the patch.
+## DP: No description.
+
+@@DPATCH@@
+diff -urNad php-java-bridge~/security/module/php-java-bridge-tomcat.te.rej php-java-bridge/security/module/php-java-bridge-tomcat.te.rej
+--- php-java-bridge~/security/module/php-java-bridge-tomcat.te.rej	1969-12-31 21:00:00.000000000 -0300
++++ php-java-bridge/security/module/php-java-bridge-tomcat.te.rej	2010-05-04 16:48:22.000000000 -0300
+@@@@ -0,0 +1,11 @@@@
++***************
++*** 1,4 ****
++- policy_module(javabridge_tomcat,3.1.7)
++  
++  ########################################
++  #
++--- 1,4 ----
+++ policy_module(javabridge_tomcat,6.1.2.1)
++  
++  ########################################
++  #
+@
+
+
+1.2
+log
+@New ant build system. C binary deprecated and removed. Dependency on newer debhelper. SERPRO sponsoring Debian package maintainer work.
+@
+text
+@d8 15
+a22 9
+diff -urNad php-java-bridge~/security/module/php-java-bridge-tomcat.te php-java-bridge/security/module/php-java-bridge-tomcat.te
+--- php-java-bridge~/security/module/php-java-bridge-tomcat.te	2006-08-08 14:20:45.000000000 -0300
++++ php-java-bridge/security/module/php-java-bridge-tomcat.te	2010-04-06 13:44:31.000000000 -0300
+@@@@ -1,4 +1,4 @@@@
+-policy_module(javabridge_tomcat,3.1.7)
++policy_module(javabridge_tomcat,6.1.1)
+ 
+ ########################################
+ #
+@
+
+
+1.1
+log
+@SE Linux experimental packaging. First, j2see.
+@
+text
+@d2 1
+a2 1
+## 30_SELinuxTeTomcatDebian_patch.dpatch by  <andremachado@@debian.pae.serpro>
+d9 2
+a10 2
+--- php-java-bridge~/security/module/php-java-bridge-tomcat.te	2009-07-01 17:27:18.000000000 -0300
++++ php-java-bridge/security/module/php-java-bridge-tomcat.te	2009-07-01 17:36:47.000000000 -0300
+d13 1
+a13 1
++policy_module(javabridge_tomcat,5.4.4.2)
+@
+

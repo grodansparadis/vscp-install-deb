@@ -1,0 +1,4691 @@
+head	1.36;
+access;
+symbols
+	Version-1:1.33.0.6
+	Version-2:1.33.0.4
+	Release-2:1.33.0.2
+	PHP-5:1.13.0.4
+	Release-1-0-6:1.14.0.2
+	sparc-64-test:1.10.0.2
+	V-2004-08-28:1.1.1.1
+	PHP-JAVA-BRIDGE:1.1.1;
+locks; strict;
+comment	@# @;
+expand	@k@;
+
+
+1.36
+date	2005.02.15.19.35.04;	author jost2345;	state dead;
+branches;
+next	1.35;
+
+1.35
+date	2005.02.15.19.10.30;	author jost2345;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2005.02.13.21.43.28;	author jost2345;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2005.02.03.16.56.08;	author jost2345;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2005.01.28.16.32.55;	author jost2345;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2005.01.07.16.27.15;	author jost2345;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2005.01.06.17.09.34;	author jost2345;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2005.01.04.19.24.32;	author jost2345;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.01.04.17.15.41;	author jost2345;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.12.20.20.04.44;	author jost2345;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.12.12.09.57.26;	author jost2345;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.12.03.18.35.21;	author jost2345;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.12.01.20.29.58;	author jost2345;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.11.28.21.12.58;	author jost2345;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.11.27.13.45.49;	author jost2345;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.11.26.21.13.40;	author jost2345;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.11.24.23.18.17;	author jost2345;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.11.21.14.44.56;	author jost2345;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.11.20.16.19.14;	author jost2345;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.11.18.21.39.55;	author jost2345;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.11.03.20.16.40;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.11.03.20.13.40;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.10.30.10.47.52;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.10.28.15.20.54;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.10.24.10.58.48;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.10.18.17.37.48;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.10.09.11.35.18;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.10.07.11.19.46;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.10.06.16.44.33;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.10.06.16.26.10;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.10.05.21.51.58;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.10.04.16.35.11;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.09.27.17.40.52;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.09.26.13.32.42;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.09.15.11.39.40;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.08.28.06.06.25;	author jost2345;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2004.08.28.06.06.25;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@/*-*- mode: Java; tab-width:4 -*-*/
+
+import java.beans.BeanInfo;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Array;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.lang.ref.WeakReference;
+import java.util.*;
+import java.io.*;
+import java.net.*;
+
+public class JavaBridge implements Runnable {
+
+    static PrintStream logStream;
+    static int logLevel;
+
+    // class hash
+    private static final HashMap classes = new HashMap(); 
+
+    // the list of jar files in which we search for user classes.
+    static private Collection sysUrls = null;
+
+    // the list of jar files in which we search for user classes.  can
+    // be changed with setLibraryPath
+    private Collection urls = null;
+
+    //
+    // private classloader used to load classes from the
+    // JarLibraryPath and from jar files deployed in the
+    // /usr/share/java directory
+    //
+    ClassLoader cl = new ClassLoader() {
+			// Read the class from input stream and return bytes or null
+			private byte[] read (InputStream in, int length) throws java.io.IOException {
+				int c, pos;
+				byte[] b = new byte[length];
+		    
+				for(pos=0; (c=in.read(b, pos, b.length-pos))<length-pos; pos+=c) {
+					if(c<0) { in.close(); return null; }
+				}
+	
+				in.close();
+				return b;
+			}
+
+			// Read the class in 8K chunks until EOF, return bytes or null
+			private byte[] readChunks(InputStream in) throws java.io.IOException {
+				int c, pos;
+				int len = 8192;
+				byte[] b = new byte[len];
+
+				Collection buffers = new ArrayList();
+				while(true) {
+					for(pos=0; (c=in.read(b, pos, len-pos))<len-pos; pos+=c) {
+						if(c<0) break;
+					}
+					if(c<0) break;
+					buffers.add(b);
+					b=new byte[len];
+				}
+				byte[] result = new byte[buffers.size() * len + pos];
+				int p=0;
+				for (Iterator i=buffers.iterator(); i.hasNext(); p+=len){
+					byte[] _b = (byte[])i.next();
+					System.arraycopy(_b, 0, result, p, len);
+				}
+				System.arraycopy(b, 0, result, p, pos);
+				in.close();
+				return result;
+			}	
+
+			byte[] load(URL u, String name) throws Exception {
+				logMessage("try to load class " + name + " from " + u);
+				byte b[]=null;
+				int pt;
+				String p, h, f;
+				
+				p = u.getProtocol(); h = u.getHost(); 
+				pt = u.getPort(); f = u.getFile();
+				URL url = new URL(p ,h , pt, f+name.replace('.','/')+".class");
+				
+				URLConnection con = url.openConnection();
+				con.connect();
+				int length = con.getContentLength();
+				InputStream in = con.getInputStream();
+				
+				if(length > 0) 
+					b = read(in, length);
+				else if(length < 0) // bug in gcj
+					b = readChunks(in);
+				
+				return b;
+			}
+			public Class findClass(String name) throws ClassNotFoundException {
+				Class c = null;
+				byte[] b = null;
+
+				synchronized(classes) {
+					Object o = classes.get(name);
+					if(o!=null) o = ((WeakReference)o).get();
+					if(o!=null) c = (Class)o;
+					if(c!=null) return c;
+					try {
+						return ClassLoader.getSystemClassLoader().loadClass(name);
+					} catch (ClassNotFoundException e) {};
+		    
+					Collection[] allUrls = {urls, sysUrls};
+					ArrayList list = new ArrayList();
+					for(int n=0; b==null && n<allUrls.length; n++) {
+						Collection urls = allUrls[n];
+						if(urls!=null) 
+							for (Iterator i=urls.iterator(); i.hasNext(); ) {
+								URL url = (URL)i.next();
+								try {
+									if ((b=load(url, name))!=null) break;
+								} catch (Exception e) {
+									Vector v = new Vector();
+									v.add(url); v.add(e);
+									list.add(v);
+								}
+							}
+					}
+					if (b==null) throw new ClassNotFoundException(name + " not found: " + String.valueOf(list));
+
+					if((c = this.defineClass(name, b, 0, b.length)) != null) classes.put(name, new WeakReference(c));
+				}
+				return c;
+			}
+
+			private URL getResource(URL url, String name) {
+				try{
+					URL res = new URL(url.getProtocol(), url.getHost(), url.getPort(), url.getFile() + name);
+					logMessage("try to find resource " + res);
+					res.openStream().close();
+					return res;
+				} catch (Exception e) {
+					return null;
+				}
+			}
+			public URL findResource(String name) {
+				URL res;
+				Collection[] allUrls = {urls, sysUrls};
+				for(int n=0; n<allUrls.length; n++) {
+					Collection urls = allUrls[n];
+					if(urls!=null) 
+						for (Iterator i=urls.iterator(); i.hasNext(); ) 
+							if ((res=getResource((URL)i.next(), name))!=null) return res;
+				}
+				return null;
+			}
+			public Enumeration findResources(String name) {
+				URL res;
+				Hashtable e = new Hashtable();
+				Collection[] allUrls = {urls, sysUrls};
+				for(int n=0; n<allUrls.length; n++) {
+					Collection urls = allUrls[n];
+					if(urls!=null) 
+						for (Iterator i=urls.iterator(); i.hasNext(); ) 
+							if ((res=getResource((URL)i.next(), name))!=null) e.put(new Object(), res);
+				}
+				return e.elements();
+			}
+		};
+
+    //
+    // allows php to access and iterate over arrays, maps and
+    // collections.
+    //
+    public static abstract class PhpMap {
+		Object value;
+		Object keyType; //null: key is integer (array), !null: key is string (hash)
+		public PhpMap(Object value, Object keyType) {
+			this.value=value;
+			this.keyType=keyType;
+			init();
+		}
+		abstract void init();
+		public abstract Object currentData();
+		public abstract byte[] currentKey();
+		public abstract Object moveForward();
+		public abstract Object hasMore();
+		public Object getType() {
+			return keyType;
+		}
+
+		public abstract boolean offsetExists(Object pos);
+		public abstract Object offsetGet(Object pos);
+		public abstract void offsetSet(Object pos, Object val);
+		public abstract void offsetUnset(Object pos); //remove
+    };
+	
+    //
+    // Native methods
+    //
+    static native boolean openLog(String logFile);
+    static native void startNative(int logLevel, String sockname);
+    static native void setResultFromString(long result, long peer, byte value[]);
+    static native void setResultFromLong(long result, long peer, long value);
+    static native void setResultFromDouble(long result, long peer, double value);
+    static native void setResultFromBoolean(long result, long peer, boolean value);
+    static native void setResultFromObject(long result, long peer, Object value);
+
+    /*
+     * The following 4 methods are used in PHP 4 only. PHP 5 uses the
+     * PhpMap
+     */
+    static native boolean setResultFromArray(long result, long peer, Object value);
+    static native long nextElement(long array, long peer);
+    static native long hashUpdate(long array, long peer, byte key[]);
+    static native long hashIndexUpdate(long array, long peer, long key);
+
+    static native void setException(long result, long peer, Throwable value, byte strValue[]);
+    native void handleRequests(Object globalRef, int socket, int uid, int gid);
+    static native int handleRequest(Object globalRef, long peer);
+    static native boolean trampoline(Object globalRef, long peer, boolean jump);
+
+    //
+    // Helper routines for the C implementation
+    //
+    public Object MakeArg(boolean b) { return new Boolean(b); }
+    public Object MakeArg(long l)    { return new Long(l); }
+    public Object MakeArg(double d)  { return new Double(d); }
+    public static Class GetClass(Object obj) {
+		if(obj==null) return null;
+		return obj instanceof Class?(Class)obj:obj.getClass();
+    }
+	
+
+    // 
+    // Communication with client in a new thread
+    //
+    private int peer, uid, gid;
+    public void run() { handleRequests(new Hashtable(), peer, uid, gid); }
+    public static void HandleRequests(int peer, int uid, int gid) {  
+		JavaBridge bridge = new JavaBridge();
+		Thread thread = new Thread(bridge);
+		bridge.peer=peer;
+		bridge.uid=uid;
+		bridge.gid=gid;
+		thread.setContextClassLoader(bridge.cl);
+		logDebug("Request from client with uid/gid "+uid+"/"+gid);
+		thread.start();
+    }
+
+    //
+    // A trampoline, called  for each packet, to clear local refs.
+    //
+    public static int HandleRequest(Object globalRef, long peer) { return handleRequest (globalRef, peer); }
+    public static boolean Trampoline(Object globalRef, long peer, boolean jump) { return trampoline (globalRef, peer, jump); }
+
+    //
+    // Return map for the value (PHP 5 only)
+    //
+    public PhpMap getPhpMap(Object value) { 
+		logDebug("returning map for "+ value.getClass());
+
+		if(value.getClass().isArray()) {
+			return 
+				new PhpMap(value, (Object)null) {
+					boolean valid;
+					int i;
+					long length;
+		    
+					void init() {
+						i=0;
+						length = Array.getLength(this.value);
+						valid=length>0;
+					}
+					public Object currentData() {
+						if(!valid) return null;
+						return Array.get(this.value, i);
+					}
+					public byte[] currentKey() {
+						if(!valid) return null;
+						return String.valueOf(i).getBytes();
+					}
+					public Object moveForward() {
+						valid=++i<length;
+						return valid?this:null;
+					}
+					public Object hasMore() {
+						return valid?this:null;
+					}
+
+					public boolean offsetExists(Object pos) {
+						int i = ((Long)pos).intValue();
+						return (i>0 && i<length && (Array.get(this.value, i)!=this));
+					}
+					public Object offsetGet(Object pos) {
+						int i = ((Long)pos).intValue();
+						Object o = Array.get(this.value, i);
+						return o==this ? null : o;
+					}
+					public void offsetSet(Object pos, Object val) {
+						int i = ((Long)pos).intValue();
+						Array.set(this.value, i, val);
+					}
+					public void offsetUnset(Object pos) {
+						int i = ((Long)pos).intValue();
+						Array.set(this.value, i, this);
+					}
+				};
+		}
+		if(value instanceof Collection) {
+			return 
+				new PhpMap(value, (Object)null) {
+					Object currentKey;
+					int i;
+					Iterator iter;
+		    
+					void init() {
+						iter = ((Collection)(this.value)).iterator();
+						i = 0;
+						currentKey=null;
+						if(iter.hasNext()) {
+							currentKey=iter.next();
+						}
+					}
+					public Object currentData() {
+						return currentKey;
+					}
+					public byte[] currentKey() {
+						return String.valueOf(i).getBytes();
+					}
+					public Object moveForward() {
+						if(iter.hasNext()) {
+							i++;
+							currentKey = iter.next();
+							return String.valueOf(i).getBytes();
+						} else {
+							return null;
+						}
+					}
+					public Object hasMore() {
+						return currentKey;
+					}
+
+					// Should we really care?
+					public boolean offsetExists(Object pos) {
+						return false;
+					}
+					public Object offsetGet(Object pos) {
+						return null;
+					}
+					public void offsetSet(Object pos, Object val) {
+					}
+					public void offsetUnset(Object pos) {
+					}
+				};
+		}
+		if(value instanceof Map) {
+			return
+				new PhpMap(value, value){
+					Object currentKey;
+					Iterator iter;
+		    
+					void init() {
+						iter = ((Map)(this.value)).keySet().iterator();
+						currentKey=null;
+						if(iter.hasNext()) {
+							currentKey=iter.next();
+						}
+					}
+					public Object currentData() {
+						if(currentKey==null) return null;
+						return ((Map)(this.value)).get(currentKey);
+					}
+					public byte[] currentKey() {
+						return String.valueOf(currentKey).getBytes();
+					}
+					public Object moveForward() {
+						currentKey = iter.hasNext() ? iter.next() : null;
+						return currentKey;
+					}
+					public Object hasMore() {
+						return currentKey;
+					}
+
+					public boolean offsetExists(Object pos) {
+						return ((Map)(this.value)).containsKey(pos);
+					}
+					public Object offsetGet(Object pos) {
+						return ((Map)(this.value)).get(pos);
+					}
+					public void offsetSet(Object pos, Object val) {
+						((Map)(this.value)).put(pos, val);
+					}
+					public void offsetUnset(Object pos) {
+						((Map)(this.value)).remove(pos);
+					}
+				};
+		}
+		return null;
+    }
+
+    //
+    // add all jars found in the phpConfigDir/lib and /usr/share/java
+    // to our classpath
+    //
+    static void addSystemLibraries(String phpConfigDir) {
+		try {
+			String[] paths = {phpConfigDir+"/lib", "/usr/share/java"};
+			for(int i=0; i<paths.length; i++) {
+				File d = new File(paths[i]);
+				String[] files=d.list();
+				if(files==null) continue;
+				for(int j=0; j<files.length; j++) {
+					String file = files[j];
+					int len = file.length();
+					if(len<4) continue;
+					if(!file.endsWith(".jar")) continue;
+					try {
+						URL url;
+						file = "jar:file:" + d.getAbsolutePath() + File.separator + file + "!/";
+						url = new URL(file);
+						if(sysUrls==null) sysUrls=new ArrayList();
+						logMessage("added system library: " + url);
+						sysUrls.add(url);
+					}  catch (MalformedURLException e1) {
+						printStackTrace(e1);
+					}
+				}
+			}
+		} catch (Exception t) {
+			printStackTrace(t);
+		}
+    }
+    
+		
+    //
+    // init
+    //
+    static void init(String s[]) {
+		String logFile=null;
+		String sockname=null;
+		try {
+			if(s.length>0) {
+				sockname=s[0];
+			} else {
+				JavaBridge.logFatal("No socket.  You must pass the socket filename, for example /tmp/.report_bridge");
+				System.exit(12);
+			}
+			try {
+				if(s.length>1) {
+					JavaBridge.logLevel=Integer.parseInt(s[1]);
+				}
+			} catch (Throwable t) {
+				t.printStackTrace();
+			}
+
+			try {
+				if(s.length>2) {
+					logFile=s[2];
+					if(JavaBridge.logLevel>3) System.out.println("Java log         : " + logFile);
+					if(logFile==null||logFile.trim().length()==0)
+						JavaBridge.logStream=System.out;
+					else {
+						if(!openLog(logFile))
+							JavaBridge.logStream=new java.io.PrintStream(new java.io.FileOutputStream(logFile));
+						else
+							JavaBridge.logStream=System.out;
+					}
+				}
+			}catch (Throwable t) {
+				t.printStackTrace();
+			}
+			JavaBridge.logMessage("Java logFile     : " + logFile);
+			JavaBridge.logMessage("Java logLevel    : " + JavaBridge.logLevel);
+			JavaBridge.logMessage("Java socket      : " + sockname);
+			JavaBridge.startNative(JavaBridge.logLevel, sockname);
+			System.exit(0);
+		} catch (Throwable t) {
+			printStackTrace(t);
+			System.exit(1);
+		}
+    }
+
+
+    //
+    // Logging
+    //
+    static boolean haveDateFormat=true;
+    private static Object _form;
+    private static String now() {
+		if(!haveDateFormat) return String.valueOf(System.currentTimeMillis());
+		try {
+			if(_form==null)
+				_form = new java.text.SimpleDateFormat("MMM dd HH:mm:ss");
+			return ((java.text.SimpleDateFormat)_form).format(new Date());
+		} catch (Throwable t) {
+			haveDateFormat=false;
+			return now();
+		}
+    }
+
+    public static void println(int level, String msg) {
+		StringBuffer b = new StringBuffer(now());
+		b.append(" JavaBridge ");
+		switch(level) {
+		case 1: b.append("FATAL"); break;
+		case 2: b.append("ERROR"); break;
+		case 3: b.append("INFO "); break;
+		case 4: b.append("DEBUG"); break;
+		default: b.append(level); break;
+		}
+		b.append(": ");
+		b.append(msg);
+		logStream.println(b);
+    }
+    public static void printStackTrace(Throwable t) {
+		if(logLevel > 0)
+			if ((t instanceof Error) || logLevel > 1) 
+				t.printStackTrace(logStream);
+    }
+    public static void logDebug(String msg) {
+		if(logLevel>3) println(4, msg);
+    }
+    public static void logFatal(String msg) {
+		if(logLevel>0) println(1, msg);
+    }
+    public static void logError(String msg) {
+		if(logLevel>1) println(2, msg);
+    }
+    public static void logMessage(String msg) {
+		if(logLevel>2) println(3, msg);
+    }
+
+    public static void main(String s[]) {
+		try {
+			System.loadLibrary("natcJavaBridge");
+		} catch (Throwable t) {
+			t.printStackTrace();
+			System.exit(9);
+		}
+		try {
+			init(s);
+		} catch (Throwable t) {
+			t.printStackTrace();
+			System.exit(9);
+		}
+    }
+
+    //
+    // Helper routines which encapsulate the native methods
+    //
+    static void setResult(long result, long peer, Object value) {
+		if (value == null) {
+			JavaBridge.setResultFromString(result, peer, null);
+		} else if (value instanceof byte[]) {
+			JavaBridge.setResultFromString(result, peer, (byte[])value);
+		} else if (value instanceof java.lang.String) {
+			JavaBridge.setResultFromString(result, peer, ((String)value).getBytes());
+		} else if (value instanceof java.lang.Number) {
+
+			if (value instanceof java.lang.Integer ||
+				value instanceof java.lang.Short ||
+				value instanceof java.lang.Byte) {
+				JavaBridge.setResultFromLong(result, peer, ((Number)value).longValue());
+			} else {
+				/* Float, Double, BigDecimal, BigInteger, Double, Long, ... */
+				JavaBridge.setResultFromDouble(result, peer, ((Number)value).doubleValue());
+			}
+
+		} else if (value instanceof java.lang.Boolean) {
+
+			JavaBridge.setResultFromBoolean(result, peer, ((Boolean)value).booleanValue());
+
+		} else if (value.getClass().isArray()) {
+
+			long length = Array.getLength(value);
+			if(JavaBridge.setResultFromArray(result, peer, value)) {
+				// Since PHP 5 this is dead code, setResultFromArray
+				// behaves like setResultFromObject and returns
+				// false. See PhpMap.
+				for (int i=0; i<length; i++) {
+					setResult(JavaBridge.nextElement(result, peer), peer, Array.get(value, i));
+				}
+			}
+		} else if (value instanceof java.util.Hashtable) {
+
+			Hashtable ht = (Hashtable) value; 
+			if (JavaBridge.setResultFromArray(result, peer, value)) {
+				// Since PHP 5 this is dead code, setResultFromArray
+				// behaves like setResultFromObject and returns
+				// false. See PhpMap.
+				for (Enumeration e = ht.keys(); e.hasMoreElements(); ) {
+					Object key = e.nextElement();
+					long slot;
+					if (key instanceof Number && 
+						!(key instanceof Double || key instanceof Float))
+						slot = JavaBridge.hashIndexUpdate(result, peer, ((Number)key).longValue());
+					else
+						slot = JavaBridge.hashUpdate(result, peer, key.toString().getBytes());
+					setResult(slot, peer, ht.get(key));
+				}
+			}
+
+		} else {
+
+			JavaBridge.setResultFromObject(result, peer, value);
+
+		}
+    }
+    Throwable lastException = null;
+
+    void lastException(long result, long peer) {
+		setResult(result, peer, lastException);
+    }
+
+    void clearException() {
+		lastException = null;
+    }
+
+
+    private static String argsToString(Object args[]) {
+		StringBuffer buffer = new StringBuffer("");
+		if(args!=null) {
+			for(int i=0; i<args.length; i++) {
+				buffer.append(String.valueOf(GetClass(args[i])));
+				if(i+1<args.length) buffer.append(", ");
+			}
+		}
+		return buffer.toString();
+    }
+
+    void setException(long result, long peer, Throwable e, String method, Object obj, String name, Object args[]) {
+		if (e instanceof InvocationTargetException) {
+			Throwable t = ((InvocationTargetException)e).getTargetException();
+			if (t!=null) e=t;
+		}
+
+		StringBuffer buf=new StringBuffer(method);
+		buf.append(" failed: ");
+		if(obj!=null) {
+			buf.append("[");
+			buf.append(String.valueOf(obj));
+			buf.append("]->"); 
+		} else {
+			buf.append("new ");
+		}
+		buf.append(name); 
+		String arguments = argsToString(args);
+		if(arguments.length()>0) {
+			buf.append("(");
+			buf.append(arguments);
+			buf.append(")");
+		}
+		buf.append(".");
+		buf.append(" Cause: ");
+		buf.append(String.valueOf(e));
+		
+		lastException = new Exception(buf.toString(), e);
+		JavaBridge.setException(result, peer, lastException, lastException.toString().getBytes());
+    }
+
+    //
+    // Create an new instance of a given class
+    //
+    public void CreateObject(String name, boolean createInstance,
+							 Object args[], long result, long peer) {
+		try {
+			Vector matches = new Vector();
+			Constructor selected = null;
+
+			if(createInstance) {
+				Constructor cons[] = Class.forName(name, true, cl).getConstructors();
+				for (int i=0; i<cons.length; i++) {
+					if (cons[i].getParameterTypes().length == args.length) {
+						matches.addElement(cons[i]);
+					}
+				}
+
+				selected = (Constructor)select(matches, args);
+			}
+
+			if (selected == null) {
+				if (args.length > 0) {
+					throw new InstantiationException("No matching constructor found. " + "Matches: " + String.valueOf(matches));
+				} else {
+					// for classes which have no visible constructor, return the class
+					// useful for classes like java.lang.System and java.util.Calendar.
+					setResult(result, peer, Class.forName(name, true, cl));
+					return;
+				}
+			}
+
+			Object coercedArgs[] = coerce(selected.getParameterTypes(), args);
+			JavaBridge.setResultFromObject(result, peer, selected.newInstance(coercedArgs));
+
+		} catch (Throwable e) {
+			if(e instanceof OutOfMemoryError || 
+			   ((e instanceof InvocationTargetException) && 
+				((InvocationTargetException)e).getTargetException() instanceof OutOfMemoryError)) {
+				logStream.println("FATAL: OutOfMemoryError");
+				throw new RuntimeException(); // abort
+			}
+			printStackTrace(e);
+			// Special handling of our connection abort
+			// throwable.  We can't use our own (inner)
+			// exception class because that would mean we
+			// have to deal with a classname that contains
+			// a $ sign in its name during the bridge
+			// install procedure
+			if(e.getMessage()!=null &&
+			   e.getMessage().startsWith("child aborted connection during"))
+				throw new RuntimeException();
+
+			setException(result, peer, e, createInstance?"CreateInstance":"ReferenceClass", null, name, args);
+		}
+    }
+
+    //
+    // Select the best match from a list of methods
+    //
+    private static Object select(Vector methods, Object args[]) {
+		if (methods.size() == 1) return methods.firstElement();
+
+		Object selected = null;
+		int best = Integer.MAX_VALUE;
+
+		for (Enumeration e = methods.elements(); e.hasMoreElements(); ) {
+			Object element = e.nextElement();
+			int weight=0;
+
+			Class parms[] = (element instanceof Method) ?
+				((Method)element).getParameterTypes() : 
+				((Constructor)element).getParameterTypes();
+
+			for (int i=0; i<parms.length; i++) {
+				if (parms[i].isInstance(args[i])) {
+					for (Class c=parms[i]; (c=c.getSuperclass()) != null; ) {
+						if (!c.isInstance(args[i])) break;
+						weight++;
+					}
+				} else if (parms[i].isAssignableFrom(java.lang.String.class)) {
+					if (!(args[i] instanceof byte[]) && !(args[i] instanceof String))
+						weight+=9999;
+				} else if (parms[i].isArray()) {
+					if (args[i] instanceof java.util.Hashtable) {
+						Enumeration enumeration = ((Hashtable)args[i]).elements();
+						if(enumeration.hasMoreElements()) {
+							Object elem = enumeration.nextElement();
+							Class c=parms[i].getComponentType();
+							if (elem instanceof Number) {
+								if(elem instanceof Double) {
+									if (c==Float.TYPE) weight+=11;
+									else if (c==Double.TYPE) weight+=10;
+									else weight += 256;
+								} else {				
+									if (c==Boolean.TYPE) weight+=15;
+									else if (c==Character.TYPE) weight+=14;
+									else if (c==Byte.TYPE) weight+=13;
+									else if (c==Short.TYPE) weight+=12;
+									else if (c==Integer.TYPE) weight+=11;
+									else if (c==Long.TYPE) weight+=10;
+									else weight += 256;
+								}
+							} else if (elem instanceof Boolean) {
+								if (c!=Boolean.TYPE) weight+=256;
+							} else
+								weight += 256;
+						} else
+							weight+=256;
+					} else
+						weight+=9999;
+				} else if (parms[i].isPrimitive()) {
+					Class c=parms[i];
+					if (args[i] instanceof Number) {
+						if(args[i] instanceof Double) {
+							if (c==Float.TYPE) weight++;
+							else if (c==Double.TYPE) weight+=0;
+							else weight += 256;
+						} else {
+							if (c==Boolean.TYPE) weight+=5;
+							else if (c==Character.TYPE) weight+=4;
+							else if (c==Byte.TYPE) weight+=3;
+							else if (c==Short.TYPE) weight+=2;
+							else if (c==Integer.TYPE) weight++;
+							else if (c==Long.TYPE) weight+=0;
+							else weight += 256;
+						}
+					} else if (args[i] instanceof Boolean) {
+						if (c!=Boolean.TYPE) weight+=9999;
+					} else if (args[i] instanceof String) {
+						if (c== Character.TYPE || ((String)args[i]).length()>0)
+							weight+=((String)args[i]).length();
+						else
+							weight+=64;
+					} else {
+						weight+=9999;
+					}
+				} else {
+					weight+=9999;
+				}
+			} 
+			if (weight < best) {
+				if (weight == 0) return element;
+				best = weight;
+				selected = element;
+			}
+		}
+
+		return selected;
+    }
+
+    //
+    // Coerce arguments when possible to conform to the argument list.
+    // Java's reflection will automatically do widening conversions,
+    // unfortunately PHP only supports wide formats, so to be practical
+    // some (possibly lossy) conversions are required.
+    //
+    private static Object[] coerce(Class parms[], Object args[]) {
+		Object result[] = args;
+		Class targetType = null;
+		int size = 0;
+
+		for (int i=0; i<args.length; i++) {
+			if (args[i] instanceof byte[] && !parms[i].isArray()) {
+				Class c = parms[i];
+				String s = new String((byte[])args[i]);
+				result[i] = s;
+				try {
+					if (c == Boolean.TYPE) result[i]=new Boolean(s);
+					if (c == Byte.TYPE)    result[i]=new Byte(s);
+					if (c == Short.TYPE)   result[i]=new Short(s);
+					if (c == Integer.TYPE) result[i]=new Integer(s);
+					if (c == Float.TYPE)   result[i]=new Float(s);
+					if (c == Long.TYPE)    result[i]=new Long(s);
+					if (c == Character.TYPE && s.length()>0) 
+						result[i]=new Character(s.charAt(0));
+				} catch (NumberFormatException n) {
+					printStackTrace(n);
+					// oh well, we tried!
+				}
+			} else if (args[i] instanceof Number && parms[i].isPrimitive()) {
+				if (result==args) result=(Object[])result.clone();
+				Class c = parms[i];
+				Number n = (Number)args[i];
+				if (c == Boolean.TYPE) result[i]=new Boolean(0.0!=n.floatValue());
+				if (c == Byte.TYPE)    result[i]=new Byte(n.byteValue());
+				if (c == Short.TYPE)   result[i]=new Short(n.shortValue());
+				if (c == Integer.TYPE) result[i]=new Integer(n.intValue());
+				if (c == Float.TYPE)   result[i]=new Float(n.floatValue());
+				if (c == Long.TYPE && !(n instanceof Long)) 
+					result[i]=new Long(n.longValue());
+			} else if (args[i] instanceof Hashtable && parms[i].isArray()) {
+				try {
+					Hashtable ht = (Hashtable)args[i];
+					size = ht.size();
+
+					// Verify that the keys are Long, and determine maximum
+					for (Enumeration e = ht.keys(); e.hasMoreElements(); ) {
+						int index = ((Long)e.nextElement()).intValue();
+						if (index >= size) size = index+1;
+					}
+
+					Object tempArray[] = new Object[size];
+					Class tempTarget[] = new Class[size];
+					targetType = parms[i].getComponentType();
+
+					// flatten the hash table into an array
+					for (int j=0; j<size; j++) {
+						tempArray[j] = ht.get(new Long(j));
+						if (tempArray[j] == null && targetType.isPrimitive()) 
+							throw new Exception("bail");
+						tempTarget[j] = targetType;
+					}
+
+					// coerce individual elements into the target type
+					Object coercedArray[] = coerce(tempTarget, tempArray);
+        
+					// copy the results into the desired array type
+					Object array = Array.newInstance(targetType,size);
+					for (int j=0; j<size; j++) {
+						Array.set(array, j, coercedArray[j]);
+					}
+
+					result[i]=array;
+				} catch (Exception e) {
+					logError("Error: " + String.valueOf(e) + " could not create array of type: " + targetType + ", size: " + size);
+					printStackTrace(e);
+					// leave result[i] alone...
+				}
+			}
+		}
+		return result;
+    }
+
+    //
+    // Invoke a method on a given object
+    //
+    public void Invoke
+		(Object object, String method, Object args[], long result, long peer)
+    {
+		try {
+			Vector matches = new Vector();
+
+			// gather
+			for (Class jclass = object.getClass();;jclass=(Class)object) {
+				while (!Modifier.isPublic(jclass.getModifiers())) {
+					// OK, some joker gave us an instance of a non-public class
+					// This often occurs in the case of enumerators
+					// Substitute the first public interface in its place,
+					// and barring that, try the superclass
+					Class interfaces[] = jclass.getInterfaces();
+					jclass=jclass.getSuperclass();
+					for (int i=interfaces.length; i-->0;) {
+						if (Modifier.isPublic(interfaces[i].getModifiers())) {
+							jclass=interfaces[i];
+						}
+					}
+				}
+				Method methods[] = jclass.getMethods();
+				for (int i=0; i<methods.length; i++) {
+					if (methods[i].getName().equalsIgnoreCase(method) &&
+						methods[i].getParameterTypes().length == args.length) {
+						matches.addElement(methods[i]);
+					}
+				}
+
+				// try a second time with the object itself, if it is of type Class
+				if (!(object instanceof Class) || (jclass==object)) break;
+			}
+			Method selected = (Method)select(matches, args);
+			if (selected == null) throw new NoSuchMethodException(String.valueOf(method) + "(" + argsToString(args) + "). " + "Matches: " + String.valueOf(matches));
+
+			Object coercedArgs[] = coerce(selected.getParameterTypes(), args);
+			setResult(result, peer, selected.invoke(object, coercedArgs));
+
+		} catch (Throwable e) {
+			if(e instanceof OutOfMemoryError || 
+			   ((e instanceof InvocationTargetException) && 
+				((InvocationTargetException)e).getTargetException() instanceof OutOfMemoryError)) {
+				logStream.println("FATAL: OutOfMemoryError");
+				throw new RuntimeException(); // abort
+			}
+			printStackTrace(e);
+			// Special handling of our connection abort
+			// throwable.  We can't use our own (inner)
+			// exception class because that would mean we
+			// have to deal with a classname that contains
+			// a $ sign in its name during the bridge
+			// install procedure
+			if(e.getMessage()!=null &&
+			   e.getMessage().startsWith("child aborted connection during"))
+				throw new RuntimeException();
+			setException(result, peer, e, "Invoke", object, method, args);
+		}
+    }
+
+    //
+    // Get or Set a property
+    //
+    public void GetSetProp
+		(Object object, String prop, Object args[], long result, long peer)
+    {
+		boolean set = (args!=null && args.length>0);
+
+		try {
+			ArrayList matches = new ArrayList();
+
+			for (Class jclass = object.getClass();;jclass=(Class)object) {
+				while (!Modifier.isPublic(jclass.getModifiers())) {
+					// OK, some joker gave us an instance of a non-public class
+					// Substitute the first public interface in its place,
+					// and barring that, try the superclass
+					Class interfaces[] = jclass.getInterfaces();
+					jclass=jclass.getSuperclass();
+					for (int i=interfaces.length; i-->0;) {
+						if (Modifier.isPublic(interfaces[i].getModifiers())) {
+							jclass=interfaces[i];
+						}
+					}
+				}
+
+				// first search for the field *exactly*
+				try {
+					java.lang.reflect.Field jfields[] = jclass.getFields();
+					for (int i=0; i<jfields.length; i++) {
+						if (jfields[i].getName().equals(prop)) {
+							matches.add(jfields[i].getName());
+							if (set) {
+								args = coerce(new Class[] {jfields[i].getType()}, args);
+								jfields[i].set(object, args[0]);
+							} else {
+								setResult(result, peer, jfields[i].get(object));
+							}
+							return;
+						}
+					}
+				} catch (Exception ee) {/* may happen when field is not static */}
+
+				// search for a getter/setter, ignore case
+				try {
+					BeanInfo beanInfo = Introspector.getBeanInfo(jclass);
+					PropertyDescriptor props[] = beanInfo.getPropertyDescriptors();
+					for (int i=0; i<props.length; i++) {
+						if (props[i].getName().equalsIgnoreCase(prop)) {
+							Method method;
+							if (set) {
+								method=props[i].getWriteMethod();
+								args = coerce(method.getParameterTypes(), args);
+							} else {
+								method=props[i].getReadMethod();
+							}
+							matches.add(method);
+							setResult(result, peer, method.invoke(object, args));
+							return;
+						}
+					}
+				} catch (Exception ee) {/* may happen when method is not static */}
+
+				// search for the field, ignore case
+				try {
+					java.lang.reflect.Field jfields[] = jclass.getFields();
+					for (int i=0; i<jfields.length; i++) {
+						if (jfields[i].getName().equalsIgnoreCase(prop)) {
+							matches.add(prop);
+							if (set) {
+								args = coerce(new Class[] {jfields[i].getType()}, args);
+								jfields[i].set(object, args[0]);
+							} else {
+								setResult(result, peer, jfields[i].get(object));
+							}
+							return;
+						}
+					}
+				} catch (Exception ee) {/* may happen when field is not static */}
+
+				// try a second time with the object itself, if it is of type Class
+				if (!(object instanceof Class) || (jclass==object)) break;
+			}
+			throw new NoSuchFieldException(String.valueOf(prop) + " (with args:" + argsToString(args) + "). " + "Matches: " + String.valueOf(matches));
+
+		} catch (Throwable e) {
+			if(e instanceof OutOfMemoryError || 
+			   ((e instanceof InvocationTargetException) && 
+				((InvocationTargetException)e).getTargetException() instanceof OutOfMemoryError)) {
+				logStream.println("FATAL: OutOfMemoryError");
+				throw new RuntimeException(); // abort
+			}
+			printStackTrace(e);
+			// Special handling of our connection abort
+			// throwable.  We can't use our own (inner)
+			// exception class because that would mean we
+			// have to deal with a classname that contains
+			// a $ sign in its name during the bridge
+			// install procedure
+			if(e.getMessage()!=null &&
+			   e.getMessage().startsWith("child aborted connection during"))
+				throw new RuntimeException();
+			setException(result, peer, e, set?"SetProperty":"GetProperty", object, prop, args);
+		}
+    }
+
+    // Set the library path for the java bridge. Examples:
+    // setJarLibPath(";file:///tmp/test.jar;file:///tmp/my.jar");
+    // setJarLibPath("|file:c:/t.jar|http://.../a.jar|jar:file:///tmp/x.jar!/");
+    // The first char must be the token separator.
+    public void setJarLibraryPath(String _path) {
+		urls = new ArrayList();
+		if(_path==null || _path.length()<2) return;
+
+		// add a token separator if first char is alnum
+		char c=_path.charAt(0);
+		if((c>='A' && c<='Z') || (c>='a' && c<='z') ||
+		   (c>='0' && c<='9') || (c!='.' || c!='/'))
+			_path = ";" + _path;
+
+		String path = _path.substring(1);
+		StringTokenizer st = new StringTokenizer(path, _path.substring(0, 1));
+		while (st.hasMoreTokens()) {
+			URL url;
+			String p, s;
+			s = st.nextToken();
+
+			try {
+				url = new URL(s);
+				p = url.getProtocol(); 
+			} catch (MalformedURLException e) {
+				try {
+					s = "file:" + s;
+					url = new URL(s);
+					p = url.getProtocol();
+				}  catch (MalformedURLException e1) {
+					printStackTrace(e1);
+					continue;
+				}
+			}
+   
+			if(p.equals("jar")) {
+				urls.add(url);
+				continue;
+			}
+			try {
+				urls.add(new URL("jar:"+s+"!/"));
+			} catch (MalformedURLException e) {
+				printStackTrace(e);
+			}
+		}
+    }
+}
+@
+
+
+1.35
+log
+@Replaced JNI with XML protocol
+@
+text
+@@
+
+
+1.34
+log
+@Replaced JNI with XML protocol
+@
+text
+@d1 1106
+@
+
+
+1.33
+log
+@Release-1.0.8
+@
+text
+@a0 1106
+/*-*- mode: Java; tab-width:4 -*-*/
+
+import java.beans.BeanInfo;
+import java.beans.Introspector;
+import java.beans.PropertyDescriptor;
+import java.lang.reflect.Array;
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.lang.ref.WeakReference;
+import java.util.*;
+import java.io.*;
+import java.net.*;
+
+public class JavaBridge implements Runnable {
+
+    static PrintStream logStream;
+    static int logLevel;
+
+    // class hash
+    private static final HashMap classes = new HashMap(); 
+
+    // the list of jar files in which we search for user classes.
+    static private Collection sysUrls = null;
+
+    // the list of jar files in which we search for user classes.  can
+    // be changed with setLibraryPath
+    private Collection urls = null;
+
+    //
+    // private classloader used to load classes from the
+    // JarLibraryPath and from jar files deployed in the
+    // /usr/share/java directory
+    //
+    ClassLoader cl = new ClassLoader() {
+			// Read the class from input stream and return bytes or null
+			private byte[] read (InputStream in, int length) throws java.io.IOException {
+				int c, pos;
+				byte[] b = new byte[length];
+		    
+				for(pos=0; (c=in.read(b, pos, b.length-pos))<length-pos; pos+=c) {
+					if(c<0) { in.close(); return null; }
+				}
+	
+				in.close();
+				return b;
+			}
+
+			// Read the class in 8K chunks until EOF, return bytes or null
+			private byte[] readChunks(InputStream in) throws java.io.IOException {
+				int c, pos;
+				int len = 8192;
+				byte[] b = new byte[len];
+
+				Collection buffers = new ArrayList();
+				while(true) {
+					for(pos=0; (c=in.read(b, pos, len-pos))<len-pos; pos+=c) {
+						if(c<0) break;
+					}
+					if(c<0) break;
+					buffers.add(b);
+					b=new byte[len];
+				}
+				byte[] result = new byte[buffers.size() * len + pos];
+				int p=0;
+				for (Iterator i=buffers.iterator(); i.hasNext(); p+=len){
+					byte[] _b = (byte[])i.next();
+					System.arraycopy(_b, 0, result, p, len);
+				}
+				System.arraycopy(b, 0, result, p, pos);
+				in.close();
+				return result;
+			}	
+
+			byte[] load(URL u, String name) throws Exception {
+				logMessage("try to load class " + name + " from " + u);
+				byte b[]=null;
+				int pt;
+				String p, h, f;
+				
+				p = u.getProtocol(); h = u.getHost(); 
+				pt = u.getPort(); f = u.getFile();
+				URL url = new URL(p ,h , pt, f+name.replace('.','/')+".class");
+				
+				URLConnection con = url.openConnection();
+				con.connect();
+				int length = con.getContentLength();
+				InputStream in = con.getInputStream();
+				
+				if(length > 0) 
+					b = read(in, length);
+				else if(length < 0) // bug in gcj
+					b = readChunks(in);
+				
+				return b;
+			}
+			public Class findClass(String name) throws ClassNotFoundException {
+				Class c = null;
+				byte[] b = null;
+
+				synchronized(classes) {
+					Object o = classes.get(name);
+					if(o!=null) o = ((WeakReference)o).get();
+					if(o!=null) c = (Class)o;
+					if(c!=null) return c;
+					try {
+						return ClassLoader.getSystemClassLoader().loadClass(name);
+					} catch (ClassNotFoundException e) {};
+		    
+					Collection[] allUrls = {urls, sysUrls};
+					ArrayList list = new ArrayList();
+					for(int n=0; b==null && n<allUrls.length; n++) {
+						Collection urls = allUrls[n];
+						if(urls!=null) 
+							for (Iterator i=urls.iterator(); i.hasNext(); ) {
+								URL url = (URL)i.next();
+								try {
+									if ((b=load(url, name))!=null) break;
+								} catch (Exception e) {
+									Vector v = new Vector();
+									v.add(url); v.add(e);
+									list.add(v);
+								}
+							}
+					}
+					if (b==null) throw new ClassNotFoundException(name + " not found: " + String.valueOf(list));
+
+					if((c = this.defineClass(name, b, 0, b.length)) != null) classes.put(name, new WeakReference(c));
+				}
+				return c;
+			}
+
+			private URL getResource(URL url, String name) {
+				try{
+					URL res = new URL(url.getProtocol(), url.getHost(), url.getPort(), url.getFile() + name);
+					logMessage("try to find resource " + res);
+					res.openStream().close();
+					return res;
+				} catch (Exception e) {
+					return null;
+				}
+			}
+			public URL findResource(String name) {
+				URL res;
+				Collection[] allUrls = {urls, sysUrls};
+				for(int n=0; n<allUrls.length; n++) {
+					Collection urls = allUrls[n];
+					if(urls!=null) 
+						for (Iterator i=urls.iterator(); i.hasNext(); ) 
+							if ((res=getResource((URL)i.next(), name))!=null) return res;
+				}
+				return null;
+			}
+			public Enumeration findResources(String name) {
+				URL res;
+				Hashtable e = new Hashtable();
+				Collection[] allUrls = {urls, sysUrls};
+				for(int n=0; n<allUrls.length; n++) {
+					Collection urls = allUrls[n];
+					if(urls!=null) 
+						for (Iterator i=urls.iterator(); i.hasNext(); ) 
+							if ((res=getResource((URL)i.next(), name))!=null) e.put(new Object(), res);
+				}
+				return e.elements();
+			}
+		};
+
+    //
+    // allows php to access and iterate over arrays, maps and
+    // collections.
+    //
+    public static abstract class PhpMap {
+		Object value;
+		Object keyType; //null: key is integer (array), !null: key is string (hash)
+		public PhpMap(Object value, Object keyType) {
+			this.value=value;
+			this.keyType=keyType;
+			init();
+		}
+		abstract void init();
+		public abstract Object currentData();
+		public abstract byte[] currentKey();
+		public abstract Object moveForward();
+		public abstract Object hasMore();
+		public Object getType() {
+			return keyType;
+		}
+
+		public abstract boolean offsetExists(Object pos);
+		public abstract Object offsetGet(Object pos);
+		public abstract void offsetSet(Object pos, Object val);
+		public abstract void offsetUnset(Object pos); //remove
+    };
+	
+    //
+    // Native methods
+    //
+    static native boolean openLog(String logFile);
+    static native void startNative(int logLevel, String sockname);
+    static native void setResultFromString(long result, long peer, byte value[]);
+    static native void setResultFromLong(long result, long peer, long value);
+    static native void setResultFromDouble(long result, long peer, double value);
+    static native void setResultFromBoolean(long result, long peer, boolean value);
+    static native void setResultFromObject(long result, long peer, Object value);
+
+    /*
+     * The following 4 methods are used in PHP 4 only. PHP 5 uses the
+     * PhpMap
+     */
+    static native boolean setResultFromArray(long result, long peer, Object value);
+    static native long nextElement(long array, long peer);
+    static native long hashUpdate(long array, long peer, byte key[]);
+    static native long hashIndexUpdate(long array, long peer, long key);
+
+    static native void setException(long result, long peer, Throwable value, byte strValue[]);
+    native void handleRequests(Object globalRef, int socket, int uid, int gid);
+    static native int handleRequest(Object globalRef, long peer);
+    static native boolean trampoline(Object globalRef, long peer, boolean jump);
+
+    //
+    // Helper routines for the C implementation
+    //
+    public Object MakeArg(boolean b) { return new Boolean(b); }
+    public Object MakeArg(long l)    { return new Long(l); }
+    public Object MakeArg(double d)  { return new Double(d); }
+    public static Class GetClass(Object obj) {
+		if(obj==null) return null;
+		return obj instanceof Class?(Class)obj:obj.getClass();
+    }
+	
+
+    // 
+    // Communication with client in a new thread
+    //
+    private int peer, uid, gid;
+    public void run() { handleRequests(new Hashtable(), peer, uid, gid); }
+    public static void HandleRequests(int peer, int uid, int gid) {  
+		JavaBridge bridge = new JavaBridge();
+		Thread thread = new Thread(bridge);
+		bridge.peer=peer;
+		bridge.uid=uid;
+		bridge.gid=gid;
+		thread.setContextClassLoader(bridge.cl);
+		logDebug("Request from client with uid/gid "+uid+"/"+gid);
+		thread.start();
+    }
+
+    //
+    // A trampoline, called  for each packet, to clear local refs.
+    //
+    public static int HandleRequest(Object globalRef, long peer) { return handleRequest (globalRef, peer); }
+    public static boolean Trampoline(Object globalRef, long peer, boolean jump) { return trampoline (globalRef, peer, jump); }
+
+    //
+    // Return map for the value (PHP 5 only)
+    //
+    public PhpMap getPhpMap(Object value) { 
+		logDebug("returning map for "+ value.getClass());
+
+		if(value.getClass().isArray()) {
+			return 
+				new PhpMap(value, (Object)null) {
+					boolean valid;
+					int i;
+					long length;
+		    
+					void init() {
+						i=0;
+						length = Array.getLength(this.value);
+						valid=length>0;
+					}
+					public Object currentData() {
+						if(!valid) return null;
+						return Array.get(this.value, i);
+					}
+					public byte[] currentKey() {
+						if(!valid) return null;
+						return String.valueOf(i).getBytes();
+					}
+					public Object moveForward() {
+						valid=++i<length;
+						return valid?this:null;
+					}
+					public Object hasMore() {
+						return valid?this:null;
+					}
+
+					public boolean offsetExists(Object pos) {
+						int i = ((Long)pos).intValue();
+						return (i>0 && i<length && (Array.get(this.value, i)!=this));
+					}
+					public Object offsetGet(Object pos) {
+						int i = ((Long)pos).intValue();
+						Object o = Array.get(this.value, i);
+						return o==this ? null : o;
+					}
+					public void offsetSet(Object pos, Object val) {
+						int i = ((Long)pos).intValue();
+						Array.set(this.value, i, val);
+					}
+					public void offsetUnset(Object pos) {
+						int i = ((Long)pos).intValue();
+						Array.set(this.value, i, this);
+					}
+				};
+		}
+		if(value instanceof Collection) {
+			return 
+				new PhpMap(value, (Object)null) {
+					Object currentKey;
+					int i;
+					Iterator iter;
+		    
+					void init() {
+						iter = ((Collection)(this.value)).iterator();
+						i = 0;
+						currentKey=null;
+						if(iter.hasNext()) {
+							currentKey=iter.next();
+						}
+					}
+					public Object currentData() {
+						return currentKey;
+					}
+					public byte[] currentKey() {
+						return String.valueOf(i).getBytes();
+					}
+					public Object moveForward() {
+						if(iter.hasNext()) {
+							i++;
+							currentKey = iter.next();
+							return String.valueOf(i).getBytes();
+						} else {
+							return null;
+						}
+					}
+					public Object hasMore() {
+						return currentKey;
+					}
+
+					// Should we really care?
+					public boolean offsetExists(Object pos) {
+						return false;
+					}
+					public Object offsetGet(Object pos) {
+						return null;
+					}
+					public void offsetSet(Object pos, Object val) {
+					}
+					public void offsetUnset(Object pos) {
+					}
+				};
+		}
+		if(value instanceof Map) {
+			return
+				new PhpMap(value, value){
+					Object currentKey;
+					Iterator iter;
+		    
+					void init() {
+						iter = ((Map)(this.value)).keySet().iterator();
+						currentKey=null;
+						if(iter.hasNext()) {
+							currentKey=iter.next();
+						}
+					}
+					public Object currentData() {
+						if(currentKey==null) return null;
+						return ((Map)(this.value)).get(currentKey);
+					}
+					public byte[] currentKey() {
+						return String.valueOf(currentKey).getBytes();
+					}
+					public Object moveForward() {
+						currentKey = iter.hasNext() ? iter.next() : null;
+						return currentKey;
+					}
+					public Object hasMore() {
+						return currentKey;
+					}
+
+					public boolean offsetExists(Object pos) {
+						return ((Map)(this.value)).containsKey(pos);
+					}
+					public Object offsetGet(Object pos) {
+						return ((Map)(this.value)).get(pos);
+					}
+					public void offsetSet(Object pos, Object val) {
+						((Map)(this.value)).put(pos, val);
+					}
+					public void offsetUnset(Object pos) {
+						((Map)(this.value)).remove(pos);
+					}
+				};
+		}
+		return null;
+    }
+
+    //
+    // add all jars found in the phpConfigDir/lib and /usr/share/java
+    // to our classpath
+    //
+    static void addSystemLibraries(String phpConfigDir) {
+		try {
+			String[] paths = {phpConfigDir+"/lib", "/usr/share/java"};
+			for(int i=0; i<paths.length; i++) {
+				File d = new File(paths[i]);
+				String[] files=d.list();
+				if(files==null) continue;
+				for(int j=0; j<files.length; j++) {
+					String file = files[j];
+					int len = file.length();
+					if(len<4) continue;
+					if(!file.endsWith(".jar")) continue;
+					try {
+						URL url;
+						file = "jar:file:" + d.getAbsolutePath() + File.separator + file + "!/";
+						url = new URL(file);
+						if(sysUrls==null) sysUrls=new ArrayList();
+						logMessage("added system library: " + url);
+						sysUrls.add(url);
+					}  catch (MalformedURLException e1) {
+						printStackTrace(e1);
+					}
+				}
+			}
+		} catch (Exception t) {
+			printStackTrace(t);
+		}
+    }
+    
+		
+    //
+    // init
+    //
+    static void init(String s[]) {
+		String logFile=null;
+		String sockname=null;
+		try {
+			if(s.length>0) {
+				sockname=s[0];
+			} else {
+				JavaBridge.logFatal("No socket.  You must pass the socket filename, for example /tmp/.report_bridge");
+				System.exit(12);
+			}
+			try {
+				if(s.length>1) {
+					JavaBridge.logLevel=Integer.parseInt(s[1]);
+				}
+			} catch (Throwable t) {
+				t.printStackTrace();
+			}
+
+			try {
+				if(s.length>2) {
+					logFile=s[2];
+					if(JavaBridge.logLevel>3) System.out.println("Java log         : " + logFile);
+					if(logFile==null||logFile.trim().length()==0)
+						JavaBridge.logStream=System.out;
+					else {
+						if(!openLog(logFile))
+							JavaBridge.logStream=new java.io.PrintStream(new java.io.FileOutputStream(logFile));
+						else
+							JavaBridge.logStream=System.out;
+					}
+				}
+			}catch (Throwable t) {
+				t.printStackTrace();
+			}
+			JavaBridge.logMessage("Java logFile     : " + logFile);
+			JavaBridge.logMessage("Java logLevel    : " + JavaBridge.logLevel);
+			JavaBridge.logMessage("Java socket      : " + sockname);
+			JavaBridge.startNative(JavaBridge.logLevel, sockname);
+			System.exit(0);
+		} catch (Throwable t) {
+			printStackTrace(t);
+			System.exit(1);
+		}
+    }
+
+
+    //
+    // Logging
+    //
+    static boolean haveDateFormat=true;
+    private static Object _form;
+    private static String now() {
+		if(!haveDateFormat) return String.valueOf(System.currentTimeMillis());
+		try {
+			if(_form==null)
+				_form = new java.text.SimpleDateFormat("MMM dd HH:mm:ss");
+			return ((java.text.SimpleDateFormat)_form).format(new Date());
+		} catch (Throwable t) {
+			haveDateFormat=false;
+			return now();
+		}
+    }
+
+    public static void println(int level, String msg) {
+		StringBuffer b = new StringBuffer(now());
+		b.append(" JavaBridge ");
+		switch(level) {
+		case 1: b.append("FATAL"); break;
+		case 2: b.append("ERROR"); break;
+		case 3: b.append("INFO "); break;
+		case 4: b.append("DEBUG"); break;
+		default: b.append(level); break;
+		}
+		b.append(": ");
+		b.append(msg);
+		logStream.println(b);
+    }
+    public static void printStackTrace(Throwable t) {
+		if(logLevel > 0)
+			if ((t instanceof Error) || logLevel > 1) 
+				t.printStackTrace(logStream);
+    }
+    public static void logDebug(String msg) {
+		if(logLevel>3) println(4, msg);
+    }
+    public static void logFatal(String msg) {
+		if(logLevel>0) println(1, msg);
+    }
+    public static void logError(String msg) {
+		if(logLevel>1) println(2, msg);
+    }
+    public static void logMessage(String msg) {
+		if(logLevel>2) println(3, msg);
+    }
+
+    public static void main(String s[]) {
+		try {
+			System.loadLibrary("natcJavaBridge");
+		} catch (Throwable t) {
+			t.printStackTrace();
+			System.exit(9);
+		}
+		try {
+			init(s);
+		} catch (Throwable t) {
+			t.printStackTrace();
+			System.exit(9);
+		}
+    }
+
+    //
+    // Helper routines which encapsulate the native methods
+    //
+    static void setResult(long result, long peer, Object value) {
+		if (value == null) {
+			JavaBridge.setResultFromString(result, peer, null);
+		} else if (value instanceof byte[]) {
+			JavaBridge.setResultFromString(result, peer, (byte[])value);
+		} else if (value instanceof java.lang.String) {
+			JavaBridge.setResultFromString(result, peer, ((String)value).getBytes());
+		} else if (value instanceof java.lang.Number) {
+
+			if (value instanceof java.lang.Integer ||
+				value instanceof java.lang.Short ||
+				value instanceof java.lang.Byte) {
+				JavaBridge.setResultFromLong(result, peer, ((Number)value).longValue());
+			} else {
+				/* Float, Double, BigDecimal, BigInteger, Double, Long, ... */
+				JavaBridge.setResultFromDouble(result, peer, ((Number)value).doubleValue());
+			}
+
+		} else if (value instanceof java.lang.Boolean) {
+
+			JavaBridge.setResultFromBoolean(result, peer, ((Boolean)value).booleanValue());
+
+		} else if (value.getClass().isArray()) {
+
+			long length = Array.getLength(value);
+			if(JavaBridge.setResultFromArray(result, peer, value)) {
+				// Since PHP 5 this is dead code, setResultFromArray
+				// behaves like setResultFromObject and returns
+				// false. See PhpMap.
+				for (int i=0; i<length; i++) {
+					setResult(JavaBridge.nextElement(result, peer), peer, Array.get(value, i));
+				}
+			}
+		} else if (value instanceof java.util.Hashtable) {
+
+			Hashtable ht = (Hashtable) value; 
+			if (JavaBridge.setResultFromArray(result, peer, value)) {
+				// Since PHP 5 this is dead code, setResultFromArray
+				// behaves like setResultFromObject and returns
+				// false. See PhpMap.
+				for (Enumeration e = ht.keys(); e.hasMoreElements(); ) {
+					Object key = e.nextElement();
+					long slot;
+					if (key instanceof Number && 
+						!(key instanceof Double || key instanceof Float))
+						slot = JavaBridge.hashIndexUpdate(result, peer, ((Number)key).longValue());
+					else
+						slot = JavaBridge.hashUpdate(result, peer, key.toString().getBytes());
+					setResult(slot, peer, ht.get(key));
+				}
+			}
+
+		} else {
+
+			JavaBridge.setResultFromObject(result, peer, value);
+
+		}
+    }
+    Throwable lastException = null;
+
+    void lastException(long result, long peer) {
+		setResult(result, peer, lastException);
+    }
+
+    void clearException() {
+		lastException = null;
+    }
+
+
+    private static String argsToString(Object args[]) {
+		StringBuffer buffer = new StringBuffer("");
+		if(args!=null) {
+			for(int i=0; i<args.length; i++) {
+				buffer.append(String.valueOf(GetClass(args[i])));
+				if(i+1<args.length) buffer.append(", ");
+			}
+		}
+		return buffer.toString();
+    }
+
+    void setException(long result, long peer, Throwable e, String method, Object obj, String name, Object args[]) {
+		if (e instanceof InvocationTargetException) {
+			Throwable t = ((InvocationTargetException)e).getTargetException();
+			if (t!=null) e=t;
+		}
+
+		StringBuffer buf=new StringBuffer(method);
+		buf.append(" failed: ");
+		if(obj!=null) {
+			buf.append("[");
+			buf.append(String.valueOf(obj));
+			buf.append("]->"); 
+		} else {
+			buf.append("new ");
+		}
+		buf.append(name); 
+		String arguments = argsToString(args);
+		if(arguments.length()>0) {
+			buf.append("(");
+			buf.append(arguments);
+			buf.append(")");
+		}
+		buf.append(".");
+		buf.append(" Cause: ");
+		buf.append(String.valueOf(e));
+		
+		lastException = new Exception(buf.toString(), e);
+		JavaBridge.setException(result, peer, lastException, lastException.toString().getBytes());
+    }
+
+    //
+    // Create an new instance of a given class
+    //
+    public void CreateObject(String name, boolean createInstance,
+							 Object args[], long result, long peer) {
+		try {
+			Vector matches = new Vector();
+			Constructor selected = null;
+
+			if(createInstance) {
+				Constructor cons[] = Class.forName(name, true, cl).getConstructors();
+				for (int i=0; i<cons.length; i++) {
+					if (cons[i].getParameterTypes().length == args.length) {
+						matches.addElement(cons[i]);
+					}
+				}
+
+				selected = (Constructor)select(matches, args);
+			}
+
+			if (selected == null) {
+				if (args.length > 0) {
+					throw new InstantiationException("No matching constructor found. " + "Matches: " + String.valueOf(matches));
+				} else {
+					// for classes which have no visible constructor, return the class
+					// useful for classes like java.lang.System and java.util.Calendar.
+					setResult(result, peer, Class.forName(name, true, cl));
+					return;
+				}
+			}
+
+			Object coercedArgs[] = coerce(selected.getParameterTypes(), args);
+			JavaBridge.setResultFromObject(result, peer, selected.newInstance(coercedArgs));
+
+		} catch (Throwable e) {
+			if(e instanceof OutOfMemoryError || 
+			   ((e instanceof InvocationTargetException) && 
+				((InvocationTargetException)e).getTargetException() instanceof OutOfMemoryError)) {
+				logStream.println("FATAL: OutOfMemoryError");
+				throw new RuntimeException(); // abort
+			}
+			printStackTrace(e);
+			// Special handling of our connection abort
+			// throwable.  We can't use our own (inner)
+			// exception class because that would mean we
+			// have to deal with a classname that contains
+			// a $ sign in its name during the bridge
+			// install procedure
+			if(e.getMessage()!=null &&
+			   e.getMessage().startsWith("child aborted connection during"))
+				throw new RuntimeException();
+
+			setException(result, peer, e, createInstance?"CreateInstance":"ReferenceClass", null, name, args);
+		}
+    }
+
+    //
+    // Select the best match from a list of methods
+    //
+    private static Object select(Vector methods, Object args[]) {
+		if (methods.size() == 1) return methods.firstElement();
+
+		Object selected = null;
+		int best = Integer.MAX_VALUE;
+
+		for (Enumeration e = methods.elements(); e.hasMoreElements(); ) {
+			Object element = e.nextElement();
+			int weight=0;
+
+			Class parms[] = (element instanceof Method) ?
+				((Method)element).getParameterTypes() : 
+				((Constructor)element).getParameterTypes();
+
+			for (int i=0; i<parms.length; i++) {
+				if (parms[i].isInstance(args[i])) {
+					for (Class c=parms[i]; (c=c.getSuperclass()) != null; ) {
+						if (!c.isInstance(args[i])) break;
+						weight++;
+					}
+				} else if (parms[i].isAssignableFrom(java.lang.String.class)) {
+					if (!(args[i] instanceof byte[]) && !(args[i] instanceof String))
+						weight+=9999;
+				} else if (parms[i].isArray()) {
+					if (args[i] instanceof java.util.Hashtable) {
+						Enumeration enumeration = ((Hashtable)args[i]).elements();
+						if(enumeration.hasMoreElements()) {
+							Object elem = enumeration.nextElement();
+							Class c=parms[i].getComponentType();
+							if (elem instanceof Number) {
+								if(elem instanceof Double) {
+									if (c==Float.TYPE) weight+=11;
+									else if (c==Double.TYPE) weight+=10;
+									else weight += 256;
+								} else {				
+									if (c==Boolean.TYPE) weight+=15;
+									else if (c==Character.TYPE) weight+=14;
+									else if (c==Byte.TYPE) weight+=13;
+									else if (c==Short.TYPE) weight+=12;
+									else if (c==Integer.TYPE) weight+=11;
+									else if (c==Long.TYPE) weight+=10;
+									else weight += 256;
+								}
+							} else if (elem instanceof Boolean) {
+								if (c!=Boolean.TYPE) weight+=256;
+							} else
+								weight += 256;
+						} else
+							weight+=256;
+					} else
+						weight+=9999;
+				} else if (parms[i].isPrimitive()) {
+					Class c=parms[i];
+					if (args[i] instanceof Number) {
+						if(args[i] instanceof Double) {
+							if (c==Float.TYPE) weight++;
+							else if (c==Double.TYPE) weight+=0;
+							else weight += 256;
+						} else {
+							if (c==Boolean.TYPE) weight+=5;
+							else if (c==Character.TYPE) weight+=4;
+							else if (c==Byte.TYPE) weight+=3;
+							else if (c==Short.TYPE) weight+=2;
+							else if (c==Integer.TYPE) weight++;
+							else if (c==Long.TYPE) weight+=0;
+							else weight += 256;
+						}
+					} else if (args[i] instanceof Boolean) {
+						if (c!=Boolean.TYPE) weight+=9999;
+					} else if (args[i] instanceof String) {
+						if (c== Character.TYPE || ((String)args[i]).length()>0)
+							weight+=((String)args[i]).length();
+						else
+							weight+=64;
+					} else {
+						weight+=9999;
+					}
+				} else {
+					weight+=9999;
+				}
+			} 
+			if (weight < best) {
+				if (weight == 0) return element;
+				best = weight;
+				selected = element;
+			}
+		}
+
+		return selected;
+    }
+
+    //
+    // Coerce arguments when possible to conform to the argument list.
+    // Java's reflection will automatically do widening conversions,
+    // unfortunately PHP only supports wide formats, so to be practical
+    // some (possibly lossy) conversions are required.
+    //
+    private static Object[] coerce(Class parms[], Object args[]) {
+		Object result[] = args;
+		Class targetType = null;
+		int size = 0;
+
+		for (int i=0; i<args.length; i++) {
+			if (args[i] instanceof byte[] && !parms[i].isArray()) {
+				Class c = parms[i];
+				String s = new String((byte[])args[i]);
+				result[i] = s;
+				try {
+					if (c == Boolean.TYPE) result[i]=new Boolean(s);
+					if (c == Byte.TYPE)    result[i]=new Byte(s);
+					if (c == Short.TYPE)   result[i]=new Short(s);
+					if (c == Integer.TYPE) result[i]=new Integer(s);
+					if (c == Float.TYPE)   result[i]=new Float(s);
+					if (c == Long.TYPE)    result[i]=new Long(s);
+					if (c == Character.TYPE && s.length()>0) 
+						result[i]=new Character(s.charAt(0));
+				} catch (NumberFormatException n) {
+					printStackTrace(n);
+					// oh well, we tried!
+				}
+			} else if (args[i] instanceof Number && parms[i].isPrimitive()) {
+				if (result==args) result=(Object[])result.clone();
+				Class c = parms[i];
+				Number n = (Number)args[i];
+				if (c == Boolean.TYPE) result[i]=new Boolean(0.0!=n.floatValue());
+				if (c == Byte.TYPE)    result[i]=new Byte(n.byteValue());
+				if (c == Short.TYPE)   result[i]=new Short(n.shortValue());
+				if (c == Integer.TYPE) result[i]=new Integer(n.intValue());
+				if (c == Float.TYPE)   result[i]=new Float(n.floatValue());
+				if (c == Long.TYPE && !(n instanceof Long)) 
+					result[i]=new Long(n.longValue());
+			} else if (args[i] instanceof Hashtable && parms[i].isArray()) {
+				try {
+					Hashtable ht = (Hashtable)args[i];
+					size = ht.size();
+
+					// Verify that the keys are Long, and determine maximum
+					for (Enumeration e = ht.keys(); e.hasMoreElements(); ) {
+						int index = ((Long)e.nextElement()).intValue();
+						if (index >= size) size = index+1;
+					}
+
+					Object tempArray[] = new Object[size];
+					Class tempTarget[] = new Class[size];
+					targetType = parms[i].getComponentType();
+
+					// flatten the hash table into an array
+					for (int j=0; j<size; j++) {
+						tempArray[j] = ht.get(new Long(j));
+						if (tempArray[j] == null && targetType.isPrimitive()) 
+							throw new Exception("bail");
+						tempTarget[j] = targetType;
+					}
+
+					// coerce individual elements into the target type
+					Object coercedArray[] = coerce(tempTarget, tempArray);
+        
+					// copy the results into the desired array type
+					Object array = Array.newInstance(targetType,size);
+					for (int j=0; j<size; j++) {
+						Array.set(array, j, coercedArray[j]);
+					}
+
+					result[i]=array;
+				} catch (Exception e) {
+					logError("Error: " + String.valueOf(e) + " could not create array of type: " + targetType + ", size: " + size);
+					printStackTrace(e);
+					// leave result[i] alone...
+				}
+			}
+		}
+		return result;
+    }
+
+    //
+    // Invoke a method on a given object
+    //
+    public void Invoke
+		(Object object, String method, Object args[], long result, long peer)
+    {
+		try {
+			Vector matches = new Vector();
+
+			// gather
+			for (Class jclass = object.getClass();;jclass=(Class)object) {
+				while (!Modifier.isPublic(jclass.getModifiers())) {
+					// OK, some joker gave us an instance of a non-public class
+					// This often occurs in the case of enumerators
+					// Substitute the first public interface in its place,
+					// and barring that, try the superclass
+					Class interfaces[] = jclass.getInterfaces();
+					jclass=jclass.getSuperclass();
+					for (int i=interfaces.length; i-->0;) {
+						if (Modifier.isPublic(interfaces[i].getModifiers())) {
+							jclass=interfaces[i];
+						}
+					}
+				}
+				Method methods[] = jclass.getMethods();
+				for (int i=0; i<methods.length; i++) {
+					if (methods[i].getName().equalsIgnoreCase(method) &&
+						methods[i].getParameterTypes().length == args.length) {
+						matches.addElement(methods[i]);
+					}
+				}
+
+				// try a second time with the object itself, if it is of type Class
+				if (!(object instanceof Class) || (jclass==object)) break;
+			}
+			Method selected = (Method)select(matches, args);
+			if (selected == null) throw new NoSuchMethodException(String.valueOf(method) + "(" + argsToString(args) + "). " + "Matches: " + String.valueOf(matches));
+
+			Object coercedArgs[] = coerce(selected.getParameterTypes(), args);
+			setResult(result, peer, selected.invoke(object, coercedArgs));
+
+		} catch (Throwable e) {
+			if(e instanceof OutOfMemoryError || 
+			   ((e instanceof InvocationTargetException) && 
+				((InvocationTargetException)e).getTargetException() instanceof OutOfMemoryError)) {
+				logStream.println("FATAL: OutOfMemoryError");
+				throw new RuntimeException(); // abort
+			}
+			printStackTrace(e);
+			// Special handling of our connection abort
+			// throwable.  We can't use our own (inner)
+			// exception class because that would mean we
+			// have to deal with a classname that contains
+			// a $ sign in its name during the bridge
+			// install procedure
+			if(e.getMessage()!=null &&
+			   e.getMessage().startsWith("child aborted connection during"))
+				throw new RuntimeException();
+			setException(result, peer, e, "Invoke", object, method, args);
+		}
+    }
+
+    //
+    // Get or Set a property
+    //
+    public void GetSetProp
+		(Object object, String prop, Object args[], long result, long peer)
+    {
+		boolean set = (args!=null && args.length>0);
+
+		try {
+			ArrayList matches = new ArrayList();
+
+			for (Class jclass = object.getClass();;jclass=(Class)object) {
+				while (!Modifier.isPublic(jclass.getModifiers())) {
+					// OK, some joker gave us an instance of a non-public class
+					// Substitute the first public interface in its place,
+					// and barring that, try the superclass
+					Class interfaces[] = jclass.getInterfaces();
+					jclass=jclass.getSuperclass();
+					for (int i=interfaces.length; i-->0;) {
+						if (Modifier.isPublic(interfaces[i].getModifiers())) {
+							jclass=interfaces[i];
+						}
+					}
+				}
+
+				// first search for the field *exactly*
+				try {
+					java.lang.reflect.Field jfields[] = jclass.getFields();
+					for (int i=0; i<jfields.length; i++) {
+						if (jfields[i].getName().equals(prop)) {
+							matches.add(jfields[i].getName());
+							if (set) {
+								args = coerce(new Class[] {jfields[i].getType()}, args);
+								jfields[i].set(object, args[0]);
+							} else {
+								setResult(result, peer, jfields[i].get(object));
+							}
+							return;
+						}
+					}
+				} catch (Exception ee) {/* may happen when field is not static */}
+
+				// search for a getter/setter, ignore case
+				try {
+					BeanInfo beanInfo = Introspector.getBeanInfo(jclass);
+					PropertyDescriptor props[] = beanInfo.getPropertyDescriptors();
+					for (int i=0; i<props.length; i++) {
+						if (props[i].getName().equalsIgnoreCase(prop)) {
+							Method method;
+							if (set) {
+								method=props[i].getWriteMethod();
+								args = coerce(method.getParameterTypes(), args);
+							} else {
+								method=props[i].getReadMethod();
+							}
+							matches.add(method);
+							setResult(result, peer, method.invoke(object, args));
+							return;
+						}
+					}
+				} catch (Exception ee) {/* may happen when method is not static */}
+
+				// search for the field, ignore case
+				try {
+					java.lang.reflect.Field jfields[] = jclass.getFields();
+					for (int i=0; i<jfields.length; i++) {
+						if (jfields[i].getName().equalsIgnoreCase(prop)) {
+							matches.add(prop);
+							if (set) {
+								args = coerce(new Class[] {jfields[i].getType()}, args);
+								jfields[i].set(object, args[0]);
+							} else {
+								setResult(result, peer, jfields[i].get(object));
+							}
+							return;
+						}
+					}
+				} catch (Exception ee) {/* may happen when field is not static */}
+
+				// try a second time with the object itself, if it is of type Class
+				if (!(object instanceof Class) || (jclass==object)) break;
+			}
+			throw new NoSuchFieldException(String.valueOf(prop) + " (with args:" + argsToString(args) + "). " + "Matches: " + String.valueOf(matches));
+
+		} catch (Throwable e) {
+			if(e instanceof OutOfMemoryError || 
+			   ((e instanceof InvocationTargetException) && 
+				((InvocationTargetException)e).getTargetException() instanceof OutOfMemoryError)) {
+				logStream.println("FATAL: OutOfMemoryError");
+				throw new RuntimeException(); // abort
+			}
+			printStackTrace(e);
+			// Special handling of our connection abort
+			// throwable.  We can't use our own (inner)
+			// exception class because that would mean we
+			// have to deal with a classname that contains
+			// a $ sign in its name during the bridge
+			// install procedure
+			if(e.getMessage()!=null &&
+			   e.getMessage().startsWith("child aborted connection during"))
+				throw new RuntimeException();
+			setException(result, peer, e, set?"SetProperty":"GetProperty", object, prop, args);
+		}
+    }
+
+    // Set the library path for the java bridge. Examples:
+    // setJarLibPath(";file:///tmp/test.jar;file:///tmp/my.jar");
+    // setJarLibPath("|file:c:/t.jar|http://.../a.jar|jar:file:///tmp/x.jar!/");
+    // The first char must be the token separator.
+    public void setJarLibraryPath(String _path) {
+		urls = new ArrayList();
+		if(_path==null || _path.length()<2) return;
+
+		// add a token separator if first char is alnum
+		char c=_path.charAt(0);
+		if((c>='A' && c<='Z') || (c>='a' && c<='z') ||
+		   (c>='0' && c<='9') || (c!='.' || c!='/'))
+			_path = ";" + _path;
+
+		String path = _path.substring(1);
+		StringTokenizer st = new StringTokenizer(path, _path.substring(0, 1));
+		while (st.hasMoreTokens()) {
+			URL url;
+			String p, s;
+			s = st.nextToken();
+
+			try {
+				url = new URL(s);
+				p = url.getProtocol(); 
+			} catch (MalformedURLException e) {
+				try {
+					s = "file:" + s;
+					url = new URL(s);
+					p = url.getProtocol();
+				}  catch (MalformedURLException e1) {
+					printStackTrace(e1);
+					continue;
+				}
+			}
+   
+			if(p.equals("jar")) {
+				urls.add(url);
+				continue;
+			}
+			try {
+				urls.add(new URL("jar:"+s+"!/"));
+			} catch (MalformedURLException e) {
+				printStackTrace(e);
+			}
+		}
+    }
+}
+@
+
+
+1.32
+log
+@Release-1.0.8
+@
+text
+@d76 1
+a76 1
+			byte[] load(URL u, String name) {
+d78 19
+a96 24
+				try {
+					byte b[]=null;
+					int pt;
+					String p, h, f;
+		    
+					p = u.getProtocol(); h = u.getHost(); 
+					pt = u.getPort(); f = u.getFile();
+					URL url = new URL(p ,h , pt, f+name.replace('.','/')+".class");
+		    
+					URLConnection con = url.openConnection();
+					con.connect();
+					int length = con.getContentLength();
+					InputStream in = con.getInputStream();
+
+					if(length > 0) 
+						b = read(in, length);
+					else if(length < 0) // bug in gcj
+						b = readChunks(in);
+
+					return b;
+
+				} catch (Exception e) {
+					return null;
+				}
+d112 1
+d116 10
+a125 2
+							for (Iterator i=urls.iterator(); i.hasNext(); ) 
+								if ((b=load((URL)i.next(), name))!=null) break;
+d127 1
+a127 1
+					if (b==null) throw new ClassNotFoundException(name + " neither found in path: " + String.valueOf(urls) + " nor in the system path: "+ String.valueOf(sysUrls));
+d155 12
+@
+
+
+1.31
+log
+@Release-1.0.8
+@
+text
+@a5 1
+import java.io.IOException;
+a10 1
+import java.net.Socket;
+d201 1
+a201 1
+    native void handleRequests(int peer, int uid, int gid);
+d221 1
+a221 1
+    public void run() { handleRequests(peer, uid, gid); }
+@
+
+
+1.30
+log
+@Release-1.0.8
+@
+text
+@d681 6
+d921 6
+d1026 6
+@
+
+
+1.29
+log
+@Release-1.0.8
+@
+text
+@d605 12
+a616 1
+    void setException(long result, long peer, Throwable e) {
+d622 22
+a643 2
+		lastException = e;
+		JavaBridge.setException(result, peer, e, e.toString().getBytes());
+d668 1
+a668 1
+					throw new InstantiationException("No matching constructor found");
+d692 1
+a692 1
+			setException(result, peer, e);
+a872 8
+    private static String argsToString(Object args[]) {
+		StringBuffer buffer = new StringBuffer("");
+		for(int i=0; i<args.length; i++) {
+			buffer.append(String.valueOf(GetClass(args[i])));
+			if(i+1<args.length) buffer.append(", ");
+		}
+		return buffer.toString();
+    }
+d909 1
+a909 1
+			if (selected == null) throw new NoSuchMethodException(String.valueOf(method) + "(" + argsToString(args) + ") " + "matches: " + String.valueOf(matches));
+d925 1
+a925 1
+			setException(result, peer, e);
+d935 2
+d938 1
+d953 34
+a986 10
+				BeanInfo beanInfo = Introspector.getBeanInfo(jclass);
+				PropertyDescriptor props[] = beanInfo.getPropertyDescriptors();
+				for (int i=0; i<props.length; i++) {
+					if (props[i].getName().equalsIgnoreCase(prop)) {
+						Method method;
+						if (args!=null && args.length>0) {
+							method=props[i].getWriteMethod();
+							args = coerce(method.getParameterTypes(), args);
+						} else {
+							method=props[i].getReadMethod();
+a987 2
+						setResult(result, peer, method.invoke(object, args));
+						return;
+d989 1
+a989 1
+				}
+d991 13
+a1003 8
+				java.lang.reflect.Field jfields[] = jclass.getFields();
+				for (int i=0; i<jfields.length; i++) {
+					if (jfields[i].getName().equalsIgnoreCase(prop)) {
+						if (args!=null && args.length>0) {
+							args = coerce(new Class[] {jfields[i].getType()}, args);
+							jfields[i].set(object, args[0]);
+						} else {
+							setResult(result, peer, jfields[i].get(object));
+a1004 1
+						return;
+d1006 1
+a1006 1
+				}
+d1011 1
+d1024 1
+a1024 1
+			setException(result, peer, e);
+@
+
+
+1.28
+log
+@Release-1.0.8
+@
+text
+@d256 1
+a256 1
+						length = Array.getLength(value);
+d261 1
+a261 1
+						return Array.get(value, i);
+d277 1
+a277 1
+						return (i>0 && i<length && (Array.get(value, i)!=this));
+d281 1
+a281 1
+						Object o = Array.get(value, i);
+d286 1
+a286 1
+						Array.set(value, i, val);
+d290 1
+a290 1
+						Array.set(value, i, this);
+d302 1
+a302 1
+						iter = ((Collection)value).iterator();
+d348 1
+a348 1
+						iter = ((Map)value).keySet().iterator();
+d356 1
+a356 1
+						return ((Map)value).get(currentKey);
+d370 1
+a370 1
+						return ((Map)value).containsKey(pos);
+d373 1
+a373 1
+						return ((Map)value).get(pos);
+d376 1
+a376 1
+						((Map)value).put(pos, val);
+d379 1
+a379 1
+						((Map)value).remove(pos);
+@
+
+
+1.27
+log
+@use java security instead of dropping the process privileges
+@
+text
+@d1 2
+d39 4
+a42 4
+	    // Read the class from input stream and return bytes or null
+	    private byte[] read (InputStream in, int length) throws java.io.IOException {
+		int c, pos;
+		byte[] b = new byte[length];
+d44 3
+a46 3
+		for(pos=0; (c=in.read(b, pos, b.length-pos))<length-pos; pos+=c) {
+		    if(c<0) { in.close(); return null; }
+		}
+d48 3
+a50 29
+		in.close();
+		return b;
+	    }
+
+	    // Read the class in 8K chunks until EOF, return bytes or null
+	    private byte[] readChunks(InputStream in) throws java.io.IOException {
+		int c, pos;
+		int len = 8192;
+		byte[] b = new byte[len];
+
+		Collection buffers = new ArrayList();
+		while(true) {
+		    for(pos=0; (c=in.read(b, pos, len-pos))<len-pos; pos+=c) {
+			if(c<0) break;
+		    }
+		    if(c<0) break;
+		    buffers.add(b);
+		    b=new byte[len];
+		}
+		byte[] result = new byte[buffers.size() * len + pos];
+		int p=0;
+		for (Iterator i=buffers.iterator(); i.hasNext(); p+=len){
+		    byte[] _b = (byte[])i.next();
+		    System.arraycopy(_b, 0, result, p, len);
+		}
+		System.arraycopy(b, 0, result, p, pos);
+		in.close();
+		return result;
+	    }	
+d52 32
+a83 6
+	    byte[] load(URL u, String name) {
+		logMessage("try to load class " + name + " from " + u);
+		try {
+		    byte b[]=null;
+		    int pt;
+		    String p, h, f;
+d85 3
+a87 3
+		    p = u.getProtocol(); h = u.getHost(); 
+		    pt = u.getPort(); f = u.getFile();
+		    URL url = new URL(p ,h , pt, f+name.replace('.','/')+".class");
+d89 28
+a116 28
+		    URLConnection con = url.openConnection();
+		    con.connect();
+		    int length = con.getContentLength();
+		    InputStream in = con.getInputStream();
+
+		    if(length > 0) 
+			b = read(in, length);
+		    else if(length < 0) // bug in gcj
+			b = readChunks(in);
+
+		    return b;
+
+		} catch (Exception e) {
+		    return null;
+		}
+	    }
+	    public Class findClass(String name) throws ClassNotFoundException {
+		Class c = null;
+		byte[] b = null;
+
+		synchronized(classes) {
+		    Object o = classes.get(name);
+		    if(o!=null) o = ((WeakReference)o).get();
+		    if(o!=null) c = (Class)o;
+		    if(c!=null) return c;
+		    try {
+			return ClassLoader.getSystemClassLoader().loadClass(name);
+		    } catch (ClassNotFoundException e) {};
+d118 36
+a153 14
+		    Collection[] allUrls = {urls, sysUrls};
+		    for(int n=0; b==null && n<allUrls.length; n++) {
+			Collection urls = allUrls[n];
+			if(urls!=null) 
+			for (Iterator i=urls.iterator(); i.hasNext(); ) 
+			    if ((b=load((URL)i.next(), name))!=null) break;
+		    }
+		    if (b==null) throw new ClassNotFoundException(name + " neither found in path: " + String.valueOf(urls) + " nor in the system path: "+ String.valueOf(sysUrls));
+
+		    if((c = this.defineClass(name, b, 0, b.length)) != null) classes.put(name, new WeakReference(c));
+		}
+		return c;
+	    }
+	};
+d160 20
+a179 20
+	Object value;
+	Object keyType; //null: key is integer (array), !null: key is string (hash)
+	public PhpMap(Object value, Object keyType) {
+	    this.value=value;
+	    this.keyType=keyType;
+	    init();
+	}
+	abstract void init();
+	public abstract Object currentData();
+	public abstract byte[] currentKey();
+	public abstract Object moveForward();
+	public abstract Object hasMore();
+	public Object getType() {
+	    return keyType;
+	}
+
+	public abstract boolean offsetExists(Object pos);
+	public abstract Object offsetGet(Object pos);
+	public abstract void offsetSet(Object pos, Object val);
+	public abstract void offsetUnset(Object pos); //remove
+d214 2
+a215 2
+	if(obj==null) return null;
+	return obj instanceof Class?(Class)obj:obj.getClass();
+d225 8
+a232 8
+	JavaBridge bridge = new JavaBridge();
+	Thread thread = new Thread(bridge);
+	bridge.peer=peer;
+	bridge.uid=uid;
+	bridge.gid=gid;
+	thread.setContextClassLoader(bridge.cl);
+	logDebug("Request from client with uid/gid "+uid+"/"+gid);
+	thread.start();
+d245 1
+a245 1
+	logDebug("returning map for "+ value.getClass());
+d247 6
+a252 6
+	if(value.getClass().isArray()) {
+	    return 
+		new PhpMap(value, (Object)null) {
+		    boolean valid;
+		    int i;
+		    long length;
+d254 46
+a299 46
+		    void init() {
+			i=0;
+			length = Array.getLength(value);
+			valid=length>0;
+		    }
+		    public Object currentData() {
+			if(!valid) return null;
+			return Array.get(value, i);
+		    }
+		    public byte[] currentKey() {
+			if(!valid) return null;
+			return String.valueOf(i).getBytes();
+		    }
+		    public Object moveForward() {
+			valid=++i<length;
+			return valid?this:null;
+		    }
+		    public Object hasMore() {
+			return valid?this:null;
+		    }
+
+		    public boolean offsetExists(Object pos) {
+			int i = ((Long)pos).intValue();
+			return (i>0 && i<length && (Array.get(value, i)!=this));
+		    }
+		    public Object offsetGet(Object pos) {
+			int i = ((Long)pos).intValue();
+			Object o = Array.get(value, i);
+			return o==this ? null : o;
+		    }
+		    public void offsetSet(Object pos, Object val) {
+			int i = ((Long)pos).intValue();
+			Array.set(value, i, val);
+		    }
+		    public void offsetUnset(Object pos) {
+			int i = ((Long)pos).intValue();
+			Array.set(value, i, this);
+		    }
+		};
+	}
+	if(value instanceof Collection) {
+	    return 
+		new PhpMap(value, (Object)null) {
+		    Object currentKey;
+		    int i;
+		    Iterator iter;
+d301 45
+a345 45
+		    void init() {
+			iter = ((Collection)value).iterator();
+			i = 0;
+			currentKey=null;
+			if(iter.hasNext()) {
+			    currentKey=iter.next();
+			}
+		    }
+		    public Object currentData() {
+			return currentKey;
+		    }
+		    public byte[] currentKey() {
+			return String.valueOf(i).getBytes();
+		    }
+		    public Object moveForward() {
+			if(iter.hasNext()) {
+			    i++;
+			    currentKey = iter.next();
+			    return String.valueOf(i).getBytes();
+			} else {
+			    return null;
+			}
+		    }
+		    public Object hasMore() {
+			return currentKey;
+		    }
+
+		    // Should we really care?
+		    public boolean offsetExists(Object pos) {
+			return false;
+		    }
+		    public Object offsetGet(Object pos) {
+			return null;
+		    }
+		    public void offsetSet(Object pos, Object val) {
+		    }
+		    public void offsetUnset(Object pos) {
+		    }
+		};
+	}
+	if(value instanceof Map) {
+	    return
+		new PhpMap(value, value){
+		    Object currentKey;
+		    Iterator iter;
+d347 37
+a383 37
+		    void init() {
+			iter = ((Map)value).keySet().iterator();
+			currentKey=null;
+			if(iter.hasNext()) {
+			    currentKey=iter.next();
+			}
+		    }
+		    public Object currentData() {
+			if(currentKey==null) return null;
+			return ((Map)value).get(currentKey);
+		    }
+		    public byte[] currentKey() {
+			return String.valueOf(currentKey).getBytes();
+		    }
+		    public Object moveForward() {
+			currentKey = iter.hasNext() ? iter.next() : null;
+			return currentKey;
+		    }
+		    public Object hasMore() {
+			return currentKey;
+		    }
+
+		    public boolean offsetExists(Object pos) {
+			return ((Map)value).containsKey(pos);
+		    }
+		    public Object offsetGet(Object pos) {
+			return ((Map)value).get(pos);
+		    }
+		    public void offsetSet(Object pos, Object val) {
+			((Map)value).put(pos, val);
+		    }
+		    public void offsetUnset(Object pos) {
+			((Map)value).remove(pos);
+		    }
+		};
+	}
+	return null;
+d391 26
+a416 26
+	try {
+	    String[] paths = {phpConfigDir+"/lib", "/usr/share/java"};
+	    for(int i=0; i<paths.length; i++) {
+		File d = new File(paths[i]);
+		String[] files=d.list();
+		if(files==null) continue;
+		for(int j=0; j<files.length; j++) {
+		    String file = files[j];
+		    int len = file.length();
+		    if(len<4) continue;
+		    if(!file.endsWith(".jar")) continue;
+		    try {
+			URL url;
+			file = "jar:file:" + d.getAbsolutePath() + File.separator + file + "!/";
+			url = new URL(file);
+			if(sysUrls==null) sysUrls=new ArrayList();
+			logMessage("added system library: " + url);
+			sysUrls.add(url);
+		    }  catch (MalformedURLException e1) {
+			printStackTrace(e1);
+		    }
+		}
+	    }
+	} catch (Exception t) {
+	    printStackTrace(t);
+	}
+d424 42
+a465 42
+	String logFile=null;
+	String sockname=null;
+	try {
+	    if(s.length>0) {
+		sockname=s[0];
+	    } else {
+		JavaBridge.logFatal("No socket.  You must pass the socket filename, for example /tmp/.report_bridge");
+		System.exit(12);
+	    }
+	    try {
+		if(s.length>1) {
+		    JavaBridge.logLevel=Integer.parseInt(s[1]);
+		}
+	    } catch (Throwable t) {
+		t.printStackTrace();
+	    }
+
+	    try {
+		if(s.length>2) {
+		    logFile=s[2];
+		    if(JavaBridge.logLevel>3) System.out.println("Java log         : " + logFile);
+		    if(logFile==null||logFile.trim().length()==0)
+			JavaBridge.logStream=System.out;
+		    else {
+			if(!openLog(logFile))
+			    JavaBridge.logStream=new java.io.PrintStream(new java.io.FileOutputStream(logFile));
+			else
+			    JavaBridge.logStream=System.out;
+		    }
+		}
+	    }catch (Throwable t) {
+		t.printStackTrace();
+	    }
+	    JavaBridge.logMessage("Java logFile     : " + logFile);
+	    JavaBridge.logMessage("Java logLevel    : " + JavaBridge.logLevel);
+	    JavaBridge.logMessage("Java socket      : " + sockname);
+	    JavaBridge.startNative(JavaBridge.logLevel, sockname);
+	    System.exit(0);
+	} catch (Throwable t) {
+	    printStackTrace(t);
+	    System.exit(1);
+	}
+d475 9
+a483 9
+	if(!haveDateFormat) return String.valueOf(System.currentTimeMillis());
+	try {
+	    if(_form==null)
+		_form = new java.text.SimpleDateFormat("MMM dd HH:mm:ss");
+	    return ((java.text.SimpleDateFormat)_form).format(new Date());
+	} catch (Throwable t) {
+	    haveDateFormat=false;
+	    return now();
+	}
+d487 12
+a498 12
+	StringBuffer b = new StringBuffer(now());
+	b.append(" JavaBridge ");
+	switch(level) {
+	case 1: b.append("FATAL"); break;
+	case 2: b.append("ERROR"); break;
+	case 3: b.append("INFO "); break;
+	case 4: b.append("DEBUG"); break;
+	default: b.append(level); break;
+	}
+	b.append(": ");
+	b.append(msg);
+	logStream.println(b);
+d501 3
+a503 3
+	if(logLevel > 0)
+	    if ((t instanceof Error) || logLevel > 1) 
+		t.printStackTrace(logStream);
+d506 1
+a506 1
+	if(logLevel>3) println(4, msg);
+d509 1
+a509 1
+	if(logLevel>0) println(1, msg);
+d512 1
+a512 1
+	if(logLevel>1) println(2, msg);
+d515 1
+a515 1
+	if(logLevel>2) println(3, msg);
+d519 12
+a530 12
+	try {
+	    System.loadLibrary("natcJavaBridge");
+	} catch (Throwable t) {
+	    t.printStackTrace();
+	    System.exit(9);
+	}
+	try {
+	    init(s);
+	} catch (Throwable t) {
+	    t.printStackTrace();
+	    System.exit(9);
+	}
+d537 50
+a586 50
+	if (value == null) {
+	    JavaBridge.setResultFromString(result, peer, null);
+	} else if (value instanceof byte[]) {
+	    JavaBridge.setResultFromString(result, peer, (byte[])value);
+	} else if (value instanceof java.lang.String) {
+	    JavaBridge.setResultFromString(result, peer, ((String)value).getBytes());
+	} else if (value instanceof java.lang.Number) {
+
+	    if (value instanceof java.lang.Integer ||
+		value instanceof java.lang.Short ||
+		value instanceof java.lang.Byte) {
+		JavaBridge.setResultFromLong(result, peer, ((Number)value).longValue());
+	    } else {
+		/* Float, Double, BigDecimal, BigInteger, Double, Long, ... */
+		JavaBridge.setResultFromDouble(result, peer, ((Number)value).doubleValue());
+	    }
+
+	} else if (value instanceof java.lang.Boolean) {
+
+	    JavaBridge.setResultFromBoolean(result, peer, ((Boolean)value).booleanValue());
+
+	} else if (value.getClass().isArray()) {
+
+	    long length = Array.getLength(value);
+	    if(JavaBridge.setResultFromArray(result, peer, value)) {
+		// Since PHP 5 this is dead code, setResultFromArray
+		// behaves like setResultFromObject and returns
+		// false. See PhpMap.
+		for (int i=0; i<length; i++) {
+		    setResult(JavaBridge.nextElement(result, peer), peer, Array.get(value, i));
+		}
+	    }
+	} else if (value instanceof java.util.Hashtable) {
+
+	    Hashtable ht = (Hashtable) value; 
+	    if (JavaBridge.setResultFromArray(result, peer, value)) {
+		// Since PHP 5 this is dead code, setResultFromArray
+		// behaves like setResultFromObject and returns
+		// false. See PhpMap.
+		for (Enumeration e = ht.keys(); e.hasMoreElements(); ) {
+		    Object key = e.nextElement();
+		    long slot;
+		    if (key instanceof Number && 
+			!(key instanceof Double || key instanceof Float))
+			slot = JavaBridge.hashIndexUpdate(result, peer, ((Number)key).longValue());
+		    else
+			slot = JavaBridge.hashUpdate(result, peer, key.toString().getBytes());
+		    setResult(slot, peer, ht.get(key));
+		}
+	    }
+d588 1
+a588 1
+	} else {
+d590 1
+a590 1
+	    JavaBridge.setResultFromObject(result, peer, value);
+d592 1
+a592 1
+	}
+d597 1
+a597 1
+	setResult(result, peer, lastException);
+d601 1
+a601 1
+	lastException = null;
+d606 4
+a609 4
+	if (e instanceof InvocationTargetException) {
+	    Throwable t = ((InvocationTargetException)e).getTargetException();
+	    if (t!=null) e=t;
+	}
+d611 2
+a612 2
+	lastException = e;
+	JavaBridge.setException(result, peer, e, e.toString().getBytes());
+d619 41
+a659 41
+			     Object args[], long result, long peer) {
+	try {
+	    Vector matches = new Vector();
+	    Constructor selected = null;
+
+	    if(createInstance) {
+		Constructor cons[] = Class.forName(name, true, cl).getConstructors();
+		for (int i=0; i<cons.length; i++) {
+		    if (cons[i].getParameterTypes().length == args.length) {
+			matches.addElement(cons[i]);
+		    }
+		}
+
+		selected = (Constructor)select(matches, args);
+	    }
+
+	    if (selected == null) {
+		if (args.length > 0) {
+		    throw new InstantiationException("No matching constructor found");
+		} else {
+		    // for classes which have no visible constructor, return the class
+		    // useful for classes like java.lang.System and java.util.Calendar.
+		    setResult(result, peer, Class.forName(name, true, cl));
+		    return;
+		}
+	    }
+
+	    Object coercedArgs[] = coerce(selected.getParameterTypes(), args);
+	    JavaBridge.setResultFromObject(result, peer, selected.newInstance(coercedArgs));
+
+	} catch (Throwable e) {
+	    printStackTrace(e);
+	    // Special handling of our connection abort
+	    // throwable.  We can't use our own (inner)
+	    // exception class because that would mean we
+	    // have to deal with a classname that contains
+	    // a $ sign in its name during the bridge
+	    // install procedure
+	    if(e.getMessage()!=null &&
+	       e.getMessage().startsWith("child aborted connection during"))
+		throw new RuntimeException();
+d661 2
+a662 2
+	    setException(result, peer, e);
+	}
+d669 1
+a669 1
+	if (methods.size() == 1) return methods.firstElement();
+d671 2
+a672 2
+	Object selected = null;
+	int best = Integer.MAX_VALUE;
+d674 80
+a753 73
+	for (Enumeration e = methods.elements(); e.hasMoreElements(); ) {
+	    Object element = e.nextElement();
+	    int weight=0;
+
+	    Class parms[] = (element instanceof Method) ?
+		((Method)element).getParameterTypes() : 
+		((Constructor)element).getParameterTypes();
+
+	    for (int i=0; i<parms.length; i++) {
+		if (parms[i].isInstance(args[i])) {
+		    for (Class c=parms[i]; (c=c.getSuperclass()) != null; ) {
+			if (!c.isInstance(args[i])) break;
+			weight++;
+		    }
+		} else if (parms[i].isAssignableFrom(java.lang.String.class)) {
+		    if (!(args[i] instanceof byte[]) && !(args[i] instanceof String))
+			weight+=9999;
+		} else if (parms[i].isArray()) {
+		    if (args[i] instanceof java.util.Hashtable) {
+			Enumeration enumeration = ((Hashtable)args[i]).elements();
+			if(enumeration.hasMoreElements()) {
+			    Object elem = enumeration.nextElement();
+			    Class c=parms[i].getComponentType();
+			    if (elem instanceof Number) {
+				if(elem instanceof Double) {
+				    if (c==Float.TYPE) weight+=11;
+				    else if (c==Double.TYPE) weight+=10;
+				    else weight += 256;
+				} else {				
+				    if (c==Boolean.TYPE) weight+=15;
+				    else if (c==Character.TYPE) weight+=14;
+				    else if (c==Byte.TYPE) weight+=13;
+				    else if (c==Short.TYPE) weight+=12;
+				    else if (c==Integer.TYPE) weight+=11;
+				    else if (c==Long.TYPE) weight+=10;
+				    else weight += 256;
+				}
+			    } else if (elem instanceof Boolean) {
+				if (c!=Boolean.TYPE) weight+=256;
+			    } else
+				weight += 256;
+			} else
+			    weight+=256;
+		    } else
+			weight+=9999;
+		} else if (parms[i].isPrimitive()) {
+		    Class c=parms[i];
+		    if (args[i] instanceof Number) {
+			if(args[i] instanceof Double) {
+			    if (c==Float.TYPE) weight++;
+			    else if (c==Double.TYPE) weight+=0;
+			    else weight += 256;
+			} else {
+			    if (c==Boolean.TYPE) weight+=5;
+			    else if (c==Character.TYPE) weight+=4;
+			    else if (c==Byte.TYPE) weight+=3;
+			    else if (c==Short.TYPE) weight+=2;
+			    else if (c==Integer.TYPE) weight++;
+			    else if (c==Long.TYPE) weight+=0;
+			    else weight += 256;
+			}
+		    } else if (args[i] instanceof Boolean) {
+			if (c!=Boolean.TYPE) weight+=9999;
+		    } else if (args[i] instanceof String) {
+			if (c== Character.TYPE || ((String)args[i]).length()>0)
+			    weight+=((String)args[i]).length();
+			else
+			    weight+=64;
+		    } else {
+			weight+=9999;
+		    }
+		} else {
+		    weight+=9999;
+a754 7
+	    } 
+	    if (weight < best) {
+		if (weight == 0) return element;
+		best = weight;
+		selected = element;
+	    }
+	}
+d756 1
+a756 1
+	return selected;
+d766 55
+a820 37
+	Object result[] = args;
+	Class targetType = null;
+	int size = 0;
+
+	for (int i=0; i<args.length; i++) {
+	    if (args[i] instanceof byte[] && !parms[i].isArray()) {
+		Class c = parms[i];
+		String s = new String((byte[])args[i]);
+		result[i] = s;
+		try {
+		    if (c == Boolean.TYPE) result[i]=new Boolean(s);
+		    if (c == Byte.TYPE)    result[i]=new Byte(s);
+		    if (c == Short.TYPE)   result[i]=new Short(s);
+		    if (c == Integer.TYPE) result[i]=new Integer(s);
+		    if (c == Float.TYPE)   result[i]=new Float(s);
+		    if (c == Long.TYPE)    result[i]=new Long(s);
+		    if (c == Character.TYPE && s.length()>0) 
+			result[i]=new Character(s.charAt(0));
+		} catch (NumberFormatException n) {
+		    printStackTrace(n);
+		    // oh well, we tried!
+		}
+	    } else if (args[i] instanceof Number && parms[i].isPrimitive()) {
+		if (result==args) result=(Object[])result.clone();
+		Class c = parms[i];
+		Number n = (Number)args[i];
+		if (c == Boolean.TYPE) result[i]=new Boolean(0.0!=n.floatValue());
+		if (c == Byte.TYPE)    result[i]=new Byte(n.byteValue());
+		if (c == Short.TYPE)   result[i]=new Short(n.shortValue());
+		if (c == Integer.TYPE) result[i]=new Integer(n.intValue());
+		if (c == Float.TYPE)   result[i]=new Float(n.floatValue());
+		if (c == Long.TYPE && !(n instanceof Long)) 
+		    result[i]=new Long(n.longValue());
+	    } else if (args[i] instanceof Hashtable && parms[i].isArray()) {
+		try {
+		    Hashtable ht = (Hashtable)args[i];
+		    size = ht.size();
+d822 2
+a823 20
+		    // Verify that the keys are Long, and determine maximum
+		    for (Enumeration e = ht.keys(); e.hasMoreElements(); ) {
+			int index = ((Long)e.nextElement()).intValue();
+			if (index >= size) size = index+1;
+		    }
+
+		    Object tempArray[] = new Object[size];
+		    Class tempTarget[] = new Class[size];
+		    targetType = parms[i].getComponentType();
+
+		    // flatten the hash table into an array
+		    for (int j=0; j<size; j++) {
+			tempArray[j] = ht.get(new Long(j));
+			if (tempArray[j] == null && targetType.isPrimitive()) 
+			    throw new Exception("bail");
+			tempTarget[j] = targetType;
+		    }
+
+		    // coerce individual elements into the target type
+		    Object coercedArray[] = coerce(tempTarget, tempArray);
+d825 15
+a839 15
+		    // copy the results into the desired array type
+		    Object array = Array.newInstance(targetType,size);
+		    for (int j=0; j<size; j++) {
+			Array.set(array, j, coercedArray[j]);
+		    }
+
+		    result[i]=array;
+		} catch (Exception e) {
+		    logError("Error: " + String.valueOf(e) + " could not create array of type: " + targetType + ", size: " + size);
+		    printStackTrace(e);
+		    // leave result[i] alone...
+		}
+	    }
+	}
+	return result;
+d843 6
+a848 6
+	StringBuffer buffer = new StringBuffer("");
+	for(int i=0; i<args.length; i++) {
+	    buffer.append(String.valueOf(GetClass(args[i])));
+	    if(i+1<args.length) buffer.append(", ");
+	}
+	return buffer.toString();
+d854 1
+a854 1
+	(Object object, String method, Object args[], long result, long peer)
+d856 34
+a889 2
+	try {
+	    Vector matches = new Vector();
+d891 13
+a903 45
+	    // gather
+	    for (Class jclass = object.getClass();;jclass=(Class)object) {
+		while (!Modifier.isPublic(jclass.getModifiers())) {
+		    // OK, some joker gave us an instance of a non-public class
+		    // This often occurs in the case of enumerators
+		    // Substitute the first public interface in its place,
+		    // and barring that, try the superclass
+		    Class interfaces[] = jclass.getInterfaces();
+		    jclass=jclass.getSuperclass();
+		    for (int i=interfaces.length; i-->0;) {
+			if (Modifier.isPublic(interfaces[i].getModifiers())) {
+			    jclass=interfaces[i];
+			}
+		    }
+		}
+		Method methods[] = jclass.getMethods();
+		for (int i=0; i<methods.length; i++) {
+		    if (methods[i].getName().equalsIgnoreCase(method) &&
+			methods[i].getParameterTypes().length == args.length) {
+			matches.addElement(methods[i]);
+		    }
+		}
+
+		// try a second time with the object itself, if it is of type Class
+		if (!(object instanceof Class) || (jclass==object)) break;
+	    }
+	    Method selected = (Method)select(matches, args);
+	    if (selected == null) throw new NoSuchMethodException(String.valueOf(method) + "(" + argsToString(args) + ") " + "matches: " + String.valueOf(matches));
+
+	    Object coercedArgs[] = coerce(selected.getParameterTypes(), args);
+	    setResult(result, peer, selected.invoke(object, coercedArgs));
+
+	} catch (Throwable e) {
+	    printStackTrace(e);
+	    // Special handling of our connection abort
+	    // throwable.  We can't use our own (inner)
+	    // exception class because that would mean we
+	    // have to deal with a classname that contains
+	    // a $ sign in its name during the bridge
+	    // install procedure
+	    if(e.getMessage()!=null &&
+	       e.getMessage().startsWith("child aborted connection during"))
+		throw new RuntimeException();
+	    setException(result, peer, e);
+	}
+d910 1
+a910 1
+	(Object object, String prop, Object args[], long result, long peer)
+d912 43
+a954 1
+	try {
+d956 2
+a957 23
+	    for (Class jclass = object.getClass();;jclass=(Class)object) {
+		while (!Modifier.isPublic(jclass.getModifiers())) {
+		    // OK, some joker gave us an instance of a non-public class
+		    // Substitute the first public interface in its place,
+		    // and barring that, try the superclass
+		    Class interfaces[] = jclass.getInterfaces();
+		    jclass=jclass.getSuperclass();
+		    for (int i=interfaces.length; i-->0;) {
+			if (Modifier.isPublic(interfaces[i].getModifiers())) {
+			    jclass=interfaces[i];
+			}
+		    }
+		}
+		BeanInfo beanInfo = Introspector.getBeanInfo(jclass);
+		PropertyDescriptor props[] = beanInfo.getPropertyDescriptors();
+		for (int i=0; i<props.length; i++) {
+		    if (props[i].getName().equalsIgnoreCase(prop)) {
+			Method method;
+			if (args!=null && args.length>0) {
+			    method=props[i].getWriteMethod();
+			    args = coerce(method.getParameterTypes(), args);
+			} else {
+			    method=props[i].getReadMethod();
+a958 4
+			setResult(result, peer, method.invoke(object, args));
+			return;
+		    }
+		}
+d960 12
+a971 11
+		java.lang.reflect.Field jfields[] = jclass.getFields();
+		for (int i=0; i<jfields.length; i++) {
+		    if (jfields[i].getName().equalsIgnoreCase(prop)) {
+			if (args!=null && args.length>0) {
+			    args = coerce(new Class[] {jfields[i].getType()}, args);
+			    jfields[i].set(object, args[0]);
+			} else {
+			    setResult(result, peer, jfields[i].get(object));
+			}
+			return;
+		    }
+a972 18
+
+		// try a second time with the object itself, if it is of type Class
+		if (!(object instanceof Class) || (jclass==object)) break;
+	    }
+
+	} catch (Throwable e) {
+	    printStackTrace(e);
+	    // Special handling of our connection abort
+	    // throwable.  We can't use our own (inner)
+	    // exception class because that would mean we
+	    // have to deal with a classname that contains
+	    // a $ sign in its name during the bridge
+	    // install procedure
+	    if(e.getMessage()!=null &&
+	       e.getMessage().startsWith("child aborted connection during"))
+		throw new RuntimeException();
+	    setException(result, peer, e);
+	}
+d980 15
+a994 2
+	urls = new ArrayList();
+	if(_path==null || _path.length()<2) return;
+d996 23
+a1018 24
+	// add a token separator if first char is alnum
+	char c=_path.charAt(0);
+	if((c>='A' && c<='Z') || (c>='a' && c<='z') ||
+	   (c>='0' && c<='9') || (c!='.' || c!='/'))
+	    _path = ";" + _path;
+
+	String path = _path.substring(1);
+	StringTokenizer st = new StringTokenizer(path, _path.substring(0, 1));
+	while (st.hasMoreTokens()) {
+	    URL url;
+	    String p, s;
+	    s = st.nextToken();
+
+	    try {
+		url = new URL(s);
+		p = url.getProtocol(); 
+	    } catch (MalformedURLException e) {
+		try {
+		    s = "file:" + s;
+		    url = new URL(s);
+		    p = url.getProtocol();
+		}  catch (MalformedURLException e1) {
+		    printStackTrace(e1);
+		    continue;
+a1019 12
+	    }
+   
+	    if(p.equals("jar")) {
+		urls.add(url);
+		continue;
+	    }
+	    try {
+		urls.add(new URL("jar:"+s+"!/"));
+	    } catch (MalformedURLException e) {
+		printStackTrace(e);
+	    }
+	}
+@
+
+
+1.26
+log
+@secure mode
+@
+text
+@d207 1
+a207 1
+	logMessage("Request from client with uid/gid "+uid+"/"+gid);
+d416 1
+a416 1
+	    if(JavaBridge.logLevel>3) System.out.println("Java log         : " + logFile);
+d420 1
+d448 14
+d463 10
+a472 3
+	StringBuffer b = new StringBuffer(String.valueOf(System.currentTimeMillis()));
+	b.append(" [JavaBridge ");
+	b.append(level); b.append("]: ");
+d669 3
+a671 3
+			Enumeration enum = ((Hashtable)args[i]).elements();
+			if(enum.hasMoreElements()) {
+			    Object elem = enum.nextElement();
+@
+
+
+1.25
+log
+@release 1.0.7
+@
+text
+@d179 1
+a179 1
+    native void handleRequests(long peer);
+d198 3
+a200 3
+    private long peer;
+    public void run() { handleRequests(peer); }
+    public static void HandleRequests(long peer) {  
+d204 2
+d207 1
+d447 7
+d460 1
+a460 1
+	if(logLevel>3) logStream.println(msg);
+d463 1
+a463 1
+	if(logLevel>0) logStream.println(msg);
+d466 1
+a466 1
+	if(logLevel>1) logStream.println(msg);
+d469 1
+a469 1
+	if(logLevel>2) logStream.println(msg);
+@
+
+
+1.24
+log
+@release 1.0.7
+@
+text
+@d190 1
+@
+
+
+1.23
+log
+@trampoline
+@
+text
+@d31 5
+a35 5
+    // We now *must* use an inner class and handle all those x$y.class
+    // garbage during installation because the IBM 1.4.1 JVM crashes if
+    // JavaBridge implements both Runnable and extends ClassLoader:
+    // SIGSEGV received in clRemoveClassesFromJIT at 0x4010b8ea in
+    // [...]/classic/libjvm.so. Processing terminated. Bleh!
+d131 4
+d161 1
+d181 1
+a181 1
+    static native void trampoline(Object globalRef, long peer, boolean jump);
+d208 1
+a208 1
+    // used by the trampoline: clear all local refs
+d211 1
+a211 1
+    public static void Trampoline(Object globalRef, long peer, boolean jump) { trampoline (globalRef, peer, jump); }
+d412 1
+d418 6
+a423 2
+		    else
+			JavaBridge.logStream=new java.io.PrintStream(new java.io.FileOutputStream(logFile));
+a427 1
+	    if(JavaBridge.logLevel>3) System.out.println("Java log         :" + logFile);
+d440 3
+a442 1
+
+d635 26
+a660 3
+		    if (args[i] instanceof java.util.Hashtable)
+			weight+=256;
+		    else
+d665 13
+a677 6
+			if (c==Boolean.TYPE) weight+=5;
+			if (c==Character.TYPE) weight+=4;
+			if (c==Byte.TYPE) weight+=3;
+			if (c==Short.TYPE) weight+=2;
+			if (c==Integer.TYPE) weight++;
+			if (c==Float.TYPE) weight++;
+a691 1
+
+d710 3
+d745 1
+a745 1
+		    int size = ht.size();
+d755 1
+a755 1
+		    Class targetType = parms[i].getComponentType();
+d776 1
+d785 8
+d829 1
+a829 1
+	    if (selected == null) throw new NoSuchMethodException(method);
+@
+
+
+1.22
+log
+@PHP5
+@
+text
+@d175 3
+a177 1
+  
+d203 6
+d310 1
+a310 1
+		new PhpMap(value, this){
+@
+
+
+1.21
+log
+@php 5
+@
+text
+@d208 1
+a208 1
+		new PhpMap(value, null) {
+d255 1
+a255 1
+		new PhpMap(value, null) {
+d425 3
+a427 4
+	if(logLevel>1) t.printStackTrace(logStream);
+    }
+    public static void printFatalStackTrace(Throwable t) {
+	if(logLevel>1) t.printStackTrace(logStream);
+@
+
+
+1.20
+log
+@PHP5 iterator/array
+@
+text
+@d163 5
+d172 1
+d175 1
+a175 1
+	
+d182 4
+d201 1
+a201 1
+    // Return an iterator for the value (PHP 5 only)
+d389 1
+a389 1
+		JavaBridge.logError("No socket.  You must pass the socket filename, for example /tmp/.report_bridge");
+d425 4
+a428 1
+	if(logLevel>0) t.printStackTrace(logStream);
+d433 3
+d437 1
+a437 1
+	if(logLevel>0) logStream.println(msg);
+d487 3
+a489 1
+		// only for PHP 4, for PHP 5 see getPhpMap()
+d498 3
+a500 1
+		// only for PHP 4, for PHP 5 see getPhpMap()
+@
+
+
+1.19
+log
+@php 4/5
+@
+text
+@d131 23
+d163 1
+a163 1
+    static native void setResultFromArray(long result, long peer);
+d191 145
+d446 3
+a448 3
+	if (value == null) return;
+
+	if (value instanceof byte[]) {
+d470 5
+a474 3
+	    JavaBridge.setResultFromArray(result, peer);
+	    for (int i=0; i<length; i++) {
+		setResult(JavaBridge.nextElement(result, peer), peer, Array.get(value, i));
+a475 1
+
+d479 12
+a490 10
+	    JavaBridge.setResultFromArray(result, peer);
+	    for (Enumeration e = ht.keys(); e.hasMoreElements(); ) {
+		Object key = e.nextElement();
+		long slot;
+		if (key instanceof Number && 
+		    !(key instanceof Double || key instanceof Float))
+		    slot = JavaBridge.hashIndexUpdate(result, peer, ((Number)key).longValue());
+		else
+		    slot = JavaBridge.hashUpdate(result, peer, key.toString().getBytes());
+		setResult(slot, peer, ht.get(key));
+d529 1
+a529 1
+	    if(!createInstance) {
+@
+
+
+1.18
+log
+@php 4/5
+@
+text
+@d352 2
+a353 1
+    public void CreateObject(String name, Object args[], long result, long peer) {
+d356 1
+d358 6
+a363 4
+	    Constructor cons[] = Class.forName(name, true, cl).getConstructors();
+	    for (int i=0; i<cons.length; i++) {
+		if (cons[i].getParameterTypes().length == args.length) {
+		    matches.addElement(cons[i]);
+d365 2
+a368 2
+	    Constructor selected = (Constructor)select(matches, args);
+
+@
+
+
+1.17
+log
+@Version 1.1
+@
+text
+@d123 1
+a123 1
+		    if (b==null) throw new ClassNotFoundException(name + " not found in path: " + urls.toString());
+@
+
+
+1.16
+log
+@initialize urls before checking, otherwise setting an empty library path does not have an effect
+@
+text
+@d144 1
+a144 1
+    static native void setException(long result, long peer, byte value[]);
+d346 1
+a346 1
+	JavaBridge.setException(result, peer, e.toString().getBytes());
+@
+
+
+1.15
+log
+@loop in malloc_consolidate when apache received a sighup
+@
+text
+@d669 1
+a679 1
+	urls = new ArrayList();
+@
+
+
+1.14
+log
+@gcj: read chunks
+@
+text
+@d232 1
+a232 1
+	    if(JavaBridge.logLevel>0) System.out.println("Java log         :" + logFile);
+@
+
+
+1.13
+log
+@debug messages
+@
+text
+@d37 39
+d77 1
+a77 1
+		logDebug("load class " + name + " from " + u);
+d79 2
+a80 1
+		    int c, pos, pt;
+a89 2
+		    byte[] b = new byte[length];
+		    
+d91 6
+a96 6
+		    for(pos=0; (c=in.read(b, pos, b.length-pos))<length-pos; pos+=c) {
+			if(c<0) { in.close(); return null; }
+		    }
+		    
+		    in.close();
+		    
+d98 1
+@
+
+
+1.12
+log
+@Load libraries from /usr/share/java or from ext_dir/lib
+@
+text
+@d149 1
+a149 1
+			logDebug("added system library: " + url);
+@
+
+
+1.11
+log
+@error messages
+@
+text
+@d24 3
+a60 1
+		    printStackTrace(e);
+d77 4
+a80 1
+		    if(urls!=null) 
+d83 1
+a83 1
+		    
+d85 1
+a85 1
+		    
+d129 34
+d223 5
+d230 2
+a231 1
+	    JavaBridge.printStackTrace(t);
+a232 1
+		
+@
+
+
+1.10
+log
+@more expressive error messages
+@
+text
+@d58 1
+@
+
+
+1.9
+log
+@gcc2
+@
+text
+@d78 1
+a78 1
+		    if (b==null) throw new ClassNotFoundException(name + " not found");
+d588 3
+a590 3
+	if((_path.charAt(0)>='A' && _path.charAt(0)<='Z') ||
+	   (_path.charAt(0)>='a' && _path.charAt(0)<='z') ||
+	   (_path.charAt(0)>='0' && _path.charAt(0)<='9'))
+d600 1
+a600 1
+	       
+d605 8
+a612 2
+		printStackTrace(e);
+		continue;
+@
+
+
+1.8
+log
+@set the classloader for the context
+@
+text
+@d118 1
+a118 1
+	thread.setContextClassLoader(bridge);
+@
+
+
+1.7
+log
+@The client receives the bridge instance as the first element.  This fixes the classpath bug.
+To work around a problem in the IBM VM (it crashes if one creates a class which implements Runnable and extends from Classloader, the java code had to be re-organized to use an inner class.
+@
+text
+@d118 1
+a118 1
+	//thread.setContextClassLoader(bridge);
+@
+
+
+1.6
+log
+@Bugfix/Workaround for gcj 'AttachCurrentThread' bug
+@
+text
+@d16 1
+a16 1
+public class JavaBridge extends ClassLoader implements Runnable {
+d18 5
+a22 36
+	static PrintStream logStream;
+	static int logLevel;
+			
+	//
+	// Native methods
+	//
+	static native void startNative(int logLevel, String sockname);
+	static native void setResultFromString(long result, long peer, byte value[]);
+	static native void setResultFromLong(long result, long peer, long value);
+	static native void setResultFromDouble(long result, long peer, double value);
+	static native void setResultFromBoolean(long result, long peer, boolean value);
+	static native void setResultFromObject(long result, long peer, Object value);
+	static native void setResultFromArray(long result, long peer);
+	static native long nextElement(long array, long peer);
+	static native long hashUpdate(long array, long peer, byte key[]);
+	static native long hashIndexUpdate(long array, long peer, long key);
+	static native void setException(long result, long peer, byte value[]);
+	static native void handleRequests(int socket);
+	
+	//
+	// Helper routines for the C implementation
+	//
+	public Object MakeArg(boolean b) { return new Boolean(b); }
+	public Object MakeArg(long l)    { return new Long(l); }
+	public Object MakeArg(double d)  { return new Double(d); }
+
+        // 
+        // Communication with client in a new thread
+        //
+        private int socket;
+        public void run() { handleRequests(socket);}
+        public static void HandleRequests(int socket) {  
+	    JavaBridge bridge = new JavaBridge();
+	    bridge.socket=socket;
+	    (new Thread(bridge)).start();
+	}
+d24 12
+a35 6
+       //
+       // init
+       //
+	static void init(String s[]) {
+		String logFile=null;
+		String sockname=null;
+d37 112
+a148 33
+			if(s.length>0) {
+				sockname=s[0];
+			} else {
+				JavaBridge.logError("No socket.  You must pass the socket filename, for example /tmp/.report_bridge");
+				System.exit(12);
+			}
+			try {
+				if(s.length>1) {
+					JavaBridge.logLevel=Integer.parseInt(s[1]);
+				}
+			} catch (Throwable t) {
+				t.printStackTrace();
+			}
+			try {
+				if(s.length>2) {
+					logFile=s[2];
+					if(logFile==null||logFile.trim().length()==0)
+						JavaBridge.logStream=System.out;
+					else
+						JavaBridge.logStream=new java.io.PrintStream(new java.io.FileOutputStream(logFile));
+				}
+			}catch (Throwable t) {
+				t.printStackTrace();
+			}
+			if(JavaBridge.logLevel>0) System.out.println("Java log         :" + logFile);
+			JavaBridge.logMessage("Java logFile     : " + logFile);
+			JavaBridge.logMessage("Java logLevel    : " + JavaBridge.logLevel);
+			JavaBridge.logMessage("Java socket      : " + sockname);
+			JavaBridge.startNative(JavaBridge.logLevel, sockname);
+			System.exit(0);
+		} catch (Throwable t) {
+			printStackTrace(t);
+			System.exit(1);
+d150 14
+a163 1
+	}
+d167 19
+a185 11
+	public static void printStackTrace(Throwable t) {
+		if(logLevel>0) t.printStackTrace(logStream);
+	}
+	public static void logDebug(String msg) {
+		if(logLevel>3) logStream.println(msg);
+	}
+	public static void logError(String msg) {
+		if(logLevel>0) logStream.println(msg);
+	}
+	public static void logMessage(String msg) {
+		if(logLevel>2) logStream.println(msg);
+d187 2
+d190 86
+a275 6
+	public static void main(String s[]) {
+		try {
+			System.loadLibrary("natcJavaBridge");
+			init(s);
+		} catch (Throwable t) {
+			JavaBridge.printStackTrace(t);
+d277 1
+a277 2
+		
+	}
+d279 1
+a279 20
+	//
+	// Helper routines which encapsulate the native methods
+	//
+	static void setResult(long result, long peer, Object value) {
+		if (value == null) return;
+
+		if (value instanceof byte[]) {
+			JavaBridge.setResultFromString(result, peer, (byte[])value);
+		} else if (value instanceof java.lang.String) {
+			JavaBridge.setResultFromString(result, peer, ((String)value).getBytes());
+		} else if (value instanceof java.lang.Number) {
+
+			if (value instanceof java.lang.Integer ||
+				value instanceof java.lang.Short ||
+				value instanceof java.lang.Byte) {
+				JavaBridge.setResultFromLong(result, peer, ((Number)value).longValue());
+			} else {
+				/* Float, Double, BigDecimal, BigInteger, Double, Long, ... */
+				JavaBridge.setResultFromDouble(result, peer, ((Number)value).doubleValue());
+			}
+d281 10
+a290 5
+		} else if (value instanceof java.lang.Boolean) {
+
+			JavaBridge.setResultFromBoolean(result, peer, ((Boolean)value).booleanValue());
+
+		} else if (value.getClass().isArray()) {
+d292 2
+a293 20
+			long length = Array.getLength(value);
+			JavaBridge.setResultFromArray(result, peer);
+			for (int i=0; i<length; i++) {
+				setResult(JavaBridge.nextElement(result, peer), peer, Array.get(value, i));
+			}
+
+		} else if (value instanceof java.util.Hashtable) {
+
+			Hashtable ht = (Hashtable) value; 
+			JavaBridge.setResultFromArray(result, peer);
+			for (Enumeration e = ht.keys(); e.hasMoreElements(); ) {
+				Object key = e.nextElement();
+				long slot;
+				if (key instanceof Number && 
+					!(key instanceof Double || key instanceof Float))
+					slot = JavaBridge.hashIndexUpdate(result, peer, ((Number)key).longValue());
+				else
+					slot = JavaBridge.hashUpdate(result, peer, key.toString().getBytes());
+				setResult(slot, peer, ht.get(key));
+			}
+d295 66
+d362 1
+a362 3
+
+			JavaBridge.setResultFromObject(result, peer, value);
+
+d364 1
+a364 2
+	}
+	Throwable lastException = null;
+d366 35
+a400 13
+	void lastException(long result, long peer) {
+		setResult(result, peer, lastException);
+	}
+
+	void clearException() {
+		lastException = null;
+	}
+
+
+	void setException(long result, long peer, Throwable e) {
+		if (e instanceof InvocationTargetException) {
+			Throwable t = ((InvocationTargetException)e).getTargetException();
+			if (t!=null) e=t;
+d402 12
+a413 9
+
+		lastException = e;
+		JavaBridge.setException(result, peer, e.toString().getBytes());
+	}
+
+	//
+	// Create an new instance of a given class
+	//
+	public void CreateObject(String name, Object args[], long result, long peer) {
+d415 2
+a416 1
+			Vector matches = new Vector();
+d418 17
+a434 6
+			Constructor cons[] = Class.forName(name, true, this).getConstructors();
+			for (int i=0; i<cons.length; i++) {
+				if (cons[i].getParameterTypes().length == args.length) {
+					matches.addElement(cons[i]);
+				}
+			}
+d436 13
+a448 29
+			Constructor selected = (Constructor)select(matches, args);
+
+			if (selected == null) {
+				if (args.length > 0) {
+					throw new InstantiationException("No matching constructor found");
+				} else {
+					// for classes which have no visible constructor, return the class
+					// useful for classes like java.lang.System and java.util.Calendar.
+					setResult(result, peer, Class.forName(name, true, this));
+					return;
+				}
+			}
+
+			Object coercedArgs[] = coerce(selected.getParameterTypes(), args);
+			JavaBridge.setResultFromObject(result, peer, selected.newInstance(coercedArgs));
+
+		} catch (Throwable e) {
+			printStackTrace(e);
+			// Special handling of our connection abort
+			// throwable.  We can't use our own (inner)
+			// exception class because that would mean we
+			// have to deal with a classname that contains
+			// a $ sign in its name during the bridge
+			// install procedure
+			if(e.getMessage()!=null &&
+			   e.getMessage().startsWith("child aborted connection during"))
+			    throw new RuntimeException();
+
+			setException(result, peer, e);
+d450 1
+d452 2
+d455 21
+a475 59
+	//
+	// Select the best match from a list of methods
+	//
+	private static Object select(Vector methods, Object args[]) {
+		if (methods.size() == 1) return methods.firstElement();
+
+		Object selected = null;
+		int best = Integer.MAX_VALUE;
+
+		for (Enumeration e = methods.elements(); e.hasMoreElements(); ) {
+			Object element = e.nextElement();
+			int weight=0;
+
+			Class parms[] = (element instanceof Method) ?
+				((Method)element).getParameterTypes() : 
+				((Constructor)element).getParameterTypes();
+
+			for (int i=0; i<parms.length; i++) {
+				if (parms[i].isInstance(args[i])) {
+					for (Class c=parms[i]; (c=c.getSuperclass()) != null; ) {
+						if (!c.isInstance(args[i])) break;
+						weight++;
+					}
+				} else if (parms[i].isAssignableFrom(java.lang.String.class)) {
+					if (!(args[i] instanceof byte[]) && !(args[i] instanceof String))
+						weight+=9999;
+				} else if (parms[i].isArray()) {
+					if (args[i] instanceof java.util.Hashtable)
+						weight+=256;
+					else
+						weight+=9999;
+				} else if (parms[i].isPrimitive()) {
+					Class c=parms[i];
+					if (args[i] instanceof Number) {
+						if (c==Boolean.TYPE) weight+=5;
+						if (c==Character.TYPE) weight+=4;
+						if (c==Byte.TYPE) weight+=3;
+						if (c==Short.TYPE) weight+=2;
+						if (c==Integer.TYPE) weight++;
+						if (c==Float.TYPE) weight++;
+					} else if (args[i] instanceof Boolean) {
+						if (c!=Boolean.TYPE) weight+=9999;
+					} else if (args[i] instanceof String) {
+						if (c== Character.TYPE || ((String)args[i]).length()>0)
+							weight+=((String)args[i]).length();
+						else
+							weight+=64;
+					} else {
+						weight+=9999;
+					}
+				} else {
+					weight+=9999;
+				}
+			} 
+
+			if (weight < best) {
+				if (weight == 0) return element;
+				best = weight;
+				selected = element;
+d477 8
+d487 42
+a528 77
+		return selected;
+	}
+
+	//
+	// Coerce arguments when possible to conform to the argument list.
+	// Java's reflection will automatically do widening conversions,
+	// unfortunately PHP only supports wide formats, so to be practical
+	// some (possibly lossy) conversions are required.
+	//
+	private static Object[] coerce(Class parms[], Object args[]) {
+		Object result[] = args;
+		for (int i=0; i<args.length; i++) {
+			if (args[i] instanceof byte[] && !parms[i].isArray()) {
+				Class c = parms[i];
+				String s = new String((byte[])args[i]);
+				result[i] = s;
+				try {
+					if (c == Boolean.TYPE) result[i]=new Boolean(s);
+					if (c == Byte.TYPE)    result[i]=new Byte(s);
+					if (c == Short.TYPE)   result[i]=new Short(s);
+					if (c == Integer.TYPE) result[i]=new Integer(s);
+					if (c == Float.TYPE)   result[i]=new Float(s);
+					if (c == Long.TYPE)    result[i]=new Long(s);
+					if (c == Character.TYPE && s.length()>0) 
+						result[i]=new Character(s.charAt(0));
+				} catch (NumberFormatException n) {
+					printStackTrace(n);
+					// oh well, we tried!
+				}
+			} else if (args[i] instanceof Number && parms[i].isPrimitive()) {
+				if (result==args) result=(Object[])result.clone();
+				Class c = parms[i];
+				Number n = (Number)args[i];
+				if (c == Boolean.TYPE) result[i]=new Boolean(0.0!=n.floatValue());
+				if (c == Byte.TYPE)    result[i]=new Byte(n.byteValue());
+				if (c == Short.TYPE)   result[i]=new Short(n.shortValue());
+				if (c == Integer.TYPE) result[i]=new Integer(n.intValue());
+				if (c == Float.TYPE)   result[i]=new Float(n.floatValue());
+				if (c == Long.TYPE && !(n instanceof Long)) 
+					result[i]=new Long(n.longValue());
+			} else if (args[i] instanceof Hashtable && parms[i].isArray()) {
+				try {
+					Hashtable ht = (Hashtable)args[i];
+					int size = ht.size();
+
+					// Verify that the keys are Long, and determine maximum
+					for (Enumeration e = ht.keys(); e.hasMoreElements(); ) {
+						int index = ((Long)e.nextElement()).intValue();
+						if (index >= size) size = index+1;
+					}
+
+					Object tempArray[] = new Object[size];
+					Class tempTarget[] = new Class[size];
+					Class targetType = parms[i].getComponentType();
+
+					// flatten the hash table into an array
+					for (int j=0; j<size; j++) {
+						tempArray[j] = ht.get(new Long(j));
+						if (tempArray[j] == null && targetType.isPrimitive()) 
+							throw new Exception("bail");
+						tempTarget[j] = targetType;
+					}
+
+					// coerce individual elements into the target type
+					Object coercedArray[] = coerce(tempTarget, tempArray);
+        
+					// copy the results into the desired array type
+					Object array = Array.newInstance(targetType,size);
+					for (int j=0; j<size; j++) {
+						Array.set(array, j, coercedArray[j]);
+					}
+
+					result[i]=array;
+				} catch (Exception e) {
+					printStackTrace(e);
+					// leave result[i] alone...
+				}
+d530 1
+d532 10
+a541 37
+		return result;
+	}
+
+	//
+	// Invoke a method on a given object
+	//
+	public void Invoke
+		(Object object, String method, Object args[], long result, long peer)
+	{
+		try {
+			Vector matches = new Vector();
+
+			// gather
+			for (Class jclass = object.getClass();;jclass=(Class)object) {
+				while (!Modifier.isPublic(jclass.getModifiers())) {
+					// OK, some joker gave us an instance of a non-public class
+					// This often occurs in the case of enumerators
+					// Substitute the first public interface in its place,
+					// and barring that, try the superclass
+					Class interfaces[] = jclass.getInterfaces();
+					jclass=jclass.getSuperclass();
+					for (int i=interfaces.length; i-->0;) {
+						if (Modifier.isPublic(interfaces[i].getModifiers())) {
+							jclass=interfaces[i];
+						}
+					}
+				}
+				Method methods[] = jclass.getMethods();
+				for (int i=0; i<methods.length; i++) {
+					if (methods[i].getName().equalsIgnoreCase(method) &&
+						methods[i].getParameterTypes().length == args.length) {
+						matches.addElement(methods[i]);
+					}
+				}
+
+				// try a second time with the object itself, if it is of type Class
+				if (!(object instanceof Class) || (jclass==object)) break;
+d543 3
+a545 18
+			Method selected = (Method)select(matches, args);
+			if (selected == null) throw new NoSuchMethodException(method);
+
+			Object coercedArgs[] = coerce(selected.getParameterTypes(), args);
+			setResult(result, peer, selected.invoke(object, coercedArgs));
+
+		} catch (Throwable e) {
+			printStackTrace(e);
+			// Special handling of our connection abort
+			// throwable.  We can't use our own (inner)
+			// exception class because that would mean we
+			// have to deal with a classname that contains
+			// a $ sign in its name during the bridge
+			// install procedure
+			if(e.getMessage()!=null &&
+			   e.getMessage().startsWith("child aborted connection during"))
+			    throw new RuntimeException();
+			setException(result, peer, e);
+a546 1
+	}
+d548 8
+a555 52
+	//
+	// Get or Set a property
+	//
+	public void GetSetProp
+		(Object object, String prop, Object args[], long result, long peer)
+	{
+		try {
+
+			for (Class jclass = object.getClass();;jclass=(Class)object) {
+				while (!Modifier.isPublic(jclass.getModifiers())) {
+					// OK, some joker gave us an instance of a non-public class
+					// Substitute the first public interface in its place,
+					// and barring that, try the superclass
+					Class interfaces[] = jclass.getInterfaces();
+					jclass=jclass.getSuperclass();
+					for (int i=interfaces.length; i-->0;) {
+						if (Modifier.isPublic(interfaces[i].getModifiers())) {
+							jclass=interfaces[i];
+						}
+					}
+				}
+				BeanInfo beanInfo = Introspector.getBeanInfo(jclass);
+				PropertyDescriptor props[] = beanInfo.getPropertyDescriptors();
+				for (int i=0; i<props.length; i++) {
+					if (props[i].getName().equalsIgnoreCase(prop)) {
+						Method method;
+						if (args!=null && args.length>0) {
+							method=props[i].getWriteMethod();
+							args = coerce(method.getParameterTypes(), args);
+						} else {
+							method=props[i].getReadMethod();
+						}
+						setResult(result, peer, method.invoke(object, args));
+						return;
+					}
+				}
+
+				java.lang.reflect.Field jfields[] = jclass.getFields();
+				for (int i=0; i<jfields.length; i++) {
+					if (jfields[i].getName().equalsIgnoreCase(prop)) {
+						if (args!=null && args.length>0) {
+							args = coerce(new Class[] {jfields[i].getType()}, args);
+							jfields[i].set(object, args[0]);
+						} else {
+							setResult(result, peer, jfields[i].get(object));
+						}
+						return;
+					}
+				}
+
+				// try a second time with the object itself, if it is of type Class
+				if (!(object instanceof Class) || (jclass==object)) break;
+d557 2
+a558 13
+
+		} catch (Throwable e) {
+			printStackTrace(e);
+			// Special handling of our connection abort
+			// throwable.  We can't use our own (inner)
+			// exception class because that would mean we
+			// have to deal with a classname that contains
+			// a $ sign in its name during the bridge
+			// install procedure
+			if(e.getMessage()!=null &&
+			   e.getMessage().startsWith("child aborted connection during"))
+			    throw new RuntimeException();
+			setException(result, peer, e);
+a559 1
+	}
+d561 39
+a599 24
+       // the list of jar files in which we search for user classes.
+       // can be changed with setLibraryPath
+       private Collection urls=null;
+
+       // Set the library path for the java bridge. Examples:
+       // setJarLibPath(";file:///tmp/test.jar;file:///tmp/my.jar");
+       // setJarLibPath("|file:c:/t.jar|http://.../a.jar|jar:file:///tmp/x.jar!/");
+       // The first char must be the token separator.
+       void setJarLibraryPath(String _path) {
+	   if(_path==null || _path.length()<2) return;
+
+	   // add a token separator if first char is alnum
+	   if((_path.charAt(0)>='A' && _path.charAt(0)<='Z') ||
+	      (_path.charAt(0)>='a' && _path.charAt(0)<='z') ||
+	      (_path.charAt(0)>='0' && _path.charAt(0)<='9'))
+	       _path = ";" + _path;
+
+	   String path = _path.substring(1);
+	   StringTokenizer st = new StringTokenizer(path, _path.substring(0, 1));
+	   urls = new ArrayList();
+	   while (st.hasMoreTokens()) {
+	       URL url;
+	       String p, s;
+	       s = st.nextToken();
+d601 7
+a607 7
+	       try {
+		   url = new URL(s);
+		   p = url.getProtocol(); 
+	       } catch (MalformedURLException e) {
+		   printStackTrace(e);
+		   continue;
+	       }
+d609 11
+a619 63
+	       if(p.equals("jar")) {
+		   urls.add(url);
+		   continue;
+               }
+	       try {
+		   urls.add(new URL("jar:"+s+"!/"));
+	       } catch (MalformedURLException e) {
+		   printStackTrace(e);
+	       }
+	   }
+       }
+       
+   
+       byte[] load(URL u, String name) {
+	   try {
+	       int c, pos, pt;
+	       String p, h, f;
+   
+	       p = u.getProtocol(); h = u.getHost(); 
+	       pt = u.getPort(); f = u.getFile();
+	       URL url = new URL(p ,h , pt, f+name.replace('.','/')+".class");
+   
+	       URLConnection con = url.openConnection();
+	       con.connect();
+	       int length = con.getContentLength();
+	       byte[] b = new byte[length];
+   
+               InputStream in = con.getInputStream();
+	       for(pos=0; (c=in.read(b, pos, b.length-pos))<length-pos; pos+=c) {
+		   if(c<0) { in.close(); return null; }
+	       }
+   
+	       in.close();
+   
+	       return b;
+           } catch (Exception e) {
+	       return null;
+	   }
+       }
+       private static final HashMap classes = new HashMap(); 
+       public Class findClass(String name) throws ClassNotFoundException {
+	   Class c = null;
+	   byte[] b = null;
+
+	   synchronized(classes) {
+	       Object o = classes.get(name);
+	       if(o!=null) o = ((WeakReference)o).get();
+	       if(o!=null) c = (Class)o;
+	       if(c!=null) return c;
+	       try {
+		   return ClassLoader.getSystemClassLoader().loadClass(name);
+	       } catch (ClassNotFoundException e) {};
+	       
+	       if(urls!=null) 
+		   for (Iterator i=urls.iterator(); i.hasNext(); ) 
+		       if ((b=load((URL)i.next(), name))!=null) break;
+	       
+	       if (b==null) throw new ClassNotFoundException(name + " not found");
+	       
+	       if((c = this.defineClass(name, b, 0, b.length)) != null) classes.put(name, new WeakReference(c));
+	   }
+	   return c;
+       }
+@
+
+
+1.5
+log
+@terminate with result code
+@
+text
+@d16 1
+a16 1
+public class JavaBridge extends ClassLoader {
+d35 1
+d44 14
+@
+
+
+1.4
+log
+@fixes for GNU Java /gcj 3.3.3)
+@
+text
+@d76 1
+d79 1
+@
+
+
+1.3
+log
+@java_set_jar_library_path added
+@
+text
+@d11 1
+d568 1
+a568 1
+   
+d570 1
+d572 19
+a590 11
+	   try {
+	       return ClassLoader.getSystemClassLoader().loadClass(name);
+	   } catch (ClassNotFoundException e) {};
+   
+	   if(urls!=null) 
+	       for (Iterator i=urls.iterator(); i.hasNext(); ) 
+		   if ((b=load((URL)i.next(), name))!=null) break;
+   
+           if (b==null) throw new ClassNotFoundException(name + " not found");
+   
+           return this.defineClass(name, b, 0, b.length);
+@
+
+
+1.2
+log
+@proper error reporting
+@
+text
+@d11 1
+a11 4
+import java.util.Enumeration;
+import java.util.Hashtable;
+import java.util.Properties;
+import java.util.Vector;
+d13 1
+d15 1
+a15 1
+public class JavaBridge {
+a41 1
+
+d187 1
+a187 1
+			Constructor cons[] = Class.forName(name).getConstructors();
+d202 1
+a202 1
+					setResult(result, peer, Class.forName(name));
+d494 88
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d213 1
+a213 1
+		} catch (Exception e) {
+d215 10
+d414 1
+a414 1
+		} catch (Exception e) {
+d416 9
+d483 1
+a483 1
+		} catch (Exception e) {
+d485 9
+@
+
+
+1.1.1.1
+log
+@Initial
+@
+text
+@@

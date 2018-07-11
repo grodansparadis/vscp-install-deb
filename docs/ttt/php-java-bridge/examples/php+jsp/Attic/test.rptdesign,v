@@ -1,0 +1,327 @@
+head	1.3;
+access;
+symbols
+	Release-7-1-1:1.2.0.30
+	Root_Release-7-1-1:1.2
+	Root_Release_7-0-1:1.2
+	Release_7-0-1:1.2.0.28
+	Release_7-0-0:1.2.0.26
+	Root_Release_7-0-0:1.2
+	Release-6-2-2:1.2.0.24
+	Release-6-1-2-3:1.2
+	Root_Release-6-1-2-3:1.2
+	Release-6-1-2-2:1.2.0.22
+	Root_Release-6-1-2-2:1.2
+	debian_version_6_1_2_1-1:1.2
+	upstream_version_6_1_2_1:1.2
+	Release-6-1-2-1_new:1.2.0.20
+	Root_Release-6-1-2-1_new:1.2
+	Release-6-1-2-1:1.2.0.18
+	Root_Release-6-1-2-1:1.2
+	upstream_version_6_1_2:1.2
+	debian_version_6_1_2-1:1.2
+	Release-6-1-2:1.2.0.16
+	Root_Release-6-1-2:1.2
+	debian_version_6_1_1-2:1.2
+	debian_version_6_1_1-1:1.2
+	upstream_version_6_1_1:1.2
+	Release-6-1-1:1.2.0.14
+	Root_Release-6-1-1:1.2
+	Release-6-0-4:1.2.0.12
+	Root_Release-6-0-4:1.2
+	Release-6-0-3_NEW:1.2.0.8
+	Root_Release-6-0-3_NEW:1.2
+	Release-6-0-3:1.2.0.10
+	Root_Release-6-0-3:1.2
+	Release-6-0-0:1.2.0.6
+	Root_Release-6-0-0:1.2
+	Release-5-5-4-1:1.2.0.4
+	Root_Release-5-5-4-1:1.2
+	Release-5-5-4:1.2.0.2
+	Root_Release-5-5-4:1.2
+	Release-5-5-3:1.1.0.14
+	ROOT_Release-5-5-3:1.1
+	Release-5-5-2:1.1.0.12
+	Root_Release-5-5-2:1.1
+	debian_version_5_5_1-1:1.1
+	Release-5-5-1:1.1.0.8
+	upstream_version_5_5_1:1.1
+	ROOT_Release-5-5-1:1.1
+	debian_version_5_5-1:1.1
+	upstream_version_5_5:1.1
+	ROOT_Release-5-5:1.1
+	Release-5-5:1.1.0.10
+	debian_version_5_4_4_2-3:1.1
+	Release-5-4-4-2-1:1.1.0.4
+	debian_version_5_4_4_2-2:1.1
+	debian_version_5_4_4_2-1:1.1
+	upstream_version_5_4_4_2:1.1
+	debian_version_5_4_4_1-1:1.1
+	upstream_version_5_4_4_1:1.1
+	debian_version_5_4_4-1:1.1
+	upstream_version_5_4_4:1.1
+	Release-5-4-4:1.1.0.6
+	Root_Release-5-4-4:1.1
+	debian_version_5_4_3_2-1:1.1
+	upstream_version_5_4_3_2:1.1
+	Release_5-4-3-2:1.1.0.2
+	Root_Release_5-4-3-2:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2017.04.14.13.01.10;	author jost_boekemeier;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2009.10.17.17.40.22;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2009.02.15.22.24.08;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Removed JavaProxy.php
+@
+text
+@<?xml version="1.0" encoding="UTF-8"?>
+<!-- Written by Eclipse BIRT 2.0 -->
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.6" id="1">
+    <property name="author">Bertie the Platypus</property>
+    <property name="createdBy">Eclipse BIRT Designer Version 1.0.0 Build &lt;20050405-1230></property>
+    <property name="units">in</property>
+    <property name="comments">Not a very interesting report, just a "Hello World" with a param.</property>
+    <html-property name="description">Sample report used to test the BIRT viewer.</html-property>
+    <list-property name="configVars">
+        <structure>
+            <property name="name">sample</property>
+            <property name="value">aaa</property>
+        </structure>
+    </list-property>
+    <parameters>
+        <scalar-parameter name="sample" id="2">
+            <text-property name="displayName">Sample Parameter</text-property>
+            <property name="hidden">false</property>
+            <property name="dataType">string</property>
+            <property name="concealValue">false</property>
+            <property name="allowBlank">true</property>
+            <property name="allowNull">false</property>
+            <property name="controlType">text-box</property>
+            <property name="mustMatch">false</property>
+            <property name="fixedOrder">false</property>
+        </scalar-parameter>
+    </parameters>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="3">
+            <page-header>
+                <grid id="4">
+                    <property name="width">100%</property>
+                    <column id="5"/>
+                    <row id="6">
+                        <cell id="7">
+                            <property name="fontSize">xx-large</property>
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">center</property>
+                            <text id="8">
+                                <text-property name="content"><![CDATA[Title]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+            <page-footer>
+                <grid id="9">
+                    <property name="width">100%</property>
+                    <column id="10"/>
+                    <column id="11"/>
+                    <row id="12">
+                        <cell id="13">
+                            <text id="14">
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="15">
+                            <property name="textAlign">right</property>
+                            <auto-text id="26">
+                                <property name="type">page-number</property>
+                            </auto-text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <text id="17">
+            <property name="contentType">html</property>
+            <text-property name="content"><![CDATA[<b>Congratulations!</b>
+<br><br>
+If you can see this report, it means that the BIRT viewer is installed correctly.
+<br><br>]]></text-property>
+        </text>
+        <grid id="18">
+            <property name="width">100%</property>
+            <column id="19">
+                <property name="width">1.354in</property>
+            </column>
+            <column id="20">
+                <property name="width">5.083in</property>
+            </column>
+            <row id="21">
+                <cell id="22">
+                    <label id="23">
+                        <text-property name="text">Sample Parameter:</text-property>
+                    </label>
+                </cell>
+                <cell id="24">
+                    <data id="25">
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">params["sample"]</property>
+                                <expression name="expression">params["sample"]</expression>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">params["sample"]</property>
+                    </data>
+                </cell>
+            </row>
+        </grid>
+    </body>
+</report>
+@
+
+
+1.2
+log
+@Release-5-5-4
+@
+text
+@@
+
+
+1.1
+log
+@eclipse birt integration
+@
+text
+@d1 105
+a105 105
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Written by Eclipse BIRT 2.0 -->
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.6" id="1">
+    <property name="author">Bertie the Platypus</property>
+    <property name="createdBy">Eclipse BIRT Designer Version 1.0.0 Build &lt;20050405-1230></property>
+    <property name="units">in</property>
+    <property name="comments">Not a very interesting report, just a "Hello World" with a param.</property>
+    <html-property name="description">Sample report used to test the BIRT viewer.</html-property>
+    <list-property name="configVars">
+        <structure>
+            <property name="name">sample</property>
+            <property name="value">aaa</property>
+        </structure>
+    </list-property>
+    <parameters>
+        <scalar-parameter name="sample" id="2">
+            <text-property name="displayName">Sample Parameter</text-property>
+            <property name="hidden">false</property>
+            <property name="dataType">string</property>
+            <property name="concealValue">false</property>
+            <property name="allowBlank">true</property>
+            <property name="allowNull">false</property>
+            <property name="controlType">text-box</property>
+            <property name="mustMatch">false</property>
+            <property name="fixedOrder">false</property>
+        </scalar-parameter>
+    </parameters>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="3">
+            <page-header>
+                <grid id="4">
+                    <property name="width">100%</property>
+                    <column id="5"/>
+                    <row id="6">
+                        <cell id="7">
+                            <property name="fontSize">xx-large</property>
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">center</property>
+                            <text id="8">
+                                <text-property name="content"><![CDATA[Title]]></text-property>
+                            </text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-header>
+            <page-footer>
+                <grid id="9">
+                    <property name="width">100%</property>
+                    <column id="10"/>
+                    <column id="11"/>
+                    <row id="12">
+                        <cell id="13">
+                            <text id="14">
+                                <property name="contentType">html</property>
+                                <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                            </text>
+                        </cell>
+                        <cell id="15">
+                            <property name="textAlign">right</property>
+                            <auto-text id="26">
+                                <property name="type">page-number</property>
+                            </auto-text>
+                        </cell>
+                    </row>
+                </grid>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <text id="17">
+            <property name="contentType">html</property>
+            <text-property name="content"><![CDATA[<b>Congratulations!</b>
+<br><br>
+If you can see this report, it means that the BIRT viewer is installed correctly.
+<br><br>]]></text-property>
+        </text>
+        <grid id="18">
+            <property name="width">100%</property>
+            <column id="19">
+                <property name="width">1.354in</property>
+            </column>
+            <column id="20">
+                <property name="width">5.083in</property>
+            </column>
+            <row id="21">
+                <cell id="22">
+                    <label id="23">
+                        <text-property name="text">Sample Parameter:</text-property>
+                    </label>
+                </cell>
+                <cell id="24">
+                    <data id="25">
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">params["sample"]</property>
+                                <expression name="expression">params["sample"]</expression>
+                            </structure>
+                        </list-property>
+                        <property name="resultSetColumn">params["sample"]</property>
+                    </data>
+                </cell>
+            </row>
+        </grid>
+    </body>
+</report>
+@
+

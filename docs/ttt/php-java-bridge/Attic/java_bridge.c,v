@@ -1,0 +1,2309 @@
+head	1.52;
+access;
+symbols
+	Release-4-3-3:1.51.0.8
+	ROOT_Release-4-3-3:1.51
+	upstream_version_4_3_2:1.51
+	debian_version_4_3_2-1:1.51
+	ROOT_Release-4-3-2:1.51
+	Release-4-3-2:1.51.0.6
+	Release-4-3-1:1.51.0.4
+	ROOT_Release-4-3-1:1.51
+	debian_version_4_3_0-1:1.51
+	upstream_version_4_3_0:1.51
+	ROOT_Release-4-3-0:1.51
+	Release-4-3-0:1.51.0.2
+	debian_version_3_2_1b-2:1.48
+	debian_version_4_2_2-1:1.50
+	upstream_version_4_2_2:1.50
+	debian_version_3_2_1b-1:1.48
+	upstream_version_3_2_1b:1.48
+	Release-4-1-2:1.49.0.8
+	Release-4-0-8:1.49.0.6
+	debian_version_4_0_8a-1:1.49
+	upstream_version_4_0_8a:1.49
+	jostb-debian-ubuntu-patch:1.49.0.4
+	debian_version_4_0_8-1:1.49
+	upstream_version_4_0_8:1.49
+	debian_version_4_0_7-1:1.49
+	upstream_version_4_0_7:1.49
+	debian_version_4_0_6-1:1.49
+	upstream_version_4_0_6:1.49
+	debian_version_4_0_2-1:1.49
+	upstream_version_4_0_2:1.49
+	Release-4-0-2_Root:1.49
+	Release-4-0-2:1.49.0.2
+	upstream_version_4_0_1:1.49
+	debian_version_4_0_1-2:1.49
+	Release-3-2-1:1.48.0.2
+	Release-3-1-8:1.47.0.2
+	Release-3-0-8_root:1.39
+	Release-3-0-8_Root:1.39
+	Release-3-0-8:1.39.0.2
+	Release-2-0-8:1.35.0.4
+	Release-2-0-7_Root:1.31
+	Release-2-0-7:1.31.0.2
+	Release-2-0-6-branch:1.27.0.2
+	Version-1:1.20.0.6
+	Version-2:1.20.0.4
+	Release-2:1.20.0.2
+	PHP-5:1.8.0.6
+	Release-1-0-6:1.8.0.8
+	sparc-64-test:1.8.0.2
+	V-2004-08-28:1.1.1.1
+	PHP-JAVA-BRIDGE:1.1.1;
+locks; strict;
+comment	@ * @;
+expand	@k@;
+
+
+1.52
+date	2008.01.06.21.07.56;	author jost_boekemeier;	state dead;
+branches;
+next	1.51;
+
+1.51
+date	2007.09.19.10.12.27;	author jost_boekemeier;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2007.07.09.14.35.06;	author jost_boekemeier;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2007.03.09.20.28.07;	author andremachado;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2006.12.14.04.35.24;	author jost2345;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2006.08.28.18.05.11;	author jost2345;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2006.08.21.17.41.52;	author jost2345;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2006.08.08.17.20.45;	author jost2345;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2006.07.16.20.29.25;	author jost2345;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2006.06.26.18.43.54;	author jost2345;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2006.06.19.20.37.14;	author jost2345;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2006.05.15.19.03.29;	author jost2345;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2006.05.04.17.48.13;	author jost2345;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2006.03.16.20.27.00;	author jost2345;	state Exp;
+branches
+	1.39.2.1;
+next	1.38;
+
+1.38
+date	2006.01.08.23.44.40;	author jost2345;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2006.01.04.19.35.07;	author jost2345;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2005.12.08.18.41.56;	author jost2345;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2005.09.16.20.28.51;	author jost2345;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2005.08.11.18.08.16;	author jost2345;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2005.07.17.13.46.23;	author jost2345;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2005.07.12.15.23.09;	author jost2345;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2005.07.08.17.57.22;	author jost2345;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2005.06.19.20.45.40;	author jost2345;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2005.06.16.16.10.41;	author jost2345;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.05.21.17.28.55;	author jost2345;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.03.27.15.45.45;	author jost2345;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.03.07.19.36.51;	author jost2345;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.03.05.14.55.38;	author jost2345;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.02.19.13.29.25;	author jost2345;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.02.17.21.57.22;	author jost2345;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.02.15.19.10.29;	author jost2345;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.02.13.21.43.28;	author jost2345;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.01.28.16.32.52;	author jost2345;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.01.02.14.02.10;	author jost2345;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.12.20.20.04.43;	author jost2345;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.12.03.18.35.21;	author jost2345;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.12.01.20.29.57;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.11.29.16.14.33;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.11.28.21.12.57;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.11.24.23.18.16;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.11.21.14.44.55;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.11.18.21.39.55;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.11.17.18.31.08;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.11.16.23.28.17;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.10.07.11.19.46;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.10.04.16.31.51;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.09.27.17.40.52;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.09.23.13.12.45;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.09.22.19.17.48;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.09.19.18.45.13;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.08.30.17.30.44;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.08.28.06.05.55;	author jost2345;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2004.08.28.06.05.55;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.39.2.1
+date	2006.05.05.18.29.54;	author jost2345;	state Exp;
+branches;
+next	1.39.2.2;
+
+1.39.2.2
+date	2006.05.13.16.09.57;	author jost2345;	state Exp;
+branches;
+next	1.39.2.3;
+
+1.39.2.3
+date	2006.05.15.19.02.12;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.52
+log
+@Release-5-0-0
+@
+text
+@/*-*- mode: C; tab-width:4 -*-*/
+
+/* java_bridge.c -- contains utility procedures
+
+  Copyright (C) 2003-2007 Jost Boekemeier
+
+  This file is part of the PHP/Java Bridge.
+
+  The PHP/Java Bridge ("the library") is free software; you can
+  redistribute it and/or modify it under the terms of the GNU General
+  Public License as published by the Free Software Foundation; either
+  version 2, or (at your option) any later version.
+
+  The library is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with the PHP/Java Bridge; see the file COPYING.  If not, write to the
+  Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+  02111-1307 USA.
+
+  Linking this file statically or dynamically with other modules is
+  making a combined work based on this library.  Thus, the terms and
+  conditions of the GNU General Public License cover the whole
+  combination.
+
+  As a special exception, the copyright holders of this library give you
+  permission to link this library with independent modules to produce an
+  executable, regardless of the license terms of these independent
+  modules, and to copy and distribute the resulting executable under
+  terms of your choice, provided that you also meet, for each linked
+  independent module, the terms and conditions of the license of that
+  module.  An independent module is a module which is not derived from
+  or based on this library.  If you modify this library, you may extend
+  this exception to your version of the library, but you are not
+  obligated to do so.  If you do not wish to do so, delete this
+  exception statement from your version. */
+
+#include "zend.h"
+#include "init_cfg.h"
+#if !defined(ZEND_ENGINE_2)
+
+#include "php_java.h"
+
+#include <stdlib.h>
+#include "java_bridge.h"
+
+/* miscellaneous */
+#include <stdio.h>
+
+/* strings */
+#ifdef HAVE_STRING_H
+#include <string.h>
+#endif
+#ifdef HAVE_STRINGS_H
+#include <strings.h>
+#endif
+
+#ifdef ZEND_ENGINE_2
+#include "zend_exceptions.h"
+#endif
+
+static void writeArgument(pval* arg, short ignoreNonJava TSRMLS_DC);
+static void writeArguments(int argc, pval***argv, short ignoreNonJava TSRMLS_DC);
+
+EXT_EXTERN_MODULE_GLOBALS(EXT)
+
+static void checkError(pval *value TSRMLS_DC)
+{
+#ifndef ZEND_ENGINE_2
+  if (Z_TYPE_P(value) == IS_EXCEPTION) {
+	struct cb_stack_elem *stack_elem = 0;
+	/* display the exception only if we do not abort a callback or if
+	   we abort a callback and this callback is not a method.  This is
+	   consistent with PHP5 behaviour, where we use
+	   call_user_func_array (which also reports the exception when
+	   the callback is not a method). */
+	if((!JG(cb_stack)) ||
+	   (JG(cb_stack) && 
+	   (SUCCESS == zend_stack_top(JG(cb_stack), (void**)&stack_elem)) &&
+	   (!stack_elem->exception||(stack_elem->exception&&
+								 !(stack_elem->object&&*stack_elem->object)))))
+	  php_error(E_WARNING, "%s", Z_STRVAL_P(value));
+
+	efree(Z_STRVAL_P(value));
+    ZVAL_FALSE(value);
+  };
+#endif
+}
+
+static short is_type (zval *pobj TSRMLS_DC) {
+#ifdef ZEND_ENGINE_2
+  zend_class_entry *ce = Z_OBJCE_P(pobj);
+  return instanceof_function(ce, EXT_GLOBAL(class_entry) TSRMLS_CC) ||
+	instanceof_function(ce, EXT_GLOBAL(exception_class_entry) TSRMLS_CC);
+#else
+  extern void EXT_GLOBAL(call_function_handler4)(INTERNAL_FUNCTION_PARAMETERS, zend_property_reference *property_reference);
+  return pobj->type == IS_OBJECT && pobj->value.obj.ce->handle_function_call==EXT_GLOBAL(call_function_handler4);
+#endif
+}
+
+#ifdef ZEND_ENGINE_2
+struct java_object {
+  zend_object parent;
+  long id;
+};
+void EXT_GLOBAL(store_jobject)(zval*object, long id TSRMLS_DC)
+{
+  struct java_object*jobject = (struct java_object*)zend_objects_get_address(object TSRMLS_CC);
+  assert(id!=0);
+  jobject->id = id;
+}
+
+int EXT_GLOBAL(get_jobject_from_object)(zval*object, long *id TSRMLS_DC)
+{
+  if(is_type(object TSRMLS_CC)) {
+	struct java_object*jobject = (struct java_object*)zend_objects_get_address(object TSRMLS_CC);
+	*id = jobject->id;
+	return *id!=0;
+  }
+  *id=0;
+  return 0;
+}
+static void destroy_object(void *object, zend_object_handle handle TSRMLS_DC)
+{
+  struct java_object*jobject = ((struct java_object*)object);
+  if(JG(jenv)&&jobject->id) (*JG(jenv))->writeUnref(JG(jenv), jobject->id);
+  jobject->id=0;
+}
+static void free_object(zend_object *object TSRMLS_DC) 
+{
+  ((struct java_object*)object)->id=0;
+  zend_hash_destroy(object->properties);
+  FREE_HASHTABLE(object->properties);
+  efree(object);
+}
+static zend_object_value objects_new(struct java_object **object, zend_class_entry *class_type TSRMLS_DC)
+{	
+	zend_object_value retval;
+
+	*object = emalloc(sizeof(struct java_object));
+	memset(*object, 0, sizeof(struct java_object));
+	(*object)->parent.ce = class_type;
+	retval.handle = zend_objects_store_put(*object, (zend_objects_store_dtor_t) destroy_object, (zend_objects_free_object_storage_t) free_object, NULL TSRMLS_CC);
+	retval.handlers = (zend_object_handlers*)&EXT_GLOBAL(handlers);
+	return retval;
+}
+zend_object_value EXT_GLOBAL(create_object)(zend_class_entry *class_type TSRMLS_DC)
+{
+  zval tmp;
+  zend_object_value obj;
+  struct java_object *object;
+  
+  obj = objects_new(&object, class_type TSRMLS_CC);
+  
+  ALLOC_HASHTABLE(object->parent.properties);
+  zend_hash_init(object->parent.properties, 0, NULL, ZVAL_PTR_DTOR, 0);
+  zend_hash_copy(object->parent.properties, &class_type->default_properties, (copy_ctor_func_t) zval_add_ref, (void *) &tmp, sizeof(zval *));
+
+  return obj;
+}
+zend_object_value EXT_GLOBAL(create_exception_object)(zend_class_entry *class_type TSRMLS_DC)
+{
+  zval tmp;
+  zend_object_value obj;
+  struct java_object *object;
+
+  zend_object *temp_exception_object;
+
+  obj = objects_new(&object, class_type TSRMLS_CC);
+
+  ALLOC_HASHTABLE(object->parent.properties);
+  zend_hash_init(object->parent.properties, 0, NULL, ZVAL_PTR_DTOR, 0);
+  
+  /* create a standard exception object */
+#if ZEND_EXTENSION_API_NO >= 220060519
+  tmp.value.obj= zend_exception_get_default(TSRMLS_C)->create_object(class_type TSRMLS_CC);
+#else
+  tmp.value.obj= zend_exception_get_default()->create_object(class_type TSRMLS_CC);
+#endif
+  temp_exception_object=zend_objects_get_address(&tmp TSRMLS_CC);
+
+  /* and copy the trace from there */
+  zend_hash_copy(object->parent.properties, 
+				 temp_exception_object->properties, (copy_ctor_func_t) zval_add_ref, (void *) &tmp, sizeof(zval *));
+  return obj;
+}  
+#else
+int EXT_GLOBAL(get_jobject_from_object)(pval*object, long *obj TSRMLS_DC)
+{
+  pval **handle;
+  int n=-1;
+
+  if(is_type(object TSRMLS_CC))
+	n = zend_hash_index_find(Z_OBJPROP_P(object), 0, (void**) &handle);
+  if(n==-1) { *obj=0; return 0; }
+
+  *obj=**(long**)handle;
+  return 1;
+}
+#endif
+
+void EXT_GLOBAL(result) (pval* arg, short ignoreNonJava, pval*presult TSRMLS_DC) {
+  proxyenv *jenv = EXT_GLOBAL(connect_to_server)(TSRMLS_C);
+  (*jenv)->writeResultBegin(jenv, presult);
+  if(arg)
+	writeArgument(arg, ignoreNonJava TSRMLS_CC);
+  else
+	(*jenv)->writeObject(jenv, 0);
+  (*jenv)->writeResultEnd(jenv);
+}
+
+short EXT_GLOBAL(invoke)(char*name, long object, int arg_count, zval***arguments, short ignoreNonJava, pval*presult TSRMLS_DC) 
+{
+  proxyenv *jenv = EXT_GLOBAL(connect_to_server)(TSRMLS_C);
+
+  (*jenv)->writeInvokeBegin(jenv, object, name, 0, 'I', (void*)presult);
+  writeArguments(arg_count, arguments, ignoreNonJava TSRMLS_CC);
+  return (*jenv)->writeInvokeEnd(jenv);
+}
+
+short EXT_GLOBAL(call_function_handler)(INTERNAL_FUNCTION_PARAMETERS, char*name, enum constructor constructor, short createInstance, pval *object, int arg_count, zval***arguments)
+{
+  long result = 0;
+  proxyenv *jenv;
+
+  if (constructor) {
+    /* construct a Java object:
+       First argument is the class name.  Any additional arguments will
+       be treated as constructor parameters. */
+
+    result = (long)object;
+
+    if (ZEND_NUM_ARGS() < 1) {
+      php_error(E_ERROR, "Missing classname in new "/**/EXT_NAME()/**/" call");
+      return 0;
+    }
+	
+#if EXTENSION == JAVA
+	/* create a new vm object */
+	jenv = EXT_GLOBAL(connect_to_server)(TSRMLS_C);
+	if(!jenv) {ZVAL_NULL(object); return 0;}
+	
+	(*jenv)->writeCreateObjectBegin(jenv, Z_STRVAL_PP(arguments[0]), Z_STRLEN_PP(arguments[0]), createInstance?'I':'C', (void*)result);
+	writeArguments(--arg_count, ++arguments, 0 TSRMLS_CC);
+	(*jenv)->writeCreateObjectEnd(jenv);
+#elif EXTENSION == MONO
+	/* create a new vm object, prepend .cli */
+	char *cname, *mname;
+	size_t clen;
+	jenv = EXT_GLOBAL(connect_to_server)(TSRMLS_C);
+	if(!jenv) {ZVAL_NULL(object); return;}
+	
+	cname = Z_STRVAL_PP(arguments[0]);
+	clen = Z_STRLEN_PP(arguments[0]);
+	mname = emalloc(clen+5);
+	assert(mname); if(!mname) {ZVAL_NULL(object); return;}
+	strcpy(mname, "cli.");
+	memcpy(mname+4,cname, clen);
+	mname[clen+4] = 0;
+	(*jenv)->writeCreateObjectBegin(jenv, mname, clen+4, createInstance?'I':'C', (void*)result);
+	writeArguments(--arg_count, ++arguments, 0 TSRMLS_CC);
+	(*jenv)->writeCreateObjectEnd(jenv);
+	efree(mname);
+#endif
+  } else {
+
+    long obj;
+
+	jenv = EXT_GLOBAL(connect_to_server)(TSRMLS_C);
+	if(!jenv) {ZVAL_NULL(object); return 0;}
+
+	EXT_GLOBAL(get_jobject_from_object)(object, &obj TSRMLS_CC);
+	if(!obj) {
+	  php_error(E_ERROR, "php_mod_"/**/EXT_NAME()/**/"(%d): Call object is null: The connection to the current back end doesn't exist anymore; probably the current back end has been restarted w/o restarting the front end.", 98);
+	  ZVAL_NULL(object); return 0;
+	}
+
+    result = (long)return_value;
+    /* invoke a method on the given object */
+	(*jenv)->writeInvokeBegin(jenv, obj, name, 0, 'I', (void*)result);
+	writeArguments(arg_count, arguments, 0 TSRMLS_CC);
+	if(!(*jenv)->writeInvokeEnd(jenv)) return 0;
+  }
+  checkError((pval*)result TSRMLS_CC);
+  return 1;
+}
+
+static void writeArgument(pval* arg, short ignoreNonJava TSRMLS_DC)
+{
+  proxyenv *jenv = JG(jenv);
+  long result;
+
+  switch (Z_TYPE_P(arg)) {
+    case IS_STRING:
+      (*jenv)->writeString(jenv, Z_STRVAL_P(arg), Z_STRLEN_P(arg));
+      break;
+
+    case IS_OBJECT:
+	  EXT_GLOBAL(get_jobject_from_object)(arg, &result TSRMLS_CC);
+	  if(!ignoreNonJava && !result) 
+		php_error(E_WARNING, "Argument is not (or does not contain) Java object(s).");
+	  (*jenv)->writeObject(jenv, result);
+      break;
+
+    case IS_BOOL:
+      (*jenv)->writeBoolean(jenv, Z_LVAL_P(arg));
+      break;
+
+    case IS_LONG:
+	  (*jenv)->writeLong(jenv, Z_LVAL_P(arg));
+      break;
+
+    case IS_DOUBLE:
+	  (*jenv)->writeDouble(jenv, Z_DVAL_P(arg));
+      break;
+
+    case IS_ARRAY:
+      {
+      zval **value;
+      zstr string_key;
+      ulong num_key;
+	  short wrote_begin=0;
+
+      /* Iterate through hash */
+      zend_hash_internal_pointer_reset(Z_ARRVAL_P(arg));
+      while(zend_hash_get_current_data(Z_ARRVAL_P(arg), (void**)&value) == SUCCESS) {
+        switch (zend_hash_get_current_key(Z_ARRVAL_P(arg), &string_key, &num_key, 0)) {
+          case HASH_KEY_IS_STRING:
+			if(!wrote_begin) { 
+			  wrote_begin=1; 
+			  (*jenv)->writeCompositeBegin_h(jenv); 
+			}
+			(*jenv)->writePairBegin_s(jenv, ZSTR_S(string_key), strlen(ZSTR_S(string_key)));
+			writeArgument(*value, ignoreNonJava TSRMLS_CC);
+			(*jenv)->writePairEnd(jenv);
+            break;
+          case HASH_KEY_IS_LONG:
+			if(!wrote_begin) { 
+			  wrote_begin=1; 
+			  (*jenv)->writeCompositeBegin_h(jenv); 
+			}
+			(*jenv)->writePairBegin_n(jenv, num_key);
+			writeArgument(*value, ignoreNonJava TSRMLS_CC);
+			(*jenv)->writePairEnd(jenv);
+            break;
+          default: /* HASH_KEY_NON_EXISTANT */
+			if(!wrote_begin) { 
+			  wrote_begin=1; 
+			  (*jenv)->writeCompositeBegin_a(jenv); 
+			}
+			(*jenv)->writePairBegin(jenv);
+			writeArgument(*value, ignoreNonJava TSRMLS_CC);
+			(*jenv)->writePairEnd(jenv);
+        }
+        zend_hash_move_forward(Z_ARRVAL_P(arg));
+      }
+	  if(!wrote_begin) (*jenv)->writeCompositeBegin_a(jenv); 
+	  (*jenv)->writeCompositeEnd(jenv);
+      break;
+      }
+  default:
+	(*jenv)->writeObject(jenv, 0);
+  }
+}
+
+static void writeArguments(int argc, pval***argv, short ignoreNonJava TSRMLS_DC)
+{
+  int i;
+
+  for (i=0; i<argc; i++) {
+    writeArgument(*argv[i], ignoreNonJava TSRMLS_CC);
+  }
+}
+
+/**
+ * get_property_handler
+ */
+short EXT_GLOBAL(get_property_handler)(char*name, zval *object, zval *presult)
+{
+  long obj;
+  proxyenv *jenv;
+
+  TSRMLS_FETCH();
+
+  jenv = EXT_GLOBAL(connect_to_server)(TSRMLS_C);
+  if(!jenv) {ZVAL_NULL(presult); return FAILURE;}
+
+  /* get the object */
+  EXT_GLOBAL(get_jobject_from_object)(object, &obj TSRMLS_CC);
+
+  ZVAL_NULL(presult);
+
+  if (!obj) {
+    php_error(E_ERROR,
+      "Attempt to access a Java property on a non-Java object");
+  } else {
+    /* invoke the method */
+	(*jenv)->writeInvokeBegin(jenv, obj, name, 0, 'P', (void*)presult);
+	if(!(*jenv)->writeInvokeEnd(jenv)) return 0;
+  }
+  checkError(presult TSRMLS_CC);
+  return 1;
+}
+
+
+/**
+ * set_property_handler
+ */
+short EXT_GLOBAL(set_property_handler)(char*name, zval *object, zval *value, zval *presult)
+{
+  long obj;
+  proxyenv *jenv;
+
+  TSRMLS_FETCH();
+
+  jenv = EXT_GLOBAL(connect_to_server)(TSRMLS_C);
+  if(!jenv) {ZVAL_NULL(presult); return FAILURE; }
+
+  /* get the object */
+  EXT_GLOBAL(get_jobject_from_object)(object, &obj TSRMLS_CC);
+
+  ZVAL_NULL(presult);
+
+  if (!obj) {
+    php_error(E_ERROR,
+      "Attempt to access a Java property on a non-Java object");
+  } else {
+    /* invoke the method */
+	(*jenv)->writeInvokeBegin(jenv, obj, name, 0, 'P', (void*)presult);
+	writeArgument(value, 0 TSRMLS_CC);
+	if(!(*jenv)->writeInvokeEnd(jenv)) return 0;
+  }
+  checkError(presult TSRMLS_CC);
+  return 1;
+}
+
+#ifndef PHP_WRAPPER_H
+#error must include php_wrapper.h
+#endif
+
+#endif
+@
+
+
+1.51
+log
+@Release-4-3-0
+@
+text
+@@
+
+
+1.50
+log
+@Release-4-1-8
+@
+text
+@d43 1
+a43 1
+#if !defined(ZEND_ENGINE_2) || EXTENSION == MONO
+@
+
+
+1.49
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d41 4
+d443 2
+@
+
+
+1.48
+log
+@Release-3-2-1
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 2006 Jost Boekemeier
+@
+
+
+1.47
+log
+@Release-3-1-8rc1
+@
+text
+@d174 3
+d178 1
+d273 1
+a273 1
+	  php_error(E_ERROR, "php_mod_"/**/EXT_NAME()/**/"(%d): Call object is null, check back-end log file(s).", 98);
+@
+
+
+1.46
+log
+@Release-3-1-8devel1
+@
+text
+@d71 7
+a77 9
+	/* display the exception only if we do
+	   not abort a callback or if we abort
+	   a callback and this callback is not
+	   a method.  This is consistent with
+	   PHP5 behaviour, where we use
+	   call_user_func_array (which also
+	   reports the exception) when the
+	   callback is not a method. */
+	if(JG(cb_stack) && 
+d80 1
+a80 1
+								 !(stack_elem->object&&*stack_elem->object))))
+@
+
+
+1.45
+log
+@Release-3-1-7
+@
+text
+@d3 38
+@
+
+
+1.44
+log
+@Release-3-1-6
+@
+text
+@d3 2
+a5 1
+#include "php_java.h"
+d12 1
+d14 4
+d279 1
+a279 1
+      char *string_key;
+d292 1
+a292 1
+			(*jenv)->writePairBegin_s(jenv, string_key, strlen(string_key));
+@
+
+
+1.43
+log
+@Release-3-1-2
+@
+text
+@a130 1
+  /* since the signature of zend_exception_get_default changes from day to day: */
+@
+
+
+1.42
+log
+@Release-3-1-0
+@
+text
+@d26 1
+a26 1
+
+d35 5
+a39 2
+    if(!JG(exception)||(JG(exception)&&!(JG(object)&&*JG(object))))
+	   php_error(E_WARNING, "%s", Z_STRVAL_P(value));
+@
+
+
+1.41
+log
+@Release-3-1-0
+@
+text
+@d18 1
+a18 1
+static void writeArguments(int argc, pval** argv, short ignoreNonJava TSRMLS_DC);
+d22 1
+a22 1
+static short checkError(pval *value TSRMLS_DC)
+a39 1
+    return 1;
+a41 1
+  return 0;
+a54 12
+static void protocol_error(TSRMLS_D) {
+  proxyenv *env = JG(jenv);
+  if(!env) return;
+#ifndef __MINGW32__
+  (*env)->recv_buf[sizeof((*env)->recv_buf)-1]=0;
+  php_write((*env)->recv_buf, strlen((char*)(*env)->recv_buf) TSRMLS_CC);
+  php_error(E_ERROR, "php_mod_"/**/EXT_NAME()/**/"(%d): Protocol violation at pos %d, please check that the backend (JavaBride.war) is deployed or please switch off the java.servlet option.\n", 98, (*env)->c);
+#else
+  php_error(E_ERROR, "%*s\nphp_mod_"/**/EXT_NAME()/**/"(%d): Protocol violation at pos %d, please check that the backend (JavaBride.war) is deployed or please switch off the java.servlet option.\n", strlen((*env)->recv_buf), (*env)->recv_buf, 98, (*env)->c);
+#endif
+}
+
+d163 1
+a163 1
+void EXT_GLOBAL(invoke)(char*name, long object, int arg_count, zval**arguments, short ignoreNonJava, pval*presult TSRMLS_DC) 
+d169 1
+a169 1
+  (*jenv)->writeInvokeEnd(jenv);
+d172 1
+a172 1
+void EXT_GLOBAL(call_function_handler)(INTERNAL_FUNCTION_PARAMETERS, char*name, enum constructor constructor, short createInstance, pval *object, int arg_count, zval**arguments)
+d186 1
+a186 1
+      return;
+d192 1
+a192 1
+	if(!jenv) {ZVAL_NULL(object); return;}
+d194 1
+a194 1
+	(*jenv)->writeCreateObjectBegin(jenv, Z_STRVAL_P(arguments[0]), Z_STRLEN_P(arguments[0]), createInstance?'I':'C', (void*)result);
+d204 2
+a205 2
+	cname = Z_STRVAL_P(arguments[0]);
+	clen = Z_STRLEN_P(arguments[0]);
+d221 1
+a221 1
+	if(!jenv) {ZVAL_NULL(object); return;}
+d224 4
+a227 1
+	if(!obj) protocol_error(TSRMLS_C);
+d233 1
+a233 1
+	(*jenv)->writeInvokeEnd(jenv);
+d236 1
+d317 1
+a317 1
+static void writeArguments(int argc, pval** argv, short ignoreNonJava TSRMLS_DC)
+d322 1
+a322 1
+    writeArgument(argv[i], ignoreNonJava TSRMLS_CC);
+d350 1
+a350 1
+	(*jenv)->writeInvokeEnd(jenv);
+d352 2
+a353 1
+  return checkError(presult TSRMLS_CC) ? FAILURE : SUCCESS;
+d382 1
+a382 1
+	(*jenv)->writeInvokeEnd(jenv);
+d384 2
+a385 1
+  return checkError(presult TSRMLS_CC) ? FAILURE : SUCCESS;
+@
+
+
+1.40
+log
+@Release-3-1-0
+@
+text
+@d57 12
+d238 1
+a238 1
+	assert(obj);
+@
+
+
+1.39
+log
+@Release-3.0.8test1
+@
+text
+@d79 1
+a79 1
+static destroy_object(void *object, zend_object_handle handle TSRMLS_DC)
+@
+
+
+1.39.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d79 1
+a79 1
+static void destroy_object(void *object, zend_object_handle handle TSRMLS_DC)
+@
+
+
+1.39.2.2
+log
+@Release-3-0-8-1
+@
+text
+@a56 12
+static void protocol_error(TSRMLS_D) {
+  proxyenv *env = JG(jenv);
+  if(!env) return;
+#ifndef __MINGW32__
+  (*env)->recv_buf[sizeof((*env)->recv_buf)-1]=0;
+  php_write((*env)->recv_buf, strlen((char*)(*env)->recv_buf) TSRMLS_CC);
+  php_error(E_ERROR, "php_mod_"/**/EXT_NAME()/**/"(%d): Protocol violation at pos %d, please check that the backend (JavaBride.war) is deployed or please switch off the java.servlet option.\n", 98, (*env)->c);
+#else
+  php_error(E_ERROR, "%*s\nphp_mod_"/**/EXT_NAME()/**/"(%d): Protocol violation at pos %d, please check that the backend (JavaBride.war) is deployed or please switch off the java.servlet option.\n", strlen(*env)->recv_buf, (*env)->recv_buf, 98, (*env)->c);
+#endif
+}
+
+d226 1
+a226 1
+	if(!obj) protocol_error(TSRMLS_C);
+@
+
+
+1.39.2.3
+log
+@Release-3-0-8-1
+@
+text
+@d65 1
+a65 1
+  php_error(E_ERROR, "%*s\nphp_mod_"/**/EXT_NAME()/**/"(%d): Protocol violation at pos %d, please check that the backend (JavaBride.war) is deployed or please switch off the java.servlet option.\n", strlen((*env)->recv_buf), (*env)->recv_buf, 98, (*env)->c);
+@
+
+
+1.38
+log
+@Release-3.0.5
+@
+text
+@d48 3
+a50 1
+  return instanceof_function(Z_OBJCE_P(pobj), EXT_GLOBAL(class_entry) TSRMLS_CC)!=0;
+d71 7
+a77 3
+  struct java_object*jobject = (struct java_object*)zend_objects_get_address(object TSRMLS_CC);
+  *id = jobject->id;
+  return *id!=0;
+@
+
+
+1.37
+log
+@Release-3.0.5(pre)
+@
+text
+@d47 1
+d49 4
+@
+
+
+1.36
+log
+@Release-3-0-2
+@
+text
+@d47 1
+a47 10
+#ifdef ZEND_ENGINE_2
+  /* check if this class is a sub-class of java */
+  zend_class_entry *ce = Z_OBJCE_P(pobj), *parent;
+  for(parent=ce; parent->parent; parent=parent->parent)
+	;
+  return ce->builtin_functions == EXT_GLOBAL(class_functions);
+#else
+  extern void EXT_GLOBAL(call_function_handler4)(INTERNAL_FUNCTION_PARAMETERS, zend_property_reference *property_reference);
+  return pobj->type == IS_OBJECT && pobj->value.obj.ce->handle_function_call==EXT_GLOBAL(call_function_handler4);
+#endif
+@
+
+
+1.35
+log
+@Version 2.0.8RC5 fixes PR1286136 and 1291175
+@
+text
+@d13 3
+d27 8
+a34 8
+								/* display the exception only if we do
+								   not abort a callback or if we abort
+								   a callback and this callback is not
+								   a method.  This is consistent with
+								   PHP5 behaviour, where we use
+								   call_user_func_array (which also
+								   reports the exception) when the
+								   callback is not a method. */
+d59 80
+d151 1
+@
+
+
+1.34
+log
+@Release-2.0.8-preview
+@
+text
+@a36 1
+	if(JG(exception)) longjmp(JG(php4_throw_buf), 1);
+@
+
+
+1.33
+log
+@gtk, swing and swt examples added
+@
+text
+@d23 12
+a34 1
+    php_error(E_WARNING, "%s", Z_STRVAL_P(value));
+d37 1
+d46 5
+a50 2
+  zend_class_entry *clazz = zend_get_class_entry(pobj TSRMLS_CC);
+  return clazz->builtin_functions == EXT_GLOBAL(class_functions);
+a79 1
+
+@
+
+
+1.32
+log
+@Release-2.0.8pre
+@
+text
+@d58 4
+a61 1
+  writeArgument(arg, ignoreNonJava TSRMLS_CC);
+@
+
+
+1.31
+log
+@Release-2.0.7
+@
+text
+@d55 8
+@
+
+
+1.30
+log
+@Release-2.0.7-pre
+@
+text
+@a8 1
+#include <assert.h>
+@
+
+
+1.29
+log
+@Tomcat 5
+@
+text
+@d18 1
+a18 1
+ZEND_EXTERN_MODULE_GLOBALS(java)
+d36 1
+a36 1
+  return clazz->builtin_functions == php_java_class_functions;
+d38 2
+a39 2
+  extern void php_java_call_function_handler4(INTERNAL_FUNCTION_PARAMETERS, zend_property_reference *property_reference);
+  return pobj->type == IS_OBJECT && pobj->value.obj.ce->handle_function_call==php_java_call_function_handler4;
+d43 1
+a43 1
+int java_get_jobject_from_object(pval*object, long *obj TSRMLS_DC)
+d56 1
+a56 1
+void php_java_invoke(char*name, long object, int arg_count, zval**arguments, short ignoreNonJava, pval*presult TSRMLS_DC) 
+d58 1
+a58 1
+  proxyenv *jenv = java_connect_to_server(TSRMLS_C);
+d65 1
+a65 1
+void php_java_call_function_handler(INTERNAL_FUNCTION_PARAMETERS, char*name, enum constructor constructor, short createInstance, pval *object, int arg_count, zval**arguments)
+d78 1
+a78 1
+      php_error(E_ERROR, "Missing classname in new java() call");
+d82 27
+a108 29
+	if(constructor==CONSTRUCT_MONO) {
+								/* create a new mono object */
+	  char *cname, *mname;
+	  size_t clen;
+	  jenv = java_connect_to_mono(TSRMLS_C);
+	  if(!jenv) {ZVAL_NULL(object); return;}
+
+	  cname = Z_STRVAL_P(arguments[0]);
+	  clen = Z_STRLEN_P(arguments[0]);
+	  mname = emalloc(clen+5);
+	  assert(mname); if(!mname) {ZVAL_NULL(object); return;}
+	  strcpy(mname, "cli.");
+	  memcpy(mname+4,cname, clen);
+      mname[clen+4] = 0;
+	  (*jenv)->writeCreateObjectBegin(jenv, mname, clen+4, createInstance?'I':'C', (void*)result);
+	  writeArguments(--arg_count, ++arguments, 0 TSRMLS_CC);
+	  (*jenv)->writeCreateObjectEnd(jenv);
+	  efree(mname);
+	}
+	else {
+								/* create a new java object */
+	  jenv = java_connect_to_server(TSRMLS_C);
+	  if(!jenv) {ZVAL_NULL(object); return;}
+
+	  (*jenv)->writeCreateObjectBegin(jenv, Z_STRVAL_P(arguments[0]), Z_STRLEN_P(arguments[0]), createInstance?'I':'C', (void*)result);
+	  writeArguments(--arg_count, ++arguments, 0 TSRMLS_CC);
+	  (*jenv)->writeCreateObjectEnd(jenv);
+	}
+
+d113 1
+a113 1
+	jenv = java_connect_to_server(TSRMLS_C);
+d116 1
+a116 1
+	java_get_jobject_from_object(object, &obj TSRMLS_CC);
+d139 1
+a139 1
+	  java_get_jobject_from_object(arg, &result TSRMLS_CC);
+d216 1
+a216 1
+ * php_java_get_property_handler
+d218 1
+a218 1
+short php_java_get_property_handler(char*name, zval *object, zval *presult)
+d225 1
+a225 1
+  jenv = java_connect_to_server(TSRMLS_C);
+d229 1
+a229 1
+  java_get_jobject_from_object(object, &obj TSRMLS_CC);
+d246 1
+a246 1
+ * php_java_set_property_handler
+d248 1
+a248 1
+short php_java_set_property_handler(char*name, zval *object, zval *value, zval *presult)
+d255 1
+a255 1
+  jenv = java_connect_to_server(TSRMLS_C);
+d259 1
+a259 1
+  java_get_jobject_from_object(object, &obj TSRMLS_CC);
+@
+
+
+1.28
+log
+@mono
+@
+text
+@d65 1
+a65 1
+void php_java_call_function_handler(INTERNAL_FUNCTION_PARAMETERS, char*name, short constructor, short createInstance, pval *object, int arg_count, zval**arguments)
+d82 1
+a82 1
+	if(strlen(name)>=4 && !strncmp(name, "mono", 4)) {
+@
+
+
+1.27
+log
+@mono
+@
+text
+@d95 1
+@
+
+
+1.26
+log
+@Release-2.0.1
+@
+text
+@d68 1
+a68 2
+  proxyenv *jenv = java_connect_to_server(TSRMLS_C);
+  if(!jenv) {ZVAL_NULL(object); return;}
+d81 28
+a108 5
+
+	/* create a new object */
+	(*jenv)->writeCreateObjectBegin(jenv, Z_STRVAL_P(arguments[0]), Z_STRLEN_P(arguments[0]), createInstance?'I':'C', (void*)result);
+	writeArguments(--arg_count, ++arguments, 0 TSRMLS_CC);
+	(*jenv)->writeCreateObjectEnd(jenv);
+d114 3
+d198 2
+a199 1
+	  if(wrote_begin) (*jenv)->writeCompositeEnd(jenv);
+@
+
+
+1.25
+log
+@Release 2.0
+@
+text
+@d15 2
+a16 2
+static void writeArgument(pval* arg TSRMLS_DC);
+static void writeArguments(int argc, pval** argv TSRMLS_DC);
+d33 1
+a33 1
+static short is_type (zval *pobj, zend_class_entry *class TSRMLS_DC) {
+d35 2
+a36 2
+  //FIXME: Check parent
+  return (zend_get_class_entry(pobj TSRMLS_CC) == class);
+d38 2
+a39 1
+  return pobj->type == IS_OBJECT && pobj->value.obj.ce->name_length==4 && !strncmp(pobj->value.obj.ce->name, "java", 4);
+a42 6
+static short is_java_type(zval *obj TSRMLS_DC) {
+  return (is_type(obj, php_java_class_entry TSRMLS_CC)||
+		  is_type(obj, php_java_class_class_entry TSRMLS_CC)||
+		  is_type(obj, php_java_jsr_class_class_entry TSRMLS_CC));
+}
+
+d48 1
+a48 1
+  if(is_java_type(object TSRMLS_CC))
+d56 1
+a56 1
+void php_java_invoke(char*name, long object, int arg_count, zval**arguments, pval*presult TSRMLS_DC) 
+d61 1
+a61 1
+  writeArguments(arg_count, arguments TSRMLS_CC);
+d85 1
+a85 1
+	writeArguments(--arg_count, ++arguments TSRMLS_CC);
+d98 1
+a98 1
+	writeArguments(arg_count, arguments TSRMLS_CC);
+d104 1
+a104 1
+static void writeArgument(pval* arg TSRMLS_DC)
+d116 2
+a117 1
+	  if(!result) php_error(E_WARNING, "Argument is not (or does not contain) Java object(s).");
+d150 1
+a150 1
+			writeArgument(*value TSRMLS_CC);
+d159 1
+a159 1
+			writeArgument(*value TSRMLS_CC);
+d168 1
+a168 1
+			writeArgument(*value TSRMLS_CC);
+d181 1
+a181 1
+static void writeArguments(int argc, pval** argv TSRMLS_DC)
+d186 1
+a186 1
+    writeArgument(argv[i] TSRMLS_CC);
+d244 1
+a244 1
+	writeArgument(value TSRMLS_CC);
+@
+
+
+1.24
+log
+@Protocol update
+@
+text
+@d33 15
+d51 1
+a51 1
+  int type, n;
+d53 2
+a54 1
+  n = zend_hash_index_find(Z_OBJPROP_P(object), 0, (void**) &handle);
+d57 2
+a58 2
+  *obj = (long)zend_list_find(Z_LVAL_PP(handle), &type);
+  return type;
+d121 1
+a121 1
+	  assert(result);
+a199 1
+  int type;
+d208 1
+a208 1
+  type = java_get_jobject_from_object(object, &obj TSRMLS_CC);
+d212 1
+a212 1
+  if (!obj || (type!=le_jobject)) {
+a229 1
+  int type;
+d238 1
+a238 1
+  type = java_get_jobject_from_object(object, &obj TSRMLS_CC);
+d242 1
+a242 1
+  if (!obj || (type!=le_jobject)) {
+a253 13
+/*
+ * delete the object we've allocated during setResultFromObject
+ */
+void php_java_destructor(zend_rsrc_list_entry *rsrc TSRMLS_DC)
+{
+  // Disabled. In PHP 4 this was called *after* connection shutdown,
+  // which is much too late.  The server part now does its own
+  // resource tracking.
+/* 	void *jobject = (void *)rsrc->ptr; */
+/* 	assert(JG(jenv)); */
+/* 	if (JG(jenv)) (*JG(jenv))->DeleteGlobalRef(JG(jenv), jobject); */
+}
+
+@
+
+
+1.23
+log
+@Protocol update
+@
+text
+@d164 2
+@
+
+
+1.22
+log
+@Replaced JNI with XML protocol
+@
+text
+@d73 1
+a73 1
+	(*jenv)->writeCreateObjectBegin(jenv, Z_STRVAL_P(arguments[0]), Z_STRLEN_P(arguments[0]), createInstance, (void*)result);
+d138 1
+a138 1
+			(*jenv)->writeObject(jenv, (long)*value);
+d147 1
+a147 1
+			(*jenv)->writeObject(jenv, (long)*value);
+d155 3
+a157 1
+			(*jenv)->writeObject(jenv, (long)*value);
+d231 1
+a231 1
+	(*jenv)->writeInvokeBegin(jenv, (long)object, name, 0, 'P', (void*)presult);
+@
+
+
+1.21
+log
+@Replaced JNI with XML protocol
+@
+text
+@a47 1
+  long result = (long)presult;
+d73 2
+a74 2
+	(*jenv)->writeCreateObjectBegin(jenv, name, 0, createInstance, (void*)result);
+	writeArguments(arg_count, arguments TSRMLS_CC);
+a123 1
+      zval key;
+a166 1
+  long arg;
+a167 1
+  proxyenv *jenv = JG(jenv);
+a168 1
+  (*jenv)->writeCompositeBegin_a(jenv);
+a171 1
+  (*jenv)->writeCompositeEnd(jenv);
+d179 1
+a179 1
+  long obj, result = 0;
+d210 1
+a210 1
+  long obj, result = 0;
+@
+
+
+1.20
+log
+@Release-1.0.8
+@
+text
+@a5 1
+#include <jni.h>
+d15 3
+a19 3
+static jobjectArray php_java_makeArray(int argc, pval** argv TSRMLS_DC);
+static jobject php_java_makeObject(pval* arg TSRMLS_DC);
+
+d33 1
+a33 1
+int java_get_jobject_from_object(pval*object, jobject*obj TSRMLS_DC)
+d41 1
+a41 1
+  *obj = zend_list_find(Z_LVAL_PP(handle), &type);
+d45 1
+a45 1
+void php_java_invoke(char*name, jobject object, int arg_count, zval**arguments, pval*presult TSRMLS_DC) 
+d48 5
+a52 13
+  jlong result = (jlong)(long)presult;
+  jstring method;
+  if(!jenv) {ZVAL_NULL(presult); return;}
+
+  BEGIN_TRANSACTION(jenv);
+  method = (*jenv)->NewStringUTF(jenv, name);
+
+  assert(method); if(!method) exit(6);
+
+  (*jenv)->Invoke(jenv, JG(php_reflect), JG(invoke),
+				  object, method,
+				  php_java_makeArray(arg_count, arguments TSRMLS_CC), result);
+  END_TRANSACTION(jenv);
+d57 1
+a57 1
+  jlong result = 0;
+a60 1
+  BEGIN_TRANSACTION(jenv);
+d66 1
+a66 2
+    jstring className;
+    result = (jlong)(long)object;
+a72 2
+    className=(*jenv)->NewStringUTF(jenv, Z_STRVAL_P(arguments[0]));
+	assert(className);
+d74 4
+a77 3
+	(*jenv)->CreateObject(jenv, JG(php_reflect), JG(co),
+						  className, createInstance?JNI_TRUE:JNI_FALSE, 
+						  php_java_makeArray(arg_count-1, arguments+1 TSRMLS_CC), result);
+d80 1
+a80 2
+    jobject obj;
+    jstring method;
+d85 1
+a85 2
+    method = (*jenv)->NewStringUTF(jenv, name);
+    result = (jlong)(long)return_value;
+d87 3
+a89 2
+    (*jenv)->Invoke(jenv, JG(php_reflect), JG(invoke),
+      obj, method, php_java_makeArray(arg_count, arguments TSRMLS_CC), result);
+d91 1
+a91 3
+  checkError((pval*)(long)result TSRMLS_CC);
+
+  END_TRANSACTION(jenv);
+d94 1
+a94 1
+static jobject php_java_makeObject(pval* arg TSRMLS_DC)
+d97 1
+a97 4
+  jobject result;
+  jmethodID makeArg;
+  jclass hashClass;
+  jvalue args[2];
+d101 1
+a101 3
+      result=(*jenv)->NewByteArray(jenv, Z_STRLEN_P(arg));
+      (*jenv)->SetByteArrayRegion(jenv, (jbyteArray)result, 0,
+        Z_STRLEN_P(arg), (jbyte*) Z_STRVAL_P(arg));
+d107 1
+d111 1
+a111 4
+      makeArg = (*jenv)->GetMethodID(jenv, JG(reflect_class), "MakeArg",
+        "(Z)Ljava/lang/Object;");
+	  args[0].z=(jboolean)(Z_LVAL_P(arg));
+      result = (*jenv)->CallObjectMethodA(1, jenv, JG(php_reflect), makeArg, args);
+d115 1
+a115 4
+      makeArg = (*jenv)->GetMethodID(jenv, JG(reflect_class), "MakeArg",
+        "(J)Ljava/lang/Object;");
+	  args[0].j=(jlong)(Z_LVAL_P(arg));
+      result = (*jenv)->CallObjectMethodA(1, jenv, JG(php_reflect), makeArg, args);
+d119 1
+a119 4
+      makeArg = (*jenv)->GetMethodID(jenv, JG(reflect_class), "MakeArg",
+        "(D)Ljava/lang/Object;");
+	  args[0].d=(jdouble)(Z_DVAL_P(arg));
+      result = (*jenv)->CallObjectMethodA(1, jenv, JG(php_reflect), makeArg, args);
+a123 1
+      jobject jkey, jval;
+d128 1
+a128 10
+      jobject jold;
+      jmethodID put, init;
+
+      hashClass = (*jenv)->FindClass(jenv, "java/util/Hashtable");
+      init = (*jenv)->GetMethodID(jenv, hashClass, "<init>", "()V");
+      result = (*jenv)->NewObjectA(0, jenv, hashClass, init, args);
+
+      put = (*jenv)->GetMethodID(jenv, hashClass, "put",
+								 "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;");
+      result = (*jenv)->NewObjectA(0, jenv, hashClass, init, args);
+a132 2
+        jval = php_java_makeObject(*value TSRMLS_CC);
+
+d135 7
+a141 4
+            Z_TYPE(key) = IS_STRING;
+            Z_STRVAL(key) = string_key;
+            Z_STRLEN(key) = strlen(string_key);
+            jkey = php_java_makeObject(&key TSRMLS_CC);
+d144 7
+a150 3
+            Z_TYPE(key) = IS_LONG;
+            Z_LVAL(key) = num_key;
+            jkey = php_java_makeObject(&key TSRMLS_CC);
+d153 5
+a157 1
+            jkey = 0;
+a158 3
+		args[0].l=jkey;
+		args[1].l=jval;
+        jold = (*jenv)->CallObjectMethodA(2, jenv, result, put, args);
+d161 1
+a161 1
+
+a163 3
+
+    default:
+      result=0;
+a164 2
+
+  return result;
+d167 1
+a167 1
+static jobjectArray php_java_makeArray(int argc, pval** argv TSRMLS_DC)
+d169 1
+a169 2
+  jobjectArray result;
+  jobject arg;
+d173 1
+a173 4
+  jclass objectClass = (*jenv)->FindClass(jenv, "java/lang/Object");
+  assert(objectClass);
+  result = (*jenv)->NewObjectArray(jenv, argc, objectClass, 0);
+  assert(result);
+d175 1
+a175 2
+    arg = php_java_makeObject(argv[i] TSRMLS_CC);
+    (*jenv)->SetObjectArrayElement(jenv, result, i, arg);
+d177 1
+a177 1
+  return result;
+d180 4
+a183 2
+static void
+php_java_getset_property (char* name, pval* object, jobjectArray value, zval *presult TSRMLS_DC)
+d185 1
+a185 2
+  jlong result = 0;
+  jobject obj;
+d187 1
+a187 2
+  jstring propName;
+  proxyenv *jenv = JG(jenv);
+d189 4
+a192 1
+  propName = (*jenv)->NewStringUTF(jenv, name);
+a195 1
+  result = (jlong)(long) presult;
+d204 2
+a205 1
+    (*jenv)->GetSetProp(jenv, JG(php_reflect), JG(gsp), obj, propName, value, result);
+a206 18
+}
+
+/**
+ * php_java_get_property_handler
+ */
+short php_java_get_property_handler(char*name, zval *object, zval *presult)
+{
+  proxyenv *jenv;
+
+  TSRMLS_FETCH();
+
+  jenv = java_connect_to_server(TSRMLS_C);
+  if(!jenv) {ZVAL_NULL(presult); return FAILURE;}
+
+  BEGIN_TRANSACTION(jenv);
+  php_java_getset_property(name, object, 0, presult TSRMLS_CC);
+  END_TRANSACTION(jenv);
+
+d216 2
+d225 4
+a228 3
+  BEGIN_TRANSACTION(jenv);
+  php_java_getset_property(name, object, php_java_makeArray(1, &value TSRMLS_CC), presult TSRMLS_CC);
+  END_TRANSACTION(jenv);
+d230 9
+@
+
+
+1.19
+log
+@ZTS
+@
+text
+@d16 1
+a16 1
+ZEND_DECLARE_MODULE_GLOBALS(java)
+d121 1
+a121 1
+        Z_STRLEN_P(arg), Z_STRVAL_P(arg));
+@
+
+
+1.18
+log
+@use java security instead of dropping the process privileges
+@
+text
+@d34 1
+a34 1
+int java_get_jobject_from_object(pval*object, jobject*obj)
+d48 1
+a48 1
+  proxyenv *jenv = java_connect_to_server(&JG(cfg) TSRMLS_CC);
+d67 1
+a67 1
+  proxyenv *jenv = java_connect_to_server(&JG(cfg) TSRMLS_CC);
+d95 1
+a95 1
+	java_get_jobject_from_object(object, &obj);
+d125 1
+a125 1
+	  java_get_jobject_from_object(arg, &result);
+d234 1
+a234 1
+  type = java_get_jobject_from_object(object, &obj);
+d251 1
+a251 1
+short php_java_get_property_handler(char*name, zval *object, zval *presult TSRMLS_DC)
+d253 6
+a258 2
+  proxyenv *jenv = java_connect_to_server(&JG(cfg) TSRMLS_CC);
+  if(!jenv) {ZVAL_NULL(presult); return;}
+d271 1
+a271 1
+short php_java_set_property_handler(char*name, zval *object, zval *value, zval *presult TSRMLS_DC)
+d273 6
+a278 2
+  proxyenv *jenv = java_connect_to_server(&JG(cfg) TSRMLS_CC);
+  if(!jenv) {ZVAL_NULL(presult); return;}
+@
+
+
+1.17
+log
+@release 1.0.7
+@
+text
+@d48 1
+a48 1
+  proxyenv *jenv = JG(jenv);
+d51 1
+a65 1
+  proxyenv *jenv;
+d67 2
+a68 7
+
+  /* check if we're initialized */
+  jenv = JG(jenv);
+  if(!jenv) {
+	php_error(E_ERROR, "java not initialized");
+	return;
+  }
+d253 2
+a254 1
+  proxyenv *jenv = JG(jenv);
+d269 2
+a270 1
+  proxyenv *jenv = JG(jenv);
+@
+
+
+1.16
+log
+@release 1.0.7
+@
+text
+@a96 2
+    pval **handle;
+    int type;
+a117 2
+  pval **handle;
+  int type;
+a230 1
+  pval **pobject;
+@
+
+
+1.15
+log
+@trampoline
+@
+text
+@d124 1
+d141 2
+a142 2
+      result = (*jenv)->CallObjectMethod(1, jenv, JG(php_reflect), makeArg, 
+										 (jboolean)(Z_LVAL_P(arg)));
+d148 2
+a149 2
+      result = (*jenv)->CallObjectMethod(1, jenv, JG(php_reflect), makeArg, 
+										 (jlong)(Z_LVAL_P(arg)));
+d155 2
+a156 2
+      result = (*jenv)->CallObjectMethod(1, jenv, JG(php_reflect), makeArg,
+        (jdouble)(Z_DVAL_P(arg)));
+d171 1
+a171 1
+      result = (*jenv)->NewObject(0, jenv, hashClass, init);
+d174 2
+a175 1
+        "(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;");
+d197 3
+a199 2
+        jold = (*jenv)->CallObjectMethod(2, jenv, result, put, 
+										 jkey, jval);
+d299 4
+@
+
+
+1.14
+log
+@trampoline
+@
+text
+@a3 1
+#include "php.h"
+d40 1
+a40 1
+  if(!n) { *obj=0; return 0; }
+a237 2
+  BEGIN_TRANSACTION(jenv);
+
+a252 2
+
+  END_TRANSACTION(jenv);
+d260 3
+d264 2
+d275 3
+d279 2
+@
+
+
+1.13
+log
+@PHP5 iterator/array
+@
+text
+@d35 12
+d51 4
+a54 1
+  jstring method = (*jenv)->NewStringUTF(jenv, name);
+d61 1
+d76 1
+a95 3
+
+    (*jenv)->DeleteLocalRef(jenv, className);
+
+d103 3
+a105 2
+    zend_hash_index_find(Z_OBJPROP_P(object), 0, (void**) &handle);
+    obj = zend_list_find(Z_LVAL_PP(handle), &type);
+a110 2
+
+    (*jenv)->DeleteLocalRef(jenv, method);
+d113 2
+d134 2
+a135 2
+      zend_hash_index_find(Z_OBJPROP_P(arg), 0, (void*)&handle);
+      result = zend_list_find(Z_LVAL_PP(handle), &type);
+a197 1
+        if (Z_TYPE_PP(value) != IS_OBJECT) (*jenv)->DeleteLocalRef(jenv, jval);
+a224 1
+    if (Z_TYPE_P(argv[i]) != IS_OBJECT) (*jenv)->DeleteLocalRef(jenv, arg);
+d229 1
+a229 1
+static short
+a235 2
+
+  /* get the property name */
+d237 1
+d239 1
+a239 2
+  proxyenv *jenv;
+  jenv = JG(jenv);
+d244 1
+a244 3
+  zend_hash_index_find(Z_OBJPROP_P(object),
+    0, (void **) &pobject);
+  obj = zend_list_find(Z_LVAL_PP(pobject), &type);
+d257 1
+a257 1
+  (*jenv)->DeleteLocalRef(jenv, propName);
+@
+
+
+1.12
+log
+@php 4/5
+@
+text
+@d35 13
+d64 1
+a64 2
+    jmethodID co = (*jenv)->GetMethodID(jenv, JG(reflect_class), "CreateObject",
+      "(Ljava/lang/String;Z[Ljava/lang/Object;JJ)V");
+d76 1
+a76 1
+	(*jenv)->CreateObject(jenv, JG(php_reflect), co,
+a88 3
+
+    jmethodID invoke = (*jenv)->GetMethodID(jenv, JG(reflect_class), "Invoke",
+      "(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;JJ)V");
+d94 1
+a94 1
+    (*jenv)->Invoke(jenv, JG(php_reflect), invoke,
+d245 1
+a245 3
+    jmethodID gsp = (*jenv)->GetMethodID(jenv, JG(reflect_class), "GetSetProp",
+      "(Ljava/lang/Object;Ljava/lang/String;[Ljava/lang/Object;JJ)V");
+    (*jenv)->GetSetProp(jenv, JG(php_reflect), gsp, obj, propName, value, result);
+@
+
+
+1.11
+log
+@Version 1.1
+@
+text
+@d35 1
+a35 1
+void php_java_call_function_handler(INTERNAL_FUNCTION_PARAMETERS, char*name, pval *object, int arg_count, zval**arguments)
+d47 1
+a47 1
+  if (!strcmp("java", name)) {
+d52 1
+a52 1
+      "(Ljava/lang/String;[Ljava/lang/Object;JJ)V");
+d65 2
+a66 1
+      className, php_java_makeArray(arg_count-1, arguments+1 TSRMLS_CC), result);
+@
+
+
+1.10
+log
+@php 5
+@
+text
+@d24 1
+a25 1
+#ifndef ZEND_ENGINE_2
+a26 11
+#else
+{
+  jlong result; zval *exception;
+  MAKE_STD_ZVAL(exception);
+  zval_copy_ctor(exception);
+  INIT_PZVAL(exception);
+  result = (jlong)(long)exception;
+  (*JG(jenv))->LastException(JG(jenv), JG(php_reflect), JG(lastEx), result);
+  zend_throw_exception_object(exception TSRMLS_CC);
+}
+#endif
+d31 1
+@
+
+
+1.9
+log
+@PHP 5 support
+@
+text
+@a18 1
+static int checkError(pval *value);
+d22 22
+d99 1
+a99 1
+  checkError((pval*)(long)result);
+d216 2
+a217 2
+static pval 
+php_java_getset_property (char* name, pval* object, jobjectArray value TSRMLS_DC)
+a218 1
+  pval presult;
+d236 3
+a238 2
+  result = (jlong)(long) &presult;
+  Z_TYPE(presult) = IS_NULL;
+a250 12
+  return presult;
+}
+
+static int checkError(pval *value)
+{
+  if (Z_TYPE_P(value) == IS_EXCEPTION) {
+    php_error(E_WARNING, "%s", Z_STRVAL_P(value));
+    efree(Z_STRVAL_P(value));
+    ZVAL_FALSE(value);
+    return 1;
+  };
+  return 0;
+d256 1
+a256 1
+pval php_java_get_property_handler(char*name, pval *object)
+d258 2
+a259 3
+  pval presult = php_java_getset_property(name, object, 0 TSRMLS_CC);
+  checkError(&presult);
+  return presult;
+d266 1
+a266 1
+int php_java_set_property_handler(char*name, pval *object, pval *value)
+d268 2
+a269 3
+  pval presult = 
+	php_java_getset_property(name, object, php_java_makeArray(1, &value TSRMLS_CC) TSRMLS_CC);
+  return checkError(&presult) ? FAILURE : SUCCESS;
+@
+
+
+1.8
+log
+@gcc2
+@
+text
+@a11 1
+#include <sys/poll.h>
+d13 1
+a13 1
+/* strings,errno */
+a14 1
+#include <errno.h>
+a15 6
+/*kill*/
+#include <sys/types.h>
+#include <signal.h>
+
+/* stat */
+#include <sys/stat.h>
+a18 1
+static pval php_java_getset_property (zend_property_reference *property_reference, jobjectArray value TSRMLS_DC);
+d24 1
+a24 1
+void php_java_call_function_handler(INTERNAL_FUNCTION_PARAMETERS, zend_property_reference *property_reference)
+a26 5
+  pval *object = property_reference->object;
+  zend_overloaded_element *function_name = (zend_overloaded_element *)
+    property_reference->elements_list->tail->data;
+
+  int arg_count = ZEND_NUM_ARGS();
+a27 1
+  pval **arguments = (pval **) emalloc(sizeof(pval *)*arg_count);
+a28 1
+  getParametersArray(ht, arg_count, arguments);
+d36 1
+a36 1
+  if (!strcmp("java", Z_STRVAL(function_name->element))) {
+d46 1
+a46 1
+      php_error(E_ERROR, "Missing classname in new Jv() call");
+d70 1
+a70 1
+    method = (*jenv)->NewStringUTF(jenv, Z_STRVAL(function_name->element));
+a77 2
+  efree(arguments);
+  pval_destructor(&function_name->element);
+d195 2
+a196 16
+
+/**
+ * php_java_get_property_handler
+ */
+pval php_java_get_property_handler(zend_property_reference *property_reference)
+{
+  pval presult;
+  TSRMLS_FETCH();
+
+  presult = php_java_getset_property(property_reference, 0 TSRMLS_CC);
+  checkError(&presult);
+  return presult;
+}
+
+static pval php_java_getset_property
+  (zend_property_reference *property_reference, jobjectArray value TSRMLS_DC)
+a204 2
+  zend_llist_element *element = property_reference->elements_list->head;
+  zend_overloaded_element *property=(zend_overloaded_element *)element->data;
+d210 1
+a210 1
+  propName = (*jenv)->NewStringUTF(jenv, Z_STRVAL(property->element));
+d213 1
+a213 1
+  zend_hash_index_find(Z_OBJPROP_P(property_reference->object),
+a229 1
+  pval_destructor(&property->element);
+d244 10
+d258 1
+a258 1
+int php_java_set_property_handler(zend_property_reference *property_reference, pval *value)
+d260 2
+a261 3
+  pval presult;
+  TSRMLS_FETCH();
+  presult = php_java_getset_property(property_reference, php_java_makeArray(1, &value TSRMLS_CC) TSRMLS_CC);
+d270 2
+a271 3
+  // Disabled
+  // This was called *after* connection shutdown, which is
+  // much too late.  The server part now does its own 
+a276 25
+
+static void wait_for_daemon(TSRMLS_D) {
+  struct cfg *cfg=&JG(cfg);
+  struct pollfd pollfd[1] = {cfg->err, POLLIN, 0};
+  int err, c;
+
+  assert(cfg->err);
+  assert(cfg->cid);
+  for(c=10; c>0 && cfg->cid && (!cfg->err || (cfg->err && !(err=poll(pollfd, 1, 0)))); c--) {
+	kill(JG(cfg).cid, SIGTERM);
+	sleep(1);
+  }
+  if(!c) kill(JG(cfg).cid, SIGKILL);
+  if(cfg->err) {
+	if((read(cfg->err, &err, sizeof err))!=sizeof err) err=0;
+	//printf("VM terminated with code: %ld\n", err);
+	close(cfg->err);
+	cfg->err=0;
+  }
+}
+
+void php_java_shutdown_library(TSRMLS_D) 
+{
+  if(JG(cfg).cid) wait_for_daemon();
+}
+@
+
+
+1.7
+log
+@anon socket: examine guard's fd
+@
+text
+@d196 1
+d203 1
+a203 1
+  jobjectArray result = (*jenv)->NewObjectArray(jenv, argc, objectClass, 0);
+@
+
+
+1.6
+log
+@fixes for GNU Java /gcj 3.3.3)
+@
+text
+@d12 1
+a304 1
+  struct stat buf;
+d306 6
+a311 3
+  int c;
+  assert(cfg->sockname);
+  for(c=60; c>0 && (!stat(cfg->sockname, &buf)); c--) {
+d315 7
+a321 1
+  if(!c) unlink(cfg->sockname);
+@
+
+
+1.5
+log
+@The server now tracks resources
+@
+text
+@d306 4
+a309 1
+  while(!stat(cfg->sockname, &buf))
+d311 2
+d317 1
+a317 1
+  if(JG(cfg).cid) {kill(JG(cfg).cid, SIGTERM); wait_for_daemon();}
+@
+
+
+1.4
+log
+@Close the socket in rshutdown
+@
+text
+@d294 7
+a300 2
+	void *jobject = (void *)rsrc->ptr;
+	if (JG(jenv)) (*JG(jenv))->DeleteGlobalRef(JG(jenv), jobject);
+@
+
+
+1.3
+log
+@Start java in a separate process and give pval's a proper reference count.
+@
+text
+@d21 2
+d298 7
+d307 1
+a307 7
+  if(JG(cfg).cid) {kill(JG(cfg).cid, SIGTERM); waitpid(JG(cfg.cid), NULL, 0);}
+  if (JG(php_reflect)) (*JG(jenv))->DeleteGlobalRef(JG(jenv), JG(php_reflect));
+  if(JG(jenv)&&*JG(jenv)) free(*JG(jenv));
+  if(JG(jenv)) free(JG(jenv));
+
+  JG(php_reflect) = NULL;
+  JG(jenv) = NULL;
+@
+
+
+1.2
+log
+@bugfixes for apache 1.3.x
+@
+text
+@d204 1
+a204 1
+    //if (Z_TYPE_P(argv[i]) != IS_OBJECT) (*jenv)->DeleteLocalRef(jenv, arg); //FIXME: Was soll das?
+d298 1
+a298 2
+  if(JG(cfg).cid) kill(JG(cfg).cid, SIGTERM);
+
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a305 9
+
+  if(JG(cfg).sockname) free(JG(cfg).sockname);
+  if(JG(cfg).classpath) free(JG(cfg).classpath);
+  if(JG(cfg).ld_library_path) free(JG(cfg).ld_library_path);
+  if(JG(cfg).java) free(JG(cfg).java);
+  if(JG(cfg).java_home) free(JG(cfg).java_home);
+  if(JG(cfg).logLevel) free(JG(cfg).logLevel);
+  if(JG(cfg).logFile) free(JG(cfg).logFile);
+
+@
+
+
+1.1.1.1
+log
+@Initial
+@
+text
+@@

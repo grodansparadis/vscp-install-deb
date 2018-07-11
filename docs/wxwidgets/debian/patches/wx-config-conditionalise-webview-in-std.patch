@@ -1,0 +1,89 @@
+Description: wx-config: Cleanly handle separate webview package
+ If the -dev package for webview isn't installed, make wx-config behave as if
+ webview was disabled at build time.
+Author: Olly Betts <olly@survex.com>
+Bug-Debian: https://bugs.debian.org/749292, https://bugs.debian.org/786986
+Bug: https://trac.wxwidgets.org/ticket/16291
+Forwarded: not-needed
+Last-Update: 2017-07-25
+
+--- a/wx-config.in
++++ b/wx-config.in
+@@ -28,6 +28,20 @@
+ # Output a message to stderr.
+ decho() { echo "$*" 1>&2; }
+ 
++# Debian-specific code:
++debian_specific_webview_handling() {
++    # If the -dev package for webview isn't installed, make wx-config behave as
++    # if webview was disabled at build time.
++    if dpkg -s libwxgtk-webview3.0-gtk3-dev > /dev/null 2>&1 ; then
++	BUILT_WX_LIBS='@BUILT_WX_LIBS@'
++	STD_GUI_LIBS='@STD_GUI_LIBS@'
++    else
++	BUILT_WX_LIBS=`echo '@BUILT_WX_LIBS@'|sed 's/\<webview\>//;s/  / /'`
++	STD_GUI_LIBS=`echo '@STD_GUI_LIBS@'|sed 's/\<webview\>//'`
++	ldlibs_webview=
++    fi
++}
++
+ # usage _exitcode
+ # Outputs a usage message to stderr and exits with _exitcode.
+ # Try to keep this to a single page (ie. < 25 lines).  We can add
+@@ -40,6 +54,7 @@
+ # wx-config.
+ usage()
+ {
++    debian_specific_webview_handling
+     cat 1>&2 <<EOF
+ 
+  wx-config [--prefix[=DIR]] [--exec-prefix[=DIR]] [--release] [--version-full]
+@@ -77,7 +92,7 @@
+   of  libs that should be linked to, but only if they are available.
+ 
+   Available libraries in this build are:
+-  @BUILT_WX_LIBS@
++  $BUILT_WX_LIBS
+ 
+ EOF
+ 
+@@ -1186,9 +1201,11 @@
+ wx_libs=`echo "$libs_parameters" | tr ',' ' '`
+ wx_optional_libs=`echo "$optional_libs_parameters" | tr ',' ' '`
+ 
++debian_specific_webview_handling
++
+ # Add the --optional-libs, if they've been compiled and aren't already added
+ for i in $wx_optional_libs; do
+-    if match_field $i @BUILT_WX_LIBS@; then
++    if match_field $i $BUILT_WX_LIBS; then
+         if not match_field $i $wx_libs; then
+             wx_libs="${wx_libs:+$wx_libs }$i"
+         fi
+@@ -1226,14 +1243,14 @@
+ 
+     # Import core libs by default, expand std if specified, or add base if omitted.
+     if [ -n "$output_option_libs" ] && [ -z "$libs_parameters" ]; then
+-        wx_libs="@STD_GUI_LIBS@ @STD_BASE_LIBS@"
++        wx_libs="$STD_GUI_LIBS @STD_BASE_LIBS@"
+     elif match_field all $wx_libs; then
+-        wx_libs="@BUILT_WX_LIBS@"
++        wx_libs="$BUILT_WX_LIBS"
+     elif match_field std $wx_libs; then
+         # Bubble any libs that were already specified to the end
+         # of the list and ensure static linking order is retained.
+         wx_libs=`remove_field std $wx_libs`
+-        for i in @STD_GUI_LIBS@ @STD_BASE_LIBS@; do
++        for i in $STD_GUI_LIBS @STD_BASE_LIBS@; do
+             wx_libs="`remove_field $i $wx_libs` $i"
+         done
+     elif not match_field base $wx_libs ; then
+@@ -1246,7 +1263,7 @@
+     if [ -n "$output_option_libs" ]; then
+         using_gui=no
+         for i in $wx_libs ; do
+-            if match_field "$i" @STD_GUI_LIBS@; then
++            if match_field "$i" $STD_GUI_LIBS; then
+                 _guildflags="@WXCONFIG_LDFLAGS_GUI@"
+                 using_gui=yes
+                 break

@@ -1,0 +1,67 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2006.04.26.19.14.24;	author jost2345;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2006.04.20.17.16.08;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#!/bin/env php
+<?php
+
+$here=getcwd(); java_require("$here/lib;$here");
+$stub=new java("java.io.File", "$here/org");
+if(!$stub->exists()) include("wsimport.php");
+
+try {
+  $addNumbersService = new java("org.duke.AddNumbersService");
+  $port = $addNumbersService->getAddNumbersPort();
+  $number1 = 10;
+  $number2 = 20;
+  echo ("Invoking one-way operation. Nothing is returned from service.\n");
+  $port->oneWayInt($number1);
+  echo ("Invoking addNumbers($number1, $number2)\n");
+  $result = $port->addNumbers($number1, $number2);
+  echo ("The result of adding $number1 and $number2 is $result\n\n");
+  $number1 = -10;
+  echo ("Invoking addNumbers($number1, $number2)\n");
+  $result = $port->addNumbers($number1, $number2);
+  echo ("The result of adding $number1 and $number2 is $result\n\n");
+} catch (JavaException $ex) {
+  $ex = $ex->getCause();
+  if (java_instanceof($ex, new JavaClass("org.duke.AddNumbersFault_Exception"))) {
+    $info = $ex->getFaultInfo()->getFaultInfo ();
+    echo ("Caught AddNumbersFault_Exception: $info.\n");
+  } else {
+    echo ("Exception occured: $ex\n");
+  }
+}
+@
+
+
+1.1
+log
+@3.1-branch
+@
+text
+@@
+

@@ -1,0 +1,145 @@
+head	1.3;
+access;
+symbols
+	Release-4-3-3:1.2.0.20
+	ROOT_Release-4-3-3:1.2
+	upstream_version_4_3_2:1.2
+	debian_version_4_3_2-1:1.2
+	ROOT_Release-4-3-2:1.2
+	Release-4-3-2:1.2.0.18
+	Release-4-3-1:1.2.0.16
+	ROOT_Release-4-3-1:1.2
+	debian_version_4_3_0-1:1.2
+	upstream_version_4_3_0:1.2
+	ROOT_Release-4-3-0:1.2
+	Release-4-3-0:1.2.0.14
+	debian_version_3_2_1b-2:1.2
+	debian_version_4_2_2-1:1.2
+	upstream_version_4_2_2:1.2
+	debian_version_3_2_1b-1:1.2
+	upstream_version_3_2_1b:1.2
+	Release-4-1-2:1.2.0.12
+	Release-4-0-8:1.2.0.10
+	debian_version_4_0_8a-1:1.2
+	upstream_version_4_0_8a:1.2
+	jostb-debian-ubuntu-patch:1.2.0.8
+	debian_version_4_0_8-1:1.2
+	upstream_version_4_0_8:1.2
+	debian_version_4_0_7-1:1.2
+	upstream_version_4_0_7:1.2
+	debian_version_4_0_6-1:1.2
+	upstream_version_4_0_6:1.2
+	debian_version_4_0_2-1:1.2
+	upstream_version_4_0_2:1.2
+	Release-4-0-2_Root:1.2
+	Release-4-0-2:1.2.0.6
+	upstream_version_4_0_1:1.2
+	debian_version_4_0_1-2:1.2
+	Release-3-2-1:1.2.0.4
+	Release-3-1-8:1.2.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2008.01.06.21.07.55;	author jost_boekemeier;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2006.08.19.12.34.00;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.08.08.17.09.06;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Release-5-0-0
+@
+text
+@Oracle 10g AS
+-------------
+
+The following description assumes that you have the Oracle
+Application Server Containers for J2EE 10g installed, for example in
+/opt/10gAS and that the $J2EE_HOME points to the /opt/10gAS/j2ee/home
+directory.
+
+If you want to download the Oracle 10g AS, please only download the
+pure java implementation called "oc4j_extended.zip". It has a download
+size of less than 30MB. The complete Oracle 10g AS has a download size
+of more than 1GB and includes Apache and other software you don't need
+during development.
+
+Download and unpack the PHP/Java Bridge J2EE component, and copy the
+JavaBridge.war to the $J2EE_HOME/applications directory.
+
+Edit $J2EE_HOME/config/application.xml so that it contains the
+following line:
+
+<web-module id="JavaBridge" path="../../home/applications/JavaBridge.war"/>
+
+Edit $J2EE_HOME/config/http-web-site.xml so that it contains the
+following line:
+
+<web-app application="default" name="JavaBridge" root="/JavaBridge"/>
+
+
+Start the Oracle 10g application server, for example with:
+
+cd $J2EE_HOME
+java -jar oc4j.jar
+
+Run the PHP/Java Bridge examples, for example:
+
+http://localhost:8888/JavaBridge/test.php
+
+or 
+
+http://localhost:8888/JavaBridge/sessionSharing.php
+
+If there are problems, please check if oracle has created the
+$J2EE_HOME/applications/JavaBridge directory and read
+$J2EE_HOME/applications/JavaBridge/WEB-INF/cgi/README.
+
+The log output appears in $J2EE_HOME/log/global-application.log.
+
+On production systems it is recommended to install the complete
+Oracle Application Server, which includes Apache, and to install
+PHP as a Apache module.
+
+
+Please report bugs/problems to the mailing list:
+
+    php-java-bridge-users@@lists.sourceforge.net
+@
+
+
+1.2
+log
+@Release-3-2-0devel
+@
+text
+@@
+
+
+1.1
+log
+@Release-3-1-7
+@
+text
+@d15 2
+a16 2
+Install the PHP/Java Bridge and copy the JavaBridge.war to the
+$J2EE_HOME/applications directory.
+@
+

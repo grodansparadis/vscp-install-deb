@@ -1,0 +1,321 @@
+head	1.3;
+access;
+symbols
+	Release-7-1-1:1.3.0.30
+	Root_Release-7-1-1:1.3
+	Root_Release_7-0-1:1.3
+	Release_7-0-1:1.3.0.28
+	Release_7-0-0:1.3.0.26
+	Root_Release_7-0-0:1.3
+	Release-6-2-2:1.3.0.24
+	Release-6-1-2-3:1.3
+	Root_Release-6-1-2-3:1.3
+	Release-6-1-2-2:1.3.0.22
+	Root_Release-6-1-2-2:1.3
+	debian_version_6_1_2_1-1:1.3
+	upstream_version_6_1_2_1:1.3
+	Release-6-1-2-1_new:1.3.0.20
+	Root_Release-6-1-2-1_new:1.3
+	Release-6-1-2-1:1.3.0.18
+	Root_Release-6-1-2-1:1.3
+	upstream_version_6_1_2:1.3
+	debian_version_6_1_2-1:1.3
+	Release-6-1-2:1.3.0.16
+	Root_Release-6-1-2:1.3
+	debian_version_6_1_1-2:1.3
+	debian_version_6_1_1-1:1.3
+	upstream_version_6_1_1:1.3
+	Release-6-1-1:1.3.0.14
+	Root_Release-6-1-1:1.3
+	Release-6-0-4:1.3.0.12
+	Root_Release-6-0-4:1.3
+	Release-6-0-3_NEW:1.3.0.8
+	Root_Release-6-0-3_NEW:1.3
+	Release-6-0-3:1.3.0.10
+	Root_Release-6-0-3:1.3
+	Release-6-0-0:1.3.0.6
+	Root_Release-6-0-0:1.3
+	Release-5-5-4-1:1.3.0.4
+	Root_Release-5-5-4-1:1.3
+	Release-5-5-4:1.3.0.2
+	Root_Release-5-5-4:1.3
+	Release-5-5-3:1.2.0.48
+	ROOT_Release-5-5-3:1.2
+	Release-5-5-2:1.2.0.46
+	Root_Release-5-5-2:1.2
+	debian_version_5_5_1-1:1.2
+	Release-5-5-1:1.2.0.42
+	upstream_version_5_5_1:1.2
+	ROOT_Release-5-5-1:1.2
+	debian_version_5_5-1:1.2
+	upstream_version_5_5:1.2
+	ROOT_Release-5-5:1.2
+	Release-5-5:1.2.0.44
+	debian_version_5_4_4_2-3:1.2
+	Release-5-4-4-2-1:1.2.0.38
+	debian_version_5_4_4_2-2:1.2
+	debian_version_5_4_4_2-1:1.2
+	upstream_version_5_4_4_2:1.2
+	debian_version_5_4_4_1-1:1.2
+	upstream_version_5_4_4_1:1.2
+	debian_version_5_4_4-1:1.2
+	upstream_version_5_4_4:1.2
+	Release-5-4-4:1.2.0.40
+	Root_Release-5-4-4:1.2
+	debian_version_5_4_3_2-1:1.2
+	upstream_version_5_4_3_2:1.2
+	Release_5-4-3-2:1.2.0.36
+	Root_Release_5-4-3-2:1.2
+	upstream_version_5_4_3_1:1.2
+	debian_version_5_4_3_1-1:1.2
+	Release-5-4-3:1.2.0.34
+	Root_Release-5-4-3:1.2
+	Root_Release-5-4-1:1.2
+	Release-5-4-1:1.2.0.32
+	Root_Release-5-4:1.2
+	Release-5-4:1.2.0.30
+	upstream_version_5_3_4:1.2
+	debian_version_5_3_4-1:1.2
+	ROOT_Release-5-3-4:1.2
+	Release-5-3-4:1.2.0.28
+	ROOT_Release-5-3-3:1.2
+	Release-5-3-3:1.2.0.24
+	debian_version_5_3_2_1_2-1:1.2
+	upstream_version_5_3_2_1_2:1.2
+	debian_version_5_3_2_1_1-1:1.2
+	debian_version_5_3_2_1_1:1.2
+	upstream_version_5_3_2_1_1:1.2
+	Root_Release-5-3-2-1:1.2
+	Release-5-3-2-1:1.2
+	ROOT_RELEASE-5-3-2-1:1.2
+	RELEASE-5-3-2-1:1.2.0.26
+	Release-5-3-2:1.2.0.22
+	Root_Release-5-3-2:1.2
+	Root_Release-5-3-1:1.2
+	Release-5-3-1:1.2.0.20
+	Release-5-2-3-1:1.2.0.18
+	Root_Release-5-2-3-1:1.2
+	Release-5-2-2-4:1.2.0.16
+	Root_Release-5-2-2-4:1.2
+	Release-5-2-2-1:1.2.0.14
+	Root_Release-5-2-2-1:1.2
+	upstream_version_5_2_2:1.2
+	debian_version_5_2_2-1:1.2
+	Release-5-2-2:1.2.0.12
+	ROOT_Release-5-2-2:1.2
+	ROOT_Release-5-2-1:1.2
+	Release-5-2-1:1.2.0.10
+	Release-5-2-0:1.2.0.8
+	ROOT_Release-5-2-0:1.2
+	ROOT_Release-5-1-2:1.2
+	Release-5-1-2:1.2.0.6
+	Version-5-1-1:1.2.0.4
+	ROOT_Version-5-1-1:1.2
+	debian_version_5_1_0-1:1.2
+	upstream_version_5_1_0:1.2
+	ROOT_Release-5-1-0:1.2
+	Release-5-1-0:1.2.0.2
+	ROOT_Release-5-0-0:1.1
+	Release-5-0-0:1.1.0.16
+	Release-4-3-3:1.1.0.14
+	ROOT_Release-4-3-3:1.1
+	upstream_version_4_3_2:1.1
+	debian_version_4_3_2-1:1.1
+	ROOT_Release-4-3-2:1.1
+	Release-4-3-2:1.1.0.12
+	Release-4-3-1:1.1.0.10
+	ROOT_Release-4-3-1:1.1
+	debian_version_4_3_0-1:1.1
+	upstream_version_4_3_0:1.1
+	ROOT_Release-4-3-0:1.1
+	Release-4-3-0:1.1.0.8
+	debian_version_4_2_2-1:1.1
+	upstream_version_4_2_2:1.1
+	Release-4-1-2:1.1.0.6
+	Release-4-0-8:1.1.0.4
+	debian_version_4_0_8a-1:1.1
+	upstream_version_4_0_8a:1.1
+	jostb-debian-ubuntu-patch:1.1.0.2
+	debian_version_4_0_8-1:1.1
+	upstream_version_4_0_8:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2009.10.17.17.40.22;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.01.21.19.23.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.04.07.16.22.39;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Release-5-5-4
+@
+text
+@<?php
+
+  /**
+   * These classes allow one to call JSP tags from PHP.
+   * Example:
+   * <code>
+   * $tag = new java_Tag($ctx=new java_PageContext(), "FooTag, null);<br>
+   * if($tag-&gt;start()) do { ... } while($tag-&gt;repeat()); <br>
+   * $tag-&gt;end();<br>
+   * </code>
+   */
+if(!class_exists("java_Tag")) {
+  class java_PageContext {
+    var $servlet = null;
+    var $response = null;
+    var $request = null;
+    var $out = null;
+    var $pc = null;
+
+    function java_PageContext($java_session) {
+      if (java_is_null($java_session)) throw new Exception ("session is null");
+      $ctx = java_context();
+      $this->servlet = $ctx->getAttribute("php.java.servlet.Servlet");
+      $this->response = $ctx->getAttribute("php.java.servlet.HttpServletResponse");
+      $this->request = $ctx->getAttribute("php.java.servlet.HttpServletRequest");
+
+      $factory = java("javax.servlet.jsp.JspFactory")->getDefaultFactory();
+      $this->pc = $factory->getPageContext($this->servlet, $this->request, $this->response, null, true, 8192, false);
+      $this->out = $this->pc->out;
+
+    }
+
+    function getPageContext () {
+      return $this->pc;
+    }
+  }
+  class java_Tag {
+    var $clazz = null;
+    var $pc = null;
+    var $noend = false;
+    var $evalTag = null;
+
+    /**
+     * Create a java tag proxy.
+     * @@param $pageContext, the java_PageContext object
+     * @@param $tagname The name of the tag
+     * @@param $params The parameters
+     */
+    function java_Tag($pageContext, $tagname, $params = null) {
+      $this->pc = $pageContext;
+      $this->clazz = new Java($tagname);
+      $this->clazz->setPageContext($pageContext->pc);
+      if(null != $params) {
+	foreach($params as $k => $v) {
+	  $method = "set";
+	  $s = substr($k, 0, 1);
+	  $method .= $s.substr($k, 1);
+	  $this->clazz->$method($v);
+	}
+      }
+    }
+
+    /**
+     * Must be called to open the tag.
+     * @@return true, if the body should be evaluated.
+     */
+    function start() {
+      $this->evalTag = java_values($this->clazz->doStartTag());
+      if($this->evalTag != java_values(Java("javax.servlet.jsp.tagext.Tag")->SKIP_BODY)) {
+	$this->noend=true;
+	if($this->evalTag == java_values(Java("javax.servlet.jsp.tagext.Tag")->EVAL_BODY_INCLUDE)) {
+	  $out = $this->pc->pc->pushBody();
+	  $this->clazz->setBodyContent($out);
+	  $this->clazz->doInitBody();
+	}
+	return true;
+      }
+      return false;
+    }
+
+    /**
+     * Must be called at the end of the body.
+     * @@return true if the body should be evaluated again.
+     */
+    function repeat() {
+      $evalDoAfterBody = java_values($this->clazz->doAfterBody());
+      if ($evalDoAfterBody != java_values(Java("javax.servlet.jsp.tagext.BodyTag")->EVAL_BODY_AGAIN)) {
+	return false;
+      }
+
+      return true;
+    }
+
+    /**
+     * Must be called at the end.
+     */
+    function end($autoflush = true) {
+      if(!$this->noend) {
+	if ($this->evalTag != java_values(Java("javax.servlet.jsp.tagext.Tag")->EVAL_BODY_INCLUDE)) {
+	  $this->pc->pc->popBody();
+	}
+      }
+      $this->clazz->doEndTag();
+      if($autoflush ) {
+	$this->pc->out->flush();
+	echo java_values($this->pc->response->getBufferContents());
+      }
+      return true;
+    }
+  }
+ }
+
+?>@
+
+
+1.2
+log
+@Release-5-0-1
+@
+text
+@d21 1
+a21 1
+      if (!(string)$java_session) throw new Exception ("session is null");
+d68 2
+a69 2
+      $this->evalTag = $this->clazz->doStartTag();
+      if($this->evalTag != Java("javax.servlet.jsp.tagext.Tag")->SKIP_BODY) {
+d71 1
+a71 1
+	if($this->evalTag != Java("javax.servlet.jsp.tagext.Tag")->EVAL_BODY_INCLUDE) {
+d86 2
+a87 2
+      $evalDoAfterBody = $this->clazz->doAfterBody();
+      if ($evalDoAfterBody != Java("javax.servlet.jsp.tagext.BodyTag")->EVAL_BODY_AGAIN) {
+d99 1
+a99 1
+	if ($this->evalTag != Java("javax.servlet.jsp.tagext.Tag")->EVAL_BODY_INCLUDE) {
+@
+
+
+1.1
+log
+@Release-3-0-8
+@
+text
+@d20 2
+a21 2
+    function java_PageContext() {
+      $session = java_session();
+d32 4
+@
+

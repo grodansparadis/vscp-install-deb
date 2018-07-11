@@ -1,0 +1,289 @@
+head	1.3;
+access;
+symbols
+	upstream_version_5_3_4:1.2
+	ROOT_Release-5-3-4:1.2
+	Release-5-3-4:1.2.0.20
+	ROOT_Release-5-3-3:1.2
+	Release-5-3-3:1.2.0.16
+	debian_version_5_3_2_1_2-1:1.2
+	upstream_version_5_3_2_1_2:1.2
+	debian_version_5_3_2_1_1-1:1.2
+	debian_version_5_3_2_1_1:1.2
+	upstream_version_5_3_2_1_1:1.2
+	Root_Release-5-3-2-1:1.2
+	Release-5-3-2-1:1.2
+	ROOT_RELEASE-5-3-2-1:1.2
+	RELEASE-5-3-2-1:1.2.0.18
+	Release-5-3-2:1.2.0.14
+	Root_Release-5-3-2:1.2
+	Root_Release-5-3-1:1.2
+	Release-5-3-1:1.2.0.12
+	Release-5-2-3-1:1.2.0.10
+	Root_Release-5-2-3-1:1.2
+	Release-5-2-2-4:1.2.0.8
+	Root_Release-5-2-2-4:1.2
+	Release-5-2-2-1:1.2.0.6
+	Root_Release-5-2-2-1:1.2
+	upstream_version_5_2_2:1.2
+	debian_version_5_2_2-1:1.2
+	Release-5-2-2:1.2.0.4
+	ROOT_Release-5-2-2:1.2
+	ROOT_Release-5-2-1:1.2
+	Release-5-2-1:1.2.0.2
+	Release-5-2-0:1.1.0.18
+	ROOT_Release-5-2-0:1.1
+	ROOT_Release-5-1-2:1.1
+	Release-5-1-2:1.1.0.16
+	Version-5-1-1:1.1.0.14
+	ROOT_Version-5-1-1:1.1
+	debian_version_5_1_0-1:1.1
+	upstream_version_5_1_0:1.1
+	ROOT_Release-5-1-0:1.1
+	Release-5-1-0:1.1.0.12
+	ROOT_Release-5-0-0:1.1
+	Release-5-0-0:1.1.0.10
+	Release-4-3-3:1.1.0.8
+	ROOT_Release-4-3-3:1.1
+	upstream_version_4_3_2:1.1
+	debian_version_4_3_2-1:1.1
+	ROOT_Release-4-3-2:1.1
+	Release-4-3-2:1.1.0.6
+	Release-4-3-1:1.1.0.4
+	ROOT_Release-4-3-1:1.1
+	debian_version_4_3_0-1:1.1
+	upstream_version_4_3_0:1.1
+	ROOT_Release-4-3-0:1.1
+	Release-4-3-0:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2008.12.02.19.16.01;	author jost_boekemeier;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2008.03.22.12.04.55;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.09.30.16.11.29;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class JavaException</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class JavaException</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-vars">Vars</a>
+						|											<a href="#sec-methods">Methods</a>
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The java exception proxy</p>
+<p class="description"><p>The java exception proxy</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_JavaProxy.inc.html">/JavaProxy.inc</a> (line <span class="field"><a href="../__filesource/fsource_Java__JavaProxy.inc.html#a1005">1005</a></span>)
+		</p>
+		
+				
+		<pre>Exception
+   |
+   --<a href="../Java/java_exception.html">java_exception</a>
+      |
+      --JavaException</pre>
+	
+			</div>
+</div>
+
+
+
+
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<span class="disabled">Vars</span>
+						
+			
+										| 
+									<a href="#sec-methods">Methods</a>
+							
+					</div>
+		<div class="info-box-body">
+										<h4>Inherited Variables</h4>
+				<A NAME='inherited_vars'><!-- --></A>
+									<p>Inherited from <span class="classname"><a href="../Java/java_exception.html">java_exception</a></span></p>
+					<blockquote>
+													<span class="var-title">
+								<span class="var-name"><a href="../Java/java_exception.html#var$__client">java_exception::$__client</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Java/java_exception.html#var$__delegate">java_exception::$__delegate</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Java/java_exception.html#var$__java">java_exception::$__java</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Java/java_exception.html#var$__serialID">java_exception::$__serialID</a></span><br>
+							</span>
+													<span class="var-title">
+								<span class="var-name"><a href="../Java/java_exception.html#var$__signature">java_exception::$__signature</a></span><br>
+							</span>
+											</blockquote> 
+										
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-vars">Vars</a>
+																	<span class="disabled">Methods</span>
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../Java/java_exception.html">java_exception</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../Java/java_exception.html#methodjava_exception">java_exception::java_exception()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 16 Mar 2008 19:11:45 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.0a2</a>
+	</p>
+	</div></body>
+</html>@
+
+
+1.2
+log
+@Release-5-2-1
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d1 34
+a34 32
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class JavaException</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class JavaException</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-methods">Methods</a>
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">The java exception proxy</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_JavaProxy.inc.html">/JavaProxy.inc</a> (line <span class="field">966</span>)
+		</p>
+		
+				
+d39 75
+a113 38
+      --JavaException</pre>
+	
+			</div>
+</div>
+
+
+
+
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<span class="disabled">Methods</span>
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+							<h4>Inherited Methods</h4>
+				<a name='inherited_methods'><!-- --></a>	
+									<!-- =========== Summary =========== -->
+					<p>Inherited From <span class="classname"><a href="../Java/java_exception.html">java_exception</a></span></p>
+					<blockquote>
+													<span class="method-name"><a href="../Java/java_exception.html#methodjava_exception">java_exception::java_exception()</a></span><br>
+											</blockquote>
+										
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 30 Sep 2007 10:33:27 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.0a2</a>
+	</p>
+	</div></body>
+</html>@
+

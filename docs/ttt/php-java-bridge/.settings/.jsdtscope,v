@@ -1,0 +1,37 @@
+head	1.1;
+access;
+symbols
+	Release-7-1-1:1.1.0.2
+	Root_Release-7-1-1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2017.04.09.13.58.34;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Release-7.1.1
+@
+text
+@<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="**/bower_components/*|**/node_modules/*|**/*.min.js" kind="src" path="WebContent"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.WebProject">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry kind="output" path=""/>
+</classpath>
+@

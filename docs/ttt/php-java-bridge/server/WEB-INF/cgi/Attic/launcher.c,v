@@ -1,0 +1,640 @@
+head	1.7;
+access;
+symbols
+	Root_Release_7-0-1:1.3
+	Release_7-0-1:1.3.0.24
+	Release_7-0-0:1.3.0.22
+	Root_Release_7-0-0:1.3
+	Release-6-2-2:1.3.0.20
+	Release-6-1-2-3:1.3
+	Root_Release-6-1-2-3:1.3
+	Release-6-1-2-2:1.3.0.18
+	Root_Release-6-1-2-2:1.3
+	debian_version_6_1_2_1-1:1.3
+	upstream_version_6_1_2_1:1.3
+	Release-6-1-2-1_new:1.3.0.16
+	Root_Release-6-1-2-1_new:1.3
+	Release-6-1-2-1:1.3.0.14
+	Root_Release-6-1-2-1:1.3
+	upstream_version_6_1_2:1.3
+	debian_version_6_1_2-1:1.3
+	Release-6-1-2:1.3.0.12
+	Root_Release-6-1-2:1.3
+	debian_version_6_1_1-2:1.3
+	debian_version_6_1_1-1:1.3
+	upstream_version_6_1_1:1.3
+	Release-6-1-1:1.3.0.10
+	Root_Release-6-1-1:1.3
+	Release-6-0-4:1.3.0.8
+	Root_Release-6-0-4:1.3
+	Release-6-0-3_NEW:1.3.0.4
+	Root_Release-6-0-3_NEW:1.3
+	Release-6-0-3:1.3.0.6
+	Root_Release-6-0-3:1.3
+	Release-6-0-0:1.3.0.2
+	Root_Release-6-0-0:1.3
+	Release-5-5-4-1:1.2.0.10
+	Root_Release-5-5-4-1:1.2
+	Release-5-5-4:1.2.0.8
+	Root_Release-5-5-4:1.2
+	Release-5-5-3:1.2.0.6
+	ROOT_Release-5-5-3:1.2
+	Release-5-5-2:1.2.0.4
+	Root_Release-5-5-2:1.2
+	debian_version_5_5_1-1:1.2
+	Release-5-5-1:1.2.0.2
+	upstream_version_5_5_1:1.2
+	ROOT_Release-5-5-1:1.2
+	debian_version_5_5-1:1.1
+	upstream_version_5_5:1.1
+	ROOT_Release-5-5:1.1
+	Release-5-5:1.1.0.62
+	debian_version_5_4_4_2-3:1.1
+	Release-5-4-4-2-1:1.1.0.56
+	debian_version_5_4_4_2-2:1.1
+	debian_version_5_4_4_2-1:1.1
+	upstream_version_5_4_4_2:1.1
+	debian_version_5_4_4_1-1:1.1
+	upstream_version_5_4_4_1:1.1
+	debian_version_5_4_4-1:1.1
+	upstream_version_5_4_4:1.1
+	Release-5-4-4:1.1.0.58
+	Root_Release-5-4-4:1.1
+	debian_version_5_4_3_2-1:1.1
+	upstream_version_5_4_3_2:1.1
+	Release_5-4-3-2:1.1.0.54
+	Root_Release_5-4-3-2:1.1
+	upstream_version_5_4_3_1:1.1
+	debian_version_5_4_3_1-1:1.1
+	Release-5-4-3:1.1.0.52
+	Root_Release-5-4-3:1.1
+	Root_Release-5-4-1:1.1
+	Release-5-4-1:1.1.0.50
+	Root_Release-5-4:1.1
+	Release-5-4:1.1.0.48
+	upstream_version_5_3_4:1.1
+	debian_version_5_3_4-1:1.1
+	ROOT_Release-5-3-4:1.1
+	Release-5-3-4:1.1.0.46
+	ROOT_Release-5-3-3:1.1
+	Release-5-3-3:1.1.0.42
+	debian_version_5_3_2_1_2-1:1.1
+	upstream_version_5_3_2_1_2:1.1
+	debian_version_5_3_2_1_1-1:1.1
+	debian_version_5_3_2_1_1:1.1
+	upstream_version_5_3_2_1_1:1.1
+	Root_Release-5-3-2-1:1.1
+	Release-5-3-2-1:1.1
+	ROOT_RELEASE-5-3-2-1:1.1
+	RELEASE-5-3-2-1:1.1.0.44
+	Release-5-3-2:1.1.0.40
+	Root_Release-5-3-2:1.1
+	Root_Release-5-3-1:1.1
+	Release-5-3-1:1.1.0.38
+	Release-5-2-3-1:1.1.0.36
+	Root_Release-5-2-3-1:1.1
+	Release-5-2-2-4:1.1.0.34
+	Root_Release-5-2-2-4:1.1
+	Release-5-2-2-1:1.1.0.32
+	Root_Release-5-2-2-1:1.1
+	upstream_version_5_2_2:1.1
+	debian_version_5_2_2-1:1.1
+	Release-5-2-2:1.1.0.30
+	ROOT_Release-5-2-2:1.1
+	ROOT_Release-5-2-1:1.1
+	Release-5-2-1:1.1.0.28
+	Release-5-2-0:1.1.0.26
+	ROOT_Release-5-2-0:1.1
+	ROOT_Release-5-1-2:1.1
+	Release-5-1-2:1.1.0.24
+	Version-5-1-1:1.1.0.22
+	ROOT_Version-5-1-1:1.1
+	debian_version_5_1_0-1:1.1
+	upstream_version_5_1_0:1.1
+	ROOT_Release-5-1-0:1.1
+	Release-5-1-0:1.1.0.20
+	ROOT_Release-5-0-0:1.1
+	Release-5-0-0:1.1.0.18
+	Release-4-3-3:1.1.0.16
+	ROOT_Release-4-3-3:1.1
+	upstream_version_4_3_2:1.1
+	debian_version_4_3_2-1:1.1
+	ROOT_Release-4-3-2:1.1
+	Release-4-3-2:1.1.0.14
+	Release-4-3-1:1.1.0.12
+	ROOT_Release-4-3-1:1.1
+	debian_version_4_3_0-1:1.1
+	upstream_version_4_3_0:1.1
+	ROOT_Release-4-3-0:1.1
+	Release-4-3-0:1.1.0.10
+	debian_version_4_2_2-1:1.1
+	upstream_version_4_2_2:1.1
+	Release-4-1-2:1.1.0.8
+	Release-4-0-8:1.1.0.6
+	debian_version_4_0_8a-1:1.1
+	upstream_version_4_0_8a:1.1
+	jostb-debian-ubuntu-patch:1.1.0.4
+	debian_version_4_0_8-1:1.1
+	upstream_version_4_0_8:1.1
+	debian_version_4_0_7-1:1.1
+	upstream_version_4_0_7:1.1
+	debian_version_4_0_6-1:1.1
+	upstream_version_4_0_6:1.1
+	debian_version_4_0_2-1:1.1
+	upstream_version_4_0_2:1.1
+	Release-4-0-2_Root:1.1
+	Release-4-0-2:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.7
+date	2017.04.09.14.35.24;	author jost_boekemeier;	state dead;
+branches;
+next	1.6;
+
+1.6
+date	2017.04.02.17.09.49;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2017.03.26.21.30.45;	author jost_boekemeier;	state dead;
+branches;
+next	1.4;
+
+1.4
+date	2017.03.11.13.37.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2010.01.25.16.45.14;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2009.08.22.16.37.06;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.03.19.13.03.18;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@/*-*- mode: C; tab-width:4 -*-*/
+
+/** The launcher.exe starts a PHP FastCGI server on Windows.
+
+  Copyright (C) 2003-2007 Jost Boekemeier
+
+  This file is part of the PHP/Java Bridge.
+
+  The PHP/Java Bridge ("the library") is free software; you can
+  redistribute it and/or modify it under the terms of the GNU General
+  Public License as published by the Free Software Foundation; either
+  version 2, or (at your option) any later version.
+
+  The library is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with the PHP/Java Bridge; see the file COPYING.  If not, write to the
+  Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+  02111-1307 USA.
+
+  Linking this file statically or dynamically with other modules is
+  making a combined work based on this library.  Thus, the terms and
+  conditions of the GNU General Public License cover the whole
+  combination.
+
+  As a special exception, the copyright holders of this library give you
+  permission to link this library with independent modules to produce an
+  executable, regardless of the license terms of these independent
+  modules, and to copy and distribute the resulting executable under
+  terms of your choice, provided that you also meet, for each linked
+  independent module, the terms and conditions of the license of that
+  module.  An independent module is a module which is not derived from
+  or based on this library.  If you modify this library, you may extend
+  this exception to your version of the library, but you are not
+  obligated to do so.  If you do not wish to do so, delete this
+  exception statement from your version. */
+
+/*
+ * Compile this program with: i386-pc-mingw32-gcc launcher.c -o
+ * launcher.exe -lws2_32
+ */
+
+#include <windows.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+void die(int line) {
+  fprintf(stderr, "launcher.exe terminated with error code %d in line %d.\n", GetLastError(), line);
+  exit(2);
+}
+void usage() {
+  puts("This file is part of the PHP/Java Bridge.");
+  puts("Copyright (C) 2003, 2006 Jost Boekemeier and others.");
+  puts("This is free software; see the source for copying conditions.  There is NO");
+  puts("warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.");
+  puts("Usage: launcher.exe php-cgi.exe channelName php-options");
+  puts("Influential environment variables: PHP_FCGI_MAX_REQUESTS, PHP_JAVA_BRIDGE_FCGI_CHILDREN");
+  puts("Example: launcher.exe php-cgi \\\\.\\pipe\\JavaBridge@@9667 -d allow_url_include=On");
+  exit(1);
+}
+
+HANDLE *processes;
+SECURITY_ATTRIBUTES sa = { 0 };
+STARTUPINFO su_info;
+char cmd[8192], *pEnv;
+
+HANDLE start_proc(char*name) {
+  HANDLE listen_handle;
+  PROCESS_INFORMATION p;
+
+  listen_handle = CreateNamedPipe(name, 
+								  PIPE_ACCESS_DUPLEX, 
+				  PIPE_TYPE_BYTE|PIPE_READMODE_BYTE|PIPE_WAIT, 
+				  PIPE_UNLIMITED_INSTANCES, 
+				  8192, 8192, NMPWAIT_WAIT_FOREVER, NULL);
+  
+  if (listen_handle == INVALID_HANDLE_VALUE) die(__LINE__);
+  su_info.hStdInput = listen_handle;
+  SetHandleInformation(su_info.hStdInput, HANDLE_FLAG_INHERIT, TRUE);
+
+  if(!(CreateProcess(NULL, cmd, NULL, NULL, TRUE, 0, pEnv, NULL, &su_info, &p))) die(__LINE__);
+  CloseHandle(p.hThread);
+  CloseHandle(listen_handle);
+  return p.hProcess;
+}
+
+int wait_stdin(void*dummy) {
+  char buf[256];
+  fgets(buf, sizeof buf, stdin);
+  SetEvent(processes[0]);
+  return 0;
+}
+
+int main(int argc, char **argv) {
+  extern char **environ;
+  HANDLE sem;
+  int children, i, pterm;
+  size_t len, envlen;
+  char *tmp, *php_fcgi_children, **envp, *s, *t, ts[256];
+
+  if(argc == 2) usage();
+  else if(argc<=1) {
+	static char *std_argv[] = {NULL, "php-cgi", "\\\\.\\pipe\\JavaBridge@@9667"};
+	argc = 3;
+	argv = std_argv;
+  }
+								/* teminate all children when launcher
+								   gets killed */
+  if(!(sem = CreateSemaphore(&sa, 1, 1, NULL))) die(__LINE__);
+  SetHandleInformation(sem, HANDLE_FLAG_INHERIT, TRUE);
+  snprintf(ts, sizeof(ts), "_FCGI_SHUTDOWN_EVENT_=%ld", sem);
+
+								/* windows requires a null terminated
+								   block of null terminated env
+								   strings */
+  for(envp=environ,envlen=0; *envp; envp++) envlen+=1+strlen(*envp);
+  envlen++;
+
+  pEnv = malloc(envlen+strlen(ts)+1);
+  for(t=pEnv,envp=environ; *envp; envp++)
+    for(s=*envp; *t++=*s++; )
+      ;
+  for(s=ts; *t++=*s++; )
+    ;
+  *t=0;
+
+								/* how many processes? */
+  for(php_fcgi_children=0,envp=environ; *envp; envp++)
+	if(!strncmp("PHP_JAVA_BRIDGE_FCGI_CHILDREN", *envp, 17)) {
+	  php_fcgi_children = strchr(*envp, '=')+1;
+	  break;
+	}
+  if(!php_fcgi_children) php_fcgi_children="5";
+  children = atoi(php_fcgi_children);
+  processes = malloc(1+(children*sizeof*processes));
+  if(!processes) abort();
+  
+  
+								/* set up process info */
+  sa.bInheritHandle = TRUE;
+  sa.nLength = sizeof(sa);
+
+  su_info.cb = sizeof(STARTUPINFO);
+  su_info.dwFlags = STARTF_USESHOWWINDOW | STARTF_USESTDHANDLES;
+  su_info.wShowWindow = SW_HIDE;
+  su_info.hStdError	= INVALID_HANDLE_VALUE;
+  su_info.hStdOutput = INVALID_HANDLE_VALUE;
+  
+								/* change to: launcher.exe
+								   '\\\\.\\pipe\\pjb9667' php-cgi -d
+								   allow_url_include=On" */
+  tmp = argv[1];
+  argv[1] = argv[2];
+  argv[2] = tmp;
+	
+								/* the command line */
+  for(*cmd=len=0, i=2, argc-=2; argc--; i++) {
+    len += 3+strlen(argv[i]);
+    if(len>=sizeof(cmd)) abort();
+    strcat(cmd, "\"");
+    strcat(cmd, argv[i]);
+    strcat(cmd, "\"");
+    if(argc) strcat(cmd, " ");
+  }
+
+  //fputs(cmd, stderr);
+
+								/* start the children */
+  if(!(processes[0] = CreateEvent(NULL, TRUE, FALSE, NULL))) die(__LINE__);
+  if(argv[0]) CreateThread(NULL, 0, wait_stdin, NULL, 0, NULL);
+  for(i=1; i<=children; i++)
+	processes[i]=start_proc(argv[1]);
+
+								/* until stdin is not available anymore */
+  while(1) {
+    if((pterm=WaitForMultipleObjects(children+1,processes,FALSE,INFINITE))==WAIT_FAILED) 
+	  die(__LINE__);
+    pterm-=WAIT_OBJECT_0;
+	if(pterm)
+	  processes[pterm]=start_proc(argv[1]);
+	else {
+	  for(i=1; i<=children; i++) TerminateProcess(processes[i], -1);
+	  return 0;
+	}
+  }
+  return 3;
+}
+@
+
+
+1.6
+log
+@Revert: On windows PHP_FCGI_CHILDREN=5 php-cgi -b 9876 manages its children using AssignProcessToJobObject. However, when php-cgi is started from Java, the job object is that of the Java process. To fix this CreateProcess has a new flag CREATE_BREAKAWAY_FROM_JOB (since Vista). Unfortunately we cannot set this flag from Java  (using ProcessBuilder), so we have to use our own wrapper. Instead of using a wrapper like php-fpm (for which we would have to supply our own windows 32/64 bit binary anyway), we decided to use our existing wrapper "launcher.exe".
+@
+text
+@@
+
+
+1.5
+log
+@New fastcgi implementation
+@
+text
+@@
+
+
+1.4
+log
+@Renamed PHP_FCGI_CHILDREN to PHP_JAVA_BRIDGE_FCGI_CHILDREN to avoid PHP7 spawning PHP_FCGI_CHILDREN  childs by itself
+@
+text
+@@
+
+
+1.3
+log
+@Release-5-5-5
+@
+text
+@d62 1
+a62 1
+  puts("Influential environment variables: PHP_FCGI_MAX_REQUESTS, PHP_FCGI_CHILDREN");
+d134 1
+a134 1
+	if(!strncmp("PHP_FCGI_CHILDREN", *envp, 17)) {
+@
+
+
+1.2
+log
+@Release-5-5-1
+@
+text
+@d163 1
+a163 1
+    len += 1+strlen(argv[i]);
+d165 1
+d167 1
+@
+
+
+1.1
+log
+@Release-4-0-2
+@
+text
+@d1 190
+a190 190
+/*-*- mode: C; tab-width:4 -*-*/
+
+/** The launcher.exe starts a PHP FastCGI server on Windows.
+
+  Copyright (C) 2003-2007 Jost Boekemeier
+
+  This file is part of the PHP/Java Bridge.
+
+  The PHP/Java Bridge ("the library") is free software; you can
+  redistribute it and/or modify it under the terms of the GNU General
+  Public License as published by the Free Software Foundation; either
+  version 2, or (at your option) any later version.
+
+  The library is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with the PHP/Java Bridge; see the file COPYING.  If not, write to the
+  Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+  02111-1307 USA.
+
+  Linking this file statically or dynamically with other modules is
+  making a combined work based on this library.  Thus, the terms and
+  conditions of the GNU General Public License cover the whole
+  combination.
+
+  As a special exception, the copyright holders of this library give you
+  permission to link this library with independent modules to produce an
+  executable, regardless of the license terms of these independent
+  modules, and to copy and distribute the resulting executable under
+  terms of your choice, provided that you also meet, for each linked
+  independent module, the terms and conditions of the license of that
+  module.  An independent module is a module which is not derived from
+  or based on this library.  If you modify this library, you may extend
+  this exception to your version of the library, but you are not
+  obligated to do so.  If you do not wish to do so, delete this
+  exception statement from your version. */
+
+/*
+ * Compile this program with: i386-pc-mingw32-gcc launcher.c -o
+ * launcher.exe -lws2_32
+ */
+
+#include <windows.h>
+#include <winsock2.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+void die(int line) {
+  fprintf(stderr, "launcher.exe terminated with error code %d in line %d.\n", GetLastError(), line);
+  exit(2);
+}
+void usage() {
+  puts("This file is part of the PHP/Java Bridge.");
+  puts("Copyright (C) 2003, 2006 Jost Boekemeier and others.");
+  puts("This is free software; see the source for copying conditions.  There is NO");
+  puts("warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.");
+  puts("Usage: launcher.exe php-cgi.exe channelName php-options");
+  puts("Influential environment variables: PHP_FCGI_MAX_REQUESTS, PHP_FCGI_CHILDREN");
+  puts("Example: launcher.exe php-cgi \\\\.\\pipe\\JavaBridge@@9667 -d allow_url_include=On");
+  exit(1);
+}
+
+HANDLE *processes;
+SECURITY_ATTRIBUTES sa = { 0 };
+STARTUPINFO su_info;
+char cmd[8192], *pEnv;
+
+HANDLE start_proc(char*name) {
+  HANDLE listen_handle;
+  PROCESS_INFORMATION p;
+
+  listen_handle = CreateNamedPipe(name, 
+								  PIPE_ACCESS_DUPLEX, 
+				  PIPE_TYPE_BYTE|PIPE_READMODE_BYTE|PIPE_WAIT, 
+				  PIPE_UNLIMITED_INSTANCES, 
+				  8192, 8192, NMPWAIT_WAIT_FOREVER, NULL);
+  
+  if (listen_handle == INVALID_HANDLE_VALUE) die(__LINE__);
+  su_info.hStdInput = listen_handle;
+  SetHandleInformation(su_info.hStdInput, HANDLE_FLAG_INHERIT, TRUE);
+
+  if(!(CreateProcess(NULL, cmd, NULL, NULL, TRUE, 0, pEnv, NULL, &su_info, &p))) die(__LINE__);
+  CloseHandle(p.hThread);
+  CloseHandle(listen_handle);
+  return p.hProcess;
+}
+
+int wait_stdin(void*dummy) {
+  char buf[256];
+  fgets(buf, sizeof buf, stdin);
+  SetEvent(processes[0]);
+  return 0;
+}
+
+int main(int argc, char **argv) {
+  extern char **environ;
+  HANDLE sem;
+  int children, i, pterm;
+  size_t len, envlen;
+  char *tmp, *php_fcgi_children, **envp, *s, *t, ts[256];
+
+  if(argc == 2) usage();
+  else if(argc<=1) {
+	static char *std_argv[] = {NULL, "php-cgi", "\\\\.\\pipe\\JavaBridge@@9667"};
+	argc = 3;
+	argv = std_argv;
+  }
+								/* teminate all children when launcher
+								   gets killed */
+  if(!(sem = CreateSemaphore(&sa, 1, 1, NULL))) die(__LINE__);
+  SetHandleInformation(sem, HANDLE_FLAG_INHERIT, TRUE);
+  snprintf(ts, sizeof(ts), "_FCGI_SHUTDOWN_EVENT_=%ld", sem);
+
+								/* windows requires a null terminated
+								   block of null terminated env
+								   strings */
+  for(envp=environ,envlen=0; *envp; envp++) envlen+=1+strlen(*envp);
+  envlen++;
+
+  pEnv = malloc(envlen+strlen(ts)+1);
+  for(t=pEnv,envp=environ; *envp; envp++)
+    for(s=*envp; *t++=*s++; )
+      ;
+  for(s=ts; *t++=*s++; )
+    ;
+  *t=0;
+
+								/* how many processes? */
+  for(php_fcgi_children=0,envp=environ; *envp; envp++)
+	if(!strncmp("PHP_FCGI_CHILDREN", *envp, 17)) {
+	  php_fcgi_children = strchr(*envp, '=')+1;
+	  break;
+	}
+  if(!php_fcgi_children) php_fcgi_children="5";
+  children = atoi(php_fcgi_children);
+  processes = malloc(1+(children*sizeof*processes));
+  if(!processes) abort();
+  
+  
+								/* set up process info */
+  sa.bInheritHandle = TRUE;
+  sa.nLength = sizeof(sa);
+
+  su_info.cb = sizeof(STARTUPINFO);
+  su_info.dwFlags = STARTF_USESHOWWINDOW | STARTF_USESTDHANDLES;
+  su_info.wShowWindow = SW_HIDE;
+  su_info.hStdError	= INVALID_HANDLE_VALUE;
+  su_info.hStdOutput = INVALID_HANDLE_VALUE;
+  
+								/* change to: launcher.exe
+								   '\\\\.\\pipe\\pjb9667' php-cgi -d
+								   allow_url_include=On" */
+  tmp = argv[1];
+  argv[1] = argv[2];
+  argv[2] = tmp;
+	
+								/* the command line */
+  for(*cmd=len=0, i=2, argc-=2; argc--; i++) {
+    len += 1+strlen(argv[i]);
+    if(len>=sizeof(cmd)) abort();
+    strcat(cmd, argv[i]);
+    if(argc) strcat(cmd, " ");
+  }
+
+  //fputs(cmd, stderr);
+
+								/* start the children */
+  if(!(processes[0] = CreateEvent(NULL, TRUE, FALSE, NULL))) die(__LINE__);
+  if(argv[0]) CreateThread(NULL, 0, wait_stdin, NULL, 0, NULL);
+  for(i=1; i<=children; i++)
+	processes[i]=start_proc(argv[1]);
+
+								/* until stdin is not available anymore */
+  while(1) {
+    if((pterm=WaitForMultipleObjects(children+1,processes,FALSE,INFINITE))==WAIT_FAILED) 
+	  die(__LINE__);
+    pterm-=WAIT_OBJECT_0;
+	if(pterm)
+	  processes[pterm]=start_proc(argv[1]);
+	else {
+	  for(i=1; i<=children; i++) TerminateProcess(processes[i], -1);
+	  return 0;
+	}
+  }
+  return 3;
+}
+@
+

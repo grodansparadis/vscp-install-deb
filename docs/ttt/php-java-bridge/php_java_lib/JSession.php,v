@@ -1,0 +1,308 @@
+head	1.5;
+access;
+symbols
+	Release-7-1-1:1.5.0.100
+	Root_Release-7-1-1:1.5
+	Root_Release_7-0-1:1.5
+	Release_7-0-1:1.5.0.98
+	Release_7-0-0:1.5.0.96
+	Root_Release_7-0-0:1.5
+	Release-6-2-2:1.5.0.94
+	Release-6-1-2-3:1.5
+	Root_Release-6-1-2-3:1.5
+	Release-6-1-2-2:1.5.0.92
+	Root_Release-6-1-2-2:1.5
+	debian_version_6_1_2_1-1:1.5
+	upstream_version_6_1_2_1:1.5
+	Release-6-1-2-1_new:1.5.0.90
+	Root_Release-6-1-2-1_new:1.5
+	Release-6-1-2-1:1.5.0.88
+	Root_Release-6-1-2-1:1.5
+	upstream_version_6_1_2:1.5
+	debian_version_6_1_2-1:1.5
+	Release-6-1-2:1.5.0.86
+	Root_Release-6-1-2:1.5
+	debian_version_6_1_1-2:1.5
+	debian_version_6_1_1-1:1.5
+	upstream_version_6_1_1:1.5
+	Release-6-1-1:1.5.0.84
+	Root_Release-6-1-1:1.5
+	Release-6-0-4:1.5.0.82
+	Root_Release-6-0-4:1.5
+	Release-6-0-3_NEW:1.5.0.78
+	Root_Release-6-0-3_NEW:1.5
+	Release-6-0-3:1.5.0.80
+	Root_Release-6-0-3:1.5
+	Release-6-0-0:1.5.0.76
+	Root_Release-6-0-0:1.5
+	Release-5-5-4-1:1.5.0.74
+	Root_Release-5-5-4-1:1.5
+	Release-5-5-4:1.5.0.72
+	Root_Release-5-5-4:1.5
+	Release-5-5-3:1.5.0.70
+	ROOT_Release-5-5-3:1.5
+	Release-5-5-2:1.5.0.68
+	Root_Release-5-5-2:1.5
+	debian_version_5_5_1-1:1.5
+	Release-5-5-1:1.5.0.64
+	upstream_version_5_5_1:1.5
+	ROOT_Release-5-5-1:1.5
+	debian_version_5_5-1:1.5
+	upstream_version_5_5:1.5
+	ROOT_Release-5-5:1.5
+	Release-5-5:1.5.0.66
+	debian_version_5_4_4_2-3:1.5
+	Release-5-4-4-2-1:1.5.0.60
+	debian_version_5_4_4_2-2:1.5
+	debian_version_5_4_4_2-1:1.5
+	upstream_version_5_4_4_2:1.5
+	debian_version_5_4_4_1-1:1.5
+	upstream_version_5_4_4_1:1.5
+	debian_version_5_4_4-1:1.5
+	upstream_version_5_4_4:1.5
+	Release-5-4-4:1.5.0.62
+	Root_Release-5-4-4:1.5
+	debian_version_5_4_3_2-1:1.5
+	upstream_version_5_4_3_2:1.5
+	Release_5-4-3-2:1.5.0.58
+	Root_Release_5-4-3-2:1.5
+	upstream_version_5_4_3_1:1.5
+	debian_version_5_4_3_1-1:1.5
+	Release-5-4-3:1.5.0.56
+	Root_Release-5-4-3:1.5
+	Root_Release-5-4-1:1.5
+	Release-5-4-1:1.5.0.54
+	Root_Release-5-4:1.5
+	Release-5-4:1.5.0.52
+	upstream_version_5_3_4:1.5
+	debian_version_5_3_4-1:1.5
+	ROOT_Release-5-3-4:1.5
+	Release-5-3-4:1.5.0.50
+	ROOT_Release-5-3-3:1.5
+	Release-5-3-3:1.5.0.46
+	debian_version_5_3_2_1_2-1:1.5
+	upstream_version_5_3_2_1_2:1.5
+	debian_version_5_3_2_1_1-1:1.5
+	debian_version_5_3_2_1_1:1.5
+	upstream_version_5_3_2_1_1:1.5
+	Root_Release-5-3-2-1:1.5
+	Release-5-3-2-1:1.5
+	ROOT_RELEASE-5-3-2-1:1.5
+	RELEASE-5-3-2-1:1.5.0.48
+	Release-5-3-2:1.5.0.44
+	Root_Release-5-3-2:1.5
+	Root_Release-5-3-1:1.5
+	Release-5-3-1:1.5.0.42
+	Release-5-2-3-1:1.5.0.40
+	Root_Release-5-2-3-1:1.5
+	Release-5-2-2-4:1.5.0.38
+	Root_Release-5-2-2-4:1.5
+	Release-5-2-2-1:1.5.0.36
+	Root_Release-5-2-2-1:1.5
+	upstream_version_5_2_2:1.5
+	debian_version_5_2_2-1:1.5
+	Release-5-2-2:1.5.0.34
+	ROOT_Release-5-2-2:1.5
+	ROOT_Release-5-2-1:1.5
+	Release-5-2-1:1.5.0.32
+	Release-5-2-0:1.5.0.30
+	ROOT_Release-5-2-0:1.5
+	ROOT_Release-5-1-2:1.5
+	Release-5-1-2:1.5.0.28
+	Version-5-1-1:1.5.0.26
+	ROOT_Version-5-1-1:1.5
+	debian_version_5_1_0-1:1.5
+	upstream_version_5_1_0:1.5
+	ROOT_Release-5-1-0:1.5
+	Release-5-1-0:1.5.0.24
+	ROOT_Release-5-0-0:1.5
+	Release-5-0-0:1.5.0.22
+	Release-4-3-3:1.5.0.20
+	ROOT_Release-4-3-3:1.5
+	upstream_version_4_3_2:1.5
+	debian_version_4_3_2-1:1.5
+	ROOT_Release-4-3-2:1.5
+	Release-4-3-2:1.5.0.18
+	Release-4-3-1:1.5.0.16
+	ROOT_Release-4-3-1:1.5
+	debian_version_4_3_0-1:1.5
+	upstream_version_4_3_0:1.5
+	ROOT_Release-4-3-0:1.5
+	Release-4-3-0:1.5.0.14
+	debian_version_3_2_1b-2:1.5
+	debian_version_4_2_2-1:1.5
+	upstream_version_4_2_2:1.5
+	debian_version_3_2_1b-1:1.5
+	upstream_version_3_2_1b:1.5
+	Release-4-1-2:1.5.0.12
+	Release-4-0-8:1.5.0.10
+	debian_version_4_0_8a-1:1.5
+	upstream_version_4_0_8a:1.5
+	jostb-debian-ubuntu-patch:1.5.0.8
+	debian_version_4_0_8-1:1.5
+	upstream_version_4_0_8:1.5
+	debian_version_4_0_7-1:1.5
+	upstream_version_4_0_7:1.5
+	debian_version_4_0_6-1:1.5
+	upstream_version_4_0_6:1.5
+	debian_version_4_0_2-1:1.5
+	upstream_version_4_0_2:1.5
+	Release-4-0-2_Root:1.5
+	Release-4-0-2:1.5.0.6
+	upstream_version_4_0_1:1.5
+	debian_version_4_0_1-2:1.5
+	Release-3-2-1:1.5.0.4
+	Release-3-1-8:1.5.0.2
+	Release-3-0-8_root:1.3
+	Release-3-0-8_Root:1.3
+	Release-3-0-8:1.3.0.2
+	Release-2-0-8:1.3.0.4;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2006.08.19.12.34.03;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.06.19.20.37.19;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.08.29.16.10.12;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.08.14.15.11.46;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.08.11.18.08.18;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Release-3-2-0devel
+@
+text
+@<?php
+
+/**
+ * The JSessionAdapter makes it possible to store java values into the
+ * $_SESSION variable. 
+ *
+ * Example:
+ * $vector = new JSessionAdapter(new Java("java.util.Vector"));
+ * $vector->addElement(...);
+ * $_SESSION["v"]=$vector;
+ */
+
+
+class JSessionProxy {
+  var $java;
+  var $serialID;
+
+  function __construct($java){ 
+    $this->java=$java; 
+    $this->serialID = uniqid(""); 
+  }
+  function __sleep() {
+    $session=java_get_session("PHPSESSION".session_id());
+    $session->put($this->serialID, $this->java);
+    return array("serialID");
+  }
+  function __wakeup() {
+    $session=java_get_session("PHPSESSION".session_id());
+    $this->java = $session->get($this->serialID);
+  }
+  function getJava() {
+    return $this->java;
+  }
+  function __destruct() { 
+    if($this->java) return $this->java->__destruct(); 
+  }
+}
+
+class JSessionAdapter extends JSessionProxy {
+  function __get($arg)       { if(!is_null($this->java)) return $this->java->__get($arg); }
+  function __set($key, $val) { if(!is_null($this->java)) return $this->java->__set($key, $val); }
+  function __call($m, $a)    { if(!is_null($this->java)) return $this->java->__call($m,$a); }
+  function __toString()      { if(!is_null($this->java)) return $this->java->__toString(); }
+}
+
+?>
+@
+
+
+1.4
+log
+@Release-3-1-0
+@
+text
+@d41 1
+a41 1
+  function __put($key, $val) { if(!is_null($this->java)) return $this->java->__put($key, $val); }
+@
+
+
+1.3
+log
+@Release-2.0.8RC
+@
+text
+@d40 4
+a43 4
+  function __get($arg)       { if($this->java) return $this->java->__get($arg); }
+  function __put($key, $val) { if($this->java) return $this->java->__put($key, $val); }
+  function __call($m, $a)    { if($this->java) return $this->java->__call($m,$a); }
+  function __toString()      { if($this->java) return $this->java->__toString(); }
+@
+
+
+1.2
+log
+@Release-2.0.8-pre2
+@
+text
+@d16 1
+a16 1
+  var $serialID=0;
+d20 1
+a20 1
+    $this->serialID++; 
+d23 1
+a23 1
+    $session=java_get_session("ser".session_id());
+d28 1
+a28 1
+    $session=java_get_session("ser".session_id());
+@
+
+
+1.1
+log
+@Release-2.0.8-preview
+@
+text
+@d35 1
+a35 1
+    return $this->java->__destruct(); 
+d40 4
+a43 4
+  function __get($arg)       { return $this->java->__get($arg); }
+  function __put($key, $val) { return $this->java->__put($key, $val); }
+  function __call($m, $a)    { return $this->java->__call($m,$a); }
+  function __toString()      { return $this->java->__toString(); }
+@
+

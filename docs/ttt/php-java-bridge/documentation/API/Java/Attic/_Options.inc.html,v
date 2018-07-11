@@ -1,0 +1,423 @@
+head	1.3;
+access;
+symbols
+	upstream_version_5_3_4:1.2
+	ROOT_Release-5-3-4:1.2
+	Release-5-3-4:1.2.0.20
+	ROOT_Release-5-3-3:1.2
+	Release-5-3-3:1.2.0.16
+	debian_version_5_3_2_1_2-1:1.2
+	upstream_version_5_3_2_1_2:1.2
+	debian_version_5_3_2_1_1-1:1.2
+	debian_version_5_3_2_1_1:1.2
+	upstream_version_5_3_2_1_1:1.2
+	Root_Release-5-3-2-1:1.2
+	Release-5-3-2-1:1.2
+	ROOT_RELEASE-5-3-2-1:1.2
+	RELEASE-5-3-2-1:1.2.0.18
+	Release-5-3-2:1.2.0.14
+	Root_Release-5-3-2:1.2
+	Root_Release-5-3-1:1.2
+	Release-5-3-1:1.2.0.12
+	Release-5-2-3-1:1.2.0.10
+	Root_Release-5-2-3-1:1.2
+	Release-5-2-2-4:1.2.0.8
+	Root_Release-5-2-2-4:1.2
+	Release-5-2-2-1:1.2.0.6
+	Root_Release-5-2-2-1:1.2
+	upstream_version_5_2_2:1.2
+	debian_version_5_2_2-1:1.2
+	Release-5-2-2:1.2.0.4
+	ROOT_Release-5-2-2:1.2
+	ROOT_Release-5-2-1:1.2
+	Release-5-2-1:1.2.0.2
+	Release-5-2-0:1.1.0.18
+	ROOT_Release-5-2-0:1.1
+	ROOT_Release-5-1-2:1.1
+	Release-5-1-2:1.1.0.16
+	Version-5-1-1:1.1.0.14
+	ROOT_Version-5-1-1:1.1
+	debian_version_5_1_0-1:1.1
+	upstream_version_5_1_0:1.1
+	ROOT_Release-5-1-0:1.1
+	Release-5-1-0:1.1.0.12
+	ROOT_Release-5-0-0:1.1
+	Release-5-0-0:1.1.0.10
+	Release-4-3-3:1.1.0.8
+	ROOT_Release-4-3-3:1.1
+	upstream_version_4_3_2:1.1
+	debian_version_4_3_2-1:1.1
+	ROOT_Release-4-3-2:1.1
+	Release-4-3-2:1.1.0.6
+	Release-4-3-1:1.1.0.4
+	ROOT_Release-4-3-1:1.1
+	debian_version_4_3_0-1:1.1
+	upstream_version_4_3_0:1.1
+	ROOT_Release-4-3-0:1.1
+	Release-4-3-0:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2008.12.02.19.16.01;	author jost_boekemeier;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2008.03.22.12.04.55;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.09.30.16.11.29;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs for page Options.inc</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="file-name">/Options.inc</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+											<a href="#sec-constants">Constants</a>
+										</div>
+	<div class="info-box-body">	
+		<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">filesource:</span> <a href="../__filesource/fsource_Java__Options.inc.html">Source Code for this file</a></li>
+			</ul>
+		
+			</div>
+</div>
+		
+
+	
+	<a name="sec-constants"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+									<span class="disabled">Constants</span>
+											</div>
+		<div class="info-box-body">	
+			<a name="defineJAVA_DEBUG"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_DEBUG</span> = false
+			(line <span class="line-number"><a href="../__filesource/fsource_Java__Options.inc.html#a111">111</a></span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_HOSTS"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_HOSTS</span> = $ini[&quot;java.hosts&quot;]
+			(line <span class="line-number"><a href="../__filesource/fsource_Java__Options.inc.html#a66">66</a></span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_LOG_LEVEL"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_LOG_LEVEL</span> = $ini[&quot;java.log_level&quot;]
+			(line <span class="line-number"><a href="../__filesource/fsource_Java__Options.inc.html#a68">68</a></span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_PEAR_VERSION"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_PEAR_VERSION</span> = &quot;5.0.0&quot;
+			(line <span class="line-number"><a href="../__filesource/fsource_Java__Options.inc.html#a54">54</a></span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_PIPE_DIR"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_PIPE_DIR</span> = &quot;/dev/shm&quot;
+			(line <span class="line-number"><a href="../__filesource/fsource_Java__Options.inc.html#a100">100</a></span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_PREFER_VALUES"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_PREFER_VALUES</span> = 0
+			(line <span class="line-number"><a href="../__filesource/fsource_Java__Options.inc.html#a107">107</a></span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_RECV_SIZE"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_RECV_SIZE</span> = 8192
+			(line <span class="line-number"><a href="../__filesource/fsource_Java__Options.inc.html#a60">60</a></span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_SEND_SIZE"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_SEND_SIZE</span> = 8192
+			(line <span class="line-number"><a href="../__filesource/fsource_Java__Options.inc.html#a57">57</a></span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_SERVLET"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_SERVLET</span> = $ini[&quot;java.servlet&quot;]
+			(line <span class="line-number"><a href="../__filesource/fsource_Java__Options.inc.html#a67">67</a></span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+		</div>
+	</div>
+	
+	
+	
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 16 Mar 2008 19:11:46 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.0a2</a>
+	</p>
+	</div></body>
+</html>@
+
+
+1.2
+log
+@Release-5-2-1
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d1 175
+a175 144
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs for page Options.inc</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="file-name">/Options.inc</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+											<a href="#sec-constants">Constants</a>
+										</div>
+	<div class="info-box-body">	
+		<!-- ========== Info from phpDoc block ========= -->
+		
+			</div>
+</div>
+		
+
+	
+	<a name="sec-constants"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Constants</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+									<span class="disabled">Constants</span>
+											</div>
+		<div class="info-box-body">	
+			<a name="defineJAVA_CACHE_ENABLED"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_CACHE_ENABLED</span> = false
+			(line <span class="line-number">100</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_DEBUG"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_DEBUG</span> = false
+			(line <span class="line-number">96</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_HOSTS"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_HOSTS</span> = $ini[&quot;java.hosts&quot;]
+			(line <span class="line-number">58</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_LOG_LEVEL"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_LOG_LEVEL</span> = $ini[&quot;java.log_level&quot;]
+			(line <span class="line-number">60</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_PEAR_VERSION"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_PEAR_VERSION</span> = &quot;4.2.1&quot;
+			(line <span class="line-number">54</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_PIPE_DIR"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_PIPE_DIR</span> = file_exists(&quot;/dev/shm&quot;)?&quot;/dev/shm&quot;:file_exists(&quot;/tmp&quot;?&quot;/tmp&quot;:null)
+			(line <span class="line-number">91</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+<a name="defineJAVA_SERVLET"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="const-title">
+			<span class="const-name">JAVA_SERVLET</span> = $ini[&quot;java.servlet&quot;]
+			(line <span class="line-number">59</span>)
+		</span>
+	</div>
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+		
+</div>
+		</div>
+	</div>
+	
+	
+	
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 30 Sep 2007 10:33:28 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.0a2</a>
+	</p>
+	</div></body>
+</html>@
+

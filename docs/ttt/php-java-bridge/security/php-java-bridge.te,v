@@ -1,0 +1,382 @@
+head	1.3;
+access;
+symbols
+	Release-7-1-1:1.3.0.100
+	Root_Release-7-1-1:1.3
+	Root_Release_7-0-1:1.3
+	Release_7-0-1:1.3.0.98
+	Release_7-0-0:1.3.0.96
+	Root_Release_7-0-0:1.3
+	Release-6-2-2:1.3.0.94
+	Release-6-1-2-3:1.3
+	Root_Release-6-1-2-3:1.3
+	Release-6-1-2-2:1.3.0.92
+	Root_Release-6-1-2-2:1.3
+	debian_version_6_1_2_1-1:1.3
+	upstream_version_6_1_2_1:1.3
+	Release-6-1-2-1_new:1.3.0.90
+	Root_Release-6-1-2-1_new:1.3
+	Release-6-1-2-1:1.3.0.88
+	Root_Release-6-1-2-1:1.3
+	upstream_version_6_1_2:1.3
+	debian_version_6_1_2-1:1.3
+	Release-6-1-2:1.3.0.86
+	Root_Release-6-1-2:1.3
+	debian_version_6_1_1-2:1.3
+	debian_version_6_1_1-1:1.3
+	upstream_version_6_1_1:1.3
+	Release-6-1-1:1.3.0.84
+	Root_Release-6-1-1:1.3
+	Release-6-0-4:1.3.0.82
+	Root_Release-6-0-4:1.3
+	Release-6-0-3_NEW:1.3.0.78
+	Root_Release-6-0-3_NEW:1.3
+	Release-6-0-3:1.3.0.80
+	Root_Release-6-0-3:1.3
+	Release-6-0-0:1.3.0.76
+	Root_Release-6-0-0:1.3
+	Release-5-5-4-1:1.3.0.74
+	Root_Release-5-5-4-1:1.3
+	Release-5-5-4:1.3.0.72
+	Root_Release-5-5-4:1.3
+	Release-5-5-3:1.3.0.70
+	ROOT_Release-5-5-3:1.3
+	Release-5-5-2:1.3.0.68
+	Root_Release-5-5-2:1.3
+	debian_version_5_5_1-1:1.3
+	Release-5-5-1:1.3.0.64
+	upstream_version_5_5_1:1.3
+	ROOT_Release-5-5-1:1.3
+	debian_version_5_5-1:1.3
+	upstream_version_5_5:1.3
+	ROOT_Release-5-5:1.3
+	Release-5-5:1.3.0.66
+	debian_version_5_4_4_2-3:1.3
+	Release-5-4-4-2-1:1.3.0.60
+	debian_version_5_4_4_2-2:1.3
+	debian_version_5_4_4_2-1:1.3
+	upstream_version_5_4_4_2:1.3
+	debian_version_5_4_4_1-1:1.3
+	upstream_version_5_4_4_1:1.3
+	debian_version_5_4_4-1:1.3
+	upstream_version_5_4_4:1.3
+	Release-5-4-4:1.3.0.62
+	Root_Release-5-4-4:1.3
+	debian_version_5_4_3_2-1:1.3
+	upstream_version_5_4_3_2:1.3
+	Release_5-4-3-2:1.3.0.58
+	Root_Release_5-4-3-2:1.3
+	upstream_version_5_4_3_1:1.3
+	debian_version_5_4_3_1-1:1.3
+	Release-5-4-3:1.3.0.56
+	Root_Release-5-4-3:1.3
+	Root_Release-5-4-1:1.3
+	Release-5-4-1:1.3.0.54
+	Root_Release-5-4:1.3
+	Release-5-4:1.3.0.52
+	upstream_version_5_3_4:1.3
+	debian_version_5_3_4-1:1.3
+	ROOT_Release-5-3-4:1.3
+	Release-5-3-4:1.3.0.50
+	ROOT_Release-5-3-3:1.3
+	Release-5-3-3:1.3.0.46
+	debian_version_5_3_2_1_2-1:1.3
+	upstream_version_5_3_2_1_2:1.3
+	debian_version_5_3_2_1_1-1:1.3
+	debian_version_5_3_2_1_1:1.3
+	upstream_version_5_3_2_1_1:1.3
+	Root_Release-5-3-2-1:1.3
+	Release-5-3-2-1:1.3
+	ROOT_RELEASE-5-3-2-1:1.3
+	RELEASE-5-3-2-1:1.3.0.48
+	Release-5-3-2:1.3.0.44
+	Root_Release-5-3-2:1.3
+	Root_Release-5-3-1:1.3
+	Release-5-3-1:1.3.0.42
+	Release-5-2-3-1:1.3.0.40
+	Root_Release-5-2-3-1:1.3
+	Release-5-2-2-4:1.3.0.38
+	Root_Release-5-2-2-4:1.3
+	Release-5-2-2-1:1.3.0.36
+	Root_Release-5-2-2-1:1.3
+	upstream_version_5_2_2:1.3
+	debian_version_5_2_2-1:1.3
+	Release-5-2-2:1.3.0.34
+	ROOT_Release-5-2-2:1.3
+	ROOT_Release-5-2-1:1.3
+	Release-5-2-1:1.3.0.32
+	Release-5-2-0:1.3.0.30
+	ROOT_Release-5-2-0:1.3
+	ROOT_Release-5-1-2:1.3
+	Release-5-1-2:1.3.0.28
+	Version-5-1-1:1.3.0.26
+	ROOT_Version-5-1-1:1.3
+	debian_version_5_1_0-1:1.3
+	upstream_version_5_1_0:1.3
+	ROOT_Release-5-1-0:1.3
+	Release-5-1-0:1.3.0.24
+	ROOT_Release-5-0-0:1.3
+	Release-5-0-0:1.3.0.22
+	Release-4-3-3:1.3.0.20
+	ROOT_Release-4-3-3:1.3
+	upstream_version_4_3_2:1.3
+	debian_version_4_3_2-1:1.3
+	ROOT_Release-4-3-2:1.3
+	Release-4-3-2:1.3.0.18
+	Release-4-3-1:1.3.0.16
+	ROOT_Release-4-3-1:1.3
+	debian_version_4_3_0-1:1.3
+	upstream_version_4_3_0:1.3
+	ROOT_Release-4-3-0:1.3
+	Release-4-3-0:1.3.0.14
+	debian_version_3_2_1b-2:1.3
+	debian_version_4_2_2-1:1.3
+	upstream_version_4_2_2:1.3
+	debian_version_3_2_1b-1:1.3
+	upstream_version_3_2_1b:1.3
+	Release-4-1-2:1.3.0.12
+	Release-4-0-8:1.3.0.10
+	debian_version_4_0_8a-1:1.3
+	upstream_version_4_0_8a:1.3
+	jostb-debian-ubuntu-patch:1.3.0.8
+	debian_version_4_0_8-1:1.3
+	upstream_version_4_0_8:1.3
+	debian_version_4_0_7-1:1.3
+	upstream_version_4_0_7:1.3
+	debian_version_4_0_6-1:1.3
+	upstream_version_4_0_6:1.3
+	debian_version_4_0_2-1:1.3
+	upstream_version_4_0_2:1.3
+	Release-4-0-2_Root:1.3
+	Release-4-0-2:1.3.0.6
+	upstream_version_4_0_1:1.3
+	debian_version_4_0_1-2:1.3
+	Release-3-2-1:1.3.0.4
+	Release-3-1-8:1.3.0.2
+	Release-3-0-8_root:1.1.2.2
+	Release-3-0-8_Root:1.1
+	Release-3-0-8:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2006.08.08.17.20.45;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.07.16.20.29.26;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.04.12.17.57.39;	author jost2345;	state Exp;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2006.04.12.17.57.39;	author jost2345;	state dead;
+branches;
+next	1.1.2.2;
+
+1.1.2.2
+date	2006.04.23.19.26.41;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Release-3-1-7
+@
+text
+@#################################
+# php-java-bridge.te
+# SELinux rules for the javabridge_t domain
+#
+# javabridge_exec_t is the type of the javabridge 
+# executable "RunJavaBridge", see php-java-bridge.fc
+
+daemon_domain(javabridge, `, nscd_client_domain');
+# log_domain(javabridge);
+tmp_domain(javabridge);
+
+# Domain transitions
+####################
+domain_auto_trans(httpd_t, javabridge_exec_t, javabridge_t)
+
+# -- base file read access ---------
+# We can't use the base_file_read_access macro on FC3.
+# The following is a copy of the FC4 macro:
+
+# Read /.
+allow javabridge_t root_t:dir r_dir_perms;
+allow javabridge_t root_t:notdevfile_class_set r_file_perms;
+
+# Read /usr.
+allow javabridge_t usr_t:dir r_dir_perms;
+allow javabridge_t usr_t:notdevfile_class_set r_file_perms;
+
+# Read bin and sbin directories.
+allow javabridge_t bin_t:dir r_dir_perms;
+allow javabridge_t bin_t:notdevfile_class_set r_file_perms;
+allow javabridge_t sbin_t:dir r_dir_perms;
+allow javabridge_t sbin_t:notdevfile_class_set r_file_perms;
+read_sysctl(javabridge_t)
+# --- end base file read access ---
+
+can_exec_any(javabridge_t)
+
+general_domain_access(javabridge_t)
+general_proc_read_access(javabridge_t)
+
+# we currently have no log directory
+allow javabridge_t var_log_t:dir { add_name write search };
+allow javabridge_t var_log_t:file { create append write };
+
+################################
+# Connect from httpd.
+can_unix_connect(httpd_t, javabridge_t)
+
+# Connect from httpd using tcp sockets
+allow javabridge_t self:tcp_socket { accept bind connect create getattr listen read setopt write shutdown };
+allow javabridge_t port_t:tcp_socket { name_bind name_connect recv_msg send_msg };
+allow javabridge_t netif_lo_t:netif { tcp_recv tcp_send };
+allow javabridge_t node_lo_t:node { tcp_recv tcp_send };
+allow javabridge_t node_lo_t:tcp_socket node_bind;
+
+dontaudit javabridge_t node_inaddr_any_t:tcp_socket node_bind;
+dontaudit javabridge_t sbin_t:dir search;
+################################
+
+# Read locale data
+read_locale(javabridge_t)
+
+# Access random device
+allow javabridge_t { urandom_device_t random_device_t }:chr_file r_file_perms;
+
+# Read /etc
+allow javabridge_t etc_runtime_t:{ file lnk_file } r_file_perms;
+
+# Read /var/www
+r_dir_file(javabridge_t, httpd_sys_content_t)
+
+###################################################
+# Running the back-end as a sub-component of apache
+allow javabridge_t httpd_log_t:file append;
+allow httpd_t javabridge_t:process { sigkill signal };
+
+
+# Insane settings needed for sun java 1.5.  Comment this out, if you
+# can.
+allow javabridge_t javabridge_tmp_t:file { execute };
+allow javabridge_t usr_t:file { execute };
+allow javabridge_t locale_t:file { execute };
+allow javabridge_t random_device_t:chr_file { append };
+@
+
+
+1.2
+log
+@Release-3-1-6
+@
+text
+@d12 4
+d72 6
+@
+
+
+1.1
+log
+@Release-3.0.8
+@
+text
+@d41 1
+d45 11
+d65 2
+@
+
+
+1.1.2.1
+log
+@file php-java-bridge.te was added on branch Release-3-0-8 on 2006-04-23 19:26:41 +0000
+@
+text
+@d1 59
+@
+
+
+1.1.2.2
+log
+@Release-3-0-8-1
+@
+text
+@a0 59
+#################################
+# php-java-bridge.te
+# SELinux rules for the javabridge_t domain
+#
+# javabridge_exec_t is the type of the javabridge 
+# executable "RunJavaBridge", see php-java-bridge.fc
+
+daemon_domain(javabridge, `, nscd_client_domain');
+# log_domain(javabridge);
+tmp_domain(javabridge);
+
+# -- base file read access ---------
+# We can't use the base_file_read_access macro on FC3.
+# The following is a copy of the FC4 macro:
+
+# Read /.
+allow javabridge_t root_t:dir r_dir_perms;
+allow javabridge_t root_t:notdevfile_class_set r_file_perms;
+
+# Read /usr.
+allow javabridge_t usr_t:dir r_dir_perms;
+allow javabridge_t usr_t:notdevfile_class_set r_file_perms;
+
+# Read bin and sbin directories.
+allow javabridge_t bin_t:dir r_dir_perms;
+allow javabridge_t bin_t:notdevfile_class_set r_file_perms;
+allow javabridge_t sbin_t:dir r_dir_perms;
+allow javabridge_t sbin_t:notdevfile_class_set r_file_perms;
+read_sysctl(javabridge_t)
+# --- end base file read access ---
+
+can_exec_any(javabridge_t)
+
+general_domain_access(javabridge_t)
+general_proc_read_access(javabridge_t)
+
+# we currently have no log directory
+allow javabridge_t var_log_t:dir { add_name write search };
+allow javabridge_t var_log_t:file { create append write };
+
+# Connect from httpd.
+can_unix_connect(httpd_t, javabridge_t)
+
+# Read locale data
+read_locale(javabridge_t)
+
+# Access random device
+allow javabridge_t { urandom_device_t random_device_t }:chr_file r_file_perms;
+
+# Read /etc
+allow javabridge_t etc_runtime_t:{ file lnk_file } r_file_perms;
+
+
+# Insane settings needed for sun java 1.5.  Comment this out, if you
+# can.
+allow javabridge_t javabridge_tmp_t:file { execute };
+allow javabridge_t usr_t:file { execute };
+allow javabridge_t locale_t:file { execute };
+allow javabridge_t random_device_t:chr_file { append };
+@
+
+

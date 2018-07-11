@@ -1,0 +1,2996 @@
+head	1.31;
+access;
+symbols
+	upstream_version_5_5:1.30
+	ROOT_Release-5-5:1.30
+	Release-5-5:1.30.0.4
+	debian_version_5_4_4_2-3:1.30
+	Release-5-4-4-2-1:1.30.0.2
+	debian_version_5_4_4_2-2:1.30
+	debian_version_5_4_4_2-1:1.30
+	upstream_version_5_4_4_2:1.30
+	debian_version_5_4_4_1-1:1.27
+	upstream_version_5_4_4_1:1.27
+	debian_version_5_4_4-1:1.26
+	upstream_version_5_4_4:1.26
+	Release-5-4-4:1.26.0.4
+	Root_Release-5-4-4:1.26
+	debian_version_5_4_3_2-1:1.24
+	upstream_version_5_4_3_2:1.24
+	Release_5-4-3-2:1.24.0.2
+	Root_Release_5-4-3-2:1.24
+	upstream_version_5_4_3_1:1.24
+	debian_version_5_4_3_1-1:1.24
+	Release-5-4-3:1.23.0.6
+	Root_Release-5-4-3:1.23
+	Root_Release-5-4-1:1.23
+	Release-5-4-1:1.23.0.4
+	Root_Release-5-4:1.23
+	Release-5-4:1.23.0.2
+	upstream_version_5_3_4:1.21
+	debian_version_5_3_4-1:1.23
+	ROOT_Release-5-3-4:1.21
+	Release-5-3-4:1.21.0.2
+	ROOT_Release-5-3-3:1.18
+	Release-5-3-3:1.18.0.2
+	debian_version_5_3_2_1_2-1:1.17
+	upstream_version_5_3_2_1_2:1.17
+	debian_version_5_3_2_1_1-1:1.17
+	debian_version_5_3_2_1_1:1.17
+	upstream_version_5_3_2_1_1:1.17
+	Root_Release-5-3-2-1:1.17
+	Release-5-3-2-1:1.17
+	ROOT_RELEASE-5-3-2-1:1.17
+	RELEASE-5-3-2-1:1.17.0.10
+	Release-5-3-2:1.17.0.6
+	Root_Release-5-3-2:1.17
+	Root_Release-5-3-1:1.17
+	Release-5-3-1:1.17.0.4
+	Release-5-2-3-1:1.17.0.2
+	Root_Release-5-2-3-1:1.17
+	Release-5-2-2-4:1.16.0.8
+	Root_Release-5-2-2-4:1.16
+	Release-5-2-2-1:1.16.0.6
+	Root_Release-5-2-2-1:1.16
+	upstream_version_5_2_2:1.16
+	debian_version_5_2_2-1:1.16
+	Release-5-2-2:1.16.0.4
+	ROOT_Release-5-2-2:1.16
+	ROOT_Release-5-2-1:1.16
+	Release-5-2-1:1.16.0.2
+	Release-5-2-0:1.15.0.20
+	ROOT_Release-5-2-0:1.15
+	ROOT_Release-5-1-2:1.15
+	Release-5-1-2:1.15.0.18
+	Version-5-1-1:1.15.0.16
+	ROOT_Version-5-1-1:1.15
+	debian_version_5_1_0-1:1.15
+	upstream_version_5_1_0:1.15
+	ROOT_Release-5-1-0:1.15
+	Release-5-1-0:1.15.0.14
+	ROOT_Release-5-0-0:1.15
+	Release-5-0-0:1.15.0.12
+	Release-4-3-3:1.15.0.10
+	ROOT_Release-4-3-3:1.15
+	upstream_version_4_3_2:1.15
+	debian_version_4_3_2-1:1.15
+	ROOT_Release-4-3-2:1.15
+	Release-4-3-2:1.15.0.8
+	Release-4-3-1:1.15.0.6
+	ROOT_Release-4-3-1:1.15
+	debian_version_4_3_0-1:1.15
+	upstream_version_4_3_0:1.15
+	ROOT_Release-4-3-0:1.15
+	Release-4-3-0:1.15.0.4
+	debian_version_3_2_1b-2:1.12
+	debian_version_4_2_2-1:1.15
+	upstream_version_4_2_2:1.15
+	debian_version_3_2_1b-1:1.12
+	upstream_version_3_2_1b:1.12
+	Release-4-1-2:1.15.0.2
+	Release-4-0-8:1.14.0.6
+	debian_version_4_0_8a-1:1.14
+	upstream_version_4_0_8a:1.14
+	jostb-debian-ubuntu-patch:1.14.0.4
+	debian_version_4_0_8-1:1.14
+	upstream_version_4_0_8:1.14
+	debian_version_4_0_7-1:1.14
+	upstream_version_4_0_7:1.14
+	debian_version_4_0_6-1:1.14
+	upstream_version_4_0_6:1.14
+	debian_version_4_0_2-1:1.14
+	upstream_version_4_0_2:1.14
+	Release-4-0-2_Root:1.14
+	Release-4-0-2:1.14.0.2
+	upstream_version_4_0_1:1.13
+	debian_version_4_0_1-2:1.13
+	Release-3-2-1:1.12.0.4
+	Release-3-1-8:1.12.0.2
+	Release-3-0-8_root:1.4.2.1
+	Release-3-0-8_Root:1.5
+	Release-3-0-8:1.4.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.31
+date	2009.07.25.13.56.05;	author jost_boekemeier;	state dead;
+branches;
+next	1.30;
+
+1.30
+date	2009.04.25.12.25.24;	author jost_boekemeier;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2009.04.19.17.24.31;	author jost_boekemeier;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2009.04.18.14.57.05;	author jost_boekemeier;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2009.03.15.15.33.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2009.03.08.17.45.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2009.03.08.14.34.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2009.01.06.17.05.13;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2008.12.02.21.56.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2008.12.02.19.17.52;	author jost_boekemeier;	state dead;
+branches;
+next	1.21;
+
+1.21
+date	2008.11.30.17.08.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2008.10.26.15.23.02;	author jost_boekemeier;	state Exp;
+branches
+	1.18.2.1;
+next	1.17;
+
+1.17
+date	2008.09.28.21.56.55;	author jost_boekemeier;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2008.03.22.12.04.59;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2007.06.16.18.29.53;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2007.03.19.13.03.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.03.09.20.28.16;	author andremachado;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2006.09.10.17.31.14;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.08.08.17.20.47;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2006.07.23.20.32.49;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.07.16.20.29.28;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.07.02.20.28.49;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.06.27.20.44.42;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.06.19.20.37.25;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.04.12.17.46.48;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.02.05.18.47.01;	author jost2345;	state Exp;
+branches
+	1.4.2.1;
+next	1.3;
+
+1.3
+date	2006.01.15.21.07.28;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.01.08.23.44.47;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.11.24.19.43.07;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2006.04.23.19.09.09;	author jost2345;	state Exp;
+branches;
+next	1.4.2.2;
+
+1.4.2.2
+date	2006.05.13.16.09.59;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.18.2.1
+date	2008.11.09.17.01.42;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18.2.2;
+
+1.18.2.2
+date	2008.11.12.18.55.31;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.31
+log
+@Release-5-5
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Apr 25 11:44:38 CEST 2009 -->
+<TITLE>
+ContextFactory
+</TITLE>
+
+<META NAME="date" CONTENT="2009-04-25">
+
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../../stylesheet.css" TITLE="Style">
+
+<SCRIPT type="text/javascript">
+function windowTitle()
+{
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="ContextFactory";
+    }
+}
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
+
+
+<!-- ========= START OF TOP NAVBAR ======= -->
+<A NAME="navbar_top"><!-- --></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/ContextFactory.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;<A HREF="../../../../php/java/bridge/http/Context.html" title="class in php.java.bridge.http"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;<A HREF="../../../../php/java/bridge/http/ContextFactory.ICredentials.html" title="interface in php.java.bridge.http"><B>NEXT CLASS</B></A></FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../../index.html?php/java/bridge/http/ContextFactory.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="ContextFactory.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;<A HREF="#nested_class_summary">NESTED</A>&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF TOP NAVBAR ========= -->
+
+<HR>
+<!-- ======== START OF CLASS DATA ======== -->
+<H2>
+<FONT SIZE="-1">
+php.java.bridge.http</FONT>
+<BR>
+Class ContextFactory</H2>
+<PRE>
+java.lang.Object
+  <IMG SRC="../../../../resources/inherit.gif" ALT="extended by "><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html" title="class in php.java.bridge">php.java.bridge.JavaBridgeFactory</A>
+      <IMG SRC="../../../../resources/inherit.gif" ALT="extended by "><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">php.java.bridge.SessionFactory</A>
+          <IMG SRC="../../../../resources/inherit.gif" ALT="extended by "><B>php.java.bridge.http.ContextFactory</B>
+</PRE>
+<DL>
+<DT><B>All Implemented Interfaces:</B> <DD><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A>, <A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></DD>
+</DL>
+<HR>
+<DL>
+<DT><PRE>public final class <B>ContextFactory</B><DT>extends <A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A><DT>implements <A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></DL>
+</PRE>
+
+<P>
+Create session, jsr223 contexts.<p>
+ The ContextFactory may keep a promise (a "proxy") which one may evaluate to a
+ session reference (for PHP/JSP session sharing), and/or it may
+ reference a "half-executed" bridge for local channel re-directs (for
+ "high speed" communication links). 
+
+<p>
+ A unique context
+ instance should be created for each request and destroyed when the request
+ is done.
+ </p>
+ <p>
+ Clients of the PHP clients may attach additional data and run with
+ a customized ContextFactory by using the visitor pattern, 
+ see <A HREF="../../../../php/java/bridge/http/ContextFactory.html#accept(php.java.bridge.http.IContextFactoryVisitor)"><CODE>accept(IContextFactoryVisitor)</CODE></A>.
+ </p>
+ <p>
+ The string ID of the instance should be passed to the client, which may
+ pass it back together with the getSession request or the "local
+ channel re-direct". If the former happens, we invoke the promise
+ and return the session object to the client. Different promises can
+ evaluate to the same session object.  For local channel re-directs
+ the ContextFactory is given to a ContextRunner which handles the
+ local channel communication.
+ </p>
+ <p>
+ When a php client is not interested in a context for 5 seconds (checked every 10 minutes), the
+ context is destroyed: a) switching from the HTTP tunnel to the local channel of the
+ ContextRunner or b) switching from the fresh context created by the client of the PHP client to the
+ recycled, persistent context, costs only one round-trip. The time for such a context switch 
+ is usually much less than 10ms unless either the php client or the client that waits for the php client 
+ is traced. If 5 seconds is not enough during debugging, change the ORPHANED_TIMEOUT.
+ </p>
+ <p>
+ In a shared environment with k web contexts there can be up to n*k active JavaBridge/ContextFactory instances 
+ (where n is the number of active php clients). All ContextFactories are kept in a shared, per-loader
+ map. But the map can only be accessed via <A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String, php.java.bridge.http.ContextFactory.ICredentials)"><CODE>get(String, ICredentials)</CODE></A>, which checks if the ContextFactory
+ belongs to the same ContextServer.
+ </p>
+<P>
+
+<P>
+<DL>
+<DT><B>See Also:</B><DD><A HREF="../../../../php/java/servlet/ServletContextFactory.html" title="class in php.java.servlet"><CODE>ServletContextFactory</CODE></A>, 
+<A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http"><CODE>ContextServer</CODE></A>, 
+<A HREF="../../../../php/java/bridge/SessionFactory.html#TIMER_DURATION"><CODE>SessionFactory.TIMER_DURATION</CODE></A></DL>
+<HR>
+
+<P>
+<!-- ======== NESTED CLASS SUMMARY ======== -->
+
+<A NAME="nested_class_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Nested Class Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;interface</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.ICredentials.html" title="interface in php.java.bridge.http">ContextFactory.ICredentials</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The credentials provided by the web context, usually this ContextFactory.</TD>
+</TR>
+</TABLE>
+&nbsp;<!-- =========== FIELD SUMMARY =========== -->
+
+<A NAME="field_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Field Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#EMPTY_CONTEXT_NAME">EMPTY_CONTEXT_NAME</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This context name can be used when a ContextFactory is used 
+ outside of a servlet environment</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../../php/java/bridge/http/ContextFactory.ICredentials.html" title="interface in php.java.bridge.http">ContextFactory.ICredentials</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#NO_CREDENTIALS">NO_CREDENTIALS</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use this if you don't care about security.</TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="fields_inherited_from_class_php.java.bridge.SessionFactory"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Fields inherited from class php.java.bridge.<A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#TIMER_DURATION">TIMER_DURATION</A></CODE></TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+<A NAME="constructor_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Constructor Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#ContextFactory(java.lang.String, boolean)">ContextFactory</A></B>(java.lang.String&nbsp;webContext,
+               boolean&nbsp;isManaged)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a new ContextFactory.</TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- ========== METHOD SUMMARY =========== -->
+
+<A NAME="method_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Method Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#accept(php.java.bridge.http.IContextFactoryVisitor)">accept</A></B>(<A HREF="../../../../php/java/bridge/http/IContextFactoryVisitor.html" title="interface in php.java.bridge.http">IContextFactoryVisitor</A>&nbsp;visitor)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Use this method to attach a visitor to the ContextFactory.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew()">addNew</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a new simple ContextFactory (a factory which creates an emulated JSR223 context) and add it 
+ to the list of context factories kept by this classloader.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#destroy()">destroy</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Destroy the factory</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#destroyAll()">destroyAll</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove all context factories from the classloader.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String, php.java.bridge.http.ContextFactory.ICredentials)">get</A></B>(java.lang.String&nbsp;id,
+    <A HREF="../../../../php/java/bridge/http/ContextFactory.ICredentials.html" title="interface in php.java.bridge.http">ContextFactory.ICredentials</A>&nbsp;server)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only for internal use.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.ClassLoader</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getClassLoader()">getClassLoader</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the context loader</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../php/java/bridge/http/IContext.html" title="interface in php.java.bridge.http">IContext</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getContext()">getContext</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the context.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getId()">getId</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the serializable ID of the context factory</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../php/java/bridge/SimpleJavaBridgeClassLoader.html" title="class in php.java.bridge">SimpleJavaBridgeClassLoader</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getJavaBridgeClassLoader()">getJavaBridgeClassLoader</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return an instance of the JavaBridgeClassLoader</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getRedirectString()">getRedirectString</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the redirect string, for example h:localhost:8080/JavaBridge/test.php</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getRedirectString(java.lang.String)">getRedirectString</A></B>(java.lang.String&nbsp;webPath)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the redirect string, for example h:localhost:8080/webPath</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getSession(boolean, int)">getSession</A></B>(boolean&nbsp;clientIsNew,
+           int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a session, not shared with JSP</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getSession(java.lang.String, boolean, int)">getSession</A></B>(java.lang.String&nbsp;name,
+           boolean&nbsp;clientIsNew,
+           int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a standard session, shared with JSP</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getSimpleSession(boolean, int)">getSimpleSession</A></B>(boolean&nbsp;clientIsNew,
+                 int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a simple session which cannot be shared with JSP</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getSimpleSession(java.lang.String, boolean, int)">getSimpleSession</A></B>(java.lang.String&nbsp;name,
+                 boolean&nbsp;clientIsNew,
+                 int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a simple session which cannot be shared with JSP</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getSocketName()">getSocketName</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the socket name, for example 8080</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#initialize()">initialize</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Called when the context runner starts</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#invalidate()">invalidate</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hook is called at the end of the visitor's life cycle.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#peek(java.lang.String)">peek</A></B>(java.lang.String&nbsp;id)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only for internal use.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#recycle()">recycle</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recycle the factory for new reqests.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#recycle(java.lang.String)">recycle</A></B>(java.lang.String&nbsp;id)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ Update the context factory with the new JavaBridge obtained from the servlet
+ </TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#release()">release</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Releases the context factory.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#releaseManaged()">releaseManaged</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wait until this context is finished and release/destroy it.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#setClassLoader(java.lang.ClassLoader)">setClassLoader</A></B>(java.lang.ClassLoader&nbsp;loader)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the class loader obtained from the current servlet into the context.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#setContext(php.java.bridge.http.IContext)">setContext</A></B>(<A HREF="../../../../php/java/bridge/http/IContext.html" title="interface in php.java.bridge.http">IContext</A>&nbsp;context)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the Context into this factory.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#toString()">toString</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#waitFor(long)">waitFor</A></B>(long&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wait until this context is finished.</TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_php.java.bridge.SessionFactory"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class php.java.bridge.<A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#destroyTimer()">destroyTimer</A></CODE></TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_php.java.bridge.JavaBridgeFactory"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class php.java.bridge.<A HREF="../../../../php/java/bridge/JavaBridgeFactory.html" title="class in php.java.bridge">JavaBridgeFactory</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html#getBridge()">getBridge</A>, <A HREF="../../../../php/java/bridge/JavaBridgeFactory.html#isNew()">isNew</A></CODE></TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_java.lang.Object"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class java.lang.Object</B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE>equals, getClass, hashCode, notify, notifyAll, wait, wait, wait</CODE></TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_php.java.bridge.IJavaBridgeFactory"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from interface php.java.bridge.<A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#getBridge()">getBridge</A>, <A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#isNew()">isNew</A></CODE></TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+
+<!-- ============ FIELD DETAIL =========== -->
+
+<A NAME="field_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Field Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="EMPTY_CONTEXT_NAME"><!-- --></A><H3>
+EMPTY_CONTEXT_NAME</H3>
+<PRE>
+public static final java.lang.String <B>EMPTY_CONTEXT_NAME</B></PRE>
+<DL>
+<DD>This context name can be used when a ContextFactory is used 
+ outside of a servlet environment
+<P>
+<DL>
+<DT><B>See Also:</B><DD><A HREF="../../../../constant-values.html#php.java.bridge.http.ContextFactory.EMPTY_CONTEXT_NAME">Constant Field Values</A></DL>
+</DL>
+<HR>
+
+<A NAME="NO_CREDENTIALS"><!-- --></A><H3>
+NO_CREDENTIALS</H3>
+<PRE>
+public static final <A HREF="../../../../php/java/bridge/http/ContextFactory.ICredentials.html" title="interface in php.java.bridge.http">ContextFactory.ICredentials</A> <B>NO_CREDENTIALS</B></PRE>
+<DL>
+<DD>Use this if you don't care about security. This is used by the <A HREF="../../../../php/java/bridge/http/SocketContextServer.html" title="class in php.java.bridge.http"><CODE>SocketContextServer</CODE></A>
+<P>
+<DL>
+</DL>
+</DL>
+
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+<A NAME="constructor_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Constructor Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="ContextFactory(java.lang.String, boolean)"><!-- --></A><H3>
+ContextFactory</H3>
+<PRE>
+public <B>ContextFactory</B>(java.lang.String&nbsp;webContext,
+                      boolean&nbsp;isManaged)</PRE>
+<DL>
+<DD>Create a new ContextFactory.
+<P>
+<DL>
+<DT><B>Parameters:</B><DD><CODE>webContext</CODE> - The current web context or "@@"<DD><CODE>isManaged</CODE> - true if the factory should NOT be gc'ed after MAX_TIMEOUT</DL>
+</DL>
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME="method_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Method Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="addNew()"><!-- --></A><H3>
+addNew</H3>
+<PRE>
+public static <A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A> <B>addNew</B>()</PRE>
+<DL>
+<DD>Create a new simple ContextFactory (a factory which creates an emulated JSR223 context) and add it 
+ to the list of context factories kept by this classloader.
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>The created ContextFactory.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String, php.java.bridge.http.ContextFactory.ICredentials)"><CODE>get(String, ICredentials)</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="get(java.lang.String, php.java.bridge.http.ContextFactory.ICredentials)"><!-- --></A><H3>
+get</H3>
+<PRE>
+public static <A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A> <B>get</B>(java.lang.String&nbsp;id,
+                                  <A HREF="../../../../php/java/bridge/http/ContextFactory.ICredentials.html" title="interface in php.java.bridge.http">ContextFactory.ICredentials</A>&nbsp;server)</PRE>
+<DL>
+<DD>Only for internal use.
+  
+ Returns the context factory associated with the given <code>id</code>
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>id</CODE> - The ID<DD><CODE>server</CODE> - Your context server.
+<DT><B>Returns:</B><DD>The ContextFactory or null.
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.SecurityException</CODE> - if id belongs to a different ContextServer.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew()"><CODE>addNew()</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="peek(java.lang.String)"><!-- --></A><H3>
+peek</H3>
+<PRE>
+public static <A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A> <B>peek</B>(java.lang.String&nbsp;id)</PRE>
+<DL>
+<DD>Only for internal use.
+ The same as <A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String, php.java.bridge.http.ContextFactory.ICredentials)"><CODE>get(String, php.java.bridge.http.ContextFactory.ICredentials)</CODE></A> with the second argument set to null.
+ 
+ The servlet may use this procedure to check for a new context factory.
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>id</CODE> - The existing id.
+<DT><B>Returns:</B><DD>The factory or null
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.SecurityException</CODE> - if the context contains information.</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="recycle(java.lang.String)"><!-- --></A><H3>
+recycle</H3>
+<PRE>
+public void <B>recycle</B>(java.lang.String&nbsp;id)</PRE>
+<DL>
+<DD><p>
+ Update the context factory with the new JavaBridge obtained from the servlet
+ </p>
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#recycle(java.lang.String)">recycle</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>id</CODE> - The fresh id<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#recycle()"><CODE>recycle()</CODE></A>, 
+<A HREF="../../../../php/java/bridge/Request.html#setBridge(php.java.bridge.JavaBridge)"><CODE>Request.setBridge(php.java.bridge.JavaBridge)</CODE></A>, 
+<A HREF="../../../../php/java/bridge/Request.html#recycle()"><CODE>Request.recycle()</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="recycle()"><!-- --></A><H3>
+recycle</H3>
+<PRE>
+public void <B>recycle</B>()</PRE>
+<DL>
+<DD>Recycle the factory for new reqests.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#recycle()">recycle</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html#recycle()">recycle</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html" title="class in php.java.bridge">JavaBridgeFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="destroy()"><!-- --></A><H3>
+destroy</H3>
+<PRE>
+public void <B>destroy</B>()</PRE>
+<DL>
+<DD>Destroy the factory
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#destroy()">destroy</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html#destroy()">destroy</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html" title="class in php.java.bridge">JavaBridgeFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="destroyAll()"><!-- --></A><H3>
+destroyAll</H3>
+<PRE>
+public static void <B>destroyAll</B>()</PRE>
+<DL>
+<DD>Remove all context factories from the classloader.
+ May only be called by the ContextServer.
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http"><CODE>ContextServer</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="releaseManaged()"><!-- --></A><H3>
+releaseManaged</H3>
+<PRE>
+public void <B>releaseManaged</B>()
+                    throws java.lang.InterruptedException</PRE>
+<DL>
+<DD>Wait until this context is finished and release/destroy it. This method returns immediately if this context
+ is not in use yet or it is no longer in use. Call this method only if Java has initiated the communication and
+ Java have full control over the connection, for example via a ScriptEngine's URLReader or CGIRunner. 
+ For Apache/PHP initiated requests use a combination of #waitFor(long) and #release() instead.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#releaseManaged()">releaseManaged</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.InterruptedException</CODE><DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http"><CODE>ContextRunner</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="waitFor(long)"><!-- --></A><H3>
+waitFor</H3>
+<PRE>
+public void <B>waitFor</B>(long&nbsp;timeout)
+             throws java.lang.InterruptedException</PRE>
+<DL>
+<DD>Wait until this context is finished.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#waitFor(long)">waitFor</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>timeout</CODE> - The timeout
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.InterruptedException</CODE><DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http"><CODE>ContextRunner</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getId()"><!-- --></A><H3>
+getId</H3>
+<PRE>
+public java.lang.String <B>getId</B>()</PRE>
+<DL>
+<DD>Return the serializable ID of the context factory
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getId()">getId</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>The ID</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="toString()"><!-- --></A><H3>
+toString</H3>
+<PRE>
+public java.lang.String <B>toString</B>()</PRE>
+<DL>
+<DD>
+<P>
+<DD><DL>
+<DT><B>Overrides:</B><DD><CODE>toString</CODE> in class <CODE>java.lang.Object</CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getContext()"><!-- --></A><H3>
+getContext</H3>
+<PRE>
+public <A HREF="../../../../php/java/bridge/http/IContext.html" title="interface in php.java.bridge.http">IContext</A> <B>getContext</B>()</PRE>
+<DL>
+<DD>Returns the context.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getContext()">getContext</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE><DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#getContext()">getContext</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getContext()">getContext</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>The context or null.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getContext()"><CODE>getContext()</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setContext(php.java.bridge.http.IContext)"><!-- --></A><H3>
+setContext</H3>
+<PRE>
+public void <B>setContext</B>(<A HREF="../../../../php/java/bridge/http/IContext.html" title="interface in php.java.bridge.http">IContext</A>&nbsp;context)</PRE>
+<DL>
+<DD>Set the Context into this factory.
+ Should be called by Context.addNew() only.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#setContext(php.java.bridge.http.IContext)">setContext</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>context</CODE> - The context.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew()"><CODE>addNew()</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="accept(php.java.bridge.http.IContextFactoryVisitor)"><!-- --></A><H3>
+accept</H3>
+<PRE>
+public void <B>accept</B>(<A HREF="../../../../php/java/bridge/http/IContextFactoryVisitor.html" title="interface in php.java.bridge.http">IContextFactoryVisitor</A>&nbsp;visitor)</PRE>
+<DL>
+<DD>Use this method to attach a visitor to the ContextFactory.
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>visitor</CODE> - The custom ContextFactory</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getSimpleSession(java.lang.String, boolean, int)"><!-- --></A><H3>
+getSimpleSession</H3>
+<PRE>
+public <A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A> <B>getSimpleSession</B>(java.lang.String&nbsp;name,
+                                 boolean&nbsp;clientIsNew,
+                                 int&nbsp;timeout)</PRE>
+<DL>
+<DD>Return a simple session which cannot be shared with JSP
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>name</CODE> - The session name<DD><CODE>clientIsNew</CODE> - true, if the client wants a new session<DD><CODE>timeout</CODE> - expires in n seconds
+<DT><B>Returns:</B><DD>The session</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getSimpleSession(boolean, int)"><!-- --></A><H3>
+getSimpleSession</H3>
+<PRE>
+public <A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A> <B>getSimpleSession</B>(boolean&nbsp;clientIsNew,
+                                 int&nbsp;timeout)</PRE>
+<DL>
+<DD>Return a simple session which cannot be shared with JSP
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>clientIsNew</CODE> - true, if the client wants a new session<DD><CODE>timeout</CODE> - expires in n seconds
+<DT><B>Returns:</B><DD>The session</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getSession(java.lang.String, boolean, int)"><!-- --></A><H3>
+getSession</H3>
+<PRE>
+public <A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A> <B>getSession</B>(java.lang.String&nbsp;name,
+                           boolean&nbsp;clientIsNew,
+                           int&nbsp;timeout)</PRE>
+<DL>
+<DD>Return a standard session, shared with JSP
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getSession(java.lang.String, boolean, int)">getSession</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE><DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#getSession(java.lang.String, boolean, int)">getSession</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getSession(java.lang.String, boolean, int)">getSession</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>name</CODE> - The session name<DD><CODE>clientIsNew</CODE> - true, if the client wants a new session<DD><CODE>timeout</CODE> - expires in n seconds
+<DT><B>Returns:</B><DD>The session<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge"><CODE>ISession</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getSession(boolean, int)"><!-- --></A><H3>
+getSession</H3>
+<PRE>
+public <A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A> <B>getSession</B>(boolean&nbsp;clientIsNew,
+                           int&nbsp;timeout)</PRE>
+<DL>
+<DD>Return a session, not shared with JSP
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#getSession(boolean, int)">getSession</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getSession(boolean, int)">getSession</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>clientIsNew</CODE> - true, if the client wants a new session<DD><CODE>timeout</CODE> - expires in n seconds
+<DT><B>Returns:</B><DD>The sessioin</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="release()"><!-- --></A><H3>
+release</H3>
+<PRE>
+public void <B>release</B>()</PRE>
+<DL>
+<DD>Releases the context factory. This method should be called when the
+ factory is not needed anymore.
+ Implementations could then remove any unused context factory from the 
+ classloader's list of context factories.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#release()">release</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setClassLoader(java.lang.ClassLoader)"><!-- --></A><H3>
+setClassLoader</H3>
+<PRE>
+public void <B>setClassLoader</B>(java.lang.ClassLoader&nbsp;loader)</PRE>
+<DL>
+<DD>Set the class loader obtained from the current servlet into the context.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#setClassLoader(java.lang.ClassLoader)">setClassLoader</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>loader</CODE> - The currentThreadContextClassLoader</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getJavaBridgeClassLoader()"><!-- --></A><H3>
+getJavaBridgeClassLoader</H3>
+<PRE>
+public <A HREF="../../../../php/java/bridge/SimpleJavaBridgeClassLoader.html" title="class in php.java.bridge">SimpleJavaBridgeClassLoader</A> <B>getJavaBridgeClassLoader</B>()</PRE>
+<DL>
+<DD>Return an instance of the JavaBridgeClassLoader
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#getJavaBridgeClassLoader()">getJavaBridgeClassLoader</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getJavaBridgeClassLoader()">getJavaBridgeClassLoader</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>The JavaBridgeClassLoader<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/Util.html#getContextClassLoader()"><CODE>Util.getContextClassLoader()</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getClassLoader()"><!-- --></A><H3>
+getClassLoader</H3>
+<PRE>
+public java.lang.ClassLoader <B>getClassLoader</B>()</PRE>
+<DL>
+<DD>Return the context loader
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getClassLoader()">getClassLoader</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getClassLoader()">getClassLoader</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>The context class loader</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="initialize()"><!-- --></A><H3>
+initialize</H3>
+<PRE>
+public void <B>initialize</B>()</PRE>
+<DL>
+<DD>Called when the context runner starts
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#initialize()">initialize</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/IContextFactory.html#releaseManaged()"><CODE>IContextFactory.releaseManaged()</CODE></A>, 
+<A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#destroy()"><CODE>IJavaBridgeFactory.destroy()</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="invalidate()"><!-- --></A><H3>
+invalidate</H3>
+<PRE>
+public void <B>invalidate</B>()</PRE>
+<DL>
+<DD>Hook is called at the end of the visitor's life cycle. 
+ Either from destroy(), recycle() or from destroyOrphaned().
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#invalidate()">invalidate</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#destroy()"><CODE>IJavaBridgeFactory.destroy()</CODE></A>, 
+<A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#recycle()"><CODE>IJavaBridgeFactory.recycle()</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getRedirectString()"><!-- --></A><H3>
+getRedirectString</H3>
+<PRE>
+public java.lang.String <B>getRedirectString</B>()</PRE>
+<DL>
+<DD>Return the redirect string, for example h:localhost:8080/JavaBridge/test.php
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getRedirectString()">getRedirectString</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>the redirect string</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getRedirectString(java.lang.String)"><!-- --></A><H3>
+getRedirectString</H3>
+<PRE>
+public java.lang.String <B>getRedirectString</B>(java.lang.String&nbsp;webPath)</PRE>
+<DL>
+<DD>Return the redirect string, for example h:localhost:8080/webPath
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getRedirectString(java.lang.String)">getRedirectString</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>webPath</CODE> - Usually request.getContextPath()+request.getServletPath()
+<DT><B>Returns:</B><DD>the redirect string</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getSocketName()"><!-- --></A><H3>
+getSocketName</H3>
+<PRE>
+public java.lang.String <B>getSocketName</B>()</PRE>
+<DL>
+<DD>Return the socket name, for example 8080
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getSocketName()">getSocketName</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>the socket name</DL>
+</DD>
+</DL>
+<!-- ========= END OF CLASS DATA ========= -->
+<HR>
+
+
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<A HREF="#skip-navbar_bottom" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/ContextFactory.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;<A HREF="../../../../php/java/bridge/http/Context.html" title="class in php.java.bridge.http"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;<A HREF="../../../../php/java/bridge/http/ContextFactory.ICredentials.html" title="interface in php.java.bridge.http"><B>NEXT CLASS</B></A></FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../../index.html?php/java/bridge/http/ContextFactory.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="ContextFactory.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;<A HREF="#nested_class_summary">NESTED</A>&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_bottom"></A>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+
+<HR>
+
+</BODY>
+</HTML>
+@
+
+
+1.30
+log
+@Release-5.4.4.2
+@
+text
+@@
+
+
+1.29
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 19 11:35:17 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-19">
+@
+
+
+1.28
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 12 09:06:09 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-12">
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 15 11:32:37 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-15">
+@
+
+
+1.26
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 08 18:42:03 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-08">
+@
+
+
+1.25
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Tue Mar 03 19:21:03 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-03">
+d220 2
+a221 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#ContextFactory(java.lang.String)">ContextFactory</A></B>(java.lang.String&nbsp;webContext)</CODE>
+d386 1
+a386 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Called at the end of the visitor's life cycle</TD>
+d546 1
+a546 1
+<A NAME="ContextFactory(java.lang.String)"><!-- --></A><H3>
+d549 2
+a550 1
+public <B>ContextFactory</B>(java.lang.String&nbsp;webContext)</PRE>
+d555 1
+a555 1
+<DT><B>Parameters:</B><DD><CODE>webContext</CODE> - The current web context or "@@"</DL>
+d674 1
+a674 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#destroy()">destroy</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE><DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#destroy()">destroy</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html#destroy()">destroy</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html" title="class in php.java.bridge">JavaBridgeFactory</A></CODE></DL>
+d977 2
+a978 1
+<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/IContextFactory.html#releaseManaged()"><CODE>IContextFactory.releaseManaged()</CODE></A></DL>
+d988 2
+a989 1
+<DD>Called at the end of the visitor's life cycle
+d995 2
+a996 1
+</DL>
+@
+
+
+1.24
+log
+@Release-5-4-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Mon Jan 05 20:55:04 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-01-05">
+d311 16
+d365 8
+d994 51
+@
+
+
+1.23
+log
+@documentation
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Nov 30 10:56:56 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-30">
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Nov 29 12:39:23 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-29">
+@
+
+
+1.21
+log
+@Release 5.3.4
+@
+text
+@@
+
+
+1.20
+log
+@Release 5.3.3.1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Nov 23 10:26:25 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-23">
+d223 1
+a223 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+d283 1
+a283 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Get the class loader from the servlet.</TD>
+d386 2
+a387 1
+ Update the context factory with the new JavaBridge obtained from the servlet</TD>
+d427 1
+a427 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+d526 4
+a608 1
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#recycle(java.lang.String)">IContextFactory</A></CODE></B></DD>
+a644 1
+<DD><B>Description copied from class: <CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html#destroy()">JavaBridgeFactory</A></CODE></B></DD>
+a678 1
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#releaseManaged()">IContextFactory</A></CODE></B></DD>
+a700 1
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#waitFor(long)">IContextFactory</A></CODE></B></DD>
+a718 1
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getId()">IContextFactory</A></CODE></B></DD>
+d736 2
+d810 2
+a811 1
+<DT><B>Parameters:</B><DD><CODE>name</CODE> - The session name<DD><CODE>clientIsNew</CODE> - true, if the client wants a new session<DD><CODE>timeout</CODE> - expires in n seconds</DL>
+d828 2
+a829 1
+<DT><B>Parameters:</B><DD><CODE>clientIsNew</CODE> - true, if the client wants a new session<DD><CODE>timeout</CODE> - expires in n seconds</DL>
+d866 1
+a866 1
+<DT><B>Returns:</B><DD>The session</DL>
+a875 1
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#release()">IContextFactory</A></CODE></B></DD>
+a894 1
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#setClassLoader(java.lang.ClassLoader)">IContextFactory</A></CODE></B></DD>
+a910 1
+<DD><B>Description copied from class: <CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html#getJavaBridgeClassLoader()">JavaBridgeFactory</A></CODE></B></DD>
+d928 1
+a928 2
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getClassLoader()">IContextFactory</A></CODE></B></DD>
+<DD>Get the class loader from the servlet.
+d935 1
+a935 1
+<DT><B>Returns:</B><DD>The currentThreadContextClassLoader of the servlet.</DL>
+a944 1
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#initialize()">IContextFactory</A></CODE></B></DD>
+a960 1
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#invalidate()">IContextFactory</A></CODE></B></DD>
+@
+
+
+1.19
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:54 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+d594 1
+a594 1
+<DD><CODE>java.lang.IllegalStateException</CODE> - if the context is in use.</DL>
+@
+
+
+1.18
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Oct 26 14:59:20 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-10-26">
+d312 9
+d331 9
+d349 16
+d386 1
+a386 2
+ Update the context factory with the new JavaBridge obtained from the servlet
+ </TD>
+d399 8
+a435 8
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#waitForInitializedContext()">waitForInitializedContext</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wait until this context is finished.</TD>
+</TR>
+d602 1
+a602 2
+public void <B>recycle</B>(java.lang.String&nbsp;id)
+             throws java.lang.SecurityException</PRE>
+d613 1
+a613 3
+<DT><B>Parameters:</B><DD><CODE>id</CODE> - The fresh id
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.SecurityException</CODE><DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#recycle()"><CODE>recycle()</CODE></A>, 
+d670 2
+a671 2
+<A NAME="waitForInitializedContext()"><!-- --></A><H3>
+waitForInitializedContext</H3>
+d673 2
+a674 2
+public void <B>waitForInitializedContext</B>()
+                               throws java.lang.InterruptedException</PRE>
+d676 5
+a680 5
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#waitForInitializedContext()">IContextFactory</A></CODE></B></DD>
+<DD>Wait until this context is finished. This method returns immediately if this context
+ is not in use yet or it is no longer in use. Call this method only if you're sure
+ that the PHP script context is initialized! For example when the PHP script is finished, 
+ you can use this method to wait until the remaining communication is finished.
+d683 1
+a683 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#waitForInitializedContext()">waitForInitializedContext</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+d813 17
+d849 18
+d938 34
+@
+
+
+1.18.2.1
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 13:25:04 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+a311 9
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getSession(boolean, int)">getSession</A></B>(boolean&nbsp;clientIsNew,
+           int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a session, not shared with JSP</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A></CODE></FONT></TD>
+a321 9
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getSimpleSession(boolean, int)">getSimpleSession</A></B>(boolean&nbsp;clientIsNew,
+                 int&nbsp;timeout)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a simple session which cannot be shared with JSP</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A></CODE></FONT></TD>
+a330 16
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#initialize()">initialize</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Called when the context runner starts</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#invalidate()">invalidate</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Called at the end of the visitor's life cycle</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+a365 8
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#releaseManaged()">releaseManaged</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wait until this context is finished and release/destroy it.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+d395 8
+d569 2
+a570 1
+public void <B>recycle</B>(java.lang.String&nbsp;id)</PRE>
+d581 3
+a583 1
+<DT><B>Parameters:</B><DD><CODE>id</CODE> - The fresh id<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#recycle()"><CODE>recycle()</CODE></A>, 
+d640 2
+a641 2
+<A NAME="releaseManaged()"><!-- --></A><H3>
+releaseManaged</H3>
+d643 2
+a644 2
+public void <B>releaseManaged</B>()
+                    throws java.lang.InterruptedException</PRE>
+d646 5
+a650 5
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#releaseManaged()">IContextFactory</A></CODE></B></DD>
+<DD>Wait until this context is finished and release/destroy it. This method returns immediately if this context
+ is not in use yet or it is no longer in use. Call this method only if Java has initiated the communication and
+ Java have full control over the connection, for example via a ScriptEngine's URLReader or CGIRunner. 
+ For Apache/PHP initiated requests use a combination of #waitFor(long) and #release() instead.
+d653 1
+a653 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#releaseManaged()">releaseManaged</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+a782 17
+<A NAME="getSimpleSession(boolean, int)"><!-- --></A><H3>
+getSimpleSession</H3>
+<PRE>
+public <A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A> <B>getSimpleSession</B>(boolean&nbsp;clientIsNew,
+                                 int&nbsp;timeout)</PRE>
+<DL>
+<DD>Return a simple session which cannot be shared with JSP
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>clientIsNew</CODE> - true, if the client wants a new session<DD><CODE>timeout</CODE> - expires in n seconds</DL>
+</DD>
+</DL>
+<HR>
+
+a801 18
+<A NAME="getSession(boolean, int)"><!-- --></A><H3>
+getSession</H3>
+<PRE>
+public <A HREF="../../../../php/java/bridge/ISession.html" title="interface in php.java.bridge">ISession</A> <B>getSession</B>(boolean&nbsp;clientIsNew,
+                           int&nbsp;timeout)</PRE>
+<DL>
+<DD>Return a session, not shared with JSP
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#getSession(boolean, int)">getSession</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html" title="interface in php.java.bridge">IJavaBridgeFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getSession(boolean, int)">getSession</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>clientIsNew</CODE> - true, if the client wants a new session<DD><CODE>timeout</CODE> - expires in n seconds
+<DT><B>Returns:</B><DD>The session</DL>
+</DD>
+</DL>
+<HR>
+
+a872 34
+<HR>
+
+<A NAME="initialize()"><!-- --></A><H3>
+initialize</H3>
+<PRE>
+public void <B>initialize</B>()</PRE>
+<DL>
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#initialize()">IContextFactory</A></CODE></B></DD>
+<DD>Called when the context runner starts
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#initialize()">initialize</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/IContextFactory.html#releaseManaged()"><CODE>IContextFactory.releaseManaged()</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="invalidate()"><!-- --></A><H3>
+invalidate</H3>
+<PRE>
+public void <B>invalidate</B>()</PRE>
+<DL>
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#invalidate()">IContextFactory</A></CODE></B></DD>
+<DD>Called at the end of the visitor's life cycle
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#invalidate()">invalidate</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+@
+
+
+1.18.2.2
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:54 CET 2008 -->
+d386 2
+a387 1
+ Update the context factory with the new JavaBridge obtained from the servlet</TD>
+@
+
+
+1.17
+log
+@Release-5-2-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Sep 28 12:34:43 CEST 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-09-28">
+d352 2
+a353 1
+ Update the context factory with the new JavaBridge obtained from the servlet</TD>
+d419 1
+a419 1
+<TD><CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html#getBridge()">getBridge</A></CODE></TD>
+d437 1
+a437 1
+<TD><CODE><A HREF="../../../../php/java/bridge/IJavaBridgeFactory.html#getBridge()">getBridge</A></CODE></TD>
+@
+
+
+1.16
+log
+@Release-5-2-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Mar 16 21:41:34 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-03-16">
+d352 1
+a352 2
+ Update the context factory with the new JavaBridge obtained from the servlet
+ </TD>
+d538 1
+a538 1
+<DD><CODE>java.lang.SecurityException</CODE> - if id belongs to a different ContextServer.<DT><B>See Also:</B><DD><CODE>php.java.bridge.http.SimpleContextFactory#addNew(String)</CODE></DL>
+d743 1
+a743 1
+<DT><B>Parameters:</B><DD><CODE>context</CODE> - The context.<DT><B>See Also:</B><DD><CODE>php.java.bridge.http.SimpleContextFactory#addNew(String)</CODE></DL>
+@
+
+
+1.15
+log
+@Release-4-1-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sat Jun 16 09:41:53 EDT 2007 -->
+d10 1
+a10 1
+<META NAME="keywords" CONTENT="php.java.bridge.http.ContextFactory class">
+d17 3
+a19 1
+    parent.document.title="ContextFactory";
+d28 1
+d207 1
+a207 1
+<TD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#TIMER_DURATION">TIMER_DURATION</A>, <A HREF="../../../../php/java/bridge/SessionFactory.html#TIMER_FREQ">TIMER_FREQ</A></CODE></TD>
+a253 8
+<CODE>static&nbsp;<A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew(java.lang.String)">addNew</A></B>(java.lang.String&nbsp;webContext)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a new ContextFactory and add it to the list of context factories kept by this classloader.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+a269 8
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#finishContext()">finishContext</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Called by recycle at the end of the script</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+d283 1
+a283 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return an instance of the current thread context class loader.</TD>
+a347 8
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#recycle(php.java.bridge.http.ContextFactory)">recycle</A></B>(<A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A>&nbsp;factory)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+d352 2
+a353 17
+ Update the context factory with the new JavaBridge obtained from the servlet.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#recycleLegacy(java.lang.String)">recycleLegacy</A></B>(java.lang.String&nbsp;id)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>Deprecated.</B>&nbsp;<I></I>&nbsp;</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#removeAll()">removeAll</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>Deprecated.</B>&nbsp;<I></I>&nbsp;</TD>
+d358 1
+a358 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#removeOrphaned()">removeOrphaned</A></B>()</CODE>
+d361 1
+a361 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Removes the unused context factory from the classloader's list of context factories.</TD>
+a380 8
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#setIsLegacyClient(boolean)">setIsLegacyClient</A></B>(boolean&nbsp;isLegacyClient)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will be called by the PhpJavaServlet and by the JavaBridgeRunner when the client is not the pure PHP client.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+d390 1
+a390 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#waitFor()">waitFor</A></B>()</CODE>
+d398 1
+a398 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#waitFor(long)">waitFor</A></B>(long&nbsp;timeout)</CODE>
+d404 9
+a503 18
+<A NAME="addNew(java.lang.String)"><!-- --></A><H3>
+addNew</H3>
+<PRE>
+public static <A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A> <B>addNew</B>(java.lang.String&nbsp;webContext)</PRE>
+<DL>
+<DD>Create a new ContextFactory and add it to the list of context factories kept by this classloader.
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>webContext</CODE> - The current web context, use ContextFactory.EMPTY_CONTEXT 
+ if servlet web contexts are not available, config.getServletContext().getRealPath("") otherwise.
+<DT><B>Returns:</B><DD>The created ContextFactory.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String, php.java.bridge.http.ContextFactory.ICredentials)"><CODE>get(String, ICredentials)</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+d539 1
+a539 1
+<DD><CODE>java.lang.SecurityException</CODE> - if id belongs to a different ContextServer.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew(java.lang.String)"><CODE>addNew(String)</CODE></A></DL>
+a565 14
+<A NAME="recycle(php.java.bridge.http.ContextFactory)"><!-- --></A><H3>
+recycle</H3>
+<PRE>
+public void <B>recycle</B>(<A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A>&nbsp;factory)</PRE>
+<DL>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#recycle(php.java.bridge.http.ContextFactory)">recycle</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+d574 1
+a574 8
+ Update the context factory with the new JavaBridge obtained from the servlet.
+ </p>
+ <p>
+ Since version 4.1.1 both, the C and the pure PHP implementation pass the context factory via a protocol header.
+ This procedure must obtain the factory for id and pass the bridge to the current context factory. Furthermore it must
+ update the currentThreadContextClassLoader.
+ After the request is done, the ContextFactory#recycle() method is called, which must restore the currentThreadContextClassLoader and
+ the old context factory.
+d598 1
+a598 1
+<DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#recycle()">recycle</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+d611 1
+a611 1
+<DD><B>Description copied from class: <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#destroy()">SessionFactory</A></CODE></B></DD>
+d615 1
+a615 4
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#destroy()">destroy</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#destroy()">destroy</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+a616 10
+</DL>
+<HR>
+
+<A NAME="removeAll()"><!-- --></A><H3>
+removeAll</H3>
+<PRE>
+public static void <B>removeAll</B>()</PRE>
+<DL>
+<DD><B>Deprecated.</B>&nbsp;<I></I>
+<P>
+a619 3
+<DD><DL>
+<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#destroyAll()"><CODE>destroyAll()</CODE></A></DL>
+</DD>
+d640 2
+a641 2
+<A NAME="waitFor()"><!-- --></A><H3>
+waitFor</H3>
+d643 2
+a644 2
+public void <B>waitFor</B>()
+             throws java.lang.InterruptedException</PRE>
+d646 5
+a650 2
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#waitFor()">IContextFactory</A></CODE></B></DD>
+<DD>Wait until this context is finished.
+d653 1
+a653 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#waitFor()">waitFor</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+d723 1
+a723 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getContext()">getContext</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getContext()">getContext</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+d744 1
+a744 1
+<DT><B>Parameters:</B><DD><CODE>context</CODE> - The context.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew(java.lang.String)"><CODE>addNew(String)</CODE></A></DL>
+d793 1
+a793 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getSession(java.lang.String, boolean, int)">getSession</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE><DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getSession(java.lang.String, boolean, int)">getSession</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+d802 2
+a803 19
+<A NAME="removeOrphaned()"><!-- --></A><H3>
+removeOrphaned</H3>
+<PRE>
+public void <B>removeOrphaned</B>()</PRE>
+<DL>
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#removeOrphaned()">IContextFactory</A></CODE></B></DD>
+<DD>Removes the unused context factory from the classloader's list of context factories.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#removeOrphaned()">removeOrphaned</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="finishContext()"><!-- --></A><H3>
+finishContext</H3>
+d805 1
+a805 1
+public void <B>finishContext</B>()</PRE>
+d807 5
+a811 1
+<DD>Called by recycle at the end of the script
+d814 1
+a814 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#finishContext()">finishContext</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+d848 1
+a848 1
+<DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getJavaBridgeClassLoader()">getJavaBridgeClassLoader</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+d852 1
+a852 1
+<DT><B>Returns:</B><DD>The JavaBridgeClassLoader</DL>
+d862 2
+a863 2
+<DD><B>Description copied from class: <CODE><A HREF="../../../../php/java/bridge/JavaBridgeFactory.html#getClassLoader()">JavaBridgeFactory</A></CODE></B></DD>
+<DD>Return an instance of the current thread context class loader.
+d870 1
+a870 37
+<DT><B>Returns:</B><DD>The CurrentThreadContextClassLoader</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="setIsLegacyClient(boolean)"><!-- --></A><H3>
+setIsLegacyClient</H3>
+<PRE>
+public void <B>setIsLegacyClient</B>(boolean&nbsp;isLegacyClient)</PRE>
+<DL>
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#setIsLegacyClient(boolean)">IContextFactory</A></CODE></B></DD>
+<DD>Will be called by the PhpJavaServlet and by the JavaBridgeRunner when the client is not the pure PHP client.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#setIsLegacyClient(boolean)">setIsLegacyClient</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="recycleLegacy(java.lang.String)"><!-- --></A><H3>
+recycleLegacy</H3>
+<PRE>
+public void <B>recycleLegacy</B>(java.lang.String&nbsp;id)
+                   throws java.lang.SecurityException</PRE>
+<DL>
+<DD><B>Deprecated.</B>&nbsp;<I></I>
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#recycleLegacy(java.lang.String)">recycleLegacy</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.SecurityException</CODE></DL>
+@
+
+
+1.14
+log
+@Release-4-0-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Mar 15 07:15:51 CET 2007 -->
+d93 3
+a95 2
+  <IMG SRC="../../../../resources/inherit.gif" ALT="extended by "><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">php.java.bridge.SessionFactory</A>
+      <IMG SRC="../../../../resources/inherit.gif" ALT="extended by "><B>php.java.bridge.http.ContextFactory</B>
+d98 1
+a98 1
+<DT><B>All Implemented Interfaces:</B> <DD><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></DD>
+d275 8
+d292 2
+a293 2
+<CODE>&nbsp;<A HREF="../../../../php/java/bridge/JavaBridge.html" title="class in php.java.bridge">JavaBridge</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getBridge()">getBridge</A></B>()</CODE>
+d296 1
+a296 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the JavaBridge.</TD>
+d316 8
+d344 8
+d361 1
+a361 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#recycle(php.java.bridge.http.ContextFactory)">recycle</A></B>(<A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A>&nbsp;target)</CODE>
+d364 1
+a364 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Typically the visitor implements this method, it should attach itself to the target by calling
+ <code>target.accept(this)</code>.</TD>
+d372 10
+a381 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Synchronize the current state with id.</TD>
+d402 1
+a402 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#setBridge(php.java.bridge.JavaBridge)">setBridge</A></B>(<A HREF="../../../../php/java/bridge/JavaBridge.html" title="class in php.java.bridge">JavaBridge</A>&nbsp;bridge)</CODE>
+d405 1
+a405 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+d417 8
+d439 17
+d466 9
+d597 22
+d622 1
+a622 1
+public void <B>recycle</B>(<A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A>&nbsp;target)</PRE>
+a623 4
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#recycle(php.java.bridge.http.ContextFactory)">IContextFactory</A></CODE></B></DD>
+<DD>Typically the visitor implements this method, it should attach itself to the target by calling
+ <code>target.accept(this)</code>.
+<P>
+d628 1
+a628 4
+<DT><B>Parameters:</B><DD><CODE>target</CODE> - The persistent ContextFactory.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/IContextFactory.html#recycle(java.lang.String)"><CODE>IContextFactory.recycle(String)</CODE></A>, 
+<A HREF="../../../../php/java/bridge/http/ContextFactory.html#accept(php.java.bridge.http.IContextFactoryVisitor)"><CODE>accept(IContextFactoryVisitor)</CODE></A>, 
+<A HREF="../../../../php/java/bridge/http/IContextFactoryVisitor.html#visit(php.java.bridge.http.ContextFactory)"><CODE>IContextFactoryVisitor.visit(ContextFactory)</CODE></A>, 
+<A HREF="../../../../php/java/bridge/http/SimpleContextFactory.html" title="class in php.java.bridge.http"><CODE>SimpleContextFactory</CODE></A></DL>
+d640 3
+a642 1
+<DD>Synchronize the current state with id.
+d644 5
+a648 9
+ When persistent connections are used, the bridge instances recycle their context factories (persistent
+ php clients store their context id, so that they don't have to aquire a new one).
+ However, a client of a php client may have passed a fresh context id. 
+ If this happened, the bridge calls this method, 
+ which may update the current context with the fresh values from id.</p>
+ <p>Typically the ContextFactory implements this method. It should find the ContextFactory for id,
+ check that the Factory is not in use (and throw a SecurityException, if isInitialized() returns true),
+ remove it by calling removeOrphaned() and 
+ call its recycle() method passing it the current ContextFactory. 
+d657 3
+a659 2
+<DD><CODE>java.lang.SecurityException</CODE> - if the found ContextFactory is initialized.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/IContextFactory.html#recycle(php.java.bridge.http.ContextFactory)"><CODE>IContextFactory.recycle(ContextFactory)</CODE></A>, 
+<A HREF="../../../../php/java/bridge/JavaBridge.html#recycle()"><CODE>JavaBridge.recycle()</CODE></A></DL>
+d750 20
+a835 32
+<A NAME="setBridge(php.java.bridge.JavaBridge)"><!-- --></A><H3>
+setBridge</H3>
+<PRE>
+public void <B>setBridge</B>(<A HREF="../../../../php/java/bridge/JavaBridge.html" title="class in php.java.bridge">JavaBridge</A>&nbsp;bridge)</PRE>
+<DL>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getBridge()"><!-- --></A><H3>
+getBridge</H3>
+<PRE>
+public <A HREF="../../../../php/java/bridge/JavaBridge.html" title="class in php.java.bridge">JavaBridge</A> <B>getBridge</B>()</PRE>
+<DL>
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getBridge()">IContextFactory</A></CODE></B></DD>
+<DD>Return the JavaBridge.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#getBridge()">getBridge</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>Returns the bridge.</DL>
+</DD>
+</DL>
+<HR>
+
+d904 105
+@
+
+
+1.13
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 11 14:44:20 CET 2007 -->
+d188 8
+d291 1
+a291 1
+<CODE>&nbsp;java.lang.Object</CODE></FONT></TD>
+d377 1
+a377 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#setContext(java.lang.Object)">setContext</A></B>(java.lang.Object&nbsp;context)</CODE>
+d432 12
+d704 1
+a704 1
+public java.lang.Object <B>getContext</B>()</PRE>
+d718 1
+a718 1
+<A NAME="setContext(java.lang.Object)"><!-- --></A><H3>
+d721 1
+a721 1
+public void <B>setContext</B>(java.lang.Object&nbsp;context)</PRE>
+d727 1
+a727 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#setContext(java.lang.Object)">setContext</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+@
+
+
+1.12
+log
+@Release-3-1-8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Sep 10 13:03:30 CEST 2006 -->
+@
+
+
+1.11
+log
+@Release-3-1-7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Aug 03 19:33:59 CEST 2006 -->
+d56 1
+a56 1
+&nbsp;<A HREF="../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http"><B>NEXT CLASS</B></A></FONT></TD>
+d76 1
+a76 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d118 2
+a119 1
+ a customized ContextFactory by using the visitor pattern, @@see #accept(IContextFactory).
+d141 1
+a141 1
+ map. But the map can only be accessed via <A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String, php.java.bridge.http.ContextServer)"><CODE>get(String, ContextServer)</CODE></A>, which checks if the ContextFactory
+d150 1
+a150 1
+<A HREF="../../../../php/java/bridge/SessionFactory.html#TIMER_FREQ"><CODE>SessionFactory.TIMER_FREQ</CODE></A></DL>
+d154 18
+a171 1
+<!-- =========== FIELD SUMMARY =========== -->
+d195 1
+a195 1
+<TD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#TIMER_FREQ">TIMER_FREQ</A></CODE></TD>
+d234 9
+d267 2
+a268 2
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String, php.java.bridge.http.ContextServer)">get</A></B>(java.lang.String&nbsp;id,
+    <A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A>&nbsp;server)</CODE>
+d287 1
+a287 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the visitor's context.</TD>
+d465 19
+a483 1
+<DT><B>Returns:</B><DD>The created ContextFactory.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String, php.java.bridge.http.ContextServer)"><CODE>get(String, ContextServer)</CODE></A></DL>
+d488 1
+a488 1
+<A NAME="get(java.lang.String, php.java.bridge.http.ContextServer)"><!-- --></A><H3>
+d492 1
+a492 1
+                                  <A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A>&nbsp;server)</PRE>
+d686 1
+a686 1
+<DD>Returns the visitor's context.
+d693 1
+a693 1
+<DT><B>Returns:</B><DD>Always null<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#getContext()"><CODE>getContext()</CODE></A></DL>
+d710 1
+a710 1
+<DT><B>Parameters:</B><DD><CODE>context</CODE> - <DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew(java.lang.String)"><CODE>addNew(String)</CODE></A></DL>
+d847 1
+a847 1
+&nbsp;<A HREF="../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http"><B>NEXT CLASS</B></A></FONT></TD>
+d867 1
+a867 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+@
+
+
+1.10
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 23 12:18:10 CEST 2006 -->
+@
+
+
+1.9
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 16 13:42:17 CEST 2006 -->
+d76 1
+a76 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#fields_inherited_from_class_php.java.bridge.SessionFactory">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d78 1
+a78 1
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+d138 4
+a141 1
+ There can be only one instance of a ContextFactory per classloader.
+d161 9
+d190 1
+a190 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#ContextFactory()">ContextFactory</A></B>()</CODE>
+d216 1
+a216 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew()">addNew</A></B>()</CODE>
+d227 1
+a227 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Removes the context factory from the classloader's list of context factories
+ and destroys its content.</TD>
+d260 1
+a260 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the associated context</TD>
+d293 8
+d376 22
+d408 1
+a408 1
+<A NAME="ContextFactory()"><!-- --></A><H3>
+d411 1
+a411 1
+public <B>ContextFactory</B>()</PRE>
+d425 1
+a425 1
+<A NAME="addNew()"><!-- --></A><H3>
+d428 1
+a428 1
+public static <A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A> <B>addNew</B>()</PRE>
+d436 2
+a437 1
+
+d460 1
+a460 1
+<DD><CODE>java.lang.SecurityException</CODE> - if id belongs to a different ContextServer.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew()"><CODE>addNew()</CODE></A></DL>
+d518 16
+d539 2
+a540 3
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#destroy()">IContextFactory</A></CODE></B></DD>
+<DD>Removes the context factory from the classloader's list of context factories
+ and destroys its content.
+d543 1
+a543 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#destroy()">destroy</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+d641 1
+a641 2
+<DD><B>Description copied from class: <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getContext()">SessionFactory</A></CODE></B></DD>
+<DD>Return the associated context
+d665 1
+a665 1
+<DT><B>Parameters:</B><DD><CODE>context</CODE> - <DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew()"><CODE>addNew()</CODE></A></DL>
+d822 1
+a822 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#fields_inherited_from_class_php.java.bridge.SessionFactory">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d824 1
+a824 1
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+@
+
+
+1.8
+log
+@Release-3-1-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 02 11:43:22 CEST 2006 -->
+d56 1
+a56 1
+&nbsp;<A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http"><B>NEXT CLASS</B></A></FONT></TD>
+d257 1
+a257 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return the serializable ID of the context manager</TD>
+d285 1
+a285 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Typically this method should attach the fresh ContextFactory to the target by calling
+d298 2
+a299 2
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#remove()">remove</A></B>()</CODE>
+d302 1
+a302 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Removes the context factory from the classloader's list of context factories.</TD>
+d306 2
+a307 2
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#removeAll()">removeAll</A></B>()</CODE>
+d310 1
+a310 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<B>Deprecated.</B>&nbsp;<I></I>&nbsp;</TD>
+d318 1
+a318 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Set the JavaBridge into this context.</TD>
+d429 1
+a429 1
+<DD>Typically this method should attach the fresh ContextFactory to the target by calling
+d436 2
+a437 1
+<DT><B>Parameters:</B><DD><CODE>target</CODE> - The persistent ContextFactory.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#accept(php.java.bridge.http.IContextFactoryVisitor)"><CODE>accept(IContextFactoryVisitor)</CODE></A>, 
+d453 4
+a456 2
+ When persistent connections are used, the bridge instances recycle their context factories. 
+ However, a jsr223 client may have passed a fresh context id. If this happened, the bridge calls this method, 
+d458 5
+a462 1
+ <p>This method automatically destroys the fresh context id</p>
+d470 1
+a470 1
+<DD><CODE>java.lang.SecurityException</CODE><DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/IContextFactory.html#recycle(php.java.bridge.http.ContextFactory)"><CODE>IContextFactory.recycle(ContextFactory)</CODE></A>, 
+a475 17
+<A NAME="remove()"><!-- --></A><H3>
+remove</H3>
+<PRE>
+public void <B>remove</B>()</PRE>
+<DL>
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#remove()">IContextFactory</A></CODE></B></DD>
+<DD>Removes the context factory from the classloader's list of context factories.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#remove()">remove</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<HR>
+
+d489 1
+a489 1
+<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/IContextFactory.html#remove()"><CODE>IContextFactory.remove()</CODE></A></DL>
+d542 1
+a542 1
+<DD><CODE>java.lang.InterruptedException</CODE><DT><B>See Also:</B><DD><CODE>ContextRunner</CODE></DL>
+d553 1
+a553 1
+<DD>Return the serializable ID of the context manager
+a618 3
+<DD><B>Description copied from interface: <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#setBridge(php.java.bridge.JavaBridge)">IContextFactory</A></CODE></B></DD>
+<DD>Set the JavaBridge into this context.
+<P>
+d620 1
+a620 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html#setBridge(php.java.bridge.JavaBridge)">setBridge</A></CODE> in interface <CODE><A HREF="../../../../php/java/bridge/http/IContextFactory.html" title="interface in php.java.bridge.http">IContextFactory</A></CODE></DL>
+d623 1
+a623 1
+<DT><B>Parameters:</B><DD><CODE>bridge</CODE> - The bridge to set.</DL>
+d697 17
+d746 1
+a746 1
+&nbsp;<A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http"><B>NEXT CLASS</B></A></FONT></TD>
+@
+
+
+1.7
+log
+@Release-3-1-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 25 13:54:48 CEST 2006 -->
+d285 2
+a286 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Typically this method should attach the fresh ContextFactory to the target.</TD>
+d429 2
+a430 1
+<DD>Typically this method should attach the fresh ContextFactory to the target.
+d437 2
+a438 1
+<A HREF="../../../../php/java/bridge/http/IContextFactoryVisitor.html#visit(php.java.bridge.http.ContextFactory)"><CODE>IContextFactoryVisitor.visit(ContextFactory)</CODE></A></DL>
+d453 1
+a453 1
+ However, a jsr223 client may have passed a fresh context id. If this happened, the bridge calls this method 
+d463 2
+a464 1
+<DD><CODE>java.lang.SecurityException</CODE><DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/JavaBridge.html#recycle()"><CODE>JavaBridge.recycle()</CODE></A></DL>
+@
+
+
+1.6
+log
+@Release-3-1-0
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 18 11:35:46 CEST 2006 -->
+@
+
+
+1.5
+log
+@Release-3.0.8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:21 CEST 2006 -->
+d76 1
+a76 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;FIELD&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d78 1
+a78 1
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+d97 1
+a97 1
+<DT><B>Direct Known Subclasses:</B> <DD><A HREF="../../../../php/java/servlet/ContextFactory.html" title="class in php.java.servlet">ContextFactory</A>, <A HREF="../../../../php/java/script/PhpScriptContextFactory.html" title="class in php.java.script">PhpScriptContextFactory</A></DD>
+d101 1
+a101 1
+<DT><PRE>public class <B>ContextFactory</B><DT>extends <A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></DL>
+d111 2
+a112 3
+ ContextFactory instances are kept in an array with no more than 65535
+ entries, after 65535 context creations the context factory is destroyed if
+ this did not happen explicitly.  A unique [1..65535] context
+d114 7
+a120 2
+ is done.  
+ 
+d128 9
+d144 3
+a146 2
+<DT><B>See Also:</B><DD><A HREF="../../../../php/java/servlet/ContextFactory.html" title="class in php.java.servlet"><CODE>ContextFactory</CODE></A>, 
+<A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http"><CODE>ContextServer</CODE></A></DL>
+d150 29
+d180 5
+d195 9
+a203 1
+<CODE>static&nbsp;<A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A></CODE></FONT></TD>
+d211 18
+a228 1
+<CODE>static&nbsp;<A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A></CODE></FONT></TD>
+d241 1
+a241 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+d261 36
+d309 1
+a309 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove all context factories from the classloader.</TD>
+d321 8
+a343 9
+&nbsp;<A NAME="methods_inherited_from_class_php.java.bridge.SessionFactory"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class php.java.bridge.<A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getSession(java.lang.String, boolean, int)">getSession</A></CODE></TD>
+</TR>
+</TABLE>
+d356 17
+d386 1
+a386 1
+public static <A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A> <B>addNew</B>()</PRE>
+d391 3
+d395 1
+a395 1
+<DT><B>Returns:</B><DD>The created ContextFactory.<DT><B>See Also:</B><DD><CODE>#get(String)</CODE></DL>
+d403 2
+a404 2
+public static <A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A> <B>get</B>(java.lang.String&nbsp;id,
+                                 <A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A>&nbsp;server)</PRE>
+d411 3
+d422 43
+d470 1
+d474 3
+d482 18
+d505 16
+d525 3
+d539 1
+d543 3
+d558 1
+d562 3
+d594 1
+a594 1
+<DT><B>Overrides:</B><DD><CODE><A HREF="../../../../php/java/bridge/SessionFactory.html#getContext()">getContext</A></CODE> in class <CODE><A HREF="../../../../php/java/bridge/SessionFactory.html" title="class in php.java.bridge">SessionFactory</A></CODE></DL>
+d598 18
+a615 1
+<DT><B>Returns:</B><DD>The context</DL>
+d625 1
+d629 3
+d642 6
+d653 53
+d758 1
+a758 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;FIELD&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d760 1
+a760 1
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+@
+
+
+1.4
+log
+@Release-3.0.7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 05 13:18:02 CET 2006 -->
+d121 2
+a122 2
+ evaluate to the same session object.  For local channel re-directs,
+ the ContextFactory is given to a ContextRunner, which handles the
+d125 1
+a125 1
+ There can be only one instance of a ContextFactory per VM classloader.
+d151 1
+a151 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a new ContextFactory and add it to the list of context factories kept by this VM.</TD>
+d156 2
+a157 1
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String)">get</A></B>(java.lang.String&nbsp;id)</CODE>
+d160 1
+a160 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the context factory associated with the given <code>id</code></TD>
+d192 1
+a192 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Removes the context factory from the VM list of context factories.</TD>
+d200 1
+a200 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove all context factories from the VM.</TD>
+d263 1
+a263 1
+<DD>Create a new ContextFactory and add it to the list of context factories kept by this VM.
+d267 1
+a267 1
+<DT><B>Returns:</B><DD>The created ContextFactory.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String)"><CODE>get(String)</CODE></A></DL>
+d272 1
+a272 1
+<A NAME="get(java.lang.String)"><!-- --></A><H3>
+d275 2
+a276 1
+public static <A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A> <B>get</B>(java.lang.String&nbsp;id)</PRE>
+d278 3
+a280 1
+<DD>Returns the context factory associated with the given <code>id</code>
+d283 4
+a286 2
+<DT><B>Parameters:</B><DD><CODE>id</CODE> - The ID
+<DT><B>Returns:</B><DD>The ContextFactory or null.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew()"><CODE>addNew()</CODE></A></DL>
+d296 1
+a296 1
+<DD>Removes the context factory from the VM list of context factories.
+d309 1
+a309 1
+<DD>Remove all context factories from the VM.
+@
+
+
+1.4.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 23 18:58:55 CEST 2006 -->
+d121 2
+a122 2
+ evaluate to the same session object.  For local channel re-directs
+ the ContextFactory is given to a ContextRunner which handles the
+d125 1
+a125 1
+ There can be only one instance of a ContextFactory per classloader.
+d151 1
+a151 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a new ContextFactory and add it to the list of context factories kept by this classloader.</TD>
+d156 1
+a156 2
+<TD><CODE><B><A HREF="../../../../php/java/bridge/http/ContextFactory.html#get(java.lang.String, php.java.bridge.http.ContextServer)">get</A></B>(java.lang.String&nbsp;id,
+    <A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A>&nbsp;server)</CODE>
+d159 1
+a159 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only for internal use.</TD>
+d191 1
+a191 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Removes the context factory from the classloader's list of context factories.</TD>
+d199 1
+a199 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Remove all context factories from the classloader.</TD>
+d262 1
+a262 1
+<DD>Create a new ContextFactory and add it to the list of context factories kept by this classloader.
+d266 1
+a266 1
+<DT><B>Returns:</B><DD>The created ContextFactory.<DT><B>See Also:</B><DD><CODE>#get(String)</CODE></DL>
+d271 1
+a271 1
+<A NAME="get(java.lang.String, php.java.bridge.http.ContextServer)"><!-- --></A><H3>
+d274 1
+a274 2
+public static <A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A> <B>get</B>(java.lang.String&nbsp;id,
+                                 <A HREF="../../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A>&nbsp;server)</PRE>
+d276 1
+a276 3
+<DD>Only for internal use.
+  
+ Returns the context factory associated with the given <code>id</code>
+d279 2
+a280 4
+<DT><B>Parameters:</B><DD><CODE>id</CODE> - The ID<DD><CODE>server</CODE> - Your context server.
+<DT><B>Returns:</B><DD>The ContextFactory or null.
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.SecurityException</CODE> - if id belongs to a different ContextServer.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew()"><CODE>addNew()</CODE></A></DL>
+d290 1
+a290 1
+<DD>Removes the context factory from the classloader's list of context factories.
+d303 1
+a303 1
+<DD>Remove all context factories from the classloader.
+@
+
+
+1.4.2.2
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:21 CEST 2006 -->
+@
+
+
+1.3
+log
+@Release-3.0.6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 15 20:26:20 CET 2006 -->
+d116 1
+a116 4
+ <p> 
+ All public methods must be called from the classloader which has created the context instance 
+ or from the PHP/Java Bridge library, otherwise a security exception is throws. 
+ </p> 
+d125 1
+a125 1
+ There can be only one instance of a ContextFactory per VM.
+d274 1
+a274 2
+public static <A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A> <B>get</B>(java.lang.String&nbsp;id)
+                          throws java.lang.SecurityException</PRE>
+d280 1
+a280 3
+<DT><B>Returns:</B><DD>The ContextFactory or null.
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.SecurityException</CODE> - when a factory exists but has been created from a different classloader.<DT><B>See Also:</B><DD><A HREF="../../../../php/java/bridge/http/ContextFactory.html#addNew()"><CODE>addNew()</CODE></A></DL>
+@
+
+
+1.2
+log
+@Release-3.0.5
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 08 19:28:39 CET 2006 -->
+d105 3
+a107 3
+Manage session contexts.<p>
+ The context may a) keep a promise (a "proxy") which one may evaluate to a
+ session reference (for PHP/JSP session sharing), and/or b) it may
+d109 1
+a109 1
+ "high speed" communication links).
+d111 2
+a112 2
+ Context instances are kept in an array with no more than 65535
+ entries, after 65535 context creations the context is destroyed if
+d116 4
+a119 1
+
+d125 1
+a125 1
+ the Context is given to a ContextRunner, which handles the
+d269 1
+a269 1
+<DT><B>Returns:</B><DD>The created ContextFactory.</DL>
+d277 2
+a278 1
+public static <A HREF="../../../../php/java/bridge/http/ContextFactory.html" title="class in php.java.bridge.http">ContextFactory</A> <B>get</B>(java.lang.String&nbsp;id)</PRE>
+d284 3
+a286 1
+<DT><B>Returns:</B><DD>The ContextFactory or null.</DL>
+@
+
+
+1.1
+log
+@Version-3.0.0pre
+@
+text
+@d1 105
+a105 2
+<?xml version="1.0" encoding="null"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><title>ContextFactory</title><script src="../../../../resources/gjdoc.js" type="text/javascript"><!-- this comment required for konqueror 3.2.2 --></script><meta http-equiv="Content-Type" content="text/html; charset=null"/><meta name="generator" content="GNU Gjdoc Standard Doclet"/><meta name="keywords" content="php.java.bridge.http.ContextFactory class"/><meta name="keywords" content="addNew()"/><meta name="keywords" content="get()"/><meta name="keywords" content="remove()"/><meta name="keywords" content="removeAll()"/><meta name="keywords" content="waitFor()"/><meta name="keywords" content="getId()"/><meta name="keywords" content="toString()"/><meta name="keywords" content="getContext()"/><meta name="keywords" content="setBridge()"/><meta name="keywords" content="getBridge()"/><link rel="stylesheet" type="text/css" href="../../../../resources/gjdochtml-clean-layout.css" title="GNU Clean"/><link rel="stylesheet" type="text/css" href="../../../../resources/gjdochtml-clean-color1.css" title="GNU Clean"/></head><body class="content class" onload="top.contentPageLoaded(document.title)"><table class="navbar div top"><tr><td class="navbar div top" colspan="2"><div class="navbar div top" colspan="2"><span class="navbar item enabled"><a href="../../../../index-noframes.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item active">Class</span> <span class="navbar item enabled"><a href="ContextFactory-uses.html">Use</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../../../alphaindex-1.html">Index</a></span> <span class="navbar item enabled"><a href="../../../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../../../about.html">About</a></span></div></td></tr><tr><td class="navi"><a href="../../../../php/java/bridge/http/Context.html">Prev Class</a> | <a href="../../../../php/java/bridge/http/ContextServer.html">Next Class</a></td><td class="navi"><a href="../../../../index.html" title="Show in a frameset" target="_top">Frames</a> | <a href="ContextFactory.html" title="Show without frames" target="_top">No Frames</a> </td></tr><tr><td class="navi">Summary: Nested | Field | <a href="#summary-methods">Method</a> | Constr</td><td class="navi">Detail: Nested | Field | <a href="#detail-methods">Method</a> | Constr</td></tr></table><div class="class title outer"><h3 class="class title-package">php.java.bridge.http</h3><h1 class="class title-class">Class ContextFactory</h1></div><div class="class inheritance-tree"><ul class="inheritance 0"><li class="inheritance 0"><code>java.lang.Object</code></li><ul class="inheritance 1"><li class="inheritance 1"><code><a href="../../../../php/java/bridge/SessionFactory.html">php.java.bridge.SessionFactory</a></code></li><ul class="inheritance 2"><li class="inheritance 2"><code>php.java.bridge.http.ContextFactory</code></li></ul></ul></ul></div><dl class="class subclasses"><dt class="class subclasses header"><b>Known Direct Subclasses:</b></dt><dd class="class subclasses header"><a href="../../../../php/java/servlet/ContextFactory.html" title="Class in php.java.servlet">ContextFactory</a>, <a href="../../../../php/java/script/PhpScriptContextFactory.html" title="Class in php.java.script">PhpScriptContextFactory</a></dd></b></dt></dl><hr/><div class="class synopsis outer"><div class="class synopsis declaration"><code>public class <b class="class synopsis name">ContextFactory</b></code></div><div class="class synopsis superclass"><code>extends <a href="../../../../php/java/bridge/SessionFactory.html" title="Class in php.java.bridge">SessionFactory</a></code></div></div><hr/><div class="class description"> Manage session contexts.<p/>
+d116 1
+d124 1
+a124 1
+ <p/>
+d126 178
+a303 10
+ 
+</div><p class="taglet"></p><p class="taglet"></p><p class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../../../php/java/servlet/ContextFactory.html"><code>ContextFactory</code></a>, <a href="../../../../php/java/bridge/http/ContextServer.html"><code>ContextServer</code></a><dd></dl></p><p class="taglet"></p><p class="taglet"></p><a name="summary-methods"/><dl class="table container"><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Method Summary</h2></td></tr><tr><td class="left" valign="top"><code class="synopsis">static <a href="../../../../php/java/bridge/http/ContextFactory.html" title="Class in php.java.bridge.http">ContextFactory</a></code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#addNew()">addNew</a>()</code></dt><dd class="description"> Create a new ContextFactory and add it to the list of context factories kept by this VM.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis">static <a href="../../../../php/java/bridge/http/ContextFactory.html" title="Class in php.java.bridge.http">ContextFactory</a></code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#get(java.lang.String)">get</a>(java.lang.String&nbsp;id)</code></dt><dd class="description"> Returns the context factory associated with the given <code>id</code>
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> <a href="../../../../php/java/bridge/JavaBridge.html" title="Class in php.java.bridge">JavaBridge</a></code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getBridge()">getBridge</a>()</code></dt></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> java.lang.Object</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getContext()">getContext</a>()</code></dt><dd class="description"> Return the associated context
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> java.lang.String</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getId()">getId</a>()</code></dt><dd class="description"> Return the serializable ID of the context manager
+</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#remove()">remove</a>()</code></dt><dd class="description"> Removes the context factory from the VM list of context factories.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis">static void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#removeAll()">removeAll</a>()</code></dt><dd class="description"> Remove all context factories from the VM.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#setBridge(php.java.bridge.JavaBridge)">setBridge</a>(<a href="../../../../php/java/bridge/JavaBridge.html" title="Class in php.java.bridge">JavaBridge</a>&nbsp;bridge)</code></dt><dd class="description"> Set the JavaBridge into this context.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> java.lang.String</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#toString()">toString</a>()</code></dt><dd class="description"> Convert this Object to a human-readable String.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> void</code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#waitFor()">waitFor</a>()</code></dt><dd class="description"> Wait until this context is finished.</dd></dl></td></tr></table></dl><dl class="table container"><table class="class summary" border="1" width="100%"><tr class="table sub header"><td colspan="2"><h3 class="table sub header">Methods inherited from class php.java.bridge.<a href="../../../../php/java/bridge/SessionFactory.html" title="Class in php.java.bridge">SessionFactory</a></h3></td></tr><tr><td class="inherited"><a href="../../../../php/java/bridge/SessionFactory.html#getContext()" title="getContext()"><code class="member">getContext</code></a>, <a href="../../../../php/java/bridge/SessionFactory.html#getSession(java.lang.String,boolean,int)" title="getSession(String,boolean,int)"><code class="member">getSession</code></a></td></tr></table></dl><dl class="table container"><table class="class summary" border="1" width="100%"><tr class="table sub header"><td colspan="2"><h3 class="table sub header">Methods inherited from class java.lang.Object</h3></td></tr><tr><td class="inherited"><a href="../../../../java/lang/Object.html#equals(java.lang.Object)" title="equals(Object)"><code class="member">equals</code></a>, <a href="../../../../java/lang/Object.html#getClass()" title="getClass()"><code class="member">getClass</code></a>, <a href="../../../../java/lang/Object.html#hashCode()" title="hashCode()"><code class="member">hashCode</code></a>, <a href="../../../../java/lang/Object.html#notify()" title="notify()"><code class="member">notify</code></a>, <a href="../../../../java/lang/Object.html#notifyAll()" title="notifyAll()"><code class="member">notifyAll</code></a>, <a href="../../../../java/lang/Object.html#toString()" title="toString()"><code class="member">toString</code></a>, <a href="../../../../java/lang/Object.html#wait()" title="wait()"><code class="member">wait</code></a>, <a href="../../../../java/lang/Object.html#wait(long)" title="wait(long)"><code class="member">wait</code></a>, <a href="../../../../java/lang/Object.html#wait(long,int)" title="wait(long,int)"><code class="member">wait</code></a></td></tr></table></dl><a name="detail-methods"/><h2 class="section header">Method Details</h2><div class="section"><a name="addNew()"/><div class="member detail outer"><h3 class="member detail name">addNew</h3><pre class="member detail synopsis">public static <a href="../../../../php/java/bridge/http/ContextFactory.html" title="Class in php.java.bridge.http">ContextFactory</a> addNew()</pre><blockquote class="member detail name"><div class="member detail description"> Create a new ContextFactory and add it to the list of context factories kept by this VM.
+</div><p class="member detail return list"><dl><dt class="member detail return header"><b>Returns:</b></dt><dd class="member detail return item">The created ContextFactory.</dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="get(java.lang.String)"/><div class="member detail outer"><h3 class="member detail name">get</h3><pre class="member detail synopsis">public static <a href="../../../../php/java/bridge/http/ContextFactory.html" title="Class in php.java.bridge.http">ContextFactory</a> get(java.lang.String id)</pre><blockquote class="member detail name"><div class="member detail description"> Returns the context factory associated with the given <code>id</code>
+</div><p class="parameter"><dl><dt class="header"><b>Parameters:</b></dt><dd class="item"><code class="name">id</code><span class="separator"> - </span><span class="description">The ID</span></dd></dl></p><p class="member detail return list"><dl><dt class="member detail return header"><b>Returns:</b></dt><dd class="member detail return item">The ContextFactory or null.</dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="getBridge()"/><div class="member detail outer"><h3 class="member detail name">getBridge</h3><pre class="member detail synopsis">public <a href="../../../../php/java/bridge/JavaBridge.html" title="Class in php.java.bridge">JavaBridge</a> getBridge()</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="member detail return list"><dl><dt class="member detail return header"><b>Returns:</b></dt><dd class="member detail return item">Returns the bridge.</dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="getContext()"/><div class="member detail outer"><h3 class="member detail name">getContext</h3><pre class="member detail synopsis">public java.lang.Object getContext()</pre><blockquote class="member detail name"><div class="member detail description"> Return the associated context
+</div><dl class="member detail overridden list"><dt class="member detail overridden header"><b>Overrides:</b></dt><dd class="member detail overridden item">getContext in interface <a href="../../../../php/java/bridge/SessionFactory.html" title="Class in php.java.bridge">SessionFactory</a></dd></dl><p class="member detail return list"><dl><dt class="member detail return header"><b>Returns:</b></dt><dd class="member detail return item">The context</dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="getId()"/><div class="member detail outer"><h3 class="member detail name">getId</h3><pre class="member detail synopsis">public java.lang.String getId()</pre><blockquote class="member detail name"><div class="member detail description"> Return the serializable ID of the context manager
+</div><p class="member detail return list"><dl><dt class="member detail return header"><b>Returns:</b></dt><dd class="member detail return item">The ID</dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="remove()"/><div class="member detail outer"><h3 class="member detail name">remove</h3><pre class="member detail synopsis">public void remove()</pre><blockquote class="member detail name"><div class="member detail description"> Removes the context factory from the VM list of context factories.
+</div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="removeAll()"/><div class="member detail outer"><h3 class="member detail name">removeAll</h3><pre class="member detail synopsis">public static void removeAll()</pre><blockquote class="member detail name"><div class="member detail description"> Remove all context factories from the VM.
+d305 156
+a460 22
+</div><p class="taglet"></p><p class="taglet"></p><p class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../../../php/java/bridge/http/ContextServer.html"><code>ContextServer</code></a><dd></dl></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="setBridge(php.java.bridge.JavaBridge)"/><div class="member detail outer"><h3 class="member detail name">setBridge</h3><pre class="member detail synopsis">public void setBridge(<a href="../../../../php/java/bridge/JavaBridge.html" title="Class in php.java.bridge">JavaBridge</a> bridge)</pre><blockquote class="member detail name"><div class="member detail description"> Set the JavaBridge into this context.
+</div><p class="parameter"><dl><dt class="header"><b>Parameters:</b></dt><dd class="item"><code class="name">bridge</code><span class="separator"> - </span><span class="description">The bridge to set.</span></dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="toString()"/><div class="member detail outer"><h3 class="member detail name">toString</h3><pre class="member detail synopsis">public java.lang.String toString()</pre><blockquote class="member detail name"><div class="member detail description"> Convert this Object to a human-readable String.
+ There are no limits placed on how long this String
+ should be or what it should contain.  We suggest you
+ make it as intuitive as possible to be able to place
+ it into <code>System.out.println()</code>
+ and such.
+
+ <p/>It is typical, but not required, to ensure that this method
+ never completes abruptly with a <code>RuntimeException</code>.
+
+ <p/>This method will be called when performing string
+ concatenation with this object.  If the result is
+ <code>null</code>, string concatenation will instead
+ use <code>"null"</code>.
+
+ <p/>The default implementation returns
+ <code>getClass().getName() + "@@" +
+      Integer.toHexString(hashCode())</code>.
+</div><dl class="member detail overridden list"><dt class="member detail overridden header"><b>Overrides:</b></dt><dd class="member detail overridden item">toString in interface java.lang.Object</dd></dl><p class="member detail return list"><dl><dt class="member detail return header"><b>Returns:</b></dt><dd class="member detail return item">the String representing this Object, which may be null</dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><code>getClass()</code>, <code>hashCode()</code>, <code>Class.getName()</code>, <code>Integer.toHexString(int)</code><dd></dl></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="waitFor()"/><div class="member detail outer"><h3 class="member detail name">waitFor</h3><pre class="member detail synopsis">public void waitFor()
+            throws java.lang.InterruptedException</pre><blockquote class="member detail name"><div class="member detail description"> Wait until this context is finished.
+</div><p class="member detail thrown list"><dl><dt class="member detail thrown header"><b>Throws:</b></dt><dd class="member detail thrown item"><code class="name">java.lang.InterruptedException</code><span class="separator"> - </span><span class="description"></span></dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><code>php.java.bridge.http.ContextRunner</code><dd></dl></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><p class="navbar bottom spacer"> </p><table class="navbar div bottom"><tr><td><div class="navbar div top" colspan="2"><span class="navbar item enabled"><a href="../../../../index-noframes.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item active">Class</span> <span class="navbar item enabled"><a href="ContextFactory-uses.html">Use</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../../../alphaindex-1.html">Index</a></span> <span class="navbar item enabled"><a href="../../../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../../../about.html">About</a></span></div></td></tr></table></body></html>@
+

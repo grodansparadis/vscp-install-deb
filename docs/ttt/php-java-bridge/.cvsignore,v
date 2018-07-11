@@ -1,0 +1,69 @@
+head	1.2;
+access;
+symbols
+	Release-7-1-1:1.2.0.8
+	Root_Release-7-1-1:1.2
+	Root_Release_7-0-1:1.2
+	Release_7-0-1:1.2.0.6
+	Release_7-0-0:1.2.0.4
+	Root_Release_7-0-0:1.2
+	Release-6-2-2:1.2.0.2
+	Release-6-1-2-3:1.1
+	Root_Release-6-1-2-3:1.1
+	Release-6-1-2-2:1.1.0.12
+	Root_Release-6-1-2-2:1.1
+	debian_version_6_1_2_1-1:1.1
+	upstream_version_6_1_2_1:1.1
+	Release-6-1-2-1_new:1.1.0.10
+	Root_Release-6-1-2-1_new:1.1
+	Release-6-1-2-1:1.1.0.8
+	Root_Release-6-1-2-1:1.1
+	upstream_version_6_1_2:1.1
+	debian_version_6_1_2-1:1.1
+	Release-6-1-2:1.1.0.6
+	Root_Release-6-1-2:1.1
+	debian_version_6_1_1-2:1.1
+	debian_version_6_1_1-1:1.1
+	upstream_version_6_1_1:1.1
+	Release-6-1-1:1.1.0.4
+	Root_Release-6-1-1:1.1
+	Release-6-0-4:1.1.0.2
+	Root_Release-6-0-4:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2010.05.31.19.31.10;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2010.03.06.11.12.45;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@x64 support
+@
+text
+@dist
+bin
+.classpath@
+
+
+1.1
+log
+@Release-6-0-4
+@
+text
+@d2 2
+a3 1
+bin@
+

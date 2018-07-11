@@ -1,0 +1,47 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2005.08.25.19.30.29;	author jost2345;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2005.07.28.17.00.46;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Release-2.0.8(pre4)
+@
+text
+@<html>
+<head><title>JSP errors generate nice error pages with zero content.</title></head>
+<body bgcolor="white">
+<font size=4>
+
+<% new String((java.lang.String)null); %>
+
+</font>
+</body>
+</html>
+@
+
+
+1.1
+log
+@PHP/JSP session sharing
+@
+text
+@@
+

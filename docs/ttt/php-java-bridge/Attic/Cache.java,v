@@ -1,0 +1,53 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2005.04.23.18.32.38;	author jost2345;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2005.04.23.18.20.28;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@public class Cache {// Compile this class, create cache.jar and copy it to /usr/share/java
+    static Cache instance=null;
+    public static Cache getInstance() {
+	if(instance==null) instance=makeInstance();
+	return instance;
+    }
+    static Cache makeInstance() {
+        Cache cache=null;
+	try {
+	    System.out.println("create new instance");
+	    java.lang.Thread.sleep(3000);
+	    System.out.println("done creating new instance");
+	} catch (Exception e) {}
+	return cache;
+    }
+} 
+@
+
+
+1.1
+log
+@PR1188659: classloader bug
+@
+text
+@@
+

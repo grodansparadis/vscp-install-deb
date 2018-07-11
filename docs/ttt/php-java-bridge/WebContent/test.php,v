@@ -1,0 +1,84 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2017.04.16.14.51.49;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.04.14.16.03.27;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Release-7.1.2
+@
+text
+@<?php include_once("java/Java.inc");
+
+phpinfo();
+
+try {
+  /* invoke java.lang.System.getProperties() */
+  $props = java("java.lang.System")->getProperties();
+  
+  /* convert the result object into a PHP array */
+  $array = java_values($props);
+  foreach($array as $k=>$v) {
+    echo "$k=>$v"; echo "<br>\n";
+  }
+  echo "<br>\n";
+  
+  /* create a PHP class which implements the Java toString() method */
+  class MyClass {
+    function toString() { return "hello PHP from Java!"; }
+  }
+  
+  /* create a Java object from the PHP object */
+  $javaObject = java_closure(new MyClass());
+  echo "PHP says that Java says: "; echo $javaObject;  echo "<br>\n";
+  echo "<br>\n";
+  
+
+  echo java("php.java.bridge.Util")->VERSION; echo "<br>\n";
+
+} catch (JavaException $ex) {
+  echo "An exception occured: "; echo $ex; echo "<br>\n";
+}
+
+?>@
+
+
+1.1
+log
+@Update birt lib to 4.6.0
+Removed obsolete files
+@
+text
+@a2 8
+  /* 
+   * Use the new style which works with PHP 5 and above only. This
+   * code makes use of the new PHP 5 features try/catch, the PHP
+   * standard library and the automatic __toString() conversion. 
+   *
+   * See the test.php4 if you still use PHP 4.
+   */
+
+a5 1
+
+d33 1
+a33 1
+?>
+@
+

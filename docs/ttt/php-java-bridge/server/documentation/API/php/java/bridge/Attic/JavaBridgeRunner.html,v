@@ -1,0 +1,1396 @@
+head	1.31;
+access;
+symbols
+	upstream_version_5_5:1.30
+	ROOT_Release-5-5:1.30
+	Release-5-5:1.30.0.4
+	debian_version_5_4_4_2-3:1.30
+	Release-5-4-4-2-1:1.30.0.2
+	debian_version_5_4_4_2-2:1.30
+	debian_version_5_4_4_2-1:1.30
+	upstream_version_5_4_4_2:1.30
+	debian_version_5_4_4_1-1:1.27
+	upstream_version_5_4_4_1:1.27
+	debian_version_5_4_4-1:1.26
+	upstream_version_5_4_4:1.26
+	Release-5-4-4:1.26.0.4
+	Root_Release-5-4-4:1.26
+	debian_version_5_4_3_2-1:1.24
+	upstream_version_5_4_3_2:1.24
+	Release_5-4-3-2:1.24.0.2
+	Root_Release_5-4-3-2:1.24
+	upstream_version_5_4_3_1:1.24
+	debian_version_5_4_3_1-1:1.24
+	Release-5-4-3:1.23.0.6
+	Root_Release-5-4-3:1.23
+	Root_Release-5-4-1:1.23
+	Release-5-4-1:1.23.0.4
+	Root_Release-5-4:1.23
+	Release-5-4:1.23.0.2
+	upstream_version_5_3_4:1.21
+	debian_version_5_3_4-1:1.23
+	ROOT_Release-5-3-4:1.21
+	Release-5-3-4:1.21.0.2
+	ROOT_Release-5-3-3:1.18
+	Release-5-3-3:1.18.0.2
+	debian_version_5_3_2_1_2-1:1.17
+	upstream_version_5_3_2_1_2:1.17
+	debian_version_5_3_2_1_1-1:1.17
+	debian_version_5_3_2_1_1:1.17
+	upstream_version_5_3_2_1_1:1.17
+	Root_Release-5-3-2-1:1.17
+	Release-5-3-2-1:1.17
+	ROOT_RELEASE-5-3-2-1:1.17
+	RELEASE-5-3-2-1:1.17.0.10
+	Release-5-3-2:1.17.0.6
+	Root_Release-5-3-2:1.17
+	Root_Release-5-3-1:1.17
+	Release-5-3-1:1.17.0.4
+	Release-5-2-3-1:1.17.0.2
+	Root_Release-5-2-3-1:1.17
+	Release-5-2-2-4:1.16.0.8
+	Root_Release-5-2-2-4:1.16
+	Release-5-2-2-1:1.16.0.6
+	Root_Release-5-2-2-1:1.16
+	upstream_version_5_2_2:1.16
+	debian_version_5_2_2-1:1.16
+	Release-5-2-2:1.16.0.4
+	ROOT_Release-5-2-2:1.16
+	ROOT_Release-5-2-1:1.16
+	Release-5-2-1:1.16.0.2
+	Release-5-2-0:1.15.0.20
+	ROOT_Release-5-2-0:1.15
+	ROOT_Release-5-1-2:1.15
+	Release-5-1-2:1.15.0.18
+	Version-5-1-1:1.15.0.16
+	ROOT_Version-5-1-1:1.15
+	debian_version_5_1_0-1:1.15
+	upstream_version_5_1_0:1.15
+	ROOT_Release-5-1-0:1.15
+	Release-5-1-0:1.15.0.14
+	ROOT_Release-5-0-0:1.15
+	Release-5-0-0:1.15.0.12
+	Release-4-3-3:1.15.0.10
+	ROOT_Release-4-3-3:1.15
+	upstream_version_4_3_2:1.15
+	debian_version_4_3_2-1:1.15
+	ROOT_Release-4-3-2:1.15
+	Release-4-3-2:1.15.0.8
+	Release-4-3-1:1.15.0.6
+	ROOT_Release-4-3-1:1.15
+	debian_version_4_3_0-1:1.15
+	upstream_version_4_3_0:1.15
+	ROOT_Release-4-3-0:1.15
+	Release-4-3-0:1.15.0.4
+	debian_version_3_2_1b-2:1.12
+	debian_version_4_2_2-1:1.15
+	upstream_version_4_2_2:1.15
+	debian_version_3_2_1b-1:1.12
+	upstream_version_3_2_1b:1.12
+	Release-4-1-2:1.15.0.2
+	Release-4-0-8:1.14.0.6
+	debian_version_4_0_8a-1:1.14
+	upstream_version_4_0_8a:1.14
+	jostb-debian-ubuntu-patch:1.14.0.4
+	debian_version_4_0_8-1:1.14
+	upstream_version_4_0_8:1.14
+	debian_version_4_0_7-1:1.14
+	upstream_version_4_0_7:1.14
+	debian_version_4_0_6-1:1.14
+	upstream_version_4_0_6:1.14
+	debian_version_4_0_2-1:1.14
+	upstream_version_4_0_2:1.14
+	Release-4-0-2_Root:1.14
+	Release-4-0-2:1.14.0.2
+	upstream_version_4_0_1:1.13
+	debian_version_4_0_1-2:1.13
+	Release-3-2-1:1.12.0.4
+	Release-3-1-8:1.12.0.2
+	Release-3-0-8_root:1.4.2.1
+	Release-3-0-8_Root:1.5
+	Release-3-0-8:1.4.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.31
+date	2009.07.25.13.56.04;	author jost_boekemeier;	state dead;
+branches;
+next	1.30;
+
+1.30
+date	2009.04.25.12.25.24;	author jost_boekemeier;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2009.04.19.17.24.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2009.04.18.14.57.05;	author jost_boekemeier;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2009.03.15.15.33.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2009.03.08.17.45.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2009.03.08.14.34.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2009.01.06.17.05.12;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2008.12.02.21.56.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2008.12.02.19.17.51;	author jost_boekemeier;	state dead;
+branches;
+next	1.21;
+
+1.21
+date	2008.11.30.17.08.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2008.10.26.15.23.02;	author jost_boekemeier;	state Exp;
+branches
+	1.18.2.1;
+next	1.17;
+
+1.17
+date	2008.09.28.21.56.54;	author jost_boekemeier;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2008.03.22.12.04.57;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2007.06.16.18.29.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2007.03.19.13.03.19;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.03.09.20.28.15;	author andremachado;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2006.09.10.17.31.13;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.08.08.17.20.47;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2006.07.23.20.32.48;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.07.16.20.29.27;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.07.02.20.28.47;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.06.27.20.44.40;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.06.19.20.37.23;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.04.12.17.46.48;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.02.05.18.47.01;	author jost2345;	state Exp;
+branches
+	1.4.2.1;
+next	1.3;
+
+1.3
+date	2006.01.15.21.07.28;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.01.08.23.44.47;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.11.24.19.43.07;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2006.04.23.19.09.09;	author jost2345;	state Exp;
+branches;
+next	1.4.2.2;
+
+1.4.2.2
+date	2006.05.13.16.09.58;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.18.2.1
+date	2008.11.09.17.01.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18.2.2;
+
+1.18.2.2
+date	2008.11.12.18.55.30;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.31
+log
+@Release-5-5
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Apr 25 11:44:39 CEST 2009 -->
+<TITLE>
+JavaBridgeRunner
+</TITLE>
+
+<META NAME="date" CONTENT="2009-04-25">
+
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../stylesheet.css" TITLE="Style">
+
+<SCRIPT type="text/javascript">
+function windowTitle()
+{
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="JavaBridgeRunner";
+    }
+}
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
+
+
+<!-- ========= START OF TOP NAVBAR ======= -->
+<A NAME="navbar_top"><!-- --></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/JavaBridgeRunner.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeIllegalStateException.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeSecurityManager.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?php/java/bridge/JavaBridgeRunner.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="JavaBridgeRunner.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF TOP NAVBAR ========= -->
+
+<HR>
+<!-- ======== START OF CLASS DATA ======== -->
+<H2>
+<FONT SIZE="-1">
+php.java.bridge</FONT>
+<BR>
+Class JavaBridgeRunner</H2>
+<PRE>
+java.lang.Object
+  <IMG SRC="../../../resources/inherit.gif" ALT="extended by "><A HREF="../../../php/java/bridge/http/HttpServer.html" title="class in php.java.bridge.http">php.java.bridge.http.HttpServer</A>
+      <IMG SRC="../../../resources/inherit.gif" ALT="extended by "><B>php.java.bridge.JavaBridgeRunner</B>
+</PRE>
+<DL>
+<DT><B>All Implemented Interfaces:</B> <DD>java.lang.Runnable</DD>
+</DL>
+<HR>
+<DL>
+<DT><PRE>public class <B>JavaBridgeRunner</B><DT>extends <A HREF="../../../php/java/bridge/http/HttpServer.html" title="class in php.java.bridge.http">HttpServer</A></DL>
+</PRE>
+
+<P>
+This is the main entry point for the PHP/Java Bridge library.
+ Example:<br>
+ public MyClass { <br>
+ &nbsp;&nbsp;public static void main(String s[]) {<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; JavaBridgeRunner runner = JavaBridgeRunner.getInstance();<br>
+ &nbsp;&nbsp;&nbsp;&nbsp; // connect to port 9267 and send protocol requests ... <br>
+ &nbsp;&nbsp;&nbsp;&nbsp;runner.destroy();<br>
+ &nbsp;&nbsp;}<br>
+ }<br>
+<P>
+
+<P>
+<DL>
+<DT><B>Author:</B></DT>
+  <DD>jostb</DD>
+<DT><B>See Also:</B><DD><A HREF="../../../php/java/script/PhpScriptContext.html" title="class in php.java.script"><CODE>PhpScriptContext</CODE></A></DL>
+<HR>
+
+<P>
+<!-- =========== FIELD SUMMARY =========== -->
+
+<A NAME="field_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Field Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#contextServer">contextServer</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Only for internal use</TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="fields_inherited_from_class_php.java.bridge.http.HttpServer"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Fields inherited from class php.java.bridge.http.<A HREF="../../../php/java/bridge/http/HttpServer.html" title="class in php.java.bridge.http">HttpServer</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../php/java/bridge/http/HttpServer.html#GET">GET</A>, <A HREF="../../../php/java/bridge/http/HttpServer.html#POST">POST</A>, <A HREF="../../../php/java/bridge/http/HttpServer.html#PUT">PUT</A></CODE></TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- ========== METHOD SUMMARY =========== -->
+
+<A NAME="method_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Method Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../php/java/bridge/ISocketFactory.html" title="interface in php.java.bridge">ISocketFactory</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#bind(java.lang.String)">bind</A></B>(java.lang.String&nbsp;addr)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a server socket.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#getInstance(java.lang.String)">getInstance</A></B>(java.lang.String&nbsp;serverPort)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a instance.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#getRequiredInstance()">getRequiredInstance</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a instance.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#getRequiredInstance(java.lang.String)">getRequiredInstance</A></B>(java.lang.String&nbsp;serverPort)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a instance.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#getRequiredStandaloneInstance()">getRequiredStandaloneInstance</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return a standalone instance.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;boolean</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#isStandalone()">isStandalone</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Return true if this is a standalone server</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#main(java.lang.String[])">main</A></B>(java.lang.String[]&nbsp;s)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For internal tests only.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#waitFor()">waitFor</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wait for the runner to finish</TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_php.java.bridge.http.HttpServer"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class php.java.bridge.http.<A HREF="../../../php/java/bridge/http/HttpServer.html" title="class in php.java.bridge.http">HttpServer</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../php/java/bridge/http/HttpServer.html#destroy()">destroy</A>, <A HREF="../../../php/java/bridge/http/HttpServer.html#getSocket()">getSocket</A>, <A HREF="../../../php/java/bridge/http/HttpServer.html#run()">run</A></CODE></TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_java.lang.Object"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class java.lang.Object</B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE>equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</CODE></TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+
+<!-- ============ FIELD DETAIL =========== -->
+
+<A NAME="field_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Field Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="contextServer"><!-- --></A><H3>
+contextServer</H3>
+<PRE>
+public static <A HREF="../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A> <B>contextServer</B></PRE>
+<DL>
+<DD>Only for internal use
+<P>
+<DL>
+</DL>
+</DL>
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME="method_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Method Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="getRequiredInstance(java.lang.String)"><!-- --></A><H3>
+getRequiredInstance</H3>
+<PRE>
+public static <A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A> <B>getRequiredInstance</B>(java.lang.String&nbsp;serverPort)
+                                            throws java.io.IOException</PRE>
+<DL>
+<DD>Return a instance.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>serverPort</CODE> - The server port name
+<DT><B>Returns:</B><DD>a standalone runner
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getInstance(java.lang.String)"><!-- --></A><H3>
+getInstance</H3>
+<PRE>
+public static <A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A> <B>getInstance</B>(java.lang.String&nbsp;serverPort)</PRE>
+<DL>
+<DD>Return a instance.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>serverPort</CODE> - The server port name
+<DT><B>Returns:</B><DD>a standalone runner</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getRequiredInstance()"><!-- --></A><H3>
+getRequiredInstance</H3>
+<PRE>
+public static <A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A> <B>getRequiredInstance</B>()
+                                            throws java.io.IOException</PRE>
+<DL>
+<DD>Return a instance.
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>a standalone runner
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="getRequiredStandaloneInstance()"><!-- --></A><H3>
+getRequiredStandaloneInstance</H3>
+<PRE>
+public static <A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A> <B>getRequiredStandaloneInstance</B>()
+                                                      throws java.io.IOException</PRE>
+<DL>
+<DD>Return a standalone instance. 
+ It sets a flag which indicates that the runner will be used as a standalone component outside of the Servlet environment.
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>a standalone runner
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="bind(java.lang.String)"><!-- --></A><H3>
+bind</H3>
+<PRE>
+public <A HREF="../../../php/java/bridge/ISocketFactory.html" title="interface in php.java.bridge">ISocketFactory</A> <B>bind</B>(java.lang.String&nbsp;addr)
+                    throws java.io.IOException</PRE>
+<DL>
+<DD>Create a server socket.
+<P>
+<DD><DL>
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../php/java/bridge/http/HttpServer.html#bind(java.lang.String)">bind</A></CODE> in class <CODE><A HREF="../../../php/java/bridge/http/HttpServer.html" title="class in php.java.bridge.http">HttpServer</A></CODE></DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>addr</CODE> - The host address, either INET:port or INET_LOCAL:port
+<DT><B>Returns:</B><DD>The server socket.
+<DT><B>Throws:</B>
+<DD><CODE>java.io.IOException</CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="isStandalone()"><!-- --></A><H3>
+isStandalone</H3>
+<PRE>
+public boolean <B>isStandalone</B>()</PRE>
+<DL>
+<DD>Return true if this is a standalone server
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>true if this runner is a standalone runner (see <A HREF="../../../php/java/bridge/JavaBridgeRunner.html#main(java.lang.String[])"><CODE>main(String[])</CODE></A>) , false otherwise.</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="waitFor()"><!-- --></A><H3>
+waitFor</H3>
+<PRE>
+public void <B>waitFor</B>()
+             throws java.lang.InterruptedException</PRE>
+<DL>
+<DD>Wait for the runner to finish
+<P>
+<DD><DL>
+
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.InterruptedException</CODE></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="main(java.lang.String[])"><!-- --></A><H3>
+main</H3>
+<PRE>
+public static void <B>main</B>(java.lang.String[]&nbsp;s)
+                 throws java.lang.InterruptedException,
+                        java.io.IOException</PRE>
+<DL>
+<DD>For internal tests only.
+<P>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>s</CODE> - The argument array
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.InterruptedException</CODE>
+<DD><CODE>java.io.IOException</CODE></DL>
+</DD>
+</DL>
+<!-- ========= END OF CLASS DATA ========= -->
+<HR>
+
+
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<A HREF="#skip-navbar_bottom" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/JavaBridgeRunner.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeIllegalStateException.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeSecurityManager.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?php/java/bridge/JavaBridgeRunner.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="JavaBridgeRunner.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_bottom"></A>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+
+<HR>
+
+</BODY>
+</HTML>
+@
+
+
+1.30
+log
+@Release-5.4.4.2
+@
+text
+@@
+
+
+1.29
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 19 11:35:19 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-19">
+@
+
+
+1.28
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 12 09:06:08 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-12">
+d79 1
+a79 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#fields_inherited_from_class_php.java.bridge.http.HttpServer">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d81 1
+a81 1
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+d135 8
+d248 21
+d463 1
+a463 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#fields_inherited_from_class_php.java.bridge.http.HttpServer">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d465 1
+a465 1
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 15 11:32:38 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-15">
+@
+
+
+1.26
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 08 18:42:05 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-08">
+@
+
+
+1.25
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Tue Mar 03 19:21:05 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-03">
+@
+
+
+1.24
+log
+@Release-5-4-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Mon Jan 05 20:55:06 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-01-05">
+@
+
+
+1.23
+log
+@documentation
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Nov 30 10:56:57 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-30">
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Nov 29 12:39:25 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-29">
+@
+
+
+1.21
+log
+@Release 5.3.4
+@
+text
+@@
+
+
+1.20
+log
+@Release 5.3.3.1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Nov 23 10:26:27 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-23">
+d259 1
+a259 1
+
+d275 1
+a275 1
+
+d376 1
+a376 1
+
+@
+
+
+1.19
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:55 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+@
+
+
+1.18
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Oct 26 14:59:19 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-10-26">
+@
+
+
+1.18.2.1
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 13:25:06 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+@
+
+
+1.18.2.2
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:55 CET 2008 -->
+@
+
+
+1.17
+log
+@Release-5-2-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Sep 28 12:34:43 CEST 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-09-28">
+@
+
+
+1.16
+log
+@Release-5-2-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Mar 16 21:41:31 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-03-16">
+d58 1
+a58 1
+&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeIllegalArgumentException.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+d413 1
+a413 1
+&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeIllegalArgumentException.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+@
+
+
+1.15
+log
+@Release-4-1-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sat Jun 16 09:41:54 EDT 2007 -->
+d10 1
+a10 1
+<META NAME="keywords" CONTENT="php.java.bridge.JavaBridgeRunner class">
+d17 3
+a19 1
+    parent.document.title="JavaBridgeRunner";
+d28 1
+d165 9
+a173 1
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#getInstance()">getInstance</A></B>()</CODE>
+d181 9
+a189 1
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#getStandaloneInstance()">getStandaloneInstance</A></B>()</CODE>
+d210 8
+d250 18
+a267 1
+<A NAME="getInstance()"><!-- --></A><H3>
+d270 16
+a285 2
+public static <A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A> <B>getInstance</B>()
+                                    throws java.io.IOException</PRE>
+d298 2
+a299 2
+<A NAME="getStandaloneInstance()"><!-- --></A><H3>
+getStandaloneInstance</H3>
+d301 2
+a302 2
+public static <A HREF="../../../php/java/bridge/JavaBridgeRunner.html" title="class in php.java.bridge">JavaBridgeRunner</A> <B>getStandaloneInstance</B>()
+                                              throws java.io.IOException</PRE>
+d350 16
+@
+
+
+1.14
+log
+@Release-4-0-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Mar 15 07:15:50 CET 2007 -->
+@
+
+
+1.13
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 11 14:44:19 CET 2007 -->
+@
+
+
+1.12
+log
+@Release-3-1-8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Sep 10 13:03:29 CEST 2006 -->
+d55 1
+a55 1
+&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeClassLoader.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+d109 1
+a109 1
+ &nbsp;&nbsp;&nbsp;&nbsp; JavaBridgeRunner runner = new JavaBridgeRunner();<br>
+d165 1
+a165 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+d173 1
+a173 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+d229 2
+d233 1
+d246 3
+d251 1
+d339 1
+a339 1
+&nbsp;<A HREF="../../../php/java/bridge/JavaBridgeClassLoader.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+@
+
+
+1.11
+log
+@Release-3-1-7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Aug 03 19:33:58 CEST 2006 -->
+d76 1
+a76 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d78 1
+a78 1
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+d124 1
+d126 1
+a126 3
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+<A NAME="constructor_summary"><!-- --></A>
+d130 7
+a136 1
+<B>Constructor Summary</B></FONT></TH>
+d139 1
+a139 4
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#JavaBridgeRunner()">JavaBridgeRunner</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a new JavaBridgeRunner and ContextServer.</TD>
+d154 1
+a154 1
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#bind()">bind</A></B>()</CODE>
+d161 24
+d213 1
+a213 1
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+d215 1
+a215 1
+<A NAME="constructor_detail"><!-- --></A>
+d219 1
+a219 1
+<B>Constructor Detail</B></FONT></TH>
+d223 2
+a224 2
+<A NAME="JavaBridgeRunner()"><!-- --></A><H3>
+JavaBridgeRunner</H3>
+d226 2
+a227 1
+public <B>JavaBridgeRunner</B>()</PRE>
+d229 5
+a233 4
+<DD>Create a new JavaBridgeRunner and ContextServer.
+<P>
+<DL>
+<DT><B>See Also:</B><DD><A HREF="../../../php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http"><CODE>ContextServer</CODE></A></DL>
+d235 1
+d237 7
+a243 1
+<!-- ============ METHOD DETAIL ========== -->
+d245 5
+a249 7
+<A NAME="method_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Method Detail</B></FONT></TH>
+</TR>
+</TABLE>
+d251 1
+a251 1
+<A NAME="bind()"><!-- --></A><H3>
+d254 2
+a255 1
+public <A HREF="../../../php/java/bridge/ISocketFactory.html" title="interface in php.java.bridge">ISocketFactory</A> <B>bind</B>()</PRE>
+d260 7
+a266 1
+<DT><B>Specified by:</B><DD><CODE><A HREF="../../../php/java/bridge/http/HttpServer.html#bind()">bind</A></CODE> in class <CODE><A HREF="../../../php/java/bridge/http/HttpServer.html" title="class in php.java.bridge.http">HttpServer</A></CODE></DL>
+d268 10
+d280 1
+a280 1
+<DT><B>Returns:</B><DD>The server socket.</DL>
+d289 2
+a290 1
+                 throws java.lang.InterruptedException</PRE>
+d297 2
+a298 1
+<DD><CODE>java.lang.InterruptedException</CODE></DL>
+d353 1
+a353 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d355 1
+a355 1
+DETAIL:&nbsp;FIELD&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+@
+
+
+1.10
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 23 12:18:09 CEST 2006 -->
+@
+
+
+1.9
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 16 13:42:16 CEST 2006 -->
+@
+
+
+1.8
+log
+@Release-3-1-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 02 11:43:22 CEST 2006 -->
+@
+
+
+1.7
+log
+@Release-3-1-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 25 13:54:48 CEST 2006 -->
+@
+
+
+1.6
+log
+@Release-3-1-0
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 18 11:35:45 CEST 2006 -->
+@
+
+
+1.5
+log
+@Release-3.0.8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:21 CEST 2006 -->
+d56 1
+a56 1
+&nbsp;<A HREF="../../../php/java/bridge/MethodCache.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+a158 8
+<CODE>&nbsp;<A HREF="../../../php/java/bridge/ISocketFactory.html" title="interface in php.java.bridge">ISocketFactory</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/JavaBridgeRunner.html#getSocket()">getSocket</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Returns the server socket.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+d172 1
+a172 1
+<TD><CODE><A HREF="../../../php/java/bridge/http/HttpServer.html#destroy()">destroy</A>, <A HREF="../../../php/java/bridge/http/HttpServer.html#run()">run</A></CODE></TD>
+a234 14
+<A NAME="getSocket()"><!-- --></A><H3>
+getSocket</H3>
+<PRE>
+public <A HREF="../../../php/java/bridge/ISocketFactory.html" title="interface in php.java.bridge">ISocketFactory</A> <B>getSocket</B>()</PRE>
+<DL>
+<DD>Returns the server socket.
+<P>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>The server socket.</DL>
+</DD>
+</DL>
+<HR>
+
+d281 1
+a281 1
+&nbsp;<A HREF="../../../php/java/bridge/MethodCache.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+@
+
+
+1.4
+log
+@Release-3.0.7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 05 13:18:02 CET 2006 -->
+@
+
+
+1.4.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 23 18:58:55 CEST 2006 -->
+@
+
+
+1.4.2.2
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:21 CEST 2006 -->
+@
+
+
+1.3
+log
+@Release-3.0.6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 15 20:26:20 CET 2006 -->
+@
+
+
+1.2
+log
+@Release-3.0.5
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 08 19:28:39 CET 2006 -->
+@
+
+
+1.1
+log
+@Version-3.0.0pre
+@
+text
+@d1 334
+a334 14
+<?xml version="1.0" encoding="null"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><title>JavaBridgeRunner</title><script src="../../../resources/gjdoc.js" type="text/javascript"><!-- this comment required for konqueror 3.2.2 --></script><meta http-equiv="Content-Type" content="text/html; charset=null"/><meta name="generator" content="GNU Gjdoc Standard Doclet"/><meta name="keywords" content="php.java.bridge.JavaBridgeRunner class"/><meta name="keywords" content="bind()"/><meta name="keywords" content="getSocket()"/><link rel="stylesheet" type="text/css" href="../../../resources/gjdochtml-clean-layout.css" title="GNU Clean"/><link rel="stylesheet" type="text/css" href="../../../resources/gjdochtml-clean-color1.css" title="GNU Clean"/></head><body class="content class" onload="top.contentPageLoaded(document.title)"><table class="navbar div top"><tr><td class="navbar div top" colspan="2"><div class="navbar div top" colspan="2"><span class="navbar item enabled"><a href="../../../index-noframes.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item active">Class</span> <span class="navbar item enabled"><a href="JavaBridgeRunner-uses.html">Use</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../../alphaindex-1.html">Index</a></span> <span class="navbar item enabled"><a href="../../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../../about.html">About</a></span></div></td></tr><tr><td class="navi"><a href="../../../php/java/bridge/JavaBridgeClassLoader.html">Prev Class</a> | <a href="../../../php/java/bridge/MethodCache.html">Next Class</a></td><td class="navi"><a href="../../../index.html" title="Show in a frameset" target="_top">Frames</a> | <a href="JavaBridgeRunner.html" title="Show without frames" target="_top">No Frames</a> </td></tr><tr><td class="navi">Summary: Nested | Field | <a href="#summary-methods">Method</a> | <a href="#summary-constructors">Constr</a></td><td class="navi">Detail: Nested | Field | <a href="#detail-methods">Method</a> | <a href="#detail-constructors">Constr</a></td></tr></table><div class="class title outer"><h3 class="class title-package">php.java.bridge</h3><h1 class="class title-class">Class JavaBridgeRunner</h1></div><div class="class inheritance-tree"><ul class="inheritance 0"><li class="inheritance 0"><code>java.lang.Object</code></li><ul class="inheritance 1"><li class="inheritance 1"><code><a href="../../../php/java/bridge/http/HttpServer.html">php.java.bridge.http.HttpServer</a></code></li><ul class="inheritance 2"><li class="inheritance 2"><code>php.java.bridge.JavaBridgeRunner</code></li></ul></ul></ul></div><dl class="class knownimplementing"><dt class="header"><b>Implemented Interfaces:</b></dt><dd class="item">java.lang.Runnable</dd></dl><hr/><div class="class synopsis outer"><div class="class synopsis declaration"><code>public class <b class="class synopsis name">JavaBridgeRunner</b></code></div><div class="class synopsis superclass"><code>extends <a href="../../../php/java/bridge/http/HttpServer.html" title="Class in php.java.bridge.http">HttpServer</a></code></div></div><hr/><div class="class description"> This is the main entry point for the PHP/Java Bridge library.
+ Example:<br/>
+ public MyClass { <br/>
+ &nbsp;&nbsp;public static void main(String s[]) {<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp; JavaBridgeRunner runner = new JavaBridgeRunner();<br/>
+ &nbsp;&nbsp;&nbsp;&nbsp; // connect to port 9267 and send protocol requests ... <br/>
+ &nbsp;&nbsp;&nbsp;&nbsp;runner.destroy();<br/>
+ &nbsp;&nbsp;}<br/>
+ }<br/>
+</div><p class="taglet"><dl class="tag list"><dt class="tag section header"><b>Author:</b></dt><dd class="tag item">jostb</dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../../php/java/script/PhpScriptContext.html"><code>PhpScriptContext</code></a><dd></dl></p><p class="taglet"></p><p class="taglet"></p><a name="summary-constructors"/><dl class="table container"><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Constructor Summary</h2></td></tr><tr><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#JavaBridgeRunner()">JavaBridgeRunner</a>()</code></dt><dd class="description"> Create a new JavaBridgeRunner and ContextServer.</dd></dl></td></tr></table></dl><a name="summary-methods"/><dl class="table container"><table class="class summary" border="1" width="100%"><tr class="table header"><td colspan="2"><h2 class="table header">Method Summary</h2></td></tr><tr><td class="left" valign="top"><code class="synopsis"> <a href="../../../php/java/bridge/ISocketFactory.html" title="Interface in php.java.bridge">ISocketFactory</a></code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#bind()">bind</a>()</code></dt><dd class="description"> Create a server socket.</dd></dl></td></tr><tr><td class="left" valign="top"><code class="synopsis"> <a href="../../../php/java/bridge/ISocketFactory.html" title="Interface in php.java.bridge">ISocketFactory</a></code></td><td class="right"><dl class="list"><dt class="synopsis"><code><a href="#getSocket()">getSocket</a>()</code></dt><dd class="description"> Returns the server socket.</dd></dl></td></tr></table></dl><dl class="table container"><table class="class summary" border="1" width="100%"><tr class="table sub header"><td colspan="2"><h3 class="table sub header">Methods inherited from class php.java.bridge.http.<a href="../../../php/java/bridge/http/HttpServer.html" title="Class in php.java.bridge.http">HttpServer</a></h3></td></tr><tr><td class="inherited"><a href="../../../php/java/bridge/http/HttpServer.html#bind()" title="bind()"><code class="member">bind</code></a>, <a href="../../../php/java/bridge/http/HttpServer.html#destroy()" title="destroy()"><code class="member">destroy</code></a>, <a href="../../../php/java/bridge/http/HttpServer.html#run()" title="run()"><code class="member">run</code></a></td></tr></table></dl><dl class="table container"><table class="class summary" border="1" width="100%"><tr class="table sub header"><td colspan="2"><h3 class="table sub header">Methods inherited from class java.lang.Object</h3></td></tr><tr><td class="inherited"><a href="../../../java/lang/Object.html#equals(java.lang.Object)" title="equals(Object)"><code class="member">equals</code></a>, <a href="../../../java/lang/Object.html#getClass()" title="getClass()"><code class="member">getClass</code></a>, <a href="../../../java/lang/Object.html#hashCode()" title="hashCode()"><code class="member">hashCode</code></a>, <a href="../../../java/lang/Object.html#notify()" title="notify()"><code class="member">notify</code></a>, <a href="../../../java/lang/Object.html#notifyAll()" title="notifyAll()"><code class="member">notifyAll</code></a>, <a href="../../../java/lang/Object.html#toString()" title="toString()"><code class="member">toString</code></a>, <a href="../../../java/lang/Object.html#wait()" title="wait()"><code class="member">wait</code></a>, <a href="../../../java/lang/Object.html#wait(long)" title="wait(long)"><code class="member">wait</code></a>, <a href="../../../java/lang/Object.html#wait(long,int)" title="wait(long,int)"><code class="member">wait</code></a></td></tr></table></dl><a name="detail-constructors"/><h2 class="section header">Constructor Details</h2><div class="section"><a name="JavaBridgeRunner()"/><div class="member detail outer"><h3 class="member detail name">JavaBridgeRunner</h3><pre class="member detail synopsis">public JavaBridgeRunner()</pre><blockquote class="member detail name"><div class="member detail description"> Create a new JavaBridgeRunner and ContextServer.
+</div><p class="taglet"></p><p class="taglet"></p><p class="taglet"><dl class="tag list"><dt class="tag section header"><b>See Also:</b></dt><dd><a href="../../../php/java/bridge/http/ContextServer.html"><code>ContextServer</code></a><dd></dl></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><a name="detail-methods"/><h2 class="section header">Method Details</h2><div class="section"><a name="bind()"/><div class="member detail outer"><h3 class="member detail name">bind</h3><pre class="member detail synopsis">public <a href="../../../php/java/bridge/ISocketFactory.html" title="Interface in php.java.bridge">ISocketFactory</a> bind()</pre><blockquote class="member detail name"><div class="member detail description"> Create a server socket.
+</div><dl class="member detail overridden list"><dt class="member detail overridden header"><b>Overrides:</b></dt><dd class="member detail overridden item">bind in interface <a href="../../../php/java/bridge/http/HttpServer.html" title="Class in php.java.bridge.http">HttpServer</a></dd></dl><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="getSocket()"/><div class="member detail outer"><h3 class="member detail name">getSocket</h3><pre class="member detail synopsis">public <a href="../../../php/java/bridge/ISocketFactory.html" title="Interface in php.java.bridge">ISocketFactory</a> getSocket()</pre><blockquote class="member detail name"><div class="member detail description"> Returns the server socket.
+</div><p class="member detail return list"><dl><dt class="member detail return header"><b>Returns:</b></dt><dd class="member detail return item">The server socket.</dd></dl></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><p class="navbar bottom spacer"> </p><table class="navbar div bottom"><tr><td><div class="navbar div top" colspan="2"><span class="navbar item enabled"><a href="../../../index-noframes.html">Overview</a></span> <span class="navbar item enabled"><a href="package-summary.html">Package</a></span> <span class="navbar item active">Class</span> <span class="navbar item enabled"><a href="JavaBridgeRunner-uses.html">Use</a></span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="../../../alphaindex-1.html">Index</a></span> <span class="navbar item enabled"><a href="../../../deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="../../../about.html">About</a></span></div></td></tr></table></body></html>@
+

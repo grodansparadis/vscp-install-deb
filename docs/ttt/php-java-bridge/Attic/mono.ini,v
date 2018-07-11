@@ -1,0 +1,374 @@
+head	1.8;
+access;
+symbols
+	Release-5-5-4-1:1.7.0.24
+	Root_Release-5-5-4-1:1.7
+	Release-5-5-4:1.7.0.22
+	Root_Release-5-5-4:1.7
+	Release-5-5-3:1.7.0.20
+	ROOT_Release-5-5-3:1.7
+	Release-5-5-2:1.7.0.18
+	Root_Release-5-5-2:1.7
+	debian_version_5_5_1-1:1.7
+	Release-5-5-1:1.7.0.14
+	upstream_version_5_5_1:1.7
+	ROOT_Release-5-5-1:1.7
+	debian_version_5_5-1:1.7
+	upstream_version_5_5:1.7
+	ROOT_Release-5-5:1.7
+	Release-5-5:1.7.0.16
+	debian_version_5_4_4_2-3:1.7
+	Release-5-4-4-2-1:1.7.0.10
+	debian_version_5_4_4_2-2:1.7
+	debian_version_5_4_4_2-1:1.7
+	upstream_version_5_4_4_2:1.7
+	debian_version_5_4_4_1-1:1.7
+	upstream_version_5_4_4_1:1.7
+	debian_version_5_4_4-1:1.7
+	upstream_version_5_4_4:1.7
+	Release-5-4-4:1.7.0.12
+	Root_Release-5-4-4:1.7
+	debian_version_5_4_3_2-1:1.7
+	upstream_version_5_4_3_2:1.7
+	Release_5-4-3-2:1.7.0.8
+	Root_Release_5-4-3-2:1.7
+	upstream_version_5_4_3_1:1.7
+	debian_version_5_4_3_1-1:1.7
+	Release-5-4-3:1.7.0.6
+	Root_Release-5-4-3:1.7
+	Root_Release-5-4-1:1.7
+	Release-5-4-1:1.7.0.4
+	Root_Release-5-4:1.7
+	Release-5-4:1.7.0.2
+	upstream_version_5_3_4:1.6
+	debian_version_5_3_4-1:1.6
+	ROOT_Release-5-3-4:1.6
+	Release-5-3-4:1.6.0.32
+	ROOT_Release-5-3-3:1.6
+	Release-5-3-3:1.6.0.28
+	debian_version_5_3_2_1_2-1:1.6
+	upstream_version_5_3_2_1_2:1.6
+	debian_version_5_3_2_1_1-1:1.6
+	debian_version_5_3_2_1_1:1.6
+	upstream_version_5_3_2_1_1:1.6
+	Root_Release-5-3-2-1:1.6
+	Release-5-3-2-1:1.6
+	ROOT_RELEASE-5-3-2-1:1.6
+	RELEASE-5-3-2-1:1.6.0.30
+	Release-5-3-2:1.6.0.26
+	Root_Release-5-3-2:1.6
+	Root_Release-5-3-1:1.6
+	Release-5-3-1:1.6.0.24
+	Release-5-2-3-1:1.6.0.22
+	Root_Release-5-2-3-1:1.6
+	Release-5-2-2-4:1.6.0.20
+	Root_Release-5-2-2-4:1.6
+	Release-5-2-2-1:1.6.0.18
+	Root_Release-5-2-2-1:1.6
+	upstream_version_5_2_2:1.6
+	debian_version_5_2_2-1:1.6
+	Release-5-2-2:1.6.0.16
+	ROOT_Release-5-2-2:1.6
+	ROOT_Release-5-2-1:1.6
+	Release-5-2-1:1.6.0.14
+	Release-5-2-0:1.6.0.12
+	ROOT_Release-5-2-0:1.6
+	ROOT_Release-5-1-2:1.6
+	Release-5-1-2:1.6.0.10
+	Version-5-1-1:1.6.0.8
+	ROOT_Version-5-1-1:1.6
+	debian_version_5_1_0-1:1.6
+	upstream_version_5_1_0:1.6
+	ROOT_Release-5-1-0:1.6
+	Release-5-1-0:1.6.0.6
+	ROOT_Release-5-0-0:1.6
+	Release-5-0-0:1.6.0.4
+	Release-4-3-3:1.6.0.2
+	ROOT_Release-4-3-3:1.6
+	upstream_version_4_3_2:1.5
+	debian_version_4_3_2-1:1.5
+	ROOT_Release-4-3-2:1.5
+	Release-4-3-2:1.5.0.6
+	Release-4-3-1:1.5.0.4
+	ROOT_Release-4-3-1:1.5
+	debian_version_4_3_0-1:1.5
+	upstream_version_4_3_0:1.5
+	ROOT_Release-4-3-0:1.5
+	Release-4-3-0:1.5.0.2
+	debian_version_3_2_1b-2:1.4
+	debian_version_4_2_2-1:1.4
+	upstream_version_4_2_2:1.4
+	debian_version_3_2_1b-1:1.4
+	upstream_version_3_2_1b:1.4
+	Release-4-1-2:1.4.0.12
+	Release-4-0-8:1.4.0.10
+	debian_version_4_0_8a-1:1.4
+	upstream_version_4_0_8a:1.4
+	jostb-debian-ubuntu-patch:1.4.0.8
+	debian_version_4_0_8-1:1.4
+	upstream_version_4_0_8:1.4
+	debian_version_4_0_7-1:1.4
+	upstream_version_4_0_7:1.4
+	debian_version_4_0_6-1:1.4
+	upstream_version_4_0_6:1.4
+	debian_version_4_0_2-1:1.4
+	upstream_version_4_0_2:1.4
+	Release-4-0-2_Root:1.4
+	Release-4-0-2:1.4.0.6
+	upstream_version_4_0_1:1.4
+	debian_version_4_0_1-2:1.4
+	Release-3-2-1:1.4.0.4
+	Release-3-1-8:1.4.0.2
+	Release-3-0-8_root:1.3
+	Release-3-0-8_Root:1.3
+	Release-3-0-8:1.3.0.2
+	Release-2-0-8:1.2.0.4
+	Release-2-0-7_Root:1.1
+	Release-2-0-7:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.8
+date	2010.02.18.17.25.32;	author jost_boekemeier;	state dead;
+branches;
+next	1.7;
+
+1.7
+date	2008.12.11.21.05.45;	author jost_boekemeier;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.12.28.13.56.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2007.09.30.16.07.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.06.19.20.37.14;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.02.03.17.41.36;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.08.11.18.08.16;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.07.03.20.14.53;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Release-6-0-0
+@
+text
+@;; -*- mode: Scheme; tab-width:4 -*-
+
+;; mono.ini: Activate the PHP/Mono extension
+
+;; zend_extension = "/path/to/mono.so"
+extension = mono.so
+
+;; If you have installed the mono-servlet.ini leave this file alone,
+;; edit the servlet or standalone ini file.  Otherwise uncomment the
+;; following mono section and one of the following options:
+[mono]
+
+;; The host, port and protocol.
+mono.hosts     = 127.0.0.1:9167
+mono.servlet   = Off ;; Off
+
+
+;; The request log level between 0 (log off) and 4 (log debug). The
+;; default request log level is initialized with the value from to the
+;; Mono system property "php.mono.bridge.default_log_level".
+;; The default level is 2 (servlet) or 3 (standalone).
+
+; mono.log_level  = 3
+@
+
+
+1.7
+log
+@java autostart removed
+@
+text
+@@
+
+
+1.6
+log
+@Release-4-3-3
+@
+text
+@d3 1
+a3 15
+;; Copy this file to the php ini directory (usually /etc/php.d) or
+;; copy its content to the global php.ini (usually /etc/php.ini or
+;; /usr/local/lib/php.ini).
+;; 
+;; Use the mono.socketname and java.hosts to 
+;; control the operation mode:
+;;
+;; 1) mono.socketname set: local system backend started by the
+;;    php-mono-bridge service script.
+;;
+;; 2) mono.hosts set: external backend(s) on a different server(s).
+;;
+;; 3) mono.socketname and mono.hosts off: local backend which
+;;    starts automatically.
+;;
+d5 2
+a6 2
+;; Uncomment one of the following options to enable the extension
+;; permanently.  The .so is for Linux/Unix, the .dll for Windows.
+d8 3
+a10 3
+;; zend_extension="/path/to/mono.so"
+extension = mono.so
+;extension = php_mono.dll
+d13 3
+a16 41
+;; log level between 0 (log off) and 4 (log debug). The default level
+;; is 1
+;mono.log_level  = 2
+
+
+;; OPTION 1: Use a local backend
+
+;; If you want to start the VM separately, double-click on
+;; MonoBridge.exe or use the php-mono-bridge service script to start
+;; and stop the backend as a system service.  Please see the RedHat
+;; RPM download for an example how to start mono as a system service.
+
+;mono.socketname = 9167
+
+
+;; OPTION 2: Use an application server
+
+;; If you have an application server running on a different machine,
+;; adjust and uncomment the following option:
+
+;mono.hosts     = "192.168.5.203:9167"
+
+
+;; OPTION 3: start the VM automatically (Linux/Unix only) 
+
+;; Disable the above "mono.socketname" and "mono.hosts" options,
+;; adjust the following settings, if needed.  mono.mono_home is the
+;; directory which contains the MonoBridge.exe and the .dll's it
+;; needs. The mono.mono is the mono executable, usually /usr/bin/mono
+;; or /usr/local/bin/mono. "mono.log_file" is the log file. If off,
+;; the output appears in the web server log file. On windows all these
+;; settings are meaningless because the MonoBridge.exe cannot be
+;; started automatically.  Use option 1 or 2 instead.
+
+;; for php4:
+;mono.mono_home = /usr/lib/php4
+;; for php5:
+;mono.mono_home = /usr/lib/php/modules
+
+;mono.mono = mono
+;mono.mono = /usr/local/bin/mono
+d18 4
+d23 1
+a23 4
+;; The default "mono.log_file" is the standard output, which
+;; application servers and the php-java-bridge service script
+;; re-direct to their own log files.
+;mono.log_file = /var/log/php-mono-bridge.log
+@
+
+
+1.5
+log
+@Release-4-3-0
+@
+text
+@d22 1
+@
+
+
+1.4
+log
+@Release-3-1-0
+@
+text
+@d22 1
+a22 1
+;extension = mono.so
+d28 2
+a29 2
+;; is 2.
+mono.log_level  = 2
+d64 1
+a64 1
+mono.mono_home = /usr/lib/php/modules
+d66 1
+a66 1
+mono.mono = mono
+@
+
+
+1.3
+log
+@Release-3.0.7
+@
+text
+@a18 6
+
+;; THE FOLLOWING OPTION IS FOR TESTING ONLY, PLEASE REMOVE IT BEFORE
+;; INSTALLING THIS FILE IN ONE OF THE SYSTEM DIRECTORIES.
+extension_dir=./extensions
+
+
+d29 1
+a29 1
+mono.log_level  = 3
+d64 1
+a64 1
+;mono.mono_home = /usr/lib/php/modules
+d66 1
+a66 1
+;mono.mono = /usr/bin/mono
+@
+
+
+1.2
+log
+@Release-2.0.8-preview
+@
+text
+@d35 1
+a35 1
+mono.log_level  = 2
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d35 1
+a35 1
+mono.log_level  = 1
+@
+

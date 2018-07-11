@@ -1,0 +1,1085 @@
+head	1.17;
+access;
+symbols
+	Version-1:1.14.0.6
+	Version-2:1.14.0.4
+	Release-2:1.14.0.2
+	PHP-5:1.6.0.4
+	Release-1-0-6:1.6.0.6
+	sparc-64-test:1.4.0.2
+	V-2004-08-28:1.1.1.1
+	PHP-JAVA-BRIDGE:1.1.1;
+locks; strict;
+comment	@ * @;
+expand	@k@;
+
+
+1.17
+date	2005.02.15.19.34.56;	author jost2345;	state dead;
+branches;
+next	1.16;
+
+1.16
+date	2005.02.15.19.10.29;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.02.13.21.43.28;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.12.20.20.04.43;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.12.03.18.35.21;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.12.01.20.29.57;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.11.28.21.12.57;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.11.26.21.13.40;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.11.24.23.18.16;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.11.21.14.44.55;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.11.16.23.28.17;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.10.12.17.07.16;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.10.11.18.11.52;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.10.09.11.35.17;	author jost2345;	state Exp;
+branches
+	1.4.2.1;
+next	1.3;
+
+1.3
+date	2004.10.04.16.34.19;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.08.29.15.24.30;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.08.28.06.05.55;	author jost2345;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2004.08.28.06.05.55;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2004.10.09.21.57.20;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@/*-*- mode: C; tab-width:4 -*-*/
+
+#include <stdarg.h>
+#include <assert.h>
+#include <errno.h>
+#include <string.h>
+#include <stdlib.h>
+
+#include "protocol.h"
+#include "php_wrapper.h"
+#include "sio.c"
+
+#define swrite java_swrite
+void java_swrite(const  void  *ptr,  size_t  size,  size_t  nmemb,  SFILE *stream) {
+  int n = SFWRITE(ptr, size, nmemb, stream);
+  //printf("write char:::%d\n", (unsigned int) ((char*)ptr)[0]);
+  assert(n==nmemb);
+  if(n!=nmemb) exit(7);
+}
+
+#define sread java_sread
+void java_sread(void *ptr, size_t size, size_t nmemb, SFILE *stream) {
+  int n = SFREAD(ptr, size, nmemb, stream);
+  //printf("read char:::%d\n", (unsigned int) ((char*)ptr)[0]);
+  assert(n==nmemb);
+  if(n!=nmemb) exit(7);
+}
+
+#define id java_id
+void java_id(proxyenv *env, char id) {
+  swrite(&id, sizeof id, 1, (*env)->peer);
+}
+
+/*
+ * The following Invoke, CreateObject, GetSetProp and LastException  methods start everything
+ */
+static void do_invoke(proxyenv *env, jobject php_reflect, jmethodID invoke, jobject obj, jstring method, jobjectArray array, jlong result) {
+  swrite(&php_reflect, sizeof php_reflect, 1, (*env)->peer);
+  swrite(&invoke, sizeof invoke, 1, (*env)->peer);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  swrite(&method, sizeof method, 1, (*env)->peer);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  (*env)->handle_request(env);
+}
+static void Invoke(proxyenv *env, jobject php_reflect, jmethodID invoke, jobject obj, jstring method, jobjectArray array, jlong result) {
+  id(env, INVOKE);
+  do_invoke(env, php_reflect, invoke, obj, method, array, result);
+}
+
+static void LastException(proxyenv *env, jobject php_reflect, jmethodID lastEx, jlong result) {
+  id(env, LASTEXCEPTION);
+  swrite(&php_reflect, sizeof php_reflect, 1, (*env)->peer);
+  swrite(&lastEx, sizeof lastEx, 1, (*env)->peer);
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  (*env)->handle_request(env);
+}
+static void CreateObject(proxyenv *env, jobject php_reflect, jmethodID invoke, jstring method, jboolean createInstance, jobjectArray array, jlong result) {
+  id(env, CREATEOBJECT);
+  swrite(&php_reflect, sizeof php_reflect, 1, (*env)->peer);
+  swrite(&invoke, sizeof invoke, 1, (*env)->peer);
+  swrite(&method, sizeof method, 1, (*env)->peer);
+  swrite(&createInstance, sizeof createInstance, 1, (*env)->peer);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  (*env)->handle_request(env);
+}
+
+static void GetSetProp(proxyenv *env, jobject php_reflect, jmethodID gsp, jobject obj, jstring propName, jobjectArray value, jlong result) {
+  id(env, GETSETPROP);
+  do_invoke(env, php_reflect, gsp, obj, propName, value, result);
+}
+
+
+
+static jobject AllocObject (proxyenv *env, jclass clazz) {
+  jobject result;
+  id(env, ALLOCOBJECT);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jobject CallObjectMethodA (short count, proxyenv *env, jobject obj, jmethodID methodID, const jvalue *args) {
+  jobject result;
+  id(env, CALLOBJECTMETHOD);
+  swrite(&count, sizeof count, 1, (*env)->peer);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  swrite(&methodID, sizeof methodID, 1, (*env)->peer);
+  swrite(args, sizeof*args, count, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static void CallVoidMethodA (short count, proxyenv *env, jobject obj, jmethodID methodID, const jvalue *args) {
+  id(env, CALLVOIDMETHOD);
+  swrite(&count, sizeof count, 1, (*env)->peer);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  swrite(&methodID, sizeof methodID, 1, (*env)->peer);
+  swrite(args, sizeof*args, count, (*env)->peer);
+}
+static void DeleteGlobalRef (proxyenv *env, jobject gref) {
+  id(env, DELETEGLOBALREF);
+  swrite(&gref, sizeof gref, 1, (*env)->peer);
+}
+static void ExceptionClear (proxyenv *env) {
+  id(env, EXCEPTIONCLEAR);
+}
+static jthrowable ExceptionOccurred (proxyenv *env) {
+  jthrowable result;
+  id(env, EXCEPTIONOCCURRED);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jclass FindClass (proxyenv *env, const char *name) {
+  size_t len=strlen(name);
+  jclass clazz;
+  id(env, FINDCLASS);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(name, sizeof*name, len, (*env)->peer);
+  sread(&clazz, sizeof clazz, 1, (*env)->peer);
+  return clazz;
+}
+static jsize GetArrayLength (proxyenv *env, jarray array) {
+  jsize result;
+  id(env, GETARRAYLENGTH);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jbyte *GetByteArrayElements (proxyenv *env, jbyteArray array, jboolean *isCopy) {
+  size_t count;
+  jboolean dummy;
+  jbyte *result;
+  id(env, GETBYTEARRAYELEMENTS);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  sread(&dummy, sizeof dummy, 1, (*env)->peer);
+  sread(&count, sizeof count, 1, (*env)->peer);
+  result=(jbyte*)calloc(count, sizeof*result);
+  assert(result); if(!result) exit(6);
+  sread(result, sizeof*result, count, (*env)->peer);
+  assert(isCopy);
+  if(isCopy) *isCopy=dummy;
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jmethodID GetMethodID (proxyenv *env, jclass clazz, const char *name, const char *sig) {
+  jmethodID mid;
+  size_t len;
+  id(env, GETMETHODID);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  len=strlen(name);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(name, sizeof*name, len, (*env)->peer);
+  len=strlen(sig);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(sig, sizeof*sig, len, (*env)->peer);
+  sread(&mid, sizeof mid, 1, (*env)->peer);
+  return mid;
+}
+static jclass GetObjectClass (proxyenv *env, jobject obj) {
+  jclass result;
+  id(env, GETOBJECTCLASS);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static const char* GetStringUTFChars (proxyenv *env, jstring str, jboolean *isCopy) {
+  size_t count;
+  char *result;
+  jboolean dummy;
+  id(env, GETSTRINGUTFCHARS);
+  swrite(&str, sizeof str, 1, (*env)->peer);
+  sread(&dummy, sizeof dummy, 1, (*env)->peer);
+  sread(&count, sizeof count, 1, (*env)->peer);
+  result=(char*)malloc(count+1);
+  assert(result);
+  sread(result, sizeof*result, count, (*env)->peer);
+  result[count]=0;
+  assert(isCopy);
+  if(isCopy) *isCopy=dummy;
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jbyteArray NewByteArray (proxyenv *env, jsize len) {
+  jbyteArray result;
+  id(env, NEWBYTEARRAY);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jobject NewGlobalRef (proxyenv *env, jobject lobj) {
+  jobject result;
+  id(env, NEWGLOBALREF);
+  swrite(&lobj, sizeof lobj, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jobject NewObjectA (short count, proxyenv *env, jclass clazz, jmethodID methodID, const jvalue *args) {
+  jobject result;
+  id(env, NEWOBJECT);
+  swrite(&count, sizeof count, 1, (*env)->peer);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  swrite(&methodID, sizeof methodID, 1, (*env)->peer);
+  swrite(args, sizeof*args, count, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jobjectArray NewObjectArray (proxyenv *env, jsize len, jclass clazz, jobject init) {
+  jobjectArray result;
+  id(env, NEWOBJECTARRAY);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  swrite(&init, sizeof init, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jstring NewStringUTF (proxyenv *env, const char *utf) {
+  jstring result;
+  size_t length=strlen(utf);
+  id(env, NEWSTRINGUTF);
+  swrite(&length, sizeof length, 1, (*env)->peer);
+  swrite(utf, sizeof*utf, length, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static void ReleaseByteArrayElements (proxyenv *env, jbyteArray array, jbyte *elems, jint mode) {
+  id(env, RELEASEBYTEARRAYELEMENTS);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&elems, sizeof elems, 1, (*env)->peer);
+  swrite(&mode, sizeof mode, 1, (*env)->peer);
+  assert(!mode);
+  free(elems);
+}
+static void ReleaseStringUTFChars (proxyenv *env, jstring array, const char*elems) {
+  id(env, RELEASESTRINGUTFCHARS);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&elems, sizeof elems, 1, (*env)->peer);
+  free((char*)elems);
+}
+static void SetByteArrayRegion (proxyenv *env, jbyteArray array, jsize start, jsize len, jbyte *buf) {
+  id(env, SETBYTEARRAYREGION);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&start, sizeof start, 1, (*env)->peer);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(buf, sizeof*buf, len, (*env)->peer);
+}
+static void SetObjectArrayElement (proxyenv *env, jobjectArray array, jsize index, jobject val) {
+  id(env, SETOBJECTARRAYELEMENT);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&index, sizeof index, 1, (*env)->peer);
+  swrite(&val, sizeof val, 1, (*env)->peer);
+}
+
+static jboolean IsInstanceOf(proxyenv *env, jobject obj, jobject clazz) {
+  jboolean result;
+  id(env, ISINSTANCEOF);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+
+proxyenv *java_createSecureEnvironment(SFILE *peer, int (*handle_request)(proxyenv *env)) {
+  proxyenv *env;  
+  env=(proxyenv*)malloc(sizeof *env);     
+  if(!env) return 0;
+  *env=(proxyenv)calloc(1, sizeof **env); 
+  if(!*env) {free(env); return 0;}
+
+  (*env)->peer = peer;
+  (*env)->handle_request = handle_request;
+
+  (*env)->LastException=LastException;
+  (*env)->GetSetProp=GetSetProp;
+  (*env)->Invoke=Invoke;
+  (*env)->CreateObject=CreateObject;
+  (*env)->AllocObject=AllocObject;
+  (*env)->CallObjectMethodA=CallObjectMethodA;
+  (*env)->CallVoidMethodA=CallVoidMethodA;
+  (*env)->DeleteGlobalRef=DeleteGlobalRef;
+  (*env)->ExceptionClear=ExceptionClear;
+  (*env)->ExceptionOccurred=ExceptionOccurred;
+  (*env)->FindClass=FindClass;
+  (*env)->GetArrayLength=GetArrayLength;
+  (*env)->GetByteArrayElements=GetByteArrayElements;
+  (*env)->GetMethodID=GetMethodID;
+  (*env)->GetObjectClass=GetObjectClass;
+  (*env)->GetStringUTFChars=GetStringUTFChars;
+  (*env)->NewByteArray=NewByteArray;
+  (*env)->NewGlobalRef=NewGlobalRef;
+  (*env)->NewObjectA=NewObjectA;
+  (*env)->NewObjectArray=NewObjectArray;
+  (*env)->NewStringUTF=NewStringUTF;
+  (*env)->ReleaseByteArrayElements=ReleaseByteArrayElements;
+  (*env)->ReleaseStringUTFChars=ReleaseStringUTFChars;
+  (*env)->SetByteArrayRegion=SetByteArrayRegion;
+  (*env)->SetObjectArrayElement=SetObjectArrayElement;
+  (*env)->IsInstanceOf=IsInstanceOf;
+
+  return env;
+} 
+
+#ifndef PHP_WRAPPER_H
+#error must include php_wrapper.h
+#endif
+@
+
+
+1.16
+log
+@Replaced JNI with XML protocol
+@
+text
+@@
+
+
+1.15
+log
+@Replaced JNI with XML protocol
+@
+text
+@d1 304
+@
+
+
+1.14
+log
+@use java security instead of dropping the process privileges
+@
+text
+@a0 304
+/*-*- mode: C; tab-width:4 -*-*/
+
+#include <stdarg.h>
+#include <assert.h>
+#include <errno.h>
+#include <string.h>
+#include <stdlib.h>
+
+#include "protocol.h"
+#include "php_wrapper.h"
+#include "sio.c"
+
+#define swrite java_swrite
+void java_swrite(const  void  *ptr,  size_t  size,  size_t  nmemb,  SFILE *stream) {
+  int n = SFWRITE(ptr, size, nmemb, stream);
+  //printf("write char:::%d\n", (unsigned int) ((char*)ptr)[0]);
+  assert(n==nmemb);
+  if(n!=nmemb) exit(7);
+}
+
+#define sread java_sread
+void java_sread(void *ptr, size_t size, size_t nmemb, SFILE *stream) {
+  int n = SFREAD(ptr, size, nmemb, stream);
+  //printf("read char:::%d\n", (unsigned int) ((char*)ptr)[0]);
+  assert(n==nmemb);
+  if(n!=nmemb) exit(7);
+}
+
+#define id java_id
+void java_id(proxyenv *env, char id) {
+  swrite(&id, sizeof id, 1, (*env)->peer);
+}
+
+/*
+ * The following Invoke, CreateObject, GetSetProp and LastException  methods start everything
+ */
+static void do_invoke(proxyenv *env, jobject php_reflect, jmethodID invoke, jobject obj, jstring method, jobjectArray array, jlong result) {
+  swrite(&php_reflect, sizeof php_reflect, 1, (*env)->peer);
+  swrite(&invoke, sizeof invoke, 1, (*env)->peer);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  swrite(&method, sizeof method, 1, (*env)->peer);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  (*env)->handle_request(env);
+}
+static void Invoke(proxyenv *env, jobject php_reflect, jmethodID invoke, jobject obj, jstring method, jobjectArray array, jlong result) {
+  id(env, INVOKE);
+  do_invoke(env, php_reflect, invoke, obj, method, array, result);
+}
+
+static void LastException(proxyenv *env, jobject php_reflect, jmethodID lastEx, jlong result) {
+  id(env, LASTEXCEPTION);
+  swrite(&php_reflect, sizeof php_reflect, 1, (*env)->peer);
+  swrite(&lastEx, sizeof lastEx, 1, (*env)->peer);
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  (*env)->handle_request(env);
+}
+static void CreateObject(proxyenv *env, jobject php_reflect, jmethodID invoke, jstring method, jboolean createInstance, jobjectArray array, jlong result) {
+  id(env, CREATEOBJECT);
+  swrite(&php_reflect, sizeof php_reflect, 1, (*env)->peer);
+  swrite(&invoke, sizeof invoke, 1, (*env)->peer);
+  swrite(&method, sizeof method, 1, (*env)->peer);
+  swrite(&createInstance, sizeof createInstance, 1, (*env)->peer);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  (*env)->handle_request(env);
+}
+
+static void GetSetProp(proxyenv *env, jobject php_reflect, jmethodID gsp, jobject obj, jstring propName, jobjectArray value, jlong result) {
+  id(env, GETSETPROP);
+  do_invoke(env, php_reflect, gsp, obj, propName, value, result);
+}
+
+
+
+static jobject AllocObject (proxyenv *env, jclass clazz) {
+  jobject result;
+  id(env, ALLOCOBJECT);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jobject CallObjectMethodA (short count, proxyenv *env, jobject obj, jmethodID methodID, const jvalue *args) {
+  jobject result;
+  id(env, CALLOBJECTMETHOD);
+  swrite(&count, sizeof count, 1, (*env)->peer);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  swrite(&methodID, sizeof methodID, 1, (*env)->peer);
+  swrite(args, sizeof*args, count, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static void CallVoidMethodA (short count, proxyenv *env, jobject obj, jmethodID methodID, const jvalue *args) {
+  id(env, CALLVOIDMETHOD);
+  swrite(&count, sizeof count, 1, (*env)->peer);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  swrite(&methodID, sizeof methodID, 1, (*env)->peer);
+  swrite(args, sizeof*args, count, (*env)->peer);
+}
+static void DeleteGlobalRef (proxyenv *env, jobject gref) {
+  id(env, DELETEGLOBALREF);
+  swrite(&gref, sizeof gref, 1, (*env)->peer);
+}
+static void ExceptionClear (proxyenv *env) {
+  id(env, EXCEPTIONCLEAR);
+}
+static jthrowable ExceptionOccurred (proxyenv *env) {
+  jthrowable result;
+  id(env, EXCEPTIONOCCURRED);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jclass FindClass (proxyenv *env, const char *name) {
+  size_t len=strlen(name);
+  jclass clazz;
+  id(env, FINDCLASS);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(name, sizeof*name, len, (*env)->peer);
+  sread(&clazz, sizeof clazz, 1, (*env)->peer);
+  return clazz;
+}
+static jsize GetArrayLength (proxyenv *env, jarray array) {
+  jsize result;
+  id(env, GETARRAYLENGTH);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jbyte *GetByteArrayElements (proxyenv *env, jbyteArray array, jboolean *isCopy) {
+  size_t count;
+  jboolean dummy;
+  jbyte *result;
+  id(env, GETBYTEARRAYELEMENTS);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  sread(&dummy, sizeof dummy, 1, (*env)->peer);
+  sread(&count, sizeof count, 1, (*env)->peer);
+  result=(jbyte*)calloc(count, sizeof*result);
+  assert(result); if(!result) exit(6);
+  sread(result, sizeof*result, count, (*env)->peer);
+  assert(isCopy);
+  if(isCopy) *isCopy=dummy;
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jmethodID GetMethodID (proxyenv *env, jclass clazz, const char *name, const char *sig) {
+  jmethodID mid;
+  size_t len;
+  id(env, GETMETHODID);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  len=strlen(name);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(name, sizeof*name, len, (*env)->peer);
+  len=strlen(sig);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(sig, sizeof*sig, len, (*env)->peer);
+  sread(&mid, sizeof mid, 1, (*env)->peer);
+  return mid;
+}
+static jclass GetObjectClass (proxyenv *env, jobject obj) {
+  jclass result;
+  id(env, GETOBJECTCLASS);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static const char* GetStringUTFChars (proxyenv *env, jstring str, jboolean *isCopy) {
+  size_t count;
+  char *result;
+  jboolean dummy;
+  id(env, GETSTRINGUTFCHARS);
+  swrite(&str, sizeof str, 1, (*env)->peer);
+  sread(&dummy, sizeof dummy, 1, (*env)->peer);
+  sread(&count, sizeof count, 1, (*env)->peer);
+  result=(char*)malloc(count+1);
+  assert(result);
+  sread(result, sizeof*result, count, (*env)->peer);
+  result[count]=0;
+  assert(isCopy);
+  if(isCopy) *isCopy=dummy;
+  swrite(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jbyteArray NewByteArray (proxyenv *env, jsize len) {
+  jbyteArray result;
+  id(env, NEWBYTEARRAY);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jobject NewGlobalRef (proxyenv *env, jobject lobj) {
+  jobject result;
+  id(env, NEWGLOBALREF);
+  swrite(&lobj, sizeof lobj, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jobject NewObjectA (short count, proxyenv *env, jclass clazz, jmethodID methodID, const jvalue *args) {
+  jobject result;
+  id(env, NEWOBJECT);
+  swrite(&count, sizeof count, 1, (*env)->peer);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  swrite(&methodID, sizeof methodID, 1, (*env)->peer);
+  swrite(args, sizeof*args, count, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jobjectArray NewObjectArray (proxyenv *env, jsize len, jclass clazz, jobject init) {
+  jobjectArray result;
+  id(env, NEWOBJECTARRAY);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  swrite(&init, sizeof init, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static jstring NewStringUTF (proxyenv *env, const char *utf) {
+  jstring result;
+  size_t length=strlen(utf);
+  id(env, NEWSTRINGUTF);
+  swrite(&length, sizeof length, 1, (*env)->peer);
+  swrite(utf, sizeof*utf, length, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+static void ReleaseByteArrayElements (proxyenv *env, jbyteArray array, jbyte *elems, jint mode) {
+  id(env, RELEASEBYTEARRAYELEMENTS);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&elems, sizeof elems, 1, (*env)->peer);
+  swrite(&mode, sizeof mode, 1, (*env)->peer);
+  assert(!mode);
+  free(elems);
+}
+static void ReleaseStringUTFChars (proxyenv *env, jstring array, const char*elems) {
+  id(env, RELEASESTRINGUTFCHARS);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&elems, sizeof elems, 1, (*env)->peer);
+  free((char*)elems);
+}
+static void SetByteArrayRegion (proxyenv *env, jbyteArray array, jsize start, jsize len, jbyte *buf) {
+  id(env, SETBYTEARRAYREGION);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&start, sizeof start, 1, (*env)->peer);
+  swrite(&len, sizeof len, 1, (*env)->peer);
+  swrite(buf, sizeof*buf, len, (*env)->peer);
+}
+static void SetObjectArrayElement (proxyenv *env, jobjectArray array, jsize index, jobject val) {
+  id(env, SETOBJECTARRAYELEMENT);
+  swrite(&array, sizeof array, 1, (*env)->peer);
+  swrite(&index, sizeof index, 1, (*env)->peer);
+  swrite(&val, sizeof val, 1, (*env)->peer);
+}
+
+static jboolean IsInstanceOf(proxyenv *env, jobject obj, jobject clazz) {
+  jboolean result;
+  id(env, ISINSTANCEOF);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+  swrite(&clazz, sizeof clazz, 1, (*env)->peer);
+  sread(&result, sizeof result, 1, (*env)->peer);
+  return result;
+}
+
+proxyenv *java_createSecureEnvironment(SFILE *peer, int (*handle_request)(proxyenv *env)) {
+  proxyenv *env;  
+  env=(proxyenv*)malloc(sizeof *env);     
+  if(!env) return 0;
+  *env=(proxyenv)calloc(1, sizeof **env); 
+  if(!*env) {free(env); return 0;}
+
+  (*env)->peer = peer;
+  (*env)->handle_request = handle_request;
+
+  (*env)->LastException=LastException;
+  (*env)->GetSetProp=GetSetProp;
+  (*env)->Invoke=Invoke;
+  (*env)->CreateObject=CreateObject;
+  (*env)->AllocObject=AllocObject;
+  (*env)->CallObjectMethodA=CallObjectMethodA;
+  (*env)->CallVoidMethodA=CallVoidMethodA;
+  (*env)->DeleteGlobalRef=DeleteGlobalRef;
+  (*env)->ExceptionClear=ExceptionClear;
+  (*env)->ExceptionOccurred=ExceptionOccurred;
+  (*env)->FindClass=FindClass;
+  (*env)->GetArrayLength=GetArrayLength;
+  (*env)->GetByteArrayElements=GetByteArrayElements;
+  (*env)->GetMethodID=GetMethodID;
+  (*env)->GetObjectClass=GetObjectClass;
+  (*env)->GetStringUTFChars=GetStringUTFChars;
+  (*env)->NewByteArray=NewByteArray;
+  (*env)->NewGlobalRef=NewGlobalRef;
+  (*env)->NewObjectA=NewObjectA;
+  (*env)->NewObjectArray=NewObjectArray;
+  (*env)->NewStringUTF=NewStringUTF;
+  (*env)->ReleaseByteArrayElements=ReleaseByteArrayElements;
+  (*env)->ReleaseStringUTFChars=ReleaseStringUTFChars;
+  (*env)->SetByteArrayRegion=SetByteArrayRegion;
+  (*env)->SetObjectArrayElement=SetObjectArrayElement;
+  (*env)->IsInstanceOf=IsInstanceOf;
+
+  return env;
+} 
+
+#ifndef PHP_WRAPPER_H
+#error must include php_wrapper.h
+#endif
+@
+
+
+1.13
+log
+@release 1.0.7
+@
+text
+@d18 1
+a18 1
+  if(n!=nmemb) exit(6);
+d138 1
+a138 1
+  assert(result);
+d265 1
+a265 1
+  if(!env) exit(9);
+d267 1
+a267 1
+  if(!*env) exit(9);
+@
+
+
+1.12
+log
+@release 1.0.7
+@
+text
+@a93 1
+  jobject result;
+@
+
+
+1.11
+log
+@trampoline
+@
+text
+@d10 1
+d83 1
+a83 3
+static jobject CallObjectMethod (short count, proxyenv *env, jobject obj, jmethodID methodID, ...) {
+  va_list args;
+  jvalue arg;
+d89 1
+a89 6
+  va_start(args, methodID);
+  while(count--) {
+	arg=va_arg(args,jvalue );
+	swrite(&arg, sizeof arg, 1, (*env)->peer);
+  }
+  va_end(args);
+d93 1
+a93 3
+static void CallVoidMethod (short count, proxyenv *env, jobject obj, jmethodID methodID, ...) {
+  va_list args;
+  jvalue arg;
+d99 1
+a99 6
+  va_start(args, methodID);
+  while(count--) {
+	arg=va_arg(args, jvalue);
+	swrite(&arg, sizeof arg, 1, (*env)->peer);
+  }
+  va_end(args);
+d198 1
+a198 3
+static jobject NewObject (short count, proxyenv *env, jclass clazz, jmethodID methodID, ...) {
+  va_list args;
+  jvalue arg;
+d204 1
+a204 6
+  va_start(args, methodID);
+  while(count--) {
+	arg=va_arg(args, jvalue);
+	swrite(&arg, sizeof arg, 1, (*env)->peer);
+  }
+  va_end(args);
+d278 2
+a279 2
+  (*env)->CallObjectMethod=CallObjectMethod;
+  (*env)->CallVoidMethod=CallVoidMethod;
+d291 1
+a291 1
+  (*env)->NewObject=NewObject;
+d302 4
+@
+
+
+1.10
+log
+@php 5
+@
+text
+@a117 4
+static void DeleteLocalRef (proxyenv *env, jobject obj) {
+  id(env, DELETELOCALREF);
+  swrite(&obj, sizeof obj, 1, (*env)->peer);
+}
+a300 1
+  (*env)->DeleteLocalRef=DeleteLocalRef;
+@
+
+
+1.9
+log
+@PHP5 iterator/array
+@
+text
+@d278 1
+a278 1
+static jboolean IsInstanceOf(proxyenv *env, jobject obj, jclass clazz) {
+@
+
+
+1.8
+log
+@php 4/5
+@
+text
+@d278 8
+d323 1
+@
+
+
+1.7
+log
+@PHP 5 support
+@
+text
+@d57 1
+a57 1
+static void CreateObject(proxyenv *env, jobject php_reflect, jmethodID invoke, jstring method, jobjectArray array, jlong result) {
+d62 1
+@
+
+
+1.6
+log
+@Added support for Slowlaris' broken stdio:
+SFREAD SFWRITE SFDOPEN SFCLOSE SFEOF SFERROR: Use these instead of the stdio
+versions.  On Solaris these functions access the raw socket, which is slow
+but at least it works
+@
+text
+@d12 2
+a13 1
+static void swrite(const  void  *ptr,  size_t  size,  size_t  nmemb,  SFILE *stream) {
+d15 1
+a15 1
+  //printf("write char:.:%d\n", (unsigned int) ((char*)ptr)[0]);
+d17 1
+d19 3
+a21 1
+static void sread(void *ptr, size_t size, size_t nmemb, SFILE *stream) {
+d23 1
+a23 1
+  //printf("read char:.:%d\n", (unsigned int) ((char*)ptr)[0]);
+d25 1
+d27 3
+a29 1
+static void id(proxyenv *env, char id) {
+a31 1
+  
+@
+
+
+1.5
+log
+@Fixed a bug that appeared on Slowlaris 9 stdio implementations.
+
+From the BSD fopen(3) manpage (solaris' own manpage is pretty useless):
+
+     Reads and writes may be intermixed on read/write streams in any order,
+     and do not require an intermediate seek as in previous versions of stdio.
+     This is not portable to other systems, however; ANSI C requires that a
+     file positioning function intervene between output and input, unless an
+     input operation encounters end-of-file.
+
+
+One of these "other systems" is solaris 9. From Linux' manpage:
+
+       Reads  and writes may be intermixed on read/write streams in any order.
+       Note that ANSI C requires that a file  positioning  function  intervene
+       between  output and input, unless an input operation encounters end-of-
+       file.  (If this condition is not met, then a read is allowed to  return
+       the result of writes other than the most recent.)  Therefore it is good
+       practice (and indeed sometimes necessary under Linux) to put  an  fseek
+       or  fgetpos  operation  between  write  and  read  operations on such a
+       stream.  This operation may be an apparent no-op (as in fseek(...,  0L,
+       SEEK_CUR) called for its synchronizing side effect.
+
+The problem is that the above paragraph does not apply to fdopen'ed streams
+because these streams are not seekable.  Applying a seek operation on a
+socket stream generates an error:
+
+From Nathan Kurz:
+
+ Ok, so I'll put one in.  But everything I try comes back with an error that the
+ operation is not permitted.  I've tried all the combinations of fseek() and
+ fsetpos() that I can think of (to the current position, to the beginning, the
+ end) but (logically enough) none are supported.
+
+
+So one cannot use fseek on sockets streams. That's why *all* stdio
+implementations, except Solaris' do *not* require fseek() anymore.
+
+
+But that still does not solve our problem; we must rewind the Solaris stdio
+buffers somehow.  fseek() does not work, but fortunately fflush() does
+what we want. In other words, this is a hack that Sun invented to make
+stdio buffers work with socket streams.  Die, sun, DIE!
+
+Bugfix:  Call fflush right before fwrite and fread so that the
+Sun stdio implementation rewinds the bufer pointers.
+@
+text
+@d10 1
+d12 2
+a13 4
+static void swrite(const  void  *ptr,  size_t  size,  size_t  nmemb,  FILE *stream) {
+  int n;
+  fflush(stream);
+  n = fwrite(ptr, size, nmemb, stream);
+d17 2
+a18 4
+static void sread(void *ptr, size_t size, size_t nmemb, FILE *stream) {
+  int n;
+  fflush(stream);
+  n = fread(ptr, size, nmemb, stream);
+d272 1
+a272 1
+proxyenv *java_createSecureEnvironment(FILE *peer, int (*handle_request)(proxyenv *env)) {
+@
+
+
+1.4
+log
+@more expressive error messages
+@
+text
+@d12 3
+a14 1
+  int n = fwrite(ptr, size, nmemb, stream);
+d19 3
+a21 1
+  int n = fread(ptr, size, nmemb, stream);
+@
+
+
+1.4.2.1
+log
+@workaround for broken sparc stdio
+@
+text
+@a9 1
+#include "jfile.c"
+d11 2
+a12 2
+static void swrite(const  void  *ptr,  size_t  size,  size_t  nmemb,  JFILE *stream) {
+  int n = java_fwrite(ptr, size, nmemb, stream);
+d16 2
+a17 2
+static void sread(void *ptr, size_t size, size_t nmemb, JFILE *stream) {
+  int n = java_fread(ptr, size, nmemb, stream);
+d271 1
+a271 1
+proxyenv *java_createSecureEnvironment(JFILE *peer, int (*handle_request)(proxyenv *env)) {
+@
+
+
+1.3
+log
+@version
+@
+text
+@d273 4
+a276 2
+  env=(proxyenv*)malloc(sizeof *env);
+  *env=(proxyenv)calloc(1, sizeof **env);
+@
+
+
+1.2
+log
+@update to 1.0.0
+@
+text
+@d254 1
+a254 1
+  free(elems);
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d6 2
+d124 1
+a124 1
+  short len=strlen(name);
+d140 1
+a140 1
+  short count;
+d157 1
+a157 1
+  short len;
+d177 1
+a177 1
+  short count;
+d235 1
+a235 1
+  short length=strlen(utf);
+a242 1
+  short count;
+a250 1
+  short count;
+@
+
+
+1.1.1.1
+log
+@Initial
+@
+text
+@@

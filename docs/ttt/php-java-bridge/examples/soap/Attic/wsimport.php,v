@@ -1,0 +1,48 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2006.04.26.19.14.24;	author jost2345;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2006.04.20.17.16.08;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<?php
+
+$HOST="192.168.6.203";
+$PORT=8080;
+$SERVICE="jaxws-fromwsdl/addnumbers?wsdl";
+
+$java=ini_get("java.java"); if(!$java) $java="java";
+$wsimport_dir=getcwd(); $ws_libs="-Djava.ext.dirs=/home/jostb/SUNWappserver/lib";
+system("$java $ws_libs com.sun.tools.ws.WsImport -keep http://$HOST:$PORT/$SERVICE");
+
+?>
+@
+
+
+1.1
+log
+@3.1-branch
+@
+text
+@@
+

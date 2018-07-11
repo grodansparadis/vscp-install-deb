@@ -1,0 +1,1600 @@
+head	1.30;
+access;
+symbols
+	upstream_version_5_5:1.29
+	ROOT_Release-5-5:1.29
+	Release-5-5:1.29.0.4
+	debian_version_5_4_4_2-3:1.29
+	Release-5-4-4-2-1:1.29.0.2
+	debian_version_5_4_4_2-2:1.29
+	debian_version_5_4_4_2-1:1.29
+	upstream_version_5_4_4_2:1.29
+	debian_version_5_4_4_1-1:1.26
+	upstream_version_5_4_4_1:1.26
+	debian_version_5_4_4-1:1.25
+	upstream_version_5_4_4:1.25
+	Release-5-4-4:1.25.0.4
+	Root_Release-5-4-4:1.25
+	debian_version_5_4_3_2-1:1.23
+	upstream_version_5_4_3_2:1.23
+	Release_5-4-3-2:1.23.0.2
+	Root_Release_5-4-3-2:1.23
+	upstream_version_5_4_3_1:1.23
+	debian_version_5_4_3_1-1:1.23
+	Release-5-4-3:1.22.0.6
+	Root_Release-5-4-3:1.22
+	Root_Release-5-4-1:1.22
+	Release-5-4-1:1.22.0.4
+	Root_Release-5-4:1.22
+	Release-5-4:1.22.0.2
+	upstream_version_5_3_4:1.20
+	debian_version_5_3_4-1:1.22
+	ROOT_Release-5-3-4:1.20
+	Release-5-3-4:1.20.0.2
+	ROOT_Release-5-3-3:1.17
+	Release-5-3-3:1.17.0.2
+	debian_version_5_3_2_1_2-1:1.16
+	upstream_version_5_3_2_1_2:1.16
+	debian_version_5_3_2_1_1-1:1.16
+	debian_version_5_3_2_1_1:1.16
+	upstream_version_5_3_2_1_1:1.16
+	Root_Release-5-3-2-1:1.16
+	Release-5-3-2-1:1.16
+	ROOT_RELEASE-5-3-2-1:1.16
+	RELEASE-5-3-2-1:1.16.0.10
+	Release-5-3-2:1.16.0.6
+	Root_Release-5-3-2:1.16
+	Root_Release-5-3-1:1.16
+	Release-5-3-1:1.16.0.4
+	Release-5-2-3-1:1.16.0.2
+	Root_Release-5-2-3-1:1.16
+	Release-5-2-2-4:1.15.0.8
+	Root_Release-5-2-2-4:1.15
+	Release-5-2-2-1:1.15.0.6
+	Root_Release-5-2-2-1:1.15
+	upstream_version_5_2_2:1.15
+	debian_version_5_2_2-1:1.15
+	Release-5-2-2:1.15.0.4
+	ROOT_Release-5-2-2:1.15
+	ROOT_Release-5-2-1:1.15
+	Release-5-2-1:1.15.0.2
+	Release-5-2-0:1.14.0.20
+	ROOT_Release-5-2-0:1.14
+	ROOT_Release-5-1-2:1.14
+	Release-5-1-2:1.14.0.18
+	Version-5-1-1:1.14.0.16
+	ROOT_Version-5-1-1:1.14
+	debian_version_5_1_0-1:1.14
+	upstream_version_5_1_0:1.14
+	ROOT_Release-5-1-0:1.14
+	Release-5-1-0:1.14.0.14
+	ROOT_Release-5-0-0:1.14
+	Release-5-0-0:1.14.0.12
+	Release-4-3-3:1.14.0.10
+	ROOT_Release-4-3-3:1.14
+	upstream_version_4_3_2:1.14
+	debian_version_4_3_2-1:1.14
+	ROOT_Release-4-3-2:1.14
+	Release-4-3-2:1.14.0.8
+	Release-4-3-1:1.14.0.6
+	ROOT_Release-4-3-1:1.14
+	debian_version_4_3_0-1:1.14
+	upstream_version_4_3_0:1.14
+	ROOT_Release-4-3-0:1.14
+	Release-4-3-0:1.14.0.4
+	debian_version_3_2_1b-2:1.11
+	debian_version_4_2_2-1:1.14
+	upstream_version_4_2_2:1.14
+	debian_version_3_2_1b-1:1.11
+	upstream_version_3_2_1b:1.11
+	Release-4-1-2:1.14.0.2
+	Release-4-0-8:1.13.0.6
+	debian_version_4_0_8a-1:1.13
+	upstream_version_4_0_8a:1.13
+	jostb-debian-ubuntu-patch:1.13.0.4
+	debian_version_4_0_8-1:1.13
+	upstream_version_4_0_8:1.13
+	debian_version_4_0_7-1:1.13
+	upstream_version_4_0_7:1.13
+	debian_version_4_0_6-1:1.13
+	upstream_version_4_0_6:1.13
+	debian_version_4_0_2-1:1.13
+	upstream_version_4_0_2:1.13
+	Release-4-0-2_Root:1.13
+	Release-4-0-2:1.13.0.2
+	upstream_version_4_0_1:1.12
+	debian_version_4_0_1-2:1.12
+	Release-3-2-1:1.11.0.4
+	Release-3-1-8:1.11.0.2
+	Release-3-0-8_root:1.3.2.1
+	Release-3-0-8_Root:1.4
+	Release-3-0-8:1.3.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.30
+date	2009.07.25.13.56.04;	author jost_boekemeier;	state dead;
+branches;
+next	1.29;
+
+1.29
+date	2009.04.25.12.25.24;	author jost_boekemeier;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2009.04.19.17.24.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2009.04.18.14.57.05;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2009.03.15.15.33.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2009.03.08.17.45.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2009.03.08.14.34.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2009.01.06.17.05.12;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2008.12.02.21.56.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2008.12.02.19.17.51;	author jost_boekemeier;	state dead;
+branches;
+next	1.20;
+
+1.20
+date	2008.11.30.17.08.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2008.10.26.15.23.02;	author jost_boekemeier;	state Exp;
+branches
+	1.17.2.1;
+next	1.16;
+
+1.16
+date	2008.09.28.21.56.54;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2008.03.22.12.04.58;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2007.06.16.18.29.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.03.19.13.03.20;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2007.03.09.20.28.15;	author andremachado;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.09.10.17.31.13;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2006.08.08.17.20.47;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.07.23.20.32.48;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.07.16.20.29.27;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.07.02.20.28.47;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.06.27.20.44.40;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.06.19.20.37.24;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.04.12.17.46.48;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.02.05.18.47.01;	author jost2345;	state Exp;
+branches
+	1.3.2.1;
+next	1.2;
+
+1.2
+date	2006.01.15.21.07.28;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.01.08.23.50.57;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2006.04.23.19.09.09;	author jost2345;	state Exp;
+branches;
+next	1.3.2.2;
+
+1.3.2.2
+date	2006.05.13.16.09.59;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.17.2.1
+date	2008.11.09.17.01.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17.2.2;
+
+1.17.2.2
+date	2008.11.12.18.55.31;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.30
+log
+@Release-5-5
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Apr 25 11:44:42 CEST 2009 -->
+<TITLE>
+Uses of Package php.java.bridge
+</TITLE>
+
+<META NAME="date" CONTENT="2009-04-25">
+
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../stylesheet.css" TITLE="Style">
+
+<SCRIPT type="text/javascript">
+function windowTitle()
+{
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Uses of Package php.java.bridge";
+    }
+}
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
+
+
+<!-- ========= START OF TOP NAVBAR ======= -->
+<A NAME="navbar_top"><!-- --></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Class</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Use</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;PREV&nbsp;
+&nbsp;NEXT</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?php/java/bridge/package-use.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="package-use.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF TOP NAVBAR ========= -->
+
+<HR>
+<CENTER>
+<H2>
+<B>Uses of Package<br>php.java.bridge</B></H2>
+</CENTER>
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Packages that use <A HREF="../../../php/java/bridge/package-summary.html">php.java.bridge</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><A HREF="#php.java.bridge"><B>php.java.bridge</B></A></TD>
+<TD>Internal VM Bridge core classes and interfaces.&nbsp;</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><A HREF="#php.java.bridge.http"><B>php.java.bridge.http</B></A></TD>
+<TD>Internal fast socket and pipe context runners for VM Bridge J2EE backends.&nbsp;</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><A HREF="#php.java.script"><B>php.java.script</B></A></TD>
+<TD>Internal PHP script engine implementation.&nbsp;</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><A HREF="#php.java.script.servlet"><B>php.java.script.servlet</B></A></TD>
+<TD>Internal PHP script engine implementation for servlets.&nbsp;</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><A HREF="#php.java.servlet"><B>php.java.servlet</B></A></TD>
+<TD>PHP/Java Bridge Servlet.&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+<A NAME="php.java.bridge"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Classes in <A HREF="../../../php/java/bridge/package-summary.html">php.java.bridge</A> used by <A HREF="../../../php/java/bridge/package-summary.html">php.java.bridge</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/AppThreadPool.html#php.java.bridge"><B>AppThreadPool</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A specialized thread pool which automatically terminates all group threads at the end of the request.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ChainsawLogger.html#php.java.bridge"><B>ChainsawLogger</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A logger class which connects to chainsaw -- chainsaw is a log4j viewer.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IDocHandler.html#php.java.bridge"><B>IDocHandler</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Defines the parser callbacks.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IJavaBridgeFactory.html#php.java.bridge"><B>IJavaBridgeFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create PHP/Java Bridge instances.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ILogger.html#php.java.bridge"><B>ILogger</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The log interface for the PHP/Java Bridge log.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ISession.html#php.java.bridge"><B>ISession</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ISession interface is implemented by services to provide an
+ association between an HTTP client and HTTP server.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ISocketFactory.html#php.java.bridge"><B>ISocketFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create socket instances.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/JavaBridge.html#php.java.bridge"><B>JavaBridge</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main interface of the PHP/Java Bridge.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/JavaBridgeFactory.html#php.java.bridge"><B>JavaBridgeFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new JavaBridge instances</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/JavaBridgeRunner.html#php.java.bridge"><B>JavaBridgeRunner</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main entry point for the PHP/Java Bridge library.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/PhpProcedure.html#php.java.bridge"><B>PhpProcedure</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class takes the supplied PHP environment and creates a dynamic
+ proxy for calling PHP code.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/PhpProcedureProxy.html#php.java.bridge"><B>PhpProcedureProxy</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class creates a procedure proxy proxy which evaluates to a
+ dynamic proxy in coerce().</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Request.html#php.java.bridge"><B>Request</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class is used to handle requests from the front-end.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Response.html#php.java.bridge"><B>Response</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class is used to write the response to the front-end.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/SimpleJavaBridgeClassLoader.html#php.java.bridge"><B>SimpleJavaBridgeClassLoader</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ A bridge pattern which allows us to vary the class loader as run-time.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/SimpleLog4jLogger.html#php.java.bridge"><B>SimpleLog4jLogger</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A logger which uses the log4j default appender.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Standalone.html#php.java.bridge"><B>Standalone</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the standalone container of the PHP/Java Bridge.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ThreadPool.html#php.java.bridge"><B>ThreadPool</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A standard thread pool, accepts runnables and runs them in a thread environment.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Util.HeaderParser.html#php.java.bridge"><B>Util.HeaderParser</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A procedure class which can be used to capture the HTTP header strings.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Util.OutputStreamFactory.html#php.java.bridge"><B>Util.OutputStreamFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A default output stream factory for use with parseBody.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Util.Process.html#php.java.bridge"><B>Util.Process</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Starts a CGI process and returns the process handle.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Util.Process.PhpException.html#php.java.bridge"><B>Util.Process.PhpException</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A generic PHP exception</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+<A NAME="php.java.bridge.http"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Classes in <A HREF="../../../php/java/bridge/package-summary.html">php.java.bridge</A> used by <A HREF="../../../php/java/bridge/http/package-summary.html">php.java.bridge.http</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/AppThreadPool.html#php.java.bridge.http"><B>AppThreadPool</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A specialized thread pool which automatically terminates all group threads at the end of the request.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IJavaBridgeFactory.html#php.java.bridge.http"><B>IJavaBridgeFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create PHP/Java Bridge instances.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IManaged.html#php.java.bridge.http"><B>IManaged</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes which implement this interface receive a notification before their container terminates.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Invocable.html#php.java.bridge.http"><B>Invocable</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes which implement this interface are able to call php code.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ISession.html#php.java.bridge.http"><B>ISession</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ISession interface is implemented by services to provide an
+ association between an HTTP client and HTTP server.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ISocketFactory.html#php.java.bridge.http"><B>ISocketFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create socket instances.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/JavaBridge.html#php.java.bridge.http"><B>JavaBridge</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main interface of the PHP/Java Bridge.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/JavaBridgeFactory.html#php.java.bridge.http"><B>JavaBridgeFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new JavaBridge instances</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/PhpProcedureProxy.html#php.java.bridge.http"><B>PhpProcedureProxy</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class creates a procedure proxy proxy which evaluates to a
+ dynamic proxy in coerce().</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/SessionFactory.html#php.java.bridge.http"><B>SessionFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new session instances</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/SimpleJavaBridgeClassLoader.html#php.java.bridge.http"><B>SimpleJavaBridgeClassLoader</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ A bridge pattern which allows us to vary the class loader as run-time.</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+<A NAME="php.java.script"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Classes in <A HREF="../../../php/java/bridge/package-summary.html">php.java.bridge</A> used by <A HREF="../../../php/java/script/package-summary.html">php.java.script</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IJavaBridgeFactory.html#php.java.script"><B>IJavaBridgeFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create PHP/Java Bridge instances.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ILogger.html#php.java.script"><B>ILogger</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The log interface for the PHP/Java Bridge log.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IManaged.html#php.java.script"><B>IManaged</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes which implement this interface receive a notification before their container terminates.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Invocable.html#php.java.script"><B>Invocable</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes which implement this interface are able to call php code.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ISession.html#php.java.script"><B>ISession</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ISession interface is implemented by services to provide an
+ association between an HTTP client and HTTP server.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/PhpProcedureProxy.html#php.java.script"><B>PhpProcedureProxy</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class creates a procedure proxy proxy which evaluates to a
+ dynamic proxy in coerce().</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Util.HeaderParser.html#php.java.script"><B>Util.HeaderParser</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A procedure class which can be used to capture the HTTP header strings.</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+<A NAME="php.java.script.servlet"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Classes in <A HREF="../../../php/java/bridge/package-summary.html">php.java.bridge</A> used by <A HREF="../../../php/java/script/servlet/package-summary.html">php.java.script.servlet</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IJavaBridgeFactory.html#php.java.script.servlet"><B>IJavaBridgeFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create PHP/Java Bridge instances.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IManaged.html#php.java.script.servlet"><B>IManaged</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes which implement this interface receive a notification before their container terminates.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Invocable.html#php.java.script.servlet"><B>Invocable</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes which implement this interface are able to call php code.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Util.HeaderParser.html#php.java.script.servlet"><B>Util.HeaderParser</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A procedure class which can be used to capture the HTTP header strings.</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+<A NAME="php.java.servlet"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Classes in <A HREF="../../../php/java/bridge/package-summary.html">php.java.bridge</A> used by <A HREF="../../../php/java/servlet/package-summary.html">php.java.servlet</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IJavaBridgeFactory.html#php.java.servlet"><B>IJavaBridgeFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create PHP/Java Bridge instances.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ILogger.html#php.java.servlet"><B>ILogger</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The log interface for the PHP/Java Bridge log.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/IManaged.html#php.java.servlet"><B>IManaged</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes which implement this interface receive a notification before their container terminates.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Invocable.html#php.java.servlet"><B>Invocable</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes which implement this interface are able to call php code.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ISession.html#php.java.servlet"><B>ISession</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ISession interface is implemented by services to provide an
+ association between an HTTP client and HTTP server.</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+<HR>
+
+
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<A HREF="#skip-navbar_bottom" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Class</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Use</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;PREV&nbsp;
+&nbsp;NEXT</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?php/java/bridge/package-use.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="package-use.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_bottom"></A>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+
+<HR>
+
+</BODY>
+</HTML>
+@
+
+
+1.29
+log
+@Release-5.4.4.2
+@
+text
+@@
+
+
+1.28
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 19 11:35:21 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-19">
+@
+
+
+1.27
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 12 09:06:10 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-12">
+d240 6
+d415 6
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 15 11:32:40 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-15">
+@
+
+
+1.25
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 08 18:42:08 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-08">
+@
+
+
+1.24
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Tue Mar 03 19:21:07 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-03">
+@
+
+
+1.23
+log
+@Release-5-4-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Mon Jan 05 20:55:09 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-01-05">
+d273 6
+d351 6
+d398 6
+d431 6
+@
+
+
+1.22
+log
+@documentation
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Nov 30 10:56:59 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-30">
+d94 1
+a94 1
+<TD>VM Bridge core classes and interfaces.&nbsp;</TD>
+d98 1
+a98 1
+<TD>Fast socket and pipe context runners for VM Bridge J2EE backends.&nbsp;</TD>
+d102 1
+a102 1
+<TD>PHP script engine implementation.&nbsp;</TD>
+d106 1
+a106 1
+<TD>PHP script engine implementation for servlets.&nbsp;</TD>
+d183 7
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Nov 29 12:39:28 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-29">
+@
+
+
+1.20
+log
+@Release 5.3.4
+@
+text
+@@
+
+
+1.19
+log
+@Release 5.3.3.1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Nov 23 10:26:31 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-23">
+d373 6
+@
+
+
+1.18
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:57 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+@
+
+
+1.17
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Oct 26 14:59:23 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-10-26">
+d94 1
+a94 1
+<TD>PHP/Java Bridge core classes and interfaces.&nbsp;</TD>
+d98 1
+a98 1
+<TD>Fast socket and pipe context runners for PHP/Java Bridge J2EE backends.&nbsp;</TD>
+d106 1
+a106 1
+<TD>PHP script engine implementation.&nbsp;</TD>
+a133 21
+<TD><B><A HREF="../../../php/java/bridge/class-use/ConstructorCache.Entry.html#php.java.bridge"><B>ConstructorCache.Entry</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A cache entry</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/DynamicClassLoader.html#php.java.bridge"><B>DynamicClassLoader</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title: php-java-bridge
+ 
+ This class implements a class loader, which keeps track of a dynamic list of other delegate URLClassLoaders
+ It is possible to change the list of these Classloaders during execution.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/DynamicJavaBridgeClassLoader.html#php.java.bridge"><B>DynamicJavaBridgeClassLoader</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The bridge class loader which uses the DynamicClassLoader when possible.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+a164 6
+<TD><B><A HREF="../../../php/java/bridge/class-use/JarLibraryPath.html#php.java.bridge"><B>JarLibraryPath</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Holds a checked JarLibraryPath entry</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+a182 30
+<TD><B><A HREF="../../../php/java/bridge/class-use/MethodCache.Entry.html#php.java.bridge"><B>MethodCache.Entry</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A cache entry.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Options.html#php.java.bridge"><B>Options</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Exposes the request options.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ParserString.html#php.java.bridge"><B>ParserString</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class holds the parser string.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ParserTag.html#php.java.bridge"><B>ParserTag</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This structure carries the parsed tag and the arguments.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/PhpMap.html#php.java.bridge"><B>PhpMap</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maps php iterator to java iterator.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+d307 1
+a307 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new session or context instances</TD>
+d344 7
+a372 6
+<TD><B><A HREF="../../../php/java/bridge/class-use/IJavaBridgeFactory.html#php.java.script.servlet"><B>IJavaBridgeFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create PHP/Java Bridge instances.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+@
+
+
+1.17.2.1
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 13:25:09 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+d94 1
+a94 1
+<TD>VM Bridge core classes and interfaces.&nbsp;</TD>
+d98 1
+a98 1
+<TD>Fast socket and pipe context runners for VM Bridge J2EE backends.&nbsp;</TD>
+a400 7
+<TD><B><A HREF="../../../php/java/bridge/class-use/ISession.html#php.java.script"><B>ISession</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The ISession interface is implemented by services to provide an
+ association between an HTTP client and HTTP server.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+@
+
+
+1.17.2.2
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:57 CET 2008 -->
+d106 1
+a106 1
+<TD>PHP script engine implementation for servlets.&nbsp;</TD>
+d134 21
+d186 6
+d210 30
+d364 1
+a364 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new session instances</TD>
+d430 6
+@
+
+
+1.16
+log
+@Release-5-2-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Sep 28 12:34:46 CEST 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-09-28">
+d143 4
+a146 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title: php-java-bridge</TD>
+@
+
+
+1.15
+log
+@Release-5-2-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Mar 16 21:41:38 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-03-16">
+d105 4
+d143 1
+a143 4
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title: php-java-bridge
+ 
+ This class implements a class loader, which keeps track of a dynamic list of other delegate URLClassLoaders
+ It is possible to change the list of these Classloaders during execution.</TD>
+d198 1
+a198 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new session or context instances</TD>
+d296 1
+a296 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+d348 1
+a348 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new session or context instances</TD>
+d413 21
+@
+
+
+1.14
+log
+@Release-4-1-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sat Jun 16 09:41:58 EDT 2007 -->
+d10 1
+d17 3
+a19 1
+    parent.document.title="Uses of Package php.java.bridge";
+d28 1
+d118 1
+a118 1
+<TD><B><A HREF="../../../php/java/bridge/class-use/BaseThreadPool.html#php.java.bridge"><B>BaseThreadPool</B></A></B>
+d121 1
+a121 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A standard thread pool, accepts runnables and runs them in a thread environment.</TD>
+a205 6
+<TD><B><A HREF="../../../php/java/bridge/class-use/Log4jLogger.html#php.java.bridge"><B>Log4jLogger</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A logger which uses the log4j default appender.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+d255 1
+a255 1
+<TD><B><A HREF="../../../php/java/bridge/class-use/SessionFactory.html#php.java.bridge"><B>SessionFactory</B></A></B>
+d258 2
+a259 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new session or context instances</TD>
+d262 1
+a262 1
+<TD><B><A HREF="../../../php/java/bridge/class-use/SimpleJavaBridgeClassLoader.html#php.java.bridge"><B>SimpleJavaBridgeClassLoader</B></A></B>
+d265 1
+a265 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ A bridge pattern which allows us to vary the class loader as run-time.</TD>
+d277 1
+a277 2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A thread pool, accepts runnables and runs them in a thread
+ environment.</TD>
+d291 6
+d307 6
+a368 7
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/ThreadPool.html#php.java.bridge.http"><B>ThreadPool</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A thread pool, accepts runnables and runs them in a thread
+ environment.</TD>
+</TR>
+d385 6
+d403 6
+d425 6
+@
+
+
+1.13
+log
+@Release-4-0-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Mar 15 07:15:53 CET 2007 -->
+d135 4
+a138 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Title: php-java-bridge</TD>
+d153 6
+d190 1
+a190 1
+<TD><B><A HREF="../../../php/java/bridge/class-use/JavaBridgeClassLoader.html#php.java.bridge"><B>JavaBridgeClassLoader</B></A></B>
+d193 1
+a193 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A bridge pattern which allows us to vary the class loader as run-time.</TD>
+d266 2
+a267 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A bridge pattern which allows us to vary the class loader as run-time.</TD>
+d304 6
+d335 6
+d354 7
+d377 6
+d405 6
+@
+
+
+1.12
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 11 14:44:22 CET 2007 -->
+a96 4
+<TD><A HREF="#php.java.faces"><B>php.java.faces</B></A></TD>
+<TD>Deprecated.&nbsp;</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+a340 15
+<A NAME="php.java.faces"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Classes in <A HREF="../../../php/java/bridge/package-summary.html">php.java.bridge</A> used by <A HREF="../../../php/java/faces/package-summary.html">php.java.faces</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/Invocable.html#php.java.faces"><B>Invocable</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classes which implement this interface are able to call php code.</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+@
+
+
+1.11
+log
+@Release-3-1-8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Sep 10 13:03:32 CEST 2006 -->
+d98 1
+a98 1
+<TD>PHP Java Server Faces implementation.&nbsp;</TD>
+a147 6
+<TD><B><A HREF="../../../php/java/bridge/class-use/DynamicJavaBridgeClassLoader.JarLibraryPath.html#php.java.bridge"><B>DynamicJavaBridgeClassLoader.JarLibraryPath</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Holds a checked JarLibraryPath entry</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+d173 6
+d230 1
+a230 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maps php array get/set and foreach to java array, Map and Collections access.</TD>
+d264 13
+d389 6
+@
+
+
+1.10
+log
+@Release-3-1-7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Aug 03 19:34:05 CEST 2006 -->
+d176 1
+a176 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create and destroy socket instances.</TD>
+d191 6
+d301 1
+a301 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create and destroy socket instances.</TD>
+@
+
+
+1.9
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 23 12:18:12 CEST 2006 -->
+@
+
+
+1.8
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 16 13:42:19 CEST 2006 -->
+@
+
+
+1.7
+log
+@Release-3-1-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 02 11:43:25 CEST 2006 -->
+@
+
+
+1.6
+log
+@Release-3-1-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 25 13:54:50 CEST 2006 -->
+d182 1
+a182 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main class of the PHP/Java Bridge.</TD>
+d301 1
+a301 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main class of the PHP/Java Bridge.</TD>
+@
+
+
+1.5
+log
+@Release-3-1-0
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 18 11:35:48 CEST 2006 -->
+d124 6
+@
+
+
+1.4
+log
+@Release-3.0.8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:24 CEST 2006 -->
+d118 6
+d127 1
+a127 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A cache entry carrying the method name and the parameters</TD>
+d142 6
+d154 6
+d185 6
+d194 1
+a194 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A cache entry carrying the method name, class and the parameters</TD>
+d231 1
+a231 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class is used to handle requests from the frontent.</TD>
+d237 1
+a237 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class is used to write the response to the frontent.</TD>
+d246 1
+a246 1
+<TD><B><A HREF="../../../php/java/bridge/class-use/Util.HeaderParser.html#php.java.bridge"><B>Util.HeaderParser</B></A></B>
+d249 1
+a249 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A procedure class which can be used to capture the HTTP header strings.</TD>
+d252 1
+a252 1
+<TD><B><A HREF="../../../php/java/bridge/class-use/Util.Logger.html#php.java.bridge"><B>Util.Logger</B></A></B>
+d255 1
+a255 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A logger class.</TD>
+d279 7
+d314 2
+a315 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A standard thread pool, accepts runnables and runs them in a thread environment.</TD>
+a331 6
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/SessionFactory.html#php.java.faces"><B>SessionFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new session or context instances</TD>
+</TR>
+a347 6
+<TD><B><A HREF="../../../php/java/bridge/class-use/JavaBridgeRunner.html#php.java.script"><B>JavaBridgeRunner</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main entry point for the PHP/Java Bridge library.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+a353 6
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><B><A HREF="../../../php/java/bridge/class-use/SessionFactory.html#php.java.script"><B>SessionFactory</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create new session or context instances</TD>
+</TR>
+@
+
+
+1.3
+log
+@Release-3.0.7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 05 13:18:04 CET 2006 -->
+d90 1
+a90 1
+<TD>Core classes and interfaces of the PHP/Java Bridge.&nbsp;</TD>
+d94 1
+a94 1
+<TD>Core HTML bindings of the PHP/Java Bridge.&nbsp;</TD>
+d102 1
+a102 1
+<TD>PHP implementation of the JSR 223 interface.&nbsp;</TD>
+d106 1
+a106 1
+<TD>The PHP/Java Bridge Servlet.&nbsp;</TD>
+d158 1
+a158 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main class for the PHP/Java Bridge.</TD>
+d264 1
+a264 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main class for the PHP/Java Bridge.</TD>
+a300 7
+<TD><B><A HREF="../../../php/java/bridge/class-use/PhpProcedureProxy.html#php.java.faces"><B>PhpProcedureProxy</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This class creates a procedure proxy proxy which evaluates to a
+ dynamic proxy in coerce().</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+d322 6
+@
+
+
+1.3.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 23 18:58:57 CEST 2006 -->
+d90 1
+a90 1
+<TD>PHP/Java Bridge core classes and interfaces.&nbsp;</TD>
+d94 1
+a94 1
+<TD>Fast socket and pipe context runners for PHP/Java Bridge J2EE backends.&nbsp;</TD>
+d102 1
+a102 1
+<TD>PHP script engine implementation.&nbsp;</TD>
+d106 1
+a106 1
+<TD>PHP/Java Bridge Servlet.&nbsp;</TD>
+d158 1
+a158 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main class of the PHP/Java Bridge.</TD>
+d264 1
+a264 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main class of the PHP/Java Bridge.</TD>
+d301 7
+a328 6
+<TD><B><A HREF="../../../php/java/bridge/class-use/JavaBridgeRunner.html#php.java.script"><B>JavaBridgeRunner</B></A></B>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is the main entry point for the PHP/Java Bridge library.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+@
+
+
+1.3.2.2
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:24 CEST 2006 -->
+@
+
+
+1.2
+log
+@Release-3.0.6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 15 20:26:22 CET 2006 -->
+d90 1
+a90 1
+<TD>&nbsp;&nbsp;</TD>
+d94 1
+a94 1
+<TD>&nbsp;&nbsp;</TD>
+d98 1
+a98 1
+<TD>&nbsp;&nbsp;</TD>
+d102 1
+a102 1
+<TD>&nbsp;&nbsp;</TD>
+d106 1
+a106 1
+<TD>&nbsp;&nbsp;</TD>
+@
+
+
+1.1
+log
+@Release-3.0.5
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 08 19:28:41 CET 2006 -->
+@
+

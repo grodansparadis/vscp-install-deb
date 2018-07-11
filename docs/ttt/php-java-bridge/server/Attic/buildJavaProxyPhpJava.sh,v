@@ -1,0 +1,47 @@
+head	1.2;
+access;
+symbols
+	Release-6-0-0:1.1.0.2
+	Root_Release-6-0-0:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2010.02.28.15.20.43;	author jost_boekemeier;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2010.02.18.16.31.00;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Release-6-0-3
+@
+text
+@#!/bin/sh
+
+echo "package php.java.bridge;" >php/java/bridge/JavaProxy.java
+echo 'public class JavaProxy {' >>php/java/bridge/JavaProxy.java
+echo 'private static final String data = ' >>php/java/bridge/JavaProxy.java
+cat $* | sed '/^\/\//d;s/  / /g;s/		/	/g'| sed 's/\\/\\\\/g;s/"/\\"/g;s/.*/"&\\n"+/'  >>php/java/bridge/JavaProxy.java
+echo '"";' >>php/java/bridge/JavaProxy.java
+echo 'public static final byte[] bytes = data.getBytes(); }' >>php/java/bridge/JavaProxy.java
+@
+
+
+1.1
+log
+@Release-6-0-0
+@
+text
+@@
+

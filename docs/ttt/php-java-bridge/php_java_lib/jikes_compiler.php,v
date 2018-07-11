@@ -1,0 +1,455 @@
+head	1.3;
+access;
+symbols
+	Release-7-1-1:1.3.0.106
+	Root_Release-7-1-1:1.3
+	Root_Release_7-0-1:1.3
+	Release_7-0-1:1.3.0.104
+	Release_7-0-0:1.3.0.102
+	Root_Release_7-0-0:1.3
+	Release-6-2-2:1.3.0.100
+	Release-6-1-2-3:1.3
+	Root_Release-6-1-2-3:1.3
+	Release-6-1-2-2:1.3.0.98
+	Root_Release-6-1-2-2:1.3
+	debian_version_6_1_2_1-1:1.3
+	upstream_version_6_1_2_1:1.3
+	Release-6-1-2-1_new:1.3.0.96
+	Root_Release-6-1-2-1_new:1.3
+	Release-6-1-2-1:1.3.0.94
+	Root_Release-6-1-2-1:1.3
+	upstream_version_6_1_2:1.3
+	debian_version_6_1_2-1:1.3
+	Release-6-1-2:1.3.0.92
+	Root_Release-6-1-2:1.3
+	debian_version_6_1_1-2:1.3
+	debian_version_6_1_1-1:1.3
+	upstream_version_6_1_1:1.3
+	Release-6-1-1:1.3.0.90
+	Root_Release-6-1-1:1.3
+	Release-6-0-4:1.3.0.88
+	Root_Release-6-0-4:1.3
+	Release-6-0-3_NEW:1.3.0.84
+	Root_Release-6-0-3_NEW:1.3
+	Release-6-0-3:1.3.0.86
+	Root_Release-6-0-3:1.3
+	Release-6-0-0:1.3.0.82
+	Root_Release-6-0-0:1.3
+	Release-5-5-4-1:1.3.0.80
+	Root_Release-5-5-4-1:1.3
+	Release-5-5-4:1.3.0.78
+	Root_Release-5-5-4:1.3
+	Release-5-5-3:1.3.0.76
+	ROOT_Release-5-5-3:1.3
+	Release-5-5-2:1.3.0.74
+	Root_Release-5-5-2:1.3
+	debian_version_5_5_1-1:1.3
+	Release-5-5-1:1.3.0.70
+	upstream_version_5_5_1:1.3
+	ROOT_Release-5-5-1:1.3
+	debian_version_5_5-1:1.3
+	upstream_version_5_5:1.3
+	ROOT_Release-5-5:1.3
+	Release-5-5:1.3.0.72
+	debian_version_5_4_4_2-3:1.3
+	Release-5-4-4-2-1:1.3.0.66
+	debian_version_5_4_4_2-2:1.3
+	debian_version_5_4_4_2-1:1.3
+	upstream_version_5_4_4_2:1.3
+	debian_version_5_4_4_1-1:1.3
+	upstream_version_5_4_4_1:1.3
+	debian_version_5_4_4-1:1.3
+	upstream_version_5_4_4:1.3
+	Release-5-4-4:1.3.0.68
+	Root_Release-5-4-4:1.3
+	debian_version_5_4_3_2-1:1.3
+	upstream_version_5_4_3_2:1.3
+	Release_5-4-3-2:1.3.0.64
+	Root_Release_5-4-3-2:1.3
+	upstream_version_5_4_3_1:1.3
+	debian_version_5_4_3_1-1:1.3
+	Release-5-4-3:1.3.0.62
+	Root_Release-5-4-3:1.3
+	Root_Release-5-4-1:1.3
+	Release-5-4-1:1.3.0.60
+	Root_Release-5-4:1.3
+	Release-5-4:1.3.0.58
+	upstream_version_5_3_4:1.3
+	debian_version_5_3_4-1:1.3
+	ROOT_Release-5-3-4:1.3
+	Release-5-3-4:1.3.0.56
+	ROOT_Release-5-3-3:1.3
+	Release-5-3-3:1.3.0.52
+	debian_version_5_3_2_1_2-1:1.3
+	upstream_version_5_3_2_1_2:1.3
+	debian_version_5_3_2_1_1-1:1.3
+	debian_version_5_3_2_1_1:1.3
+	upstream_version_5_3_2_1_1:1.3
+	Root_Release-5-3-2-1:1.3
+	Release-5-3-2-1:1.3
+	ROOT_RELEASE-5-3-2-1:1.3
+	RELEASE-5-3-2-1:1.3.0.54
+	Release-5-3-2:1.3.0.50
+	Root_Release-5-3-2:1.3
+	Root_Release-5-3-1:1.3
+	Release-5-3-1:1.3.0.48
+	Release-5-2-3-1:1.3.0.46
+	Root_Release-5-2-3-1:1.3
+	Release-5-2-2-4:1.3.0.44
+	Root_Release-5-2-2-4:1.3
+	Release-5-2-2-1:1.3.0.42
+	Root_Release-5-2-2-1:1.3
+	upstream_version_5_2_2:1.3
+	debian_version_5_2_2-1:1.3
+	Release-5-2-2:1.3.0.40
+	ROOT_Release-5-2-2:1.3
+	ROOT_Release-5-2-1:1.3
+	Release-5-2-1:1.3.0.38
+	Release-5-2-0:1.3.0.36
+	ROOT_Release-5-2-0:1.3
+	ROOT_Release-5-1-2:1.3
+	Release-5-1-2:1.3.0.34
+	Version-5-1-1:1.3.0.32
+	ROOT_Version-5-1-1:1.3
+	debian_version_5_1_0-1:1.3
+	upstream_version_5_1_0:1.3
+	ROOT_Release-5-1-0:1.3
+	Release-5-1-0:1.3.0.30
+	ROOT_Release-5-0-0:1.3
+	Release-5-0-0:1.3.0.28
+	Release-4-3-3:1.3.0.26
+	ROOT_Release-4-3-3:1.3
+	upstream_version_4_3_2:1.3
+	debian_version_4_3_2-1:1.3
+	ROOT_Release-4-3-2:1.3
+	Release-4-3-2:1.3.0.24
+	Release-4-3-1:1.3.0.22
+	ROOT_Release-4-3-1:1.3
+	debian_version_4_3_0-1:1.3
+	upstream_version_4_3_0:1.3
+	ROOT_Release-4-3-0:1.3
+	Release-4-3-0:1.3.0.20
+	debian_version_3_2_1b-2:1.3
+	debian_version_4_2_2-1:1.3
+	upstream_version_4_2_2:1.3
+	debian_version_3_2_1b-1:1.3
+	upstream_version_3_2_1b:1.3
+	Release-4-1-2:1.3.0.18
+	Release-4-0-8:1.3.0.16
+	debian_version_4_0_8a-1:1.3
+	upstream_version_4_0_8a:1.3
+	jostb-debian-ubuntu-patch:1.3.0.14
+	debian_version_4_0_8-1:1.3
+	upstream_version_4_0_8:1.3
+	debian_version_4_0_7-1:1.3
+	upstream_version_4_0_7:1.3
+	debian_version_4_0_6-1:1.3
+	upstream_version_4_0_6:1.3
+	debian_version_4_0_2-1:1.3
+	upstream_version_4_0_2:1.3
+	Release-4-0-2_Root:1.3
+	Release-4-0-2:1.3.0.12
+	upstream_version_4_0_1:1.3
+	debian_version_4_0_1-2:1.3
+	Release-3-2-1:1.3.0.10
+	Release-3-1-8:1.3.0.8
+	Release-3-0-8_root:1.3
+	Release-3-0-8_Root:1.3
+	Release-3-0-8:1.3.0.4
+	Release-2-0-8:1.3.0.6
+	Release-2-0-7_Root:1.3
+	Release-2-0-7:1.3.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2005.06.24.15.37.24;	author kai_londenberg;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.06.24.11.14.15;	author kai_londenberg;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.06.23.10.51.31;	author kai_londenberg;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Small fix
+@
+text
+@<?
+/*
+* This file contains various methods to compile and load a java project
+* tree from java, using "Jikes" the free java compiler and the PHP-Java-Bridge
+*
+*
+*  See also:
+*  PHP-Java Bridge - http://sourceforge.net/projects/php-java-bridge
+*  Jikes Java Compiler - http://sourceforge.net/projects/jikes/
+*
+*  IMPORTANT: a jikes executable is neccessary for this to work.
+*  Download from http://sourceforge.net/projects/jikes/
+*
+*  Jikes needs to be installed either on the Command-Path, or in the same directory as this
+*  file in order to work
+*
+* Author: Kai Londenberg (kl@@librics.de / http://www.librics,de/)
+*
+*/
+
+require_once('java_helper.php');
+
+/**
+* Finds all files matching a given pattern in a given directory.
+*/
+function dir_pattern_scan($dir,$pattern,$separator,$depth) {
+  	if ($depth<0) return;
+  	$oldcwd = getcwd();
+  	$result = array();
+  	chdir($dir);
+  	$dh = opendir($dir);
+  	while ($fname= readdir($dh)) {
+  		if (($fname!='.') && ($fname!='..')) {
+  			if (is_dir($dir.$separator.$fname)) {
+  			    $preres = dir_pattern_scan($dir.$separator.$fname,$pattern,$separator, $depth-1);
+  			    if (is_array($preres)) {
+  					$result = array_merge($result,$preres);
+  				}
+  			} else {
+  				$fpath = $dir.$separator.$fname;
+  				if (eregi($pattern, $fpath)) {
+  					$result[] = $dir.$separator.$fname;
+  				}
+  			}
+  		}
+  	}
+  	closedir($dh);
+  	chdir($oldcwd);
+  	return $result;
+}
+
+// Ensures a given path exists
+if (!function_exists("mkpath")) {
+	  function mkpath($path,$mode=0700) {
+	  	$dirs = explode('/',$path);
+	  	$path = '';
+	  	for($i = 0;$i < count($dirs);$i++) {
+	  	if ($i>0) $path.='/';
+	        $path .= $dirs[$i];
+	        if ($path=='') continue;
+	          if(!is_dir($path)) {
+	        	@@mkdir($path,$mode);
+	          }
+	    }
+   }
+}
+
+// Removes source files form the list which have not been modified since the last compilation
+function filter_unmodified(&$files, $src_dir, $class_dir) {
+	$result = array();
+	$pl = strlen($src_dir); // Cut from start of filename
+	$el = -strlen(".java"); // Cut from end of filename
+	foreach ($files as $src_file) {
+		$class_file = $class_dir.substr($src_file, $pl, $el).'.class';
+		if (!file_exists($class_file)) {
+			$result[] = $src_file;
+			continue;
+		}
+		if (filemtime($src_file)>filemtime($class_file)) { // Compare modification dates
+			$result[] = $src_file;
+		}
+	}
+	return $result;
+}
+
+// Self explaining
+class JavaCompilationException extends Exception {
+	public $command;
+	public $output;
+	public $retval;
+
+	public function __construct($command, $output, $retval) {
+		$this->command = $command;
+		$this->output = $output;
+		$this->retval = $retval;
+	}
+
+	public function __toString() {
+		return "<br><PRE>".$this->toString()."</PRE><br>";
+	}
+
+	public function toString() {
+		return "Java Compilation Exception:\nCommand: '$this->command'\nOutput:\n$this->output\n\nReturn value: $this->retval";
+	}
+}
+
+// Compiles all java files in a given directory, and writes them to the target directory
+// if $verbose is true, the error messages also include detailed progress info.
+// This method might throw a JavaCompilationException
+function jikes_compile($src_path, $target_path, $verbose, $extra_classpath='') {
+		// Initialize path to jikes. First assume jikes is in the same directory as this script
+		$jikes_pp = explode('/',__FILE__);
+		$jikes_pp[count($jikes_pp)-1]='jikes';
+		$jikes_cmd = implode('/', $jikes_pp);
+		if (!file_exists($jikes_cmd)) {
+			$jikes_cmd = $jikes_cmd.'.exe';
+			if (!file_exists($jikes_cmd)) {
+				$jikes_cmd = 'jikes'; // Try path
+			}
+		}
+		$src_path = realpath($src_path);
+		mkpath($target_path, 0750);
+		$target_path=realpath($target_path);
+		$System = new JavaClass("java.lang.System");
+		$Properties = $System->getProperties();
+		$java_home = $Properties->get("java.home");
+		$classpath = $Properties->get("java.class.path");
+		if ($extra_classpath!='') {
+			$classpath .= ":$extra_classpath";
+		}
+
+
+		$bootclasspath = $Properties->get("sun.boot.class.path");
+		$target_version = $Properties->get("java.specification.version");
+        clearstatcache(); // Neccessary, otherwise file modification dates and calls to "file_exists" get cached.
+        $files = dir_pattern_scan($src_path, "\.java$", '/', 6);
+		$files = filter_unmodified($files, $src_path, $target_path);
+		if (count($files)==0) {
+			return 0;
+		}
+		$filearg = implode(' ', $files);
+		$output = array();
+		if ($verbose) {
+			$command  = "$jikes_cmd -Xstdout -verbose ";
+		} else {
+			$command  = "$jikes_cmd -Xstdout ";
+		}
+		$command .= "-bootclasspath $bootclasspath -classpath $classpath:$target_path -target $target_version -source $target_version ";
+		$command .= "-sourcepath $src_path -d $target_path $filearg";
+		$retval = -99999;
+		exec($command, $output, $retval);
+		if ($retval==126) throw new JavaCompilationException($command, "No execute permission for '$jikes_cmd'", $retval);
+		if ($retval==127) throw new JavaCompilationException($command, "Jikes Executable '$jikes_cmd' not found", $retval);
+
+		if ($retval!=0) throw new JavaCompilationException($command, implode("\n", $output), $retval);
+		return count($files);
+}
+
+/**
+* Provides a jikes based automatic build system using jikes and the php java bridge
+* Just call this method at the start of your script, and it will ensure that
+* all modified java files will be compiled, and the neccessary libraries are
+* in your classpath.
+* Params:
+* $src_path - The base directory where the java files reside
+* $target_path - [Optional] Target directory for class files
+* $extra_classpath - [Optional] additional jar files / classpaths used in the project.
+* Paths separated by ';'
+*/
+function java_autoproject($src_path, $target_path='', $extra_classpath='', $extra_lib_dirs='') {
+	if ($target_path=='') $target_path=$src_path;
+	$compiled_count = 0;
+	$ecp = '';
+	if ($extra_classpath!='') {
+		$ec = explode(';', $extra_classpath);
+		foreach($ec as $cp) {
+			$cpl = '';
+			$cpl = @@realpath($cp);
+			if ($cpl=='') $cpl = getcwd().'/'.$cp;
+			$ecp .= $cpl.':';
+		}
+	}
+	if ($extra_lib_dirs!='') {
+		$libdirs = explode(';',$extra_lib_dirs);
+		foreach ($libdirs as $libdir) {
+		    $glibdir='';
+			$glibdir = @@realpath($libdir);
+			if ($glibdir=='') $glibdir = getcwd().'/'.$libdir;
+			$ecp .= ':'.implode(':',dir_pattern_scan($glibdir, '\.jar$', '/', 1));
+		}
+	}
+	if ($ecp!='') {
+		$extra_classpath = strtr($ecp, ':;', ';;');
+	}
+	if ($extra_classpath!='') {
+		$cp = $target_path.";$extra_classpath";
+	} else {
+		$cp = $target_path;
+	}
+	try {
+		$compiled_count = jikes_compile($src_path, $target_path, true, $ecp, $extra_lib_dirs);
+
+		if ($compiled_count>0) {
+     		java_invalidate_library_path($cp);
+		}
+	} catch (JavaCompilationException $jce) {
+		echo $jce;
+	}
+	java_require($cp);
+	return $compiled_count;
+}
+
+
+?>@
+
+
+1.2
+log
+@Added $extra_lib_dirs parameter to fuction java_autoproject
+@
+text
+@a167 1
+* $extra_lib_dirs - [Optional] additional directories to search for jar files
+d195 5
+d202 1
+d204 1
+a204 1
+			java_invalidate_library_path($target_path);
+d209 1
+a209 5
+	if ($extra_classpath!='') {
+		java_require($target_path.";$extra_classpath");
+	} else {
+		java_require($target_path);
+	}
+@
+
+
+1.1
+log
+@This directory contains useful PHP Code which makes use of or helps to use
+the PHP Java Bridge.
+
+For the beginning, I have included some helper functions in java_helpers.php and
+an automated project build system using jikes (jikes_compiler.php)
+@
+text
+@a76 1
+			echo "File $class_file does not exist<br>";
+d131 2
+d168 1
+d171 1
+a171 1
+function java_autoproject($src_path, $target_path='', $extra_classpath='') {
+d174 1
+d177 18
+a194 3
+		$ecp = implode(':', $ec);
+	} else {
+		$ecp = '';
+d197 1
+a197 1
+		$compiled_count = jikes_compile($src_path, $target_path, true, $ecp);
+@
+

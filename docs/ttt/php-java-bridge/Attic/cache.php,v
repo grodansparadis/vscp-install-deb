@@ -1,0 +1,45 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2005.04.23.18.32.38;	author jost2345;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2005.04.23.18.20.28;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<?php
+//java_set_library_path("cache.jar");
+$Cache = new JavaClass("Cache");
+//$instance=$Cache->getInstance(); //instance will stay the VM until the VM runs out of memory
+echo $Cache->hashCode();
+echo $Cache->hashCode();
+?>
+
+@
+
+
+1.1
+log
+@PR1188659: classloader bug
+@
+text
+@@
+

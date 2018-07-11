@@ -1,0 +1,76 @@
+head	1.2;
+access;
+symbols
+	Release-3-0-8:1.1.0.12
+	Release-2-0-8:1.1.0.14
+	Release-2-0-7_Root:1.1
+	Release-2-0-7:1.1.0.10
+	Release-2-0-6-branch:1.1.0.8
+	Version-1:1.1.0.6
+	Version-2:1.1.0.4
+	Release-2:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2006.04.26.19.14.23;	author jost2345;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2005.01.28.16.32.54;	author jost2345;	state Exp;
+branches
+	1.1.12.1;
+next	;
+
+1.1.12.1
+date	2006.04.23.19.26.41;	author jost2345;	state dead;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@Building the documentBean.jar
+-----------------------------
+
+It is assumed that you use the Sun J2EE application server and that
+your server is already installed in some directory, for example in
+~/SUNWappserver.  The environment variable $app_server should point to
+this directory.
+
+1. Compile the java files, for example with the command:
+
+   $app_server/jdk/bin/javac -classpath $app_server/lib/j2ee.jar:. *.java
+
+
+2. Create the documentBean.jar file, for example with the command:
+
+   $app_server/jdk/bin/jar cf ../documentBean.jar *
+
+@
+
+
+1.1
+log
+@Release-1.0.8
+@
+text
+@@
+
+
+1.1.12.1
+log
+@Release-3-0-8-1
+@
+text
+@@
+

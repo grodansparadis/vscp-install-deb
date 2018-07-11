@@ -1,0 +1,35 @@
+Description: Make the build reproducible
+Author: Olly Betts <olly@survex.com>
+Forwarded: https://trac.wxwidgets.org/ticket/17000
+Last-Update: 2015-05-20
+
+--- a/src/common/utilscmn.cpp
++++ b/src/common/utilscmn.cpp
+@@ -1398,7 +1398,6 @@
+     wxString msg;
+     msg.Printf(wxS("wxWidgets Library (%s port)\n")
+                wxS("Version %d.%d.%d (Unicode: %s, debug level: %d),\n")
+-               wxS("compiled at %s %s\n\n")
+                wxS("Runtime version of toolkit used is %d.%d.\n"),
+                wxPlatformInfo::Get().GetPortIdName(),
+                wxMAJOR_VERSION,
+@@ -1412,8 +1411,6 @@
+                "none",
+ #endif
+                wxDEBUG_LEVEL,
+-               __TDATE__,
+-               __TTIME__,
+                wxPlatformInfo::Get().GetToolkitMajorVersion(),
+                wxPlatformInfo::Get().GetToolkitMinorVersion()
+               );
+--- a/docs/doxygen/Doxyfile
++++ b/docs/doxygen/Doxyfile
+@@ -346,7 +346,7 @@
+ HTML_COLORSTYLE_HUE    = 220 # Default: 220
+ HTML_COLORSTYLE_SAT    = 255 # Default: 100
+ HTML_COLORSTYLE_GAMMA  = 100 # Default: 80
+-HTML_TIMESTAMP         = YES
++HTML_TIMESTAMP         = NO
+ HTML_DYNAMIC_SECTIONS  = YES # Default: NO
+ HTML_INDEX_NUM_ENTRIES = 100
+ 

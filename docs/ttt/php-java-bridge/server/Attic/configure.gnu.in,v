@@ -1,0 +1,342 @@
+head	1.9;
+access;
+symbols
+	Release-5-5-4-1:1.8.0.74
+	Root_Release-5-5-4-1:1.8
+	Release-5-5-4:1.8.0.72
+	Root_Release-5-5-4:1.8
+	Release-5-5-3:1.8.0.70
+	ROOT_Release-5-5-3:1.8
+	Release-5-5-2:1.8.0.68
+	Root_Release-5-5-2:1.8
+	debian_version_5_5_1-1:1.8
+	Release-5-5-1:1.8.0.64
+	upstream_version_5_5_1:1.8
+	ROOT_Release-5-5-1:1.8
+	debian_version_5_5-1:1.8
+	upstream_version_5_5:1.8
+	ROOT_Release-5-5:1.8
+	Release-5-5:1.8.0.66
+	debian_version_5_4_4_2-3:1.8
+	Release-5-4-4-2-1:1.8.0.60
+	debian_version_5_4_4_2-2:1.8
+	debian_version_5_4_4_2-1:1.8
+	upstream_version_5_4_4_2:1.8
+	debian_version_5_4_4_1-1:1.8
+	upstream_version_5_4_4_1:1.8
+	debian_version_5_4_4-1:1.8
+	upstream_version_5_4_4:1.8
+	Release-5-4-4:1.8.0.62
+	Root_Release-5-4-4:1.8
+	debian_version_5_4_3_2-1:1.8
+	upstream_version_5_4_3_2:1.8
+	Release_5-4-3-2:1.8.0.58
+	Root_Release_5-4-3-2:1.8
+	upstream_version_5_4_3_1:1.8
+	debian_version_5_4_3_1-1:1.8
+	Release-5-4-3:1.8.0.56
+	Root_Release-5-4-3:1.8
+	Root_Release-5-4-1:1.8
+	Release-5-4-1:1.8.0.54
+	Root_Release-5-4:1.8
+	Release-5-4:1.8.0.52
+	upstream_version_5_3_4:1.8
+	debian_version_5_3_4-1:1.8
+	ROOT_Release-5-3-4:1.8
+	Release-5-3-4:1.8.0.50
+	ROOT_Release-5-3-3:1.8
+	Release-5-3-3:1.8.0.46
+	debian_version_5_3_2_1_2-1:1.8
+	upstream_version_5_3_2_1_2:1.8
+	debian_version_5_3_2_1_1-1:1.8
+	debian_version_5_3_2_1_1:1.8
+	upstream_version_5_3_2_1_1:1.8
+	Root_Release-5-3-2-1:1.8
+	Release-5-3-2-1:1.8
+	ROOT_RELEASE-5-3-2-1:1.8
+	RELEASE-5-3-2-1:1.8.0.48
+	Release-5-3-2:1.8.0.44
+	Root_Release-5-3-2:1.8
+	Root_Release-5-3-1:1.8
+	Release-5-3-1:1.8.0.42
+	Release-5-2-3-1:1.8.0.40
+	Root_Release-5-2-3-1:1.8
+	Release-5-2-2-4:1.8.0.38
+	Root_Release-5-2-2-4:1.8
+	Release-5-2-2-1:1.8.0.36
+	Root_Release-5-2-2-1:1.8
+	upstream_version_5_2_2:1.8
+	debian_version_5_2_2-1:1.8
+	Release-5-2-2:1.8.0.34
+	ROOT_Release-5-2-2:1.8
+	ROOT_Release-5-2-1:1.8
+	Release-5-2-1:1.8.0.32
+	Release-5-2-0:1.8.0.30
+	ROOT_Release-5-2-0:1.8
+	ROOT_Release-5-1-2:1.8
+	Release-5-1-2:1.8.0.28
+	Version-5-1-1:1.8.0.26
+	ROOT_Version-5-1-1:1.8
+	debian_version_5_1_0-1:1.8
+	upstream_version_5_1_0:1.8
+	ROOT_Release-5-1-0:1.8
+	Release-5-1-0:1.8.0.24
+	ROOT_Release-5-0-0:1.8
+	Release-5-0-0:1.8.0.22
+	Release-4-3-3:1.8.0.20
+	ROOT_Release-4-3-3:1.8
+	upstream_version_4_3_2:1.8
+	debian_version_4_3_2-1:1.8
+	ROOT_Release-4-3-2:1.8
+	Release-4-3-2:1.8.0.18
+	Release-4-3-1:1.8.0.16
+	ROOT_Release-4-3-1:1.8
+	debian_version_4_3_0-1:1.8
+	upstream_version_4_3_0:1.8
+	ROOT_Release-4-3-0:1.8
+	Release-4-3-0:1.8.0.14
+	debian_version_3_2_1b-2:1.8
+	debian_version_4_2_2-1:1.8
+	upstream_version_4_2_2:1.8
+	debian_version_3_2_1b-1:1.8
+	upstream_version_3_2_1b:1.8
+	Release-4-1-2:1.8.0.12
+	Release-4-0-8:1.8.0.10
+	debian_version_4_0_8a-1:1.8
+	upstream_version_4_0_8a:1.8
+	jostb-debian-ubuntu-patch:1.8.0.8
+	debian_version_4_0_8-1:1.8
+	upstream_version_4_0_8:1.8
+	debian_version_4_0_7-1:1.8
+	upstream_version_4_0_7:1.8
+	debian_version_4_0_6-1:1.8
+	upstream_version_4_0_6:1.8
+	debian_version_4_0_2-1:1.8
+	upstream_version_4_0_2:1.8
+	Release-4-0-2_Root:1.8
+	Release-4-0-2:1.8.0.6
+	upstream_version_4_0_1:1.8
+	debian_version_4_0_1-2:1.8
+	Release-3-2-1:1.8.0.4
+	Release-3-1-8:1.8.0.2
+	Release-3-0-8_root:1.4
+	Release-3-0-8_Root:1.5
+	Release-3-0-8:1.4.0.2
+	Release-2-0-8:1.3.0.8
+	Release-2-0-7_Root:1.3
+	Release-2-0-7:1.3.0.4
+	Release-2-0-6-branch:1.3.0.2
+	Version-1:1.1.0.6
+	Version-2:1.1.0.4
+	Release-2:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.9
+date	2010.02.18.17.25.32;	author jost_boekemeier;	state dead;
+branches;
+next	1.8;
+
+1.8
+date	2006.06.27.20.44.33;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.06.21.19.53.10;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.06.19.20.37.19;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.04.26.19.09.32;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.03.07.18.59.29;	author jost2345;	state Exp;
+branches
+	1.4.2.1;
+next	1.3;
+
+1.3
+date	2005.02.15.19.10.32;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.02.13.21.43.29;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.01.28.16.32.55;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2006.05.13.16.09.58;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@Release-6-0-0
+@
+text
+@#!/bin/sh
+
+# create configure from the autotools and invoke
+rm -rf autom4te.cache
+aclocal
+autoheader
+autoconf
+
+# On the Mac libtool is called "glibtool"
+{ { libtool=glibtool;$libtool --version 2>/dev/null| fgrep "(GNU libtool)"; }||
+{ libtool=libtool;$libtool --version| fgrep "(GNU libtool)"; } } &&
+{ "${libtool}ize" -f 2>/dev/null || libtoolize -f; ln -sf `which "${libtool}"` libtool; }
+
+automake -a --foreign 
+
+ext="@@EXTENSION_DIR@@"
+pld="@@phplibdir@@"
+sh ./configure "$@@" --with-extdir="$ext" --libdir="$pld" --datadir="$pld" --bindir="$pld" || (
+echo "Back-end configuration failed."
+echo "Please install the recommended autoconf, libtool and automake versions"
+echo "or disable back-end configuration and use the pre-compiled J2EE back-end:"
+echo 
+echo "    ./configure --disable-backend --with-java=<JAVA_HOME>"
+echo
+exit 1
+)
+
+@
+
+
+1.8
+log
+@Release-3-1-3
+@
+text
+@@
+
+
+1.7
+log
+@Release-3-1-2
+@
+text
+@d10 2
+a11 2
+{ { libtool=glibtool;$libtool --version 2>/dev/null| fgrep -q "(GNU libtool)"; }||
+{ libtool=libtool;$libtool --version| fgrep -q "(GNU libtool)"; } } &&
+@
+
+
+1.6
+log
+@Release-3-1-0
+@
+text
+@d8 6
+a13 2
+libtoolize -f
+ln -s `which libtool` 2>/dev/null
+@
+
+
+1.5
+log
+@Release-3-1-0
+@
+text
+@d19 1
+a19 1
+echo "    ./configure --disable-backend --with-java=java"
+@
+
+
+1.4
+log
+@Release-3.0.8pre2
+@
+text
+@d15 1
+a15 1
+echo "Backend configuration failed."
+d17 1
+a17 1
+echo "or disable backend configuration and use the pre-compiled J2EE backend:"
+@
+
+
+1.4.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d15 6
+a20 7
+echo "Back-end configuration failed."
+echo "Please install the recommended GNU autoconf, libtool and automake versions,"
+echo "see INSTALL document, section \"Quick Installation\","
+echo "or disable back-end configuration and use the pre-compiled J2EE back-end:"
+echo ""
+echo "    ./configure --disable-backend --with-java=<JAVA_HOME>"
+echo ""
+@
+
+
+1.3
+log
+@Replaced JNI with XML protocol
+@
+text
+@d14 10
+a23 1
+sh ./configure "$@@" --with-extdir="$ext" --libdir="$pld" --datadir="$pld" --bindir="$pld"
+@
+
+
+1.2
+log
+@Replaced JNI with XML protocol
+@
+text
+@d1 14
+@
+
+
+1.1
+log
+@Release-1.0.8
+@
+text
+@a0 14
+#!/bin/sh
+
+# create configure from the autotools and invoke
+rm -rf autom4te.cache
+aclocal
+autoheader
+autoconf
+libtoolize -f
+ln -s `which libtool` 2>/dev/null
+automake -a --foreign 
+
+ext="@@EXTENSION_DIR@@"
+pld="@@phplibdir@@"
+sh ./configure "$@@" --with-extdir="$ext" --libdir="$pld" --datadir="$pld" --bindir="$pld"
+@
+

@@ -1,0 +1,1483 @@
+head	1.55;
+access;
+symbols
+	Release-5-5-4-1:1.53.0.24
+	Root_Release-5-5-4-1:1.53
+	Release-5-5-4:1.53.0.22
+	Root_Release-5-5-4:1.53
+	Release-5-5-3:1.53.0.20
+	ROOT_Release-5-5-3:1.53
+	Release-5-5-2:1.53.0.18
+	Root_Release-5-5-2:1.53
+	debian_version_5_5_1-1:1.53
+	Release-5-5-1:1.53.0.14
+	upstream_version_5_5_1:1.53
+	ROOT_Release-5-5-1:1.53
+	debian_version_5_5-1:1.53
+	upstream_version_5_5:1.53
+	ROOT_Release-5-5:1.53
+	Release-5-5:1.53.0.16
+	debian_version_5_4_4_2-3:1.53
+	Release-5-4-4-2-1:1.53.0.10
+	debian_version_5_4_4_2-2:1.53
+	debian_version_5_4_4_2-1:1.53
+	upstream_version_5_4_4_2:1.53
+	debian_version_5_4_4_1-1:1.53
+	upstream_version_5_4_4_1:1.53
+	debian_version_5_4_4-1:1.53
+	upstream_version_5_4_4:1.53
+	Release-5-4-4:1.53.0.12
+	Root_Release-5-4-4:1.53
+	debian_version_5_4_3_2-1:1.53
+	upstream_version_5_4_3_2:1.53
+	Release_5-4-3-2:1.53.0.8
+	Root_Release_5-4-3-2:1.53
+	upstream_version_5_4_3_1:1.53
+	debian_version_5_4_3_1-1:1.53
+	Release-5-4-3:1.53.0.6
+	Root_Release-5-4-3:1.53
+	Root_Release-5-4-1:1.53
+	Release-5-4-1:1.53.0.4
+	Root_Release-5-4:1.53
+	Release-5-4:1.53.0.2
+	upstream_version_5_3_4:1.52
+	debian_version_5_3_4-1:1.52
+	ROOT_Release-5-3-4:1.52
+	Release-5-3-4:1.52.0.30
+	ROOT_Release-5-3-3:1.52
+	Release-5-3-3:1.52.0.26
+	debian_version_5_3_2_1_2-1:1.52
+	upstream_version_5_3_2_1_2:1.52
+	debian_version_5_3_2_1_1-1:1.52
+	debian_version_5_3_2_1_1:1.52
+	upstream_version_5_3_2_1_1:1.52
+	Root_Release-5-3-2-1:1.52
+	Release-5-3-2-1:1.52
+	ROOT_RELEASE-5-3-2-1:1.52
+	RELEASE-5-3-2-1:1.52.0.28
+	Release-5-3-2:1.52.0.24
+	Root_Release-5-3-2:1.52
+	Root_Release-5-3-1:1.52
+	Release-5-3-1:1.52.0.22
+	Release-5-2-3-1:1.52.0.20
+	Root_Release-5-2-3-1:1.52
+	Release-5-2-2-4:1.52.0.18
+	Root_Release-5-2-2-4:1.52
+	Release-5-2-2-1:1.52.0.16
+	Root_Release-5-2-2-1:1.52
+	upstream_version_5_2_2:1.52
+	debian_version_5_2_2-1:1.52
+	Release-5-2-2:1.52.0.14
+	ROOT_Release-5-2-2:1.52
+	ROOT_Release-5-2-1:1.52
+	Release-5-2-1:1.52.0.12
+	Release-5-2-0:1.52.0.10
+	ROOT_Release-5-2-0:1.52
+	ROOT_Release-5-1-2:1.52
+	Release-5-1-2:1.52.0.8
+	Version-5-1-1:1.52.0.6
+	ROOT_Version-5-1-1:1.52
+	debian_version_5_1_0-1:1.52
+	upstream_version_5_1_0:1.52
+	ROOT_Release-5-1-0:1.52
+	Release-5-1-0:1.52.0.4
+	ROOT_Release-5-0-0:1.52
+	Release-5-0-0:1.52.0.2
+	Release-4-3-3:1.51.0.14
+	ROOT_Release-4-3-3:1.51
+	upstream_version_4_3_2:1.51
+	debian_version_4_3_2-1:1.51
+	ROOT_Release-4-3-2:1.51
+	Release-4-3-2:1.51.0.12
+	Release-4-3-1:1.51.0.10
+	ROOT_Release-4-3-1:1.51
+	debian_version_4_3_0-1:1.51
+	upstream_version_4_3_0:1.51
+	ROOT_Release-4-3-0:1.51
+	Release-4-3-0:1.51.0.8
+	debian_version_3_2_1b-2:1.49
+	debian_version_4_2_2-1:1.51
+	upstream_version_4_2_2:1.51
+	debian_version_3_2_1b-1:1.49
+	upstream_version_3_2_1b:1.49
+	Release-4-1-2:1.51.0.6
+	Release-4-0-8:1.51.0.4
+	debian_version_4_0_8a-1:1.51
+	upstream_version_4_0_8a:1.51
+	jostb-debian-ubuntu-patch:1.51.0.2
+	debian_version_4_0_8-1:1.51
+	upstream_version_4_0_8:1.51
+	debian_version_4_0_7-1:1.50
+	upstream_version_4_0_7:1.50
+	debian_version_4_0_6-1:1.50
+	upstream_version_4_0_6:1.50
+	debian_version_4_0_2-1:1.50
+	upstream_version_4_0_2:1.50
+	Release-4-0-2_Root:1.50
+	Release-4-0-2:1.50.0.2
+	upstream_version_4_0_1:1.50
+	debian_version_4_0_1-2:1.50
+	Release-3-2-1:1.49.0.2
+	Release-3-1-8:1.48.0.2
+	Release-3-0-8_root:1.36
+	Release-3-0-8_Root:1.37
+	Release-3-0-8:1.36.0.2
+	Release-2-0-8:1.25.0.4
+	Release-2-0-7_Root:1.19
+	Release-2-0-7:1.19.0.2
+	Release-2-0-6-branch:1.15.0.2
+	Version-1:1.9.0.6
+	Version-2:1.9.0.4
+	Release-2:1.9.0.2
+	PHP-5:1.3.0.4
+	Release-1-0-6:1.3.0.6
+	sparc-64-test:1.2.0.2
+	V-2004-08-28:1.1.1.1
+	PHP-JAVA-BRIDGE:1.1.1;
+locks; strict;
+comment	@ * @;
+expand	@k@;
+
+
+1.55
+date	2010.02.18.17.25.32;	author jost_boekemeier;	state dead;
+branches;
+next	1.54;
+
+1.54
+date	2010.01.25.16.45.14;	author jost_boekemeier;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2008.12.11.21.05.45;	author jost_boekemeier;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2008.01.06.20.59.19;	author jost_boekemeier;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2007.04.07.16.22.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2007.03.09.20.28.07;	author andremachado;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2006.12.05.20.11.22;	author jost2345;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2006.09.10.17.31.11;	author jost2345;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2006.08.27.14.40.11;	author jost2345;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2006.08.21.17.41.52;	author jost2345;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2006.08.08.17.20.45;	author jost2345;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2006.07.16.20.29.25;	author jost2345;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2006.06.27.20.44.33;	author jost2345;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2006.06.26.18.43.55;	author jost2345;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2006.06.19.20.37.14;	author jost2345;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2006.05.15.19.03.29;	author jost2345;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2006.05.13.16.13.40;	author jost2345;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2006.05.04.17.48.13;	author jost2345;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2006.04.30.17.01.55;	author jost2345;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2006.03.12.16.44.39;	author jost2345;	state Exp;
+branches
+	1.36.2.1;
+next	1.35;
+
+1.35
+date	2006.03.10.18.41.37;	author jost2345;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2006.03.01.19.31.38;	author jost2345;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2006.02.03.17.41.36;	author jost2345;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2006.01.30.19.39.53;	author jost2345;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2006.01.15.21.05.30;	author jost2345;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2005.12.18.18.17.48;	author jost2345;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2005.12.11.22.24.40;	author jost2345;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.12.08.18.41.56;	author jost2345;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.11.26.18.03.59;	author jost2345;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.11.05.13.11.19;	author jost2345;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.08.23.18.20.56;	author jost2345;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.08.18.18.31.39;	author jost2345;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.08.11.18.08.16;	author jost2345;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.08.01.16.56.55;	author jost2345;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.07.17.13.46.23;	author jost2345;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.07.12.15.23.09;	author jost2345;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.06.21.20.17.30;	author jost2345;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.06.19.20.45.40;	author jost2345;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.06.16.16.10.41;	author jost2345;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.06.15.15.18.02;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.03.11.17.34.19;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.02.21.17.53.20;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.02.19.13.29.25;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.02.17.21.57.22;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.02.15.19.10.29;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.02.13.21.43.28;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.12.01.20.29.57;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.11.28.21.12.57;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.11.26.21.13.40;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.11.24.23.18.16;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.11.21.14.44.55;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.11.11.18.36.00;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.10.12.17.07.16;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.10.06.16.38.08;	author jost2345;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2004.08.28.06.05.55;	author jost2345;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2004.08.28.06.05.55;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2004.10.09.21.57.20;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.36.2.1
+date	2006.05.13.16.09.57;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.55
+log
+@Release-6-0-0
+@
+text
+@/*-*- mode: C; tab-width:4 -*-*/
+
+/** protocol.h -- implementation of the PHP/Java Bridge XML protocol.
+
+  Copyright (C) 2003-2007 Jost Boekemeier
+
+  This file is part of the PHP/Java Bridge.
+
+  The PHP/Java Bridge ("the library") is free software; you can
+  redistribute it and/or modify it under the terms of the GNU General
+  Public License as published by the Free Software Foundation; either
+  version 2, or (at your option) any later version.
+
+  The library is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with the PHP/Java Bridge; see the file COPYING.  If not, write to the
+  Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+  02111-1307 USA.
+
+  Linking this file statically or dynamically with other modules is
+  making a combined work based on this library.  Thus, the terms and
+  conditions of the GNU General Public License cover the whole
+  combination.
+
+  As a special exception, the copyright holders of this library give you
+  permission to link this library with independent modules to produce an
+  executable, regardless of the license terms of these independent
+  modules, and to copy and distribute the resulting executable under
+  terms of your choice, provided that you also meet, for each linked
+  independent module, the terms and conditions of the license of that
+  module.  An independent module is a module which is not derived from
+  or based on this library.  If you modify this library, you may extend
+  this exception to your version of the library, but you are not
+  obligated to do so.  If you do not wish to do so, delete this
+  exception statement from your version. */  
+
+#ifndef JAVA_PROTOCOL_H
+#define JAVA_PROTOCOL_H
+
+/* peer */
+#include <stdio.h>
+#ifdef __MINGW32__
+# include <winsock2.h>
+# define close closesocket
+#else
+# include <sys/types.h>
+# include <sys/socket.h>
+# include <netinet/tcp.h>
+#endif
+
+/* 
+ * we create a unix domain socket with the name .php_java_bridge in
+ * the tmpdir
+ */
+#ifndef P_tmpdir
+/* xopen, normally defined in stdio.h */
+#define P_tmpdir "/tmp"
+#endif 
+#define SOCKNAME P_tmpdir/**/"/.php_java_bridge"/**/"XXXXXX"
+/* Linux: pipes created in the shared memory */
+#define SOCKNAME_SHM "/dev/shm/.php_java_bridge"/**/"XXXXXX"
+
+/* 
+ * Max. number of bytes in a context ID, should be > POSIX_PATH_MAX 
+ */
+#define CONTEXT_LEN_MAX 512
+
+
+/*
+ * default log file is System.out
+ */
+#define LOGFILE ""
+
+#define LOG_OFF 0
+#define LOG_FATAL 1  /* default level */
+#define LOG_ERROR 2
+#define LOG_INFO 3 
+#define LOG_DEBUG 4
+#define DEFAULT_LEVEL "2"
+
+#define N_JAVA_SARGS 10
+#define N_JAVA_SENV 3 
+#define N_MONO_SARGS 6
+#define N_MONO_SENV 1
+#define DEFAULT_MONO_PORT "9167" /* default port for tcp/ip */
+#define DEFAULT_JAVA_PORT "9267" /* default port for tcp/ip */
+#define DEFAULT_HOST "127.0.0.1"
+#define DEFAULT_SERVLET "/JavaBridge/JavaBridge.phpjavabridge"
+
+#define RECV_SIZE 8192 // initial size of the receive buffer
+#define MAX_ARGS 100   // max # of method arguments
+
+#endif
+@
+
+
+1.54
+log
+@Release-5-5-5
+@
+text
+@@
+
+
+1.53
+log
+@java autostart removed
+@
+text
+@a90 2
+#define DEFAULT_JAVA_WRAPPER EXTENSION_DIR/**/"/RunJavaBridge"
+#define DEFAULT_MONO_WRAPPER EXTENSION_DIR/**/"/RunMonoBridge"
+@
+
+
+1.52
+log
+@Release-5-0-0
+@
+text
+@a98 112
+/* checks if we use a servlet backend (re-directed or not) */
+#define IS_SERVLET_BACKEND(env) (((*env)->servlet_ctx || EXT_GLOBAL (get_servlet_context) (TSRMLS_C)))
+
+/* checks if the servlet backend uses HTTP, either because we do not
+   re-direct or because we override re-direct */
+#define IS_OVERRIDE_REDIRECT(env) ((((*env)->peer0!=-1) || EXT_GLOBAL (get_servlet_context) (TSRMLS_C)))
+
+typedef struct sfile SFILE;
+typedef struct proxyenv_ *proxyenv;
+
+/** A procedure type which can be used to create a procedure to create
+	a proxy environment, e.g. a secure (SSL) or a standard environment */
+typedef proxyenv* (environment_factory) 
+  (short (*handle_request)(proxyenv *env), 
+   short (*handle_cached)(proxyenv *env), 
+   short *is_local);
+
+struct proxyenv_ {
+
+  /* peer */
+  int peer, peerr, peer0;		/* peer0 contains peer during override
+								   redirect */
+  short is_shared;				/* 1, if peer, peerr, servlet_ctx is shared */
+  short peer_redirected;		/* remains true during override
+								   redirect */
+  struct sockaddr orig_peer_saddr; /* only valid if peer is a servlet, it
+								   points to the original peer */
+
+  /* the name of the comm. pipe */
+  struct pipe {
+	char*channel, *in, *out;
+	int lockfile;
+  } pipe;
+
+  /* used by the parser implementation */
+  unsigned char*s; size_t len; 
+  ssize_t pos, c; 
+  unsigned char recv_buf[RECV_SIZE];
+
+  /* the send buffer */
+  unsigned char*send;
+  size_t send_len, send_size;
+
+  char *server_name;
+
+  /* local server (not a servlet engine) */
+  short is_local;
+
+  /* for servlets: re-open connection */
+  short must_reopen, must_share;
+  short connection_is_closed;
+
+  struct async_ctx {
+	short (*handle_request)(proxyenv *env);
+	unsigned long nextValue;
+	void *result;
+	SFILE *peer;
+	ssize_t (*f_send)(proxyenv*env, const void *buf, size_t len);
+  } async_ctx;
+
+  /* for servlet engines only */
+  char *servlet_ctx;			/* the # of the server context runner */
+  char *current_servlet_ctx;	/* the ctx # for this request only, used when persistent connections are enabled */
+  char *servlet_context_string;	/* original rinit value from
+								   get_servlet_context() */
+  short backend_has_session_proxy;
+  struct saved_cfg {			/* copy of JG(cfg) used in activate/passivate connection */
+	int ini_user;
+	short java_socket_inet;
+	char *hosts, *servlet;
+  } cfg;
+  
+  short (*handle)(proxyenv *env);
+  short (*handle_request)(proxyenv *env);
+
+  void  (*checkSession)(proxyenv *env);
+  void  (*redirect)(proxyenv *env);
+
+  void (*writeCreateObjectBegin)(proxyenv *env, char*name, size_t strlen, char createInstance, void *result);
+  short (*writeCreateObjectEnd)(proxyenv *env);
+  void (*writeInvokeBegin)(proxyenv *env, unsigned long object, char*method, size_t strlen, char property, void* result);
+  short (*writeInvokeEnd)(proxyenv *env);
+  void (*writeResultBegin)(proxyenv *env, void* result);
+  void (*writeResultEnd)(proxyenv *env);
+  void (*writeString)(proxyenv *env, char*name, size_t strlen);
+  void (*writeBoolean)(proxyenv *env, short boolean);
+  void (*writeLong)(proxyenv *env, long l);
+  void (*writeULong)(proxyenv *env, unsigned long l);
+  void (*writeDouble)(proxyenv *env, double d);
+  void (*writeObject)(proxyenv *env, unsigned long object);
+  void (*writeException)(proxyenv *env, unsigned long object, char*str, size_t len);
+  void (*writeCompositeBegin_a)(proxyenv *env);
+  void (*writeCompositeBegin_h)(proxyenv *env);
+  void (*writeCompositeEnd)(proxyenv *env);
+  void (*writePairBegin_s)(proxyenv *env, char*key, size_t strlen);
+  void (*writePairBegin_n)(proxyenv *env, unsigned long key);
+  void (*writePairBegin)(proxyenv *env);
+  void (*writePairEnd)(proxyenv *env);
+  void (*writeUnref)(proxyenv *env, unsigned long object);
+  short (*writeEndConnection)(proxyenv *env, char property);
+  short (*finish)(proxyenv *env);
+  short (*endSession)(proxyenv *env);
+
+  short   (*f_close)(proxyenv *env);
+  ssize_t (*f_recv)(proxyenv*env, void *buf, size_t len);
+  ssize_t (*f_recv0)(proxyenv*env, void *buf, size_t len);
+  ssize_t (*f_send)(proxyenv*env, const void *buf, size_t len);
+  ssize_t (*f_send0)(proxyenv*env, const void *buf, size_t len);
+
+  void (*destruct)(proxyenv *env);
+};
+
+@
+
+
+1.51
+log
+@Release-3-0-8
+@
+text
+@d83 1
+a83 1
+#define DEFAULT_LEVEL "1"
+@
+
+
+1.50
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d165 1
+a165 1
+  struct saved_cfg {
+d167 1
+@
+
+
+1.49
+log
+@Release-3-2-1
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 2006 Jost Boekemeier
+@
+
+
+1.48
+log
+@Release-3-1-8
+@
+text
+@d185 1
+@
+
+
+1.47
+log
+@Release-3-1-8rc
+@
+text
+@d3 1
+a3 1
+/**\file protocol.h -- implementation of the PHP/Java Bridge XML protocol.
+@
+
+
+1.46
+log
+@Release-3-1-8devel1
+@
+text
+@d108 8
+d173 3
+d198 1
+d200 1
+d205 2
+@
+
+
+1.45
+log
+@Release-3-1-7
+@
+text
+@d3 37
+a39 6
+/**\file 
+ * Definitions for the protocol implementation.
+ *
+ * It defines the proxyenv structure and the communication channels.
+ * @@see PROTOCOL.TXT
+ */
+@
+
+
+1.44
+log
+@Release-3-1-6
+@
+text
+@d36 5
+d75 1
+d116 1
+a116 1
+	FILE *peer;
+@
+
+
+1.43
+log
+@Release-3-1-3
+@
+text
+@d76 1
+d82 5
+d103 1
+a103 1
+  short must_reopen; 
+@
+
+
+1.42
+log
+@Release-3-1-2
+@
+text
+@d43 2
+a44 2
+#define LOG_FATAL 1
+#define LOG_ERROR 2 /* default level */
+d47 1
+a47 1
+#define DEFAULT_LEVEL "2"
+@
+
+
+1.41
+log
+@Release-3-1-0
+@
+text
+@d101 1
+a101 1
+	void (*handle_request)(proxyenv *env);
+d119 2
+a120 2
+  void (*handle)(proxyenv *env);
+  void (*handle_request)(proxyenv *env);
+@
+
+
+1.40
+log
+@Release-3-1-0
+@
+text
+@d49 1
+a49 1
+#define N_JAVA_SARGS 9
+d102 1
+a102 1
+	long nextValue;
+d124 1
+a124 1
+  void (*writeInvokeBegin)(proxyenv *env, long object, char*method, size_t strlen, char property, void* result);
+d132 2
+a133 2
+  void (*writeObject)(proxyenv *env, long object);
+  void (*writeException)(proxyenv *env, long object, char*str, size_t len);
+d141 1
+a141 1
+  void (*writeUnref)(proxyenv *env, long object);
+@
+
+
+1.39
+log
+@Release-3-1-0
+@
+text
+@d21 1
+d98 1
+d123 1
+a123 1
+  void (*writeCreateObjectEnd)(proxyenv *env);
+d125 1
+a125 1
+  void (*writeInvokeEnd)(proxyenv *env);
+d142 2
+a143 2
+  void (*writeEndConnection)(proxyenv *env, char property);
+  void (*finish)(proxyenv *env);
+@
+
+
+1.38
+log
+@Release-3-1-0
+@
+text
+@d108 1
+@
+
+
+1.37
+log
+@Release-3-1-0
+@
+text
+@d107 1
+a107 1
+  char *servlet_ctx;
+d111 4
+@
+
+
+1.36
+log
+@Release-3.0.8pre2
+@
+text
+@d135 1
+@
+
+
+1.36.2.1
+log
+@Release-3-0-8-1
+@
+text
+@a20 1
+# include <netinet/tcp.h>
+@
+
+
+1.35
+log
+@Release-3.0.8pre2
+@
+text
+@d102 2
+d139 2
+a140 2
+  ssize_t (*f_send)(proxyenv*env, int peer, const void *buf, size_t len);
+  ssize_t (*f_send0)(proxyenv*env, int peer, const void *buf, size_t len);
+@
+
+
+1.34
+log
+@Release-3.0.8pre
+@
+text
+@d98 6
+d110 1
+@
+
+
+1.33
+log
+@Release-3.0.7
+@
+text
+@d57 1
+a57 1
+#define DEFAULT_SERVLET "/JavaBridge/JavaBridge.php"
+@
+
+
+1.32
+log
+@Release-3.0.7
+@
+text
+@d99 3
+a101 1
+  char *servlet_ctx, *servlet_context_string;
+@
+
+
+1.31
+log
+@Release-3.0.6
+@
+text
+@a109 4
+  void (*writeGetMethodBegin)(proxyenv *env, long object, char*method, size_t strlen, void* result);
+  void (*writeGetMethodEnd)(proxyenv *env);
+  void (*writeCallMethodBegin)(proxyenv *env, long object, long method, void* result);
+  void (*writeCallMethodEnd)(proxyenv *env);
+@
+
+
+1.30
+log
+@Release-3.0.3
+@
+text
+@d100 1
+@
+
+
+1.29
+log
+@Release-3-0-2
+@
+text
+@d32 3
+d73 1
+a73 1
+  int peer, peer0;				/* peer0 contains peer during override
+d128 5
+@
+
+
+1.28
+log
+@Release-3-0-2
+@
+text
+@a48 6
+#ifndef N_SARGS 
+# define N_SARGS N_JAVA_SARGS	/* # of server args for exec */
+#endif
+#ifndef N_SENV
+# define N_SENV N_JAVA_SENV		/* # of server env entries */
+#endif
+d51 2
+a52 3
+#ifndef DEFAULT_PORT
+# define DEFAULT_PORT DEFAULT_JAVA_PORT /* init_cfg.h overrides */
+#endif
+d54 1
+a54 1
+#define DEFAULT_SERVLET "/JavaBridge/dummy.php"
+@
+
+
+1.27
+log
+@Version-3.0.0pre1
+@
+text
+@d61 1
+a61 1
+#define DEFAULT_SERVLET "/JavaBridge/PhpJavaServlet"
+@
+
+
+1.26
+log
+@Version-3.0(pre)
+@
+text
+@d3 7
+@
+
+
+1.25
+log
+@Release-2.0.8(pre4)
+@
+text
+@d64 1
+a64 1
+#define IS_OVERRIDE_REDIRECT(env) (((*env)->peer0 || EXT_GLOBAL (get_servlet_context) (TSRMLS_C)))
+@
+
+
+1.24
+log
+@Release-2.0.8-pre3
+@
+text
+@d60 1
+a60 1
+#define IS_SERVLET_BACKEND(env) (((*env)->servlet_ctx || EXT_GLOBAL (get_servlet_context) ()))
+d64 1
+a64 1
+#define IS_OVERRIDE_REDIRECT(env) (((*env)->peer0 || EXT_GLOBAL (get_servlet_context) ()))
+@
+
+
+1.23
+log
+@Release-2.0.8-preview
+@
+text
+@d59 7
+d68 9
+a76 1
+  int peer;
+d96 1
+a96 1
+  char *servlet_ctx;
+d124 1
+@
+
+
+1.22
+log
+@Release-2.0.8(pre)
+@
+text
+@d80 2
+a81 2
+  /* the cookie, for servlet engines only */
+  char *cookie_name, *cookie_value, *servlet_redirect;
+d100 1
+@
+
+
+1.21
+log
+@gtk, swing and swt examples added
+@
+text
+@d81 1
+a81 1
+  char *cookie_name, *cookie_value;
+@
+
+
+1.20
+log
+@Release-2.0.8pre
+@
+text
+@d40 1
+a40 1
+#define N_MONO_SARGS 5
+@
+
+
+1.19
+log
+@Release-2.0.7pre
+@
+text
+@d89 2
+@
+
+
+1.18
+log
+@Release-2.0.7-pre
+@
+text
+@d8 7
+d74 3
+a79 1
+
+@
+
+
+1.17
+log
+@Tomcat 5
+@
+text
+@d26 2
+a27 2
+#define LOG_ERROR 2
+#define LOG_INFO 3 /* default level */
+d31 15
+a45 3
+#define N_SARGS 9				/* # of server args for exec */
+#define N_SENV 3				/* # of server env entries */
+#define DEFAULT_PORT "9167"		/* default port for tcp/ip */
+d67 4
+a98 2
+extern proxyenv *java_createSecureEnvironment(int peer, void (*handle_request)(proxyenv *env), char*server);
+
+@
+
+
+1.16
+log
+@Tomcat 5 support / multicasts removed
+@
+text
+@d35 1
+a35 1
+#define DEFAULT_SERVLET "/javabridge/PhpJavaServlet"
+@
+
+
+1.15
+log
+@windows fixes
+@
+text
+@d35 4
+d45 3
+a47 2
+  unsigned char*s;
+  size_t len;
+d55 3
+@
+
+
+1.14
+log
+@do not change the channel if server was forked by the httpd
+@
+text
+@d48 2
+d75 1
+a75 1
+extern proxyenv *java_createSecureEnvironment(int peer, void (*handle_request)(proxyenv *env));
+@
+
+
+1.13
+log
+@Protocol update
+@
+text
+@d29 1
+a29 1
+#define DEFAULT_LEVEL "1"
+@
+
+
+1.12
+log
+@Protocol update
+@
+text
+@d29 1
+a29 1
+#define DEFAULT_LEVEL "4" //FIXME Change to 1 for release
+d48 1
+a48 1
+  int (*handle_request)(proxyenv *env);
+d73 1
+a73 1
+extern proxyenv *java_createSecureEnvironment(int peer, int (*handle_request)(proxyenv *env));
+@
+
+
+1.11
+log
+@Replaced JNI with XML protocol
+@
+text
+@d29 1
+d31 4
+a34 3
+
+#define N_SARGS 9		/* # of server args for exec */
+#define N_SENV 3		/* # of server env entries */
+d46 1
+a46 1
+  size_t send_len;
+d50 1
+a50 1
+  void (*writeCreateObjectBegin)(proxyenv *env, char*name, size_t strlen, short createInstance, void *result);
+d52 1
+a52 1
+  void (*writeInvokeBegin)(proxyenv *env, long object, char*method, size_t strlen, short property, void* result);
+d68 1
+d70 1
+@
+
+
+1.10
+log
+@Replaced JNI with XML protocol
+@
+text
+@a7 1
+#include "sio.h"
+d36 10
+a45 1
+  SFILE *peer;
+d69 1
+a69 1
+extern proxyenv *java_createSecureEnvironment(SFILE *peer, int (*handle_request)(proxyenv *env));
+@
+
+
+1.9
+log
+@release 1.0.7
+@
+text
+@d3 2
+a4 2
+#ifndef PROXY_PROTOCOL_H
+#define PROXY_PROTOCOL_H
+a9 9
+/* jni */
+#include <jni.h>
+#ifdef __MINGW32__
+/* on windows: work around a bug in the declaration of the following
+   methods */
+extern jint JNICALL JNI_GetDefaultJavaVMInitArgs (void *);
+extern jint JNICALL JNI_CreateJavaVM (JavaVM **, void **, void *);
+#endif
+
+a30 41
+#define PROTOCOL_END 0
+#define ALLOCOBJECT 1
+#define CALLOBJECTMETHOD 2
+#define CALLVOIDMETHOD 3
+#define DELETEGLOBALREF 4
+#define EXCEPTIONCLEAR 6
+#define EXCEPTIONOCCURRED 7
+#define FINDCLASS 8
+#define GETARRAYLENGTH 9
+#define GETBYTEARRAYELEMENTS 10
+#define GETMETHODID 11
+#define GETOBJECTCLASS 12
+#define GETSTRINGUTFCHARS 13
+#define NEWBYTEARRAY 14
+#define NEWGLOBALREF 15
+#define NEWOBJECT 16
+#define NEWOBJECTARRAY 17
+#define NEWSTRINGUTF 18
+#define RELEASEBYTEARRAYELEMENTS 19
+#define RELEASESTRINGUTFCHARS 20
+#define SETBYTEARRAYREGION 21
+#define SETOBJECTARRAYELEMENT 22
+#define ISINSTANCEOF 23
+
+#define SETRESULTFROMSTRING 101
+#define SETRESULTFROMLONG 102
+#define SETRESULTFROMDOUBLE 103
+#define SETRESULTFROMBOOLEAN 104
+#define SETRESULTFROMOBJECT 105
+#define SETRESULTFROMARRAY 106
+#define NEXTELEMENT 107
+#define HASHINDEXUPDATE 108
+#define HASHUPDATE 109
+#define SETEXCEPTION 110
+
+#define INVOKE 50
+#define CREATEOBJECT 51
+#define GETSETPROP 52
+#define LASTEXCEPTION 53
+#define TRANSACTION_BEGIN 54
+#define TRANSACTION_END 55
+d32 2
+a33 2
+#define N_SARGS 9				/* # of server args for exec */
+#define N_SENV 3				/* # of server env entries */
+d38 1
+d40 19
+a58 28
+  void (*LastException)(proxyenv *env, jobject php_reflect, jmethodID lastEx, jlong result);
+  void (*CreateObject)(proxyenv *env, jobject php_reflect, jmethodID invoke, jstring classname, jboolean createInstance, jobjectArray array, jlong result);
+  void (*Invoke)(proxyenv *env, jobject php_reflect, jmethodID invoke, jobject obj, jstring method, jobjectArray array, jlong result);
+  void (*GetSetProp)(proxyenv *env, jobject php_reflect, jmethodID gsp, jobject obj, jstring propName, jobjectArray value, jlong result);
+
+  jobject (*AllocObject) (proxyenv *env, jclass clazz);
+  jobject (*CallObjectMethodA) (short count, proxyenv *env, jobject obj, jmethodID methodID, const jvalue*args);
+  void (*CallVoidMethodA) (short count, proxyenv *env, jobject obj, jmethodID methodID, const jvalue*args);
+  void (*DeleteGlobalRef) (proxyenv *env, jobject gref);
+  void (*ExceptionClear) (proxyenv *env);
+  jthrowable (*ExceptionOccurred) (proxyenv *env);
+  jclass (*FindClass) (proxyenv *env, const char *name);
+  jsize (*GetArrayLength) (proxyenv *env, jarray array);
+  jbyte *(*GetByteArrayElements) (proxyenv *env, jbyteArray array, jboolean *isCopy);
+  jmethodID (*GetMethodID) (proxyenv *env, jclass clazz, const char *name, const char *sig);
+  jclass (*GetObjectClass) (proxyenv *env, jobject obj);
+  const char* (*GetStringUTFChars) (proxyenv *env, jstring str, jboolean *isCopy);
+  jbyteArray (*NewByteArray) (proxyenv *env, jsize len);
+  jobject (*NewGlobalRef) (proxyenv *env, jobject lobj);
+  jobject (*NewObjectA) (short count, proxyenv *env, jclass clazz, jmethodID methodID, const jvalue*args);
+  jobjectArray (*NewObjectArray) (proxyenv *env, jsize len, jclass clazz, jobject init);
+  jstring (*NewStringUTF) (proxyenv *env, const char *utf);
+  void (*ReleaseByteArrayElements) (proxyenv *env, jbyteArray array, jbyte *elems, jint mode);
+  void (*ReleaseStringUTFChars) (proxyenv *env, jstring array, const char*elems);
+  void (*SetByteArrayRegion) (proxyenv *env, jbyteArray array, jsize start, jsize len, jbyte *buf);
+  void (*SetObjectArrayElement) (proxyenv *env, jobjectArray array, jsize index, jobject val);
+  jboolean (*IsInstanceOf) (proxyenv *env, jobject obj, jobject clazz);
+  int (*handle_request)(proxyenv *env);
+a61 7
+extern void java_id(proxyenv *env, char id);
+extern void java_sread(void *ptr, size_t size, size_t nmemb, SFILE *stream);
+extern void java_swrite(const  void  *ptr,  size_t  size,  size_t  nmemb,  SFILE *stream);
+
+/* Use these instead of DeleteLocalRef */
+#define BEGIN_TRANSACTION(proxyenv) java_id(proxyenv, TRANSACTION_BEGIN)
+#define END_TRANSACTION(proxyenv) java_id(proxyenv, TRANSACTION_END)
+@
+
+
+1.8
+log
+@trampoline
+@
+text
+@d29 5
+d95 2
+a96 2
+  jobject (*CallObjectMethod) (short count, proxyenv *env, jobject obj, jmethodID methodID, ...);
+  void (*CallVoidMethod) (short count, proxyenv *env, jobject obj, jmethodID methodID, ...);
+d108 1
+a108 1
+  jobject (*NewObject) (short count, proxyenv *env, jclass clazz, jmethodID methodID, ...);
+@
+
+
+1.7
+log
+@php 5
+@
+text
+@a39 1
+#define DELETELOCALREF 5
+d74 2
+a92 1
+  void (*DeleteLocalRef) (proxyenv *env, jobject obj);
+d113 1
+d115 8
+@
+
+
+1.6
+log
+@PHP5 iterator/array
+@
+text
+@d110 1
+a110 1
+  jboolean (*IsInstanceOf) (proxyenv *env, jobject obj, jclass clazz);
+@
+
+
+1.5
+log
+@php 4/5
+@
+text
+@d58 1
+d110 1
+@
+
+
+1.4
+log
+@win32/mingw
+@
+text
+@d83 1
+a83 1
+  void (*CreateObject)(proxyenv *env, jobject php_reflect, jmethodID invoke, jstring classname, jobjectArray array, jlong result);
+@
+
+
+1.3
+log
+@Added support for Slowlaris' broken stdio:
+SFREAD SFWRITE SFDOPEN SFCLOSE SFEOF SFERROR: Use these instead of the stdio
+versions.  On Solaris these functions access the raw socket, which is slow
+but at least it works
+@
+text
+@d12 6
+@
+
+
+1.2
+log
+@The client receives the bridge instance as the first element.  This fixes the classpath bug.
+@
+text
+@d8 2
+d74 1
+a74 1
+  FILE *peer;
+d105 1
+a105 1
+extern proxyenv *java_createSecureEnvironment(FILE *peer, int (*handle_request)(proxyenv *env));
+@
+
+
+1.2.2.1
+log
+@workaround for broken sparc stdio
+@
+text
+@a7 2
+#include "jfile.h"
+
+d72 1
+a72 1
+  JFILE *peer;
+d103 1
+a103 1
+extern proxyenv *java_createSecureEnvironment(JFILE *peer, int (*handle_request)(proxyenv *env));
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d67 3
+@
+
+
+1.1.1.1
+log
+@Initial
+@
+text
+@@

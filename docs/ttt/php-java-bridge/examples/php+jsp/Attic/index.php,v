@@ -1,0 +1,1024 @@
+head	1.28;
+access;
+symbols
+	Release-7-1-1:1.27.0.8
+	Root_Release-7-1-1:1.27
+	Root_Release_7-0-1:1.27
+	Release_7-0-1:1.27.0.6
+	Release_7-0-0:1.27.0.4
+	Root_Release_7-0-0:1.27
+	Release-6-2-2:1.27.0.2
+	Release-6-1-2-3:1.19
+	Root_Release-6-1-2-3:1.19
+	Release-6-1-2-2:1.19.0.6
+	Root_Release-6-1-2-2:1.19
+	debian_version_6_1_2_1-1:1.19
+	upstream_version_6_1_2_1:1.19
+	Release-6-1-2-1_new:1.19.0.4
+	Root_Release-6-1-2-1_new:1.19
+	Release-6-1-2-1:1.19.0.2
+	Root_Release-6-1-2-1:1.19
+	upstream_version_6_1_2:1.18
+	debian_version_6_1_2-1:1.18
+	Release-6-1-2:1.18.0.2
+	Root_Release-6-1-2:1.18
+	debian_version_6_1_1-2:1.17
+	debian_version_6_1_1-1:1.17
+	upstream_version_6_1_1:1.17
+	Release-6-1-1:1.17.0.10
+	Root_Release-6-1-1:1.17
+	Release-6-0-4:1.17.0.8
+	Root_Release-6-0-4:1.17
+	Release-6-0-3_NEW:1.17.0.4
+	Root_Release-6-0-3_NEW:1.17
+	Release-6-0-3:1.17.0.6
+	Root_Release-6-0-3:1.17
+	Release-6-0-0:1.17.0.2
+	Root_Release-6-0-0:1.17
+	Release-5-5-4-1:1.13.0.4
+	Root_Release-5-5-4-1:1.13
+	Release-5-5-4:1.13.0.2
+	Root_Release-5-5-4:1.13
+	Release-5-5-3:1.12.0.10
+	ROOT_Release-5-5-3:1.12
+	Release-5-5-2:1.12.0.8
+	Root_Release-5-5-2:1.12
+	debian_version_5_5_1-1:1.12
+	Release-5-5-1:1.12.0.4
+	upstream_version_5_5_1:1.12
+	ROOT_Release-5-5-1:1.12
+	debian_version_5_5-1:1.12
+	upstream_version_5_5:1.12
+	ROOT_Release-5-5:1.12
+	Release-5-5:1.12.0.6
+	debian_version_5_4_4_2-3:1.12
+	Release-5-4-4-2-1:1.12.0.2
+	debian_version_5_4_4_2-2:1.12
+	debian_version_5_4_4_2-1:1.12
+	upstream_version_5_4_4_2:1.12
+	debian_version_5_4_4_1-1:1.11
+	upstream_version_5_4_4_1:1.11
+	debian_version_5_4_4-1:1.10
+	upstream_version_5_4_4:1.10
+	Release-5-4-4:1.10.0.6
+	Root_Release-5-4-4:1.10
+	debian_version_5_4_3_2-1:1.10
+	upstream_version_5_4_3_2:1.10
+	Release_5-4-3-2:1.10.0.2
+	Root_Release_5-4-3-2:1.10
+	upstream_version_5_4_3_1:1.8
+	debian_version_5_4_3_1-1:1.8
+	Release-5-4-3:1.8.0.10
+	Root_Release-5-4-3:1.8
+	Root_Release-5-4-1:1.8
+	Release-5-4-1:1.8.0.8
+	Root_Release-5-4:1.8
+	Release-5-4:1.8.0.6
+	upstream_version_5_3_4:1.8
+	debian_version_5_3_4-1:1.8
+	ROOT_Release-5-3-4:1.8
+	Release-5-3-4:1.8.0.4
+	ROOT_Release-5-3-3:1.8
+	Release-5-3-3:1.8.0.2
+	debian_version_5_3_2_1_2-1:1.7
+	upstream_version_5_3_2_1_2:1.7
+	debian_version_5_3_2_1_1-1:1.7
+	debian_version_5_3_2_1_1:1.7
+	upstream_version_5_3_2_1_1:1.7
+	Root_Release-5-3-2-1:1.7
+	Release-5-3-2-1:1.7
+	ROOT_RELEASE-5-3-2-1:1.7
+	RELEASE-5-3-2-1:1.7.0.34
+	Release-5-3-2:1.7.0.30
+	Root_Release-5-3-2:1.7
+	Root_Release-5-3-1:1.7
+	Release-5-3-1:1.7.0.28
+	Release-5-2-3-1:1.7.0.26
+	Root_Release-5-2-3-1:1.7
+	Release-5-2-2-4:1.7.0.24
+	Root_Release-5-2-2-4:1.7
+	Release-5-2-2-1:1.7.0.22
+	Root_Release-5-2-2-1:1.7
+	upstream_version_5_2_2:1.7
+	debian_version_5_2_2-1:1.7
+	Release-5-2-2:1.7.0.20
+	ROOT_Release-5-2-2:1.7
+	ROOT_Release-5-2-1:1.7
+	Release-5-2-1:1.7.0.18
+	Release-5-2-0:1.7.0.16
+	ROOT_Release-5-2-0:1.7
+	ROOT_Release-5-1-2:1.7
+	Release-5-1-2:1.7.0.14
+	Version-5-1-1:1.7.0.12
+	ROOT_Version-5-1-1:1.7
+	debian_version_5_1_0-1:1.7
+	upstream_version_5_1_0:1.7
+	ROOT_Release-5-1-0:1.7
+	Release-5-1-0:1.7.0.10
+	ROOT_Release-5-0-0:1.7
+	Release-5-0-0:1.7.0.8
+	Release-4-3-3:1.7.0.6
+	ROOT_Release-4-3-3:1.7
+	upstream_version_4_3_2:1.7
+	debian_version_4_3_2-1:1.7
+	ROOT_Release-4-3-2:1.7
+	Release-4-3-2:1.7.0.4
+	Release-4-3-1:1.7.0.2
+	ROOT_Release-4-3-1:1.7
+	debian_version_4_3_0-1:1.6
+	upstream_version_4_3_0:1.6
+	ROOT_Release-4-3-0:1.6
+	Release-4-3-0:1.6.0.2
+	debian_version_3_2_1b-2:1.3
+	debian_version_4_2_2-1:1.5
+	upstream_version_4_2_2:1.5
+	debian_version_3_2_1b-1:1.3
+	upstream_version_3_2_1b:1.3
+	Release-4-1-2:1.5.0.8
+	Release-4-0-8:1.5.0.6
+	debian_version_4_0_8a-1:1.5
+	upstream_version_4_0_8a:1.5
+	jostb-debian-ubuntu-patch:1.5.0.4
+	debian_version_4_0_8-1:1.5
+	upstream_version_4_0_8:1.5
+	debian_version_4_0_7-1:1.5
+	upstream_version_4_0_7:1.5
+	debian_version_4_0_6-1:1.5
+	upstream_version_4_0_6:1.5
+	debian_version_4_0_2-1:1.5
+	upstream_version_4_0_2:1.5
+	Release-4-0-2_Root:1.5
+	Release-4-0-2:1.5.0.2
+	upstream_version_4_0_1:1.4
+	debian_version_4_0_1-2:1.4
+	Release-3-2-1:1.3.0.4
+	Release-3-1-8:1.3.0.2
+	Release-3-0-8_root:1.2
+	Release-3-0-8_Root:1.2
+	Release-3-0-8:1.2.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.28
+date	2017.04.14.13.01.10;	author jost_boekemeier;	state dead;
+branches;
+next	1.27;
+
+1.27
+date	2010.09.25.11.02.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2010.09.05.11.51.16;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2010.08.18.18.51.40;	author gromwe;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2010.07.17.11.38.16;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2010.07.12.15.30.29;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2010.07.11.11.57.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2010.07.04.11.00.06;	author jost_boekemeier;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2010.06.13.11.53.18;	author jost_boekemeier;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2010.05.02.11.49.36;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2010.04.19.16.35.56;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2010.02.21.16.24.10;	author jost_boekemeier;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2010.02.18.17.25.32;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2010.01.29.17.15.33;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2010.01.23.10.09.35;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2009.10.17.17.40.22;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2009.04.12.12.10.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2009.03.15.15.33.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2009.02.16.21.59.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2009.02.15.22.15.46;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2008.10.25.17.34.28;	author jost_boekemeier;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.12.02.18.05.07;	author jost_boekemeier;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.09.19.10.12.27;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2007.03.19.13.03.17;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2007.03.09.20.28.11;	author andremachado;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.08.21.17.41.52;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.02.18.15.42.49;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.02.13.18.39.59;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.28
+log
+@Removed JavaProxy.php
+@
+text
+@<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>PHP/Java Bridge examples</title>
+</head>
+<body bgcolor="#FFFFFF">
+<H1>PHP/Java Bridge examples</H1>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=5 WIDTH="100%" >
+<tr VALIGN=TOP>
+<td WIDTH="25%">Test and general php info</td>
+
+<td VALIGN=TOP WIDTH="25%"><a href="test.php">Execute</a></td>
+
+<td WIDTH="25%"></td>
+</tr>
+<tr VALIGN=TOP>
+<td WIDTH="25%">PHP/Java Servlet configuration</td>
+
+<td WIDTH="25%"><a href="settings.php">Show</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=settings.php">Source</a></td>
+<td WIDTH="25%"><a href="debug.php?source=settings.php"></a></td>
+</tr>
+
+<tr/>
+<tr/>
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">Hello</td>
+
+<td WIDTH="25%"><a href="hello.php">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=hello.php">Source</a></td>
+<td WIDTH="25%"><a href="debug.php?source=hello.php"></a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">Session sharing</td>
+
+<td WIDTH="25%"><a href="sessionSharing.php">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=sessionSharing.php">Source</a></td>
+<td WIDTH="25%"><a href="debug.php?source=sessionSharing.php"></a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">NumberGuess (php)</td>
+
+<td WIDTH="25%"><a href="numberguess.php">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=numberguess.php">Source</a></td>
+<td WIDTH="25%"><a href="debug.php?source=numberguess.php"></a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">Excel Sheet</td>
+
+<td WIDTH="25%"><a href="excel.php">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=excel.php">Source</a></td>
+<td WIDTH="25%"><a href="debug.php?source=excel.php"></a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">Report Generator (Eclipse BIRT)</td>
+
+<td WIDTH="25%"><a href="report.php">Execute</a></td>
+<td WIDTH="25%"><a href="source.php?source=report.php">Source</a></td>
+<td WIDTH="25%"><a href="BIRTindex.php">more BIRT examples ...</a></td>
+</tr>
+
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">Include output of local JSP resource</td>
+
+<td WIDTH="25%"><a href="virtual.php/foo/bar?baz=42">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=virtual.php">Source</a></td>
+<td WIDTH="25%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">JSR 223 example</td>
+
+<td WIDTH="25%"><a href="jsr223.jsp">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=jsr223.jsp">Source</a></td>
+<td WIDTH="25%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">Calling a PHP function.</td>
+
+<td WIDTH="25%"><a href="jsp%2Bphp.jsp">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=jsp%2Bphp.jsp">Source</a></td>
+<td WIDTH="25%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">Calling a remote PHP script.</td>
+
+<td WIDTH="25%"><a href="jsp%2Bphp2.jsp">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=jsp%2Bphp2.jsp">Source</a></td>
+<td WIDTH="25%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td WIDTH="25%">RMI/IIOP</td>
+
+<td WIDTH="25%"><a href="documentClient.php">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=documentClient.php">Source</a></td>
+<td WIDTH="25%"><a href="debug.php?source=documentClient.php"></a></td>
+</tr>
+
+</table>
+
+</body>
+</html>
+@
+
+
+1.27
+log
+@version 6-2-1
+@
+text
+@@
+
+
+1.26
+log
+@Release-6-2-1
+@
+text
+@d65 1
+a65 1
+<td WIDTH="25%"><a href="debug.php?source=excel.php">PDB JavaScript (beta!)</a></td>
+@
+
+
+1.25
+log
+@birt 2.6 update
+@
+text
+@d65 1
+a65 1
+<td WIDTH="25%"><a href="debug.php?source=excel.php"></a></td>
+d69 1
+a69 1
+<td>Report Generator (Eclipse BIRT)</td>
+d71 3
+a73 3
+<td WIDTH="30%"><a href="report.php">Execute</a>
+ -- <a href="BIRTindex.php">More BIRT Examples</a></td>
+<td WIDTH="30%"><a href="source.php?source=report.php">Source</a></td>
+a75 2
+<td WIDTH="25%"><a href="debug.php"></a></td>
+</tr>
+@
+
+
+1.24
+log
+@Release-6-2-1
+@
+text
+@d69 1
+a69 1
+<td WIDTH="25%">Report Generator (Eclipse BIRT)</td>
+d71 4
+a74 1
+<td WIDTH="25%"><a href="report.php">Execute</a></td>
+a75 1
+<td WIDTH="25%"><a href="source.php?source=report.php">Source</a></td>
+@
+
+
+1.23
+log
+@Release-6-2-1
+@
+text
+@d105 9
+@
+
+
+1.22
+log
+@Release-6-2-1
+@
+text
+@d96 1
+a96 1
+<td WIDTH="25%">Calling a function on a remote PHP application server.</td>
+@
+
+
+1.21
+log
+@Release-6-2-1
+@
+text
+@d96 9
+@
+
+
+1.20
+log
+@Release-6-2
+@
+text
+@a95 9
+<td WIDTH="25%">Calling a function on a remote PHP application server.</td>
+
+<td WIDTH="25%"><a href="jsp%2Bphp4.jsp">Execute</a></td>
+
+<td WIDTH="25%"><a href="source.php?source=jsp%2Bphp4.jsp">Source</a></td>
+<td WIDTH="25%"></td>
+</tr>
+
+<tr VALIGN=TOP>
+@
+
+
+1.19
+log
+@Release-6-1-2-1
+@
+text
+@d74 1
+a74 1
+<td WIDTH="25%"><a href="debug.php">debug</a></td>
+@
+
+
+1.18
+log
+@Release-6-1-2
+@
+text
+@d74 1
+a74 1
+<td WIDTH="25%"><a href="debug.php?source=report.php"></a></td>
+@
+
+
+1.17
+log
+@Release-6-0-0
+@
+text
+@d26 1
+a26 1
+<td WIDTH="25%"><a href="debug.php?source=settings.php">.</a></td>
+d38 1
+a38 1
+<td WIDTH="25%"><a href="debug.php?source=hello.php">.</a></td>
+d47 1
+a47 1
+<td WIDTH="25%"><a href="debug.php?source=sessionSharing.php">.</a></td>
+d56 1
+a56 1
+<td WIDTH="25%"><a href="debug.php?source=numberguess.php">.</a></td>
+d65 1
+a65 1
+<td WIDTH="25%"><a href="debug.php?source=excel.php">.</a></td>
+d74 1
+a74 1
+<td WIDTH="25%"><a href="debug.php?source=report.php">.</a></td>
+d110 1
+a110 1
+<td WIDTH="25%"><a href="debug.php?source=documentClient.php">.</a></td>
+@
+
+
+1.16
+log
+@Release-6-0-0
+@
+text
+@d78 9
+@
+
+
+1.15
+log
+@Release-5-5-5
+@
+text
+@d26 1
+a26 1
+<td WIDTH="25%"><a href="debug.php?source=settings.php">Debug (beta)</a></td>
+d38 1
+a38 1
+<td WIDTH="25%"><a href="debug.php?source=hello.php">Debug (beta)</a></td>
+d47 1
+a47 1
+<td WIDTH="25%"><a href="debug.php?source=sessionSharing.php">Debug (beta)</a></td>
+d56 1
+a56 1
+<td WIDTH="25%"><a href="debug.php?source=numberguess.php">Debug (beta)</a></td>
+d65 1
+a65 1
+<td WIDTH="25%"><a href="debug.php?source=excel.php">Debug (beta)</a></td>
+d74 1
+a74 1
+<td WIDTH="25%"><a href="debug.php?source=report.php">Debug (beta)</a></td>
+d101 1
+a101 1
+<td WIDTH="25%"><a href="debug.php?source=documentClient.php">Debug (beta)</a></td>
+@
+
+
+1.14
+log
+@Release-5-5-5
+@
+text
+@d26 1
+a26 1
+<td WIDTH="25%"><a href="debug.php?source=settings.php">Debug</a></td>
+d38 1
+a38 1
+<td WIDTH="25%"><a href="debug.php?source=hello.php">Debug</a></td>
+d47 1
+a47 1
+<td WIDTH="25%"><a href="debug.php?source=sessionSharing.php">Debug</a></td>
+d56 1
+a56 1
+<td WIDTH="25%"><a href="debug.php?source=numberguess.php">Debug</a></td>
+d65 1
+a65 1
+<td WIDTH="25%"><a href="debug.php?source=excel.php">Debug</a></td>
+d74 1
+a74 1
+<td WIDTH="25%"><a href="debug.php?source=report.php">Debug</a></td>
+d101 1
+a101 1
+<td WIDTH="25%"><a href="debug.php?source=documentClient.php">Debug</a></td>
+@
+
+
+1.13
+log
+@Release-5-5-4
+@
+text
+@d12 1
+a12 1
+<table BORDER=0 CELLSPACING=5 WIDTH="85%" >
+d14 1
+a14 1
+<td>Test and general php info</td>
+d16 1
+a16 1
+<td VALIGN=TOP WIDTH="30%"><a href="test.php">Execute</a></td>
+d18 1
+a18 1
+<td WIDTH="30%"></td>
+d21 1
+a21 1
+<td>PHP/Java Servlet configuration</td>
+d23 1
+a23 1
+<td WIDTH="30%"><a href="settings.php">Show</a></td>
+d25 2
+a26 1
+<td WIDTH="30%"><a href="source.php?source=settings.php">Source</a></td>
+d33 1
+a33 1
+<td>Hello</td>
+d35 1
+a35 1
+<td WIDTH="30%"><a href="hello.php">Execute</a></td>
+d37 2
+a38 1
+<td WIDTH="30%"><a href="source.php?source=hello.php">Source</a></td>
+d42 1
+a42 1
+<td>Session sharing</td>
+d44 1
+a44 1
+<td WIDTH="30%"><a href="sessionSharing.php">Execute</a></td>
+d46 2
+a47 1
+<td WIDTH="30%"><a href="source.php?source=sessionSharing.php">Source</a></td>
+d51 1
+a51 1
+<td>NumberGuess (php)</td>
+d53 1
+a53 1
+<td WIDTH="30%"><a href="numberguess.php">Execute</a></td>
+d55 2
+a56 1
+<td WIDTH="30%"><a href="source.php?source=numberguess.php">Source</a></td>
+d60 1
+a60 1
+<td>Excel Sheet</td>
+d62 1
+a62 1
+<td WIDTH="30%"><a href="excel.php">Execute</a></td>
+d64 2
+a65 1
+<td WIDTH="30%"><a href="source.php?source=excel.php">Source</a></td>
+d69 1
+a69 1
+<td>Report Generator (Eclipse BIRT)</td>
+d71 1
+a71 1
+<td WIDTH="30%"><a href="report.php">Execute</a></td>
+d73 2
+a74 1
+<td WIDTH="30%"><a href="source.php?source=report.php">Source</a></td>
+d78 1
+a78 1
+<td>JSR 223 example</td>
+d80 1
+a80 1
+<td WIDTH="30%"><a href="jsr223.jsp">Execute</a></td>
+d82 2
+a83 1
+<td WIDTH="30%"><a href="source.php?source=jsr223.jsp">Source</a></td>
+d87 1
+a87 1
+<td>Calling a function on a remote PHP application server.</td>
+d89 1
+a89 1
+<td WIDTH="30%"><a href="jsp%2Bphp4.jsp">Execute</a></td>
+d91 2
+a92 1
+<td WIDTH="30%"><a href="source.php?source=jsp%2Bphp4.jsp">Source</a></td>
+d96 1
+a96 1
+<td>RMI/IIOP</td>
+d98 1
+a98 1
+<td WIDTH="30%"><a href="documentClient.php">Execute</a></td>
+d100 2
+a101 1
+<td WIDTH="30%"><a href="source.php?source=documentClient.php">Source</a></td>
+@
+
+
+1.12
+log
+@Release-5-4-4-2
+@
+text
+@d1 98
+a98 98
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>PHP/Java Bridge examples</title>
+</head>
+<body bgcolor="#FFFFFF">
+<H1>PHP/Java Bridge examples</H1>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=5 WIDTH="85%" >
+<tr VALIGN=TOP>
+<td>Test and general php info</td>
+
+<td VALIGN=TOP WIDTH="30%"><a href="test.php">Execute</a></td>
+
+<td WIDTH="30%"></td>
+</tr>
+<tr VALIGN=TOP>
+<td>PHP/Java Servlet configuration</td>
+
+<td WIDTH="30%"><a href="settings.php">Show</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=settings.php">Source</a></td>
+</tr>
+
+<tr/>
+<tr/>
+
+<tr VALIGN=TOP>
+<td>Hello</td>
+
+<td WIDTH="30%"><a href="hello.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=hello.php">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Session sharing</td>
+
+<td WIDTH="30%"><a href="sessionSharing.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=sessionSharing.php">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>NumberGuess (php)</td>
+
+<td WIDTH="30%"><a href="numberguess.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=numberguess.php">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Excel Sheet</td>
+
+<td WIDTH="30%"><a href="excel.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=excel.php">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Report Generator (Eclipse BIRT)</td>
+
+<td WIDTH="30%"><a href="report.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=report.php">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>JSR 223 example</td>
+
+<td WIDTH="30%"><a href="jsr223.jsp">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=jsr223.jsp">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Calling a function on a remote PHP application server.</td>
+
+<td WIDTH="30%"><a href="jsp%2Bphp4.jsp">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=jsp%2Bphp4.jsp">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>RMI/IIOP</td>
+
+<td WIDTH="30%"><a href="documentClient.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=documentClient.php">Source</a></td>
+</tr>
+
+</table>
+
+</body>
+</html>
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@a79 24
+<td>JSR 223 example2</td>
+
+<td WIDTH="30%"><a href="jsp%2Bphp.jsp">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=jsp%2Bphp.jsp">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>JSR 223 and IIS/Apache interaction</td>
+
+<td WIDTH="30%"><a href="jsp%2Bphp2.jsp">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=jsp%2Bphp2.jsp">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Calling injected PHP code on a remote PHP application server.</td>
+
+<td WIDTH="30%"><a href="jsp%2Bphp3.jsp">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=jsp%2Bphp3.jsp">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+@
+
+
+1.10
+log
+@eclipse birt integration
+@
+text
+@d64 8
+d96 9
+a104 1
+<td>Report Generator (Eclipse BIRT)</td>
+d106 1
+a106 1
+<td WIDTH="30%"><a href="report.php">Execute</a></td>
+d108 1
+a108 1
+<td WIDTH="30%"><a href="source.php?source=report.php">Source</a></td>
+@
+
+
+1.9
+log
+@eclipse birt integration
+@
+text
+@a55 8
+<td>NumberGuess (jsp)</td>
+
+<td WIDTH="30%"><a href="numberguess.jsp">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=numberguess.jsp">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+@
+
+
+1.8
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d96 8
+d110 1
+@
+
+
+1.7
+log
+@Release-4-3-1
+@
+text
+@d88 8
+@
+
+
+1.6
+log
+@Release-4-3-0
+@
+text
+@d72 16
+@
+
+
+1.5
+log
+@Release-4-0-2
+@
+text
+@a70 10
+<!-- 
+<tr VALIGN=TOP>
+<td>Java Server Faces Framework</td>
+
+<td WIDTH="30%"><a href="java-server-faces/index.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=java-server-faces/helloWorld.php">Source</a></td>
+</tr>
+ -->
+
+@
+
+
+1.4
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d20 9
+d30 1
+@
+
+
+1.3
+log
+@Release-3-1-8devel1
+@
+text
+@d22 8
+d61 1
+d69 2
+@
+
+
+1.2
+log
+@Release-3.0.7a
+@
+text
+@d2 1
+@
+
+
+1.1
+log
+@Release-3.0.7
+@
+text
+@d59 7
+@
+

@@ -1,0 +1,54 @@
+head	1.2;
+access;
+symbols
+	Release-6-0-0:1.1.0.2
+	Root_Release-6-0-0:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2010.02.28.15.20.43;	author jost_boekemeier;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2010.02.18.16.31.00;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Release-6-0-3
+@
+text
+@#!/bin/sh
+
+cat WEB-INF/cgi/rename_to_php-cgi-i386-linux.ini | sed 's/i386-linux/x86-sunos/;s/^extension=.*$/;&/' >WEB-INF/cgi/php-cgi-x86-sunos.ini
+cat WEB-INF/cgi/rename_to_php-cgi-x86-linux.sh | sed 's/i386-linux/x86-sunos/g' >WEB-INF/cgi/php-cgi-x86-sunos.sh
+
+cat WEB-INF/cgi/rename_to_php-cgi-i386-linux.ini | sed 's/i386-linux/i386-freebsd/;s/^extension=.*$/;&/' >WEB-INF/cgi/php-cgi-i386-freebsd.ini
+cat WEB-INF/cgi/rename_to_php-cgi-x86-linux.sh | sed 's/i386-linux/i386-freebsd/g' >WEB-INF/cgi/php-cgi-i386-freebsd.sh
+
+cat WEB-INF/cgi/rename_to_php-cgi-i386-linux.ini | sed 's/^extension=.*$/;&/' >WEB-INF/cgi/php-cgi-i386-linux.ini
+cat WEB-INF/cgi/rename_to_php-cgi-i386-linux.ini | sed 's/^extension=.*$/;&/' >WEB-INF/cgi/php-cgi-x86-linux.ini
+cat WEB-INF/cgi/rename_to_php-cgi-x86-linux.sh  >WEB-INF/cgi/php-cgi-x86-linux.sh
+cat WEB-INF/cgi/rename_to_php-cgi-i386-linux.sh  >WEB-INF/cgi/php-cgi-i386-linux.sh
+
+cat WEB-INF/cgi/rename_to_php-cgi-i386-linux.ini | sed 's/i386-linux.so/x86-windows.dll/;s/^extension=.*$/;&/' >WEB-INF/cgi/php.ini
+
+@
+
+
+1.1
+log
+@Release-6-0-0
+@
+text
+@@
+

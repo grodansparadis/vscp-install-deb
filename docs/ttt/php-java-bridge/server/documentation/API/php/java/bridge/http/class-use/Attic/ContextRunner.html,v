@@ -1,0 +1,792 @@
+head	1.23;
+access;
+symbols
+	upstream_version_5_5:1.22
+	ROOT_Release-5-5:1.22
+	Release-5-5:1.22.0.4
+	debian_version_5_4_4_2-3:1.22
+	Release-5-4-4-2-1:1.22.0.2
+	debian_version_5_4_4_2-2:1.22
+	debian_version_5_4_4_2-1:1.22
+	upstream_version_5_4_4_2:1.22
+	debian_version_5_4_4_1-1:1.19
+	upstream_version_5_4_4_1:1.19
+	debian_version_5_4_4-1:1.18
+	upstream_version_5_4_4:1.18
+	Release-5-4-4:1.18.0.4
+	Root_Release-5-4-4:1.18
+	debian_version_5_4_3_2-1:1.16
+	upstream_version_5_4_3_2:1.16
+	Release_5-4-3-2:1.16.0.2
+	Root_Release_5-4-3-2:1.16
+	upstream_version_5_4_3_1:1.16
+	debian_version_5_4_3_1-1:1.16
+	Release-5-4-3:1.15.0.6
+	Root_Release-5-4-3:1.15
+	Root_Release-5-4-1:1.15
+	Release-5-4-1:1.15.0.4
+	Root_Release-5-4:1.15
+	Release-5-4:1.15.0.2
+	upstream_version_5_3_4:1.13
+	debian_version_5_3_4-1:1.15
+	ROOT_Release-5-3-4:1.13
+	Release-5-3-4:1.13.0.2
+	ROOT_Release-5-3-3:1.10
+	Release-5-3-3:1.10.0.2
+	debian_version_5_3_2_1_2-1:1.9
+	upstream_version_5_3_2_1_2:1.9
+	debian_version_5_3_2_1_1-1:1.9
+	debian_version_5_3_2_1_1:1.9
+	upstream_version_5_3_2_1_1:1.9
+	Root_Release-5-3-2-1:1.9
+	Release-5-3-2-1:1.9
+	ROOT_RELEASE-5-3-2-1:1.9
+	RELEASE-5-3-2-1:1.9.0.10
+	Release-5-3-2:1.9.0.6
+	Root_Release-5-3-2:1.9
+	Root_Release-5-3-1:1.9
+	Release-5-3-1:1.9.0.4
+	Release-5-2-3-1:1.9.0.2
+	Root_Release-5-2-3-1:1.9
+	Release-5-2-2-4:1.8.0.8
+	Root_Release-5-2-2-4:1.8
+	Release-5-2-2-1:1.8.0.6
+	Root_Release-5-2-2-1:1.8
+	upstream_version_5_2_2:1.8
+	debian_version_5_2_2-1:1.8
+	Release-5-2-2:1.8.0.4
+	ROOT_Release-5-2-2:1.8
+	ROOT_Release-5-2-1:1.8
+	Release-5-2-1:1.8.0.2
+	Release-5-2-0:1.7.0.20
+	ROOT_Release-5-2-0:1.7
+	ROOT_Release-5-1-2:1.7
+	Release-5-1-2:1.7.0.18
+	Version-5-1-1:1.7.0.16
+	ROOT_Version-5-1-1:1.7
+	debian_version_5_1_0-1:1.7
+	upstream_version_5_1_0:1.7
+	ROOT_Release-5-1-0:1.7
+	Release-5-1-0:1.7.0.14
+	ROOT_Release-5-0-0:1.7
+	Release-5-0-0:1.7.0.12
+	Release-4-3-3:1.7.0.10
+	ROOT_Release-4-3-3:1.7
+	upstream_version_4_3_2:1.7
+	debian_version_4_3_2-1:1.7
+	ROOT_Release-4-3-2:1.7
+	Release-4-3-2:1.7.0.8
+	Release-4-3-1:1.7.0.6
+	ROOT_Release-4-3-1:1.7
+	debian_version_4_3_0-1:1.7
+	upstream_version_4_3_0:1.7
+	ROOT_Release-4-3-0:1.7
+	Release-4-3-0:1.7.0.4
+	debian_version_3_2_1b-2:1.4
+	debian_version_4_2_2-1:1.7
+	upstream_version_4_2_2:1.7
+	debian_version_3_2_1b-1:1.4
+	upstream_version_3_2_1b:1.4
+	Release-4-1-2:1.7.0.2
+	Release-4-0-8:1.6.0.6
+	debian_version_4_0_8a-1:1.6
+	upstream_version_4_0_8a:1.6
+	jostb-debian-ubuntu-patch:1.6.0.4
+	debian_version_4_0_8-1:1.6
+	upstream_version_4_0_8:1.6
+	debian_version_4_0_7-1:1.6
+	upstream_version_4_0_7:1.6
+	debian_version_4_0_6-1:1.6
+	upstream_version_4_0_6:1.6
+	debian_version_4_0_2-1:1.6
+	upstream_version_4_0_2:1.6
+	Release-4-0-2_Root:1.6
+	Release-4-0-2:1.6.0.2
+	upstream_version_4_0_1:1.5
+	debian_version_4_0_1-2:1.5
+	Release-3-2-1:1.4.0.4
+	Release-3-1-8:1.4.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.23
+date	2009.07.25.13.56.05;	author jost_boekemeier;	state dead;
+branches;
+next	1.22;
+
+1.22
+date	2009.04.25.12.25.24;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2009.04.19.17.24.32;	author jost_boekemeier;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2009.04.18.14.57.05;	author jost_boekemeier;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2009.03.15.15.33.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2009.03.08.17.45.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2009.03.08.14.34.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2009.01.06.17.05.13;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2008.12.02.21.56.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.12.02.19.17.51;	author jost_boekemeier;	state dead;
+branches;
+next	1.13;
+
+1.13
+date	2008.11.30.17.08.49;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2008.10.26.15.23.02;	author jost_boekemeier;	state Exp;
+branches
+	1.10.2.1;
+next	1.9;
+
+1.9
+date	2008.09.28.21.56.55;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2008.03.22.12.04.59;	author jost_boekemeier;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.06.16.18.29.53;	author jost_boekemeier;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.03.19.13.03.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2007.03.09.20.28.17;	author andremachado;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.09.10.17.31.14;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.08.08.17.20.48;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.07.23.20.32.49;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.07.16.20.50.40;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.10.2.1
+date	2008.11.09.17.01.42;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10.2.2;
+
+1.10.2.2
+date	2008.11.12.18.55.31;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.23
+log
+@Release-5-5
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Apr 25 11:44:42 CEST 2009 -->
+<TITLE>
+Uses of Class php.java.bridge.http.ContextRunner
+</TITLE>
+
+<META NAME="date" CONTENT="2009-04-25">
+
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../../../stylesheet.css" TITLE="Style">
+
+<SCRIPT type="text/javascript">
+function windowTitle()
+{
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Uses of Class php.java.bridge.http.ContextRunner";
+    }
+}
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
+
+
+<!-- ========= START OF TOP NAVBAR ======= -->
+<A NAME="navbar_top"><!-- --></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http"><FONT CLASS="NavBarFont1"><B>Class</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Use</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;PREV&nbsp;
+&nbsp;NEXT</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../../../index.html?php/java/bridge/http//class-useContextRunner.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="ContextRunner.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF TOP NAVBAR ========= -->
+
+<HR>
+<CENTER>
+<H2>
+<B>Uses of Class<br>php.java.bridge.http.ContextRunner</B></H2>
+</CENTER>
+No usage of php.java.bridge.http.ContextRunner
+<P>
+<HR>
+
+
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<A HREF="#skip-navbar_bottom" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http"><FONT CLASS="NavBarFont1"><B>Class</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Use</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;PREV&nbsp;
+&nbsp;NEXT</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../../../index.html?php/java/bridge/http//class-useContextRunner.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="ContextRunner.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_bottom"></A>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+
+<HR>
+
+</BODY>
+</HTML>
+@
+
+
+1.22
+log
+@Release-5.4.4.2
+@
+text
+@@
+
+
+1.21
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 19 11:35:21 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-19">
+@
+
+
+1.20
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 12 09:06:10 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-12">
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 15 11:32:40 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-15">
+@
+
+
+1.18
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 08 18:42:07 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-08">
+@
+
+
+1.17
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Tue Mar 03 19:21:06 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-03">
+@
+
+
+1.16
+log
+@Release-5-4-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Mon Jan 05 20:55:08 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-01-05">
+@
+
+
+1.15
+log
+@documentation
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Nov 30 10:56:59 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-30">
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Nov 29 12:39:27 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-29">
+@
+
+
+1.13
+log
+@Release 5.3.4
+@
+text
+@@
+
+
+1.12
+log
+@Release 5.3.3.1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Nov 23 10:26:31 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-23">
+@
+
+
+1.11
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:57 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+@
+
+
+1.10
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Oct 26 14:59:22 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-10-26">
+@
+
+
+1.10.2.1
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 13:25:08 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+@
+
+
+1.10.2.2
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:57 CET 2008 -->
+@
+
+
+1.9
+log
+@Release-5-2-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Sep 28 12:34:46 CEST 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-09-28">
+@
+
+
+1.8
+log
+@Release-5-2-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Mar 16 21:41:38 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-03-16">
+@
+
+
+1.7
+log
+@Release-4-1-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sat Jun 16 09:41:57 EDT 2007 -->
+d10 1
+d17 3
+a19 1
+    parent.document.title="Uses of Class php.java.bridge.http.ContextRunner";
+d28 1
+d86 1
+a86 53
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Packages that use <A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><A HREF="#php.java.bridge.http"><B>php.java.bridge.http</B></A></TD>
+<TD>Fast socket and pipe context runners for PHP/Java Bridge J2EE backends.&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+<A NAME="php.java.bridge.http"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+Uses of <A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A> in <A HREF="../../../../../php/java/bridge/http/package-summary.html">php.java.bridge.http</A></FONT></TH>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2">Methods in <A HREF="../../../../../php/java/bridge/http/package-summary.html">php.java.bridge.http</A> that return <A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A></CODE></FONT></TD>
+<TD><CODE><B>ContextRunner.</B><B><A HREF="../../../../../php/java/bridge/http/ContextRunner.html#checkRunner(php.java.bridge.http.AbstractChannelName)">checkRunner</A></B>(<A HREF="../../../../../php/java/bridge/http/AbstractChannelName.html" title="class in php.java.bridge.http">AbstractChannelName</A>&nbsp;channelName)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;May be called to recycle the runner from the pool of ContextRunners for a new contextServer.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A></CODE></FONT></TD>
+<TD><CODE><B>AbstractChannelName.</B><B><A HREF="../../../../../php/java/bridge/http/AbstractChannelName.html#schedule()">schedule</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check if there's a persistent ContextRunner available for the kontext.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;<A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A></CODE></FONT></TD>
+<TD><CODE><B>ContextServer.</B><B><A HREF="../../../../../php/java/bridge/http/ContextServer.html#schedule(php.java.bridge.http.AbstractChannelName)">schedule</A></B>(<A HREF="../../../../../php/java/bridge/http/AbstractChannelName.html" title="class in php.java.bridge.http">AbstractChannelName</A>&nbsp;channelName)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check for a ContextRunner for channelName</TD>
+</TR>
+</TABLE>
+&nbsp;
+@
+
+
+1.6
+log
+@Release-4-0-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Mar 15 07:15:53 CET 2007 -->
+@
+
+
+1.5
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 11 14:44:22 CET 2007 -->
+@
+
+
+1.4
+log
+@Release-3-1-8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Sep 10 13:03:32 CEST 2006 -->
+d112 1
+a112 1
+<TD><CODE><B>ContextRunner.</B><B><A HREF="../../../../../php/java/bridge/http/ContextRunner.html#checkRunner(php.java.bridge.http.IContextServer.ChannelName)">checkRunner</A></B>(<A HREF="../../../../../php/java/bridge/http/IContextServer.ChannelName.html" title="class in php.java.bridge.http">IContextServer.ChannelName</A>&nbsp;channelName)</CODE>
+d120 1
+a120 1
+<TD><CODE><B>IContextServer.ChannelName.</B><B><A HREF="../../../../../php/java/bridge/http/IContextServer.ChannelName.html#schedule()">schedule</A></B>()</CODE>
+d128 1
+a128 1
+<TD><CODE><B>ContextServer.</B><B><A HREF="../../../../../php/java/bridge/http/ContextServer.html#schedule(php.java.bridge.http.IContextServer.ChannelName)">schedule</A></B>(<A HREF="../../../../../php/java/bridge/http/IContextServer.ChannelName.html" title="class in php.java.bridge.http">IContextServer.ChannelName</A>&nbsp;channelName)</CODE>
+@
+
+
+1.3
+log
+@Release-3-1-7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Aug 03 19:34:05 CEST 2006 -->
+@
+
+
+1.2
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 23 12:18:12 CEST 2006 -->
+@
+
+
+1.1
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 16 13:42:19 CEST 2006 -->
+d111 2
+a112 2
+<CODE>&nbsp;<A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A></CODE></FONT></TD>
+<TD><CODE><B>IContextServer.ChannelName.</B><B><A HREF="../../../../../php/java/bridge/http/IContextServer.ChannelName.html#getRunner()">getRunner</A></B>()</CODE>
+d115 1
+a115 9
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Retrieve the current runner</TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2">Methods in <A HREF="../../../../../php/java/bridge/http/package-summary.html">php.java.bridge.http</A> with parameters of type <A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A></FONT></TH>
+d119 2
+a120 2
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B>IContextServer.ChannelName.</B><B><A HREF="../../../../../php/java/bridge/http/IContextServer.ChannelName.html#setRunner(php.java.bridge.http.ContextRunner)">setRunner</A></B>(<A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A>&nbsp;runner)</CODE>
+d123 1
+a123 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Save the current runner.</TD>
+d127 2
+a128 2
+<CODE>&nbsp;boolean</CODE></FONT></TD>
+<TD><CODE><B>SocketContextServer.</B><B><A HREF="../../../../../php/java/bridge/http/SocketContextServer.html#start(php.java.bridge.http.ContextRunner)">start</A></B>(<A HREF="../../../../../php/java/bridge/http/ContextRunner.html" title="class in php.java.bridge.http">ContextRunner</A>&nbsp;runner)</CODE>
+d131 1
+a131 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+@
+

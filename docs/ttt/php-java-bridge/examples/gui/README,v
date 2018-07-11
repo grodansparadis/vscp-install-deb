@@ -1,0 +1,240 @@
+head	1.3;
+access;
+symbols
+	Release-7-1-1:1.3.0.102
+	Root_Release-7-1-1:1.3
+	Root_Release_7-0-1:1.3
+	Release_7-0-1:1.3.0.100
+	Release_7-0-0:1.3.0.98
+	Root_Release_7-0-0:1.3
+	Release-6-2-2:1.3.0.96
+	Release-6-1-2-3:1.3
+	Root_Release-6-1-2-3:1.3
+	Release-6-1-2-2:1.3.0.94
+	Root_Release-6-1-2-2:1.3
+	debian_version_6_1_2_1-1:1.3
+	upstream_version_6_1_2_1:1.3
+	Release-6-1-2-1_new:1.3.0.92
+	Root_Release-6-1-2-1_new:1.3
+	Release-6-1-2-1:1.3.0.90
+	Root_Release-6-1-2-1:1.3
+	upstream_version_6_1_2:1.3
+	debian_version_6_1_2-1:1.3
+	Release-6-1-2:1.3.0.88
+	Root_Release-6-1-2:1.3
+	debian_version_6_1_1-2:1.3
+	debian_version_6_1_1-1:1.3
+	upstream_version_6_1_1:1.3
+	Release-6-1-1:1.3.0.86
+	Root_Release-6-1-1:1.3
+	Release-6-0-4:1.3.0.84
+	Root_Release-6-0-4:1.3
+	Release-6-0-3_NEW:1.3.0.80
+	Root_Release-6-0-3_NEW:1.3
+	Release-6-0-3:1.3.0.82
+	Root_Release-6-0-3:1.3
+	Release-6-0-0:1.3.0.78
+	Root_Release-6-0-0:1.3
+	Release-5-5-4-1:1.3.0.76
+	Root_Release-5-5-4-1:1.3
+	Release-5-5-4:1.3.0.74
+	Root_Release-5-5-4:1.3
+	Release-5-5-3:1.3.0.72
+	ROOT_Release-5-5-3:1.3
+	Release-5-5-2:1.3.0.70
+	Root_Release-5-5-2:1.3
+	debian_version_5_5_1-1:1.3
+	Release-5-5-1:1.3.0.66
+	upstream_version_5_5_1:1.3
+	ROOT_Release-5-5-1:1.3
+	debian_version_5_5-1:1.3
+	upstream_version_5_5:1.3
+	ROOT_Release-5-5:1.3
+	Release-5-5:1.3.0.68
+	debian_version_5_4_4_2-3:1.3
+	Release-5-4-4-2-1:1.3.0.62
+	debian_version_5_4_4_2-2:1.3
+	debian_version_5_4_4_2-1:1.3
+	upstream_version_5_4_4_2:1.3
+	debian_version_5_4_4_1-1:1.3
+	upstream_version_5_4_4_1:1.3
+	debian_version_5_4_4-1:1.3
+	upstream_version_5_4_4:1.3
+	Release-5-4-4:1.3.0.64
+	Root_Release-5-4-4:1.3
+	debian_version_5_4_3_2-1:1.3
+	upstream_version_5_4_3_2:1.3
+	Release_5-4-3-2:1.3.0.60
+	Root_Release_5-4-3-2:1.3
+	upstream_version_5_4_3_1:1.3
+	debian_version_5_4_3_1-1:1.3
+	Release-5-4-3:1.3.0.58
+	Root_Release-5-4-3:1.3
+	Root_Release-5-4-1:1.3
+	Release-5-4-1:1.3.0.56
+	Root_Release-5-4:1.3
+	Release-5-4:1.3.0.54
+	upstream_version_5_3_4:1.3
+	debian_version_5_3_4-1:1.3
+	ROOT_Release-5-3-4:1.3
+	Release-5-3-4:1.3.0.52
+	ROOT_Release-5-3-3:1.3
+	Release-5-3-3:1.3.0.48
+	debian_version_5_3_2_1_2-1:1.3
+	upstream_version_5_3_2_1_2:1.3
+	debian_version_5_3_2_1_1-1:1.3
+	debian_version_5_3_2_1_1:1.3
+	upstream_version_5_3_2_1_1:1.3
+	Root_Release-5-3-2-1:1.3
+	Release-5-3-2-1:1.3
+	ROOT_RELEASE-5-3-2-1:1.3
+	RELEASE-5-3-2-1:1.3.0.50
+	Release-5-3-2:1.3.0.46
+	Root_Release-5-3-2:1.3
+	Root_Release-5-3-1:1.3
+	Release-5-3-1:1.3.0.44
+	Release-5-2-3-1:1.3.0.42
+	Root_Release-5-2-3-1:1.3
+	Release-5-2-2-4:1.3.0.40
+	Root_Release-5-2-2-4:1.3
+	Release-5-2-2-1:1.3.0.38
+	Root_Release-5-2-2-1:1.3
+	upstream_version_5_2_2:1.3
+	debian_version_5_2_2-1:1.3
+	Release-5-2-2:1.3.0.36
+	ROOT_Release-5-2-2:1.3
+	ROOT_Release-5-2-1:1.3
+	Release-5-2-1:1.3.0.34
+	Release-5-2-0:1.3.0.32
+	ROOT_Release-5-2-0:1.3
+	ROOT_Release-5-1-2:1.3
+	Release-5-1-2:1.3.0.30
+	Version-5-1-1:1.3.0.28
+	ROOT_Version-5-1-1:1.3
+	debian_version_5_1_0-1:1.3
+	upstream_version_5_1_0:1.3
+	ROOT_Release-5-1-0:1.3
+	Release-5-1-0:1.3.0.26
+	ROOT_Release-5-0-0:1.3
+	Release-5-0-0:1.3.0.24
+	Release-4-3-3:1.3.0.22
+	ROOT_Release-4-3-3:1.3
+	upstream_version_4_3_2:1.3
+	debian_version_4_3_2-1:1.3
+	ROOT_Release-4-3-2:1.3
+	Release-4-3-2:1.3.0.20
+	Release-4-3-1:1.3.0.18
+	ROOT_Release-4-3-1:1.3
+	debian_version_4_3_0-1:1.3
+	upstream_version_4_3_0:1.3
+	ROOT_Release-4-3-0:1.3
+	Release-4-3-0:1.3.0.16
+	debian_version_3_2_1b-2:1.3
+	debian_version_4_2_2-1:1.3
+	upstream_version_4_2_2:1.3
+	debian_version_3_2_1b-1:1.3
+	upstream_version_3_2_1b:1.3
+	Release-4-1-2:1.3.0.14
+	Release-4-0-8:1.3.0.12
+	debian_version_4_0_8a-1:1.3
+	upstream_version_4_0_8a:1.3
+	jostb-debian-ubuntu-patch:1.3.0.10
+	debian_version_4_0_8-1:1.3
+	upstream_version_4_0_8:1.3
+	debian_version_4_0_7-1:1.3
+	upstream_version_4_0_7:1.3
+	debian_version_4_0_6-1:1.3
+	upstream_version_4_0_6:1.3
+	debian_version_4_0_2-1:1.3
+	upstream_version_4_0_2:1.3
+	Release-4-0-2_Root:1.3
+	Release-4-0-2:1.3.0.8
+	upstream_version_4_0_1:1.3
+	debian_version_4_0_1-2:1.3
+	Release-3-2-1:1.3.0.6
+	Release-3-1-8:1.3.0.4
+	Release-3-0-8_root:1.3
+	Release-3-0-8_Root:1.3
+	Release-3-0-8:1.3.0.2
+	Release-2-0-8:1.2.0.4;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2005.11.26.18.04.00;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.09.07.21.13.45;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.08.29.16.10.11;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Version-3.0.0pre1
+@
+text
+@These examples show how to create GUI applications with PHP.
+
+* swt-button.php: Uses SWT to create a native GUI on windows or
+  unix. SWT is part of eclipse and can be downloaded from
+  www.eclipse.org.
+
+* swing-button.php: This example has been moved to
+  tests.php5/swing-button.php. A better example can be found in
+  server/test/SwingButton.java and server/test/SwingButton.php: Unlike
+  other toolkits the swing toolkit creates artifical background
+  threads which cause trouble, see the java bug parade for details,
+  therefore the best way to use swing is to write a swing application in
+  pure java and use php as an extension/plugin only.
+
+* gtk-button.php: This example uses mono gtk. You need the
+  PHP/Mono+Net Bridge and gtk-sharp installed on the system.
+
+* gtk-fileselector.php: An example which opens a file selector via
+  mono gtk. You need the PHP/Mono+NET Bridge and gtk-sharp installed
+  on the system.
+
+@
+
+
+1.2
+log
+@2.0.8RC2 fixes PR1283148 and 1281189.
+@
+text
+@d7 7
+a13 8
+* swing-button.php: This example uses java swing. In order to use
+  swing you must switch it on, for example by setting the
+  java.lang.System property "java.awt.headless" to false. Otherwise you
+  will get an "awt headless" exception. Please note that swing has
+  several design problems which translate into an extensive number of
+  swing related bugs and system crashes. One such problem is that swing
+  creates UI threads which may cause the application to hang. Please
+  do not use swing to create a java GUI, please use SWT or GTK instead.
+@
+
+
+1.1
+log
+@Release-2.0.8RC
+@
+text
+@d11 1
+a11 1
+  several design problems which translate into a extensive number of
+@
+

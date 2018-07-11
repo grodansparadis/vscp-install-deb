@@ -1,0 +1,73 @@
+head	1.1;
+access;
+symbols
+	sparc-64-test:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2004.10.09.21.57.20;	author jost2345;	state dead;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2004.10.09.21.57.20;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@file jfile.h was initially added on branch sparc-64-test.
+@
+text
+@@
+
+
+1.1.2.1
+log
+@workaround for broken sparc stdio
+@
+text
+@a0 33
+#ifndef __JFILE__
+#define __JFILE__
+
+#include "config.h"
+
+#ifdef HAS_BROKEN_STDIO		/* Current MacOS X and some old BSD/Solaris versions */
+
+#include <stdio.h>
+
+typedef struct {
+  short eof:1;
+  short err:1;
+  int file;
+} JFILE;
+
+extern size_t java_fwrite(const  void  *ptr,  size_t  size,  size_t  nmemb,  JFILE *stream);
+extern size_t java_fread(void  *ptr,  size_t  size,  size_t  nmemb,  JFILE *stream);
+extern JFILE* java_fdopen(int fd, char*flags);
+extern int java_fclose(JFILE *stream);
+#define java_feof(peer) (peer->eof) 
+#define java_ferror(peer) (peer->err)
+#else
+				/* Linux, BSD, ... */
+#define JFILE FILE
+#define java_fwrite fwrite
+#define java_fread  fread
+#define java_fdopen fdopen
+#define java_fclose fclose
+#define java_feof   feof
+#define java_ferror ferror
+#endif
+
+#endif
+@
+

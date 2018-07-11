@@ -1,0 +1,154 @@
+head	1.6;
+access;
+symbols
+	debian_version_3_2_1b-2:1.5
+	debian_version_3_2_1b-1:1.5
+	upstream_version_3_2_1b:1.5
+	upstream_version_4_0_1:1.5
+	debian_version_4_0_1-2:1.5
+	Release-3-2-1:1.5.0.4
+	Release-3-1-8:1.5.0.2
+	Release-3-0-8_root:1.2
+	Release-3-0-8_Root:1.2
+	Release-3-0-8:1.2.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.6
+date	2007.03.19.13.12.48;	author jost_boekemeier;	state dead;
+branches;
+next	1.5;
+
+1.5
+date	2006.08.19.12.34.04;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.06.27.20.44.33;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.06.19.20.37.21;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.12.28.22.44.33;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.12.18.18.23.24;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Release-4-0-2
+@
+text
+@;; -*- mode: Scheme; tab-width:4 -*-
+;; A simple php.ini
+
+;; extension_dir is this "cgi" directory
+
+extension_dir=.
+
+;; include php libraries from these directories
+
+include_path=.:/usr/share/pear
+
+
+;; Errors should appear in the log of the servlet engine, not in the
+;; pages we generate. Users do not understand what they mean anyway.
+
+log_errors = On
+display_errors = Off
+html_errors = Off
+
+;; The java extension. Only the log_level is meaningful in this
+;; environment.
+
+extension=java-i386-linux.so
+[java]
+;java.log_level=2
+@
+
+
+1.5
+log
+@Release-3-2-0devel
+@
+text
+@@
+
+
+1.4
+log
+@Release-3-1-3
+@
+text
+@d8 4
+a25 15
+
+;; The following two settings are only used if override_hosts is
+;; switched off in the WEB-INF/web.xml. Add the following two entries
+;; marked with a + to your conf/server.xml, if you want to switch off
+;; override_hosts:
+;;
+;;   <Service name="Catalina">
+;;   [...]
+;; +   <!-- Local communication port used by the PHP/Java Bridge -->
+;; +   <Connector port="9157" address="127.0.0.1"  />
+;;   [...]
+;;   </Service>
+java.servlet = On
+java.hosts = 127.0.0.1:9157
+
+@
+
+
+1.3
+log
+@Release-3-1-0
+@
+text
+@d23 4
+a26 5
+;; The following two settings are only used when the current request
+;; it a HTTPS request or if override_hosts is switched off in the
+;; WEB-INF/web.xml. Add the following two entries marked with a + to your
+;; conf/server.xml, if you want to switch off override_hosts or if you
+;; use HTTPS:
+@
+
+
+1.2
+log
+@Release-3.0.4
+@
+text
+@a15 1
+
+d22 16
+@
+
+
+1.1
+log
+@Release-3.0.3
+@
+text
+@d22 1
+a22 1
+java.log_level=2
+@
+

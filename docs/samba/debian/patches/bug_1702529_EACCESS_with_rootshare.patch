@@ -1,0 +1,55 @@
+Description: s3/smbd: let non_widelink_open() chdir() to directories
+ If the caller passes O_DIRECTORY we just try to chdir() to smb_fname
+ directly, not to the parent directory.
+
+ The security check in check_reduced_name() will continue to work, but
+ this fixes the case of an open() for a previous version of a
+ subdirectory that contains snapshopt.
+
+Author: Ralph Boehme <slow@samba.org>
+Origin: upstream, https://git.samba.org/?p=samba.git;a=commit;h=b886a9443d49f6e27fa3863d87c9e24d12e62874
+Bug-Ubuntu: https://bugs.launchpad.net/bugs/1702529
+Bug: https://bugzilla.samba.org/show_bug.cgi?id=12885
+
+Index: samba-4.3.11+dfsg/source3/smbd/open.c
+===================================================================
+--- samba-4.3.11+dfsg.orig/source3/smbd/open.c
++++ samba-4.3.11+dfsg/source3/smbd/open.c
+@@ -520,12 +520,32 @@ static int non_widelink_open(struct conn
+ 	char *oldwd = NULL;
+ 	char *parent_dir = NULL;
+ 	const char *final_component = NULL;
++	bool is_directory = false;
++	bool ok;
+ 
+-	if (!parent_dirname(talloc_tos(),
+-			smb_fname->base_name,
+-			&parent_dir,
+-			&final_component)) {
+-		goto out;
++#ifdef O_DIRECTORY
++	if (flags & O_DIRECTORY) {
++		is_directory = true;
++	}
++#endif
++
++	if (is_directory) {
++		parent_dir = talloc_strdup(talloc_tos(), smb_fname->base_name);
++		if (parent_dir == NULL) {
++			saved_errno = errno;
++			goto out;
++		}
++
++		final_component = ".";
++	} else {
++		ok = parent_dirname(talloc_tos(),
++				    smb_fname->base_name,
++				    &parent_dir,
++				    &final_component);
++		if (!ok) {
++			saved_errno = errno;
++			goto out;
++		}
+ 	}
+ 
+ 	oldwd = vfs_GetWd(talloc_tos(), conn);

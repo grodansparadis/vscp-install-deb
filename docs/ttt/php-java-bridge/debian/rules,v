@@ -1,0 +1,1676 @@
+head	1.24;
+access;
+symbols
+	Release-7-1-1:1.24.0.14
+	Root_Release-7-1-1:1.24
+	Root_Release_7-0-1:1.24
+	Release_7-0-1:1.24.0.12
+	Release_7-0-0:1.24.0.10
+	Root_Release_7-0-0:1.24
+	Release-6-2-2:1.24.0.8
+	Release-6-1-2-3:1.24
+	Root_Release-6-1-2-3:1.24
+	Release-6-1-2-2:1.24.0.6
+	Root_Release-6-1-2-2:1.24
+	debian_version_6_1_2_1-1:1.24
+	upstream_version_6_1_2_1:1.24
+	Release-6-1-2-1_new:1.24.0.4
+	Root_Release-6-1-2-1_new:1.24
+	Release-6-1-2-1:1.24.0.2
+	Root_Release-6-1-2-1:1.24
+	upstream_version_6_1_2:1.23
+	debian_version_6_1_2-1:1.24
+	Release-6-1-2:1.23.0.2
+	Root_Release-6-1-2:1.23
+	debian_version_6_1_1-2:1.23
+	debian_version_6_1_1-1:1.23
+	upstream_version_6_1_1:1.22
+	Release-6-1-1:1.22.0.22
+	Root_Release-6-1-1:1.22
+	Release-6-0-4:1.22.0.20
+	Root_Release-6-0-4:1.22
+	Release-6-0-3_NEW:1.22.0.16
+	Root_Release-6-0-3_NEW:1.22
+	Release-6-0-3:1.22.0.18
+	Root_Release-6-0-3:1.22
+	Release-6-0-0:1.22.0.14
+	Root_Release-6-0-0:1.22
+	Release-5-5-4-1:1.22.0.12
+	Root_Release-5-5-4-1:1.22
+	Release-5-5-4:1.22.0.10
+	Root_Release-5-5-4:1.22
+	Release-5-5-3:1.22.0.8
+	ROOT_Release-5-5-3:1.22
+	Release-5-5-2:1.22.0.6
+	Root_Release-5-5-2:1.22
+	debian_version_5_5_1-1:1.22
+	Release-5-5-1:1.22.0.4
+	upstream_version_5_5_1:1.22
+	ROOT_Release-5-5-1:1.22
+	debian_version_5_5-1:1.22
+	upstream_version_5_5:1.22
+	ROOT_Release-5-5:1.22
+	Release-5-5:1.22.0.2
+	debian_version_5_4_4_2-3:1.21
+	Release-5-4-4-2-1:1.21.0.2
+	debian_version_5_4_4_2-2:1.19
+	debian_version_5_4_4_2-1:1.19
+	upstream_version_5_4_4_2:1.19
+	debian_version_5_4_4_1-1:1.18
+	upstream_version_5_4_4_1:1.18
+	debian_version_5_4_4-1:1.18
+	upstream_version_5_4_4:1.18
+	Release-5-4-4:1.18.0.16
+	Root_Release-5-4-4:1.18
+	debian_version_5_4_3_2-1:1.18
+	upstream_version_5_4_3_2:1.18
+	Release_5-4-3-2:1.18.0.12
+	Root_Release_5-4-3-2:1.18
+	upstream_version_5_4_3_1:1.18
+	debian_version_5_4_3_1-1:1.18
+	Release-5-4-3:1.18.0.10
+	Root_Release-5-4-3:1.18
+	Root_Release-5-4-1:1.18
+	Release-5-4-1:1.18.0.8
+	Root_Release-5-4:1.18
+	Release-5-4:1.18.0.6
+	upstream_version_5_3_4:1.18
+	debian_version_5_3_4-1:1.18
+	ROOT_Release-5-3-4:1.18
+	Release-5-3-4:1.18.0.4
+	ROOT_Release-5-3-3:1.18
+	Release-5-3-3:1.18.0.2
+	debian_version_5_3_2_1_2-1:1.18
+	upstream_version_5_3_2_1_2:1.18
+	debian_version_5_3_2_1_1-1:1.18
+	debian_version_5_3_2_1_1:1.18
+	upstream_version_5_3_2_1_1:1.18
+	Root_Release-5-3-2-1:1.15
+	Release-5-3-2-1:1.15
+	ROOT_RELEASE-5-3-2-1:1.15
+	RELEASE-5-3-2-1:1.15.0.24
+	Release-5-3-2:1.15.0.20
+	Root_Release-5-3-2:1.15
+	Root_Release-5-3-1:1.15
+	Release-5-3-1:1.15.0.18
+	Release-5-2-3-1:1.15.0.16
+	Root_Release-5-2-3-1:1.15
+	Release-5-2-2-4:1.15.0.14
+	Root_Release-5-2-2-4:1.15
+	Release-5-2-2-1:1.15.0.12
+	Root_Release-5-2-2-1:1.15
+	upstream_version_5_2_2:1.15
+	debian_version_5_2_2-1:1.15
+	Release-5-2-2:1.15.0.10
+	ROOT_Release-5-2-2:1.15
+	ROOT_Release-5-2-1:1.15
+	Release-5-2-1:1.15.0.8
+	Release-5-2-0:1.15.0.6
+	ROOT_Release-5-2-0:1.15
+	ROOT_Release-5-1-2:1.15
+	Release-5-1-2:1.15.0.4
+	Version-5-1-1:1.15.0.2
+	ROOT_Version-5-1-1:1.15
+	debian_version_5_1_0-1:1.15
+	debian_version_4_3_2-1:1.11
+	debian_version_4_3_0-1:1.10
+	upstream_version_4_3_0:1.10
+	ROOT_Release-4-3-0:1.10
+	Release-4-3-0:1.10.0.2
+	debian_version_3_2_1b-2:1.4.2.1
+	debian_version_4_2_2-1:1.10
+	upstream_version_4_2_2:1.10
+	debian_version_3_2_1b-1:1.4.2.1
+	upstream_version_3_2_1b:1.4
+	Release-4-1-2:1.9.0.4
+	Release-4-0-8:1.9.0.2
+	debian_version_4_0_8a-1:1.8
+	upstream_version_4_0_8a:1.7
+	jostb-debian-ubuntu-patch:1.7.0.2
+	debian_version_4_0_8-1:1.7
+	upstream_version_4_0_8:1.6
+	debian_version_4_0_7-1:1.6
+	upstream_version_4_0_7:1.4
+	debian_version_4_0_6-1:1.4
+	upstream_version_4_0_6:1.4
+	debian_version_4_0_2-1:1.4
+	upstream_version_4_0_2:1.4
+	Release-4-0-2_Root:1.4
+	Release-4-0-2:1.4.0.4
+	upstream_version_4_0_1:1.4
+	debian_version_4_0_1-2:1.4
+	Release-3-2-1:1.4.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.24
+date	2010.04.22.13.27.16;	author andremachado;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2010.04.06.17.06.08;	author andremachado;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2009.07.29.19.13.03;	author andremachado;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2009.07.07.17.10.06;	author andremachado;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2009.07.03.20.09.15;	author andremachado;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2009.04.29.17.14.08;	author andremachado;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2008.10.10.14.14.50;	author andremachado;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2008.10.08.20.27.24;	author andremachado;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2008.10.07.19.03.08;	author andremachado;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2008.01.30.11.27.57;	author andremachado;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.01.29.17.57.15;	author andremachado;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2008.01.29.14.42.35;	author andremachado;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2008.01.28.13.21.41;	author andremachado;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2007.12.20.15.07.41;	author andremachado;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2007.08.07.14.25.26;	author andremachado;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2007.05.02.14.53.00;	author andremachado;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2007.04.20.18.33.59;	author andremachado;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.04.09.12.56.40;	author andremachado;	state Exp;
+branches
+	1.7.2.1;
+next	1.6;
+
+1.6
+date	2007.04.03.19.34.51;	author andremachado;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2007.04.03.15.39.05;	author andremachado;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.12.11.18.06.03;	author andremachado;	state Exp;
+branches
+	1.4.2.1;
+next	1.3;
+
+1.3
+date	2006.12.08.18.34.09;	author andremachado;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.12.07.18.29.52;	author andremachado;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.12.05.12.54.26;	author andremachado;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2007.08.03.18.41.39;	author andremachado;	state Exp;
+branches;
+next	;
+
+1.7.2.1
+date	2007.04.10.14.18.20;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.24
+log
+@New upstream version. Rules cleanup, removing deprecated packages.
+@
+text
+@#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+
+# Read http://wiki.debian.org/PkgSplit "How to split a package into several 
+# smaller packages" for details of this file.
+# variables MUST be set outside target rules
+# target rules MUST start at column 1, then followed by ":"
+# actions MUST start after a TAB, not blank spaces
+# builddir for using dh_install for .war files.
+
+# Copyright (C) 2009  Andre Felipe Machado <andremachado@@techforce.com.br>
+# et al from Debian Project http://www.debian.org , Joey Hess, Craig Small.
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+	BUILDDIR := debian/build
+	DESTDIR := ${CURDIR}/${BUILDDIR}
+	PHP_EXT_DIR := $(shell /usr/bin/php-config --extension-dir)
+	PHP_INCLUDE_DIR := $(shell /usr/bin/php-config --include-dir)
+
+CFLAGS = -Wall -g
+
+ifneq (,$(findstring noopt,$(DEB_BUILD_OPTIONS)))
+	CFLAGS += -O0
+else
+	CFLAGS += -O2
+endif
+
+# using dpatch for flexibility
+configure: patchsource configure-stamp
+
+configure-stamp:
+	dh_testdir
+	# Add here commands to configure the package.
+
+	touch configure-stamp
+
+build: build-stamp
+
+# using dpatch for flexibility, no mv anymore
+build-stamp: configure 
+	dh_testdir
+	# Add here commands to compile the package.
+	dh_auto_build  --buildsystem=ant
+	#docbook-to-man debian/php-java-bridge.sgml > php-java-bridge.1
+	#into makefiles, each line spawns own shell, so you need to write single line batches.
+	cd security/module;	$(MAKE) -f Makefile; 	cd ../..
+	touch $@@
+
+# using dpatch for flexibility
+clean-patched:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp configure-stamp
+	# Add here commands to clean up after the build process.
+	dh_auto_clean   --buildsystem=ant
+	cd security/module; 	dh_auto_clean; 	cd ../..
+	dh_clean
+#	rm -rf ${BUILDDIR}
+
+install: installbasic
+
+	# Add here commands to install the package into debian/php-java-bridge.
+
+# specifiy destdir debian way
+	dh_auto_install  --buildsystem=ant DESTDIR=${DESTDIR}
+
+# avoid multiple binary packages conflicts with --keep
+installbasic:
+	dh_testdir
+	dh_testroot
+#	dh_clean --keep  #deprecated form
+	dh_prep
+	cd security/module; 	dh_prep; 	cd ../..
+
+# Build architecture-independent files here.
+# creating also docs package without examples files. See /debian/*.docs file
+binary-indep: php-java-bridge-devel php-java-bridge-j2ee php-java-bridge-j2ee-selinux binarydocs
+
+# creating j2ee package . See /debian/*j2ee.* files
+# note the -p$@@ to use target name package files in /debian as parameters
+# this option defines that a given rule will act only at the specified package
+# Caution: the -i option is for rule acting on ALL architecture INdependent 
+# packages at this WHOLE file, not only at where it is written.
+
+php-java-bridge-j2ee: 
+	dh_testdir
+	dh_testroot
+	dh_installdirs  -p$@@
+	dh_installchangelogs  -p$@@  ChangeLog
+	dh_installdocs  -p$@@
+#	dh_installexamples -p$@@
+# using dh_installdirs and dh_install for this task
+# note the absence of leading "/"
+	dh_install  --fail-missing --package=$@@ dist/JavaBridge.war var/lib/tomcat5.5/webapps
+#	dh_install -i -p$@@
+#	dh_installmenu -i
+#	dh_installdebconf -i
+#	dh_installlogrotate -i
+#	dh_installemacsen -i
+#	dh_installpam -i
+#	dh_installmime -i
+#	dh_python -i
+#	dh_installinit -i
+#	dh_installcron -i
+#	dh_installinfo -i
+	dh_installman  -p$@@
+	dh_link  -p$@@
+	dh_strip  -p$@@
+	dh_compress  -p$@@
+	dh_fixperms  -p$@@
+#	dh_perl -i
+	dh_makeshlibs -p$@@
+	dh_installdeb -p$@@
+	dh_shlibdeps  -p$@@
+	dh_gencontrol  -p$@@
+	dh_md5sums  -p$@@
+	dh_builddeb  -p$@@
+
+
+
+php-java-bridge-j2ee-selinux: 
+	dh_testdir
+	dh_testroot
+	dh_installdirs  -p$@@
+	dh_installchangelogs  -p$@@  ChangeLog
+	dh_installdocs  -p$@@
+#	dh_installexamples -p$@@
+	dh_installdirs -p$@@
+	dh_install   --fail-missing -p$@@
+#	dh_installmenu -i
+#	dh_installdebconf -i
+#	dh_installlogrotate -i
+#	dh_installemacsen -i
+#	dh_installpam -i
+#	dh_installmime -i
+#	dh_python -i
+#	dh_installinit -i
+#	dh_installcron -i
+#	dh_installinfo -i
+	dh_installman  -p$@@
+	dh_link  -p$@@
+	dh_strip  -p$@@
+	dh_compress  -p$@@
+	dh_fixperms  -p$@@
+#	dh_perl -i
+	dh_makeshlibs -p$@@
+	dh_installdeb -p$@@
+	dh_shlibdeps  -p$@@
+	dh_gencontrol  -p$@@
+	dh_md5sums  -p$@@
+	dh_builddeb  -p$@@
+
+
+
+# creating devel package . See /debian/*devel.* files
+# note the -p$@@ to use target name package files in /debian as parameters
+php-java-bridge-devel:
+	dh_testdir
+	dh_testroot
+	dh_installdirs  -p$@@
+	dh_installchangelogs  ChangeLog
+	dh_installdocs  -p$@@
+	dh_installexamples  -p$@@
+	dh_install  --fail-missing -p$@@ dist/*.jar $(PHP_INCLUDE_DIR)/ext/php-java-bridge
+#	dh_install -i -p$@@
+#	dh_installmenu -i
+#	dh_installdebconf -i
+#	dh_installlogrotate -i
+#	dh_installemacsen -i
+#	dh_installpam -i
+#	dh_installmime -i
+#	dh_python -i
+#	dh_installinit -i
+#	dh_installcron -i
+#	dh_installinfo -i
+	dh_installman  -p$@@
+	dh_link  -p$@@
+	dh_strip -p$@@
+	dh_compress  -p$@@
+	dh_fixperms  -p$@@
+#	dh_perl -i
+	dh_makeshlibs -p$@@
+	dh_installdeb  -p$@@
+	dh_shlibdeps  -p$@@
+	dh_gencontrol  -p$@@
+	dh_md5sums  -p$@@
+	dh_builddeb  -p$@@
+
+# creating docs package without examples files. See /debian/*.docs file
+# pitfall: packages have "-" in their name. 
+# Do not create intermediate rules with this character
+binarydocs: php-java-bridge-docs php-java-bridge-j2ee-docs
+
+php-java-bridge-docs: 
+	dh_testdir
+	dh_testroot
+	dh_installdirs  -p$@@
+	dh_installchangelogs  -p$@@  ChangeLog
+	dh_installdocs  -p$@@
+	dh_installman  -p$@@
+	dh_link  -p$@@
+	dh_strip  -p$@@
+	dh_compress  -p$@@
+	dh_fixperms  -p$@@
+	dh_makeshlibs -p$@@
+	dh_installdeb  -p$@@
+	dh_shlibdeps  -p$@@
+	dh_gencontrol  -p$@@
+	dh_md5sums  -p$@@
+	dh_builddeb  -p$@@
+
+php-java-bridge-j2ee-docs:
+	dh_testdir
+	dh_testroot
+	dh_installdirs  -p$@@
+	dh_installchangelogs  -p$@@  ChangeLog
+	dh_installdocs  -p$@@
+#	dh_installexamples -i
+#	dh_install -i
+#	dh_installmenu -i
+#	dh_installdebconf -i
+#	dh_installlogrotate -i
+#	dh_installemacsen -i
+#	dh_installpam -i
+#	dh_installmime -i
+#	dh_python -i
+#	dh_installinit -i
+#	dh_installcron -i
+#	dh_installinfo -i
+	dh_installman  -p$@@
+	dh_link  -p$@@
+	dh_strip  -p$@@
+	dh_compress  -p$@@
+	dh_fixperms  -p$@@
+#	dh_perl -i
+	dh_makeshlibs -p$@@
+	dh_installdeb  -p$@@
+	dh_shlibdeps  -p$@@
+	dh_gencontrol  -p$@@
+	dh_md5sums  -p$@@
+	dh_builddeb  -p$@@
+
+# Build architecture-dependent files here.
+# Caution: the -a option is for rule acting on ALL architecture DEPENDENT 
+# packages at this WHOLE file, not only at where it is written.
+
+# build and install are implicit, but THIS package source needs 2 cycles.
+# so the first cycle is implicity and this entry is for the second cycle.
+binary: build install binary-indep
+.PHONY: build build-stamp clean clean-patched binary-indep binarydocs binary install configure configure-stamp installdocs installbasic unpatch patchsource patch-stamp  php-java-bridge-j2ee php-java-bridge-devel php-java-bridge-docs php-java-bridge-j2ee-docs php-java-bridge-j2ee-selinux 
+
+# using dpatch for flexibility
+unpatch:
+	dpatch deapply-all
+	rm -rf patch-stamp debian/patched
+
+patchsource: patch-stamp
+
+patch-stamp:
+	dpatch apply-all
+	dpatch cat-all >patch-stamp
+
+clean: clean-patched unpatch
+@
+
+
+1.23
+log
+@New ant build system. C binary deprecated and removed. Dependency on newer debhelper. SERPRO sponsoring Debian package maintainer work.
+@
+text
+@a173 31
+php-java-bridge-selinux: 
+	dh_testdir
+	dh_testroot
+	dh_installdirs  -p$@@
+	dh_installchangelogs  -p$@@  ChangeLog
+	dh_installdocs  -p$@@
+#	dh_installexamples -p$@@
+	dh_installdirs -p$@@
+	dh_install   --fail-missing -p$@@
+#	dh_installmenu -i
+#	dh_installdebconf -i
+#	dh_installlogrotate -i
+#	dh_installemacsen -i
+#	dh_installpam -i
+#	dh_installmime -i
+#	dh_python -i
+#	dh_installinit -i
+#	dh_installcron -i
+#	dh_installinfo -i
+	dh_installman  -p$@@
+	dh_link  -p$@@
+	dh_strip  -p$@@
+	dh_compress  -p$@@
+	dh_fixperms  -p$@@
+#	dh_perl -i
+	dh_makeshlibs -p$@@
+	dh_installdeb -p$@@
+	dh_shlibdeps  -p$@@
+	dh_gencontrol  -p$@@
+	dh_md5sums  -p$@@
+	dh_builddeb  -p$@@
+a265 30
+binary-arch:
+	dh_testdir
+	dh_testroot
+	dh_installdirs -a
+	dh_installchangelogs -a ChangeLog
+	dh_installdocs -a
+#	dh_installexamples -a
+#	dh_install --exclude=JavaBridge.war -a --fail-missing ${BUILDDIR}$(PHP_EXT_DIR)/* $(PHP_EXT_DIR)
+#	dh_installmenu -a
+#	dh_installdebconf -a	
+#	dh_installlogrotate -a
+#	dh_installemacsen -a
+#	dh_installpam -a
+#	dh_installmime -a
+#	dh_python -a
+#	dh_installinit -a
+#	dh_installcron -a
+#	dh_installinfo -a
+	dh_installman -a
+	dh_link -a
+	dh_strip -a
+	dh_compress -a
+	dh_fixperms -a
+#	dh_perl -a
+	dh_makeshlibs -p$@@
+	dh_installdeb -a
+	dh_shlibdeps -a
+	dh_gencontrol -a
+	dh_md5sums -a
+	dh_builddeb -a
+d270 1
+a270 1
+.PHONY: build build-stamp clean clean-patched binary-indep binary-arch binarydocs binary install configure configure-stamp installdocs installbasic unpatch patchsource patch-stamp  php-java-bridge-j2ee php-java-bridge-devel php-java-bridge-docs php-java-bridge-j2ee-docs php-java-bridge-j2ee-selinux php-java-bridge-selinux
+@
+
+
+1.22
+log
+@improved dependency control.
+@
+text
+@d54 1
+a54 3
+#	phpize --clean
+	phpize
+	./configure --with-java=/usr/lib/jvm/java-6-sun --prefix=${DESTDIR}
+d63 1
+a63 1
+	$(MAKE)
+d75 1
+a75 2
+#	-$(MAKE) distclean
+	dh_auto_clean
+d85 1
+a85 1
+	$(MAKE) install DESTDIR=${DESTDIR}
+d97 1
+a97 1
+binary-indep: php-java-bridge-devel php-java-bridge-j2ee php-java-bridge-j2ee-selinux binarydocs php-java-bridge-selinux
+d114 1
+a114 1
+	dh_install  --fail-missing --package=$@@ ${BUILDDIR}$(PHP_EXT_DIR)/JavaBridge.war var/lib/tomcat5.5/webapps
+d215 1
+a215 1
+	dh_install  --fail-missing -p$@@ ${BUILDDIR}$(PHP_EXT_DIR)/*.jar $(PHP_INCLUDE_DIR)/ext/php-java-bridge
+d304 1
+a304 1
+	dh_install --exclude=JavaBridge.war -a --fail-missing ${BUILDDIR}$(PHP_EXT_DIR)/* $(PHP_EXT_DIR)
+d330 1
+a330 1
+binary: build install binary-arch binary-indep
+@
+
+
+1.21
+log
+@SE Linux experimental packaging improvements.
+@
+text
+@d135 1
+a135 1
+#	dh_makeshlibs -i
+d169 1
+a169 1
+#	dh_makeshlibs -i
+d202 1
+a202 1
+#	dh_makeshlibs -i
+d236 1
+a236 1
+#	dh_makeshlibs -i
+d259 1
+d290 1
+a290 1
+#	dh_makeshlibs -i
+d324 1
+a324 1
+#	dh_makeshlibs -a
+@
+
+
+1.20
+log
+@SE Linux experimental packaging. First, j2see.
+@
+text
+@d68 1
+a68 1
+	cd security/module; 	$(MAKE) -f Makefile; 	cd ../..
+d100 1
+a100 1
+binary-indep: php-java-bridge-devel php-java-bridge-j2ee php-java-bridge-j2ee-selinux binarydocs
+d152 34
+a185 1
+	dh_install -i -p$@@
+d333 1
+a333 1
+.PHONY: build build-stamp clean clean-patched binary-indep binary-arch binarydocs binary install configure configure-stamp installdocs installbasic unpatch patchsource patch-stamp  php-java-bridge-j2ee php-java-bridge-devel php-java-bridge-docs php-java-bridge-j2ee-docs php-java-bridge-j2ee-selinux
+@
+
+
+1.19
+log
+@corrections for TomCat 5.5 and new bridge release
+@
+text
+@d67 2
+d77 3
+a79 1
+	-$(MAKE) distclean
+d81 1
+a81 1
+	rm -rf ${BUILDDIR}
+d94 3
+a96 1
+	dh_clean --keep 
+d100 1
+a100 1
+binary-indep: php-java-bridge-devel php-java-bridge-j2ee binarydocs
+d142 34
+d300 1
+a300 1
+.PHONY: build build-stamp clean clean-patched binary-indep binary-arch binarydocs binary install configure configure-stamp installdocs installbasic unpatch patchsource patch-stamp  php-java-bridge-j2ee php-java-bridge-devel php-java-bridge-docs php-java-bridge-j2ee-docs
+@
+
+
+1.18
+log
+@new correct interpretation of -i, -a, -p rules options, clearing all errors and detailed control of build and install process.
+@
+text
+@d19 1
+a19 1
+# Copyright (C) 2008  Andre Felipe Machado <andremachado@@techforce.com.br>
+d111 1
+a111 1
+	dh_install  --fail-missing --package=$@@ ${BUILDDIR}$(PHP_EXT_DIR)/JavaBridge.war var/lib/tomcat5/webapps
+@
+
+
+1.17
+log
+@reducing lintian packaging warnings and errors
+@
+text
+@d86 1
+a86 1
+# avoid multiple binary packages conflicts
+d90 1
+a90 2
+	dh_clean -k 
+	dh_installdirs 
+d94 1
+a94 1
+binary-indep: php-java-bridge-devel php-java-bridge-j2ee
+d98 4
+d105 3
+a107 3
+	dh_installdirs -i -p$@@
+	dh_installchangelogs -i -p$@@ ChangeLog
+	dh_installdocs -i -p$@@
+d111 1
+a111 1
+	dh_install -i --fail-missing --package=$@@ ${BUILDDIR}$(PHP_EXT_DIR)/JavaBridge.war var/lib/tomcat5/webapps
+d113 22
+a134 22
+#	dh_installmenu -i -p$@@
+#	dh_installdebconf -i -p$@@
+#	dh_installlogrotate -i -p$@@
+#	dh_installemacsen -i -p$@@
+#	dh_installpam -i -p$@@
+#	dh_installmime -i -p$@@
+#	dh_python -i -p$@@
+#	dh_installinit -i -p$@@
+#	dh_installcron -i -p$@@
+#	dh_installinfo -i -p$@@
+	dh_installman -i -p$@@
+	dh_link -i -p$@@
+	dh_strip -i
+	dh_compress -i -p$@@
+	dh_fixperms -i -p$@@
+#	dh_perl -i -p$@@
+#	dh_makeshlibs -i -p$@@
+	dh_installdeb -i -p$@@
+	dh_shlibdeps -i -p$@@
+	dh_gencontrol -i -p$@@
+	dh_md5sums -i -p$@@
+	dh_builddeb -i -p$@@
+d141 5
+a145 5
+	dh_installdirs -i -p$@@
+	dh_installchangelogs -i -p$@@ ChangeLog
+	dh_installdocs -i -p$@@
+	dh_installexamples -i -p$@@
+	dh_install -i --exclude=java-servlet.ini --fail-missing -p$@@ ${BUILDDIR}$(PHP_EXT_DIR)/*.jar $(PHP_INCLUDE_DIR)/ext/php-java-bridge
+d147 22
+a168 22
+#	dh_installmenu -i -p$@@
+#	dh_installdebconf -i -p$@@
+#	dh_installlogrotate -i -p$@@
+#	dh_installemacsen -i -p$@@
+#	dh_installpam -i -p$@@
+#	dh_installmime -i -p$@@
+#	dh_python -i -p$@@
+#	dh_installinit -i -p$@@
+#	dh_installcron -i -p$@@
+#	dh_installinfo -i -p$@@
+	dh_installman -i -p$@@
+	dh_link -i -p$@@
+	dh_strip -i
+	dh_compress -i -p$@@
+	dh_fixperms -i -p$@@
+#	dh_perl -i -p$@@
+#	dh_makeshlibs -i -p$@@
+	dh_installdeb -i -p$@@
+	dh_shlibdeps -i -p$@@
+	dh_gencontrol -i -p$@@
+	dh_md5sums -i -p$@@
+	dh_builddeb -i -p$@@
+d171 3
+a173 1
+# pitfall: packages have "-" in their name. Do not create intermediate rules with this character
+d175 16
+a190 1
+binary-docs: php-java-bridge-docs php-java-bridge-j2ee-docs
+a191 3
+# use different entry points for same code to avoid duplicate processing
+# and multiple entries conffiles
+php-java-bridge-docs:
+a192 1
+installdocs:
+d195 27
+a221 26
+	dh_installchangelogs -i -p$@@ ChangeLog
+	dh_installdocs -i -p$@@
+#	dh_installexamples -i -p$@@
+#	dh_install -i -p$@@
+#	dh_installmenu -i -p$@@
+#	dh_installdebconf -i	 -p$@@
+#	dh_installlogrotate -i -p$@@
+#	dh_installemacsen -i -p$@@
+#	dh_installpam -i -p$@@
+#	dh_installmime -i -p$@@
+#	dh_python -i -p$@@
+#	dh_installinit -i -p$@@
+#	dh_installcron -i -p$@@
+#	dh_installinfo -i -p$@@
+	dh_installman -i -p$@@
+	dh_link -i -p$@@
+	dh_strip -i -p$@@
+	dh_compress -i -p$@@
+	dh_fixperms -i -p$@@
+#	dh_perl -i -p$@@
+#	dh_makeshlibs -i -p$@@
+	dh_installdeb -i -p$@@
+	dh_shlibdeps -i -p$@@
+	dh_gencontrol -i -p$@@
+	dh_md5sums -i -p$@@
+	dh_builddeb -i -p$@@
+d224 2
+d229 1
+d233 1
+a233 1
+	dh_install --exclude=JavaBridge.war -a --list-missing ${BUILDDIR}$(PHP_EXT_DIR)/* $(PHP_EXT_DIR)
+d257 4
+a260 2
+binary: build install binary-indep binary-arch binary-docs
+.PHONY: build build-stamp clean clean-patched binary-indep binary-arch binary-docs binary install configure configure-stamp installdocs installbasic unpatch patchsource patch-stamp  php-java-bridge-j2ee php-java-bridge-devel
+@
+
+
+1.16
+log
+@packaging improvements
+@
+text
+@d87 1
+a87 1
+installbasic: build
+d95 1
+a95 1
+binary-indep: build install php-java-bridge-j2ee php-java-bridge-docs php-java-bridge-j2ee-docs php-java-bridge-devel
+d99 1
+a99 1
+php-java-bridge-j2ee: build install
+d108 1
+a108 1
+	dh_install -i --list-missing --package=$@@ ${BUILDDIR}$(PHP_EXT_DIR)/JavaBridge.war var/lib/tomcat5/webapps
+d135 1
+a135 1
+php-java-bridge-devel: build install
+d142 1
+a142 1
+	dh_install -i --list-missing -p$@@ ${BUILDDIR}$(PHP_EXT_DIR)/*.jar $(PHP_INCLUDE_DIR)/ext/php-java-bridge
+a168 1
+php-java-bridge-docs: installdocs
+d170 1
+a170 1
+php-java-bridge-j2ee-docs: installdocs
+d172 5
+a176 1
+installdocs: build installbasic
+d179 26
+a204 26
+	dh_installchangelogs -i ChangeLog
+	dh_installdocs -i
+#	dh_installexamples -i
+#	dh_install -i
+#	dh_installmenu -i
+#	dh_installdebconf -i	
+#	dh_installlogrotate -i
+#	dh_installemacsen -i
+#	dh_installpam -i
+#	dh_installmime -i
+#	dh_python -i
+#	dh_installinit -i
+#	dh_installcron -i
+#	dh_installinfo -i
+	dh_installman -i
+	dh_link -i
+	dh_strip -i
+	dh_compress -i
+	dh_fixperms -i
+#	dh_perl -i
+#	dh_makeshlibs -i
+	dh_installdeb -i
+	dh_shlibdeps -i
+	dh_gencontrol -i
+	dh_md5sums -i
+	dh_builddeb -i
+d207 1
+a207 1
+binary-arch: build install
+d237 2
+a238 2
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install configure installdocs installbasic
+@
+
+
+1.15
+log
+@build area removal on clean rule.
+@
+text
+@d19 1
+a19 1
+# Copyright (C) 2007  Andre Felipe Machado <andremachado@@techforce.com.br>
+d75 1
+a75 1
+	-$(MAKE) clean
+@
+
+
+1.14
+log
+@debug option to list missing installed files
+@
+text
+@d77 1
+@
+
+
+1.13
+log
+@BUILDDIR redefined to outside binary package tree, allowing binary-arch target dh_install rule avoid big .war file. Some code formatting.
+@
+text
+@d107 1
+a107 1
+	dh_install -i --package=$@@ ${BUILDDIR}$(PHP_EXT_DIR)/JavaBridge.war var/lib/tomcat5/webapps
+d141 1
+a141 1
+	dh_install -i -p$@@ ${BUILDDIR}$(PHP_EXT_DIR)/*.jar $(PHP_INCLUDE_DIR)/ext/php-java-bridge
+d209 1
+a209 1
+	dh_install --exclude=JavaBridge.war -a ${BUILDDIR}$(PHP_EXT_DIR)/* $(PHP_EXT_DIR)
+@
+
+
+1.12
+log
+@code cleanup/ disabling init.d install/ notation adjustment/ trying to NOT install a file
+@
+text
+@d35 1
+a35 1
+	BUILDDIR := debian/php-java-bridge
+d76 1
+a76 2
+	dh_clean 
+
+d209 1
+a209 1
+	dh_install --exclude=JavaBridge.war -a
+@
+
+
+1.11
+log
+@LSB compatible initscript for Debian systems.
+@
+text
+@d108 2
+a109 2
+	dh_install -i -p$@@ ${BUILDDIR}$(PHP_EXT_DIR)/JavaBridge.war var/lib/tomcat5/webapps
+	dh_install -i -p$@@
+d210 1
+a210 1
+	dh_install -a
+d218 1
+a218 1
+	dh_installinit -a
+@
+
+
+1.10
+log
+@adapted for jdk 1.6 , a new requirement.
+@
+text
+@d18 17
+d218 1
+a218 1
+#	dh_installinit -a
+@
+
+
+1.9
+log
+@inclusion of -i and -a options for debhelper. Specify the binary arch and independent target rules.
+@
+text
+@d39 1
+a39 1
+	./configure --with-java=/usr/lib/jvm/java-1.5.0-sun --prefix=${DESTDIR}
+@
+
+
+1.8
+log
+@Comments cleaning. installini target substituded by install file. postinst, postrm, php-java-bridge-j2ee.postinst, php-java-bridge-j2ee.postrm corrected for starting / stoping suitable servers. Indication to http://wiki.debian.org/PkgSplit about explanations.
+@
+text
+@d85 3
+a87 3
+	dh_installdirs -p$@@
+	dh_installchangelogs -p$@@ ChangeLog
+	dh_installdocs -p$@@
+d91 24
+a114 24
+	dh_install -p$@@ ${BUILDDIR}$(PHP_EXT_DIR)/JavaBridge.war var/lib/tomcat5/webapps
+	dh_install -p$@@
+#	dh_installmenu -p$@@
+#	dh_installdebconf -p$@@
+#	dh_installlogrotate -p$@@
+#	dh_installemacsen -p$@@
+#	dh_installpam -p$@@
+#	dh_installmime -p$@@
+#	dh_python -p$@@
+#	dh_installinit -p$@@
+#	dh_installcron -p$@@
+#	dh_installinfo -p$@@
+	dh_installman -p$@@
+	dh_link -p$@@
+	dh_strip
+	dh_compress -p$@@
+	dh_fixperms -p$@@
+#	dh_perl -p$@@
+#	dh_makeshlibs -p$@@
+	dh_installdeb -p$@@
+	dh_shlibdeps -p$@@
+	dh_gencontrol -p$@@
+	dh_md5sums -p$@@
+	dh_builddeb -p$@@
+d121 28
+a148 28
+	dh_installdirs -p$@@
+	dh_installchangelogs -p$@@ ChangeLog
+	dh_installdocs -p$@@
+	dh_installexamples -p$@@
+	dh_install -p$@@ ${BUILDDIR}$(PHP_EXT_DIR)/*.jar $(PHP_INCLUDE_DIR)/ext/php-java-bridge
+#	dh_install -p$@@
+#	dh_installmenu -p$@@
+#	dh_installdebconf -p$@@
+#	dh_installlogrotate -p$@@
+#	dh_installemacsen -p$@@
+#	dh_installpam -p$@@
+#	dh_installmime -p$@@
+#	dh_python -p$@@
+#	dh_installinit -p$@@
+#	dh_installcron -p$@@
+#	dh_installinfo -p$@@
+	dh_installman -p$@@
+	dh_link -p$@@
+	dh_strip
+	dh_compress -p$@@
+	dh_fixperms -p$@@
+#	dh_perl -p$@@
+#	dh_makeshlibs -p$@@
+	dh_installdeb -p$@@
+	dh_shlibdeps -p$@@
+	dh_gencontrol -p$@@
+	dh_md5sums -p$@@
+	dh_builddeb -p$@@
+d159 26
+a184 26
+	dh_installchangelogs ChangeLog
+	dh_installdocs
+#	dh_installexamples
+#	dh_install
+#	dh_installmenu
+#	dh_installdebconf	
+#	dh_installlogrotate
+#	dh_installemacsen
+#	dh_installpam
+#	dh_installmime
+#	dh_python
+#	dh_installinit
+#	dh_installcron
+#	dh_installinfo
+	dh_installman
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms
+#	dh_perl
+#	dh_makeshlibs
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+d190 26
+a215 26
+	dh_installchangelogs ChangeLog
+	dh_installdocs
+#	dh_installexamples
+	dh_install
+#	dh_installmenu
+#	dh_installdebconf	
+#	dh_installlogrotate
+#	dh_installemacsen
+#	dh_installpam
+#	dh_installmime
+#	dh_python
+#	dh_installinit
+#	dh_installcron
+#	dh_installinfo
+	dh_installman
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms
+#	dh_perl
+#	dh_makeshlibs
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+@
+
+
+1.7
+log
+@New debian 4.0.8-1 package version
+@
+text
+@d12 3
+a14 1
+# AFM  27nov2006 variables MUST be set outside target rules
+d17 1
+a17 1
+# AFM 11dec2006 builddir for using dh_install for .war files.
+d31 1
+a31 1
+# AFM 07dec2006 using dpatch for flexibility
+a38 2
+
+# AFM 27nov2006
+d44 1
+a44 1
+# AFM 07dec2006 using dpatch for flexibility, no mv anymore
+d52 1
+a52 1
+# AFM 07dec2006 using dpatch for flexibility
+a56 1
+
+d66 1
+a66 1
+# AFM 27nov2006 to specifiy destdir debian way
+d69 1
+a69 8
+# AFM 11dec2006 using dh_installdirs and dh_install for this task
+# note the absence of leading "/" and one per line to avoid jumping to next rule
+installini:
+	dh_install java.ini etc/php5/conf.d
+	dh_install mono.ini etc/php5/conf.d
+
+
+# AFM 03apr2007 to avoid multiple binary packages conflicts
+d77 1
+a77 1
+# AFM 03apr2007 creating also docs package without examples files. See /debian/*.docs file
+d80 1
+a80 1
+# AFM 03apr2007 creating j2ee package . See /debian/*j2ee.* files
+d89 1
+a89 1
+# AFM 11dec2006 using dh_installdirs and dh_install for this task
+d116 1
+a116 1
+# AFM 03apr2007 creating devel package . See /debian/*devel.* files
+d150 1
+a150 1
+# AFM 03apr2007 creating docs package without examples files. See /debian/*.docs file
+d187 1
+a187 1
+binary-arch: build install installini
+d193 1
+a193 1
+#	dh_install
+d218 1
+a218 1
+.PHONY: build clean binary-indep binary-arch binary install configure installdocs installbasic installini
+d220 1
+a220 1
+# AFM 07dec2006 using dpatch for flexibility
+@
+
+
+1.7.2.1
+log
+@debian->ubuntu patch
+@
+text
+@a20 1
+
+a39 1
+
+a41 3
+
+
+
+a46 1
+
+a49 1
+
+a59 1
+
+a67 1
+#	$(MAKE) install-modules DESTDIR=${DESTDIR}
+d74 1
+a90 1
+
+a123 1
+
+a157 4
+
+
+
+
+a193 1
+
+@
+
+
+1.6
+log
+@creation of debian devel package
+@
+text
+@a20 1
+
+a39 1
+
+a41 3
+
+
+
+a46 1
+
+a49 1
+
+a59 1
+
+a67 1
+#	$(MAKE) install-modules DESTDIR=${DESTDIR}
+a90 1
+
+a123 1
+
+a157 4
+
+
+
+
+a193 1
+
+@
+
+
+1.5
+log
+@split in multiple debian packages.
+@
+text
+@d19 1
+a19 1
+
+d76 2
+a77 1
+	$(MAKE) install-modules DESTDIR=${DESTDIR}
+a84 2
+installinij2ee:
+#	dh_install java-servlet.ini etc/php5/conf.d
+d95 1
+a95 1
+binary-indep: build install php-java-bridge-j2ee php-java-bridge-docs php-java-bridge-j2ee-docs
+d99 2
+a100 1
+php-java-bridge-j2ee: build install installinij2ee
+d135 37
+d216 1
+a216 1
+	dh_installexamples
+d242 1
+a242 1
+.PHONY: build clean binary-indep binary-arch binary install configure installdocs installbasic installini installinij2ee 
+@
+
+
+1.4
+log
+@cleaning rules using dh_install for .ini and .war files
+@
+text
+@d70 2
+a71 5
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs 
+d79 7
+a85 2
+# note the absence of leading "/"
+	dh_install java.ini java-servlet.ini mono.ini etc/php5/conf.d
+d87 6
+d95 2
+a96 1
+binary-indep: build install
+d98 9
+d109 63
+a171 1
+	dh_install ${BUILDDIR}$(PHP_EXT_DIR)/JavaBridge.war var/lib/tomcat5/webapps
+d174 1
+a174 1
+binary-arch: build install
+d205 1
+a205 1
+.PHONY: build clean binary-indep binary-arch binary install configure
+@
+
+
+1.4.2.1
+log
+@new Debian packaging, splitting binaries
+@
+text
+@d12 1
+a12 3
+# Read http://wiki.debian.org/PkgSplit "How to split a package into several 
+# smaller packages" for details of this file.
+# variables MUST be set outside target rules
+d15 1
+a15 1
+# builddir for using dh_install for .war files.
+d19 2
+a20 1
+	PHP_INCLUDE_DIR := $(shell /usr/bin/php-config --include-dir)
+d30 1
+a30 1
+# using dpatch for flexibility
+d38 2
+d41 1
+d44 3
+d49 1
+a49 1
+# using dpatch for flexibility, no mv anymore
+d52 1
+d56 1
+d59 1
+a59 1
+# using dpatch for flexibility
+d64 1
+d67 1
+d70 1
+a70 10
+
+install: installbasic
+
+	# Add here commands to install the package into debian/php-java-bridge.
+
+# specifiy destdir debian way
+	$(MAKE) install DESTDIR=${DESTDIR}
+
+# avoid multiple binary packages conflicts
+installbasic: build
+d76 4
+a79 3
+# Build architecture-independent files here.
+# creating also docs package without examples files. See /debian/*.docs file
+binary-indep: build install php-java-bridge-j2ee php-java-bridge-docs php-java-bridge-j2ee-docs php-java-bridge-devel
+d81 1
+a81 10
+# creating j2ee package . See /debian/*j2ee.* files
+# note the -p$@@ to use target name package files in /debian as parameters
+php-java-bridge-j2ee: build install
+	dh_testdir
+	dh_testroot
+	dh_installdirs -i -p$@@
+	dh_installchangelogs -i -p$@@ ChangeLog
+	dh_installdocs -i -p$@@
+#	dh_installexamples -p$@@
+# using dh_installdirs and dh_install for this task
+d83 2
+a84 62
+	dh_install -i -p$@@ ${BUILDDIR}$(PHP_EXT_DIR)/JavaBridge.war var/lib/tomcat5/webapps
+	dh_install -i -p$@@
+#	dh_installmenu -i -p$@@
+#	dh_installdebconf -i -p$@@
+#	dh_installlogrotate -i -p$@@
+#	dh_installemacsen -i -p$@@
+#	dh_installpam -i -p$@@
+#	dh_installmime -i -p$@@
+#	dh_python -i -p$@@
+#	dh_installinit -i -p$@@
+#	dh_installcron -i -p$@@
+#	dh_installinfo -i -p$@@
+	dh_installman -i -p$@@
+	dh_link -i -p$@@
+	dh_strip -i
+	dh_compress -i -p$@@
+	dh_fixperms -i -p$@@
+#	dh_perl -i -p$@@
+#	dh_makeshlibs -i -p$@@
+	dh_installdeb -i -p$@@
+	dh_shlibdeps -i -p$@@
+	dh_gencontrol -i -p$@@
+	dh_md5sums -i -p$@@
+	dh_builddeb -i -p$@@
+
+# creating devel package . See /debian/*devel.* files
+# note the -p$@@ to use target name package files in /debian as parameters
+php-java-bridge-devel: build install
+	dh_testdir
+	dh_testroot
+	dh_installdirs -i -p$@@
+	dh_installchangelogs -i -p$@@ ChangeLog
+	dh_installdocs -i -p$@@
+	dh_installexamples -i -p$@@
+	dh_install -i -p$@@ ${BUILDDIR}$(PHP_EXT_DIR)/*.jar $(PHP_INCLUDE_DIR)/ext/php-java-bridge
+#	dh_install -i -p$@@
+#	dh_installmenu -i -p$@@
+#	dh_installdebconf -i -p$@@
+#	dh_installlogrotate -i -p$@@
+#	dh_installemacsen -i -p$@@
+#	dh_installpam -i -p$@@
+#	dh_installmime -i -p$@@
+#	dh_python -i -p$@@
+#	dh_installinit -i -p$@@
+#	dh_installcron -i -p$@@
+#	dh_installinfo -i -p$@@
+	dh_installman -i -p$@@
+	dh_link -i -p$@@
+	dh_strip -i
+	dh_compress -i -p$@@
+	dh_fixperms -i -p$@@
+#	dh_perl -i -p$@@
+#	dh_makeshlibs -i -p$@@
+	dh_installdeb -i -p$@@
+	dh_shlibdeps -i -p$@@
+	dh_gencontrol -i -p$@@
+	dh_md5sums -i -p$@@
+	dh_builddeb -i -p$@@
+
+# creating docs package without examples files. See /debian/*.docs file
+# pitfall: packages have "-" in their name. Do not create intermediate rules with this character
+php-java-bridge-docs: installdocs
+d86 2
+a87 1
+php-java-bridge-j2ee-docs: installdocs
+d89 3
+a91 29
+installdocs: build installbasic
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs -i ChangeLog
+	dh_installdocs -i
+#	dh_installexamples -i
+#	dh_install -i
+#	dh_installmenu -i
+#	dh_installdebconf -i	
+#	dh_installlogrotate -i
+#	dh_installemacsen -i
+#	dh_installpam -i
+#	dh_installmime -i
+#	dh_python -i
+#	dh_installinit -i
+#	dh_installcron -i
+#	dh_installinfo -i
+	dh_installman -i
+	dh_link -i
+	dh_strip -i
+	dh_compress -i
+	dh_fixperms -i
+#	dh_perl -i
+#	dh_makeshlibs -i
+	dh_installdeb -i
+	dh_shlibdeps -i
+	dh_gencontrol -i
+	dh_md5sums -i
+	dh_builddeb -i
+d97 26
+a122 26
+	dh_installchangelogs -a ChangeLog
+	dh_installdocs -a
+#	dh_installexamples -a
+	dh_install -a
+#	dh_installmenu -a
+#	dh_installdebconf -a	
+#	dh_installlogrotate -a
+#	dh_installemacsen -a
+#	dh_installpam -a
+#	dh_installmime -a
+#	dh_python -a
+#	dh_installinit -a
+#	dh_installcron -a
+#	dh_installinfo -a
+	dh_installman -a
+	dh_link -a
+	dh_strip -a
+	dh_compress -a
+	dh_fixperms -a
+#	dh_perl -a
+#	dh_makeshlibs -a
+	dh_installdeb -a
+	dh_shlibdeps -a
+	dh_gencontrol -a
+	dh_md5sums -a
+	dh_builddeb -a
+d125 1
+a125 1
+.PHONY: build clean binary-indep binary-arch binary install configure installdocs installbasic
+d127 1
+a127 1
+# using dpatch for flexibility
+@
+
+
+1.3
+log
+@clean examples and docs packaging; comments cleansing
+@
+text
+@d13 1
+a13 1
+# target rules MUST start at column 1, then followed by :
+d15 3
+a17 1
+	DESTDIR := ${CURDIR}/debian/php-java-bridge
+d49 1
+a49 1
+# AFM 07dec2006 using dpatch for flexibility no mv anymore
+d77 2
+a78 1
+# AFM 27nov2006 trying to specifiy destdir debian way?
+d81 3
+a83 7
+# AFM 23nov2006
+	mkdir -p ${DESTDIR}/etc/php5/conf.d
+	cp java.ini ${DESTDIR}/etc/php5/conf.d/java.ini
+	cp java-servlet.ini ${DESTDIR}/etc/php5/conf.d/java-servlet.ini
+	cp mono.ini ${DESTDIR}/etc/php5/conf.d/mono.ini
+
+
+d89 3
+a91 3
+# AFM 27nov2006 .war file is java
+	mkdir -p ${DESTDIR}/var/lib/tomcat5/webapps
+	cp ${DESTDIR}$(PHP_EXT_DIR)/JavaBridge.war ${DESTDIR}/var/lib/tomcat5/webapps
+@
+
+
+1.2
+log
+@initial version with dpatch
+@
+text
+@a28 1
+#configure: configure-stamp
+a35 3
+# AFM 04dec2006
+# AFM 07dec2006 using dpatch for flexibility no mv anymore
+#	mv --force --verbose ${CURDIR}/debian/Makefile.frag ${CURDIR}
+a47 1
+#build-stamp: configure-stamp
+a57 1
+#clean:
+d89 1
+a90 1
+
+a92 4
+# AFM 28nov2006
+	cp --recursive server/documentation server_documentation
+	cp --recursive server/php server_php
+	cp --recursive server/test server_test
+@
+
+
+1.1
+log
+@initial version
+@
+text
+@d13 2
+d28 4
+a31 1
+configure: configure-stamp
+d38 3
+a40 1
+	mv --force --verbose ${CURDIR}/debian/Makefile.frag ${CURDIR}
+d51 3
+a53 2
+
+build-stamp: configure-stamp 
+d62 3
+a64 1
+clean:
+d137 13
+@
+

@@ -1,0 +1,514 @@
+head	1.5;
+access;
+symbols
+	Release-7-1-1:1.5.0.72
+	Root_Release-7-1-1:1.5
+	Root_Release_7-0-1:1.5
+	Release_7-0-1:1.5.0.70
+	Release_7-0-0:1.5.0.68
+	Root_Release_7-0-0:1.5
+	Release-6-2-2:1.5.0.66
+	Release-6-1-2-3:1.5
+	Root_Release-6-1-2-3:1.5
+	Release-6-1-2-2:1.5.0.64
+	Root_Release-6-1-2-2:1.5
+	debian_version_6_1_2_1-1:1.5
+	upstream_version_6_1_2_1:1.5
+	Release-6-1-2-1_new:1.5.0.62
+	Root_Release-6-1-2-1_new:1.5
+	Release-6-1-2-1:1.5.0.60
+	Root_Release-6-1-2-1:1.5
+	upstream_version_6_1_2:1.5
+	debian_version_6_1_2-1:1.5
+	Release-6-1-2:1.5.0.58
+	Root_Release-6-1-2:1.5
+	debian_version_6_1_1-2:1.5
+	debian_version_6_1_1-1:1.5
+	upstream_version_6_1_1:1.5
+	Release-6-1-1:1.5.0.56
+	Root_Release-6-1-1:1.5
+	Release-6-0-4:1.5.0.54
+	Root_Release-6-0-4:1.5
+	Release-6-0-3_NEW:1.5.0.50
+	Root_Release-6-0-3_NEW:1.5
+	Release-6-0-3:1.5.0.52
+	Root_Release-6-0-3:1.5
+	Release-6-0-0:1.5.0.48
+	Root_Release-6-0-0:1.5
+	Release-5-5-4-1:1.5.0.46
+	Root_Release-5-5-4-1:1.5
+	Release-5-5-4:1.5.0.44
+	Root_Release-5-5-4:1.5
+	Release-5-5-3:1.5.0.42
+	ROOT_Release-5-5-3:1.5
+	Release-5-5-2:1.5.0.40
+	Root_Release-5-5-2:1.5
+	debian_version_5_5_1-1:1.5
+	Release-5-5-1:1.5.0.36
+	upstream_version_5_5_1:1.5
+	ROOT_Release-5-5-1:1.5
+	debian_version_5_5-1:1.5
+	upstream_version_5_5:1.5
+	ROOT_Release-5-5:1.5
+	Release-5-5:1.5.0.38
+	debian_version_5_4_4_2-3:1.5
+	Release-5-4-4-2-1:1.5.0.32
+	debian_version_5_4_4_2-2:1.5
+	debian_version_5_4_4_2-1:1.5
+	upstream_version_5_4_4_2:1.5
+	debian_version_5_4_4_1-1:1.5
+	upstream_version_5_4_4_1:1.5
+	debian_version_5_4_4-1:1.5
+	upstream_version_5_4_4:1.5
+	Release-5-4-4:1.5.0.34
+	Root_Release-5-4-4:1.5
+	debian_version_5_4_3_2-1:1.5
+	upstream_version_5_4_3_2:1.5
+	Release_5-4-3-2:1.5.0.30
+	Root_Release_5-4-3-2:1.5
+	upstream_version_5_4_3_1:1.5
+	debian_version_5_4_3_1-1:1.5
+	Release-5-4-3:1.5.0.28
+	Root_Release-5-4-3:1.5
+	Root_Release-5-4-1:1.5
+	Release-5-4-1:1.5.0.26
+	Root_Release-5-4:1.5
+	Release-5-4:1.5.0.24
+	upstream_version_5_3_4:1.5
+	debian_version_5_3_4-1:1.5
+	ROOT_Release-5-3-4:1.5
+	Release-5-3-4:1.5.0.22
+	ROOT_Release-5-3-3:1.5
+	Release-5-3-3:1.5.0.18
+	debian_version_5_3_2_1_2-1:1.5
+	upstream_version_5_3_2_1_2:1.5
+	debian_version_5_3_2_1_1-1:1.5
+	debian_version_5_3_2_1_1:1.5
+	upstream_version_5_3_2_1_1:1.5
+	Root_Release-5-3-2-1:1.5
+	Release-5-3-2-1:1.5
+	ROOT_RELEASE-5-3-2-1:1.5
+	RELEASE-5-3-2-1:1.5.0.20
+	Release-5-3-2:1.5.0.16
+	Root_Release-5-3-2:1.5
+	Root_Release-5-3-1:1.5
+	Release-5-3-1:1.5.0.14
+	Release-5-2-3-1:1.5.0.12
+	Root_Release-5-2-3-1:1.5
+	Release-5-2-2-4:1.5.0.10
+	Root_Release-5-2-2-4:1.5
+	Release-5-2-2-1:1.5.0.8
+	Root_Release-5-2-2-1:1.5
+	upstream_version_5_2_2:1.5
+	debian_version_5_2_2-1:1.5
+	Release-5-2-2:1.5.0.6
+	ROOT_Release-5-2-2:1.5
+	ROOT_Release-5-2-1:1.5
+	Release-5-2-1:1.5.0.4
+	Release-5-2-0:1.5.0.2
+	ROOT_Release-5-2-0:1.5
+	ROOT_Release-5-1-2:1.4
+	Release-5-1-2:1.4.0.24
+	Version-5-1-1:1.4.0.22
+	ROOT_Version-5-1-1:1.4
+	debian_version_5_1_0-1:1.4
+	upstream_version_5_1_0:1.4
+	ROOT_Release-5-1-0:1.4
+	Release-5-1-0:1.4.0.20
+	ROOT_Release-5-0-0:1.4
+	Release-5-0-0:1.4.0.18
+	Release-4-3-3:1.4.0.16
+	ROOT_Release-4-3-3:1.4
+	upstream_version_4_3_2:1.4
+	debian_version_4_3_2-1:1.4
+	ROOT_Release-4-3-2:1.4
+	Release-4-3-2:1.4.0.14
+	Release-4-3-1:1.4.0.12
+	ROOT_Release-4-3-1:1.4
+	debian_version_4_3_0-1:1.4
+	upstream_version_4_3_0:1.4
+	ROOT_Release-4-3-0:1.4
+	Release-4-3-0:1.4.0.10
+	debian_version_3_2_1b-2:1.3
+	debian_version_4_2_2-1:1.4
+	upstream_version_4_2_2:1.4
+	debian_version_3_2_1b-1:1.3
+	upstream_version_3_2_1b:1.3
+	Release-4-1-2:1.4.0.8
+	Release-4-0-8:1.4.0.6
+	debian_version_4_0_8a-1:1.4
+	upstream_version_4_0_8a:1.4
+	jostb-debian-ubuntu-patch:1.4.0.4
+	debian_version_4_0_8-1:1.4
+	upstream_version_4_0_8:1.4
+	debian_version_4_0_7-1:1.4
+	upstream_version_4_0_7:1.4
+	debian_version_4_0_6-1:1.4
+	upstream_version_4_0_6:1.4
+	debian_version_4_0_2-1:1.4
+	upstream_version_4_0_2:1.4
+	Release-4-0-2_Root:1.4
+	Release-4-0-2:1.4.0.2
+	upstream_version_4_0_1:1.4
+	debian_version_4_0_1-2:1.4
+	Release-3-2-1:1.3.0.4
+	Release-3-1-8:1.3.0.2
+	Release-3-0-8_root:1.1.2.1
+	Release-3-0-8_Root:1.2
+	Release-3-0-8:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2008.03.02.21.36.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2007.03.09.20.28.08;	author andremachado;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.08.21.17.41.52;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.04.26.19.13.40;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.04.23.19.26.40;	author jost2345;	state dead;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2006.04.23.19.26.40;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Release-5-2-0
+@
+text
+@#!/bin/env php
+<?php
+
+require_once("java/Java.inc");
+
+class SERVER {const JBOSS=1, WEBSPHERE=2, SUN=3, ORACLE=4;}
+
+// -------------- adjust these variables, if necessary
+$server=array_key_exists(1, $argv)? $argv[1] : SERVER::JBOSS;
+$WAS_HOME=array_key_exists(2, $argv)? $argv[2]: "/opt/IBM/WebSphere/AppServer";
+$JBOSS_HOME=array_key_exists(2, $argv)? $argv[2] : "/opt/jboss-4.0.2/";
+$app_server=array_key_exists(2, $argv)? $argv[2] : getenv("HOME")."/SUNWappserver";
+$HOST=array_key_exists(3, $argv)? $argv[3] : "127.0.0.1";
+// ---------------
+
+if($argc <3 || $argc >4) {
+  echo "Usage: php documentClient.php SERVER SERVER_DIR REMOTE_HOST\n";
+  echo "Example: php documentClient.php 1 /opt/jboss-4.0.3SP1 localhost\n";
+  echo "Example: php documentClient.php 2 /opt/IBM/WebSphere/AppServer localhost\n";
+  echo "Example: php documentClient.php 3 /opt/SUNWappserver localhost\n";
+  exit(1);
+ }
+
+
+$System = new JavaClass("java.lang.System");
+$props = $System->getProperties();
+echo "Using java VM from: ${props['java.vm.vendor']}\n";
+echo "connecting to server: ";
+
+$clientJar = getcwd() . "/documentBeanClient.jar";
+switch($server) {
+ case SERVER::JBOSS: 
+   echo "jboss. Loading $JBOSS_HOME/lib \n";
+
+   if(!java_values($props['java.vm.vendor']->toLowerCase()->startsWith("sun")))
+      echo "WARNING: You need to run this example with the SUN VM\n";
+   if(!is_dir($JBOSS_HOME)) die("ERROR: Incorrect $JBOSS_HOME.");
+
+   $name = "DocumentEJB";
+   java_require("$JBOSS_HOME/client/;$clientJar");
+   $server=array("java.naming.factory.initial"=>
+		 "org.jnp.interfaces.NamingContextFactory",
+		 "java.naming.provider.url"=>
+		 "jnp://$HOST:1099");
+   break;
+ case SERVER::WEBSPHERE: 
+   echo "websphere. Loading $WAS_HOME/lib/\n";
+
+   if(!java_values($props['java.vm.vendor']->toLowerCase()->startsWith("ibm")))
+      echo "WARNING: You need to run this example with the IBM VM\n";
+   if(!is_dir($WAS_HOME)) die("ERROR: Incorrect $WAS_HOME.");
+
+   $name = "RMIdocument";
+   java_require("$WAS_HOME/lib/;$clientJar");
+   $server=array("java.naming.factory.initial"=>
+		 "com.ibm.websphere.naming.WsnInitialContextFactory",
+		 "java.naming.provider.url"=>
+		 "iiop://$HOST:2809");
+   break;
+ case SERVER::SUN:
+   echo "sun. Loading: $app_server/lib\n";
+
+   if(!java_values($props['java.vm.vendor']->toLowerCase()->startsWith("sun")))
+      echo "WARNING: You need to run this example with the SUN VM\n";
+   if(!is_dir($app_server)) die("ERROR: Incorrect $app_server.");
+
+   $name = "RMIdocument";
+   java_require("$app_server/lib/;$clientJar");
+   $server=array("java.naming.factory.initial"=>
+		 "com.sun.jndi.cosnaming.CNCtxFactory",
+		 "java.naming.provider.url"=>
+		 "iiop://$HOST:3700");
+   break;
+ }
+
+try {
+  $doc=createDocument($name, $server);
+} catch (JavaException $e) {
+  echo "Could not create remote document. Have you deployed documentBean.jar?\n";
+  echo $e->getCause() ."\n";
+  exit (1);
+}
+
+/* add pages to the remote document */
+$doc->addPage(new java ("Page", 0, "this is page 1"));
+$doc->addPage(new java ("Page", 0, "this is page 2"));
+/* and print a summary */
+print $doc->analyze() . "\n";
+
+destroyDocument($doc);
+
+
+/* Utility procedures */
+
+/*
+ * convenience function which connects to the AS server using the URL
+ * $url, looks up the service $jndiname and returns a new remote
+ * document.
+ * @@param jndiname The name of the remote document, see sun-ejb-jar.xml
+ * @@param serverArgs An array describing the connection parameters.
+ */
+function createDocument($jndiname, $serverArgs) {
+  // find initial context
+  $initial = new java("javax.naming.InitialContext", $serverArgs);
+  
+  // find the service
+  $objref  = $initial->lookup("$jndiname");
+  
+  // access the home interface
+  $DocumentHome = new JavaClass("DocumentHome");
+  $PortableRemoteObject = new JavaClass("javax.rmi.PortableRemoteObject");
+  $home=$PortableRemoteObject->narrow($objref, $DocumentHome);
+
+  // create a new remote document and return it
+  $doc = $home->create();
+  return $doc;
+}
+
+/*
+ * convenience function which destroys the reference to the remote
+ * document
+ * @@param The remote document.
+ */
+function destroyDocument($doc) {
+	$doc->remove();
+}
+
+?>
+@
+
+
+1.4
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d35 1
+a35 1
+   if(!$props['java.vm.vendor']->toLowerCase()->startsWith("sun"))
+d49 1
+a49 1
+   if(!$props['java.vm.vendor']->toLowerCase()->startsWith("ibm"))
+d63 1
+a63 1
+   if(!$props['java.vm.vendor']->toLowerCase()->startsWith("sun"))
+@
+
+
+1.3
+log
+@Release-3-1-8devel1
+@
+text
+@d4 1
+a4 1
+require_once("java/Java.php");
+@
+
+
+1.2
+log
+@Release-3-1-0
+@
+text
+@d4 2
+@
+
+
+1.1
+log
+@file documentClient.php was initially added on branch Release-3-0-8.
+@
+text
+@d1 126
+@
+
+
+1.1.2.1
+log
+@Release-3-0-8-1
+@
+text
+@a0 126
+#!/bin/env php
+<?php
+
+class SERVER {const JBOSS=1, WEBSPHERE=2, SUN=3, ORACLE=4;}
+
+// -------------- adjust these variables, if necessary
+$server=array_key_exists(1, $argv)? $argv[1] : SERVER::JBOSS;
+$WAS_HOME=array_key_exists(2, $argv)? $argv[2]: "/opt/IBM/WebSphere/AppServer";
+$JBOSS_HOME=array_key_exists(2, $argv)? $argv[2] : "/opt/jboss-4.0.2/";
+$app_server=array_key_exists(2, $argv)? $argv[2] : getenv("HOME")."/SUNWappserver";
+$HOST=array_key_exists(3, $argv)? $argv[3] : "127.0.0.1";
+// ---------------
+
+if($argc <3 || $argc >4) {
+  echo "Usage: php documentClient.php SERVER SERVER_DIR REMOTE_HOST\n";
+  echo "Example: php documentClient.php 1 /opt/jboss-4.0.3SP1 localhost\n";
+  echo "Example: php documentClient.php 2 /opt/IBM/WebSphere/AppServer localhost\n";
+  echo "Example: php documentClient.php 3 /opt/SUNWappserver localhost\n";
+  exit(1);
+ }
+
+
+$System = new JavaClass("java.lang.System");
+$props = $System->getProperties();
+echo "Using java VM from: ${props['java.vm.vendor']}\n";
+echo "connecting to server: ";
+
+$clientJar = getcwd() . "/documentBeanClient.jar";
+switch($server) {
+ case SERVER::JBOSS: 
+   echo "jboss. Loading $JBOSS_HOME/lib \n";
+
+   if(!$props['java.vm.vendor']->toLowerCase()->startsWith("sun"))
+      echo "WARNING: You need to run this example with the SUN VM\n";
+   if(!is_dir($JBOSS_HOME)) die("ERROR: Incorrect $JBOSS_HOME.");
+
+   $name = "DocumentEJB";
+   java_require("$JBOSS_HOME/client/;$clientJar");
+   $server=array("java.naming.factory.initial"=>
+		 "org.jnp.interfaces.NamingContextFactory",
+		 "java.naming.provider.url"=>
+		 "jnp://$HOST:1099");
+   break;
+ case SERVER::WEBSPHERE: 
+   echo "websphere. Loading $WAS_HOME/lib/\n";
+
+   if(!$props['java.vm.vendor']->toLowerCase()->startsWith("ibm"))
+      echo "WARNING: You need to run this example with the IBM VM\n";
+   if(!is_dir($WAS_HOME)) die("ERROR: Incorrect $WAS_HOME.");
+
+   $name = "RMIdocument";
+   java_require("$WAS_HOME/lib/;$clientJar");
+   $server=array("java.naming.factory.initial"=>
+		 "com.ibm.websphere.naming.WsnInitialContextFactory",
+		 "java.naming.provider.url"=>
+		 "iiop://$HOST:2809");
+   break;
+ case SERVER::SUN:
+   echo "sun. Loading: $app_server/lib\n";
+
+   if(!$props['java.vm.vendor']->toLowerCase()->startsWith("sun"))
+      echo "WARNING: You need to run this example with the SUN VM\n";
+   if(!is_dir($app_server)) die("ERROR: Incorrect $app_server.");
+
+   $name = "RMIdocument";
+   java_require("$app_server/lib/;$clientJar");
+   $server=array("java.naming.factory.initial"=>
+		 "com.sun.jndi.cosnaming.CNCtxFactory",
+		 "java.naming.provider.url"=>
+		 "iiop://$HOST:3700");
+   break;
+ }
+
+try {
+  $doc=createDocument($name, $server);
+} catch (JavaException $e) {
+  echo "Could not create remote document. Have you deployed documentBean.jar?\n";
+  echo $e->getCause() ."\n";
+  exit (1);
+}
+
+/* add pages to the remote document */
+$doc->addPage(new java ("Page", 0, "this is page 1"));
+$doc->addPage(new java ("Page", 0, "this is page 2"));
+/* and print a summary */
+print $doc->analyze() . "\n";
+
+destroyDocument($doc);
+
+
+/* Utility procedures */
+
+/*
+ * convenience function which connects to the AS server using the URL
+ * $url, looks up the service $jndiname and returns a new remote
+ * document.
+ * @@param jndiname The name of the remote document, see sun-ejb-jar.xml
+ * @@param serverArgs An array describing the connection parameters.
+ */
+function createDocument($jndiname, $serverArgs) {
+  // find initial context
+  $initial = new java("javax.naming.InitialContext", $serverArgs);
+  
+  // find the service
+  $objref  = $initial->lookup("$jndiname");
+  
+  // access the home interface
+  $DocumentHome = new JavaClass("DocumentHome");
+  $PortableRemoteObject = new JavaClass("javax.rmi.PortableRemoteObject");
+  $home=$PortableRemoteObject->narrow($objref, $DocumentHome);
+
+  // create a new remote document and return it
+  $doc = $home->create();
+  return $doc;
+}
+
+/*
+ * convenience function which destroys the reference to the remote
+ * document
+ * @@param The remote document.
+ */
+function destroyDocument($doc) {
+	$doc->remove();
+}
+
+?>
+@
+

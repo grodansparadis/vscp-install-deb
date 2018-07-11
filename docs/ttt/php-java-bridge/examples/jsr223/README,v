@@ -1,0 +1,136 @@
+head	1.2;
+access;
+symbols
+	Release-7-1-1:1.2.0.52
+	Root_Release-7-1-1:1.2
+	Root_Release_7-0-1:1.2
+	Release_7-0-1:1.2.0.50
+	Release_7-0-0:1.2.0.48
+	Root_Release_7-0-0:1.2
+	Release-6-2-2:1.2.0.46
+	Release-6-1-2-3:1.2
+	Root_Release-6-1-2-3:1.2
+	Release-6-1-2-2:1.2.0.44
+	Root_Release-6-1-2-2:1.2
+	debian_version_6_1_2_1-1:1.2
+	upstream_version_6_1_2_1:1.2
+	Release-6-1-2-1_new:1.2.0.42
+	Root_Release-6-1-2-1_new:1.2
+	Release-6-1-2-1:1.2.0.40
+	Root_Release-6-1-2-1:1.2
+	upstream_version_6_1_2:1.2
+	debian_version_6_1_2-1:1.2
+	Release-6-1-2:1.2.0.38
+	Root_Release-6-1-2:1.2
+	debian_version_6_1_1-2:1.2
+	debian_version_6_1_1-1:1.2
+	upstream_version_6_1_1:1.2
+	Release-6-1-1:1.2.0.36
+	Root_Release-6-1-1:1.2
+	Release-6-0-4:1.2.0.34
+	Root_Release-6-0-4:1.2
+	Release-6-0-3_NEW:1.2.0.30
+	Root_Release-6-0-3_NEW:1.2
+	Release-6-0-3:1.2.0.32
+	Root_Release-6-0-3:1.2
+	Release-6-0-0:1.2.0.28
+	Root_Release-6-0-0:1.2
+	Release-5-5-4-1:1.2.0.26
+	Root_Release-5-5-4-1:1.2
+	Release-5-5-4:1.2.0.24
+	Root_Release-5-5-4:1.2
+	Release-5-5-3:1.2.0.22
+	ROOT_Release-5-5-3:1.2
+	Release-5-5-2:1.2.0.20
+	Root_Release-5-5-2:1.2
+	debian_version_5_5_1-1:1.2
+	Release-5-5-1:1.2.0.16
+	upstream_version_5_5_1:1.2
+	ROOT_Release-5-5-1:1.2
+	debian_version_5_5-1:1.2
+	upstream_version_5_5:1.2
+	ROOT_Release-5-5:1.2
+	Release-5-5:1.2.0.18
+	debian_version_5_4_4_2-3:1.2
+	Release-5-4-4-2-1:1.2.0.12
+	debian_version_5_4_4_2-2:1.2
+	debian_version_5_4_4_2-1:1.2
+	upstream_version_5_4_4_2:1.2
+	debian_version_5_4_4_1-1:1.2
+	upstream_version_5_4_4_1:1.2
+	debian_version_5_4_4-1:1.2
+	upstream_version_5_4_4:1.2
+	Release-5-4-4:1.2.0.14
+	Root_Release-5-4-4:1.2
+	debian_version_5_4_3_2-1:1.2
+	upstream_version_5_4_3_2:1.2
+	Release_5-4-3-2:1.2.0.10
+	Root_Release_5-4-3-2:1.2
+	upstream_version_5_4_3_1:1.2
+	debian_version_5_4_3_1-1:1.2
+	Release-5-4-3:1.2.0.8
+	Root_Release-5-4-3:1.2
+	Root_Release-5-4-1:1.2
+	Release-5-4-1:1.2.0.6
+	Root_Release-5-4:1.2
+	Release-5-4:1.2.0.4
+	upstream_version_5_3_4:1.2
+	debian_version_5_3_4-1:1.2
+	ROOT_Release-5-3-4:1.2
+	Release-5-3-4:1.2.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2008.12.01.22.42.43;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.11.27.21.02.11;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Release 5.3.4
+@
+text
+@The examples in this folder demonstrate how the JSR 223 API can be
+used to invoke PHP methods from Java standalone applications. 
+
+Note: Other JSR 223 examples which show how to use the JSR 223 API
+within servlets or web frameworks can be found in the examples/php+jsp
+folder.
+
+
+* PhpThreads.java: Creates 5 PHP threads, concurrently writing to a
+  shared resource.
+
+  Compile the example with the command: 
+
+      javac PhpThreads.java
+  
+  Run the example with the command: 
+   
+      java -classpath JavaBridge.jar:php-script.jar:. PhpThreads
+ 
+
+NOTE: Some operating systems use "\" instead of "/" and ";" instead of ":".
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d21 1
+@
+

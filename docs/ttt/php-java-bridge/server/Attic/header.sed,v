@@ -1,0 +1,51 @@
+head	1.2;
+access;
+symbols
+	Release-6-0-0:1.1.0.2
+	Root_Release-6-0-0:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2010.02.28.15.20.44;	author jost_boekemeier;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2010.01.23.10.09.35;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Release-6-0-3
+@
+text
+@1i\
+<?php\
+# Java.inc -- The PHP/Java Bridge PHP library. Compiled from JavaBridge.inc.\
+# Copyright (C) 2003-2009 Jost Boekemeier.\
+# Distributed under the MIT license, see Options.inc for details. \
+# Customization examples:\
+# define ("JAVA_HOSTS", 9267); define ("JAVA_SERVLET", false);\
+# define ("JAVA_HOSTS", "127.0.0.1:8787");\
+# define ("JAVA_SERVLET", "/MyWebApp/JavaBridge.phpjavabridge");\
+# define ("JAVA_PERSISTENT_SERVLET_CONNECTIONS", true);\
+# define ("JAVA_PREFER_VALUES", 1);\
+# define ("JAVA_PIPE_DIR", "/dev/shm");
+@
+
+
+1.1
+log
+@Release-5-5-5
+@
+text
+@@
+

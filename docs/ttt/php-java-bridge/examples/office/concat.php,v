@@ -1,0 +1,324 @@
+head	1.5;
+access;
+symbols
+	Release-7-1-1:1.5.0.40
+	Root_Release-7-1-1:1.5
+	Root_Release_7-0-1:1.5
+	Release_7-0-1:1.5.0.38
+	Release_7-0-0:1.5.0.36
+	Root_Release_7-0-0:1.5
+	Release-6-2-2:1.5.0.34
+	Release-6-1-2-3:1.5
+	Root_Release-6-1-2-3:1.5
+	Release-6-1-2-2:1.5.0.32
+	Root_Release-6-1-2-2:1.5
+	debian_version_6_1_2_1-1:1.5
+	upstream_version_6_1_2_1:1.5
+	Release-6-1-2-1_new:1.5.0.30
+	Root_Release-6-1-2-1_new:1.5
+	Release-6-1-2-1:1.5.0.28
+	Root_Release-6-1-2-1:1.5
+	upstream_version_6_1_2:1.5
+	debian_version_6_1_2-1:1.5
+	Release-6-1-2:1.5.0.26
+	Root_Release-6-1-2:1.5
+	debian_version_6_1_1-2:1.5
+	debian_version_6_1_1-1:1.5
+	upstream_version_6_1_1:1.5
+	Release-6-1-1:1.5.0.24
+	Root_Release-6-1-1:1.5
+	Release-6-0-4:1.5.0.22
+	Root_Release-6-0-4:1.5
+	Release-6-0-3_NEW:1.5.0.18
+	Root_Release-6-0-3_NEW:1.5
+	Release-6-0-3:1.5.0.20
+	Root_Release-6-0-3:1.5
+	Release-6-0-0:1.5.0.16
+	Root_Release-6-0-0:1.5
+	Release-5-5-4-1:1.5.0.14
+	Root_Release-5-5-4-1:1.5
+	Release-5-5-4:1.5.0.12
+	Root_Release-5-5-4:1.5
+	Release-5-5-3:1.5.0.10
+	ROOT_Release-5-5-3:1.5
+	Release-5-5-2:1.5.0.8
+	Root_Release-5-5-2:1.5
+	debian_version_5_5_1-1:1.5
+	Release-5-5-1:1.5.0.4
+	upstream_version_5_5_1:1.5
+	ROOT_Release-5-5-1:1.5
+	debian_version_5_5-1:1.5
+	upstream_version_5_5:1.5
+	ROOT_Release-5-5:1.5
+	Release-5-5:1.5.0.6
+	debian_version_5_4_4_2-3:1.5
+	Release-5-4-4-2-1:1.5.0.2
+	debian_version_5_4_4_2-2:1.4
+	debian_version_5_4_4_2-1:1.4
+	upstream_version_5_4_4_2:1.4
+	debian_version_5_4_4_1-1:1.4
+	upstream_version_5_4_4_1:1.4
+	debian_version_5_4_4-1:1.4
+	upstream_version_5_4_4:1.4
+	Release-5-4-4:1.4.0.14
+	Root_Release-5-4-4:1.4
+	debian_version_5_4_3_2-1:1.4
+	upstream_version_5_4_3_2:1.4
+	Release_5-4-3-2:1.4.0.10
+	Root_Release_5-4-3-2:1.4
+	upstream_version_5_4_3_1:1.4
+	debian_version_5_4_3_1-1:1.4
+	Release-5-4-3:1.4.0.8
+	Root_Release-5-4-3:1.4
+	Root_Release-5-4-1:1.4
+	Release-5-4-1:1.4.0.6
+	Root_Release-5-4:1.4
+	Release-5-4:1.4.0.4
+	upstream_version_5_3_4:1.4
+	debian_version_5_3_4-1:1.4
+	ROOT_Release-5-3-4:1.4
+	Release-5-3-4:1.4.0.2
+	ROOT_Release-5-3-3:1.3
+	Release-5-3-3:1.3.0.16
+	debian_version_5_3_2_1_2-1:1.3
+	upstream_version_5_3_2_1_2:1.3
+	debian_version_5_3_2_1_1-1:1.3
+	debian_version_5_3_2_1_1:1.3
+	upstream_version_5_3_2_1_1:1.3
+	Root_Release-5-3-2-1:1.3
+	Release-5-3-2-1:1.3
+	ROOT_RELEASE-5-3-2-1:1.3
+	RELEASE-5-3-2-1:1.3.0.18
+	Release-5-3-2:1.3.0.14
+	Root_Release-5-3-2:1.3
+	Root_Release-5-3-1:1.3
+	Release-5-3-1:1.3.0.12
+	Release-5-2-3-1:1.3.0.10
+	Root_Release-5-2-3-1:1.3
+	Release-5-2-2-4:1.3.0.8
+	Root_Release-5-2-2-4:1.3
+	Release-5-2-2-1:1.3.0.6
+	Root_Release-5-2-2-1:1.3
+	upstream_version_5_2_2:1.3
+	debian_version_5_2_2-1:1.3
+	Release-5-2-2:1.3.0.4
+	ROOT_Release-5-2-2:1.3
+	ROOT_Release-5-2-1:1.3
+	Release-5-2-1:1.3.0.2
+	Release-5-2-0:1.2.0.2
+	ROOT_Release-5-2-0:1.2
+	ROOT_Release-5-1-2:1.1
+	Release-5-1-2:1.1.0.16
+	Version-5-1-1:1.1.0.14
+	ROOT_Version-5-1-1:1.1
+	debian_version_5_1_0-1:1.1
+	upstream_version_5_1_0:1.1
+	ROOT_Release-5-1-0:1.1
+	Release-5-1-0:1.1.0.12
+	ROOT_Release-5-0-0:1.1
+	Release-5-0-0:1.1.0.10
+	Release-4-3-3:1.1.0.8
+	ROOT_Release-4-3-3:1.1
+	upstream_version_4_3_2:1.1
+	debian_version_4_3_2-1:1.1
+	ROOT_Release-4-3-2:1.1
+	Release-4-3-2:1.1.0.6
+	Release-4-3-1:1.1.0.4
+	ROOT_Release-4-3-1:1.1
+	debian_version_4_3_0-1:1.1
+	upstream_version_4_3_0:1.1
+	ROOT_Release-4-3-0:1.1
+	Release-4-3-0:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2009.07.05.10.31.42;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2008.03.22.12.04.55;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.03.02.21.36.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.09.19.10.12.27;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Documentation update
+@
+text
+@<?php include_once ("java/Java.inc");
+
+java_autoload("itext.jar");
+
+use com\lowagie\text;
+use com\lowagie\text\pdf;
+
+/*
+ * Concat: merge pdf files
+ *
+ * Usage: concat.php outfile.pdf file1.pdf file2.pdf ...
+ */
+
+array_shift($argv); $argc--;
+
+$outfile=$argv[0];
+$args=$argv;
+$pageOffset=0;
+$f=1;
+$master = new java\util\ArrayList();
+
+while(--$argc) {
+  $reader = new pdf\PdfReader($args[$f]);
+  $reader->consolidateNamedDestinations();
+  $n = java_values($reader->getNumberOfPages());
+  $bookmarks = pdf\SimpleBookmark::type()->getBookmark($reader);
+  if(!java_is_null($bookmarks)) {
+    if($pageOffset!=0) {
+      pdf\SimpleBookmark::type()->shiftPageNumbers($bookmarks, $pageOffset, null);
+      $master->addAll($bookmarks);
+    }
+  }
+  $pageOffset += $n;
+  echo ("There are " . $n . " pages in " . $args[$f]); echo "\n";
+  if($f==1) {
+    $document = new text::Document($reader->getPageSizeWithRotation(1));
+    $writer = new pdf::PdfCopy($document, new java\io\FileOutputStream($outfile));
+    $document->open();
+  }
+  for($i=0; $i<$n; ) {
+    ++$i;
+    $page = $writer->getImportedPage($reader, $i);
+    $writer->addPage($page);
+    echo "Processed page: " .$i; echo "\n";
+  }
+  $form = $reader->getAcroForm();
+  if(!java_is_null($form))
+    $writer->copyAcroForm($reader);
+  $f++;
+}
+if(java_values($master->size())>0) {
+  $writer->setOutlines($master);
+ }
+$document->close();
+      
+?>
+@
+
+
+1.4
+log
+@Release 5.3.3.1
+@
+text
+@d5 2
+a6 2
+use com::lowagie::text;
+use com::lowagie::text::pdf;
+d20 1
+a20 1
+$master = new java::util::ArrayList();
+d23 1
+a23 1
+  $reader = new pdf::PdfReader($args[$f]);
+d26 1
+a26 1
+  $bookmarks = pdf::SimpleBookmark::type()->getBookmark($reader);
+d29 1
+a29 1
+      pdf::SimpleBookmark::type()->shiftPageNumbers($bookmarks, $pageOffset, null);
+d37 1
+a37 1
+    $writer = new pdf::PdfCopy($document, new java::io::FileOutputStream($outfile));
+@
+
+
+1.3
+log
+@Release-5-2-1
+@
+text
+@d1 2
+a2 2
+<?php
+require_once ("java/Java.inc");
+d5 3
+d20 1
+a20 1
+$master = new java_util_ArrayList();
+d23 1
+a23 1
+  $reader = new com_lowagie_text_pdf_PdfReader($args[$f]);
+d26 2
+a27 2
+  $bookmarks = com_lowagie_text_pdf_SimpleBookmark::type()->getBookmark($reader);
+  if(java_values($bookmarks)!=null) {
+d29 1
+a29 1
+      com_lowagie_text_pdf_SimpleBookmark::type()->shiftPageNumbers($bookmarks, $pageOffset, null);
+d36 2
+a37 2
+    $document = new com_lowagie_text_Document($reader->getPageSizeWithRotation(1));
+    $writer = new com_lowagie_text_pdf_PdfCopy($document, new java_io_FileOutputStream($outfile));
+d47 1
+a47 1
+  if(java_values($form)!=null)
+a56 1
+
+@
+
+
+1.2
+log
+@Release-5-2-0
+@
+text
+@d1 1
+a1 1
+#!/usr/bin/php
+@
+
+
+1.1
+log
+@Release-4-3-0
+@
+text
+@d2 1
+a2 1
+<?php if(!extension_loaded("java")) require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+d22 1
+a22 1
+  $n = $reader->getNumberOfPages();
+d24 1
+a24 1
+  if($bookmarks!=null) {
+d44 1
+a44 1
+  if($form!=null)
+d48 1
+a48 1
+if($master->size()>0) {
+@
+

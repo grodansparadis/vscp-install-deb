@@ -1,0 +1,2152 @@
+head	1.34;
+access;
+symbols
+	upstream_version_5_5:1.33
+	ROOT_Release-5-5:1.33
+	Release-5-5:1.33.0.4
+	debian_version_5_4_4_2-3:1.33
+	Release-5-4-4-2-1:1.33.0.2
+	debian_version_5_4_4_2-2:1.33
+	debian_version_5_4_4_2-1:1.33
+	upstream_version_5_4_4_2:1.33
+	debian_version_5_4_4_1-1:1.30
+	upstream_version_5_4_4_1:1.30
+	debian_version_5_4_4-1:1.29
+	upstream_version_5_4_4:1.29
+	Release-5-4-4:1.29.0.4
+	Root_Release-5-4-4:1.29
+	debian_version_5_4_3_2-1:1.27
+	upstream_version_5_4_3_2:1.27
+	Release_5-4-3-2:1.27.0.2
+	Root_Release_5-4-3-2:1.27
+	upstream_version_5_4_3_1:1.27
+	debian_version_5_4_3_1-1:1.27
+	Release-5-4-3:1.26.0.6
+	Root_Release-5-4-3:1.26
+	Root_Release-5-4-1:1.26
+	Release-5-4-1:1.26.0.4
+	Root_Release-5-4:1.26
+	Release-5-4:1.26.0.2
+	upstream_version_5_3_4:1.24
+	debian_version_5_3_4-1:1.26
+	ROOT_Release-5-3-4:1.24
+	Release-5-3-4:1.24.0.2
+	ROOT_Release-5-3-3:1.21
+	Release-5-3-3:1.21.0.2
+	debian_version_5_3_2_1_2-1:1.20
+	upstream_version_5_3_2_1_2:1.20
+	debian_version_5_3_2_1_1-1:1.20
+	debian_version_5_3_2_1_1:1.20
+	upstream_version_5_3_2_1_1:1.20
+	Root_Release-5-3-2-1:1.20
+	Release-5-3-2-1:1.20
+	ROOT_RELEASE-5-3-2-1:1.20
+	RELEASE-5-3-2-1:1.20.0.10
+	Release-5-3-2:1.20.0.6
+	Root_Release-5-3-2:1.20
+	Root_Release-5-3-1:1.20
+	Release-5-3-1:1.20.0.4
+	Release-5-2-3-1:1.20.0.2
+	Root_Release-5-2-3-1:1.20
+	Release-5-2-2-4:1.19.0.8
+	Root_Release-5-2-2-4:1.19
+	Release-5-2-2-1:1.19.0.6
+	Root_Release-5-2-2-1:1.19
+	upstream_version_5_2_2:1.19
+	debian_version_5_2_2-1:1.19
+	Release-5-2-2:1.19.0.4
+	ROOT_Release-5-2-2:1.19
+	ROOT_Release-5-2-1:1.19
+	Release-5-2-1:1.19.0.2
+	Release-5-2-0:1.18.0.20
+	ROOT_Release-5-2-0:1.18
+	ROOT_Release-5-1-2:1.18
+	Release-5-1-2:1.18.0.18
+	Version-5-1-1:1.18.0.16
+	ROOT_Version-5-1-1:1.18
+	debian_version_5_1_0-1:1.18
+	upstream_version_5_1_0:1.18
+	ROOT_Release-5-1-0:1.18
+	Release-5-1-0:1.18.0.14
+	ROOT_Release-5-0-0:1.18
+	Release-5-0-0:1.18.0.12
+	Release-4-3-3:1.18.0.10
+	ROOT_Release-4-3-3:1.18
+	upstream_version_4_3_2:1.18
+	debian_version_4_3_2-1:1.18
+	ROOT_Release-4-3-2:1.18
+	Release-4-3-2:1.18.0.8
+	Release-4-3-1:1.18.0.6
+	ROOT_Release-4-3-1:1.18
+	debian_version_4_3_0-1:1.18
+	upstream_version_4_3_0:1.18
+	ROOT_Release-4-3-0:1.18
+	Release-4-3-0:1.18.0.4
+	debian_version_3_2_1b-2:1.15
+	debian_version_4_2_2-1:1.18
+	upstream_version_4_2_2:1.18
+	debian_version_3_2_1b-1:1.15
+	upstream_version_3_2_1b:1.15
+	Release-4-1-2:1.18.0.2
+	Release-4-0-8:1.17.0.6
+	debian_version_4_0_8a-1:1.17
+	upstream_version_4_0_8a:1.17
+	jostb-debian-ubuntu-patch:1.17.0.4
+	debian_version_4_0_8-1:1.17
+	upstream_version_4_0_8:1.17
+	debian_version_4_0_7-1:1.17
+	upstream_version_4_0_7:1.17
+	debian_version_4_0_6-1:1.17
+	upstream_version_4_0_6:1.17
+	debian_version_4_0_2-1:1.17
+	upstream_version_4_0_2:1.17
+	Release-4-0-2_Root:1.17
+	Release-4-0-2:1.17.0.2
+	upstream_version_4_0_1:1.16
+	debian_version_4_0_1-2:1.16
+	Release-3-2-1:1.15.0.4
+	Release-3-1-8:1.15.0.2
+	Release-3-0-8_root:1.7.2.1
+	Release-3-0-8_Root:1.8
+	Release-3-0-8:1.7.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.34
+date	2009.07.25.13.56.04;	author jost_boekemeier;	state dead;
+branches;
+next	1.33;
+
+1.33
+date	2009.04.25.12.25.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2009.04.19.17.24.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2009.04.18.14.57.05;	author jost_boekemeier;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2009.03.15.15.33.22;	author jost_boekemeier;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2009.03.08.17.45.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2009.03.08.14.34.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2009.01.06.17.05.11;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2008.12.02.21.56.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2008.12.02.19.17.52;	author jost_boekemeier;	state dead;
+branches;
+next	1.24;
+
+1.24
+date	2008.11.30.17.08.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2008.10.26.15.23.02;	author jost_boekemeier;	state Exp;
+branches
+	1.21.2.1;
+next	1.20;
+
+1.20
+date	2008.09.28.21.56.53;	author jost_boekemeier;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2008.03.22.12.04.56;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2007.06.16.18.29.50;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2007.03.19.13.03.18;	author jost_boekemeier;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2007.03.09.20.28.12;	author andremachado;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2006.09.10.17.31.12;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2006.08.08.17.20.46;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2006.07.23.20.32.47;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2006.07.16.20.29.26;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.07.02.20.28.44;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2006.06.27.20.44.34;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.06.19.20.37.21;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.04.12.17.46.47;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.02.05.18.47.01;	author jost2345;	state Exp;
+branches
+	1.7.2.1;
+next	1.6;
+
+1.6
+date	2006.01.15.21.05.39;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.01.08.23.44.47;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.12.08.18.42.16;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.11.24.19.49.19;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.11.24.19.35.15;	author jost2345;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2005.11.24.19.23.49;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.7.2.1
+date	2006.04.23.19.09.09;	author jost2345;	state Exp;
+branches;
+next	1.7.2.2;
+
+1.7.2.2
+date	2006.05.13.16.09.58;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.21.2.1
+date	2008.11.09.17.01.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21.2.2;
+
+1.21.2.2
+date	2008.11.12.18.55.30;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.34
+log
+@Release-5-5
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Apr 25 11:44:42 CEST 2009 -->
+<TITLE>
+Serialized Form
+</TITLE>
+
+<META NAME="date" CONTENT="2009-04-25">
+
+<LINK REL ="stylesheet" TYPE="text/css" HREF="stylesheet.css" TITLE="Style">
+
+<SCRIPT type="text/javascript">
+function windowTitle()
+{
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Serialized Form";
+    }
+}
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
+
+
+<!-- ========= START OF TOP NAVBAR ======= -->
+<A NAME="navbar_top"><!-- --></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Package</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Class</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Use</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="overview-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;PREV&nbsp;
+&nbsp;NEXT</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="index.html?serialized-form.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="serialized-form.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF TOP NAVBAR ========= -->
+
+<HR>
+<CENTER>
+<H1>
+Serialized Form</H1>
+</CENTER>
+<HR SIZE="4" NOSHADE>
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="center"><FONT SIZE="+2">
+<B>Package</B> <B>javax.script</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<A NAME="javax.script.ScriptException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="javax/script/ScriptException.html" title="class in javax.script">javax.script.ScriptException</A> extends java.lang.Exception implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>3689065132168917297L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+fileName</H3>
+<PRE>
+java.lang.String <B>fileName</B></PRE>
+<DL>
+<DD>Stroes the file name of the script
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+lineNumber</H3>
+<PRE>
+int <B>lineNumber</B></PRE>
+<DL>
+<DD>Stores the line number of the script in which the error has 
+ occured
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+columnNumber</H3>
+<PRE>
+int <B>columnNumber</B></PRE>
+<DL>
+<DD>Stores the column number of the script in which the error has 
+ occured
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+message</H3>
+<PRE>
+java.lang.String <B>message</B></PRE>
+<DL>
+<DD>Stores the message which describes the cause of error
+<P>
+<DL>
+</DL>
+</DL>
+<HR SIZE="4" NOSHADE>
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="center"><FONT SIZE="+2">
+<B>Package</B> <B>php.java.bridge</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<A NAME="php.java.bridge.JavaBridgeIllegalArgumentException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/bridge/JavaBridgeIllegalArgumentException.html" title="class in php.java.bridge">php.java.bridge.JavaBridgeIllegalArgumentException</A> extends java.lang.IllegalArgumentException implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>-6180293871441493489L
+
+<P>
+
+<P>
+<A NAME="php.java.bridge.JavaBridgeIllegalStateException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/bridge/JavaBridgeIllegalStateException.html" title="class in php.java.bridge">php.java.bridge.JavaBridgeIllegalStateException</A> extends java.lang.IllegalStateException implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>-2335751296956301571L
+
+<P>
+
+<P>
+<A NAME="php.java.bridge.NoSuchConstantException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/bridge/NoSuchConstantException.html" title="class in php.java.bridge">php.java.bridge.NoSuchConstantException</A> extends java.lang.NoSuchFieldException implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>1L
+
+<P>
+
+<P>
+<A NAME="php.java.bridge.NoSuchProcedureException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/bridge/NoSuchProcedureException.html" title="class in php.java.bridge">php.java.bridge.NoSuchProcedureException</A> extends java.lang.NoSuchMethodException implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>1L
+
+<P>
+
+<P>
+<A NAME="php.java.bridge.NotImplementedException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/bridge/NotImplementedException.html" title="class in php.java.bridge">php.java.bridge.NotImplementedException</A> extends java.lang.RuntimeException implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>3546638798315468084L
+
+<P>
+
+<P>
+<A NAME="php.java.bridge.Request.AbortException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/bridge/Request.AbortException.html" title="class in php.java.bridge">php.java.bridge.Request.AbortException</A> extends java.lang.RuntimeException implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>7778150395848350732L
+
+<P>
+
+<P>
+<A NAME="php.java.bridge.Util.Process.PhpException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/bridge/Util.Process.PhpException.html" title="class in php.java.bridge">php.java.bridge.Util.Process.PhpException</A> extends java.lang.Exception implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>767047598257671018L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+errorString</H3>
+<PRE>
+java.lang.String <B>errorString</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR SIZE="4" NOSHADE>
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="center"><FONT SIZE="+2">
+<B>Package</B> <B>php.java.script</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<A NAME="php.java.script.PhpScriptException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/script/PhpScriptException.html" title="class in php.java.script">php.java.script.PhpScriptException</A> extends <A HREF="javax/script/ScriptException.html" title="class in javax.script">ScriptException</A> implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>7664096304464958875L
+
+<P>
+
+<P>
+<A NAME="php.java.script.ResultProxy"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/script/ResultProxy.html" title="class in php.java.script">php.java.script.ResultProxy</A> extends java.lang.Number implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>9126953496638654790L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+result</H3>
+<PRE>
+int <B>result</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+engine</H3>
+<PRE>
+php.java.script.SimplePhpScriptEngine <B>engine</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR SIZE="4" NOSHADE>
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="center"><FONT SIZE="+2">
+<B>Package</B> <B>php.java.script.servlet</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<A NAME="php.java.script.servlet.PhpScriptTemporarilyOutOfResourcesException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/script/servlet/PhpScriptTemporarilyOutOfResourcesException.html" title="class in php.java.script.servlet">php.java.script.servlet.PhpScriptTemporarilyOutOfResourcesException</A> extends <A HREF="php/java/script/PhpScriptException.html" title="class in php.java.script">PhpScriptException</A> implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>8462790974758317348L
+
+<P>
+<HR SIZE="4" NOSHADE>
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="center"><FONT SIZE="+2">
+<B>Package</B> <B>php.java.servlet</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<A NAME="php.java.servlet.CGIServlet"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/servlet/CGIServlet.html" title="class in php.java.servlet">php.java.servlet.CGIServlet</A> extends javax.servlet.http.HttpServlet implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>3258132448955937337L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+context</H3>
+<PRE>
+javax.servlet.ServletContext <B>context</B></PRE>
+<DL>
+<DD>the Context container associated with our web context.
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+debug</H3>
+<PRE>
+int <B>debug</B></PRE>
+<DL>
+<DD>the debugging detail level for this servlet.
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+iClientInputTimeout</H3>
+<PRE>
+int <B>iClientInputTimeout</B></PRE>
+<DL>
+<DD>the time in ms to wait for the client to send us CGI input data
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+cgiPathPrefix</H3>
+<PRE>
+java.lang.String <B>cgiPathPrefix</B></PRE>
+<DL>
+<DD>The CGI search path will start at
+    webAppRootDir + File.separator + cgiPathPrefix
+    (or webAppRootDir alone if cgiPathPrefix is
+    null)
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+processEnvironment</H3>
+<PRE>
+java.util.HashMap&lt;K,V&gt; <B>processEnvironment</B></PRE>
+<DL>
+<DD>Only for internal use
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+cgiRunnerFactory</H3>
+<PRE>
+php.java.servlet.CGIServlet.CGIRunnerFactory <B>cgiRunnerFactory</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+
+<P>
+<A NAME="php.java.servlet.PhpCGIServlet"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/servlet/PhpCGIServlet.html" title="class in php.java.servlet">php.java.servlet.PhpCGIServlet</A> extends <A HREF="php/java/servlet/fastcgi/FastCGIServlet.html" title="class in php.java.servlet.fastcgi">FastCGIServlet</A> implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>38983388211187962L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+defaultCgiRunnerFactory</H3>
+<PRE>
+php.java.servlet.PhpCGIServlet.CGIRunnerFactory <B>defaultCgiRunnerFactory</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+DOCUMENT_ROOT</H3>
+<PRE>
+java.lang.String <B>DOCUMENT_ROOT</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+SERVER_SIGNATURE</H3>
+<PRE>
+java.lang.String <B>SERVER_SIGNATURE</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+contextServer</H3>
+<PRE>
+<A HREF="php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A> <B>contextServer</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+
+<P>
+<A NAME="php.java.servlet.PhpJavaServlet"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/servlet/PhpJavaServlet.html" title="class in php.java.servlet">php.java.servlet.PhpJavaServlet</A> extends javax.servlet.http.HttpServlet implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>3257854259629144372L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+contextServer</H3>
+<PRE>
+<A HREF="php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A> <B>contextServer</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+logLevel</H3>
+<PRE>
+int <B>logLevel</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR SIZE="4" NOSHADE>
+
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="center"><FONT SIZE="+2">
+<B>Package</B> <B>php.java.servlet.fastcgi</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<A NAME="php.java.servlet.fastcgi.ConnectException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/servlet/fastcgi/ConnectException.html" title="class in php.java.servlet.fastcgi">php.java.servlet.fastcgi.ConnectException</A> extends java.io.IOException implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>5242564093021250550L
+
+<P>
+
+<P>
+<A NAME="php.java.servlet.fastcgi.ConnectionException"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/servlet/fastcgi/ConnectionException.html" title="class in php.java.servlet.fastcgi">php.java.servlet.fastcgi.ConnectionException</A> extends java.io.IOException implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>-5174286702617481362L
+
+<P>
+
+<P>
+<A NAME="php.java.servlet.fastcgi.FastCGIServlet"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/servlet/fastcgi/FastCGIServlet.html" title="class in php.java.servlet.fastcgi">php.java.servlet.fastcgi.FastCGIServlet</A> extends <A HREF="php/java/servlet/CGIServlet.html" title="class in php.java.servlet">CGIServlet</A> implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>3545800996174312757L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+php</H3>
+<PRE>
+java.lang.String <B>php</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+phpTryOtherLocations</H3>
+<PRE>
+boolean <B>phpTryOtherLocations</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+preferSystemPhp</H3>
+<PRE>
+boolean <B>preferSystemPhp</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+fcgiIsConfigured</H3>
+<PRE>
+boolean <B>fcgiIsConfigured</B></PRE>
+<DL>
+<DD>default: true. Switched off when fcgi is not configured
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+fcgiIsAvailable</H3>
+<PRE>
+boolean <B>fcgiIsAvailable</B></PRE>
+<DL>
+<DD>default: true. Switched off when fcgi is not configured or if fcgi server failed
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+canStartFCGI</H3>
+<PRE>
+boolean <B>canStartFCGI</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+override_hosts</H3>
+<PRE>
+boolean <B>override_hosts</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+delegateToJavaBridgeContext</H3>
+<PRE>
+boolean <B>delegateToJavaBridgeContext</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+php_fcgi_children</H3>
+<PRE>
+java.lang.String <B>php_fcgi_children</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+php_include_java</H3>
+<PRE>
+boolean <B>php_include_java</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+php_fcgi_children_number</H3>
+<PRE>
+int <B>php_fcgi_children_number</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+php_fcgi_max_requests</H3>
+<PRE>
+java.lang.String <B>php_fcgi_max_requests</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+php_fcgi_max_requests_number</H3>
+<PRE>
+int <B>php_fcgi_max_requests_number</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+defaultPoolFactory</H3>
+<PRE>
+<A HREF="php/java/servlet/fastcgi/IOFactory.html" title="class in php.java.servlet.fastcgi">IOFactory</A> <B>defaultPoolFactory</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+defaultCGIRunnerFactory</H3>
+<PRE>
+php.java.servlet.fastcgi.FastCGIServlet.CGIRunnerFactory <B>defaultCGIRunnerFactory</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+channelName</H3>
+<PRE>
+<A HREF="php/java/servlet/fastcgi/ChannelFactory.html" title="class in php.java.servlet.fastcgi">ChannelFactory</A> <B>channelName</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+
+<P>
+<HR>
+
+
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<A HREF="#skip-navbar_bottom" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Package</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Class</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <FONT CLASS="NavBarFont1">Use</FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="overview-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;PREV&nbsp;
+&nbsp;NEXT</FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="index.html?serialized-form.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="serialized-form.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_bottom"></A>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+
+<HR>
+
+</BODY>
+</HTML>
+@
+
+
+1.33
+log
+@Release-5.4.4.2
+@
+text
+@@
+
+
+1.32
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 19 11:35:21 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-19">
+@
+
+
+1.31
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 12 09:06:10 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-12">
+a365 30
+
+<P>
+<A NAME="php.java.script.servlet.ScriptFile"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/script/servlet/ScriptFile.html" title="class in php.java.script.servlet">php.java.script.servlet.ScriptFile</A> extends java.io.File implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>5388841733118702557L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+webPath</H3>
+<PRE>
+java.lang.String <B>webPath</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+d446 1
+a446 1
+java.util.HashMap <B>processEnvironment</B></PRE>
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 15 11:32:40 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-15">
+d476 1
+a476 1
+java.util.HashMap&lt;K,V&gt; <B>processEnvironment</B></PRE>
+d540 9
+d732 9
+@
+
+
+1.29
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 08 18:42:07 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-08">
+@
+
+
+1.28
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Tue Mar 03 19:21:06 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-03">
+@
+
+
+1.27
+log
+@Release-5-4-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Mon Jan 05 20:55:08 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-01-05">
+d199 28
+d752 1
+a752 1
+<A HREF="php/java/servlet/fastcgi/Factory.html" title="class in php.java.servlet.fastcgi">Factory</A> <B>defaultPoolFactory</B></PRE>
+d770 1
+a770 1
+<A HREF="php/java/servlet/fastcgi/ChannelName.html" title="class in php.java.servlet.fastcgi">ChannelName</A> <B>channelName</B></PRE>
+@
+
+
+1.26
+log
+@documentation
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Nov 30 10:56:59 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-30">
+d338 30
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Nov 29 12:39:27 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-29">
+@
+
+
+1.24
+log
+@Release 5.3.4
+@
+text
+@@
+
+
+1.23
+log
+@Release 5.3.3.1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Nov 23 10:26:30 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-23">
+d420 2
+@
+
+
+1.22
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:57 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+d311 1
+a311 1
+<A HREF="php/java/script/SimplePhpScriptEngine.html" title="class in php.java.script">SimplePhpScriptEngine</A> <B>engine</B></PRE>
+@
+
+
+1.21
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Oct 26 14:59:22 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-10-26">
+d277 39
+@
+
+
+1.21.2.1
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 13:25:08 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+a276 39
+
+<P>
+<A NAME="php.java.script.ResultProxy"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/script/ResultProxy.html" title="class in php.java.script">php.java.script.ResultProxy</A> extends java.lang.Number implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>9126953496638654790L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+result</H3>
+<PRE>
+int <B>result</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+engine</H3>
+<PRE>
+<A HREF="php/java/script/SimplePhpScriptEngine.html" title="class in php.java.script">SimplePhpScriptEngine</A> <B>engine</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+@
+
+
+1.21.2.2
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:57 CET 2008 -->
+@
+
+
+1.20
+log
+@Release-5-2-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Sep 28 12:34:45 CEST 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-09-28">
+d282 22
+a415 9
+cgi_max_requests</H3>
+<PRE>
+int <B>cgi_max_requests</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+a440 9
+<HR>
+<H3>
+cgiMaxRequestsSet</H3>
+<PRE>
+boolean <B>cgiMaxRequestsSet</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+@
+
+
+1.19
+log
+@Release-5-2-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Mar 16 21:41:36 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-03-16">
+d185 14
+d260 22
+@
+
+
+1.18
+log
+@Release-4-1-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sat Jun 16 09:41:56 EDT 2007 -->
+d10 1
+d17 3
+a19 1
+    parent.document.title="Serialized Form";
+d28 1
+d213 1
+a213 1
+<A NAME="php.java.bridge.Util.ProcessWithErrorHandler.PhpException"><!-- --></A>
+d217 1
+a217 1
+<B>Class <A HREF="php/java/bridge/Util.ProcessWithErrorHandler.PhpException.html" title="class in php.java.bridge">php.java.bridge.Util.ProcessWithErrorHandler.PhpException</A> extends java.lang.RuntimeException implements Serializable</B></FONT></TH>
+d321 1
+a321 1
+java.util.HashMap <B>processEnvironment</B></PRE>
+d392 9
+@
+
+
+1.17
+log
+@Release-4-0-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Mar 15 07:15:53 CET 2007 -->
+d317 1
+a317 1
+java.util.HashMap&lt;K,V&gt; <B>processEnvironment</B></PRE>
+a353 18
+fcgiStartLock</H3>
+<PRE>
+java.lang.Object <B>fcgiStartLock</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+fcgiStarted</H3>
+<PRE>
+boolean <B>fcgiStarted</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+d504 9
+a597 9
+lockObject</H3>
+<PRE>
+java.lang.Object <B>lockObject</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+@
+
+
+1.16
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 11 14:44:21 CET 2007 -->
+d333 123
+a455 1
+<A NAME="php.java.servlet.ConnectionPool.ConnectException"><!-- --></A>
+d459 1
+a459 1
+<B>Class <A HREF="php/java/servlet/ConnectionPool.ConnectException.html" title="class in php.java.servlet">php.java.servlet.ConnectionPool.ConnectException</A> extends java.io.IOException implements Serializable</B></FONT></TH>
+d469 1
+a469 1
+<A NAME="php.java.servlet.ConnectionPool.ConnectionException"><!-- --></A>
+d473 1
+a473 1
+<B>Class <A HREF="php/java/servlet/ConnectionPool.ConnectionException.html" title="class in php.java.servlet">php.java.servlet.ConnectionPool.ConnectionException</A> extends java.io.IOException implements Serializable</B></FONT></TH>
+d483 1
+a483 1
+<A NAME="php.java.servlet.FastCGIServlet"><!-- --></A>
+d487 1
+a487 1
+<B>Class <A HREF="php/java/servlet/FastCGIServlet.html" title="class in php.java.servlet">php.java.servlet.FastCGIServlet</A> extends <A HREF="php/java/servlet/CGIServlet.html" title="class in php.java.servlet">CGIServlet</A> implements Serializable</B></FONT></TH>
+d618 1
+a618 1
+<A HREF="php/java/servlet/ConnectionPool.Factory.html" title="class in php.java.servlet">ConnectionPool.Factory</A> <B>defaultPoolFactory</B></PRE>
+d627 1
+a627 124
+php.java.servlet.FastCGIServlet.CGIRunnerFactory <B>defaultCGIRunnerFactory</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+
+<P>
+<A NAME="php.java.servlet.PhpCGIServlet"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/servlet/PhpCGIServlet.html" title="class in php.java.servlet">php.java.servlet.PhpCGIServlet</A> extends <A HREF="php/java/servlet/FastCGIServlet.html" title="class in php.java.servlet">FastCGIServlet</A> implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>38983388211187962L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+fcgiStartLock</H3>
+<PRE>
+java.lang.Object <B>fcgiStartLock</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+fcgiStarted</H3>
+<PRE>
+boolean <B>fcgiStarted</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+cgi_max_requests</H3>
+<PRE>
+int <B>cgi_max_requests</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+defaultCgiRunnerFactory</H3>
+<PRE>
+php.java.servlet.PhpCGIServlet.CGIRunnerFactory <B>defaultCgiRunnerFactory</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+DOCUMENT_ROOT</H3>
+<PRE>
+java.lang.String <B>DOCUMENT_ROOT</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+SERVER_SIGNATURE</H3>
+<PRE>
+java.lang.String <B>SERVER_SIGNATURE</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+proc</H3>
+<PRE>
+php.java.servlet.PhpCGIServlet.FCGIProcess <B>proc</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+
+<P>
+<A NAME="php.java.servlet.PhpJavaServlet"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/servlet/PhpJavaServlet.html" title="class in php.java.servlet">php.java.servlet.PhpJavaServlet</A> extends javax.servlet.http.HttpServlet implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>3257854259629144372L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+contextServer</H3>
+<PRE>
+<A HREF="php/java/bridge/http/ContextServer.html" title="class in php.java.bridge.http">ContextServer</A> <B>contextServer</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+logLevel</H3>
+<PRE>
+int <B>logLevel</B></PRE>
+d634 1
+a634 1
+allowHttpTunnel</H3>
+d636 1
+a636 1
+boolean <B>allowHttpTunnel</B></PRE>
+@
+
+
+1.15
+log
+@Release-3-1-8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Sep 10 13:03:32 CEST 2006 -->
+d167 1
+a167 1
+<A NAME="php.java.bridge.IllegalArgumentException"><!-- --></A>
+d171 1
+a171 1
+<B>Class <A HREF="php/java/bridge/IllegalArgumentException.html" title="class in php.java.bridge">php.java.bridge.IllegalArgumentException</A> extends java.lang.IllegalArgumentException implements Serializable</B></FONT></TH>
+d209 1
+a209 1
+<A NAME="php.java.bridge.Request.PhpArrayKey"><!-- --></A>
+d213 1
+a213 1
+<B>Class php.java.bridge.Request.PhpArrayKey extends java.lang.Number implements Serializable</B></FONT></TH>
+d218 1
+a218 1
+<B>serialVersionUID:&nbsp;</B>2816799824753952383L
+d230 1
+a230 1
+key</H3>
+d232 1
+a232 31
+int <B>key</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+
+<P>
+<A NAME="php.java.bridge.Request.PhpExactNumber"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class php.java.bridge.Request.PhpExactNumber extends java.lang.Number implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>3257566187666749240L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+l</H3>
+<PRE>
+long <B>l</B></PRE>
+d333 14
+d476 9
+@
+
+
+1.14
+log
+@Release-3-1-7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Aug 03 19:34:04 CEST 2006 -->
+d239 1
+a239 1
+<A NAME="php.java.bridge.Request.PhpNumber"><!-- --></A>
+d243 1
+a243 1
+<B>Class php.java.bridge.Request.PhpNumber extends java.lang.Number implements Serializable</B></FONT></TH>
+d633 9
+@
+
+
+1.13
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 23 12:18:12 CEST 2006 -->
+@
+
+
+1.12
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 16 13:42:19 CEST 2006 -->
+d420 1
+a420 1
+<DD>default: true, switched off, if fcgi is not configured
+d431 1
+a431 1
+<DD>default: true, switched off, if fcgi is not configured or if fcgi server failed
+@
+
+
+1.11
+log
+@Release-3-1-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 02 11:43:24 CEST 2006 -->
+d195 14
+d456 9
+a500 9
+fcgiConnectionPool</H3>
+<PRE>
+<A HREF="php/java/servlet/ConnectionPool.html" title="class in php.java.servlet">ConnectionPool</A> <B>fcgiConnectionPool</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+@
+
+
+1.10
+log
+@Release-3-1-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 25 13:54:50 CEST 2006 -->
+@
+
+
+1.9
+log
+@Release-3-1-0
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 18 11:35:47 CEST 2006 -->
+d167 14
+@
+
+
+1.8
+log
+@Release-3.0.8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:23 CEST 2006 -->
+a238 14
+
+<P>
+<A NAME="php.java.bridge.Util.CgiEnvironment"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/bridge/Util.CgiEnvironment.html" title="class in php.java.bridge">php.java.bridge.Util.CgiEnvironment</A> extends java.util.HashMap implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>4121409609719429173L
+
+<P>
+d317 1
+a317 1
+defaultEnv</H3>
+d319 1
+a319 1
+java.util.HashMap&lt;K,V&gt; <B>defaultEnv</B></PRE>
+a320 3
+<DD>Create a default environment which inherits all environment
+ variables from the parent.
+<P>
+d335 14
+d379 20
+d403 2
+d417 72
+d512 9
+d530 1
+a530 1
+override_hosts</H3>
+d532 1
+a532 1
+boolean <B>override_hosts</B></PRE>
+d539 1
+a539 1
+cgi_max_requests</H3>
+d541 1
+a541 1
+int <B>cgi_max_requests</B></PRE>
+d548 1
+a548 1
+php_fcgi_children</H3>
+d550 1
+a550 1
+java.lang.String <B>php_fcgi_children</B></PRE>
+d557 1
+a557 1
+php_fcgi_max_requests</H3>
+d559 1
+a559 1
+java.lang.String <B>php_fcgi_max_requests</B></PRE>
+@
+
+
+1.7
+log
+@Release-3.0.7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 05 13:18:04 CET 2006 -->
+d181 1
+a181 1
+<A NAME="php.java.bridge.Request.PhpArray"><!-- --></A>
+d185 1
+a185 1
+<B>Class php.java.bridge.Request.PhpArray extends java.util.HashMap implements Serializable</B></FONT></TH>
+d190 1
+a190 1
+<B>serialVersionUID:&nbsp;</B>3905804162838115892L
+d193 16
+d398 48
+d464 9
+d479 1
+a479 1
+<B>Class <A HREF="php/java/servlet/PhpJavaServlet.html" title="class in php.java.servlet">php.java.servlet.PhpJavaServlet</A> extends <A HREF="php/java/servlet/FastCGIServlet.html" title="class in php.java.servlet">FastCGIServlet</A> implements Serializable</B></FONT></TH>
+a504 9
+override_hosts</H3>
+<PRE>
+boolean <B>override_hosts</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+@
+
+
+1.7.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 23 18:58:57 CEST 2006 -->
+d181 1
+a181 1
+<A NAME="php.java.bridge.Request.PhpArrayKey"><!-- --></A>
+d185 1
+a185 1
+<B>Class php.java.bridge.Request.PhpArrayKey extends java.lang.Number implements Serializable</B></FONT></TH>
+d190 1
+a190 1
+<B>serialVersionUID:&nbsp;</B>2816799824753952383L
+a192 16
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+key</H3>
+<PRE>
+int <B>key</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+a381 48
+
+<P>
+<A NAME="php.java.servlet.PhpCGIServlet"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Class <A HREF="php/java/servlet/PhpCGIServlet.html" title="class in php.java.servlet">php.java.servlet.PhpCGIServlet</A> extends <A HREF="php/java/servlet/FastCGIServlet.html" title="class in php.java.servlet">FastCGIServlet</A> implements Serializable</B></FONT></TH>
+</TR>
+</TABLE>
+
+<P>
+<B>serialVersionUID:&nbsp;</B>38983388211187962L
+
+<P>
+<A NAME="serializedForm"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Serialized Fields</B></FONT></TH>
+</TR>
+</TABLE>
+
+<H3>
+fcgiStarted</H3>
+<PRE>
+boolean <B>fcgiStarted</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+override_hosts</H3>
+<PRE>
+boolean <B>override_hosts</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+<HR>
+<H3>
+cgi_max_requests</H3>
+<PRE>
+int <B>cgi_max_requests</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+a399 9
+<HR>
+<H3>
+proc</H3>
+<PRE>
+php.java.servlet.PhpCGIServlet.FCGIProcess <B>proc</B></PRE>
+<DL>
+<DL>
+</DL>
+</DL>
+d406 1
+a406 1
+<B>Class <A HREF="php/java/servlet/PhpJavaServlet.html" title="class in php.java.servlet">php.java.servlet.PhpJavaServlet</A> extends javax.servlet.http.HttpServlet implements Serializable</B></FONT></TH>
+d432 9
+@
+
+
+1.7.2.2
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:23 CEST 2006 -->
+@
+
+
+1.6
+log
+@Release-3.0.6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 15 20:26:22 CET 2006 -->
+d423 9
+@
+
+
+1.5
+log
+@Release-3.0.5
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 08 19:28:41 CET 2006 -->
+@
+
+
+1.4
+log
+@Release-3-0-2
+@
+text
+@d1 128
+a128 2
+<?xml version="1.0" encoding="null"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><title>Serialized Form</title><script src="./resources/gjdoc.js" type="text/javascript"><!-- this comment required for konqueror 3.2.2 --></script><meta http-equiv="Content-Type" content="text/html; charset=null"/><meta name="generator" content="GNU Gjdoc Standard Doclet"/><link rel="stylesheet" type="text/css" href="./resources/gjdochtml-clean-layout.css" title="GNU Clean"/><link rel="stylesheet" type="text/css" href="./resources/gjdochtml-clean-color1.css" title="GNU Clean"/></head><body class="content deprecated" onload="top.contentPageLoaded(document.title)"><table class="navbar div top"><tr><td class="navbar div top" colspan="2"><div class="navbar div top" colspan="2"><span class="navbar item enabled"><a href="./index-noframes.html">Overview</a></span> <span class="navbar item disabled">Package</span> <span class="navbar item disabled">Class</span> <span class="navbar item disabled">Use</span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="./alphaindex-1.html">Index</a></span> <span class="navbar item enabled"><a href="./deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="./about.html">About</a></span></div></td></tr><tr><td class="navi"></td><td class="navi"><a href="./index.html" title="Show in a frameset" target="_top">Frames</a> | <a href="serialized-form.html" title="Show without frames" target="_top">No Frames</a> </td></tr></table><h1 class="serialized title">Serialized Form</h1><h2 class="serialized package header">Package javax.script</h2><a name="javax.script.ScriptException"/><h3 class="serialized class header">Class <a href="./javax/script/ScriptException.html">javax.script.ScriptException</a> extends java.lang.Exception implements Serializable</h3><p class="serialized svuid outer"><b class="serialized svuid header">serialVersionUID: </b><span class="serialized svuid header">3689065132168917297L</span></p><h4 class="serialized section header">Serialized Fields</h4><div class="serialized section"><a name="fileName"/><div class="member detail outer"><h3 class="member detail name">fileName</h3><pre class="member detail synopsis"> java.lang.String fileName</pre><blockquote class="member detail name"><div class="member detail description">Stroes the file name of the script </div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="lineNumber"/><div class="member detail outer"><h3 class="member detail name">lineNumber</h3><pre class="member detail synopsis"> int lineNumber</pre><blockquote class="member detail name"><div class="member detail description"> Stores the line number of the script in which the error has 
+d130 11
+a140 1
+</div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="columnNumber"/><div class="member detail outer"><h3 class="member detail name">columnNumber</h3><pre class="member detail synopsis"> int columnNumber</pre><blockquote class="member detail name"><div class="member detail description"> Stores the column number of the script in which the error has 
+d142 164
+a305 1
+</div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="message"/><div class="member detail outer"><h3 class="member detail name">message</h3><pre class="member detail synopsis"> java.lang.String message</pre><blockquote class="member detail name"><div class="member detail description">Stores the message which describes the cause of error </div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><h2 class="serialized package header">Package php.java.bridge</h2><a name="php.java.bridge.NotImplementedException"/><h3 class="serialized class header">Class <a href="./php/java/bridge/NotImplementedException.html">php.java.bridge.NotImplementedException</a> extends java.lang.RuntimeException implements Serializable</h3><p class="serialized svuid outer"><b class="serialized svuid header">serialVersionUID: </b><span class="serialized svuid header">3546638798315468084L</span></p><a name="php.java.bridge.Util.CgiEnvironment"/><h3 class="serialized class header">Class <a href="./php/java/bridge/Util.CgiEnvironment.html">php.java.bridge.Util.CgiEnvironment</a> extends java.util.HashMap implements Serializable</h3><p class="serialized svuid outer"><b class="serialized svuid header">serialVersionUID: </b><span class="serialized svuid header">4121409609719429173L</span></p><h2 class="serialized package header">Package php.java.servlet</h2><a name="php.java.servlet.CGIServlet"/><h3 class="serialized class header">Class <a href="./php/java/servlet/CGIServlet.html">php.java.servlet.CGIServlet</a> extends javax.servlet.http.HttpServlet implements Serializable</h3><p class="serialized svuid outer"><b class="serialized svuid header">serialVersionUID: </b><span class="serialized svuid header">3258132448955937337L</span></p><h4 class="serialized section header">Serialized Fields</h4><div class="serialized section"><a name="context"/><div class="member detail outer"><h3 class="member detail name">context</h3><pre class="member detail synopsis"> javax.servlet.ServletContext context</pre><blockquote class="member detail name"><div class="member detail description">the Context container associated with our web context. </div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="debug"/><div class="member detail outer"><h3 class="member detail name">debug</h3><pre class="member detail synopsis"> int debug</pre><blockquote class="member detail name"><div class="member detail description">the debugging detail level for this servlet. </div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="iClientInputTimeout"/><div class="member detail outer"><h3 class="member detail name">iClientInputTimeout</h3><pre class="member detail synopsis"> int iClientInputTimeout</pre><blockquote class="member detail name"><div class="member detail description">the time in ms to wait for the client to send us CGI input data </div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="cgiPathPrefix"/><div class="member detail outer"><h3 class="member detail name">cgiPathPrefix</h3><pre class="member detail synopsis"> java.lang.String cgiPathPrefix</pre><blockquote class="member detail name"><div class="member detail description">  The CGI search path will start at
+d309 11
+a319 1
+</div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="defaultEnv"/><div class="member detail outer"><h3 class="member detail name">defaultEnv</h3><pre class="member detail synopsis"> java.util.HashMap defaultEnv</pre><blockquote class="member detail name"><div class="member detail description"> Create a default environment which inherits all environment
+d321 177
+a497 1
+</div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="cgiRunnerFactory"/><div class="member detail outer"><h3 class="member detail name">cgiRunnerFactory</h3><pre class="member detail synopsis"> php.java.servlet.CGIServlet.CGIRunnerFactory cgiRunnerFactory</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><a name="php.java.servlet.FastCGIServlet"/><h3 class="serialized class header">Class <a href="./php/java/servlet/FastCGIServlet.html">php.java.servlet.FastCGIServlet</a> extends <a href="./php/java/servlet/CGIServlet.html" title="Class in php.java.servlet">CGIServlet</a> implements Serializable</h3><p class="serialized svuid outer"><b class="serialized svuid header">serialVersionUID: </b><span class="serialized svuid header">3545800996174312757L</span></p><h4 class="serialized section header">Serialized Fields</h4><div class="serialized section"><a name="php"/><div class="member detail outer"><h3 class="member detail name">php</h3><pre class="member detail synopsis"> java.lang.String php</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="fcgiIsAvailable"/><div class="member detail outer"><h3 class="member detail name">fcgiIsAvailable</h3><pre class="member detail synopsis"> boolean fcgiIsAvailable</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="php_fcgi_children"/><div class="member detail outer"><h3 class="member detail name">php_fcgi_children</h3><pre class="member detail synopsis"> java.lang.String php_fcgi_children</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="php_fcgi_max_requests"/><div class="member detail outer"><h3 class="member detail name">php_fcgi_max_requests</h3><pre class="member detail synopsis"> java.lang.String php_fcgi_max_requests</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><a name="php.java.servlet.PhpJavaServlet"/><h3 class="serialized class header">Class <a href="./php/java/servlet/PhpJavaServlet.html">php.java.servlet.PhpJavaServlet</a> extends <a href="./php/java/servlet/FastCGIServlet.html" title="Class in php.java.servlet">FastCGIServlet</a> implements Serializable</h3><p class="serialized svuid outer"><b class="serialized svuid header">serialVersionUID: </b><span class="serialized svuid header">3257854259629144372L</span></p><h4 class="serialized section header">Serialized Fields</h4><div class="serialized section"><a name="override_hosts"/><div class="member detail outer"><h3 class="member detail name">override_hosts</h3><pre class="member detail synopsis"> boolean override_hosts</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><p class="navbar bottom spacer"> </p><table class="navbar div bottom"><tr><td><div class="navbar div top" colspan="2"><span class="navbar item enabled"><a href="./index-noframes.html">Overview</a></span> <span class="navbar item disabled">Package</span> <span class="navbar item disabled">Class</span> <span class="navbar item disabled">Use</span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="./alphaindex-1.html">Index</a></span> <span class="navbar item enabled"><a href="./deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="./about.html">About</a></span></div></td></tr></table></body></html>@
+
+
+1.3
+log
+@Version-3.0.0pre
+@
+text
+@d12 1
+a12 1
+</div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="cgiRunnerFactory"/><div class="member detail outer"><h3 class="member detail name">cgiRunnerFactory</h3><pre class="member detail synopsis"> php.java.servlet.CGIServlet.CGIRunnerFactory cgiRunnerFactory</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><a name="php.java.servlet.FastCGIServlet"/><h3 class="serialized class header">Class <a href="./php/java/servlet/FastCGIServlet.html">php.java.servlet.FastCGIServlet</a> extends <a href="./php/java/servlet/CGIServlet.html" title="Class in php.java.servlet">CGIServlet</a> implements Serializable</h3><p class="serialized svuid outer"><b class="serialized svuid header">serialVersionUID: </b><span class="serialized svuid header">3545800996174312757L</span></p><h4 class="serialized section header">Serialized Fields</h4><div class="serialized section"><a name="php"/><div class="member detail outer"><h3 class="member detail name">php</h3><pre class="member detail synopsis"> java.lang.String php</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div><hr/><a name="fcgiIsAvailable"/><div class="member detail outer"><h3 class="member detail name">fcgiIsAvailable</h3><pre class="member detail synopsis"> boolean fcgiIsAvailable</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><a name="php.java.servlet.PhpJavaServlet"/><h3 class="serialized class header">Class <a href="./php/java/servlet/PhpJavaServlet.html">php.java.servlet.PhpJavaServlet</a> extends <a href="./php/java/servlet/FastCGIServlet.html" title="Class in php.java.servlet">FastCGIServlet</a> implements Serializable</h3><p class="serialized svuid outer"><b class="serialized svuid header">serialVersionUID: </b><span class="serialized svuid header">3257854259629144372L</span></p><h4 class="serialized section header">Serialized Fields</h4><div class="serialized section"><a name="override_hosts"/><div class="member detail outer"><h3 class="member detail name">override_hosts</h3><pre class="member detail synopsis"> boolean override_hosts</pre><blockquote class="member detail name"><div class="member detail description"></div><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p><p class="taglet"></p></blockquote></div></div><p class="navbar bottom spacer"> </p><table class="navbar div bottom"><tr><td><div class="navbar div top" colspan="2"><span class="navbar item enabled"><a href="./index-noframes.html">Overview</a></span> <span class="navbar item disabled">Package</span> <span class="navbar item disabled">Class</span> <span class="navbar item disabled">Use</span> <span class="navbar item enabled"><a href="tree.html">Tree</a></span> <span class="navbar item enabled"><a href="./alphaindex-1.html">Index</a></span> <span class="navbar item enabled"><a href="./deprecated.html">Deprecated</a></span> <span class="navbar item enabled"><a href="./about.html">About</a></span></div></td></tr></table></body></html>@
+
+
+1.2
+log
+@Version-3.0.0pre
+@
+text
+@@
+
+
+1.1
+log
+@Version-3.0.0pre
+@
+text
+@@
+

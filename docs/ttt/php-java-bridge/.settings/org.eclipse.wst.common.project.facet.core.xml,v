@@ -1,0 +1,33 @@
+head	1.1;
+access;
+symbols
+	Release-7-1-1:1.1.0.2
+	Root_Release-7-1-1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2017.04.09.13.58.34;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Release-7.1.1
+@
+text
+@<?xml version="1.0" encoding="UTF-8"?>
+<faceted-project>
+  <runtime name="Apache Tomcat v7.0"/>
+  <fixed facet="wst.jsdt.web"/>
+  <installed facet="jst.web" version="3.0"/>
+  <installed facet="wst.jsdt.web" version="1.0"/>
+  <installed facet="java" version="1.6"/>
+</faceted-project>
+@

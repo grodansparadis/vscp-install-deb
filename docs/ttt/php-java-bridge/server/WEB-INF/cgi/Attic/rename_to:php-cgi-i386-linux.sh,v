@@ -1,0 +1,43 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2005.12.11.22.37.40;	author jost2345;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2005.12.08.18.47.27;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Release-3-0-2
+@
+text
+@#!/bin/sh
+
+# wrapper for the SUN VM, which identifies intel as i386
+
+chmod +x ./php-cgi-i386-linux
+exec ./php-cgi-i386-linux
+@
+
+
+1.1
+log
+@Version-3.0.2
+@
+text
+@@
+

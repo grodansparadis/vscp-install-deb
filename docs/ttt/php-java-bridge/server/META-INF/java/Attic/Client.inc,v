@@ -1,0 +1,2032 @@
+head	1.39;
+access;
+symbols
+	Root_Release_7-0-1:1.37
+	Release_7-0-1:1.37.0.2
+	Release_7-0-0:1.36.0.4
+	Root_Release_7-0-0:1.36
+	Release-6-2-2:1.36.0.2
+	Release-6-1-2-3:1.34
+	Root_Release-6-1-2-3:1.34
+	Release-6-1-2-2:1.34.0.2
+	Root_Release-6-1-2-2:1.34
+	debian_version_6_1_2_1-1:1.33
+	upstream_version_6_1_2_1:1.33
+	Release-6-1-2-1_new:1.33.0.4
+	Root_Release-6-1-2-1_new:1.33
+	Release-6-1-2-1:1.33.0.2
+	Root_Release-6-1-2-1:1.33
+	upstream_version_6_1_2:1.32
+	debian_version_6_1_2-1:1.32
+	Release-6-1-2:1.32.0.10
+	Root_Release-6-1-2:1.32
+	debian_version_6_1_1-2:1.32
+	debian_version_6_1_1-1:1.32
+	upstream_version_6_1_1:1.32
+	Release-6-1-1:1.32.0.8
+	Root_Release-6-1-1:1.32
+	Release-6-0-4:1.32.0.6
+	Root_Release-6-0-4:1.32
+	Release-6-0-3_NEW:1.32.0.2
+	Root_Release-6-0-3_NEW:1.32
+	Release-6-0-3:1.32.0.4
+	Root_Release-6-0-3:1.32
+	Release-6-0-0:1.31.0.2
+	Root_Release-6-0-0:1.32
+	Release-5-5-4-1:1.30.0.4
+	Root_Release-5-5-4-1:1.30
+	Release-5-5-4:1.30.0.2
+	Root_Release-5-5-4:1.30
+	Release-5-5-3:1.29.0.2
+	ROOT_Release-5-5-3:1.29
+	Release-5-5-2:1.28.0.2
+	Root_Release-5-5-2:1.28
+	debian_version_5_5_1-1:1.27
+	Release-5-5-1:1.27.0.2
+	upstream_version_5_5_1:1.27
+	ROOT_Release-5-5-1:1.27
+	debian_version_5_5-1:1.26
+	upstream_version_5_5:1.26
+	ROOT_Release-5-5:1.26
+	Release-5-5:1.26.0.2
+	debian_version_5_4_4_2-3:1.25
+	Release-5-4-4-2-1:1.25.0.2
+	debian_version_5_4_4_2-2:1.25
+	debian_version_5_4_4_2-1:1.25
+	upstream_version_5_4_4_2:1.25
+	debian_version_5_4_4_1-1:1.22
+	upstream_version_5_4_4_1:1.22
+	debian_version_5_4_4-1:1.22
+	upstream_version_5_4_4:1.22
+	Release-5-4-4:1.22.0.6
+	Root_Release-5-4-4:1.22
+	debian_version_5_4_3_2-1:1.22
+	upstream_version_5_4_3_2:1.22
+	Release_5-4-3-2:1.22.0.2
+	Root_Release_5-4-3-2:1.22
+	upstream_version_5_4_3_1:1.22
+	debian_version_5_4_3_1-1:1.22
+	Release-5-4-3:1.21.0.4
+	Root_Release-5-4-3:1.21
+	Root_Release-5-4-1:1.21
+	Release-5-4-1:1.21.0.2
+	Root_Release-5-4:1.20
+	Release-5-4:1.20.0.2
+	upstream_version_5_3_4:1.19
+	debian_version_5_3_4-1:1.19
+	ROOT_Release-5-3-4:1.19
+	Release-5-3-4:1.19.0.2
+	ROOT_Release-5-3-3:1.17
+	Release-5-3-3:1.17.0.2
+	debian_version_5_3_2_1_2-1:1.16
+	upstream_version_5_3_2_1_2:1.16
+	debian_version_5_3_2_1_1-1:1.15
+	debian_version_5_3_2_1_1:1.15
+	upstream_version_5_3_2_1_1:1.15
+	Root_Release-5-3-2-1:1.15
+	Release-5-3-2-1:1.15
+	ROOT_RELEASE-5-3-2-1:1.15
+	RELEASE-5-3-2-1:1.15.0.8
+	Release-5-3-2:1.15.0.4
+	Root_Release-5-3-2:1.15
+	Root_Release-5-3-1:1.15
+	Release-5-3-1:1.15.0.2
+	Release-5-2-3-1:1.14.0.6
+	Root_Release-5-2-3-1:1.14
+	Release-5-2-2-4:1.14.0.4
+	Root_Release-5-2-2-4:1.14
+	Release-5-2-2-1:1.14.0.2
+	Root_Release-5-2-2-1:1.14
+	upstream_version_5_2_2:1.13
+	debian_version_5_2_2-1:1.13
+	Release-5-2-2:1.13.0.12
+	ROOT_Release-5-2-2:1.13
+	ROOT_Release-5-2-1:1.13
+	Release-5-2-1:1.13.0.10
+	Release-5-2-0:1.13.0.8
+	ROOT_Release-5-2-0:1.13
+	ROOT_Release-5-1-2:1.13
+	Release-5-1-2:1.13.0.6
+	Version-5-1-1:1.13.0.4
+	ROOT_Version-5-1-1:1.13
+	debian_version_5_1_0-1:1.13
+	upstream_version_5_1_0:1.13
+	ROOT_Release-5-1-0:1.13
+	Release-5-1-0:1.13.0.2
+	ROOT_Release-5-0-0:1.12
+	Release-5-0-0:1.12.0.2
+	Release-4-3-3:1.11.0.2
+	ROOT_Release-4-3-3:1.11
+	upstream_version_4_3_2:1.10
+	debian_version_4_3_2-1:1.10
+	ROOT_Release-4-3-2:1.10
+	Release-4-3-2:1.10.0.2
+	Release-4-3-1:1.9.0.2
+	ROOT_Release-4-3-1:1.9
+	debian_version_4_3_0-1:1.8
+	upstream_version_4_3_0:1.8
+	ROOT_Release-4-3-0:1.8
+	Release-4-3-0:1.8.0.2
+	debian_version_4_2_2-1:1.7
+	upstream_version_4_2_2:1.7
+	Release-4-1-2:1.3.0.6
+	Release-4-0-8:1.3.0.4
+	debian_version_4_0_8a-1:1.3
+	upstream_version_4_0_8a:1.3
+	jostb-debian-ubuntu-patch:1.3.0.2
+	debian_version_4_0_8-1:1.3
+	upstream_version_4_0_8:1.3
+	debian_version_4_0_7-1:1.3
+	upstream_version_4_0_7:1.3
+	debian_version_4_0_6-1:1.3
+	upstream_version_4_0_6:1.3
+	debian_version_4_0_2-1:1.2
+	upstream_version_4_0_2:1.2
+	Release-4-0-2_Root:1.2
+	Release-4-0-2:1.2.0.2
+	upstream_version_4_0_1:1.1
+	debian_version_4_0_1-2:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.39
+date	2017.04.09.14.00.07;	author jost_boekemeier;	state dead;
+branches;
+next	1.38;
+
+1.38
+date	2017.03.23.21.37.37;	author jost_boekemeier;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2017.02.25.16.28.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2017.01.30.22.28.58;	author jost_boekemeier;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2010.09.04.12.19.54;	author jost_boekemeier;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2010.05.23.11.52.14;	author jost_boekemeier;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2010.05.02.11.49.36;	author jost_boekemeier;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2010.02.28.15.20.43;	author jost_boekemeier;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2010.01.23.10.09.35;	author jost_boekemeier;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2009.10.17.17.40.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2009.09.27.17.39.22;	author jost_boekemeier;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2009.09.01.17.25.18;	author jost_boekemeier;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2009.08.22.16.37.06;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2009.07.25.13.56.02;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2009.04.25.12.25.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2009.04.13.11.32.02;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2009.04.11.14.17.16;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2009.01.20.22.29.17;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2008.12.21.16.24.34;	author jost_boekemeier;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2008.12.09.12.55.03;	author jost_boekemeier;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2008.12.01.22.42.43;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2008.11.01.12.41.04;	author jost_boekemeier;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2008.10.12.16.15.53;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2008.10.03.15.48.14;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.09.20.15.00.58;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2008.01.21.19.23.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2008.01.06.20.59.20;	author jost_boekemeier;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2007.12.28.13.56.42;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2007.12.09.15.13.12;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2007.12.02.18.05.08;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2007.09.30.16.07.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.07.22.12.54.43;	author jost_boekemeier;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.07.19.16.19.19;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2007.07.09.14.35.06;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2007.07.03.15.50.53;	author jost_boekemeier;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2007.03.25.16.28.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2007.03.19.13.03.17;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.03.12.20.27.55;	author andremachado;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.39
+log
+@Release-7.1.1
+@
+text
+@<?php /*-*- mode: php; tab-width:4 -*-*/
+
+  /** java_Client.php -- parser callbacks for the PHP/Java Bridge.
+   * 
+   * Copyright (C) 2003-2007 Jost Boekemeier
+   * 
+   * This file is part of the PHP/Java Bridge.
+   * 
+   * The PHP/Java Bridge ("the library") is free software; you can
+   * redistribute it and/or modify it under the terms of the GNU General
+   * Public License as published by the Free Software Foundation; either
+   * version 2, or (at your option) any later version.
+   * 
+   * The library is distributed in the hope that it will be useful, but
+   * WITHOUT ANY WARRANTY; without even the implied warranty of
+   * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+   * General Public License for more details.
+   * 
+   * You should have received a copy of the GNU General Public License
+   * along with the PHP/Java Bridge; see the file COPYING.  If not, write to the
+   * Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+   * 02111-1307 USA.
+   * 
+   * Linking this file statically or dynamically with other modules is
+   * making a combined work based on this library.  Thus, the terms and
+   * conditions of the GNU General Public License cover the whole
+   * combination.
+   * 
+   * As a special exception, the copyright holders of this library give you
+   * permission to link this library with independent modules to produce an
+   * executable, regardless of the license terms of these independent
+   * modules, and to copy and distribute the resulting executable under
+   * terms of your choice, provided that you also meet, for each linked
+   * independent module, the terms and conditions of the license of that
+   * module.  An independent module is a module which is not derived from
+   * or based on this library.  If you modify this library, you may extend
+   * this exception to your version of the library, but you are not
+   * obligated to do so.  If you do not wish to do so, delete this
+   * exception statement from your version. 
+   *
+   * @@author     Jost Boekemeier
+   * @@license    GPL
+   * @@link       http://php-java-bridge.sf.net
+   */
+
+require_once(java_get_base()."/JavaProxy.inc");
+require_once(java_get_base()."/Parser.inc");
+require_once(java_get_base()."/Protocol.inc");
+require_once(java_get_base()."/GlobalRef.inc");
+
+/**
+ * @@access private
+ */
+class java_SimpleFactory {
+  public $client;
+  function __construct($client) {
+	$this->client = $client;
+  }
+  function getProxy($result, $signature, $exception, $wrap) {
+  	return $result;
+  }
+  function checkResult($result) {
+  }
+}
+/**
+ * @@access private
+ */
+class java_ProxyFactory extends java_SimpleFactory {
+  function create($result, $signature) {
+	return new java_JavaProxy($result, $signature);
+  }
+  function createInternal($proxy) {
+	return new java_InternalJava($proxy);
+  }
+  function getProxy($result, $signature, $exception, $wrap) {
+	$proxy = $this->create($result, $signature);
+	if($wrap) $proxy = $this->createInternal($proxy);
+	return $proxy;
+  }
+}
+/**
+ * @@access private
+ */
+class java_ArrayProxyFactory extends java_ProxyFactory {
+  function create($result, $signature) {
+	return new java_ArrayProxy($result, $signature);
+  }	
+}
+/**
+ * @@access private
+ */
+class java_IteratorProxyFactory extends java_ProxyFactory {
+  function create($result, $signature) {
+	return new java_IteratorProxy($result, $signature);
+  }	
+}
+/**
+ * @@access private
+ */
+class java_ExceptionProxyFactory extends java_SimpleFactory {
+  function create($result, $signature) {
+	return new java_ExceptionProxy($result, $signature);
+  }
+  function getProxy($result, $signature, $exception, $wrap) {
+	$proxy = $this->create($result, $signature);
+	if($wrap) $proxy = new java_InternalException($proxy, $exception);
+	return $proxy;
+  }
+}
+/**
+ * @@access private
+ */
+class java_ThrowExceptionProxyFactory extends java_ExceptionProxyFactory {
+  function getProxy($result, $signature, $exception, $wrap) {
+  	$proxy = $this->create($result, $signature);
+	// don't check for $wrap, which may be wrong (type Java instead of
+	// JavaException) when the user has managed to create an exception
+	// from a Java constructor, e.g.: new Java("java.lang.String",
+	// null). Since we'll discard the possibly wrong type anyway, we
+	// can create a fresh proxy without any further checks:
+
+	$proxy = new java_InternalException($proxy, $exception);
+	return $proxy;
+  }
+  function checkResult($result) {
+	if (JAVA_PREFER_VALUES || ($result->__hasDeclaredExceptions=='T'))
+	  throw $result;
+	else {
+	  trigger_error("Unchecked exception detected: ".java_truncate($result->__toString()), E_USER_WARNING);
+	}
+  }
+}
+
+/**
+ * @@access private
+ */
+class java_CacheEntry {
+  public $fmt, $signature, $factory, $java;
+  public $resultVoid;
+
+  function __construct($fmt, $signature, $factory, $resultVoid) {
+	$this->fmt = $fmt;
+	$this->signature = $signature;
+	$this->factory = $factory;
+	$this->resultVoid = $resultVoid;
+  }
+}
+
+/**
+ * @@access private
+ */
+class java_Arg {
+  public $client;
+  public $exception; 				// string representation for php4
+  public $factory, $val;
+  public $signature; // class type
+  
+  function __construct($client) {
+	$this->client = $client;
+	$this->factory = $client->simpleFactory;
+  }
+  function linkResult(&$val) {
+	$this->val = &$val;
+  }
+  function setResult($val) {
+	$this->val = &$val;
+  }
+  function getResult($wrap) {
+	$rc = $this->factory->getProxy($this->val, $this->signature, $this->exception, $wrap);
+	$factory = $this->factory;
+
+	$this->factory = $this->client->simpleFactory;
+	$factory->checkResult($rc);
+	return $rc;
+  }
+  function setFactory($factory) {
+	$this->factory = $factory;
+  }
+  function setException($string) {
+	$this->exception = $string;
+  }
+  function setVoidSignature() {
+	$this->signature = "@@V";
+	// update cache
+	$key = $this->client->currentCacheKey;
+	if($key && $key[0]!='~') {			// do not cache array(...) or non-java objects
+	  $this->client->currentArgumentsFormat[6]="3";
+	  if(JAVA_DEBUG) {echo "ignore further results:";  echo "\n";}
+	  if(JAVA_DEBUG) {echo "updating cache $key, argformat: {$this->client->currentArgumentsFormat}, classType: {$this->signature}\n";}
+	  $cacheEntry = new java_CacheEntry($this->client->currentArgumentsFormat, $this->signature, $this->factory, true);
+	  $this->client->methodCache[$key]=$cacheEntry;
+    }
+  }
+  function setSignature($signature) {
+	$this->signature = $signature;
+	// update cache
+	$key = $this->client->currentCacheKey;
+	if($key && $key[0]!='~') {			// do not cache array(...) or non-java objects
+	  if(JAVA_DEBUG) {echo "updating cache $key, argformat: {$this->client->currentArgumentsFormat}, classType: {$this->signature}\n";}
+	  $cacheEntry = new java_CacheEntry($this->client->currentArgumentsFormat, $this->signature, $this->factory, false);
+	  $this->client->methodCache[$key]=$cacheEntry;
+	}
+  }
+}
+/**
+ * @@access private
+ */
+class java_CompositeArg extends java_Arg {
+  public $parentArg;
+  public $idx;						// position within $val;
+  public $type;					// for A and X
+  public $counter;
+
+  function __construct($client, $type) {
+	parent::__construct($client);
+	$this->type = $type;
+	$this->val = array();
+	$this->counter = 0;
+  }
+  function setNextIndex() {
+	$this->idx = $this->counter++;
+  }
+  function setIndex($val) {
+	$this->idx = $val;
+  }
+  function linkResult(&$val) {
+	$this->val[$this->idx]=&$val;
+  }
+  function setResult($val) {
+	$this->val[$this->idx]=$this->factory->getProxy($val, $this->signature, $this->exception, true);
+	$this->factory = $this->client->simpleFactory;
+  }
+}
+/**
+ * @@access private
+ */
+class java_ApplyArg extends java_CompositeArg {
+  public $m, $p, $v, $n; 			// see PROTOCOL.TXT
+
+  function __construct($client, $type, $m, $p, $v, $n) {
+	parent::__construct($client, $type);
+	$this->m = $m;
+	$this->p = $p;
+	$this->v = $v;
+	$this->n = $n;
+  }
+}
+
+/**
+ * @@access private
+ */
+class java_Client /* implements IDocHandler */ {
+  public $RUNTIME;
+
+  public $result, $exception;
+  public $parser;
+
+  public $simpleArg, $compositeArg;
+  public $simpleFactory, 
+	$proxyFactory, $iteratorProxyFacroty, 
+	$arrayProxyFactory, $exceptionProxyFactory, $throwExceptionProxyFactory;
+  
+  public $arg;
+  public $asyncCtx, $cancelProxyCreationTag;
+  public $globalRef;
+
+  public $stack;
+
+  // the cache
+  public $defaultCache = array(), $asyncCache = array(), $methodCache;
+  public $isAsync = 0;
+  public $currentCacheKey, $currentArgumentsFormat;
+  public $cachedJavaPrototype;
+  
+  
+  // send buffer
+  public $sendBuffer, $preparedToSendBuffer;
+
+  // do not finish protocol if ags construction fails due to PHP OutOfMemory error
+  public $inArgs;
+  
+  function __construct() {
+	$this->RUNTIME = array();
+	$this->RUNTIME["NOTICE"]='***USE echo java_inspect(jVal) OR print_r(java_values(jVal)) TO SEE THE CONTENTS OF THIS JAVA OBJECT!***';
+
+	$this->parser = new java_Parser($this);
+	$this->protocol = new java_Protocol($this);
+
+	$this->simpleFactory = new java_SimpleFactory($this);
+	$this->proxyFactory = new java_ProxyFactory($this);
+	$this->arrayProxyFactory = new java_ArrayProxyFactory($this);
+	$this->iteratorProxyFactory = new java_IteratorProxyFactory($this);
+	$this->exceptionProxyFactory = new java_ExceptionProxyFactory($this);
+	$this->throwExceptionProxyFactory = new java_ThrowExceptionProxyFactory($this);
+
+	$this->cachedJavaPrototype=new java_JavaProxyProxy($this);
+
+	$this->simpleArg = new java_Arg($this);
+
+	$this->globalRef = new java_GlobalRef();
+
+	$this->asyncCtx = $this->cancelProxyCreationTag = 0;
+	
+	$this->methodCache = $this->defaultCache;
+	
+	$this->inArgs = false;
+  }
+
+  function read($size) {
+	return $this->protocol->read($size);
+  }
+
+  function setDefaultHandler() {
+	$this->methodCache = $this->defaultCache;
+  }
+
+  function setAsyncHandler() {
+	$this->methodCache = $this->asyncCache;
+  }
+
+
+  function handleRequests() {
+	$tail_call = false;
+	do {
+	  $this->stack=array($this->arg=$this->simpleArg);
+	  $this->idx = 0;
+	  $this->parser->parse();
+
+	  /* pull off A, if any */
+	  if((count($this->stack)) > 1) {
+		$arg = array_pop($this->stack);
+		$this->apply($arg);
+		$tail_call = true;			// we don't expect a result
+	  } else {
+		$tail_call = false;
+	  }
+
+	  $this->stack=null;
+	} while($tail_call);
+	return 1;
+  }
+
+  function getWrappedResult($wrap) {
+	return $this->simpleArg->getResult($wrap);
+  }
+  function getInternalResult() {
+	return $this->getWrappedResult(false);
+  }
+  function getResult() {
+	return $this->getWrappedResult(true);
+  }
+  function getProxyFactory($type) {
+	switch($type[0]) {
+	case 'E':
+	  $factory = $this->exceptionProxyFactory;
+	  break;
+	case 'C':
+	  $factory = $this->iteratorProxyFactory;
+	  break;
+	case 'A':
+	  $factory = $this->arrayProxyFactory;
+	  break;
+	default:
+	case 'O':
+	  $factory = $this->proxyFactory;
+	}
+	return $factory;
+  }
+  function link(&$arg, &$newArg) {
+	$arg->linkResult($newArg->val);
+	$newArg->parentArg = $arg;
+  }
+  function getExact($str) {
+	return hexdec($str);
+  }
+  function getInexact($str) {
+	$val = null;
+  	sscanf($str, "%e", $val);
+	return $val;
+  }
+  function begin($name, $st) {
+	$arg = $this->arg;
+    switch($name[0]) {
+	case 'A':						/* receive apply args as normal array */
+	  $object = $this->globalRef->get($this->getExact($st['v']));
+	  $newArg = new java_ApplyArg($this, 'A',
+								  $this->parser->getData($st['m']),
+								  $this->parser->getData($st['p']),
+								  $object,
+								  $this->getExact($st['n']));
+	  $this->link($arg, $newArg);
+	  array_push($this->stack, $this->arg = $newArg);
+	  break;
+	case 'X': 
+	  $newArg = new java_CompositeArg($this, $st['t']);
+	  $this->link($arg, $newArg);
+	  array_push($this->stack, $this->arg = $newArg);
+	  break;
+	case 'P':
+	  if($arg->type=='H') { /* hash table */
+		$s = $st['t'];
+		if(JAVA_DEBUG) {echo "setresult prepare hash:"; echo sprintf("%s", $st['t']); echo "\n";}
+		if($s[0]=='N') { /* number */
+		  $arg->setIndex($this->getExact($st['v']));
+		  if(JAVA_DEBUG) {echo "setresult array: index:"; echo sprintf("%s", $st['v']); echo "\n";}
+		} else {
+		  $arg->setIndex($this->parser->getData($st['v']));
+		  if(JAVA_DEBUG) {echo "setresult hash: index:"; echo sprintf("%s", $this->parser->getData($st['v'])); echo "\n";}
+		}
+	  } else {					/* array */
+		$arg->setNextIndex();
+	  }
+	  break;
+	case 'S':
+	  $arg->setResult($this->parser->getData($st['v']));
+	  if(JAVA_DEBUG) {echo "setresult string:"; echo sprintf("%s", $this->parser->getData($st['v'])); echo "\n";}
+	  break;
+	case 'B':
+	  $s=$st['v'];
+	  $arg->setResult($s[0]=='T');
+	  if(JAVA_DEBUG) {echo "setresult bool:"; echo sprintf("%s", $st['v']); echo "\n";}
+	  break;
+	case 'L':					// unsigned long
+	  $sign = $st['p'];
+	  $val = $this->getExact($st['v']);
+	  if($sign[0]=='A') $val*=-1;
+	  $arg->setResult($val);
+	  if(JAVA_DEBUG) {echo "setresult long:"; echo sprintf("%s, sign: %s", $st['v'], $st['p']); echo "\n";}
+	  break;
+	case 'D':
+	  $arg->setResult($this->getInexact($st['v']));
+	  if(JAVA_DEBUG) {echo "setresult double:"; echo sprintf("%s", $st['v']); echo "\n";}
+	  break;
+	case 'V':
+	  if ($st['n']!='T') {
+		if(JAVA_DEBUG) {echo "setresult VOID:"; echo "\n";}
+		$arg->setVoidSignature();
+	  }
+	  // fall through
+	case 'N':
+	  $arg->setResult(null);
+	  if(JAVA_DEBUG) {echo "setresult null\n"; }
+	  break;
+	case 'F':
+	  if(JAVA_DEBUG) {echo "comm. end\n"; }
+	  break;
+	case 'O': 
+	  $arg->setFactory($this->getProxyFactory($st['p']));
+	  $arg->setResult($this->asyncCtx=$this->getExact($st['v']));
+	  if($st['n']!='T') $arg->setSignature($st['m']);
+	  if(JAVA_DEBUG) {echo "setresult object:"; echo sprintf("%x", $this->asyncCtx); echo "\n";}
+	  break;
+	case 'E':
+	  $arg->setFactory($this->throwExceptionProxyFactory);
+	  if(JAVA_DEBUG) {echo "setresult exception:"; echo sprintf("%x", $this->asyncCtx); echo "\n";}
+	  $arg->setException($st['m']);
+	  $arg->setResult($this->asyncCtx=$this->getExact($st['v']));
+	  break;
+	default: 
+	  $this->parser->parserError();
+	}
+  }
+  function end($name) {
+    switch($name[0]) {
+	case 'X':
+	  $frame = array_pop($this->stack);
+	  $this->arg = $frame->parentArg;
+	  break;
+	}
+  }
+  function createParserString() {
+	return new java_ParserString();
+  }
+  
+  function writeArg($arg) {
+	if(is_string($arg)) {
+	  $this->protocol->writeString($arg);
+	} else if(is_object($arg)) {
+      if ((!$arg instanceof java_JavaType)) {
+		error_log((string)new java_IllegalArgumentException($arg));
+		trigger_error("argument '".get_class($arg)."' is not a Java object, using NULL instead", E_USER_WARNING);
+		$this->protocol->writeObject(null);
+      } else {
+		$this->protocol->writeObject($arg->__java);
+	  }
+	} else if(is_null($arg)) {
+	  $this->protocol->writeObject(null);
+	} else if(is_bool($arg)) {
+	  $this->protocol->writeBoolean($arg);
+	} else if(is_integer($arg)) {
+	  $this->protocol->writeLong($arg);
+	} else if(is_float($arg)) {
+	  $this->protocol->writeDouble($arg);
+	} else if(is_array($arg)) {
+	  $wrote_begin=false;
+	  foreach($arg as $key=>$val) {
+		if(is_string($key)) {
+		  if(!$wrote_begin) {
+			$wrote_begin=1;
+			$this->protocol->writeCompositeBegin_h(); 		
+		  }
+		  $this->protocol->writePairBegin_s($key);
+		  $this->writeArg($val);
+		  $this->protocol->writePairEnd();
+		} else {
+		  if(!$wrote_begin) {
+			$wrote_begin=1;
+			$this->protocol->writeCompositeBegin_h();
+		  }
+		  $this->protocol->writePairBegin_n($key);
+		  $this->writeArg($val);
+		  $this->protocol->writePairEnd();
+		}
+	  }
+	  if(!$wrote_begin) {
+		$this->protocol->writeCompositeBegin_a();
+	  }
+	  $this->protocol->writeCompositeEnd();
+	}
+  }
+  function writeArgs($args) {
+  	$this->inArgs = true;
+	$n = count($args);
+	for($i=0; $i<$n; $i++) {
+	  $this->writeArg($args[$i]);
+	}
+	$this->inArgs = false;
+  }
+  function createObject($name, $args) {
+    $this->protocol->createObjectBegin($name);
+    $this->writeArgs($args);
+    $this->protocol->createObjectEnd();
+	$val = $this->getInternalResult();
+	return $val;
+  }
+  function referenceObject($name, $args) {
+    $this->protocol->referenceBegin($name);
+    $this->writeArgs($args);
+    $this->protocol->referenceEnd();
+	$val = $this->getInternalResult();
+	return $val;
+  }
+  function getProperty($object, $property) {
+	$this->protocol->propertyAccessBegin($object, $property);
+	$this->protocol->propertyAccessEnd();
+	return $this->getResult();
+  }
+  function setProperty($object, $property, $arg) {
+	$this->protocol->propertyAccessBegin($object, $property);
+	$this->writeArg($arg);
+	$this->protocol->propertyAccessEnd();
+	$this->getResult();
+  }
+  function invokeMethod($object, $method, $args) {
+	$this->protocol->invokeBegin($object, $method);
+	$this->writeArgs($args);
+	$this->protocol->invokeEnd();
+	$val = $this->getResult();
+	return $val;
+  }
+ function setExitCode($code) {
+	if (isset($this->protocol)) $this->protocol->writeExitCode($code);
+  }
+  function unref($object) {
+	if (isset($this->protocol)) $this->protocol->writeUnref($object);
+  }
+  function apply($arg) {
+	$name = $arg->p;
+	$object = $arg->v;
+	$ob = ($object==null) ? $name : array(&$object, $name);
+
+	// save the current state
+	$isAsync                = $this->isAsync;
+    $methodCache            = $this->methodCache;
+    $currentArgumentsFormat = $this->currentArgumentsFormat;
+    // the currentCacheKey is destroyed when the result is received
+    // so that apply calls are not cached
+        
+	try {
+  	$res = $arg->getResult(true);
+	if((($object==null) && !function_exists($name)) || (!($object==null) && !method_exists($object, $name))) throw new JavaException("java.lang.NoSuchMethodError", "$name");
+	  
+	  $res = call_user_func_array($ob, $res);
+      
+      if (is_object($res) && (!($res instanceof java_JavaType))) {
+          trigger_error("object returned from $name() is not a Java object", E_USER_WARNING);
+ 
+          // correct this error by calling: $res=java_closure($res);
+          $this->protocol->invokeBegin(0, "makeClosure");
+          $this->protocol->writeULong($this->globalRef->add($res)); // proper PHP "long" -> Java 64 bit value conversion
+          $this->protocol->invokeEnd();
+          $res = $this->getResult();
+      }
+
+	  $this->protocol->resultBegin();
+	  $this->writeArg($res);
+	  $this->protocol->resultEnd();
+	} catch (JavaException $e) {
+	  $trace = $e->getTraceAsString();
+	  $this->protocol->resultBegin();
+	  $this->protocol->writeException($e->__java, $trace);
+	  $this->protocol->resultEnd();
+	} catch(Exception $ex) {
+	  error_log($ex->__toString());
+	  trigger_error("Unchecked exception detected in callback", E_USER_ERROR);
+	  die (1);
+	}	  
+
+	// restore the state
+	$this->isAsync                = $isAsync;
+	$this->methodCache            = $methodCache;
+	$this->currentArgumentsFormat = $currentArgumentsFormat;
+  }
+  function cast($object, $type) {
+    switch($type[0]) {
+	case 'S': case 's':
+	  return $this->invokeMethod(0, "castToString", array($object));
+	case 'B': case 'b':
+	  return $this->invokeMethod(0, "castToBoolean", array($object));
+	case 'L': case 'I': case 'l': case 'i':
+	  return $this->invokeMethod(0, "castToExact", array($object));
+	case 'D': case 'd': case 'F': case 'f':
+	  return $this->invokeMethod(0, "castToInExact", array($object));
+	case 'N': case 'n':
+	  return null;
+	case 'A': case 'a':
+	  return $this->invokeMethod(0, "castToArray", array($object));
+	case 'O': case 'o':			// eh?
+	  return $object;
+	default: 
+	  throw new java_RuntimeException("$type illegal");
+	}
+  }
+  function getContext() {
+	static $cache = null;
+	if (!is_null($cache)) return $cache;
+	return $cache = $this->invokeMethod(0, "getContext", array());
+  }
+  function getSession($args) {
+	return $this->invokeMethod(0, "getSession", $args);
+  }
+  function getServerName() {
+	static $cache = null;
+	if (!is_null($cache)) return $cache;
+	return $cache = $this->protocol->getServerName();
+  }
+}
+/**
+ * @@access private
+ */
+function java_shutdown() {
+  global $java_initialized;
+  if (!$java_initialized) return;
+
+  if (session_id()) session_write_close();
+  $client = __javaproxy_Client_getClient();
+  if(JAVA_DEBUG) echo "the client destroyed\n";
+  if (!isset($client->protocol) || $client->inArgs) return;
+  if ($client->preparedToSendBuffer) 
+    $client->sendBuffer.=$client->preparedToSendBuffer;
+  $client->sendBuffer.=$client->protocol->getKeepAlive();
+  $client->protocol->flush();
+  $client->protocol->keepAlive();
+}
+register_shutdown_function("java_shutdown");
+
+?>
+@
+
+
+1.38
+log
+@New FastCGI implementation
+@
+text
+@@
+
+
+1.37
+log
+@Version 7.0.0 for PHP 7 released
+@
+text
+@d561 3
+@
+
+
+1.36
+log
+@php 7
+@
+text
+@d264 1
+a264 1
+  public $asyncCtx, $cancelProxyCreationCounter;
+d302 1
+a302 1
+	$this->asyncCtx = $this->cancelProxyCreationCounter = 0;
+@
+
+
+1.35
+log
+@Release-6-2-1
+@
+text
+@d56 1
+a56 1
+  function java_SimpleFactory($client) {
+d141 1
+a141 1
+  function java_CacheEntry($fmt, $signature, $factory, $resultVoid) {
+d158 1
+a158 1
+  function java_Arg($client) {
+d214 2
+a215 2
+  function java_CompositeArg($client, $type) {
+	parent::java_Arg($client);
+d240 2
+a241 2
+  function java_ApplyArg($client, $type, $m, $p, $v, $n) {
+	parent::java_CompositeArg($client, $type);
+d282 1
+a282 1
+  function java_Client() {
+@
+
+
+1.34
+log
+@Release-6-1-2-2
+@
+text
+@d637 1
+a637 6
+	static $cache = null;
+	if (!is_null($cache)) {
+	  trigger_error("java_session() should be called once at the beginning of the script", E_USER_WARNING);	  
+	  return $cache;
+	}
+	return $cache = $this->invokeMethod(0, "getSession", $args);
+@
+
+
+1.33
+log
+@Release-6-1-2-1
+@
+text
+@d279 3
+d305 2
+d522 1
+d527 1
+d660 1
+a660 1
+  if (!isset($client->protocol)) return;
+@
+
+
+1.32
+log
+@Release-6-0-3
+@
+text
+@d3 42
+a44 37
+  /* java_Client.php -- parser callbacks for the PHP/Java Bridge.
+
+  Copyright (C) 2003-2007 Jost Boekemeier
+
+  This file is part of the PHP/Java Bridge.
+
+  The PHP/Java Bridge ("the library") is free software; you can
+  redistribute it and/or modify it under the terms of the GNU General
+  Public License as published by the Free Software Foundation; either
+  version 2, or (at your option) any later version.
+
+  The library is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with the PHP/Java Bridge; see the file COPYING.  If not, write to the
+  Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+  02111-1307 USA.
+
+  Linking this file statically or dynamically with other modules is
+  making a combined work based on this library.  Thus, the terms and
+  conditions of the GNU General Public License cover the whole
+  combination.
+
+  As a special exception, the copyright holders of this library give you
+  permission to link this library with independent modules to produce an
+  executable, regardless of the license terms of these independent
+  modules, and to copy and distribute the resulting executable under
+  terms of your choice, provided that you also meet, for each linked
+  independent module, the terms and conditions of the license of that
+  module.  An independent module is a module which is not derived from
+  or based on this library.  If you modify this library, you may extend
+  this exception to your version of the library, but you are not
+  obligated to do so.  If you do not wish to do so, delete this
+  exception statement from your version. */
+@
+
+
+1.31
+log
+@Release-5-5-5
+@
+text
+@a277 6
+	// named pipes are enabled if shared memory is accessible
+	if(JAVA_PIPE_DIR && function_exists("posix_mkfifo")) 
+	  $this->RUNTIME['PIPE_DIR']=JAVA_PIPE_DIR;
+	else
+	  $this->RUNTIME['PIPE_DIR']=null;
+
+@
+
+
+1.30
+log
+@Release-5-5-4
+@
+text
+@d651 1
+@
+
+
+1.29
+log
+@Release 5.5.3
+@
+text
+@a63 3
+  function java_ProxyFactory($client) {
+	parent::java_SimpleFactory($client);
+  }
+a79 3
+  function java_ArrayProxyFactory($client) {
+	parent::java_ProxyFactory($client);
+  }
+a87 3
+  function java_IteratorProxyFactory($client) {
+	parent::java_ProxyFactory($client);
+  }
+a95 3
+  function java_ExceptionProxyFactory($client) {
+	parent::java_SimpleFactory($client);
+  }
+a108 3
+  function java_ThrowExceptionProxyFactory($client) {
+	parent::java_ExceptionProxyFactory($client);
+  }
+d183 2
+a184 6
+	  if(JAVA_DEBUG) {
+	    echo "ignore further results:";  echo "\n";
+	  }
+	  if(JAVA_DEBUG) {
+	    echo "updating cache $key, argformat: {$this->client->currentArgumentsFormat}, classType: {$this->signature}\n";
+	  }
+d194 1
+a194 3
+	  if(JAVA_DEBUG) {
+		echo "updating cache $key, argformat: {$this->client->currentArgumentsFormat}, classType: {$this->signature}\n";
+	  }
+d319 1
+a320 1
+	  $tail_call = false;
+d329 1
+a329 1
+		$tail_call = 1;			// we don't expect a result
+d331 1
+a331 1
+		$tail_call = 0;
+@
+
+
+1.28
+log
+@Release-5-5-2
+@
+text
+@d136 1
+a136 1
+	if ($result->__hasDeclaredExceptions=='T')
+d139 1
+a139 3
+	  error_log ($result->__toString());
+	  trigger_error("Unchecked exception detected", E_USER_ERROR);
+	  die(1);
+@
+
+
+1.27
+log
+@Release-5-5-1
+@
+text
+@d475 1
+a475 1
+	  $arg->setException($this->parser->getData($st['m']));
+@
+
+
+1.26
+log
+@Release-5-5
+@
+text
+@d41 4
+a44 4
+require_once("${JAVA_BASE}/JavaProxy.inc");
+require_once("${JAVA_BASE}/Parser.inc");
+require_once("${JAVA_BASE}/Protocol.inc");
+require_once("${JAVA_BASE}/GlobalRef.inc");
+a54 1
+	if (false) { $signature = $signature; $wrap = $wrap; $exception = $exception; }
+a57 1
+  	if (false) $result = $result;
+a73 1
+	if (false) { $exception = $exception; }
+a124 1
+	if (false) { $wrap = $wrap; }
+a684 2
+/** Autoload Java classes if not disabled via define("JAVA_DISABLE_AUTOLOAD", true); */
+if(!defined(JAVA_DISABLE_AUTOLOAD)) spl_autoload_register("java_autoload_function");
+@
+
+
+1.25
+log
+@Release-5.4.4.2
+@
+text
+@d140 7
+a146 1
+	throw $result;
+d202 1
+a202 1
+	if($key && $key[0]!='~') {			// don't cache array(...) or non-java objects
+d218 1
+a218 1
+	if($key && $key[0]!='~') {			// don't cache array(...) or non-java objects
+d386 1
+d502 7
+a508 3
+      if (!$arg instanceof java_JavaType) throw new java_IllegalArgumentException($arg);
+	  $this->protocol->writeObject($arg->__java);
+	  return $arg;
+a542 1
+	return null;
+d588 1
+a588 1
+	$ob = $object ? array(&$object, $name) : $name;
+d599 1
+a599 1
+	  if((!$object && !function_exists($name)) || ($object && !method_exists($object, $name))) throw new JavaException("java.lang.NoSuchMethodError", "$name");
+d603 1
+a603 1
+      if (is_object($res) && !($res instanceof java_JavaType)) {
+d622 3
+a624 1
+	   die ($ex);
+d654 1
+a654 1
+	if ($cache) return $cache;
+d659 1
+a659 1
+	if ($cache) {
+d667 1
+a667 1
+	if ($cache) return $cache;
+d688 3
+@
+
+
+1.24
+log
+@Release-5-4-4-2
+@
+text
+@d659 3
+@
+
+
+1.23
+log
+@Release-5-4-4-2
+@
+text
+@d660 3
+@
+
+
+1.22
+log
+@Release-5-4-3-1
+@
+text
+@a325 13
+  function __destruct() { 
+	if(JAVA_DEBUG) echo "the client destroyed\n";
+	if (!isset($this->protocol)) return;
+
+	if ($this->preparedToSendBuffer) 
+	  $this->sendBuffer.=$this->preparedToSendBuffer;
+
+	$this->sendBuffer.=$this->protocol->getKeepAlive();
+
+	$this->protocol->flush();
+	$this->protocol->keepAlive();
+  }
+
+d659 12
+a670 1
+?>@
+
+
+1.21
+log
+@Release-5-4-1
+@
+text
+@d610 1
+a610 1
+          $this->protocol->invokeBegin(0, "makeClosure", "5", "6");
+@
+
+
+1.20
+log
+@Backward compatibility with BEA WL 8.1
+@
+text
+@d586 1
+a586 1
+	$this->protocol->writeUnref($object);
+@
+
+
+1.19
+log
+@Release 5.3.4
+@
+text
+@d330 6
+a335 2
+	if ($this->preparedToSendBuffer) $this->sendBuffer.=$this->preparedToSendBuffer;
+	if ($this->sendBuffer) $this->protocol->flush();
+@
+
+
+1.18
+log
+@Release 5.3.3.1
+@
+text
+@d330 1
+d650 3
+a652 1
+	return $this->invokeMethod(0, "getContext", array());
+d655 6
+a660 1
+	return $this->invokeMethod(0, "getSession", $args);
+d663 3
+a665 1
+	return $this->protocol->getServerName();
+@
+
+
+1.17
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d597 1
+a597 1
+	  if((!$object && !function_exists($name)) || ($object && !method_exists($object, $name))) throw new JavaException("java.lang.NoSuchMethodException", "$name");
+@
+
+
+1.16
+log
+@PR#2157571
+@
+text
+@d600 10
+@
+
+
+1.15
+log
+@Release-5-3-1
+@
+text
+@d328 2
+@
+
+
+1.14
+log
+@Release-5-2-2-1
+@
+text
+@d54 2
+a55 2
+  function getProxy($result, $signature, $wrap) {
+	if (false) { $signature = $signature; $wrap = $wrap; }
+d75 2
+a76 1
+  function getProxy($result, $signature, $wrap) {
+d114 1
+a114 1
+  function getProxy($result, $signature, $wrap) {
+d116 1
+a116 1
+	if($wrap) $proxy = new java_InternalException($proxy);
+d127 2
+a128 2
+  function getProxy($result, $signature, $wrap) {
+    if (false) $wrap = $wrap;
+d135 2
+a136 1
+	$proxy = new java_InternalException($proxy);
+d179 1
+a179 1
+	$rc = $this->factory->getProxy($this->val, $this->signature, $wrap);
+d246 1
+a246 1
+	$this->val[$this->idx]=$this->factory->getProxy($val, $this->signature, true);
+d319 1
+a319 1
+	$this->globalRef = new java_GlobalRef($this);
+d477 2
+a479 2
+	  if(JAVA_DEBUG) {echo "setresult exception:"; echo sprintf("%x", $this->asyncCtx); echo "\n";}
+	  $arg->setException($st['m']);
+@
+
+
+1.13
+log
+@Release-5-0-1
+@
+text
+@d295 2
+@
+
+
+1.12
+log
+@Release-5-0-0
+@
+text
+@d194 11
+a204 9
+	$this->client->currentArgumentsFormat[6]="3";
+	if(JAVA_DEBUG) {
+	  echo "ignore further results:";  echo "\n";
+	}
+	if(JAVA_DEBUG) {
+	  echo "updating cache $key, argformat: {$this->client->currentArgumentsFormat}, classType: {$this->signature}\n";
+	}
+	$cacheEntry = new java_CacheEntry($this->client->currentArgumentsFormat, $this->signature, $this->factory, true);
+	$this->client->methodCache[$key]=$cacheEntry;
+d582 7
+a588 3
+	$isAsync = $this->isAsync;
+    $methodCache = $this->methodCache;
+
+d607 4
+a610 2
+	$this->isAsync = $isAsync;
+	$this->methodCache = $methodCache;
+@
+
+
+1.11
+log
+@Release-4-3-3
+@
+text
+@a266 3
+  const RECV_SIZE=8192;
+  const SEND_SIZE=8192;
+
+d451 1
+a451 1
+	  if ($this->isAsync) {
+d466 1
+a466 1
+	  $arg->setSignature($st['m']);
+@
+
+
+1.10
+log
+@Release-4-3-2
+@
+text
+@d191 1
+a191 1
+	$this->signature = "@@N";
+a259 61
+/**@@deprecated*/
+/**
+ * @@access private
+ */
+class java_Handler {
+  public $client;
+  
+  function java_Handler($client) {
+	$this->client = $client;
+  }
+
+  function flush() {}
+
+  function sendData() {
+    $this->client->protocol->sendData();
+  }
+
+  function handleRequests() {
+	$client = $this->client;
+	do {
+	  $tail_call = false;
+	  $this->client->stack=array($this->client->arg=$this->client->simpleArg);
+	  $client->idx = 0;
+	  $client->parser->parse();
+
+	  /* pull off A, if any */
+	  if((count($client->stack)) > 1) {
+		$arg = array_pop($client->stack);
+		$client->apply($arg);
+		$tail_call = 1;			// we don't expect a result
+	  } else {
+		$tail_call = 0;
+	  }
+
+	  $client->stack=null;
+	} while($tail_call);
+	return 1;
+  }
+}
+/**@@deprecated*/
+/**
+ * @@access private
+ */
+class java_AsyncHandler extends java_Handler {
+  public $arg;
+  function java_AsyncHandler($client) {
+	$this->client = $client;
+	$this->arg = $client->simpleArg;
+  }
+  function flush() {
+    $this->client->protocol->sendData();
+  }
+  function sendData() {
+    $this->client->protocol->sendAsyncData();
+  }
+
+  function handleRequests() {
+	$this->arg->setFactory($this->client->proxyFactory);
+	$this->arg->setResult(++$this->client->asyncCtx);
+  }
+}
+d279 1
+a279 1
+  public $asyncCtx;
+d285 3
+a287 1
+  public $methodCache = array(), $currentCacheKey, $currentArgumentsFormat;
+d290 1
+a293 3
+  /**@@deprecated*/
+  public $defaultHandler, $asyncHandler, $handler;
+
+d318 3
+a320 5
+	$this->asyncCtx = 0;
+
+	/**@@deprecated*/
+	$this->handler = $this->defaultHandler = new java_Handler($this);
+	$this->asyncHandler = new java_AsyncHandler($this);
+d325 1
+a325 1
+	$this->protocol->flush();
+d334 1
+a334 2
+	$this->handler->flush();
+	$this->handler = $this->defaultHandler;
+d338 1
+a338 1
+	$this->handler = $this->asyncHandler;
+a340 3
+  function isAsync() {
+	return $this->handler === $this->asyncHandler;
+  }
+a342 2
+	if(!JAVA_CACHE_ENABLED) { $this->handler->handleRequests(); return 1;}
+	  
+d421 1
+d424 1
+d427 1
+d435 1
+d440 1
+d447 1
+d451 1
+d454 6
+a459 4
+	  if(JAVA_DEBUG) {echo "setresult VOID:"; echo "\n";}
+	  /* fall through */
+	case 'N':					// FIXME
+	  $arg->setVoidSignature();
+d461 1
+d464 1
+d582 4
+d591 1
+d603 3
+@
+
+
+1.9
+log
+@Release-4-3-1
+@
+text
+@d50 1
+a50 1
+  var $client;
+d55 5
+a59 1
+	return $result;
+a60 1
+  function checkResult($result) {}
+a110 1
+	static $count = 0;
+d127 2
+a128 1
+	$proxy = $this->create($result, $signature);
+d146 2
+a147 2
+  var $fmt, $signature, $factory, $java;
+  var $resultVoid;
+d161 4
+a164 4
+  var $client;
+  var $exception; 				// string representation for php4
+  var $factory, $val;
+  var $signature; // class type
+d221 4
+a224 4
+  var $parentArg;
+  var $idx;						// position within $val;
+  var $type;					// for A and X
+  var $counter;
+d250 1
+a250 1
+  var $m, $p, $v, $n; 			// see PROTOCOL.TXT
+d265 1
+a265 1
+  var $client;
+d304 1
+a304 1
+  var $arg;
+d326 1
+a326 1
+  var $RUNTIME;
+d331 2
+a332 2
+  var $result, $exception;
+  var $parser;
+d334 2
+a335 2
+  var $simpleArg, $compositeArg;
+  var $simpleFactory, 
+d339 3
+a341 3
+  var $arg;
+  var $asyncCtx;
+  var $globalRef;
+d343 1
+a343 1
+  var $stack;
+d346 2
+a347 2
+  var $methodCache = array(), $currentCacheKey, $currentArgumentsFormat;
+  var $cachedJavaPrototype;
+d350 1
+a350 1
+  var $sendBuffer, $preparedToSendBuffer;
+d353 1
+a353 1
+  var $defaultHandler, $asyncHandler, $handler;
+d465 2
+a466 1
+	sscanf($str, "%e", $val);
+@
+
+
+1.8
+log
+@Release-4-3-0
+@
+text
+@d552 1
+d650 1
+a650 6
+	  $e = new Java("java.lang.Exception", $ex->getMessage);
+	  $t = new Java("java.lang.reflect.UndeclaredThrowableException",$e);
+	  $trace = $ex->getTraceAsString();
+	  $this->protocol->resultBegin();
+	  $this->protocol->writeException($t->__java, $trace);
+	  $this->protocol->resultEnd();
+@
+
+
+1.7
+log
+@Release-4-2-1
+@
+text
+@d46 3
+d59 3
+d78 3
+d89 3
+d100 3
+d117 3
+d139 3
+d154 3
+d214 3
+d243 3
+d258 3
+d297 3
+d319 3
+d374 1
+a374 1
+	$this->globalRef = new java_GlobalRef();
+@
+
+
+1.6
+log
+@Release-4-2-0
+@
+text
+@d227 55
+d310 2
+d338 4
+d354 13
+d368 2
+d474 2
+a476 2
+	  /* fall through */
+	case 'N':
+@
+
+
+1.5
+log
+@Release-4-1-8
+@
+text
+@d51 1
+a51 1
+  function getProxy($result,$wrap) {
+d60 2
+a61 2
+  function create($result) {
+	return new java_JavaProxy($result);
+d64 1
+a64 1
+	return new java_InternalJavaObject($proxy);	// no array access
+d66 2
+a67 2
+  function getProxy($result, $wrap) {
+	$proxy = $this->create($result);
+d76 2
+a77 5
+  function createInternal($proxy) {
+	return new java_InternalJava($proxy); // array access
+  }
+  function create($result) {
+	return new java_ArrayProxy($result);
+d84 2
+a85 2
+  function create($result) {
+	return new java_IteratorProxy($result);
+d92 1
+a92 1
+  function create($result) {
+d94 1
+a94 1
+	return new java_ExceptionProxy($result);
+d96 2
+a97 2
+  function getProxy($result, $wrap) {
+	$proxy = $this->create($result);
+d106 2
+a107 2
+  function getProxy($result, $wrap) {
+	$proxy = $this->create($result);
+d121 12
+d137 1
+d150 1
+a150 1
+	$rc = $this->factory->getProxy($this->val, $wrap);
+d152 1
+d163 26
+d212 1
+a212 1
+	$this->val[$this->idx]=$this->factory->getProxy($val, true);
+a227 53
+class java_Handler {
+  var $client;
+  
+  function java_Handler($client) {
+	$this->client = $client;
+  }
+
+  function flush() {}
+
+  function sendData() {
+    $this->client->protocol->sendData();
+  }
+
+  function handleRequests() {
+	$client = $this->client;
+	do {
+	  $tail_call = false;
+	  $this->client->stack=array($this->client->arg=$this->client->simpleArg);
+	  $client->idx = 0;
+	  $client->parser->parse();
+
+	  /* pull off A, if any */
+	  if((count($client->stack)) > 1) {
+		$arg = array_pop($client->stack);
+		$client->apply($arg);
+		$tail_call = 1;			// we don't expect a result
+	  } else {
+		$tail_call = 0;
+	  }
+
+	  $client->stack=null;
+	} while($tail_call);
+	return 1;
+  }
+}
+class java_AsyncHandler extends java_Handler {
+  var $arg;
+  function java_AsyncHandler($client) {
+	$this->client = $client;
+	$this->arg = $client->simpleArg;
+  }
+  function flush() {
+    $this->client->protocol->sendData();
+  }
+  function sendData() {
+    $this->client->protocol->sendAsyncData();
+  }
+
+  function handleRequests() {
+	$this->arg->setFactory($this->client->proxyFactory);
+	$this->arg->setResult(++$this->client->asyncCtx);
+  }
+}
+a244 1
+  var $defaultHandler, $asyncHandler, $handler;
+d248 8
+d274 2
+a280 2
+	$this->handler = $this->defaultHandler = new java_Handler($this);
+	$this->asyncHandler = new java_AsyncHandler($this);
+d284 3
+d293 6
+a298 4
+  function setDefaultHandler() {
+	$this->handler->flush();
+	$this->handler = $this->defaultHandler;
+  }
+d300 8
+a307 3
+  function setAsyncHandler() {
+	$this->handler = $this->asyncHandler;
+  }
+d309 3
+a311 10
+  function isAsync() {
+	return $this->handler === $this->asyncHandler;
+  }
+
+  function handleRequests() {
+	$this->handler->handleRequests();
+  }
+
+  function sendData() {
+	$this->handler->sendData();
+d396 4
+d408 2
+d414 1
+d481 2
+a482 3
+  function createObject($name, $args, $createInstance) {
+	$instance = $createInstance?"I":"C";
+    $this->protocol->createObjectBegin($name, $instance);
+d488 7
+d496 2
+a497 2
+	$this->protocol->invokeBegin($object, $property, "P");
+	$this->protocol->invokeEnd();
+d501 1
+a501 1
+	$this->protocol->invokeBegin($object, $property, "P");
+d503 1
+a503 1
+	$this->protocol->invokeEnd();
+d507 1
+a507 1
+	$this->protocol->invokeBegin($object, $method, "I");
+d572 1
+a572 1
+?>
+@
+
+
+1.4
+log
+@Release-4-1-7
+@
+text
+@a558 2
+	$this->protocol->overrideRedirect();
+	$this->protocol->getSession();
+@
+
+
+1.3
+log
+@Release-4-0-5
+@
+text
+@d560 1
+a560 1
+	$this->protocol->getSession($args);
+@
+
+
+1.2
+log
+@Release-4-0-2
+@
+text
+@d268 4
+a271 3
+	$this->RUNTIME['PIPE_DIR']=null;
+	if((function_exists("posix_mkfifo") && file_exists("/dev/shm")))
+	  $this->RUNTIME['PIPE_DIR']="/dev/shm";
+@
+
+
+1.1
+log
+@Further inclusions of 4.0.1 code extracted from src.tgz. Andre Felipe Machado.
+@
+text
+@d267 5
+d558 1
+a558 2
+	//TODO: Handle override redirect when java_session() is not
+	// the first statement in a script
+@
+

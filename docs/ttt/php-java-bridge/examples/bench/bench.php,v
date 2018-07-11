@@ -1,0 +1,529 @@
+head	1.13;
+access;
+symbols
+	Release-7-1-1:1.13.0.72
+	Root_Release-7-1-1:1.13
+	Root_Release_7-0-1:1.13
+	Release_7-0-1:1.13.0.70
+	Release_7-0-0:1.13.0.68
+	Root_Release_7-0-0:1.13
+	Release-6-2-2:1.13.0.66
+	Release-6-1-2-3:1.13
+	Root_Release-6-1-2-3:1.13
+	Release-6-1-2-2:1.13.0.64
+	Root_Release-6-1-2-2:1.13
+	debian_version_6_1_2_1-1:1.13
+	upstream_version_6_1_2_1:1.13
+	Release-6-1-2-1_new:1.13.0.62
+	Root_Release-6-1-2-1_new:1.13
+	Release-6-1-2-1:1.13.0.60
+	Root_Release-6-1-2-1:1.13
+	upstream_version_6_1_2:1.13
+	debian_version_6_1_2-1:1.13
+	Release-6-1-2:1.13.0.58
+	Root_Release-6-1-2:1.13
+	debian_version_6_1_1-2:1.13
+	debian_version_6_1_1-1:1.13
+	upstream_version_6_1_1:1.13
+	Release-6-1-1:1.13.0.56
+	Root_Release-6-1-1:1.13
+	Release-6-0-4:1.13.0.54
+	Root_Release-6-0-4:1.13
+	Release-6-0-3_NEW:1.13.0.50
+	Root_Release-6-0-3_NEW:1.13
+	Release-6-0-3:1.13.0.52
+	Root_Release-6-0-3:1.13
+	Release-6-0-0:1.13.0.48
+	Root_Release-6-0-0:1.13
+	Release-5-5-4-1:1.13.0.46
+	Root_Release-5-5-4-1:1.13
+	Release-5-5-4:1.13.0.44
+	Root_Release-5-5-4:1.13
+	Release-5-5-3:1.13.0.42
+	ROOT_Release-5-5-3:1.13
+	Release-5-5-2:1.13.0.40
+	Root_Release-5-5-2:1.13
+	debian_version_5_5_1-1:1.13
+	Release-5-5-1:1.13.0.36
+	upstream_version_5_5_1:1.13
+	ROOT_Release-5-5-1:1.13
+	debian_version_5_5-1:1.13
+	upstream_version_5_5:1.13
+	ROOT_Release-5-5:1.13
+	Release-5-5:1.13.0.38
+	debian_version_5_4_4_2-3:1.13
+	Release-5-4-4-2-1:1.13.0.32
+	debian_version_5_4_4_2-2:1.13
+	debian_version_5_4_4_2-1:1.13
+	upstream_version_5_4_4_2:1.13
+	debian_version_5_4_4_1-1:1.13
+	upstream_version_5_4_4_1:1.13
+	debian_version_5_4_4-1:1.13
+	upstream_version_5_4_4:1.13
+	Release-5-4-4:1.13.0.34
+	Root_Release-5-4-4:1.13
+	debian_version_5_4_3_2-1:1.13
+	upstream_version_5_4_3_2:1.13
+	Release_5-4-3-2:1.13.0.30
+	Root_Release_5-4-3-2:1.13
+	upstream_version_5_4_3_1:1.13
+	debian_version_5_4_3_1-1:1.13
+	Release-5-4-3:1.13.0.28
+	Root_Release-5-4-3:1.13
+	Root_Release-5-4-1:1.13
+	Release-5-4-1:1.13.0.26
+	Root_Release-5-4:1.13
+	Release-5-4:1.13.0.24
+	upstream_version_5_3_4:1.13
+	debian_version_5_3_4-1:1.13
+	ROOT_Release-5-3-4:1.13
+	Release-5-3-4:1.13.0.22
+	ROOT_Release-5-3-3:1.13
+	Release-5-3-3:1.13.0.18
+	debian_version_5_3_2_1_2-1:1.13
+	upstream_version_5_3_2_1_2:1.13
+	debian_version_5_3_2_1_1-1:1.13
+	debian_version_5_3_2_1_1:1.13
+	upstream_version_5_3_2_1_1:1.13
+	Root_Release-5-3-2-1:1.13
+	Release-5-3-2-1:1.13
+	ROOT_RELEASE-5-3-2-1:1.13
+	RELEASE-5-3-2-1:1.13.0.20
+	Release-5-3-2:1.13.0.16
+	Root_Release-5-3-2:1.13
+	Root_Release-5-3-1:1.13
+	Release-5-3-1:1.13.0.14
+	Release-5-2-3-1:1.13.0.12
+	Root_Release-5-2-3-1:1.13
+	Release-5-2-2-4:1.13.0.10
+	Root_Release-5-2-2-4:1.13
+	Release-5-2-2-1:1.13.0.8
+	Root_Release-5-2-2-1:1.13
+	upstream_version_5_2_2:1.13
+	debian_version_5_2_2-1:1.13
+	Release-5-2-2:1.13.0.6
+	ROOT_Release-5-2-2:1.13
+	ROOT_Release-5-2-1:1.13
+	Release-5-2-1:1.13.0.4
+	Release-5-2-0:1.13.0.2
+	ROOT_Release-5-2-0:1.13
+	ROOT_Release-5-1-2:1.12
+	Release-5-1-2:1.12.0.8
+	Version-5-1-1:1.12.0.6
+	ROOT_Version-5-1-1:1.12
+	debian_version_5_1_0-1:1.12
+	upstream_version_5_1_0:1.12
+	ROOT_Release-5-1-0:1.12
+	Release-5-1-0:1.12.0.4
+	ROOT_Release-5-0-0:1.12
+	Release-5-0-0:1.12.0.2
+	Release-4-3-3:1.11.0.2
+	ROOT_Release-4-3-3:1.11
+	upstream_version_4_3_2:1.10
+	debian_version_4_3_2-1:1.10
+	ROOT_Release-4-3-2:1.10
+	Release-4-3-2:1.10.0.14
+	Release-4-3-1:1.10.0.12
+	ROOT_Release-4-3-1:1.10
+	debian_version_4_3_0-1:1.10
+	upstream_version_4_3_0:1.10
+	ROOT_Release-4-3-0:1.10
+	Release-4-3-0:1.10.0.10
+	debian_version_3_2_1b-2:1.9
+	debian_version_4_2_2-1:1.10
+	upstream_version_4_2_2:1.10
+	debian_version_3_2_1b-1:1.9
+	upstream_version_3_2_1b:1.9
+	Release-4-1-2:1.10.0.8
+	Release-4-0-8:1.10.0.6
+	debian_version_4_0_8a-1:1.10
+	upstream_version_4_0_8a:1.10
+	jostb-debian-ubuntu-patch:1.10.0.4
+	debian_version_4_0_8-1:1.10
+	upstream_version_4_0_8:1.10
+	debian_version_4_0_7-1:1.10
+	upstream_version_4_0_7:1.10
+	debian_version_4_0_6-1:1.10
+	upstream_version_4_0_6:1.10
+	debian_version_4_0_2-1:1.10
+	upstream_version_4_0_2:1.10
+	Release-4-0-2_Root:1.10
+	Release-4-0-2:1.10.0.2
+	upstream_version_4_0_1:1.10
+	debian_version_4_0_1-2:1.10
+	Release-3-2-1:1.9.0.4
+	Release-3-1-8:1.9.0.2
+	Release-3-0-8_root:1.7
+	Release-3-0-8_Root:1.7
+	Release-3-0-8:1.7.0.2
+	Release-2-0-8:1.4.0.4
+	Release-2-0-7_Root:1.3
+	Release-2-0-7:1.3.0.2
+	Release-2-0-6-branch:1.2.0.2
+	Version-1:1.1.0.6
+	Version-2:1.1.0.4
+	Release-2:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.13
+date	2008.03.02.21.36.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2008.01.06.20.59.20;	author jost_boekemeier;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2007.12.28.13.56.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2007.03.09.20.28.09;	author andremachado;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.08.19.12.34.01;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.06.19.20.37.16;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.03.10.18.41.39;	author jost2345;	state Exp;
+branches
+	1.7.2.1;
+next	1.6;
+
+1.6
+date	2006.02.03.17.41.37;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.12.08.18.41.59;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.08.11.18.08.16;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.06.19.20.45.43;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.02.19.13.29.25;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.01.28.16.32.52;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.7.2.1
+date	2006.05.05.17.46.56;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.13
+log
+@Release-5-2-0
+@
+text
+@#!/usr/bin/php
+
+<?php
+   //define ("JAVA_DEBUG", true);
+require_once ("java/Java.inc");
+
+$here = getcwd();
+$java_output = "workbook_java.xls";
+$php_output = "workbook_php.xls";
+
+ini_set("max_execution_time", 0);
+$sys = java("java.lang.System");
+
+// fetch classes and compile them to native code.
+// use local poi.jar, if installed
+try {
+  java_require("$here/exceltest.jar;$here/../../unsupported/poi.jar");
+} catch (JavaException $e) {
+  java_require("$here/exceltest.jar;http://php-java-bridge.sf.net/poi.jar");
+}
+$excel = new java("ExcelTest");
+$excel->createWorkbook("/dev/null", 1, 1);
+
+// test starts
+$sys->gc();
+$start = java_values($sys->currentTimeMillis());
+$excel = new java("ExcelTest");
+$excel->createWorkbook("$here/$java_output", 200, 200);
+$sys->gc();
+$t_java = java_values($sys->currentTimeMillis()) - $start;
+
+include("$here/excel_antitest.php");
+$sys->gc();
+$start = java_values($sys->currentTimeMillis());
+createWorkbook("$here/$php_output", 200, 200);
+$sys->gc();
+
+$t_php = java_values($sys->currentTimeMillis()) - $start;
+
+echo "$java_output\t: $t_java ms.\n";
+echo "$php_output\t: $t_php ms.\t(" . $t_php/$t_java .")\n";
+
+/*
+Sample results on a 1.4GHZ i686, kernel 2.6.8
+
+--------------------------------------------------
+PHP/Java Bridge Version 1.0.8:
+       pure java              mix PHP/Java           pure java     mix PHP/Java
+       interpreted (-Xint)    interpreted (-Xint)    compiled        compiled
+jdk
+1.4:   13367 ms               42919 ms               2325 ms         22276 ms
+1.5:   18342 ms               42048 ms               2227 ms         21008 ms
+
+--------------------------------------------------
+PHP/Java Bridge Version 2.0.7:
+jdk
+1.4:   13929 ms               39723 ms               2349 ms         9232 ms
+
+--------------------------------------------------
+PHP/Java Bridge Version 4.3.3:
+jdk
+1.6:   -     ms               -     ms               2120 ms         7655 ms
+
+*/
+?>
+@
+
+
+1.12
+log
+@Release-5-0-0
+@
+text
+@d5 1
+a5 6
+if (!extension_loaded('java')) {
+  if (!(require_once("http://127.0.0.1:8080/JavaBridge/java/Java.inc"))) {
+    echo "java extension not installed.";
+    exit(2);
+  }
+}
+@
+
+
+1.11
+log
+@Release-4-3-3
+@
+text
+@d4 1
+d31 1
+a31 1
+$start = $sys->currentTimeMillis();
+d35 1
+a35 1
+$t_java = $sys->currentTimeMillis() - $start;
+a36 1
+if(function_exists("java_begin_document")) java_begin_document();
+a43 1
+if(function_exists("java_end_document")) java_end_document();
+@
+
+
+1.10
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@a3 1
+
+a13 1
+$php_output2 = "workbook_php2.xls";
+d16 1
+a16 1
+$sys = new java("java.lang.System");
+d36 1
+d39 1
+a39 1
+$start = $sys->currentTimeMillis();
+a41 1
+$t_php = $sys->currentTimeMillis() - $start;
+d43 6
+a48 14
+if(function_exists("java_begin_document")) {
+  include("$here/excel_antitest2.php");
+  $sys->gc();
+  $start = $sys->currentTimeMillis();
+  createWorkbook2("$here/$php_output2", 200, 200);
+  $sys->gc();
+  $t_php2 = $sys->currentTimeMillis() - $start;
+ }
+
+echo "$java_output (native)\t: $t_java ms.\n";
+echo "$php_output (synchronuous)\t: $t_php ms.\t(" . $t_php/$t_java .")\n";
+if(function_exists("java_begin_document")) {
+  echo "$php_output2 (streamed)\t: $t_php2 ms.\t(" . $t_php2/$t_java .")\n";
+ }
+a58 3
+GNU:   36348 ms               73440 ms                 -                -
+  -> jni/net/reflection overhead ca. 2.0 (GNU) .. 3.1 (JDK 1.4)
+
+a63 2
+GNU:   36365 ms               54082 ms                 -                -
+  -> net/reflection overhead ca. 1.5 (GNU) .. 2.85 (JDK 1.4)
+d65 4
+a68 5
+Note that the compiled PHP/Java mix is now 2.28 times faster (compared
+to PHP/Java Bridge version 1.0.8). Because we don't use the java
+native interface ("JNI") anymore, our high-level XML protocol code
+uses fewer round-trips, avoids expensive JNI lookups and can be JIT
+compiled.
+@
+
+
+1.9
+log
+@Release-3-2-0devel
+@
+text
+@d6 1
+a6 1
+  if (!(include_once("java/Java.php"))&&!(PHP_SHLIB_SUFFIX=="so" && dl('java.so'))&&!(PHP_SHLIB_SUFFIX=="dll" && dl('php_java.dll'))) {
+@
+
+
+1.8
+log
+@Release-3-1-0
+@
+text
+@d6 1
+a6 1
+  if (!(PHP_SHLIB_SUFFIX=="so" && dl('java.so'))&&!(PHP_SHLIB_SUFFIX=="dll" && dl('php_java.dll'))) {
+d17 1
+@
+
+
+1.7
+log
+@Release-3.0.8pre2
+@
+text
+@d21 5
+a25 2
+java_require("$here/exceltest.jar;poi.jar");
+java_require("$here/exceltest.jar;http://php-java-bridge.sf.net/poi.jar");
+@
+
+
+1.7.2.1
+log
+@*** empty log message ***
+@
+text
+@d21 1
+a21 1
+java_require("$here/exceltest.jar;$here/../../unsupported/poi.jar");
+@
+
+
+1.6
+log
+@Release-3.0.7
+@
+text
+@d15 1
+d41 14
+a54 3
+echo "Created excel file $java_output via compiled java in $t_java ms.\n";
+echo "Created excel file $php_output via interpreted PHP in $t_php ms. (" . $t_php/$t_java .")\n";
+
+@
+
+
+1.5
+log
+@Release-3-0-2
+@
+text
+@d19 3
+a21 1
+java_set_library_path("$here/exceltest.jar;poi.jar;http://php-java-bridge.sf.net/poi.jar");
+@
+
+
+1.4
+log
+@Release-2.0.8-preview
+@
+text
+@d39 1
+a39 1
+echo "Created excel file $php_output via interpreted PHP and java reflection calls in $t_php ms. (" . $t_php/$t_java .")\n";
+@
+
+
+1.3
+log
+@Release-2.0.7-pre
+@
+text
+@d5 5
+a9 2
+if(!extension_loaded('java')) {
+  dl('java.' . PHP_SHLIB_SUFFIX);
+d12 1
+a12 1
+$here = trim(`pwd`);
+d42 5
+a46 1
+       java class             php function           java class      php function
+d52 15
+a67 2
+  -> net/reflection overhead ca. 2.0 (GNU) .. 3.1 (JDK 1.4)
+  
+@
+
+
+1.2
+log
+@Protocol update
+@
+text
+@d16 1
+a16 1
+java_set_library_path("$here/exceltest.jar;http://php-java-bridge.sf.net/poi.jar");
+@
+
+
+1.1
+log
+@Release-1.0.8
+@
+text
+@d46 1
+a46 1
+  -> jni/reflection overhead ca. 2.0 (GNU) .. 3.1 (JDK 1.4)
+@
+

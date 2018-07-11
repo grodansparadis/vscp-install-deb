@@ -1,0 +1,48 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2017.04.17.16.23.01;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2017.04.16.15.56.39;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Release-7.1.3
+@
+text
+@source: WebContent/META-INF/java/
+destination: documentation/API/
+visibilityLevels: [public, protected]
+annotationGroups: [todo, deprecated]
+title: VM Bridge
+baseUrl: http://php-java-bridge.sf.net/pjb/docs/php-api
+extensions: [inc, php]
+exclude: [Java.inc]
+@
+
+
+1.1
+log
+@Release-7.1.2
+@
+text
+@d7 1
+a7 1
+extensions: [inc]
+@
+

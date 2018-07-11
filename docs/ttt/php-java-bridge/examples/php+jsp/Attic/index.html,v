@@ -1,0 +1,173 @@
+head	1.2;
+access;
+symbols
+	debian_version_5_3_2_1_1-1:1.1
+	debian_version_5_3_2_1_1:1.1
+	upstream_version_5_3_2_1_1:1.1
+	Root_Release-5-3-2-1:1.1
+	Release-5-3-2-1:1.1
+	ROOT_RELEASE-5-3-2-1:1.1
+	RELEASE-5-3-2-1:1.1.0.50
+	Release-5-3-2:1.1.0.46
+	Root_Release-5-3-2:1.1
+	Root_Release-5-3-1:1.1
+	Release-5-3-1:1.1.0.44
+	Release-5-2-3-1:1.1.0.42
+	Root_Release-5-2-3-1:1.1
+	Release-5-2-2-4:1.1.0.40
+	Root_Release-5-2-2-4:1.1
+	Release-5-2-2-1:1.1.0.38
+	Root_Release-5-2-2-1:1.1
+	upstream_version_5_2_2:1.1
+	debian_version_5_2_2-1:1.1
+	Release-5-2-2:1.1.0.36
+	ROOT_Release-5-2-2:1.1
+	ROOT_Release-5-2-1:1.1
+	Release-5-2-1:1.1.0.34
+	Release-5-2-0:1.1.0.32
+	ROOT_Release-5-2-0:1.1
+	ROOT_Release-5-1-2:1.1
+	Release-5-1-2:1.1.0.30
+	Version-5-1-1:1.1.0.28
+	ROOT_Version-5-1-1:1.1
+	debian_version_5_1_0-1:1.1
+	upstream_version_5_1_0:1.1
+	ROOT_Release-5-1-0:1.1
+	Release-5-1-0:1.1.0.26
+	ROOT_Release-5-0-0:1.1
+	Release-5-0-0:1.1.0.24
+	Release-4-3-3:1.1.0.22
+	ROOT_Release-4-3-3:1.1
+	upstream_version_4_3_2:1.1
+	debian_version_4_3_2-1:1.1
+	ROOT_Release-4-3-2:1.1
+	Release-4-3-2:1.1.0.20
+	Release-4-3-1:1.1.0.18
+	ROOT_Release-4-3-1:1.1
+	debian_version_4_3_0-1:1.1
+	upstream_version_4_3_0:1.1
+	ROOT_Release-4-3-0:1.1
+	Release-4-3-0:1.1.0.16
+	debian_version_3_2_1b-2:1.1
+	debian_version_4_2_2-1:1.1
+	upstream_version_4_2_2:1.1
+	debian_version_3_2_1b-1:1.1
+	upstream_version_3_2_1b:1.1
+	Release-4-1-2:1.1.0.14
+	Release-4-0-8:1.1.0.12
+	debian_version_4_0_8a-1:1.1
+	upstream_version_4_0_8a:1.1
+	jostb-debian-ubuntu-patch:1.1.0.10
+	debian_version_4_0_8-1:1.1
+	upstream_version_4_0_8:1.1
+	debian_version_4_0_7-1:1.1
+	upstream_version_4_0_7:1.1
+	debian_version_4_0_6-1:1.1
+	upstream_version_4_0_6:1.1
+	debian_version_4_0_2-1:1.1
+	upstream_version_4_0_2:1.1
+	Release-4-0-2_Root:1.1
+	Release-4-0-2:1.1.0.8
+	upstream_version_4_0_1:1.1
+	debian_version_4_0_1-2:1.1
+	Release-3-2-1:1.1.0.6
+	Release-3-1-8:1.1.0.4
+	Release-3-0-8_root:1.1
+	Release-3-0-8_Root:1.1
+	Release-3-0-8:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2008.10.12.17.11.51;	author jost_boekemeier;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2006.02.03.17.41.37;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <title>PHP/Java Bridge examples</title>
+</head>
+<body bgcolor="#FFFFFF">
+<H1>PHP/Java Bridge examples</H1>
+
+<br>&nbsp;
+<table BORDER=0 CELLSPACING=5 WIDTH="85%" >
+<tr VALIGN=TOP>
+<td>Test and general php info</td>
+
+<td VALIGN=TOP WIDTH="30%"><a href="test.php">Execute</a></td>
+
+<td WIDTH="30%"></td>
+</tr>
+<tr/>
+<tr VALIGN=TOP>
+<td>Session sharing</td>
+
+<td WIDTH="30%"><a href="sessionSharing.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=sessionSharing.php">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>NumberGuess (php)</td>
+
+<td WIDTH="30%"><a href="numberguess.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=numberguess.php">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>NumberGuess (jsp)</td>
+
+<td WIDTH="30%"><a href="numberguess.jsp">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=numberguess.jsp">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Excel Sheet</td>
+
+<td WIDTH="30%"><a href="excel.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=excel.php">Source</a></td>
+</tr>
+
+<tr VALIGN=TOP>
+<td>Java Server Faces Framework</td>
+
+<td WIDTH="30%"><a href="java-server-faces/index.php">Execute</a></td>
+
+<td WIDTH="30%"><a href="source.php?source=java-server-faces/helloWorld.php">Source</a></td>
+</tr>
+</table>
+
+</body>
+</html>
+@
+
+
+1.1
+log
+@Release-3.0.7
+@
+text
+@@
+

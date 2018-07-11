@@ -1,0 +1,412 @@
+head	1.10;
+access;
+symbols
+	Release-7-1-1:1.10.0.50
+	Root_Release-7-1-1:1.10
+	Root_Release_7-0-1:1.10
+	Release_7-0-1:1.10.0.48
+	Release_7-0-0:1.10.0.46
+	Root_Release_7-0-0:1.10
+	Release-6-2-2:1.10.0.44
+	Release-6-1-2-3:1.10
+	Root_Release-6-1-2-3:1.10
+	Release-6-1-2-2:1.10.0.42
+	Root_Release-6-1-2-2:1.10
+	debian_version_6_1_2_1-1:1.10
+	upstream_version_6_1_2_1:1.10
+	Release-6-1-2-1_new:1.10.0.40
+	Root_Release-6-1-2-1_new:1.10
+	Release-6-1-2-1:1.10.0.38
+	Root_Release-6-1-2-1:1.10
+	upstream_version_6_1_2:1.10
+	debian_version_6_1_2-1:1.10
+	Release-6-1-2:1.10.0.36
+	Root_Release-6-1-2:1.10
+	debian_version_6_1_1-2:1.10
+	debian_version_6_1_1-1:1.10
+	upstream_version_6_1_1:1.10
+	Release-6-1-1:1.10.0.34
+	Root_Release-6-1-1:1.10
+	Release-6-0-4:1.10.0.32
+	Root_Release-6-0-4:1.10
+	Release-6-0-3_NEW:1.10.0.28
+	Root_Release-6-0-3_NEW:1.10
+	Release-6-0-3:1.10.0.30
+	Root_Release-6-0-3:1.10
+	Release-6-0-0:1.10.0.26
+	Root_Release-6-0-0:1.10
+	Release-5-5-4-1:1.10.0.24
+	Root_Release-5-5-4-1:1.10
+	Release-5-5-4:1.10.0.22
+	Root_Release-5-5-4:1.10
+	Release-5-5-3:1.10.0.20
+	ROOT_Release-5-5-3:1.10
+	Release-5-5-2:1.10.0.18
+	Root_Release-5-5-2:1.10
+	debian_version_5_5_1-1:1.10
+	Release-5-5-1:1.10.0.14
+	upstream_version_5_5_1:1.10
+	ROOT_Release-5-5-1:1.10
+	debian_version_5_5-1:1.10
+	upstream_version_5_5:1.10
+	ROOT_Release-5-5:1.10
+	Release-5-5:1.10.0.16
+	debian_version_5_4_4_2-3:1.10
+	Release-5-4-4-2-1:1.10.0.10
+	debian_version_5_4_4_2-2:1.10
+	debian_version_5_4_4_2-1:1.10
+	upstream_version_5_4_4_2:1.10
+	debian_version_5_4_4_1-1:1.10
+	upstream_version_5_4_4_1:1.10
+	debian_version_5_4_4-1:1.10
+	upstream_version_5_4_4:1.10
+	Release-5-4-4:1.10.0.12
+	Root_Release-5-4-4:1.10
+	debian_version_5_4_3_2-1:1.10
+	upstream_version_5_4_3_2:1.10
+	Release_5-4-3-2:1.10.0.8
+	Root_Release_5-4-3-2:1.10
+	upstream_version_5_4_3_1:1.10
+	debian_version_5_4_3_1-1:1.10
+	Release-5-4-3:1.10.0.6
+	Root_Release-5-4-3:1.10
+	Root_Release-5-4-1:1.10
+	Release-5-4-1:1.10.0.4
+	Root_Release-5-4:1.10
+	Release-5-4:1.10.0.2
+	upstream_version_5_3_4:1.9
+	debian_version_5_3_4-1:1.9
+	ROOT_Release-5-3-4:1.9
+	Release-5-3-4:1.9.0.22
+	ROOT_Release-5-3-3:1.9
+	Release-5-3-3:1.9.0.18
+	debian_version_5_3_2_1_2-1:1.9
+	upstream_version_5_3_2_1_2:1.9
+	debian_version_5_3_2_1_1-1:1.9
+	debian_version_5_3_2_1_1:1.9
+	upstream_version_5_3_2_1_1:1.9
+	Root_Release-5-3-2-1:1.9
+	Release-5-3-2-1:1.9
+	ROOT_RELEASE-5-3-2-1:1.9
+	RELEASE-5-3-2-1:1.9.0.20
+	Release-5-3-2:1.9.0.16
+	Root_Release-5-3-2:1.9
+	Root_Release-5-3-1:1.9
+	Release-5-3-1:1.9.0.14
+	Release-5-2-3-1:1.9.0.12
+	Root_Release-5-2-3-1:1.9
+	Release-5-2-2-4:1.9.0.10
+	Root_Release-5-2-2-4:1.9
+	Release-5-2-2-1:1.9.0.8
+	Root_Release-5-2-2-1:1.9
+	upstream_version_5_2_2:1.9
+	debian_version_5_2_2-1:1.9
+	Release-5-2-2:1.9.0.6
+	ROOT_Release-5-2-2:1.9
+	ROOT_Release-5-2-1:1.9
+	Release-5-2-1:1.9.0.4
+	Release-5-2-0:1.9.0.2
+	ROOT_Release-5-2-0:1.9
+	ROOT_Release-5-1-2:1.8
+	Release-5-1-2:1.8.0.24
+	Version-5-1-1:1.8.0.22
+	ROOT_Version-5-1-1:1.8
+	debian_version_5_1_0-1:1.8
+	upstream_version_5_1_0:1.8
+	ROOT_Release-5-1-0:1.8
+	Release-5-1-0:1.8.0.20
+	ROOT_Release-5-0-0:1.8
+	Release-5-0-0:1.8.0.18
+	Release-4-3-3:1.8.0.16
+	ROOT_Release-4-3-3:1.8
+	upstream_version_4_3_2:1.8
+	debian_version_4_3_2-1:1.8
+	ROOT_Release-4-3-2:1.8
+	Release-4-3-2:1.8.0.14
+	Release-4-3-1:1.8.0.12
+	ROOT_Release-4-3-1:1.8
+	debian_version_4_3_0-1:1.8
+	upstream_version_4_3_0:1.8
+	ROOT_Release-4-3-0:1.8
+	Release-4-3-0:1.8.0.10
+	debian_version_3_2_1b-2:1.7
+	debian_version_4_2_2-1:1.8
+	upstream_version_4_2_2:1.8
+	debian_version_3_2_1b-1:1.7
+	upstream_version_3_2_1b:1.7
+	Release-4-1-2:1.8.0.8
+	Release-4-0-8:1.8.0.6
+	debian_version_4_0_8a-1:1.8
+	upstream_version_4_0_8a:1.8
+	jostb-debian-ubuntu-patch:1.8.0.4
+	debian_version_4_0_8-1:1.8
+	upstream_version_4_0_8:1.8
+	debian_version_4_0_7-1:1.8
+	upstream_version_4_0_7:1.8
+	debian_version_4_0_6-1:1.8
+	upstream_version_4_0_6:1.8
+	debian_version_4_0_2-1:1.8
+	upstream_version_4_0_2:1.8
+	Release-4-0-2_Root:1.8
+	Release-4-0-2:1.8.0.2
+	upstream_version_4_0_1:1.8
+	debian_version_4_0_1-2:1.8
+	Release-3-2-1:1.7.0.4
+	Release-3-1-8:1.7.0.2
+	Release-3-0-8_root:1.4.2.1
+	Release-3-0-8_Root:1.5
+	Release-3-0-8:1.4.0.2
+	Release-2-0-8:1.2.0.4
+	Release-2-0-7_Root:1.1
+	Release-2-0-7:1.1.0.10
+	Release-2-0-6-branch:1.1.0.8
+	Version-1:1.1.0.6
+	Version-2:1.1.0.4
+	Release-2:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.10
+date	2008.12.09.12.55.03;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2008.03.02.21.36.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2007.03.09.20.28.10;	author andremachado;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.08.19.12.34.01;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.06.19.20.37.16;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.04.26.19.09.32;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.02.03.17.41.37;	author jost2345;	state Exp;
+branches
+	1.4.2.1;
+next	1.3;
+
+1.3
+date	2005.11.26.18.04.00;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.08.11.18.08.18;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.01.28.16.32.54;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2006.04.23.19.09.08;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@Backward compatibility with BEA WL 8.1
+@
+text
+@<?php
+define ("JAVA_PREFER_VALUES", true);
+require_once ("java/Java.inc");
+
+$system = new java("java.lang.System");
+$t1=$system->currentTimeMillis();
+
+$here=getcwd();
+// load scheme interpreter
+// try to load local ~/lib/kawa.jar, otherwise load it from sf.net
+try { java_require("kawa.jar"); } catch (JavaException $e) {
+  java_require("http://php-java-bridge.sourceforge.net/kawa.jar");
+}
+
+$s = new java("kawa.standard.Scheme");
+for($i=0; $i<100; $i++) {
+  $res=java_cast($s->eval("
+
+(letrec
+ ((f (lambda(v)
+       (if 
+	   (= v 0)
+	   1
+	 (*
+	  (f
+	   (- v 1))
+	  v)))))
+ (f $i))
+
+"), "D");
+
+  if($ex=java_last_exception_get()) $res=$ex->toString();
+  java_last_exception_clear();
+  echo "fact($i) ==> $res\n";
+}
+$t2=$system->currentTimeMillis();
+$delta=($t2-$t1)/1000.0;
+$now=new java("java.sql.Timestamp",$system->currentTimeMillis());
+echo  "Evaluation took $delta s -- at: $now\n";
+?>
+@
+
+
+1.9
+log
+@Release-5-2-0
+@
+text
+@d2 1
+a2 1
+
+d10 2
+a11 2
+// try to load local kawa.jar, otherwise load it from sf.net
+try { java_require("$here/../../unsupported/kawa.jar"); } catch (JavaException $e) {
+d39 1
+a39 1
+echo  "Evaluation took $delta s -- at: ".java_cast($now, "S") . "\n";
+@
+
+
+1.8
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d3 1
+a3 6
+if (!extension_loaded('java')) {
+  if (!(require_once("http://127.0.0.1:8080/JavaBridge/java/Java.inc"))) {
+    echo "java extension not installed.";
+    exit(2);
+  }
+}
+@
+
+
+1.7
+log
+@Release-3-2-0devel
+@
+text
+@d4 1
+a4 1
+  if (!(include_once("java/Java.php"))&&!(PHP_SHLIB_SUFFIX=="so" && dl('java.so'))&&!(PHP_SHLIB_SUFFIX=="dll" && dl('php_java.dll'))) {
+@
+
+
+1.6
+log
+@Release-3-1-0
+@
+text
+@d4 1
+a4 1
+  if (!(PHP_SHLIB_SUFFIX=="so" && dl('java.so'))&&!(PHP_SHLIB_SUFFIX=="dll" && dl('php_java.dll'))) {
+d22 1
+a22 1
+  $res=(float)$s->eval("
+d35 1
+a35 1
+");
+d44 1
+a44 1
+echo  "Evaluation took $delta s -- at: ".$now->toString() . "\n";
+@
+
+
+1.5
+log
+@Release-3-1-0
+@
+text
+@d13 1
+d16 3
+a18 2
+java_require("../../unsupported/kawa.jar");
+java_require("http://php-java-bridge.sourceforge.net/kawa.jar");
+d38 1
+@
+
+
+1.4
+log
+@Release-3.0.7
+@
+text
+@d15 1
+a15 1
+java_require("kawa.jar");
+@
+
+
+1.4.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d15 1
+a15 1
+java_require("../../unsupported/kawa.jar");
+@
+
+
+1.3
+log
+@Version-3.0.0pre1
+@
+text
+@d12 6
+a17 1
+java_set_library_path("http://php-java-bridge.sourceforge.net/kawa.jar"); //load scheme interpreter
+@
+
+
+1.2
+log
+@Release-2.0.8-preview
+@
+text
+@d15 1
+a15 1
+  $res=$s->eval("
+@
+
+
+1.1
+log
+@Release-1.0.8
+@
+text
+@d3 5
+a7 2
+if(!extension_loaded('java')) {
+  dl('java.' . PHP_SHLIB_SUFFIX);
+@
+

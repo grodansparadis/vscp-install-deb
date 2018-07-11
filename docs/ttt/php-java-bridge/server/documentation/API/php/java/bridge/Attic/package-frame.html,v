@@ -1,0 +1,930 @@
+head	1.30;
+access;
+symbols
+	upstream_version_5_5:1.29
+	ROOT_Release-5-5:1.29
+	Release-5-5:1.29.0.4
+	debian_version_5_4_4_2-3:1.29
+	Release-5-4-4-2-1:1.29.0.2
+	debian_version_5_4_4_2-2:1.29
+	debian_version_5_4_4_2-1:1.29
+	upstream_version_5_4_4_2:1.29
+	debian_version_5_4_4_1-1:1.26
+	upstream_version_5_4_4_1:1.26
+	debian_version_5_4_4-1:1.25
+	upstream_version_5_4_4:1.25
+	Release-5-4-4:1.25.0.4
+	Root_Release-5-4-4:1.25
+	debian_version_5_4_3_2-1:1.23
+	upstream_version_5_4_3_2:1.23
+	Release_5-4-3-2:1.23.0.2
+	Root_Release_5-4-3-2:1.23
+	upstream_version_5_4_3_1:1.23
+	debian_version_5_4_3_1-1:1.23
+	Release-5-4-3:1.22.0.6
+	Root_Release-5-4-3:1.22
+	Root_Release-5-4-1:1.22
+	Release-5-4-1:1.22.0.4
+	Root_Release-5-4:1.22
+	Release-5-4:1.22.0.2
+	upstream_version_5_3_4:1.20
+	debian_version_5_3_4-1:1.22
+	ROOT_Release-5-3-4:1.20
+	Release-5-3-4:1.20.0.2
+	ROOT_Release-5-3-3:1.17
+	Release-5-3-3:1.17.0.2
+	debian_version_5_3_2_1_2-1:1.16
+	upstream_version_5_3_2_1_2:1.16
+	debian_version_5_3_2_1_1-1:1.16
+	debian_version_5_3_2_1_1:1.16
+	upstream_version_5_3_2_1_1:1.16
+	Root_Release-5-3-2-1:1.16
+	Release-5-3-2-1:1.16
+	ROOT_RELEASE-5-3-2-1:1.16
+	RELEASE-5-3-2-1:1.16.0.10
+	Release-5-3-2:1.16.0.6
+	Root_Release-5-3-2:1.16
+	Root_Release-5-3-1:1.16
+	Release-5-3-1:1.16.0.4
+	Release-5-2-3-1:1.16.0.2
+	Root_Release-5-2-3-1:1.16
+	Release-5-2-2-4:1.15.0.8
+	Root_Release-5-2-2-4:1.15
+	Release-5-2-2-1:1.15.0.6
+	Root_Release-5-2-2-1:1.15
+	upstream_version_5_2_2:1.15
+	debian_version_5_2_2-1:1.15
+	Release-5-2-2:1.15.0.4
+	ROOT_Release-5-2-2:1.15
+	ROOT_Release-5-2-1:1.15
+	Release-5-2-1:1.15.0.2
+	Release-5-2-0:1.14.0.20
+	ROOT_Release-5-2-0:1.14
+	ROOT_Release-5-1-2:1.14
+	Release-5-1-2:1.14.0.18
+	Version-5-1-1:1.14.0.16
+	ROOT_Version-5-1-1:1.14
+	debian_version_5_1_0-1:1.14
+	upstream_version_5_1_0:1.14
+	ROOT_Release-5-1-0:1.14
+	Release-5-1-0:1.14.0.14
+	ROOT_Release-5-0-0:1.14
+	Release-5-0-0:1.14.0.12
+	Release-4-3-3:1.14.0.10
+	ROOT_Release-4-3-3:1.14
+	upstream_version_4_3_2:1.14
+	debian_version_4_3_2-1:1.14
+	ROOT_Release-4-3-2:1.14
+	Release-4-3-2:1.14.0.8
+	Release-4-3-1:1.14.0.6
+	ROOT_Release-4-3-1:1.14
+	debian_version_4_3_0-1:1.14
+	upstream_version_4_3_0:1.14
+	ROOT_Release-4-3-0:1.14
+	Release-4-3-0:1.14.0.4
+	debian_version_3_2_1b-2:1.11
+	debian_version_4_2_2-1:1.14
+	upstream_version_4_2_2:1.14
+	debian_version_3_2_1b-1:1.11
+	upstream_version_3_2_1b:1.11
+	Release-4-1-2:1.14.0.2
+	Release-4-0-8:1.13.0.6
+	debian_version_4_0_8a-1:1.13
+	upstream_version_4_0_8a:1.13
+	jostb-debian-ubuntu-patch:1.13.0.4
+	debian_version_4_0_8-1:1.13
+	upstream_version_4_0_8:1.13
+	debian_version_4_0_7-1:1.13
+	upstream_version_4_0_7:1.13
+	debian_version_4_0_6-1:1.13
+	upstream_version_4_0_6:1.13
+	debian_version_4_0_2-1:1.13
+	upstream_version_4_0_2:1.13
+	Release-4-0-2_Root:1.13
+	Release-4-0-2:1.13.0.2
+	upstream_version_4_0_1:1.12
+	debian_version_4_0_1-2:1.12
+	Release-3-2-1:1.11.0.4
+	Release-3-1-8:1.11.0.2
+	Release-3-0-8_root:1.3.2.1
+	Release-3-0-8_Root:1.4
+	Release-3-0-8:1.3.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.30
+date	2009.07.25.13.56.04;	author jost_boekemeier;	state dead;
+branches;
+next	1.29;
+
+1.29
+date	2009.04.25.12.25.24;	author jost_boekemeier;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2009.04.19.17.24.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2009.04.18.14.57.05;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2009.03.15.15.33.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2009.03.08.17.45.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2009.03.08.14.34.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2009.01.06.17.05.12;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2008.12.02.21.56.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2008.12.02.19.17.51;	author jost_boekemeier;	state dead;
+branches;
+next	1.20;
+
+1.20
+date	2008.11.30.17.08.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2008.10.26.15.23.02;	author jost_boekemeier;	state Exp;
+branches
+	1.17.2.1;
+next	1.16;
+
+1.16
+date	2008.09.28.21.56.54;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2008.03.22.12.04.58;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2007.06.16.18.29.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.03.19.13.03.20;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2007.03.09.20.28.15;	author andremachado;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.09.10.17.31.13;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2006.08.08.17.20.47;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.07.23.20.32.48;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.07.16.20.29.27;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.07.02.20.28.47;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.06.27.20.44.40;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.06.19.20.37.23;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.04.12.17.46.48;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.02.05.18.47.01;	author jost2345;	state Exp;
+branches
+	1.3.2.1;
+next	1.2;
+
+1.2
+date	2006.01.15.21.07.28;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.01.08.23.50.57;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2006.04.23.19.09.09;	author jost2345;	state Exp;
+branches;
+next	1.3.2.2;
+
+1.3.2.2
+date	2006.05.13.16.09.59;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.17.2.1
+date	2008.11.09.17.01.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17.2.2;
+
+1.17.2.2
+date	2008.11.12.18.55.31;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.30
+log
+@Release-5-5
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Apr 25 11:44:41 CEST 2009 -->
+<TITLE>
+php.java.bridge
+</TITLE>
+
+<META NAME="date" CONTENT="2009-04-25">
+
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../stylesheet.css" TITLE="Style">
+
+
+</HEAD>
+
+<BODY BGCOLOR="white">
+<FONT size="+1" CLASS="FrameTitleFont">
+<A HREF="../../../php/java/bridge/package-summary.html" target="classFrame">php.java.bridge</A></FONT>
+<TABLE BORDER="0" WIDTH="100%" SUMMARY="">
+<TR>
+<TD NOWRAP><FONT size="+1" CLASS="FrameHeadingFont">
+Interfaces</FONT>&nbsp;
+<FONT CLASS="FrameItemFont">
+<BR>
+<A HREF="IDocHandler.html" title="interface in php.java.bridge" target="classFrame"><I>IDocHandler</I></A>
+<BR>
+<A HREF="IJavaBridgeFactory.html" title="interface in php.java.bridge" target="classFrame"><I>IJavaBridgeFactory</I></A>
+<BR>
+<A HREF="ILogger.html" title="interface in php.java.bridge" target="classFrame"><I>ILogger</I></A>
+<BR>
+<A HREF="IManaged.html" title="interface in php.java.bridge" target="classFrame"><I>IManaged</I></A>
+<BR>
+<A HREF="Invocable.html" title="interface in php.java.bridge" target="classFrame"><I>Invocable</I></A>
+<BR>
+<A HREF="ISession.html" title="interface in php.java.bridge" target="classFrame"><I>ISession</I></A>
+<BR>
+<A HREF="ISocketFactory.html" title="interface in php.java.bridge" target="classFrame"><I>ISocketFactory</I></A></FONT></TD>
+</TR>
+</TABLE>
+
+
+<TABLE BORDER="0" WIDTH="100%" SUMMARY="">
+<TR>
+<TD NOWRAP><FONT size="+1" CLASS="FrameHeadingFont">
+Classes</FONT>&nbsp;
+<FONT CLASS="FrameItemFont">
+<BR>
+<A HREF="AppThreadPool.html" title="class in php.java.bridge" target="classFrame">AppThreadPool</A>
+<BR>
+<A HREF="ChainsawLogger.html" title="class in php.java.bridge" target="classFrame">ChainsawLogger</A>
+<BR>
+<A HREF="DynamicClassLoader.html" title="class in php.java.bridge" target="classFrame">DynamicClassLoader</A>
+<BR>
+<A HREF="JavaBridge.html" title="class in php.java.bridge" target="classFrame">JavaBridge</A>
+<BR>
+<A HREF="JavaBridgeClassLoader.html" title="class in php.java.bridge" target="classFrame">JavaBridgeClassLoader</A>
+<BR>
+<A HREF="JavaBridgeFactory.html" title="class in php.java.bridge" target="classFrame">JavaBridgeFactory</A>
+<BR>
+<A HREF="JavaBridgeRunner.html" title="class in php.java.bridge" target="classFrame">JavaBridgeRunner</A>
+<BR>
+<A HREF="JavaBridgeSecurityManager.html" title="class in php.java.bridge" target="classFrame">JavaBridgeSecurityManager</A>
+<BR>
+<A HREF="PhpProcedure.html" title="class in php.java.bridge" target="classFrame">PhpProcedure</A>
+<BR>
+<A HREF="PhpProcedureProxy.html" title="class in php.java.bridge" target="classFrame">PhpProcedureProxy</A>
+<BR>
+<A HREF="Request.html" title="class in php.java.bridge" target="classFrame">Request</A>
+<BR>
+<A HREF="Response.html" title="class in php.java.bridge" target="classFrame">Response</A>
+<BR>
+<A HREF="SessionFactory.html" title="class in php.java.bridge" target="classFrame">SessionFactory</A>
+<BR>
+<A HREF="SimpleJavaBridgeClassLoader.html" title="class in php.java.bridge" target="classFrame">SimpleJavaBridgeClassLoader</A>
+<BR>
+<A HREF="SimpleLog4jLogger.html" title="class in php.java.bridge" target="classFrame">SimpleLog4jLogger</A>
+<BR>
+<A HREF="Standalone.html" title="class in php.java.bridge" target="classFrame">Standalone</A>
+<BR>
+<A HREF="StandaloneGCC.html" title="class in php.java.bridge" target="classFrame">StandaloneGCC</A>
+<BR>
+<A HREF="ThreadPool.html" title="class in php.java.bridge" target="classFrame">ThreadPool</A>
+<BR>
+<A HREF="Util.html" title="class in php.java.bridge" target="classFrame">Util</A>
+<BR>
+<A HREF="Util.HeaderParser.html" title="class in php.java.bridge" target="classFrame">Util.HeaderParser</A>
+<BR>
+<A HREF="Util.Logger.html" title="class in php.java.bridge" target="classFrame">Util.Logger</A>
+<BR>
+<A HREF="Util.OutputStreamFactory.html" title="class in php.java.bridge" target="classFrame">Util.OutputStreamFactory</A>
+<BR>
+<A HREF="Util.Process.html" title="class in php.java.bridge" target="classFrame">Util.Process</A>
+<BR>
+<A HREF="Util.ProcessWithErrorHandler.html" title="class in php.java.bridge" target="classFrame">Util.ProcessWithErrorHandler</A>
+<BR>
+<A HREF="Util.SimpleHeaderParser.html" title="class in php.java.bridge" target="classFrame">Util.SimpleHeaderParser</A>
+<BR>
+<A HREF="Util.Thread.html" title="class in php.java.bridge" target="classFrame">Util.Thread</A></FONT></TD>
+</TR>
+</TABLE>
+
+
+<TABLE BORDER="0" WIDTH="100%" SUMMARY="">
+<TR>
+<TD NOWRAP><FONT size="+1" CLASS="FrameHeadingFont">
+Exceptions</FONT>&nbsp;
+<FONT CLASS="FrameItemFont">
+<BR>
+<A HREF="JavaBridgeIllegalArgumentException.html" title="class in php.java.bridge" target="classFrame">JavaBridgeIllegalArgumentException</A>
+<BR>
+<A HREF="JavaBridgeIllegalStateException.html" title="class in php.java.bridge" target="classFrame">JavaBridgeIllegalStateException</A>
+<BR>
+<A HREF="NoSuchConstantException.html" title="class in php.java.bridge" target="classFrame">NoSuchConstantException</A>
+<BR>
+<A HREF="NoSuchProcedureException.html" title="class in php.java.bridge" target="classFrame">NoSuchProcedureException</A>
+<BR>
+<A HREF="NotImplementedException.html" title="class in php.java.bridge" target="classFrame">NotImplementedException</A>
+<BR>
+<A HREF="Request.AbortException.html" title="class in php.java.bridge" target="classFrame">Request.AbortException</A>
+<BR>
+<A HREF="Util.Process.PhpException.html" title="class in php.java.bridge" target="classFrame">Util.Process.PhpException</A></FONT></TD>
+</TR>
+</TABLE>
+
+
+</BODY>
+</HTML>
+@
+
+
+1.29
+log
+@Release-5.4.4.2
+@
+text
+@@
+
+
+1.28
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 19 11:35:20 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-19">
+@
+
+
+1.27
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 12 09:06:09 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-12">
+d91 2
+d97 2
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 15 11:32:40 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-15">
+@
+
+
+1.25
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 08 18:42:07 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-08">
+@
+
+
+1.24
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Tue Mar 03 19:21:06 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-03">
+@
+
+
+1.23
+log
+@Release-5-4-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Mon Jan 05 20:55:08 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-01-05">
+d32 2
+d110 4
+@
+
+
+1.22
+log
+@documentation
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Nov 30 10:56:59 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-30">
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Nov 29 12:39:27 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-29">
+@
+
+
+1.20
+log
+@Release 5.3.4
+@
+text
+@@
+
+
+1.19
+log
+@Release 5.3.3.1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Nov 23 10:26:30 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-23">
+@
+
+
+1.18
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:56 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+a62 2
+<A HREF="Log4jLogger.html" title="class in php.java.bridge" target="classFrame">Log4jLogger</A>
+<BR>
+@
+
+
+1.17
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Oct 26 14:59:22 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-10-26">
+a50 6
+<A HREF="ConstructorCache.html" title="class in php.java.bridge" target="classFrame">ConstructorCache</A>
+<BR>
+<A HREF="ConstructorCache.Entry.html" title="class in php.java.bridge" target="classFrame">ConstructorCache.Entry</A>
+<BR>
+<A HREF="DefaultOptions.html" title="class in php.java.bridge" target="classFrame">DefaultOptions</A>
+<BR>
+a52 8
+<A HREF="DynamicJarURLConnection.html" title="class in php.java.bridge" target="classFrame">DynamicJarURLConnection</A>
+<BR>
+<A HREF="DynamicJavaBridgeClassLoader.html" title="class in php.java.bridge" target="classFrame">DynamicJavaBridgeClassLoader</A>
+<BR>
+<A HREF="FileLogger.html" title="class in php.java.bridge" target="classFrame">FileLogger</A>
+<BR>
+<A HREF="JarLibraryPath.html" title="class in php.java.bridge" target="classFrame">JarLibraryPath</A>
+<BR>
+a64 12
+<A HREF="MethodCache.html" title="class in php.java.bridge" target="classFrame">MethodCache</A>
+<BR>
+<A HREF="MethodCache.Entry.html" title="class in php.java.bridge" target="classFrame">MethodCache.Entry</A>
+<BR>
+<A HREF="Options.html" title="class in php.java.bridge" target="classFrame">Options</A>
+<BR>
+<A HREF="ParserString.html" title="class in php.java.bridge" target="classFrame">ParserString</A>
+<BR>
+<A HREF="ParserTag.html" title="class in php.java.bridge" target="classFrame">ParserTag</A>
+<BR>
+<A HREF="PhpMap.html" title="class in php.java.bridge" target="classFrame">PhpMap</A>
+<BR>
+a82 2
+<A HREF="StringCache.html" title="class in php.java.bridge" target="classFrame">StringCache</A>
+<BR>
+@
+
+
+1.17.2.1
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 13:25:08 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+@
+
+
+1.17.2.2
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:56 CET 2008 -->
+d51 6
+d59 8
+d79 12
+d109 2
+@
+
+
+1.16
+log
+@Release-5-2-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Sep 28 12:34:45 CEST 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-09-28">
+@
+
+
+1.15
+log
+@Release-5-2-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Mar 16 21:41:36 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-03-16">
+a58 2
+<A HREF="DynamicHttpURLConnectionHandler.html" title="class in php.java.bridge" target="classFrame">DynamicHttpURLConnectionHandler</A>
+<BR>
+d136 2
+@
+
+
+1.14
+log
+@Release-4-1-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sat Jun 16 09:41:56 EDT 2007 -->
+d10 1
+a10 1
+<META NAME="keywords" CONTENT="php.java.bridge package">
+d47 1
+a47 1
+<A HREF="BaseThreadPool.html" title="class in php.java.bridge" target="classFrame">BaseThreadPool</A>
+a50 4
+<A HREF="ClassicParserString.html" title="class in php.java.bridge" target="classFrame">ClassicParserString</A>
+<BR>
+<A HREF="ClassicResponse.html" title="class in php.java.bridge" target="classFrame">ClassicResponse</A>
+<BR>
+d59 4
+a84 2
+<A HREF="OldOptions.html" title="class in php.java.bridge" target="classFrame">OldOptions</A>
+<BR>
+d105 2
+a110 2
+<A HREF="StandardOptions.html" title="class in php.java.bridge" target="classFrame">StandardOptions</A>
+<BR>
+d142 1
+a142 1
+<A HREF="Util.ProcessWithErrorHandler.PhpException.html" title="class in php.java.bridge" target="classFrame">Util.ProcessWithErrorHandler.PhpException</A></FONT></TD>
+@
+
+
+1.13
+log
+@Release-4-0-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Mar 15 07:15:53 CET 2007 -->
+d28 2
+d73 2
+d85 2
+@
+
+
+1.12
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 11 14:44:21 CET 2007 -->
+@
+
+
+1.11
+log
+@Release-3-1-8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Sep 10 13:03:31 CEST 2006 -->
+d63 1
+a63 1
+<A HREF="DynamicJavaBridgeClassLoader.JarLibraryPath.html" title="class in php.java.bridge" target="classFrame">DynamicJavaBridgeClassLoader.JarLibraryPath</A>
+d65 1
+a65 1
+<A HREF="FileLogger.html" title="class in php.java.bridge" target="classFrame">FileLogger</A>
+d103 2
+d119 3
+a121 1
+<A HREF="Util.ProcessWithErrorHandler.html" title="class in php.java.bridge" target="classFrame">Util.ProcessWithErrorHandler</A></FONT></TD>
+d132 1
+a132 1
+<A HREF="IllegalArgumentException.html" title="class in php.java.bridge" target="classFrame">IllegalArgumentException</A>
+d136 3
+a138 1
+<A HREF="Request.AbortException.html" title="class in php.java.bridge" target="classFrame">Request.AbortException</A></FONT></TD>
+@
+
+
+1.10
+log
+@Release-3-1-7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Aug 03 19:34:04 CEST 2006 -->
+d51 2
+d57 2
+d103 2
+@
+
+
+1.9
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 23 12:18:12 CEST 2006 -->
+@
+
+
+1.8
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 16 13:42:19 CEST 2006 -->
+@
+
+
+1.7
+log
+@Release-3-1-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 02 11:43:24 CEST 2006 -->
+d124 3
+a126 1
+<A HREF="NotImplementedException.html" title="class in php.java.bridge" target="classFrame">NotImplementedException</A></FONT></TD>
+@
+
+
+1.6
+log
+@Release-3-1-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 25 13:54:50 CEST 2006 -->
+d97 2
+@
+
+
+1.5
+log
+@Release-3-1-0
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 18 11:35:47 CEST 2006 -->
+d120 2
+@
+
+
+1.4
+log
+@Release-3.0.8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:23 CEST 2006 -->
+d28 2
+d45 6
+d59 4
+d69 4
+d95 4
+a102 2
+<A HREF="Util.CgiEnvironment.html" title="class in php.java.bridge" target="classFrame">Util.CgiEnvironment</A>
+<BR>
+@
+
+
+1.3
+log
+@Release-3.0.7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 05 13:18:04 CET 2006 -->
+@
+
+
+1.3.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 23 18:58:56 CEST 2006 -->
+@
+
+
+1.3.2.2
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Apr 09 16:52:23 CEST 2006 -->
+@
+
+
+1.2
+log
+@Release-3.0.6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 15 20:26:22 CET 2006 -->
+@
+
+
+1.1
+log
+@Release-3.0.5
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jan 08 19:28:41 CET 2006 -->
+@
+

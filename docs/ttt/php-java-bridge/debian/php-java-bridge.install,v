@@ -1,0 +1,199 @@
+head	1.5;
+access;
+symbols
+	Release-7-1-1:1.5.0.16
+	Root_Release-7-1-1:1.5
+	Root_Release_7-0-1:1.5
+	Release_7-0-1:1.5.0.14
+	Release_7-0-0:1.5.0.12
+	Root_Release_7-0-0:1.5
+	Release-6-2-2:1.5.0.10
+	Release-6-1-2-3:1.5
+	Root_Release-6-1-2-3:1.5
+	Release-6-1-2-2:1.5.0.8
+	Root_Release-6-1-2-2:1.5
+	debian_version_6_1_2_1-1:1.5
+	upstream_version_6_1_2_1:1.5
+	Release-6-1-2-1_new:1.5.0.6
+	Root_Release-6-1-2-1_new:1.5
+	Release-6-1-2-1:1.5.0.4
+	Root_Release-6-1-2-1:1.5
+	upstream_version_6_1_2:1.5
+	debian_version_6_1_2-1:1.5
+	Release-6-1-2:1.5.0.2
+	Root_Release-6-1-2:1.5
+	debian_version_6_1_1-2:1.5
+	debian_version_6_1_1-1:1.5
+	upstream_version_6_1_1:1.4
+	Release-6-1-1:1.4.0.34
+	Root_Release-6-1-1:1.4
+	Release-6-0-4:1.4.0.32
+	Root_Release-6-0-4:1.4
+	Release-6-0-3_NEW:1.4.0.28
+	Root_Release-6-0-3_NEW:1.4
+	Release-6-0-3:1.4.0.30
+	Root_Release-6-0-3:1.4
+	Release-6-0-0:1.4.0.26
+	Root_Release-6-0-0:1.4
+	Release-5-5-4-1:1.4.0.24
+	Root_Release-5-5-4-1:1.4
+	Release-5-5-4:1.4.0.22
+	Root_Release-5-5-4:1.4
+	Release-5-5-3:1.4.0.20
+	ROOT_Release-5-5-3:1.4
+	Release-5-5-2:1.4.0.18
+	Root_Release-5-5-2:1.4
+	debian_version_5_5_1-1:1.4
+	Release-5-5-1:1.4.0.14
+	upstream_version_5_5_1:1.4
+	ROOT_Release-5-5-1:1.4
+	debian_version_5_5-1:1.4
+	upstream_version_5_5:1.4
+	ROOT_Release-5-5:1.4
+	Release-5-5:1.4.0.16
+	debian_version_5_4_4_2-3:1.4
+	Release-5-4-4-2-1:1.4.0.10
+	debian_version_5_4_4_2-2:1.4
+	debian_version_5_4_4_2-1:1.4
+	upstream_version_5_4_4_2:1.4
+	debian_version_5_4_4_1-1:1.4
+	upstream_version_5_4_4_1:1.4
+	debian_version_5_4_4-1:1.4
+	upstream_version_5_4_4:1.4
+	Release-5-4-4:1.4.0.12
+	Root_Release-5-4-4:1.4
+	debian_version_5_4_3_2-1:1.4
+	upstream_version_5_4_3_2:1.4
+	Release_5-4-3-2:1.4.0.8
+	Root_Release_5-4-3-2:1.4
+	upstream_version_5_4_3_1:1.4
+	debian_version_5_4_3_1-1:1.4
+	Release-5-4-3:1.4.0.6
+	Root_Release-5-4-3:1.4
+	Root_Release-5-4-1:1.4
+	Release-5-4-1:1.4.0.4
+	Root_Release-5-4:1.4
+	Release-5-4:1.4.0.2
+	upstream_version_5_3_4:1.3
+	debian_version_5_3_4-1:1.4
+	ROOT_Release-5-3-4:1.3
+	Release-5-3-4:1.3.0.2
+	ROOT_Release-5-3-3:1.2
+	Release-5-3-3:1.2.0.22
+	debian_version_5_3_2_1_2-1:1.2
+	upstream_version_5_3_2_1_2:1.2
+	debian_version_5_3_2_1_1-1:1.2
+	debian_version_5_3_2_1_1:1.2
+	upstream_version_5_3_2_1_1:1.2
+	Root_Release-5-3-2-1:1.2
+	Release-5-3-2-1:1.2
+	ROOT_RELEASE-5-3-2-1:1.2
+	RELEASE-5-3-2-1:1.2.0.24
+	Release-5-3-2:1.2.0.20
+	Root_Release-5-3-2:1.2
+	Root_Release-5-3-1:1.2
+	Release-5-3-1:1.2.0.18
+	Release-5-2-3-1:1.2.0.16
+	Root_Release-5-2-3-1:1.2
+	Release-5-2-2-4:1.2.0.14
+	Root_Release-5-2-2-4:1.2
+	Release-5-2-2-1:1.2.0.12
+	Root_Release-5-2-2-1:1.2
+	upstream_version_5_2_2:1.2
+	debian_version_5_2_2-1:1.2
+	Release-5-2-2:1.2.0.10
+	ROOT_Release-5-2-2:1.2
+	ROOT_Release-5-2-1:1.2
+	Release-5-2-1:1.2.0.8
+	Release-5-2-0:1.2.0.6
+	ROOT_Release-5-2-0:1.2
+	ROOT_Release-5-1-2:1.2
+	Release-5-1-2:1.2.0.4
+	Version-5-1-1:1.2.0.2
+	ROOT_Version-5-1-1:1.2
+	debian_version_5_1_0-1:1.2
+	debian_version_4_3_2-1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2010.04.06.17.06.08;	author andremachado;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.12.03.13.52.07;	author andremachado;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2008.11.26.18.11.51;	author andremachado;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.01.25.19.10.40;	author andremachado;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.12.20.15.07.41;	author andremachado;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@New ant build system. C binary deprecated and removed. Dependency on newer debhelper. SERPRO sponsoring Debian package maintainer work.
+@
+text
+@java.ini etc/php5/conf.d
+server/META-INF/java/Java.inc usr/include/php5/java
+
+@
+
+
+1.4
+log
+@New build location for Java.inc and included for j2ee package. Removed server/test directory from examples. Missing some tests: jsr223. New upstream release. java.ini: Switch off java.security_policy per default as some VM  implementations don't understand the policy==... syntax. Thanks to Jan Wagner <waja@@cyconet.org> to pointing this.
+@
+text
+@d3 1
+@
+
+
+1.3
+log
+@Missing Java.inc and Mono.inc from native code package. But at this package, the mono version is not built.  Thanks to Jan Wagner <waja@@cyconet.org> to pointing this.
+@
+text
+@d2 1
+a2 2
+Java.inc usr/include/php5/java
+
+@
+
+
+1.2
+log
+@new upstream version, deprecated C version, droped service.
+@
+text
+@d2 2
+@
+
+
+1.1
+log
+@LSB compatible initscript for Debian systems.
+@
+text
+@a1 1
+php-java-bridge /usr/sbin
+@
+

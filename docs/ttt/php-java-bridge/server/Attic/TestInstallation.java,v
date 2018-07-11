@@ -1,0 +1,1034 @@
+head	1.16;
+access;
+symbols
+	Root_Release_7-0-1:1.15
+	Release_7-0-1:1.15.0.22
+	Release_7-0-0:1.15.0.20
+	Root_Release_7-0-0:1.15
+	Release-6-2-2:1.15.0.18
+	Release-6-1-2-3:1.15
+	Root_Release-6-1-2-3:1.15
+	Release-6-1-2-2:1.15.0.16
+	Root_Release-6-1-2-2:1.15
+	debian_version_6_1_2_1-1:1.15
+	upstream_version_6_1_2_1:1.15
+	Release-6-1-2-1_new:1.15.0.14
+	Root_Release-6-1-2-1_new:1.15
+	Release-6-1-2-1:1.15.0.12
+	Root_Release-6-1-2-1:1.15
+	upstream_version_6_1_2:1.15
+	debian_version_6_1_2-1:1.15
+	Release-6-1-2:1.15.0.10
+	Root_Release-6-1-2:1.15
+	debian_version_6_1_1-2:1.15
+	debian_version_6_1_1-1:1.15
+	upstream_version_6_1_1:1.15
+	Release-6-1-1:1.15.0.8
+	Root_Release-6-1-1:1.15
+	Release-6-0-4:1.15.0.6
+	Root_Release-6-0-4:1.15
+	Release-6-0-3_NEW:1.15.0.2
+	Root_Release-6-0-3_NEW:1.15
+	Release-6-0-3:1.15.0.4
+	Root_Release-6-0-3:1.15
+	Release-6-0-0:1.14.0.28
+	Root_Release-6-0-0:1.15
+	Release-5-5-4-1:1.14.0.26
+	Root_Release-5-5-4-1:1.14
+	Release-5-5-4:1.14.0.24
+	Root_Release-5-5-4:1.14
+	Release-5-5-3:1.14.0.22
+	ROOT_Release-5-5-3:1.14
+	Release-5-5-2:1.14.0.20
+	Root_Release-5-5-2:1.14
+	debian_version_5_5_1-1:1.14
+	Release-5-5-1:1.14.0.16
+	upstream_version_5_5_1:1.14
+	ROOT_Release-5-5-1:1.14
+	debian_version_5_5-1:1.14
+	upstream_version_5_5:1.14
+	ROOT_Release-5-5:1.14
+	Release-5-5:1.14.0.18
+	debian_version_5_4_4_2-3:1.14
+	Release-5-4-4-2-1:1.14.0.12
+	debian_version_5_4_4_2-2:1.14
+	debian_version_5_4_4_2-1:1.14
+	upstream_version_5_4_4_2:1.14
+	debian_version_5_4_4_1-1:1.14
+	upstream_version_5_4_4_1:1.14
+	debian_version_5_4_4-1:1.14
+	upstream_version_5_4_4:1.14
+	Release-5-4-4:1.14.0.14
+	Root_Release-5-4-4:1.14
+	debian_version_5_4_3_2-1:1.14
+	upstream_version_5_4_3_2:1.14
+	Release_5-4-3-2:1.14.0.10
+	Root_Release_5-4-3-2:1.14
+	upstream_version_5_4_3_1:1.14
+	debian_version_5_4_3_1-1:1.14
+	Release-5-4-3:1.14.0.8
+	Root_Release-5-4-3:1.14
+	Root_Release-5-4-1:1.14
+	Release-5-4-1:1.14.0.6
+	Root_Release-5-4:1.14
+	Release-5-4:1.14.0.4
+	upstream_version_5_3_4:1.14
+	debian_version_5_3_4-1:1.14
+	ROOT_Release-5-3-4:1.14
+	Release-5-3-4:1.14.0.2
+	ROOT_Release-5-3-3:1.13
+	Release-5-3-3:1.13.0.2
+	debian_version_5_3_2_1_2-1:1.12
+	upstream_version_5_3_2_1_2:1.12
+	debian_version_5_3_2_1_1-1:1.12
+	debian_version_5_3_2_1_1:1.12
+	upstream_version_5_3_2_1_1:1.12
+	Root_Release-5-3-2-1:1.12
+	Release-5-3-2-1:1.12
+	ROOT_RELEASE-5-3-2-1:1.12
+	RELEASE-5-3-2-1:1.12.0.36
+	Release-5-3-2:1.12.0.32
+	Root_Release-5-3-2:1.12
+	Root_Release-5-3-1:1.12
+	Release-5-3-1:1.12.0.30
+	Release-5-2-3-1:1.12.0.28
+	Root_Release-5-2-3-1:1.12
+	Release-5-2-2-4:1.12.0.26
+	Root_Release-5-2-2-4:1.12
+	Release-5-2-2-1:1.12.0.24
+	Root_Release-5-2-2-1:1.12
+	upstream_version_5_2_2:1.12
+	debian_version_5_2_2-1:1.12
+	Release-5-2-2:1.12.0.22
+	ROOT_Release-5-2-2:1.12
+	ROOT_Release-5-2-1:1.12
+	Release-5-2-1:1.12.0.20
+	Release-5-2-0:1.12.0.18
+	ROOT_Release-5-2-0:1.12
+	ROOT_Release-5-1-2:1.12
+	Release-5-1-2:1.12.0.16
+	Version-5-1-1:1.12.0.14
+	ROOT_Version-5-1-1:1.12
+	debian_version_5_1_0-1:1.12
+	upstream_version_5_1_0:1.12
+	ROOT_Release-5-1-0:1.12
+	Release-5-1-0:1.12.0.12
+	ROOT_Release-5-0-0:1.12
+	Release-5-0-0:1.12.0.10
+	Release-4-3-3:1.12.0.8
+	ROOT_Release-4-3-3:1.12
+	upstream_version_4_3_2:1.12
+	debian_version_4_3_2-1:1.12
+	ROOT_Release-4-3-2:1.12
+	Release-4-3-2:1.12.0.6
+	Release-4-3-1:1.12.0.4
+	ROOT_Release-4-3-1:1.12
+	debian_version_4_3_0-1:1.12
+	upstream_version_4_3_0:1.12
+	ROOT_Release-4-3-0:1.12
+	Release-4-3-0:1.12.0.2
+	debian_version_3_2_1b-2:1.7
+	debian_version_4_2_2-1:1.12
+	upstream_version_4_2_2:1.12
+	debian_version_3_2_1b-1:1.7
+	upstream_version_3_2_1b:1.7
+	Release-4-1-2:1.10.0.2
+	Release-4-0-8:1.9.0.6
+	debian_version_4_0_8a-1:1.9
+	upstream_version_4_0_8a:1.9
+	jostb-debian-ubuntu-patch:1.9.0.4
+	debian_version_4_0_8-1:1.9
+	upstream_version_4_0_8:1.9
+	debian_version_4_0_7-1:1.9
+	upstream_version_4_0_7:1.9
+	debian_version_4_0_6-1:1.9
+	upstream_version_4_0_6:1.9
+	debian_version_4_0_2-1:1.9
+	upstream_version_4_0_2:1.9
+	Release-4-0-2_Root:1.9
+	Release-4-0-2:1.9.0.2
+	upstream_version_4_0_1:1.9
+	debian_version_4_0_1-2:1.9
+	Release-3-2-1:1.7.0.2
+	Release-3-1-8:1.4.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.16
+date	2017.03.18.20.14.40;	author jost_boekemeier;	state dead;
+branches;
+next	1.15;
+
+1.15
+date	2010.02.28.15.20.43;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.11.30.17.08.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2008.11.08.13.08.40;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2007.07.22.12.54.43;	author jost_boekemeier;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2007.07.09.14.35.06;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2007.06.13.19.51.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2007.03.09.20.28.11;	author andremachado;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.12.22.16.02.40;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.12.16.16.21.54;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.12.15.10.31.25;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.12.13.14.04.24;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.08.27.14.40.11;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.08.21.17.41.52;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.08.08.17.20.45;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.06.19.20.43.08;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.16
+log
+@New FastCGI implementation
+@
+text
+@/*-*- mode: Java; tab-width:8 -*-*/
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.lang.reflect.Method;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.StringTokenizer;
+import java.util.Vector;
+
+import javax.swing.JEditorPane;
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+import javax.swing.SwingUtilities;
+import javax.swing.event.HyperlinkEvent;
+import javax.swing.event.HyperlinkListener;
+import javax.swing.text.html.HTMLDocument;
+import javax.swing.text.html.HTMLFrameHyperlinkEvent;
+
+/**
+ * Used only for release tests
+ */
+public class TestInstallation implements Runnable {
+    // See Util.DEFAULT_CGI_LOCATIONS
+    static final String DEFAULT_CGI_LOCATIONS[] = new String[] {"/usr/bin/php-cgi", "c:/Program Files/PHP/php-cgi.exe"};
+    private static String socket;
+    private Process proc;
+    private static Process runner;
+    private static File base;
+
+    TestInstallation() {
+    }
+    TestInstallation(Process proc) {
+	this.proc = proc;
+    }
+    static class SimpleBrowser implements Runnable,  HyperlinkListener {
+	private String port;
+	SimpleBrowser(String port) {
+	    this.port = port;
+	}
+	public void hyperlinkUpdate(HyperlinkEvent e) {
+	    if (e.getEventType() == HyperlinkEvent.EventType.ACTIVATED) {
+		JEditorPane pane = (JEditorPane) e.getSource();
+		if (e instanceof HTMLFrameHyperlinkEvent) {
+		    HTMLFrameHyperlinkEvent  evt = (HTMLFrameHyperlinkEvent)e;
+		    HTMLDocument doc = (HTMLDocument)pane.getDocument();
+		    doc.processHTMLFrameHyperlinkEvent(evt);
+		} else {
+		    try {
+			URL url = e.getURL();
+			if(url.getFile().endsWith("/"))
+			    pane.setPage(e.getURL());
+			else {
+			    JFrame frame = new JFrame(url.toExternalForm());
+			    JEditorPane p = null;
+			    frame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+			    p = new JEditorPane(url);
+			    p.setEditable(false);
+			    p.addHyperlinkListener(this);
+			    JScrollPane scroll = new JScrollPane(p);
+			    frame.getContentPane().add(scroll);
+			    frame.setSize(800,600);
+			    frame.setVisible(true);
+			}	        	  
+		    } catch (Throwable t) {
+			t.printStackTrace();
+		    }
+		}
+	    }
+	}
+	   
+	public void run() {
+	    try {
+		URL url = new URL("http://127.0.0.1:"+port+"/server/tests.php5/");
+	    	JEditorPane p = null;
+	    	JFrame frame = new JFrame(url.toExternalForm());
+	    	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		p = new JEditorPane(url);
+		p.setEditable(false);
+		p.addHyperlinkListener(this);
+		JScrollPane scroll = new JScrollPane(p);
+		frame.getContentPane().add(scroll);
+		frame.setSize(800,600);
+	 	 
+		frame.setVisible(true);
+	    } catch (IOException e) {
+		System.exit(0);
+	    }
+	}
+
+    }
+    private static String findSocket() {
+	for(int i=8080; i<8080+200; i++) {
+	    try {
+		ServerSocket s = new ServerSocket(i);
+		s.close();
+		return socket = String.valueOf(i);
+	    } catch (Exception e) {/* ignore */}
+	}
+	return null;
+    }
+    private static final Class[] STRING_PARAM = new Class[]{String.class};
+    private static final Class[] EMPTY_PARAM = new Class[0];
+    private static final Object[] EMPTY_ARG = new Object[0];
+    private static final File winnt = new File("c:/winnt");
+    private static final File windows = new File("c:/windows");
+    private static final Map COMMON_ENVIRONMENT = getCommonEnvironment();
+    private static final HashMap processEnvironment = getProcessEnvironment();
+    
+    private static String[] hashToStringArray(Map h)
+	throws NullPointerException {
+	Vector v = new Vector();
+	Iterator e = h.keySet().iterator();
+	while (e.hasNext()) {
+	    String k = e.next().toString();
+	    v.add(k + "=" + h.get(k));
+	}
+	String[] strArr = new String[v.size()];
+	v.copyInto(strArr);
+	return strArr;
+    }
+    private static HashMap getProcessEnvironment() {
+	HashMap defaultEnv = new HashMap();
+	String val = null;
+	// Bug in WINNT and WINXP.
+	// If SystemRoot is missing, php cannot access winsock.
+	if(winnt.isDirectory()) val="c:\\winnt";
+	else if(windows.isDirectory()) val = "c:\\windows";
+	try {
+	    String s = System.getenv("SystemRoot"); 
+	    if(s!=null) val=s;
+	} catch (Throwable t) {/*ignore*/}
+	try {
+	    String s = System.getProperty("Windows.SystemRoot");
+	    if(s!=null) val=s;
+	} catch (Throwable t) {/*ignore*/}
+	if(val!=null) defaultEnv.put("SystemRoot", val);
+	try {
+	    Method m = System.class.getMethod("getenv", EMPTY_PARAM);
+	    Map map = (Map) m.invoke(System.class, EMPTY_ARG);
+	    defaultEnv.putAll(map);
+	} catch (Exception e) {
+	    defaultEnv.putAll(COMMON_ENVIRONMENT);
+	}
+	return defaultEnv;
+    }
+
+    /**
+     * A map containing common environment values for JDK <= 1.4:
+     * "PATH", "LD_LIBRARY_PATH", "LD_ASSUME_KERNEL", "USER", "TMP", "TEMP", "HOME", "HOMEPATH", "LANG", "TZ", "OS"
+     * They can be set with e.g.: <code>java -DPATH="$PATH" -DHOME="$HOME" -jar JavaBridge.jar</code> or
+     * <code>java -DPATH="%PATH%" -jar JavaBridge.jar</code>. 
+     */
+    private static HashMap getCommonEnvironment() {
+	String entries[] = {
+	    "PATH", "LD_LIBRARY_PATH", "LD_ASSUME_KERNEL", "USER", "TMP", "TEMP", "HOME", "HOMEPATH", "LANG", "TZ", "OS"
+	};
+	HashMap map = new HashMap(entries.length+10);
+	String val;
+        Method m = null;
+        try {m = System.class.getMethod("getenv", STRING_PARAM);} catch (Exception e) {/*ignore*/}
+	for(int i=0; i<entries.length; i++) {
+	    val = null;
+	    if (m!=null) { 
+		try {
+		    val = (String) m.invoke(System.class, (Object[])new String[]{entries[i]});
+		} catch (Exception e) {
+		    m = null;
+		}
+	    }
+	    if(val==null) {
+	        try { val = System.getProperty(entries[i]); } catch (Exception e) {/*ignore*/}
+	    }
+	    if(val!=null) map.put(entries[i], val);
+	}
+	return map;
+    }
+    private void readError() throws IOException {
+	int c;
+	InputStream in = proc.getErrorStream();
+	while((c=in.read())!=-1) System.err.write(c);
+	in.close();
+    }
+    private void startRunner() throws IOException {
+	String[] cmd = new String[] {(String.valueOf(new File(System.getProperty("java.home"), "bin"+File.separator+"java"))),
+				     "-jar",
+				     base+File.separator+"ext"+File.separator+"JavaBridge.jar",
+				     "SERVLET_LOCAL:"+socket};
+	System.err.println("Starting a simple servlet engine: " + Arrays.asList(cmd));
+	Process p;
+	try {
+	    p = runner = Runtime.getRuntime().exec(cmd);
+	} catch (java.io.IOException ex) {
+	    throw new RuntimeException("Could not run "+Arrays.asList(cmd)+".", ex);
+	}
+	(new Thread(new TestInstallation(p))).start();
+	InputStream i = p.getInputStream();
+	int c;
+	while((c=i.read())!=-1) System.out.write(c);
+	System.out.flush();
+	System.err.flush();
+    }
+    /**{@@inheritDoc}*/
+    public void run() {
+	try {
+	    if(proc==null) startRunner();
+	    else readError();
+	} catch (Exception e) {
+	    e.printStackTrace();
+	}
+    }
+    /* Don't use Util or DynamicJavaBridgeClassLoader at this stage! */
+    private static final boolean checkGNUVM() {
+	try {
+	    return "libgcj".equals(System.getProperty("gnu.classpath.vm.shortname"));
+	} catch (Throwable t) {
+	    return false;
+	}
+    }
+    /**
+     * 
+     * @@param args
+     */
+    public static void main(String[] args) {
+	try { // Hack for Unix: execute the standalone container using the default SUN VM
+	    if(args.length==0 && (new File("/usr/java/default/bin/java")).exists() && checkGNUVM() && (System.getProperty("php.java.bridge.exec_sun_vm", "true").equals("true"))) {
+		Process p = Runtime.getRuntime().exec(new String[] {"/usr/java/default/bin/java", "-Dphp.java.bridge.exec_sun_vm=false", "-classpath", System.getProperty("java.class.path"), "TestInstallation"});
+		(new Thread() { 
+		    InputStream in;
+		    public Thread init(InputStream in) { this.in = in; return this; }
+		    public void run() { int c; try { while((c=in.read())!=-1) System.out.write(c); } catch (IOException e) { e.printStackTrace(); } }
+		}).init(p.getInputStream()).start();
+		(new Thread() { 
+		    InputStream in;
+		    public Thread init(InputStream in) { this.in = in; return this; }
+		    public void run() { int c; try { while((c=in.read())!=-1) System.err.write(c); } catch (IOException e) { e.printStackTrace(); } }
+		}).init(p.getErrorStream()).start();
+		
+		if(p != null) System.exit(p.waitFor());
+	    }
+	} catch (Throwable t) {/*ignore*/}
+
+	try {
+	    start(args);
+	} catch (Throwable t) {
+	    t.printStackTrace();
+	    if(runner!=null) runner.destroy();
+	    System.exit(1);
+	}
+    }
+    static void start(String[] args) throws Exception {
+	String socket = findSocket();
+	String os = null;
+	String separator = "/-+.,;: ";
+	try {
+	    String val = System.getProperty("os.name").toLowerCase();
+	    StringTokenizer t = new StringTokenizer(val, separator);
+	    os = t.nextToken();
+	} catch (Throwable t) {/*ignore*/}
+	if(os==null) os="unknown";
+        File ext = null;
+        try {
+            ext = (args.length==0) ? new File(new File(System.getProperty("java.class.path")).getParentFile().getAbsoluteFile(), "ext") : new File(args[0], "ext");
+	    ext = ext.getAbsoluteFile();
+        } catch (Throwable t) {
+            ext = (args.length==0) ? new File("ext") : new File(args[0], "ext");         
+	    ext = ext.getAbsoluteFile();
+        }
+	if(!ext.isDirectory()) ext.mkdirs();
+	base = ext.getParentFile();
+	File java = new File(base, "java");
+	if(!java.isDirectory()) java.mkdirs();
+		
+	ClassLoader loader = TestInstallation.class.getClassLoader();
+	InputStream in = loader.getResourceAsStream("WEB-INF/lib/JavaBridge.jar");
+	extractFile(in, new File(ext, "JavaBridge.jar").getAbsoluteFile());
+	in.close();
+	in = loader.getResourceAsStream("WEB-INF/lib/php-script.jar");
+	extractFile(in, new File(ext, "php-script.jar").getAbsoluteFile());
+	in.close();
+	in = loader.getResourceAsStream("WEB-INF/lib/php-servlet.jar");
+	extractFile(in, new File(ext, "php-servlet.jar").getAbsoluteFile());
+	in.close();
+	in = loader.getResourceAsStream("WEB-INF/lib/script-api.jar");
+	extractFile(in, new File(ext, "script-api.jar").getAbsoluteFile());
+	in.close();
+	in = loader.getResourceAsStream("test.php");
+	extractFile(in, new File(base, "test.php").getAbsoluteFile());
+	in.close();
+	
+	// start back end
+	(new Thread(new TestInstallation())).start();
+	int count = 20;
+	while(count-->0) {
+	    Thread.sleep(500);
+	    try {Socket s = new Socket("127.0.0.1", Integer.parseInt(socket)); if(s!=null) s.close(); break;} catch (IOException e) {/* ignore */}
+	}
+	if(count==0) throw new IOException("Could not start test servlet engine");
+	// Fetch the Java.inc file
+	URL url = new URL("http://127.0.0.1:"+socket+"/JavaBridge/java/Java.inc");
+	URLConnection conn = url.openConnection();
+	conn.connect();
+	in = conn.getInputStream();
+	extractFile(in, new File(java, "Java.inc").getAbsoluteFile());
+	in.close();
+
+	FileOutputStream o = new FileOutputStream(new File(base,"RESULT.html"));
+	String php = "php-cgi";
+	for(int i=0; i<DEFAULT_CGI_LOCATIONS.length; i++) {
+	    File location = new File(DEFAULT_CGI_LOCATIONS[i]);
+	    if(location.exists()) {php = location.getAbsolutePath(); break;}
+	}
+		
+	// start front end
+	String[] cmd = new String[] {php, "-n", "-d","allow_url_include=On",String.valueOf(new File(base,"test.php"))};
+	System.err.println("Invoking php: " + Arrays.asList(cmd));
+	HashMap env = (HashMap) processEnvironment.clone();
+	env.put("SERVER_PORT", socket);
+	env.put("X_JAVABRIDGE_OVERRIDE_HOSTS", "h:127.0.0.1:"+socket+"//JavaBridge/test.phpjavabridge");
+	Process p;
+	try {
+	    p = Runtime.getRuntime().exec(cmd, hashToStringArray(env));
+	} catch (java.io.IOException ex) {
+	    throw new RuntimeException("Could not run PHP ("+Arrays.asList(cmd)+"), please check if php-cgi is in the path.", ex);
+	}
+	(new Thread(new TestInstallation(p))).start();
+		
+	InputStream i = p.getInputStream();
+	int c;
+	while((c=i.read())!=-1) o.write(c);
+	i.close();
+	p.getOutputStream().close();
+	o.close();
+
+	//p.destroy(); if(runner!=null) runner.destroy();
+	
+	System.out.flush();
+	System.err.flush();
+	System.out.println("\nNow check the " + new File(base, "RESULT.html."));
+	System.out.println("Read the INSTALL.J2EE and/or INSTALL.J2SE documents.");
+
+	try {
+	    SwingUtilities.invokeAndWait(new SimpleBrowser(socket));
+	} catch (Throwable err) {System.exit(0);}
+    }
+    private static void extractFile(InputStream in, File target) throws IOException {
+	byte[] buf = new byte[8192];
+	FileOutputStream out = new FileOutputStream(target);
+	int c;
+  	while((c = in.read(buf))!=-1) {
+	    out.write(buf, 0, c);
+	}
+	out.close();
+    }
+}
+@
+
+
+1.15
+log
+@Release-6-0-3
+@
+text
+@@
+
+
+1.14
+log
+@Release 5.3.4
+@
+text
+@d11 1
+a297 3
+	in = loader.getResourceAsStream("java/Java.inc");
+	extractFile(in, new File(java, "Java.inc").getAbsoluteFile());
+	in.close();
+d307 8
+a314 1
+		
+@
+
+
+1.13
+log
+@Release-5-3-3
+@
+text
+@d27 3
+d32 1
+a32 1
+    public static final String DEFAULT_CGI_LOCATIONS[] = new String[] {"/usr/bin/php-cgi", "c:/Program Files/PHP/php-cgi.exe"};
+d43 1
+a43 1
+    public static class SimpleBrowser implements Runnable,  HyperlinkListener {
+d45 1
+a45 1
+	public SimpleBrowser(String port) {
+d210 1
+d227 5
+a231 1
+   public static void main(String[] args) {
+d258 1
+a258 1
+    public static void start(String[] args) throws Exception {
+@
+
+
+1.12
+log
+@Release-4-2-1
+@
+text
+@d29 1
+a29 1
+    public static final String DEFAULT_CGI_LOCATIONS[] = new String[] {"/usr/bin/php-cgi", "c:/php/php-cgi.exe"};
+@
+
+
+1.11
+log
+@Release-4-1-8
+@
+text
+@d280 3
+@
+
+
+1.10
+log
+@Release-4-1-0
+@
+text
+@d10 2
+d17 9
+a25 1
+import java.util.Arrays;
+d40 54
+d95 1
+a205 1
+	System.exit(0);
+d215 27
+a241 1
+    public static void main(String[] args) {
+a248 1
+	System.exit(0);
+d307 1
+a307 1
+	String[] cmd = new String[] {php,  "-d","allow_url_include=On",String.valueOf(new File(base,"test.php"))};
+d326 2
+a327 1
+	p.destroy(); if(runner!=null) runner.destroy();
+d332 5
+a336 1
+	System.out.println("Read the INSTALL.J2EE and/or INSTALL.J2SE document.");
+@
+
+
+1.9
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d15 1
+d128 7
+a134 2
+	System.err.println("Starting a simple servlet engine: " + java.util.Arrays.asList(cmd));
+	Process p = runner = Runtime.getRuntime().exec(cmd);
+d181 2
+d197 3
+d219 1
+a219 1
+	System.err.println("Invoking php: " + java.util.Arrays.asList(cmd));
+d223 6
+a228 1
+	Process p = Runtime.getRuntime().exec(cmd, hashToStringArray(env));
+@
+
+
+1.8
+log
+@Release-3-2-2
+@
+text
+@a6 1
+import java.io.PrintWriter;
+d62 1
+a62 1
+      String val = null;
+d70 2
+a71 2
+      } catch (Throwable t) {/*ignore*/}
+      try {
+d74 1
+a74 1
+      } catch (Throwable t) {/*ignore*/}
+d76 8
+a83 6
+      try {
+        Method m = System.class.getMethod("getenv", EMPTY_PARAM);
+        Map map = (Map) m.invoke(System.class, EMPTY_ARG);
+        defaultEnv.putAll(map);
+    } catch (Exception e) {
+	defaultEnv.putAll(COMMON_ENVIRONMENT);
+a84 2
+    return defaultEnv;
+  }
+d86 1
+a86 1
+   /**
+d103 5
+a107 5
+	      try {
+	        val = (String) m.invoke(System.class, (Object[])new String[]{entries[i]});
+	      } catch (Exception e) {
+		 m = null;
+	      }
+d123 5
+a127 2
+	String cmd = (new File(System.getProperty("java.home"), "bin"+File.separator+"java")) +" -jar "+base+File.separator+"ext"+File.separator+"JavaBridge.jar SERVLET_LOCAL:"+socket;
+	System.err.println("Starting a simple servlet engine: " + cmd);
+d175 2
+a176 7
+	
+        ClassLoader loader = TestInstallation.class.getClassLoader();
+        PrintWriter out = new PrintWriter(new FileOutputStream(new File(base, "php.ini").getAbsoluteFile()));
+        out.println("include_path=.");
+	out.close();
+
+        extractPurePhpJavaBridge(base, loader);
+d183 3
+d189 1
+a189 1
+
+d191 8
+a198 8
+        (new Thread(new TestInstallation())).start();
+        int count = 20;
+        while(count-->0) {
+           Thread.sleep(500);
+           try {Socket s = new Socket("127.0.0.1", Integer.parseInt(socket)); if(s!=null) s.close(); break;} catch (IOException e) {/* ignore */}
+         }
+        if(count==0) throw new IOException("Could not start test servlet engine");
+	
+d205 1
+a205 1
+	
+d207 2
+a208 2
+	String cmd = php + " -c "+new File(base, "php.ini")+" "+new File(base,"test.php");
+	System.err.println("Invoking php: " + cmd);
+d210 1
+d214 1
+a214 1
+	
+d222 1
+a226 10
+}
+    private static void extractPurePhpJavaBridge(File base, ClassLoader loader) throws IOException {
+	String files[] = {"Client.php", "GlobalRef.php", "Java.php", "JavaProxy.php", "NativeParser.php", "Options.php", "Parser.php", "Protocol.php", "SimpleParser.php", "README" };
+	File javaDir = new File(base, "java");
+	if(!javaDir.exists()) javaDir.mkdir();
+	for(int i=0; i<files.length; i++) {
+	    InputStream in = loader.getResourceAsStream("java/"+files[i]);
+	    extractFile(in, new File(javaDir, files[i]).getAbsoluteFile());
+	    in.close();
+	}
+d237 1
+a237 1
+}@
+
+
+1.7
+log
+@Release-3-2-1
+@
+text
+@d8 6
+d15 1
+d17 7
+d25 61
+a85 1
+public class TestInstallation {
+d87 68
+a154 1
+    public static void main(String[] args) throws IOException {
+d166 1
+d169 1
+d172 1
+a172 1
+	File base = ext.getParentFile();
+d175 4
+a178 96
+        
+        if("windows".equals(os)) {
+	    PrintWriter out = new PrintWriter(new FileOutputStream(new File(base, "testphp.bat").getAbsoluteFile()));
+	    out.println(".\\php-cgi -c php.ini test.php >RESULT.html");
+	    out.println("@@echo off");
+	    out.println("");
+	    out.println("echo Now check the RESULT.html.");
+	    out.println("echo Read the INSTALL.J2EE document.");
+	    out.println("pause");
+	    out.close();
+	    out = new PrintWriter(new FileOutputStream(new File(base, "php.ini").getAbsoluteFile()));
+	    out.println("extension_dir=ext");
+	    out.println("extension=php_java.dll");
+	    out.println("[java]");
+	    out.println("java.java_home=" + System.getProperty("java.home"));
+	    out.println("java.java=" +(new File(System.getProperty("java.home"), "bin"+File.separator+"javaw.exe")));
+	    out.println("java.log_level=2");
+	    out.println(";java.log_file=ext/JavaBridge.log");
+	    out.close();
+  	    InputStream in = loader.getResourceAsStream("WEB-INF/cgi/php-cgi-x86-windows.exe");
+  	    extractFile(in, new File(base, "php-cgi.exe").getAbsoluteFile());
+  	    in.close();
+  	    in = loader.getResourceAsStream("WEB-INF/cgi/java-x86-windows.dll");
+  	    extractFile(in, new File(ext, "php_java.dll").getAbsoluteFile());
+  	    in.close();
+  	    in = loader.getResourceAsStream("WEB-INF/cgi/php5ts.dll");
+  	    extractFile(in, new File(base, "php5ts.dll").getAbsoluteFile());
+  	    in.close();
+        } else if("linux".equals(os)) {
+	    PrintWriter out = new PrintWriter(new FileOutputStream(new File(base, "testphp.sh").getAbsoluteFile()));
+	    out.println("#!/bin/sh");
+	    out.println("chmod +x php-cgi");
+	    out.println("./php-cgi -c php.ini test.php >RESULT.html || echo 'test failed!'");
+	    out.println("");
+	    out.println("echo 'Now check the RESULT.html.'");
+	    out.println("echo 'Read the INSTALL.LINUX or INSTALL.J2EE document.'");
+	    out.close();
+	    out = new PrintWriter(new FileOutputStream(new File(base, "php.ini").getAbsoluteFile()));
+	    out.println("include_path=.");
+	    out.println("extension_dir=ext");
+	    out.println("extension=java.so");
+	    out.println("[java]");
+	    out.println("java.java_home=" + System.getProperty("java.home"));
+	    out.println("java.java=" +(new File(System.getProperty("java.home"), "bin"+File.separator+"java")));
+	    out.println("java.log_level=2");
+	    out.println(";java.log_file=ext/JavaBridge.log");
+	    out.close();
+  	    InputStream in = loader.getResourceAsStream("WEB-INF/cgi/php-cgi-i386-linux");
+  	    extractFile(in, new File(base, "php-cgi").getAbsoluteFile());
+  	    in.close();
+  	    in = loader.getResourceAsStream("WEB-INF/cgi/java-i386-linux.so");
+  	    extractFile(in, new File(ext, "java.so").getAbsoluteFile());
+  	    in.close();
+        } else if("sunos".equals(os)) {
+	    PrintWriter out = new PrintWriter(new FileOutputStream(new File(base, "testphp.sh").getAbsoluteFile()));
+	    out.println("#!/bin/sh");
+	    out.println("chmod +x php-cgi");
+	    out.println("./php-cgi -c php.ini test.php >RESULT.html || echo 'test failed!'");
+	    out.println("");	    
+	    out.println("echo 'Now check the RESULT.html.'");
+	    out.println("echo 'Read the INSTALL.J2EE document.'");
+	    out.close();
+	    out = new PrintWriter(new FileOutputStream(new File(base, "php.ini").getAbsoluteFile()));
+	    out.println("include_path=.");
+	    out.println("extension_dir=ext");
+	    out.println("extension=java.so");
+	    out.println("[java]");
+	    out.println("java.java_home=" + System.getProperty("java.home"));
+	    out.println("java.java=" +(new File(System.getProperty("java.home"), "bin"+File.separator+"java")));
+	    out.println("java.log_level=2");
+	    out.println(";java.log_file=ext/JavaBridge.log");
+	    out.close();
+  	    InputStream in = loader.getResourceAsStream("WEB-INF/cgi/php-cgi-x86-sunos");
+  	    extractFile(in, new File(base, "php-cgi").getAbsoluteFile());
+  	    in.close();
+  	    in = loader.getResourceAsStream("WEB-INF/cgi/java-x86-sunos.so");
+  	    extractFile(in, new File(ext, "java.so").getAbsoluteFile());
+  	    in.close();
+        } else { 
+	    System.err.println("Unknown OS: " + os);
+	    System.err.println("Will use the pure PHP implementation instead.");
+	    PrintWriter out = new PrintWriter(new FileOutputStream(new File(base, "testphp.sh").getAbsoluteFile()));
+	    out.println("#!/bin/sh");
+	    out.println((new File(System.getProperty("java.home"), "bin"+File.separator+"java")) +" -jar ext/JavaBridge.jar SERVLET:8080 &");
+	    out.println("echo Java servlet engine started, waiting 5 seconds");
+	    out.println("sleep 5");
+	    out.println("php -c php.ini test.php >RESULT.html || echo 'test failed!'");
+	    out.println("kill $!");
+	    out.println("");	    
+	    out.println("echo 'Now check the RESULT.html.'");
+	    out.println("echo 'Read the INSTALL.J2EE document.'");
+	    out.close();
+	    out = new PrintWriter(new FileOutputStream(new File(base, "php.ini").getAbsoluteFile()));
+	    out.println("include_path=.");
+	    out.close();
+	}
+d183 3
+d189 37
+a225 1
+    }
+d245 1
+a245 1
+}
+@
+
+
+1.6
+log
+@Release-3-2-1
+@
+text
+@d22 6
+a27 2
+        
+        File ext = (args.length==0) ? new File("ext") : new File(args[0], "ext");
+a131 3
+	in = loader.getResourceAsStream("WEB-INF/lib/php-script.jar");
+	extractFile(in, new File(ext, "php-script.jar").getAbsoluteFile());
+	in.close();
+@
+
+
+1.5
+log
+@Release-3-2-1
+@
+text
+@d128 3
+@
+
+
+1.4
+log
+@Release-3-1-8rc
+@
+text
+@d111 2
+a112 2
+	    out.println((new File(System.getProperty("java.home"), "bin"+File.separator+"java")) +" -classpath ext/JavaBridge.jar php.java.bridge.JavaBridgeRunner 8080 &");
+	    out.println("echo Java started, waiting 5 seconds");
+@
+
+
+1.3
+log
+@Release-3-1-8devel1
+@
+text
+@d14 1
+a14 1
+        String os = null;
+d66 1
+d91 1
+d108 15
+a122 3
+	    System.err.println("Use the pure PHP implementation instead.");
+	    System.err.println("Extract and read java/README from JavaBridge.war for details.");
+	    System.exit(1); 
+d124 1
+d130 11
+@
+
+
+1.2
+log
+@Release-3-1-7
+@
+text
+@d104 6
+a109 1
+        } else { System.err.println("Unknown OS: " + os); System.exit(1); }
+@
+
+
+1.1
+log
+@Release-3-1-0
+@
+text
+@d35 1
+a35 1
+	    out.println("echo Read the INSTALL.WINDOWS document.");
+d104 1
+a104 1
+        } else { System.out.println("Unknown OS: " + os); System.exit(1); }
+@
+

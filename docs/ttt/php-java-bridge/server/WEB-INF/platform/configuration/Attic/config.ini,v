@@ -1,0 +1,42 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.2
+date	2009.02.16.21.22.51;	author jost_boekemeier;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2009.02.15.22.15.46;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@#Product Runtime Configuration File
+eclipse.product=org.eclipse.birt.report.engine.ReportEngineSDK
+osgi.bundles=org.eclipse.equinox.common@@2:start, org.eclipse.update.configurator@@3:start, org.eclipse.birt.core@@start
+osgi.framework.extensions=org.eclipse.birt.api
+osgi.bundles.defaultStartLevel=4
+@
+
+
+1.1
+log
+@eclipse birt integration
+@
+text
+@@
+

@@ -1,0 +1,262 @@
+head	1.4;
+access;
+symbols
+	Release-7-1-1:1.4.0.38
+	Root_Release-7-1-1:1.4
+	Root_Release_7-0-1:1.4
+	Release_7-0-1:1.4.0.36
+	Release_7-0-0:1.4.0.34
+	Root_Release_7-0-0:1.4
+	Release-6-2-2:1.4.0.32
+	Release-6-1-2-3:1.4
+	Root_Release-6-1-2-3:1.4
+	Release-6-1-2-2:1.4.0.30
+	Root_Release-6-1-2-2:1.4
+	debian_version_6_1_2_1-1:1.4
+	upstream_version_6_1_2_1:1.4
+	Release-6-1-2-1_new:1.4.0.28
+	Root_Release-6-1-2-1_new:1.4
+	Release-6-1-2-1:1.4.0.26
+	Root_Release-6-1-2-1:1.4
+	upstream_version_6_1_2:1.4
+	debian_version_6_1_2-1:1.4
+	Release-6-1-2:1.4.0.24
+	Root_Release-6-1-2:1.4
+	debian_version_6_1_1-2:1.4
+	debian_version_6_1_1-1:1.4
+	upstream_version_6_1_1:1.4
+	Release-6-1-1:1.4.0.22
+	Root_Release-6-1-1:1.4
+	Release-6-0-4:1.4.0.20
+	Root_Release-6-0-4:1.4
+	Release-6-0-3_NEW:1.4.0.16
+	Root_Release-6-0-3_NEW:1.4
+	Release-6-0-3:1.4.0.18
+	Root_Release-6-0-3:1.4
+	Release-6-0-0:1.4.0.14
+	Root_Release-6-0-0:1.4
+	Release-5-5-4-1:1.4.0.12
+	Root_Release-5-5-4-1:1.4
+	Release-5-5-4:1.4.0.10
+	Root_Release-5-5-4:1.4
+	Release-5-5-3:1.4.0.8
+	ROOT_Release-5-5-3:1.4
+	Release-5-5-2:1.4.0.6
+	Root_Release-5-5-2:1.4
+	debian_version_5_5_1-1:1.4
+	Release-5-5-1:1.4.0.2
+	upstream_version_5_5_1:1.4
+	ROOT_Release-5-5-1:1.4
+	debian_version_5_5-1:1.4
+	upstream_version_5_5:1.4
+	ROOT_Release-5-5:1.4
+	Release-5-5:1.4.0.4
+	debian_version_5_4_4_2-3:1.4
+	Release-5-4-4-2-1:1.3.0.2
+	debian_version_5_4_4_2-2:1.3
+	debian_version_5_4_4_2-1:1.3
+	upstream_version_5_4_4_2:1.3
+	debian_version_5_4_4_1-1:1.3
+	upstream_version_5_4_4_1:1.3
+	debian_version_5_4_4-1:1.2
+	upstream_version_5_4_4:1.2
+	Release-5-4-4:1.2.0.46
+	Root_Release-5-4-4:1.2
+	debian_version_5_4_3_2-1:1.2
+	upstream_version_5_4_3_2:1.2
+	Release_5-4-3-2:1.2.0.42
+	Root_Release_5-4-3-2:1.2
+	upstream_version_5_4_3_1:1.2
+	debian_version_5_4_3_1-1:1.2
+	Release-5-4-3:1.2.0.40
+	Root_Release-5-4-3:1.2
+	Root_Release-5-4-1:1.2
+	Release-5-4-1:1.2.0.38
+	Root_Release-5-4:1.2
+	Release-5-4:1.2.0.36
+	upstream_version_5_3_4:1.2
+	debian_version_5_3_4-1:1.2
+	ROOT_Release-5-3-4:1.2
+	Release-5-3-4:1.2.0.34
+	ROOT_Release-5-3-3:1.2
+	Release-5-3-3:1.2.0.30
+	debian_version_5_3_2_1_2-1:1.2
+	upstream_version_5_3_2_1_2:1.2
+	debian_version_5_3_2_1_1-1:1.2
+	debian_version_5_3_2_1_1:1.2
+	upstream_version_5_3_2_1_1:1.2
+	Root_Release-5-3-2-1:1.2
+	Release-5-3-2-1:1.2
+	ROOT_RELEASE-5-3-2-1:1.2
+	RELEASE-5-3-2-1:1.2.0.32
+	Release-5-3-2:1.2.0.28
+	Root_Release-5-3-2:1.2
+	Root_Release-5-3-1:1.2
+	Release-5-3-1:1.2.0.26
+	Release-5-2-3-1:1.2.0.24
+	Root_Release-5-2-3-1:1.2
+	Release-5-2-2-4:1.2.0.22
+	Root_Release-5-2-2-4:1.2
+	Release-5-2-2-1:1.2.0.20
+	Root_Release-5-2-2-1:1.2
+	upstream_version_5_2_2:1.2
+	debian_version_5_2_2-1:1.2
+	Release-5-2-2:1.2.0.18
+	ROOT_Release-5-2-2:1.2
+	ROOT_Release-5-2-1:1.2
+	Release-5-2-1:1.2.0.16
+	Release-5-2-0:1.2.0.14
+	ROOT_Release-5-2-0:1.2
+	ROOT_Release-5-1-2:1.2
+	Release-5-1-2:1.2.0.12
+	Version-5-1-1:1.2.0.10
+	ROOT_Version-5-1-1:1.2
+	debian_version_5_1_0-1:1.2
+	debian_version_4_3_2-1:1.2
+	debian_version_4_3_0-1:1.2
+	upstream_version_4_3_0:1.2
+	ROOT_Release-4-3-0:1.2
+	Release-4-3-0:1.2.0.8
+	debian_version_3_2_1b-2:1.2.6.1
+	debian_version_4_2_2-1:1.2
+	upstream_version_4_2_2:1.2
+	debian_version_3_2_1b-1:1.2.6.1
+	Release-3-2-1:1.2.0.6
+	Release-4-1-2:1.2.0.4
+	Release-4-0-8:1.2.0.2
+	debian_version_4_0_8a-1:1.2
+	upstream_version_4_0_8a:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2009.07.16.20.36.04;	author andremachado;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2009.03.30.14.22.01;	author andremachado;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2007.04.20.18.33.59;	author andremachado;	state Exp;
+branches
+	1.2.6.1;
+next	1.1;
+
+1.1
+date	2007.04.10.19.37.29;	author andremachado;	state Exp;
+branches;
+next	;
+
+1.2.6.1
+date	2007.08.03.18.41.39;	author andremachado;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@TomCat policy files must be owned by its user and group, with correct permissions in order to TomCat start with security enabled.
+@
+text
+@#!/bin/sh
+# postinst script for php-java-bridge
+#
+# see: dh_installdeb(1)
+
+set -e
+
+# summary of how this script can be called:
+#        * <postinst> `configure' <most-recently-configured-version>
+#        * <old-postinst> `abort-upgrade' <new version>
+#        * <conflictor's-postinst> `abort-remove' `in-favour' <package>
+#          <new-version>
+#        * <postinst> `abort-remove'
+#        * <deconfigured's-postinst> `abort-deconfigure' `in-favour'
+#          <failed-install-package> <version> `removing'
+#          <conflicting-package> <version>
+# for details, see http://www.debian.org/doc/debian-policy/ or
+# the debian-policy package
+
+TomCatUser=tomcat55
+TomCatGroup=adm
+TomCatJavaBridgeSecurityPolicy=/etc/tomcat5.5/policy.d/60JavaBridge.policy
+
+case "$1" in
+    configure)
+	chown $TomCatUser:$TomCatGroup  $TomCatJavaBridgeSecurityPolicy;
+	chmod 640 $TomCatJavaBridgeSecurityPolicy;
+	invoke-rc.d tomcat5.5 restart;
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+	invoke-rc.d tomcat5.5 restart;
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+# dh_installdeb will replace this with shell code automatically
+# generated by other debhelper scripts.
+
+#DEBHELPER#
+
+exit 0
+
+
+@
+
+
+1.3
+log
+@Dependencies and scripts corrections for Tomcat 5.5 in Lenny.
+@
+text
+@d20 3
+d26 2
+@
+
+
+1.2
+log
+@Comments cleaning. installini target substituded by install file. postinst, postrm, php-java-bridge-j2ee.postinst, php-java-bridge-j2ee.postrm corrected for starting / stoping suitable servers. Indication to http://wiki.debian.org/PkgSplit about explanations.
+@
+text
+@d23 1
+a23 1
+	invoke-rc.d tomcat5 restart;
+d27 1
+a27 1
+	invoke-rc.d tomcat5 restart;
+@
+
+
+1.2.6.1
+log
+@new Debian packaging, splitting binaries
+@
+text
+@@
+
+
+1.1
+log
+@stoping, restarting tomcat and purge j2ee ini files
+@
+text
+@a22 1
+	invoke-rc.d apache2 restart;
+a26 1
+	invoke-rc.d apache2 restart;
+@
+

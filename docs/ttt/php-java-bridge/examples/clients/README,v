@@ -1,0 +1,325 @@
+head	1.5;
+access;
+symbols
+	Release-7-1-1:1.5.0.98
+	Root_Release-7-1-1:1.5
+	Root_Release_7-0-1:1.5
+	Release_7-0-1:1.5.0.96
+	Release_7-0-0:1.5.0.94
+	Root_Release_7-0-0:1.5
+	Release-6-2-2:1.5.0.92
+	Release-6-1-2-3:1.5
+	Root_Release-6-1-2-3:1.5
+	Release-6-1-2-2:1.5.0.90
+	Root_Release-6-1-2-2:1.5
+	debian_version_6_1_2_1-1:1.5
+	upstream_version_6_1_2_1:1.5
+	Release-6-1-2-1_new:1.5.0.88
+	Root_Release-6-1-2-1_new:1.5
+	Release-6-1-2-1:1.5.0.86
+	Root_Release-6-1-2-1:1.5
+	upstream_version_6_1_2:1.5
+	debian_version_6_1_2-1:1.5
+	Release-6-1-2:1.5.0.84
+	Root_Release-6-1-2:1.5
+	debian_version_6_1_1-2:1.5
+	debian_version_6_1_1-1:1.5
+	upstream_version_6_1_1:1.5
+	Release-6-1-1:1.5.0.82
+	Root_Release-6-1-1:1.5
+	Release-6-0-4:1.5.0.80
+	Root_Release-6-0-4:1.5
+	Release-6-0-3_NEW:1.5.0.76
+	Root_Release-6-0-3_NEW:1.5
+	Release-6-0-3:1.5.0.78
+	Root_Release-6-0-3:1.5
+	Release-6-0-0:1.5.0.74
+	Root_Release-6-0-0:1.5
+	Release-5-5-4-1:1.5.0.72
+	Root_Release-5-5-4-1:1.5
+	Release-5-5-4:1.5.0.70
+	Root_Release-5-5-4:1.5
+	Release-5-5-3:1.5.0.68
+	ROOT_Release-5-5-3:1.5
+	Release-5-5-2:1.5.0.66
+	Root_Release-5-5-2:1.5
+	debian_version_5_5_1-1:1.5
+	Release-5-5-1:1.5.0.62
+	upstream_version_5_5_1:1.5
+	ROOT_Release-5-5-1:1.5
+	debian_version_5_5-1:1.5
+	upstream_version_5_5:1.5
+	ROOT_Release-5-5:1.5
+	Release-5-5:1.5.0.64
+	debian_version_5_4_4_2-3:1.5
+	Release-5-4-4-2-1:1.5.0.58
+	debian_version_5_4_4_2-2:1.5
+	debian_version_5_4_4_2-1:1.5
+	upstream_version_5_4_4_2:1.5
+	debian_version_5_4_4_1-1:1.5
+	upstream_version_5_4_4_1:1.5
+	debian_version_5_4_4-1:1.5
+	upstream_version_5_4_4:1.5
+	Release-5-4-4:1.5.0.60
+	Root_Release-5-4-4:1.5
+	debian_version_5_4_3_2-1:1.5
+	upstream_version_5_4_3_2:1.5
+	Release_5-4-3-2:1.5.0.56
+	Root_Release_5-4-3-2:1.5
+	upstream_version_5_4_3_1:1.5
+	debian_version_5_4_3_1-1:1.5
+	Release-5-4-3:1.5.0.54
+	Root_Release-5-4-3:1.5
+	Root_Release-5-4-1:1.5
+	Release-5-4-1:1.5.0.52
+	Root_Release-5-4:1.5
+	Release-5-4:1.5.0.50
+	upstream_version_5_3_4:1.5
+	debian_version_5_3_4-1:1.5
+	ROOT_Release-5-3-4:1.5
+	Release-5-3-4:1.5.0.48
+	ROOT_Release-5-3-3:1.5
+	Release-5-3-3:1.5.0.44
+	debian_version_5_3_2_1_2-1:1.5
+	upstream_version_5_3_2_1_2:1.5
+	debian_version_5_3_2_1_1-1:1.5
+	debian_version_5_3_2_1_1:1.5
+	upstream_version_5_3_2_1_1:1.5
+	Root_Release-5-3-2-1:1.5
+	Release-5-3-2-1:1.5
+	ROOT_RELEASE-5-3-2-1:1.5
+	RELEASE-5-3-2-1:1.5.0.46
+	Release-5-3-2:1.5.0.42
+	Root_Release-5-3-2:1.5
+	Root_Release-5-3-1:1.5
+	Release-5-3-1:1.5.0.40
+	Release-5-2-3-1:1.5.0.38
+	Root_Release-5-2-3-1:1.5
+	Release-5-2-2-4:1.5.0.36
+	Root_Release-5-2-2-4:1.5
+	Release-5-2-2-1:1.5.0.34
+	Root_Release-5-2-2-1:1.5
+	upstream_version_5_2_2:1.5
+	debian_version_5_2_2-1:1.5
+	Release-5-2-2:1.5.0.32
+	ROOT_Release-5-2-2:1.5
+	ROOT_Release-5-2-1:1.5
+	Release-5-2-1:1.5.0.30
+	Release-5-2-0:1.5.0.28
+	ROOT_Release-5-2-0:1.5
+	ROOT_Release-5-1-2:1.5
+	Release-5-1-2:1.5.0.26
+	Version-5-1-1:1.5.0.24
+	ROOT_Version-5-1-1:1.5
+	debian_version_5_1_0-1:1.5
+	upstream_version_5_1_0:1.5
+	ROOT_Release-5-1-0:1.5
+	Release-5-1-0:1.5.0.22
+	ROOT_Release-5-0-0:1.5
+	Release-5-0-0:1.5.0.20
+	Release-4-3-3:1.5.0.18
+	ROOT_Release-4-3-3:1.5
+	upstream_version_4_3_2:1.5
+	debian_version_4_3_2-1:1.5
+	ROOT_Release-4-3-2:1.5
+	Release-4-3-2:1.5.0.16
+	Release-4-3-1:1.5.0.14
+	ROOT_Release-4-3-1:1.5
+	debian_version_4_3_0-1:1.5
+	upstream_version_4_3_0:1.5
+	ROOT_Release-4-3-0:1.5
+	Release-4-3-0:1.5.0.12
+	debian_version_3_2_1b-2:1.5
+	debian_version_4_2_2-1:1.5
+	upstream_version_4_2_2:1.5
+	debian_version_3_2_1b-1:1.5
+	upstream_version_3_2_1b:1.5
+	Release-4-1-2:1.5.0.10
+	Release-4-0-8:1.5.0.8
+	debian_version_4_0_8a-1:1.5
+	upstream_version_4_0_8a:1.5
+	jostb-debian-ubuntu-patch:1.5.0.6
+	debian_version_4_0_8-1:1.5
+	upstream_version_4_0_8:1.5
+	debian_version_4_0_7-1:1.5
+	upstream_version_4_0_7:1.5
+	debian_version_4_0_6-1:1.5
+	upstream_version_4_0_6:1.5
+	debian_version_4_0_2-1:1.5
+	upstream_version_4_0_2:1.5
+	Release-4-0-2_Root:1.5
+	Release-4-0-2:1.5.0.4
+	upstream_version_4_0_1:1.5
+	debian_version_4_0_1-2:1.5
+	Release-3-2-1:1.5.0.2
+	Release-3-1-8:1.4.0.2
+	Release-3-0-8_root:1.3
+	Release-3-0-8_Root:1.3
+	Release-3-0-8:1.3.0.6
+	Release-2-0-8:1.3.0.8
+	Release-2-0-7_Root:1.3
+	Release-2-0-7:1.3.0.4
+	Release-2-0-6-branch:1.3.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2006.11.25.17.00.32;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.09.05.20.40.33;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.03.05.14.58.22;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.02.24.18.39.18;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.02.20.22.06.45;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Release-3-2-1
+@
+text
+@This folder contains examples which show how to connect to the
+PHP/Java Bridge from PYTHON and Chicken/SCHEME.
+
+
+* getProperties.py: Connects to the PHP/Java Bridge, asks for
+  System.getProperties() and displays the first entry. 
+
+  Start the server with java -jar JavaBridge.jar and invoke the
+  example with:
+ 
+    python getProperties.py
+ 
+
+* listToArray.scm: Connects to the PHP/Java Bridge, creates a
+  java.util.ArrayList and fills it with three entries. Then it receives
+  the entire array list from the server and displays it.
+
+  Start the server with java -jar JavaBridge.jar and run the example with:
+
+    csi listToArray.scm
+
+
+* getProperties.scm: Connects to the PHP/Java Bridge, asks for
+  System.getProperties(), receives the properties dictionary and
+  prints it as a HTML table using the formatArray.xsl transformer.
+
+  Start the server with java -jar JavaBridge.jar, compile the scheme file
+  into native code and invoke it:
+
+    csc -lxslt getProperties.scm && ./getProperties |tee out.html
+
+  After that you can examine the out.html with a web browser.
+
+
+* sample.php: A pure PHP example which communicates directly with the
+  server.
+
+  Start the server with java -jar JavaBridge.jar and invoke the
+  example with:
+ 
+    php sample.php
+
+
+These examples use the python and Scheme script languages. They can be
+obtained from:
+
+   http://www.python.org
+
+and
+
+   http://directory.fsf.org/chicken.html  or
+   http://www.call-with-current-continuation.org/chicken.html
+
+The Scheme code in example #3 calls the libxslt.so library to apply
+the XSLT transformation. It is part of the GNOME project and can be
+optained from http://www.gnome.org if it isn't already installed on
+your computer.
+@
+
+
+1.4
+log
+@Release-3-1-8rc3
+@
+text
+@a4 9
+* sample.php: A pure PHP example which communicates directly with the
+  server.
+
+  Start the server with java -jar JavaBridge.jar and invoke the
+  example with:
+ 
+    php sample.php
+
+
+d30 1
+a30 1
+    csc -lxslt systemGetProperties.scm && ./systemGetProperties |tee out.html
+d35 9
+@
+
+
+1.3
+log
+@Release 2.0
+@
+text
+@d5 9
+@
+
+
+1.2
+log
+@Replaced Guile/SCHEME with Chicken/SCHEME example
+@
+text
+@d42 2
+a43 3
+   http://www.gnu.org/software/chicken  or
+   http://call-with-current-continuation.org
+
+@
+
+
+1.1
+log
+@PYTHON and GUILE/Scheme clients added
+@
+text
+@d2 1
+a2 1
+PHP/Java Bridge from PYTHON and GUILE/Scheme.
+d6 7
+a12 1
+  System.getProperties() and displays the first entry.
+d18 19
+a36 2
+These examples use the python and guile/scheme script languages. They
+can be obtained from:
+d42 8
+a49 1
+   http://www.fsf.org/software/guile
+@
+

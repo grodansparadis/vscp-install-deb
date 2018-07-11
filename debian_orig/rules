@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+%:
+	dh $@ --with autoreconf
+
+configure:
+	dh_autoreconf
+	./configure
+
+#clean:
+#	make clean
+#	dh_autoreconf_clean
+#	dh_clean
+	
+
+override_dh_auto_install:
+	dh_auto_install -- prefix=/usr

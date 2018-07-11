@@ -1,0 +1,1570 @@
+head	1.4;
+access;
+symbols
+	upstream_version_5_3_4:1.3
+	ROOT_Release-5-3-4:1.3
+	Release-5-3-4:1.3.0.2
+	Release-5-3-3:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2008.12.02.19.16.01;	author jost_boekemeier;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2008.11.27.20.47.55;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.11.09.17.09.34;	author jost_boekemeier;	state dead;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2008.11.09.17.09.34;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1.2.2;
+
+1.1.2.2
+date	2008.11.10.17.54.17;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1.2.3;
+
+1.1.2.3
+date	2008.11.15.14.22.31;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>Docs for page JavaProxy.inc</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+						<script src="../media/lib/classTree.js"></script>
+												<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "../media/images/plus.png";
+				imgMinus.src = "../media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+			<div class="page-body">			
+<h2 class="file-name">/JavaProxy.inc</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-classes">Classes</a>
+			|							<a href="#sec-includes">Includes</a>
+			|											<a href="#sec-functions">Functions</a>
+			</div>
+	<div class="info-box-body">	
+		<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">filesource:</span> <a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html">Source Code for this file</a></li>
+			</ul>
+		
+			</div>
+</div>
+		
+	<a name="sec-classes"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Classes</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Classes</span>
+			|							<a href="#sec-includes">Includes</a>
+				|																<a href="#sec-functions">Functions</a>
+					</div>
+		<div class="info-box-body">	
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; vertical-align: top">
+						<a href="../VM Bridge/java_JavaType.html">java_JavaType</a>
+					</td>
+					<td>
+											implemented by JavaException and Java
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; vertical-align: top">
+						<a href="../VM Bridge/Java.html">Java</a>
+					</td>
+					<td>
+											The Java proxy class.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; vertical-align: top">
+						<a href="../VM Bridge/JavaException.html">JavaException</a>
+					</td>
+					<td>
+											The java exception proxy.
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+	<a name="sec-includes"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Includes</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-classes">Classes</a>
+				|						<span class="disabled">Includes</span>
+			|													<a href="#sec-functions">Functions</a>
+					</div>
+		<div class="info-box-body">	
+			<a name="_${JAVA_BASE}/Client_inc"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="include-title">
+			<span class="include-type">require_once</span>
+			(<span class="include-name">"${JAVA_BASE}/Client.inc"</span>)
+			(line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a41">41</a></span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+</div>
+		</div>
+	</div>
+	
+	
+	
+	<a name="sec-functions"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Functions</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-classes">Classes</a>
+				|										<a href="#sec-includes">Includes</a>
+				|												<span class="disabled">Functions</span>
+		</div>
+		<div class="info-box-body">	
+			<a name="functionjava_begin_document" id="functionjava_begin_document"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_begin_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a470">470</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Enters stream mode (asynchronuous protocol).</p>
+<p class="description"><p>Enters stream mode (asynchronuous protocol).
+ The statements are sent to the back-end in one XML stream.
+ Use this protocol mode when you have a large number of set operations and you don't expect an exception. Any exception raised during stream mode is reported when java_end_document() is called.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_begin_document
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_cast" id="functionjava_cast"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_cast</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a251">251</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Converts the java object obj into a PHP value.</p>
+<p class="description"><p>Converts the java object obj into a PHP value.
+ This procedure converts the Java argument and then calls java_values() to fetch its content. Use java_values() if the conversion is not necessary.
+ The second argument must be [s]tring, [b]oolean, [i]nteger, [f]loat or [d]ouble, [a]rray, [n]ull or [o]bject (which does nothing).
+ <br /> Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$str&nbsp;</span>=&nbsp;<span class="src-key">new&nbsp;</span><span class="src-id">java</span><span class="src-sym">(</span><span class="src-str">&quot;java.lang.String&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;12&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<a href="http://www.php.net/is_string">is_string</a>&nbsp;<span class="src-sym">(</span><span class="src-var">$str</span><span class="src-sym">)&nbsp;</span>?&nbsp;<span class="src-str">&quot;#t&quot;</span>:<span class="src-str">&quot;#f&quot;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-comm">#f</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$phpString&nbsp;</span>=&nbsp;(string)<span class="src-var">$str</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<a href="http://www.php.net/is_string">is_string</a>&nbsp;<span class="src-sym">(</span><span class="src-var">$phpString</span><span class="src-sym">)&nbsp;</span>?&nbsp;<span class="src-str">&quot;#t&quot;</span>:<span class="src-str">&quot;#f&quot;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-comm">#t</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$phpNumber&nbsp;</span>=&nbsp;(integer)(string)<span class="src-var">$str</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-var">$phpNumber</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-num">12</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$phpNumber2&nbsp;</span>=&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_cast">java_cast</a><span class="src-sym">(</span><span class="src-var">$str</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;integer&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-var">$phpNumber2</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-num">12</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_cast
+		</span>
+					(<span class="var-type">object A</span>&nbsp;<span class="var-name">$object</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$type</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">object A</span>
+				<span class="var-name">$object</span><span class="var-description">: java object</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$type</span><span class="var-description">: A PHP type description, either [Ss]tring, [Bb]oolean, [Ll]ong or [Ii]nteger, [Dd]ouble or [Ff]loat, [Nn]ull, [Aa]rray, [Oo]bject.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_closure" id="functionjava_closure"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_closure</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a454">454</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Wraps a PHP environment.</p>
+<p class="description"><p>Wraps a PHP environment.
+ Closes over the php environment and packages it up as a java class. Use java_closure() to convert a PHP object into an equivalent Java object.
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-key">function&nbsp;</span><span class="src-id">toString</span><span class="src-sym">(</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span><span class="src-key">return&nbsp;</span><span class="src-str">&quot;helloWorld&quot;</span><span class="src-sym">;</span><span class="src-sym">}</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$object&nbsp;</span>=&nbsp;<span class="src-id">java_get_closure</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-str">&quot;</span><span class="src-str"><span class="src-id">Java</span>&nbsp;<span class="src-id">says</span>&nbsp;<span class="src-id">that</span>&nbsp;<span class="src-id">PHP</span>&nbsp;<span class="src-id">says</span>:&nbsp;<span class="src-var">$object</span>\n</span><span class="src-str">&quot;</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ When a php instance is supplied as an argument, the environment will be used instead. When a string or key/value map is supplied as a second argument, the java procedure names are mapped to the php procedure names. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-key">function&nbsp;</span><span class="src-id">hello</span><span class="src-sym">(</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span><span class="src-key">return&nbsp;</span><span class="src-str">&quot;hello&quot;</span><span class="src-sym">;</span><span class="src-sym">}</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;(string)<span class="src-id">java_get_closure</span><span class="src-sym">(</span><span class="src-id">null</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;hello&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ When an array of java interfaces is supplied as a third argument, the environment must implement these interfaces. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-key">class&nbsp;</span><span class="src-id">Listener&nbsp;</span><span class="src-sym">{</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<span class="src-key">function&nbsp;</span><span class="src-id">actionPerformed</span><span class="src-sym">(</span><span class="src-var">$actionEvent</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">}</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-sym">}</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-key">function&nbsp;</span><span class="src-id">getListener</span><span class="src-sym">(</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">return&nbsp;</span><span class="src-id">java_get_closure</span><span class="src-sym">(</span><span class="src-key">new&nbsp;</span><span class="src-id">Listener</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">,&nbsp;</span><span class="src-id">null</span><span class="src-sym">,&nbsp;</span><span class="src-key">array</span><span class="src-sym">(</span><span class="src-key">new&nbsp;</span><a href="../VM Bridge/_JavaBridge.inc.html#functionJava">Java</a><span class="src-sym">(</span><span class="src-str">&quot;java.awt.event.ActionListener&quot;</span><span class="src-sym">)))</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-sym">}</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_closure
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_context" id="functionjava_context"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_context</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a389">389</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the jsr223 script context handle.</p>
+<p class="description"><p>Returns the jsr223 script context handle.
+ Example which closes over the current environment and passes it back to java: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-key">if</span><span class="src-sym">(</span><a href="../VM Bridge/_JavaBridge.inc.html#functionjava_is_false">java_is_false</a><span class="src-sym">(</span><span class="src-id">java_get_context</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">call</span><span class="src-sym">(</span><a href="../VM Bridge/_JavaProxy.inc.html#functionjava_closure">java_closure</a><span class="src-sym">(</span><span class="src-sym">))))&nbsp;</span><span class="src-key">die&nbsp;</span><span class="src-str">&quot;Script&nbsp;should&nbsp;be&nbsp;called&nbsp;from&nbsp;java&quot;</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ It is possible to access implicit web objects (the session, the application store etc.) from the context. Please see the JSR223 documentation for details. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_context</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">getHttpServletRequest</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ Example which fetches the servlet-, config and context: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$config&nbsp;</span>=&nbsp;<span class="src-var">$ctx</span><span class="src-sym">-&gt;</span><span class="src-id">getAttribute&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-str">&quot;php.java.servlet.ServletConfig&quot;</span><span class="src-sym">,&nbsp;&nbsp;</span><span class="src-num">100</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$context&nbsp;</span>=&nbsp;<span class="src-var">$ctx</span><span class="src-sym">-&gt;</span><span class="src-id">getAttribute</span><span class="src-sym">(&nbsp;</span><span class="src-str">&quot;php.java.servlet.ServletContext&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-num">100</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$servlet&nbsp;</span>=&nbsp;<span class="src-var">$ctx</span><span class="src-sym">-&gt;</span><span class="src-id">getAttribute</span><span class="src-sym">(&nbsp;</span><span class="src-str">&quot;php.java.servlet.Servlet&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-num">100</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_session">java_session()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_context
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_end_document" id="functionjava_end_document"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_end_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a485">485</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Ends stream mode.</p>
+<p class="description"><p>Ends stream mode.
+ Fires a JavaException if any statement executed during stream mode raised an exception.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_end_document
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_inspect" id="functionjava_inspect"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_inspect</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a149">149</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the contents (public fields, public methods, public classes) of object as a string.</p>
+<p class="description"><p>Returns the contents (public fields, public methods, public classes) of object as a string.
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;echo&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_inspect">java_inspect</a><span class="src-sym">(</span><span class="src-id">java_get_context</span><span class="src-sym">(</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_inspect
+		</span>
+					(<span class="var-type">object A</span>&nbsp;<span class="var-name">$object</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">object A</span>
+				<span class="var-name">$object</span><span class="var-description">: java object or type.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_instanceof" id="functionjava_instanceof"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_instanceof</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a192">192</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests if object is an instance of clazz.</p>
+<p class="description"><p>Tests if object is an instance of clazz.
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-key">return</span><span class="src-sym">(</span><span class="src-var">$o&nbsp;</span>instanceof&nbsp;<a href="../VM Bridge/_JavaBridge.inc.html#functionJava">Java</a>&nbsp;&amp;&amp;&nbsp;<span class="src-var">$c&nbsp;</span>instanceof&nbsp;<a href="../VM Bridge/_JavaBridge.inc.html#functionJava">Java</a>&nbsp;&amp;&amp;&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_instanceof">java_instanceof</a><span class="src-sym">(</span><span class="src-var">$o</span><span class="src-sym">,&nbsp;</span><span class="src-var">$c</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_instanceof
+		</span>
+					(<span class="var-type">object A</span>&nbsp;<span class="var-name">$ob</span>, <span class="var-type">object A</span>&nbsp;<span class="var-name">$clazz</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">object A</span>
+				<span class="var-name">$ob</span><span class="var-description">: java object</span>			</li>
+					<li>
+				<span class="var-type">object A</span>
+				<span class="var-name">$clazz</span><span class="var-description">: java object or type.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_require" id="functionjava_require"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_require</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a279">279</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set the library path.</p>
+<p class="description"><p>Set the library path.
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_require">java_require</a><span class="src-sym">(</span><span class="src-str">&quot;foo.jar;bar.jar&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ The .jar files should be stored in /usr/share/java or extension_dir/lib one of its sub-directories or under the PHP include_path/LIBNAME/LIBNAME.jar. However, it is also possible to fetch .jar files from a remote server, for example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_require">java_require</a><span class="src-sym">(</span><span class="src-str">&quot;http://php-java-bridge.sf.net/kawa.jar;...&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ Note that Java doesn't have a module system. Therefore libraries and their dependencies must be loaded by one and only one class loader; do not report a ClassCastException saying that a class is incompatible to itself or a NoClassDefFoundError to the PHP/Java Bridge mailing list.</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaBridge.inc.html#functionjava_autoload">java_autoload()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_require
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$arg</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$arg</span><span class="var-description">: The list of Java libraries.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_reset" id="functionjava_reset"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_reset</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a124">124</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Only for internal use.</p>
+<p class="description"><p>Only for internal use.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_reset
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_server_name" id="functionjava_server_name"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_server_name</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a355">355</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the name of the back-end or null, if the back-end is not running.</p>
+<p class="description"><p>Returns the name of the back-end or null, if the back-end is not running.O
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$backend&nbsp;</span>=&nbsp;<span class="src-id">java_get_server_name</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-key">if</span><span class="src-sym">(</span><span class="src-sym">!</span><span class="src-var">$backend</span><span class="src-sym">)&nbsp;</span><span class="src-id">wakeup_administrator</span><span class="src-sym">(</span><span class="src-str">&quot;back-end&nbsp;not&nbsp;running&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-str">&quot;</span><span class="src-str"><span class="src-id">Connected</span>&nbsp;<span class="src-id">to</span>&nbsp;<span class="src-id">the</span>&nbsp;<span class="src-id">back</span>-<span class="src-id">end</span>:&nbsp;<span class="src-var">$backend</span>\n</span><span class="src-str">&quot;</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_server_name
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_session" id="functionjava_session"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_session</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a340">340</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return a session handle.</p>
+<p class="description"><p>Return a session handle.
+ When java_session() is called without arguments, the session is shared with java. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_session</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">put</span><span class="src-sym">(</span><span class="src-str">&quot;key&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-key">new&nbsp;</span><a href="../VM Bridge/_JavaBridge.inc.html#functionJava">Java</a><span class="src-sym">(</span><span class="src-str">&quot;java.lang.Object&quot;</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-sym">[</span>...<span class="src-sym">]</span></div></li>
+</ol></div> The java components (jsp, servlets) can retrieve the value, for example with: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">getSession</span><span class="src-sym">(</span><span class="src-sym">)</span>.<span class="src-id">getAttribute</span><span class="src-sym">(</span><span class="src-str">&quot;key&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ When java_get_session() is called with a session name, the session is not shared with java and no cookies are set. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_session</span><span class="src-sym">(</span><span class="src-str">&quot;myPublicApplicationStore&quot;</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">put</span><span class="src-sym">(</span><span class="src-str">&quot;key&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;value&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ When java_get_session() is called with a second argument set to true, a new session is allocated, the old session is destroyed if necessary. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_session</span><span class="src-sym">(</span><span class="src-id">null</span><span class="src-sym">,&nbsp;</span><span class="src-id">true</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">put</span><span class="src-sym">(</span><span class="src-str">&quot;key&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;val&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ The optional third argument specifies the default lifetime of the session, it defaults to <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">session</span>.<span class="src-id">gc_maxlifetime</span></div></li>
+</ol></div>. The value 0 means that the session never times out.</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_context">java_context()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_session
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_set_file_encoding" id="functionjava_set_file_encoding"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_set_file_encoding</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a167">167</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set the java file encoding, for example UTF-8 or ASCII.</p>
+<p class="description"><p>Set the java file encoding, for example UTF-8 or ASCII.
+ Needed because php does not support unicode. All string to byte array conversions use this encoding. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_set_file_encoding">java_set_file_encoding</a><span class="src-sym">(</span><span class="src-str">&quot;ISO-8859-1&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_set_file_encoding
+		</span>
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$enc</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$enc</span><span class="var-description">: A valid file.encoding string. Please see your Java <div class="src-code"><ol><li><div class="src-line"><a href="http://www.php.net/file">file</a>.<span class="src-id">encoding</span></div></li>
+</ol></div> documentation for a list of valid encodings.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_values" id="functionjava_values"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_values</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a117">117</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Unwraps a Java object.</p>
+<p class="description"><p>Unwraps a Java object.
+ Evaluates the object and fetches its content, if possible. Use java_values() to convert a Java object into an equivalent PHP value.
+ A java array, Map or Collection object is returned as a php array. An array, Map or Collection proxy is returned as a java array, Map or Collection object, and a null proxy is returned as null. All values of java types for which a primitive php type exists are returned as php values. Everything else is returned unevaluated. Please make sure that the values do not not exceed php's memory limit. Example:
+ <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$str&nbsp;</span>=&nbsp;<span class="src-key">new&nbsp;</span><span class="src-id">java</span><span class="src-sym">(</span><span class="src-str">&quot;java.lang.String&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;hello&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values</a><span class="src-sym">(</span><span class="src-var">$str</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-id">hello</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$chr&nbsp;</span>=&nbsp;<span class="src-var">$str</span><span class="src-sym">-&gt;</span><span class="src-id">toCharArray</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-var">$chr</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-sym">[</span><span class="src-id">o</span><span class="src-sym">(</span><span class="src-id">array_of</span>-<span class="src-id">C</span><span class="src-sym">)</span>:<span class="src-str">&quot;[C@@1b10d42&quot;</span><span class="src-sym">]</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$ar&nbsp;</span>=&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values</a><span class="src-sym">(</span><span class="src-var">$chr</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;print&nbsp;<span class="src-var">$ar</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-key">Array</span></div></li>
+<li><div class="src-line">&nbsp;print&nbsp;<span class="src-var">$ar</span><span class="src-sym">[</span><span class="src-num">0</span><span class="src-sym">]</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-sym">[</span><span class="src-id">o</span><span class="src-sym">(</span><span class="src-id">Character</span><span class="src-sym">)</span>:<span class="src-str">&quot;h&quot;</span><span class="src-sym">]</span></div></li>
+<li><div class="src-line">&nbsp;print&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values</a><span class="src-sym">(</span><span class="src-var">$ar</span><span class="src-sym">[</span><span class="src-num">0</span><span class="src-sym">]</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-id">h</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_closure">java_closure()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_values
+		</span>
+					(<span class="var-type">object A</span>&nbsp;<span class="var-name">$object</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">object A</span>
+				<span class="var-name">$object</span><span class="var-description">: java object or type.</span>			</li>
+				</ul>
+		
+	
+</div>
+		</div>
+	</div>
+	
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 23 Nov 2008 10:14:04 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.0a2</a>
+	</p>
+	</div></body>
+</html>@
+
+
+1.3
+log
+@Release 5.3.3.1
+@
+text
+@@
+
+
+1.2
+log
+@Merged Release-5-3-3 to head
+@
+text
+@d194 1
+a194 1
+		<span class="method-title">java_begin_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a474">474</a></span>)
+d270 1
+a270 1
+		<span class="method-title">java_closure</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a458">458</a></span>)
+d313 1
+a313 1
+		<span class="method-title">java_context</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a393">393</a></span>)
+d319 1
+a319 1
+ Example which closes over the current environment and passes it back to java: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_context</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">call</span><span class="src-sym">(</span><a href="../VM Bridge/_JavaProxy.inc.html#functionjava_closure">java_closure</a><span class="src-sym">(</span><span class="src-sym">))&nbsp;</span>||&nbsp;<span class="src-key">die&nbsp;</span><span class="src-str">&quot;Script&nbsp;should&nbsp;be&nbsp;called&nbsp;from&nbsp;java&quot;</span><span class="src-sym">;</span></div></li>
+d347 1
+a347 1
+		<span class="method-title">java_end_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a487">487</a></span>)
+d351 3
+a353 2
+<p class="short-description">Ends stream mode. stream mode raised an exception.</p>
+<p class="description"><p>Ends stream mode. Fires a JavaException if any statement executed during stream mode raised an exception.</p></p>
+d501 1
+a501 1
+		<span class="method-title">java_server_name</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a359">359</a></span>)
+d530 1
+a530 1
+		<span class="method-title">java_session</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a344">344</a></span>)
+d646 1
+a646 1
+		Documentation generated on Sat, 15 Nov 2008 10:44:21 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.0a2</a>
+@
+
+
+1.1
+log
+@file _JavaProxy.inc.html was initially added on branch Release-5-3-3.
+@
+text
+@d1 648
+@
+
+
+1.1.2.1
+log
+@Release 5.3.3
+@
+text
+@a0 653
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos  -->
+			<title>Docs for page JavaProxy.inc</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+						<script src="../media/lib/classTree.js"></script>
+												<script language="javascript" type="text/javascript">
+				var imgPlus = new Image();
+				var imgMinus = new Image();
+				imgPlus.src = "../media/images/plus.png";
+				imgMinus.src = "../media/images/minus.png";
+				
+				function showNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgMinus.src;
+					oTable.style.display = "block";
+				}
+				
+				function hideNode(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+							var oImg = document.layers["img" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+							var oImg = document.all["img" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+							var oImg = document.getElementById("img" + Node);
+									break;
+							}
+					oImg.src = imgPlus.src;
+					oTable.style.display = "none";
+				}
+				
+				function nodeIsVisible(Node){
+							switch(navigator.family){
+								case 'nn4':
+									// Nav 4.x code fork...
+							var oTable = document.layers["span" + Node];
+									break;
+								case 'ie4':
+									// IE 4/5 code fork...
+							var oTable = document.all["span" + Node];
+									break;
+								case 'gecko':
+									// Standards Compliant code fork...
+							var oTable = document.getElementById("span" + Node);
+									break;
+							}
+					return (oTable && oTable.style.display == "block");
+				}
+				
+				function toggleNodeVisibility(Node){
+					if (nodeIsVisible(Node)){
+						hideNode(Node);
+					}else{
+						showNode(Node);
+					}
+				}
+			</script>
+					</head>
+		<body>
+			<div class="page-body">			
+<h2 class="file-name">/JavaProxy.inc</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+							<a href="#sec-classes">Classes</a>
+			|							<a href="#sec-includes">Includes</a>
+			|											<a href="#sec-functions">Functions</a>
+			</div>
+	<div class="info-box-body">	
+		<!-- ========== Info from phpDoc block ========= -->
+	<ul class="tags">
+				<li><span class="field">filesource:</span> <a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html">Source Code for this file</a></li>
+			</ul>
+		
+			</div>
+</div>
+		
+	<a name="sec-classes"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Classes</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+			<span class="disabled">Classes</span>
+			|							<a href="#sec-includes">Includes</a>
+				|																<a href="#sec-functions">Functions</a>
+					</div>
+		<div class="info-box-body">	
+			<table cellpadding="2" cellspacing="0" class="class-table">
+				<tr>
+					<th class="class-table-header">Class</th>
+					<th class="class-table-header">Description</th>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; vertical-align: top">
+						<a href="../VM Bridge/java_JavaType.html">java_JavaType</a>
+					</td>
+					<td>
+											implemented by JavaException and Java
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; vertical-align: top">
+						<a href="../VM Bridge/Java.html">Java</a>
+					</td>
+					<td>
+											The Java proxy class.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; vertical-align: top">
+						<a href="../VM Bridge/java_exception.html">java_exception</a>
+					</td>
+					<td>
+											A decorator pattern which overrides all magic methods.
+										</td>
+				</tr>
+								<tr>
+					<td style="padding-right: 2em; vertical-align: top">
+						<a href="../VM Bridge/JavaException.html">JavaException</a>
+					</td>
+					<td>
+											The java exception proxy.
+										</td>
+				</tr>
+							</table>
+		</div>
+	</div>
+
+	<a name="sec-includes"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Includes</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-classes">Classes</a>
+				|						<span class="disabled">Includes</span>
+			|													<a href="#sec-functions">Functions</a>
+					</div>
+		<div class="info-box-body">	
+			<a name="_${JAVA_BASE}/Client_inc"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="include-title">
+			<span class="include-type">require_once</span>
+			(<span class="include-name">"${JAVA_BASE}/Client.inc"</span>)
+			(line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a41">41</a></span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+</div>
+		</div>
+	</div>
+	
+	
+	
+	<a name="sec-functions"></a>	
+	<div class="info-box">
+		<div class="info-box-title">Functions</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+							<a href="#sec-classes">Classes</a>
+				|										<a href="#sec-includes">Includes</a>
+				|												<span class="disabled">Functions</span>
+		</div>
+		<div class="info-box-body">	
+			<a name="functionjava_begin_document" id="functionjava_begin_document"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_begin_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a479">479</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Enters stream mode (asynchronuous protocol).</p>
+<p class="description"><p>Enters stream mode (asynchronuous protocol).
+ The statements are sent to the back-end in one XML stream.
+ Use this protocol mode when you have a large number of set operations and you don't expect an exception. Any exception raised during stream mode is reported when java_end_document() is called.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_begin_document
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_cast" id="functionjava_cast"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_cast</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a254">254</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Converts the java object obj into a PHP value.</p>
+<p class="description"><p>Converts the java object obj into a PHP value.
+ This procedure converts the Java argument and then calls java_values() to fetch its content. Use java_values() if the conversion is not necessary.
+ The second argument must be [s]tring, [b]oolean, [i]nteger, [f]loat or [d]ouble, [a]rray, [n]ull or [o]bject (which does nothing). This procedure  is for compatibility with the pure PHP implementation, in the C  implementation this procedure is called automatically for each type  cast or when settype() is called.   <br />  Example:  <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$str&nbsp;</span>=&nbsp;<span class="src-key">new&nbsp;</span><span class="src-id">java</span><span class="src-sym">(</span><span class="src-str">&quot;java.lang.String&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;12&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-var">$str</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-sym">[</span><span class="src-id">o</span>(String):<span class="src-str">&quot;12&quot;</span><span class="src-sym">]</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$phpString&nbsp;</span>=&nbsp;<span class="src-str">&quot;</span><span class="src-str"><span class="src-var">$str</span></span><span class="src-str">&quot;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-var">$phpString</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-str">&quot;12&quot;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$phpNumber&nbsp;</span>=&nbsp;(integer)<span class="src-var">$str</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-var">$phpNumber</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-num">12</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$phpNumber2&nbsp;</span>=&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_cast">java_cast</a><span class="src-sym">(</span><span class="src-var">$str</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;integer&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-var">$phpNumber2</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-num">12</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> #java_values()</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_cast
+		</span>
+					(<span class="var-type">$object</span>&nbsp;<span class="var-name">$object</span>, <span class="var-type">$type</span>&nbsp;<span class="var-name">$type</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$object</span>
+				<span class="var-name">$object</span><span class="var-description">: A java object</span>			</li>
+					<li>
+				<span class="var-type">$type</span>
+				<span class="var-name">$type</span><span class="var-description">: A PHP type description, either [Ss]tring, [Bb]oolean, [Ll]ong or [Ii]nteger, [Dd]ouble or [Ff]loat, [Nn]ull, [Aa]rray, [Oo]bject.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_closure" id="functionjava_closure"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_closure</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a463">463</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Wraps a PHP environment.</p>
+<p class="description"><p>Wraps a PHP environment.
+ Closes over the php environment and packages it up as a java class. Use java_closure() to convert a PHP object into an equivalent Java object.
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-key">function&nbsp;</span><span class="src-id">toString</span><span class="src-sym">(</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span><span class="src-key">return&nbsp;</span><span class="src-str">&quot;helloWorld&quot;</span><span class="src-sym">;</span><span class="src-sym">}</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$object&nbsp;</span>=&nbsp;<span class="src-id">java_get_closure</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-str">&quot;</span><span class="src-str"><span class="src-id">Java</span>&nbsp;<span class="src-id">says</span>&nbsp;<span class="src-id">that</span>&nbsp;<span class="src-id">PHP</span>&nbsp;<span class="src-id">says</span>:&nbsp;<span class="src-var">$object</span>\n</span><span class="src-str">&quot;</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ When a php instance is supplied as an argument, the environment will be used instead. When a string or key/value map is supplied as a second argument, the java procedure names are mapped to the php procedure names. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-key">function&nbsp;</span><span class="src-id">hello</span><span class="src-sym">(</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span><span class="src-key">return&nbsp;</span><span class="src-str">&quot;hello&quot;</span><span class="src-sym">;</span><span class="src-sym">}</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;(string)<span class="src-id">java_get_closure</span><span class="src-sym">(</span><span class="src-id">null</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;hello&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ When an array of java interfaces is supplied as a third argument, the environment must implement these interfaces. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-key">class&nbsp;</span><span class="src-id">Listener&nbsp;</span><span class="src-sym">{</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;<span class="src-key">function&nbsp;</span><span class="src-id">actionPerformed</span><span class="src-sym">(</span><span class="src-var">$actionEvent</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-sym">}</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-sym">}</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-key">function&nbsp;</span><span class="src-id">getListener</span><span class="src-sym">(</span><span class="src-sym">)&nbsp;</span><span class="src-sym">{</span></div></li>
+<li><div class="src-line">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="src-key">return&nbsp;</span><span class="src-id">java_get_closure</span><span class="src-sym">(</span><span class="src-key">new&nbsp;</span><span class="src-id">Listener</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">,&nbsp;</span><span class="src-id">null</span><span class="src-sym">,&nbsp;</span><span class="src-key">array</span><span class="src-sym">(</span><span class="src-key">new&nbsp;</span><a href="../VM Bridge/_JavaBridge.inc.html#functionJava">Java</a><span class="src-sym">(</span><span class="src-str">&quot;java.awt.event.ActionListener&quot;</span><span class="src-sym">)))</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-sym">}</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> #java_values()</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_closure
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_context" id="functionjava_context"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_context</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a398">398</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the jsr223 script context handle.</p>
+<p class="description"><p>Returns the jsr223 script context handle.
+ Example which closes over the current environment and passes it back to java: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_context</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">call</span><span class="src-sym">(</span><a href="../VM Bridge/_JavaProxy.inc.html#functionjava_closure">java_closure</a><span class="src-sym">(</span><span class="src-sym">))&nbsp;</span>||&nbsp;<span class="src-key">die&nbsp;</span><span class="src-str">&quot;Script&nbsp;should&nbsp;be&nbsp;called&nbsp;from&nbsp;java&quot;</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ It is possible to access implicit web objects (the session, the application store etc.) from the context. Please see the JSR223 documentation for details. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_context</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">getHttpServletRequest</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ Example which fetches the servlet-, config and context: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$config&nbsp;</span>=&nbsp;<span class="src-var">$ctx</span><span class="src-sym">-&gt;</span><span class="src-id">getAttribute&nbsp;</span><span class="src-sym">(&nbsp;</span><span class="src-str">&quot;php.java.servlet.ServletConfig&quot;</span><span class="src-sym">,&nbsp;&nbsp;</span><span class="src-num">100</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$context&nbsp;</span>=&nbsp;<span class="src-var">$ctx</span><span class="src-sym">-&gt;</span><span class="src-id">getAttribute</span><span class="src-sym">(&nbsp;</span><span class="src-str">&quot;php.java.servlet.ServletContext&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-num">100</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$servlet&nbsp;</span>=&nbsp;<span class="src-var">$ctx</span><span class="src-sym">-&gt;</span><span class="src-id">getAttribute</span><span class="src-sym">(&nbsp;</span><span class="src-str">&quot;php.java.servlet.Servlet&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-num">100</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> #java_session()</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_context
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_end_document" id="functionjava_end_document"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_end_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a492">492</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Ends stream mode. stream mode raised an exception.</p>
+<p class="description"><p>Ends stream mode. Fires a JavaException if any statement executed during stream mode raised an exception.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_end_document
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_inspect" id="functionjava_inspect"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_inspect</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a149">149</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the contents (public fields, public methods, public classes) of object as a string.</p>
+<p class="description"><p>Returns the contents (public fields, public methods, public classes) of object as a string.
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;echo&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_inspect">java_inspect</a><span class="src-sym">(</span><span class="src-id">java_get_context</span><span class="src-sym">(</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_inspect
+		</span>
+					(<span class="var-type">$object</span>&nbsp;<span class="var-name">$object</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$object</span>
+				<span class="var-name">$object</span><span class="var-description">: A java object or type.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_instanceof" id="functionjava_instanceof"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_instanceof</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a192">192</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Tests if object is an instance of clazz.</p>
+<p class="description"><p>Tests if object is an instance of clazz.
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-key">return</span><span class="src-sym">(</span><span class="src-var">$o&nbsp;</span>instanceof&nbsp;<a href="../VM Bridge/_JavaBridge.inc.html#functionJava">Java</a>&nbsp;&amp;&amp;&nbsp;<span class="src-var">$c&nbsp;</span>instanceof&nbsp;<a href="../VM Bridge/_JavaBridge.inc.html#functionJava">Java</a>&nbsp;&amp;&amp;&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_instanceof">java_instanceof</a><span class="src-sym">(</span><span class="src-var">$o</span><span class="src-sym">,&nbsp;</span><span class="src-var">$c</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_instanceof
+		</span>
+					(<span class="var-type">$ob</span>&nbsp;<span class="var-name">$ob</span>, <span class="var-type">$clazz</span>&nbsp;<span class="var-name">$clazz</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$ob</span>
+				<span class="var-name">$ob</span><span class="var-description">: A java object</span>			</li>
+					<li>
+				<span class="var-type">$clazz</span>
+				<span class="var-name">$clazz</span><span class="var-description">: A java object or type.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_require" id="functionjava_require"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_require</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a284">284</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set the library path.</p>
+<p class="description"><p>Set the library path.
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_require">java_require</a><span class="src-sym">(</span><span class="src-str">&quot;foo.jar;bar.jar&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ The .jar files should be stored in /usr/share/java or extension_dir/lib one of its sub-directories or under the PHP include_path/LIBNAME/LIBNAME.jar. However, it is also possible to fetch .jar files from a remote server, for example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_require">java_require</a><span class="src-sym">(</span><span class="src-str">&quot;http://php-java-bridge.sf.net/kawa.jar;...&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ Note that the classloader isolates the loaded libraries: When you call java_require(&quot;foo.jar&quot;); java_require(&quot;bar.jar&quot;), the classes from foo cannot see the classes loaded from bar. If you get a NoClassDefFound error saying that one of your classes cannot access the library you have loaded, you must reset the back-end to clear the loader cache and load your classes and the library in one java_require() call.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_require
+		</span>
+					(<span class="var-type">$arg</span>&nbsp;<span class="var-name">$arg</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$arg</span>
+				<span class="var-name">$arg</span><span class="var-description">: The list of Java libraries.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_reset" id="functionjava_reset"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_reset</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a124">124</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Only for internal use.</p>
+<p class="description"><p>Only for internal use.</p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_reset
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_server_name" id="functionjava_server_name"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_server_name</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a364">364</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns the name of the back-end or null, if the back-end is not running.</p>
+<p class="description"><p>Returns the name of the back-end or null, if the back-end is not running.O
+ Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$backend&nbsp;</span>=&nbsp;<span class="src-id">java_get_server_name</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-key">if</span><span class="src-sym">(</span><span class="src-sym">!</span><span class="src-var">$backend</span><span class="src-sym">)&nbsp;</span><span class="src-id">wakeup_administrator</span><span class="src-sym">(</span><span class="src-str">&quot;back-end&nbsp;not&nbsp;running&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-str">&quot;</span><span class="src-str"><span class="src-id">Connected</span>&nbsp;<span class="src-id">to</span>&nbsp;<span class="src-id">the</span>&nbsp;<span class="src-id">back</span>-<span class="src-id">end</span>:&nbsp;<span class="src-var">$backend</span>\n</span><span class="src-str">&quot;</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_server_name
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_session" id="functionjava_session"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_session</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a349">349</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Return a session handle.</p>
+<p class="description"><p>Return a session handle.
+ When java_session() is called without arguments, the session is shared with java. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_session</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">put</span><span class="src-sym">(</span><span class="src-str">&quot;key&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-key">new&nbsp;</span><a href="../VM Bridge/_JavaBridge.inc.html#functionJava">Java</a><span class="src-sym">(</span><span class="src-str">&quot;java.lang.Object&quot;</span><span class="src-sym">))</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-sym">[</span>...<span class="src-sym">]</span></div></li>
+</ol></div> The java components (jsp, servlets) can retrieve the value, for example with: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">getSession</span><span class="src-sym">(</span><span class="src-sym">)</span>.<span class="src-id">getAttribute</span><span class="src-sym">(</span><span class="src-str">&quot;key&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ When java_get_session() is called with a session name, the session is not shared with java and no cookies are set. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_session</span><span class="src-sym">(</span><span class="src-str">&quot;myPublicApplicationStore&quot;</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">put</span><span class="src-sym">(</span><span class="src-str">&quot;key&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;value&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ When java_get_session() is called with a second argument set to true, a new session is allocated, the old session is destroyed if necessary. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">java_get_session</span><span class="src-sym">(</span><span class="src-id">null</span><span class="src-sym">,&nbsp;</span><span class="src-id">true</span><span class="src-sym">)</span><span class="src-sym">-&gt;</span><span class="src-id">put</span><span class="src-sym">(</span><span class="src-str">&quot;key&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;val&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div>
+ The optional third argument specifies the default lifetime of the session, it defaults to \code session.gc_maxlifetime \endcode. The value 0 means that the session never times out.</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> #java_context()</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_session
+		</span>
+				()
+			</div>
+
+		
+	
+</div>
+<a name="functionjava_set_file_encoding" id="functionjava_set_file_encoding"><!-- --></a>
+<div class="evenrow">
+	
+	<div>
+		<span class="method-title">java_set_file_encoding</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a167">167</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Set the java file encoding, for example UTF-8 or ASCII.</p>
+<p class="description"><p>Set the java file encoding, for example UTF-8 or ASCII.
+ Needed because php does not support unicode. All string to byte array conversions use this encoding. Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_set_file_encoding">java_set_file_encoding</a><span class="src-sym">(</span><span class="src-str">&quot;ISO-8859-1&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_set_file_encoding
+		</span>
+					(<span class="var-type">$enc</span>&nbsp;<span class="var-name">$enc</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$enc</span>
+				<span class="var-name">$enc</span><span class="var-description">: A valid file.encoding string. Please see your Java <div class="src-code"><ol><li><div class="src-line"><a href="http://www.php.net/file">file</a>.<span class="src-id">encoding</span></div></li>
+</ol></div> documentation for a list of valid encodings.</span>			</li>
+				</ul>
+		
+	
+</div>
+<a name="functionjava_values" id="functionjava_values"><!-- --></a>
+<div class="oddrow">
+	
+	<div>
+		<span class="method-title">java_values</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a117">117</a></span>)
+	</div> 
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Unwraps a Java object.</p>
+<p class="description"><p>Unwraps a Java object.
+ Evaluates the object and fetches its content, if possible. Use java_values() to convert a Java object into an equivalent PHP value.
+ A java array, Map or Collection object is returned as a php array. An array, Map or Collection proxy is returned as a java array, Map or Collection object, and a null proxy is returned as null. All values of java types for which a primitive php type exists are returned as php values. Everything else is returned unevaluated. Please make sure that the values do not not exceed php's memory limit. Example:
+ <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$str&nbsp;</span>=&nbsp;<span class="src-key">new&nbsp;</span><span class="src-id">java</span><span class="src-sym">(</span><span class="src-str">&quot;java.lang.String&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;hello&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values</a><span class="src-sym">(</span><span class="src-var">$str</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-id">hello</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$chr&nbsp;</span>=&nbsp;<span class="src-var">$str</span><span class="src-sym">-&gt;</span><span class="src-id">toCharArray</span><span class="src-sym">(</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<span class="src-var">$chr</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-sym">[</span><span class="src-id">o</span><span class="src-sym">(</span><span class="src-id">array_of</span>-<span class="src-id">C</span><span class="src-sym">)</span>:<span class="src-str">&quot;[C@@1b10d42&quot;</span><span class="src-sym">]</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$ar&nbsp;</span>=&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values</a><span class="src-sym">(</span><span class="src-var">$chr</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;print&nbsp;<span class="src-var">$ar</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-key">Array</span></div></li>
+<li><div class="src-line">&nbsp;print&nbsp;<span class="src-var">$ar</span><span class="src-sym">[</span><span class="src-num">0</span><span class="src-sym">]</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-sym">[</span><span class="src-id">o</span><span class="src-sym">(</span><span class="src-id">Character</span><span class="src-sym">)</span>:<span class="src-str">&quot;h&quot;</span><span class="src-sym">]</span></div></li>
+<li><div class="src-line">&nbsp;print&nbsp;<a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values</a><span class="src-sym">(</span><span class="src-var">$ar</span><span class="src-sym">[</span><span class="src-num">0</span><span class="src-sym">]</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-id">h</span></div></li>
+</ol></div></p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_closure">java_closure()</a></li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			java_values
+		</span>
+					(<span class="var-type">$object</span>&nbsp;<span class="var-name">$object</span>)
+			</div>
+
+			<ul class="parameters">
+					<li>
+				<span class="var-type">$object</span>
+				<span class="var-name">$object</span><span class="var-description">: A java object or type.</span>			</li>
+				</ul>
+		
+	
+</div>
+		</div>
+	</div>
+	
+	<p class="notes" id="credit">
+		Documentation generated on Sun, 09 Nov 2008 13:15:35 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.0a2</a>
+	</p>
+	</div></body>
+</html>@
+
+
+1.1.2.2
+log
+@Release 5.3.3
+@
+text
+@d202 1
+a202 1
+		<span class="method-title">java_begin_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a476">476</a></span>)
+d229 1
+a229 1
+		<span class="method-title">java_cast</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a251">251</a></span>)
+d236 1
+a236 2
+ The second argument must be [s]tring, [b]oolean, [i]nteger, [f]loat or [d]ouble, [a]rray, [n]ull or [o]bject (which does nothing).
+ <br /> Example: <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-var">$str&nbsp;</span>=&nbsp;<span class="src-key">new&nbsp;</span><span class="src-id">java</span><span class="src-sym">(</span><span class="src-str">&quot;java.lang.String&quot;</span><span class="src-sym">,&nbsp;</span><span class="src-str">&quot;12&quot;</span><span class="src-sym">)</span><span class="src-sym">;</span></div></li>
+d250 1
+a250 1
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values()</a></li>
+d259 1
+a259 1
+					(<span class="var-type">object A</span>&nbsp;<span class="var-name">$object</span>, <span class="var-type">string</span>&nbsp;<span class="var-name">$type</span>)
+d264 2
+a265 2
+				<span class="var-type">object A</span>
+				<span class="var-name">$object</span><span class="var-description">: java object</span>			</li>
+d267 1
+a267 1
+				<span class="var-type">string</span>
+d277 1
+a277 1
+		<span class="method-title">java_closure</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a460">460</a></span>)
+d301 1
+a301 1
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_values">java_values()</a></li>
+d320 1
+a320 1
+		<span class="method-title">java_context</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a395">395</a></span>)
+d335 1
+a335 1
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_session">java_session()</a></li>
+d354 1
+a354 1
+		<span class="method-title">java_end_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a489">489</a></span>)
+d396 1
+a396 1
+					(<span class="var-type">object A</span>&nbsp;<span class="var-name">$object</span>)
+d401 2
+a402 2
+				<span class="var-type">object A</span>
+				<span class="var-name">$object</span><span class="var-description">: java object or type.</span>			</li>
+d428 1
+a428 1
+					(<span class="var-type">object A</span>&nbsp;<span class="var-name">$ob</span>, <span class="var-type">object A</span>&nbsp;<span class="var-name">$clazz</span>)
+d433 2
+a434 2
+				<span class="var-type">object A</span>
+				<span class="var-name">$ob</span><span class="var-description">: java object</span>			</li>
+d436 2
+a437 2
+				<span class="var-type">object A</span>
+				<span class="var-name">$clazz</span><span class="var-description">: java object or type.</span>			</li>
+d446 1
+a446 1
+		<span class="method-title">java_require</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a281">281</a></span>)
+d466 1
+a466 1
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$arg</span>)
+d471 1
+a471 1
+				<span class="var-type">string</span>
+d506 1
+a506 1
+		<span class="method-title">java_server_name</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a361">361</a></span>)
+d535 1
+a535 1
+		<span class="method-title">java_session</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a346">346</a></span>)
+d551 1
+a551 1
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaProxy.inc.html#functionjava_context">java_context()</a></li>
+d587 1
+a587 1
+					(<span class="var-type">string</span>&nbsp;<span class="var-name">$enc</span>)
+d592 1
+a592 1
+				<span class="var-type">string</span>
+d635 1
+a635 1
+					(<span class="var-type">object A</span>&nbsp;<span class="var-name">$object</span>)
+d640 2
+a641 2
+				<span class="var-type">object A</span>
+				<span class="var-name">$object</span><span class="var-description">: java object or type.</span>			</li>
+d650 1
+a650 1
+		Documentation generated on Sun, 09 Nov 2008 13:40:44 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.0a2</a>
+@
+
+
+1.1.2.3
+log
+@Release 5.3.3
+@
+text
+@d141 8
+d202 1
+a202 1
+		<span class="method-title">java_begin_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a474">474</a></span>)
+d238 6
+a243 6
+<li><div class="src-line">&nbsp;echo&nbsp;<a href="http://www.php.net/is_string">is_string</a>&nbsp;<span class="src-sym">(</span><span class="src-var">$str</span><span class="src-sym">)&nbsp;</span>?&nbsp;<span class="src-str">&quot;#t&quot;</span>:<span class="src-str">&quot;#f&quot;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-comm">#f</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$phpString&nbsp;</span>=&nbsp;(string)<span class="src-var">$str</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;echo&nbsp;<a href="http://www.php.net/is_string">is_string</a>&nbsp;<span class="src-sym">(</span><span class="src-var">$phpString</span><span class="src-sym">)&nbsp;</span>?&nbsp;<span class="src-str">&quot;#t&quot;</span>:<span class="src-str">&quot;#f&quot;</span><span class="src-sym">;</span></div></li>
+<li><div class="src-line">&nbsp;=&gt;&nbsp;<span class="src-comm">#t</span></div></li>
+<li><div class="src-line">&nbsp;<span class="src-var">$phpNumber&nbsp;</span>=&nbsp;(integer)(string)<span class="src-var">$str</span><span class="src-sym">;</span></div></li>
+d278 1
+a278 1
+		<span class="method-title">java_closure</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a458">458</a></span>)
+d321 1
+a321 1
+		<span class="method-title">java_context</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a393">393</a></span>)
+d355 1
+a355 1
+		<span class="method-title">java_end_document</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a487">487</a></span>)
+d447 1
+a447 1
+		<span class="method-title">java_require</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a279">279</a></span>)
+d457 1
+a457 1
+ Note that Java doesn't have a module system. Therefore libraries and their dependencies must be loaded by one and only one class loader; do not report a ClassCastException saying that a class is incompatible to itself or a NoClassDefFoundError to the PHP/Java Bridge mailing list.</p></p>
+a458 1
+				<li><span class="field">see:</span> <a href="../VM Bridge/_JavaBridge.inc.html#functionjava_autoload">java_autoload()</a></li>
+d507 1
+a507 1
+		<span class="method-title">java_server_name</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a359">359</a></span>)
+d536 1
+a536 1
+		<span class="method-title">java_session</span> (line <span class="line-number"><a href="../__filesource/fsource_VM Bridge__JavaProxy.inc.html#a344">344</a></span>)
+d550 1
+a550 2
+ The optional third argument specifies the default lifetime of the session, it defaults to <div class="src-code"><ol><li><div class="src-line">&nbsp;<span class="src-id">session</span>.<span class="src-id">gc_maxlifetime</span></div></li>
+</ol></div>. The value 0 means that the session never times out.</p></p>
+d651 1
+a651 1
+		Documentation generated on Sat, 15 Nov 2008 10:44:21 +0100 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.0a2</a>
+@
+
+

@@ -1,0 +1,245 @@
+head	1.3;
+access;
+symbols
+	Release-7-1-1:1.2.0.66
+	Root_Release-7-1-1:1.2
+	Root_Release_7-0-1:1.2
+	Release_7-0-1:1.2.0.64
+	Release_7-0-0:1.2.0.62
+	Root_Release_7-0-0:1.2
+	Release-6-2-2:1.2.0.60
+	Release-6-1-2-3:1.2
+	Root_Release-6-1-2-3:1.2
+	Release-6-1-2-2:1.2.0.58
+	Root_Release-6-1-2-2:1.2
+	debian_version_6_1_2_1-1:1.2
+	upstream_version_6_1_2_1:1.2
+	Release-6-1-2-1_new:1.2.0.56
+	Root_Release-6-1-2-1_new:1.2
+	Release-6-1-2-1:1.2.0.54
+	Root_Release-6-1-2-1:1.2
+	upstream_version_6_1_2:1.2
+	debian_version_6_1_2-1:1.2
+	Release-6-1-2:1.2.0.52
+	Root_Release-6-1-2:1.2
+	debian_version_6_1_1-2:1.2
+	debian_version_6_1_1-1:1.2
+	upstream_version_6_1_1:1.2
+	Release-6-1-1:1.2.0.50
+	Root_Release-6-1-1:1.2
+	Release-6-0-4:1.2.0.48
+	Root_Release-6-0-4:1.2
+	Release-6-0-3_NEW:1.2.0.44
+	Root_Release-6-0-3_NEW:1.2
+	Release-6-0-3:1.2.0.46
+	Root_Release-6-0-3:1.2
+	Release-6-0-0:1.2.0.42
+	Root_Release-6-0-0:1.2
+	Release-5-5-4-1:1.2.0.40
+	Root_Release-5-5-4-1:1.2
+	Release-5-5-4:1.2.0.38
+	Root_Release-5-5-4:1.2
+	Release-5-5-3:1.2.0.36
+	ROOT_Release-5-5-3:1.2
+	Release-5-5-2:1.2.0.34
+	Root_Release-5-5-2:1.2
+	debian_version_5_5_1-1:1.2
+	Release-5-5-1:1.2.0.30
+	upstream_version_5_5_1:1.2
+	ROOT_Release-5-5-1:1.2
+	debian_version_5_5-1:1.2
+	upstream_version_5_5:1.2
+	ROOT_Release-5-5:1.2
+	Release-5-5:1.2.0.32
+	debian_version_5_4_4_2-3:1.2
+	Release-5-4-4-2-1:1.2.0.26
+	debian_version_5_4_4_2-2:1.2
+	debian_version_5_4_4_2-1:1.2
+	upstream_version_5_4_4_2:1.2
+	debian_version_5_4_4_1-1:1.2
+	upstream_version_5_4_4_1:1.2
+	debian_version_5_4_4-1:1.2
+	upstream_version_5_4_4:1.2
+	Release-5-4-4:1.2.0.28
+	Root_Release-5-4-4:1.2
+	debian_version_5_4_3_2-1:1.2
+	upstream_version_5_4_3_2:1.2
+	Release_5-4-3-2:1.2.0.24
+	Root_Release_5-4-3-2:1.2
+	upstream_version_5_4_3_1:1.2
+	debian_version_5_4_3_1-1:1.2
+	Release-5-4-3:1.2.0.22
+	Root_Release-5-4-3:1.2
+	Root_Release-5-4-1:1.2
+	Release-5-4-1:1.2.0.20
+	Root_Release-5-4:1.2
+	Release-5-4:1.2.0.18
+	upstream_version_5_3_4:1.2
+	debian_version_5_3_4-1:1.2
+	ROOT_Release-5-3-4:1.2
+	Release-5-3-4:1.2.0.16
+	ROOT_Release-5-3-3:1.2
+	Release-5-3-3:1.2.0.12
+	debian_version_5_3_2_1_2-1:1.2
+	upstream_version_5_3_2_1_2:1.2
+	debian_version_5_3_2_1_1-1:1.2
+	debian_version_5_3_2_1_1:1.2
+	upstream_version_5_3_2_1_1:1.2
+	Root_Release-5-3-2-1:1.2
+	Release-5-3-2-1:1.2
+	ROOT_RELEASE-5-3-2-1:1.2
+	RELEASE-5-3-2-1:1.2.0.14
+	Release-5-3-2:1.2.0.10
+	Root_Release-5-3-2:1.2
+	Root_Release-5-3-1:1.2
+	Release-5-3-1:1.2.0.8
+	Release-5-2-3-1:1.2.0.6
+	Root_Release-5-2-3-1:1.2
+	Release-5-2-2-4:1.2.0.4
+	Root_Release-5-2-2-4:1.2
+	Release-5-2-2-1:1.2.0.2
+	Root_Release-5-2-2-1:1.2
+	upstream_version_5_2_2:1.1
+	debian_version_5_2_2-1:1.1
+	Release-5-2-2:1.1.0.30
+	ROOT_Release-5-2-2:1.1
+	ROOT_Release-5-2-1:1.1
+	Release-5-2-1:1.1.0.28
+	Release-5-2-0:1.1.0.26
+	ROOT_Release-5-2-0:1.1
+	ROOT_Release-5-1-2:1.1
+	Release-5-1-2:1.1.0.24
+	Version-5-1-1:1.1.0.22
+	ROOT_Version-5-1-1:1.1
+	debian_version_5_1_0-1:1.1
+	upstream_version_5_1_0:1.1
+	ROOT_Release-5-1-0:1.1
+	Release-5-1-0:1.1.0.20
+	ROOT_Release-5-0-0:1.1
+	Release-5-0-0:1.1.0.18
+	Release-4-3-3:1.1.0.16
+	ROOT_Release-4-3-3:1.1
+	upstream_version_4_3_2:1.1
+	debian_version_4_3_2-1:1.1
+	ROOT_Release-4-3-2:1.1
+	Release-4-3-2:1.1.0.14
+	Release-4-3-1:1.1.0.12
+	ROOT_Release-4-3-1:1.1
+	debian_version_4_3_0-1:1.1
+	upstream_version_4_3_0:1.1
+	ROOT_Release-4-3-0:1.1
+	Release-4-3-0:1.1.0.10
+	debian_version_4_2_2-1:1.1
+	upstream_version_4_2_2:1.1
+	Release-4-1-2:1.1.0.8
+	Release-4-0-8:1.1.0.6
+	debian_version_4_0_8a-1:1.1
+	upstream_version_4_0_8a:1.1
+	jostb-debian-ubuntu-patch:1.1.0.4
+	debian_version_4_0_8-1:1.1
+	upstream_version_4_0_8:1.1
+	debian_version_4_0_7-1:1.1
+	upstream_version_4_0_7:1.1
+	debian_version_4_0_6-1:1.1
+	upstream_version_4_0_6:1.1
+	debian_version_4_0_2-1:1.1
+	upstream_version_4_0_2:1.1
+	Release-4-0-2_Root:1.1
+	Release-4-0-2:1.1.0.2
+	upstream_version_4_0_1:1.1
+	debian_version_4_0_1-2:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2017.04.14.13.01.10;	author jost_boekemeier;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2008.09.20.15.00.58;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.03.12.20.27.54;	author andremachado;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Removed JavaProxy.php
+@
+text
+@<?php header("Content-type: text/html; charset=UTF-8"); ?>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Hello</title>
+<body>
+<TABLE border='1'>
+<tr>
+<th>English</th>
+<th><?php 
+  $lang=$_GET['language']; 
+  if(!isset($lang)) $lang="cs_CZ";
+  echo $lang?>
+</th>
+</tr>
+
+<tr>
+<td>Hello</td>
+
+
+<td>
+<?php
+if(!function_exists("bindtextdomain")) die("function bindtextdomain not found. Please install language support, see http://php.net for details");
+bindtextdomain("hello", "./locale");
+textdomain("hello");
+setlocale(LC_ALL, $lang);
+echo _("hello");
+?>
+</td>
+</tr>
+</TABLE>
+
+<form>
+
+<p>
+<select name='language'>
+<option value="cs_CZ">cs_CZ (Czech)</option>
+<option value="de_DE">de_DE (German)</option>
+<option value="he_IL">he_IL (Hebrew)</option>
+<option value="ja_JP">ja_JP (Japanese)</option>
+</select>
+<p>
+<input type="submit" default="cs_CZ" value="Update"></input>
+
+</form>
+</body>
+</html>
+@
+
+
+1.2
+log
+@Release-5-2-2-1
+@
+text
+@@
+
+
+1.1
+log
+@Further inclusions of 4.0.1 code extracted from src.tgz. Andre Felipe Machado.
+@
+text
+@d23 1
+@
+

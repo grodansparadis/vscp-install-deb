@@ -1,0 +1,83 @@
+head	1.4;
+access;
+symbols
+	Release-2-0-6-branch:1.3.0.2
+	Version-1:1.1.0.10
+	Version-2:1.1.0.8
+	Release-2:1.1.0.2
+	PHP-5:1.1.0.4
+	Release-1-0-6:1.1.0.6;
+locks; strict;
+comment	@# @;
+
+
+1.4
+date	2005.06.27.23.13.14;	author jost2345;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2005.02.15.19.10.32;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.02.13.21.43.29;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.10.26.23.00.46;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@compiles with jdk1.5 + gnu java
+@
+text
+@# -*- mode: Makefile; -*-
+ifeq (@@COND_WIN_NO_DLL@@,0)
+include Makefile_windows
+else 
+include Makefile_unix
+endif
+@
+
+
+1.3
+log
+@Replaced JNI with XML protocol
+@
+text
+@@
+
+
+1.2
+log
+@Replaced JNI with XML protocol
+@
+text
+@d1 6
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a0 6
+# -*- mode: Makefile; -*-
+ifeq (@@COND_WIN_NO_DLL@@,0)
+include Makefile_windows
+else 
+include Makefile_unix
+endif
+@
+

@@ -1,0 +1,820 @@
+head	1.34;
+access;
+symbols
+	upstream_version_5_5:1.33
+	ROOT_Release-5-5:1.33
+	Release-5-5:1.33.0.4
+	debian_version_5_4_4_2-3:1.33
+	Release-5-4-4-2-1:1.33.0.2
+	debian_version_5_4_4_2-2:1.33
+	debian_version_5_4_4_2-1:1.33
+	upstream_version_5_4_4_2:1.33
+	debian_version_5_4_4_1-1:1.30
+	upstream_version_5_4_4_1:1.30
+	debian_version_5_4_4-1:1.29
+	upstream_version_5_4_4:1.29
+	Release-5-4-4:1.29.0.4
+	Root_Release-5-4-4:1.29
+	debian_version_5_4_3_2-1:1.27
+	upstream_version_5_4_3_2:1.27
+	Release_5-4-3-2:1.27.0.2
+	Root_Release_5-4-3-2:1.27
+	upstream_version_5_4_3_1:1.27
+	debian_version_5_4_3_1-1:1.27
+	Release-5-4-3:1.26.0.6
+	Root_Release-5-4-3:1.26
+	Root_Release-5-4-1:1.26
+	Release-5-4-1:1.26.0.4
+	Root_Release-5-4:1.26
+	Release-5-4:1.26.0.2
+	upstream_version_5_3_4:1.24
+	debian_version_5_3_4-1:1.26
+	ROOT_Release-5-3-4:1.24
+	Release-5-3-4:1.24.0.2
+	ROOT_Release-5-3-3:1.20
+	Release-5-3-3:1.20.0.2
+	debian_version_5_3_2_1_2-1:1.19
+	upstream_version_5_3_2_1_2:1.19
+	debian_version_5_3_2_1_1-1:1.19
+	debian_version_5_3_2_1_1:1.19
+	upstream_version_5_3_2_1_1:1.19
+	Root_Release-5-3-2-1:1.19
+	Release-5-3-2-1:1.19
+	ROOT_RELEASE-5-3-2-1:1.19
+	RELEASE-5-3-2-1:1.19.0.10
+	Release-5-3-2:1.19.0.6
+	Root_Release-5-3-2:1.19
+	Root_Release-5-3-1:1.19
+	Release-5-3-1:1.19.0.4
+	Release-5-2-3-1:1.19.0.2
+	Root_Release-5-2-3-1:1.19
+	Release-5-2-2-4:1.18.0.8
+	Root_Release-5-2-2-4:1.18
+	Release-5-2-2-1:1.18.0.6
+	Root_Release-5-2-2-1:1.18
+	upstream_version_5_2_2:1.18
+	debian_version_5_2_2-1:1.18
+	Release-5-2-2:1.18.0.4
+	ROOT_Release-5-2-2:1.18
+	ROOT_Release-5-2-1:1.18
+	Release-5-2-1:1.18.0.2
+	Release-5-2-0:1.17.0.20
+	ROOT_Release-5-2-0:1.17
+	ROOT_Release-5-1-2:1.17
+	Release-5-1-2:1.17.0.18
+	Version-5-1-1:1.17.0.16
+	ROOT_Version-5-1-1:1.17
+	debian_version_5_1_0-1:1.17
+	upstream_version_5_1_0:1.17
+	ROOT_Release-5-1-0:1.17
+	Release-5-1-0:1.17.0.14
+	ROOT_Release-5-0-0:1.17
+	Release-5-0-0:1.17.0.12
+	Release-4-3-3:1.17.0.10
+	ROOT_Release-4-3-3:1.17
+	upstream_version_4_3_2:1.17
+	debian_version_4_3_2-1:1.17
+	ROOT_Release-4-3-2:1.17
+	Release-4-3-2:1.17.0.8
+	Release-4-3-1:1.17.0.6
+	ROOT_Release-4-3-1:1.17
+	debian_version_4_3_0-1:1.17
+	upstream_version_4_3_0:1.17
+	ROOT_Release-4-3-0:1.17
+	Release-4-3-0:1.17.0.4
+	debian_version_3_2_1b-2:1.14
+	debian_version_4_2_2-1:1.17
+	upstream_version_4_2_2:1.17
+	debian_version_3_2_1b-1:1.14
+	upstream_version_3_2_1b:1.14
+	Release-4-1-2:1.17.0.2
+	Release-4-0-8:1.16.0.6
+	debian_version_4_0_8a-1:1.16
+	upstream_version_4_0_8a:1.16
+	jostb-debian-ubuntu-patch:1.16.0.4
+	debian_version_4_0_8-1:1.16
+	upstream_version_4_0_8:1.16
+	debian_version_4_0_7-1:1.16
+	upstream_version_4_0_7:1.16
+	debian_version_4_0_6-1:1.16
+	upstream_version_4_0_6:1.16
+	debian_version_4_0_2-1:1.16
+	upstream_version_4_0_2:1.16
+	Release-4-0-2_Root:1.16
+	Release-4-0-2:1.16.0.2
+	upstream_version_4_0_1:1.15
+	debian_version_4_0_1-2:1.15
+	Release-3-2-1:1.14.0.4
+	Release-3-1-8:1.14.0.2
+	Release-3-0-8_root:1.6.2.1
+	Release-3-0-8_Root:1.7
+	Release-3-0-8:1.6.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.34
+date	2009.07.25.13.56.04;	author jost_boekemeier;	state dead;
+branches;
+next	1.33;
+
+1.33
+date	2009.04.25.12.25.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2009.04.19.17.24.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2009.04.18.14.57.05;	author jost_boekemeier;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2009.03.15.15.33.22;	author jost_boekemeier;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2009.03.08.17.45.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2009.03.08.14.34.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2009.01.06.17.05.11;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2008.12.02.21.56.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2008.12.02.19.17.52;	author jost_boekemeier;	state dead;
+branches;
+next	1.24;
+
+1.24
+date	2008.12.01.22.42.43;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2008.11.30.17.08.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2008.10.26.15.23.02;	author jost_boekemeier;	state Exp;
+branches
+	1.20.2.1;
+next	1.19;
+
+1.19
+date	2008.09.28.21.56.53;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2008.03.22.12.04.56;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2007.06.16.18.29.50;	author jost_boekemeier;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2007.03.19.13.03.18;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2007.03.09.20.28.12;	author andremachado;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2006.09.10.17.31.12;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2006.08.08.17.20.46;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2006.07.23.20.32.47;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.07.16.20.29.26;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2006.07.02.20.28.44;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.06.27.20.44.34;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.06.19.20.37.21;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.04.12.17.46.47;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.02.05.18.47.01;	author jost2345;	state Exp;
+branches
+	1.6.2.1;
+next	1.5;
+
+1.5
+date	2006.01.15.21.05.39;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.01.08.23.44.47;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.11.24.19.49.19;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.11.24.19.35.15;	author jost2345;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2005.11.24.19.23.49;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.6.2.1
+date	2006.04.23.19.09.09;	author jost2345;	state Exp;
+branches;
+next	1.6.2.2;
+
+1.6.2.2
+date	2006.05.13.16.09.58;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.20.2.1
+date	2008.11.09.17.01.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.20.2.2;
+
+1.20.2.2
+date	2008.11.12.18.55.30;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.34
+log
+@Release-5-5
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<!-- Generated by javadoc on Sat Apr 25 11:44:43 CEST 2009-->
+<TITLE>
+Generated Documentation (Untitled)
+</TITLE>
+<SCRIPT type="text/javascript">
+    targetPage = "" + window.location.search;
+    if (targetPage != "" && targetPage != "undefined")
+        targetPage = targetPage.substring(1);
+    if (targetPage.indexOf(":") != -1)
+        targetPage = "undefined";
+    function loadFrames() {
+        if (targetPage != "" && targetPage != "undefined")
+             top.classFrame.location = top.targetPage;
+    }
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+</HEAD>
+<FRAMESET cols="20%,80%" title="" onLoad="top.loadFrames()">
+<FRAMESET rows="30%,70%" title="" onLoad="top.loadFrames()">
+<FRAME src="overview-frame.html" name="packageListFrame" title="All Packages">
+<FRAME src="allclasses-frame.html" name="packageFrame" title="All classes and interfaces (except non-static nested types)">
+</FRAMESET>
+<FRAME src="overview-summary.html" name="classFrame" title="Package, class and interface descriptions" scrolling="yes">
+<NOFRAMES>
+<H2>
+Frame Alert</H2>
+
+<P>
+This document is designed to be viewed using the frames feature. If you see this message, you are using a non-frame-capable web client.
+<BR>
+Link to<A HREF="overview-summary.html">Non-frame version.</A>
+</NOFRAMES>
+</FRAMESET>
+</HTML>
+@
+
+
+1.33
+log
+@Release-5.4.4.2
+@
+text
+@@
+
+
+1.32
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Apr 19 11:35:22 CEST 2009-->
+@
+
+
+1.31
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Apr 12 09:06:10 CEST 2009-->
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Mar 15 11:32:41 CET 2009-->
+@
+
+
+1.29
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Mar 08 18:42:08 CET 2009-->
+@
+
+
+1.28
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Tue Mar 03 19:21:07 CET 2009-->
+@
+
+
+1.27
+log
+@Release-5-4-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Mon Jan 05 20:55:09 CET 2009-->
+@
+
+
+1.26
+log
+@documentation
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Nov 30 10:56:59 CET 2008-->
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d1 31
+a31 10
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html 
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//FR"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+   <html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- Generated by phpDocumentor on Sun, 30 Nov 2008 11:48:39 +0100  -->
+  <title>VM Bridge</title>
+  <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+</head>
+d33 5
+a37 11
+<FRAMESET rows='120,*'>
+	<FRAME src='packages.html' name='left_top' frameborder="1" bordercolor="#999999">
+	<FRAMESET cols='25%,*'>
+		<FRAME src='li_JavaBridge.html' name='left_bottom' frameborder="1" bordercolor="#999999">
+		<FRAME src='blank.html' name='right' frameborder="1" bordercolor="#999999">
+	</FRAMESET>
+	<NOFRAMES>
+		<H2>Frame Alert</H2>
+		<P>This document is designed to be viewed using the frames feature.
+		If you see this message, you are using a non-frame-capable web client.</P>
+	</NOFRAMES>
+d39 1
+a39 1
+</HTML>@
+
+
+1.24
+log
+@Release 5.3.4
+@
+text
+@@
+
+
+1.23
+log
+@Release 5.3.4
+@
+text
+@d1 10
+a10 31
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<!-- Generated by javadoc on Sat Nov 29 12:39:28 CET 2008-->
+<TITLE>
+Generated Documentation (Untitled)
+</TITLE>
+<SCRIPT type="text/javascript">
+    targetPage = "" + window.location.search;
+    if (targetPage != "" && targetPage != "undefined")
+        targetPage = targetPage.substring(1);
+    if (targetPage.indexOf(":") != -1)
+        targetPage = "undefined";
+    function loadFrames() {
+        if (targetPage != "" && targetPage != "undefined")
+             top.classFrame.location = top.targetPage;
+    }
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+</HEAD>
+<FRAMESET cols="20%,80%" title="" onLoad="top.loadFrames()">
+<FRAMESET rows="30%,70%" title="" onLoad="top.loadFrames()">
+<FRAME src="overview-frame.html" name="packageListFrame" title="All Packages">
+<FRAME src="allclasses-frame.html" name="packageFrame" title="All classes and interfaces (except non-static nested types)">
+</FRAMESET>
+<FRAME src="overview-summary.html" name="classFrame" title="Package, class and interface descriptions" scrolling="yes">
+<NOFRAMES>
+<H2>
+Frame Alert</H2>
+d12 11
+a22 5
+<P>
+This document is designed to be viewed using the frames feature. If you see this message, you are using a non-frame-capable web client.
+<BR>
+Link to<A HREF="overview-summary.html">Non-frame version.</A>
+</NOFRAMES>
+d24 1
+a24 1
+</HTML>
+@
+
+
+1.22
+log
+@Release 5.3.3.1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Nov 23 10:26:32 CET 2008-->
+@
+
+
+1.21
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Nov 09 14:01:58 CET 2008-->
+@
+
+
+1.20
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Oct 26 14:59:23 CET 2008-->
+@
+
+
+1.20.2.1
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Nov 09 13:25:09 CET 2008-->
+@
+
+
+1.20.2.2
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Nov 09 14:01:58 CET 2008-->
+@
+
+
+1.19
+log
+@Release-5-2-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Sep 28 12:34:46 CEST 2008-->
+@
+
+
+1.18
+log
+@Release-5-2-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Mar 16 21:41:39 CET 2008-->
+@
+
+
+1.17
+log
+@Release-4-1-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sat Jun 16 09:41:59 EDT 2007-->
+d12 3
+a14 1
+       targetPage = targetPage.substring(1);
+@
+
+
+1.16
+log
+@Release-4-0-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Thu Mar 15 07:15:55 CET 2007-->
+@
+
+
+1.15
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Feb 11 14:44:22 CET 2007-->
+@
+
+
+1.14
+log
+@Release-3-1-8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Sep 10 13:03:33 CEST 2006-->
+@
+
+
+1.13
+log
+@Release-3-1-7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Thu Aug 03 19:34:06 CEST 2006-->
+@
+
+
+1.12
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Jul 23 12:18:13 CEST 2006-->
+@
+
+
+1.11
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Jul 16 13:42:20 CEST 2006-->
+@
+
+
+1.10
+log
+@Release-3-1-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Jul 02 11:43:25 CEST 2006-->
+@
+
+
+1.9
+log
+@Release-3-1-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Jun 25 13:54:51 CEST 2006-->
+@
+
+
+1.8
+log
+@Release-3-1-0
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Jun 18 11:35:48 CEST 2006-->
+@
+
+
+1.7
+log
+@Release-3.0.8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Apr 09 16:52:24 CEST 2006-->
+@
+
+
+1.6
+log
+@Release-3.0.7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Feb 05 13:18:04 CET 2006-->
+@
+
+
+1.6.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Apr 23 18:58:57 CEST 2006-->
+@
+
+
+1.6.2.2
+log
+@Release-3-0-8-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Apr 09 16:52:24 CEST 2006-->
+@
+
+
+1.5
+log
+@Release-3.0.6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Jan 15 20:26:23 CET 2006-->
+@
+
+
+1.4
+log
+@Release-3.0.5
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc on Sun Jan 08 19:28:42 CET 2006-->
+@
+
+
+1.3
+log
+@Version-3.0.0pre
+@
+text
+@d1 37
+a37 2
+<?xml version="1.0" encoding="null"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head><title>Generated API Documentation</title><script src="./resources/gjdoc.js" type="text/javascript"><!-- this comment required for konqueror 3.2.2 --></script><meta http-equiv="Content-Type" content="text/html; charset=null"/><meta name="generator" content="GNU Gjdoc Standard Doclet"/><link rel="stylesheet" type="text/css" href="./resources/gjdochtml-clean-layout.css" title="GNU Clean"/><link rel="stylesheet" type="text/css" href="./resources/gjdochtml-clean-color1.css" title="GNU Clean"/></head><frameset cols="20%,80%"><frameset rows="25%,75%"><frame src="all-packages.html" name="packages"/><frame src="all-classes.html" name="classes"/></frameset><frame src="index-noframes.html" name="content"/></frameset></html>@
+
+
+1.2
+log
+@Version-3.0.0pre
+@
+text
+@@
+
+
+1.1
+log
+@Version-3.0.0pre
+@
+text
+@@
+

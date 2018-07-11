@@ -1,0 +1,147 @@
+head	1.3;
+access;
+symbols
+	Release-4-3-3:1.2.0.20
+	ROOT_Release-4-3-3:1.2
+	upstream_version_4_3_2:1.2
+	debian_version_4_3_2-1:1.2
+	ROOT_Release-4-3-2:1.2
+	Release-4-3-2:1.2.0.18
+	Release-4-3-1:1.2.0.16
+	ROOT_Release-4-3-1:1.2
+	debian_version_4_3_0-1:1.2
+	upstream_version_4_3_0:1.2
+	ROOT_Release-4-3-0:1.2
+	Release-4-3-0:1.2.0.14
+	debian_version_3_2_1b-2:1.2
+	debian_version_4_2_2-1:1.2
+	upstream_version_4_2_2:1.2
+	debian_version_3_2_1b-1:1.2
+	upstream_version_3_2_1b:1.2
+	Release-4-1-2:1.2.0.12
+	Release-4-0-8:1.2.0.10
+	debian_version_4_0_8a-1:1.2
+	upstream_version_4_0_8a:1.2
+	jostb-debian-ubuntu-patch:1.2.0.8
+	debian_version_4_0_8-1:1.2
+	upstream_version_4_0_8:1.2
+	debian_version_4_0_7-1:1.2
+	upstream_version_4_0_7:1.2
+	debian_version_4_0_6-1:1.2
+	upstream_version_4_0_6:1.2
+	debian_version_4_0_2-1:1.2
+	upstream_version_4_0_2:1.2
+	Release-4-0-2_Root:1.2
+	Release-4-0-2:1.2.0.6
+	upstream_version_4_0_1:1.2
+	debian_version_4_0_1-2:1.2
+	Release-3-2-1:1.2.0.4
+	Release-3-1-8:1.2.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2008.01.06.21.07.55;	author jost_boekemeier;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2006.08.19.12.34.00;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.08.08.17.09.07;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Release-5-0-0
+@
+text
+@IBM WebSphere AS
+----------------
+
+The following description assumes that you have the IBM WebSphere
+6.x Application Server installed and that $WAS_HOME points to the
+/opt/IBM/WebSphere/AppServer directory.
+
+Download and unpack the PHP/Java Bridge J2EE component:
+"JavaBridge.war". Start the application server, for example with the
+command:
+
+$WAS_HOME/bin/startServer.sh  server1
+
+Log into your application server, for example via: 
+
+http://localhost:9060/ibm/console/secure/logon.do
+
+Click on Applications -> Install New Application -> Browse
+and select JavaBridge.war. 
+
+Enter /JavaBridge as "Context root" and click Next.
+Click Next
+Click Continue
+Click Next
+Select JavaBridge.war and click Next
+Select JavaBridge.war and click Next
+Click Finish
+Click on "Save to Master Configuration"
+Click Save
+
+Click on Applications -> Enterprise Applications and select JavaBridge.war
+Click Start
+
+Run the PHP/Java Bridge examples, for example:
+
+http://localhost:9080/JavaBridge/test.php
+
+or 
+
+http://localhost:9080/JavaBridge/sessionSharing.php
+
+If there are problems, please check if websphere has created the
+$WAS_HOME/profiles/default/installedApps/[...]/JavaBridge_war.ear/
+directory and read
+$WAS_HOME/[...]/JavaBridge_war.ear/JavaBridge.war/WEB-INF/cgi/README.
+
+The log output appears in the
+$WAS_HOME/profiles/default/logs/server1/ directory.
+
+On production systems it is recommended to install the IBM
+HttpServer (a Apache variant) and to install PHP as a Apache
+module.
+
+
+Please report bugs/problems to the mailing list:
+
+    php-java-bridge-users@@lists.sourceforge.net
+@
+
+
+1.2
+log
+@Release-3-2-0devel
+@
+text
+@@
+
+
+1.1
+log
+@Release-3-1-7
+@
+text
+@d8 3
+a10 2
+Install the PHP/Java Bridge. Start the application server, for
+example with the command:
+@
+

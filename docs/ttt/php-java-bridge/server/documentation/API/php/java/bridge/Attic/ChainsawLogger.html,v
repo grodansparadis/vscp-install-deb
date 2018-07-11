@@ -1,0 +1,1159 @@
+head	1.26;
+access;
+symbols
+	upstream_version_5_5:1.25
+	ROOT_Release-5-5:1.25
+	Release-5-5:1.25.0.4
+	debian_version_5_4_4_2-3:1.25
+	Release-5-4-4-2-1:1.25.0.2
+	debian_version_5_4_4_2-2:1.25
+	debian_version_5_4_4_2-1:1.25
+	upstream_version_5_4_4_2:1.25
+	debian_version_5_4_4_1-1:1.22
+	upstream_version_5_4_4_1:1.22
+	debian_version_5_4_4-1:1.21
+	upstream_version_5_4_4:1.21
+	Release-5-4-4:1.21.0.4
+	Root_Release-5-4-4:1.21
+	debian_version_5_4_3_2-1:1.19
+	upstream_version_5_4_3_2:1.19
+	Release_5-4-3-2:1.19.0.2
+	Root_Release_5-4-3-2:1.19
+	upstream_version_5_4_3_1:1.19
+	debian_version_5_4_3_1-1:1.19
+	Release-5-4-3:1.18.0.6
+	Root_Release-5-4-3:1.18
+	Root_Release-5-4-1:1.18
+	Release-5-4-1:1.18.0.4
+	Root_Release-5-4:1.18
+	Release-5-4:1.18.0.2
+	upstream_version_5_3_4:1.16
+	debian_version_5_3_4-1:1.18
+	ROOT_Release-5-3-4:1.16
+	Release-5-3-4:1.16.0.2
+	ROOT_Release-5-3-3:1.13
+	Release-5-3-3:1.13.0.2
+	debian_version_5_3_2_1_2-1:1.12
+	upstream_version_5_3_2_1_2:1.12
+	debian_version_5_3_2_1_1-1:1.12
+	debian_version_5_3_2_1_1:1.12
+	upstream_version_5_3_2_1_1:1.12
+	Root_Release-5-3-2-1:1.12
+	Release-5-3-2-1:1.12
+	ROOT_RELEASE-5-3-2-1:1.12
+	RELEASE-5-3-2-1:1.12.0.10
+	Release-5-3-2:1.12.0.6
+	Root_Release-5-3-2:1.12
+	Root_Release-5-3-1:1.12
+	Release-5-3-1:1.12.0.4
+	Release-5-2-3-1:1.12.0.2
+	Root_Release-5-2-3-1:1.12
+	Release-5-2-2-4:1.11.0.8
+	Root_Release-5-2-2-4:1.11
+	Release-5-2-2-1:1.11.0.6
+	Root_Release-5-2-2-1:1.11
+	upstream_version_5_2_2:1.11
+	debian_version_5_2_2-1:1.11
+	Release-5-2-2:1.11.0.4
+	ROOT_Release-5-2-2:1.11
+	ROOT_Release-5-2-1:1.11
+	Release-5-2-1:1.11.0.2
+	Release-5-2-0:1.10.0.20
+	ROOT_Release-5-2-0:1.10
+	ROOT_Release-5-1-2:1.10
+	Release-5-1-2:1.10.0.18
+	Version-5-1-1:1.10.0.16
+	ROOT_Version-5-1-1:1.10
+	debian_version_5_1_0-1:1.10
+	upstream_version_5_1_0:1.10
+	ROOT_Release-5-1-0:1.10
+	Release-5-1-0:1.10.0.14
+	ROOT_Release-5-0-0:1.10
+	Release-5-0-0:1.10.0.12
+	Release-4-3-3:1.10.0.10
+	ROOT_Release-4-3-3:1.10
+	upstream_version_4_3_2:1.10
+	debian_version_4_3_2-1:1.10
+	ROOT_Release-4-3-2:1.10
+	Release-4-3-2:1.10.0.8
+	Release-4-3-1:1.10.0.6
+	ROOT_Release-4-3-1:1.10
+	debian_version_4_3_0-1:1.10
+	upstream_version_4_3_0:1.10
+	ROOT_Release-4-3-0:1.10
+	Release-4-3-0:1.10.0.4
+	debian_version_3_2_1b-2:1.7
+	debian_version_4_2_2-1:1.10
+	upstream_version_4_2_2:1.10
+	debian_version_3_2_1b-1:1.7
+	upstream_version_3_2_1b:1.7
+	Release-4-1-2:1.10.0.2
+	Release-4-0-8:1.9.0.6
+	debian_version_4_0_8a-1:1.9
+	upstream_version_4_0_8a:1.9
+	jostb-debian-ubuntu-patch:1.9.0.4
+	debian_version_4_0_8-1:1.9
+	upstream_version_4_0_8:1.9
+	debian_version_4_0_7-1:1.9
+	upstream_version_4_0_7:1.9
+	debian_version_4_0_6-1:1.9
+	upstream_version_4_0_6:1.9
+	debian_version_4_0_2-1:1.9
+	upstream_version_4_0_2:1.9
+	Release-4-0-2_Root:1.9
+	Release-4-0-2:1.9.0.2
+	upstream_version_4_0_1:1.8
+	debian_version_4_0_1-2:1.8
+	Release-3-2-1:1.7.0.4
+	Release-3-1-8:1.7.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.26
+date	2009.07.25.13.56.04;	author jost_boekemeier;	state dead;
+branches;
+next	1.25;
+
+1.25
+date	2009.04.25.12.25.24;	author jost_boekemeier;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2009.04.19.17.24.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2009.04.18.14.57.05;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2009.03.15.15.33.21;	author jost_boekemeier;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2009.03.08.17.45.39;	author jost_boekemeier;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2009.03.08.14.34.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2009.01.06.17.05.12;	author jost_boekemeier;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2008.12.02.21.56.38;	author jost_boekemeier;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2008.12.02.19.17.51;	author jost_boekemeier;	state dead;
+branches;
+next	1.16;
+
+1.16
+date	2008.11.30.17.08.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2008.10.26.15.23.02;	author jost_boekemeier;	state Exp;
+branches
+	1.13.2.1;
+next	1.12;
+
+1.12
+date	2008.09.28.21.56.53;	author jost_boekemeier;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2008.03.22.12.04.57;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2007.06.16.18.29.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2007.03.19.13.03.19;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2007.03.09.20.28.15;	author andremachado;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.09.10.17.31.13;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.08.08.17.20.47;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.07.23.20.32.48;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.07.16.20.29.27;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.07.02.20.28.47;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.06.27.20.44.39;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.06.19.20.43.09;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.13.2.1
+date	2008.11.09.17.01.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13.2.2;
+
+1.13.2.2
+date	2008.11.12.18.55.30;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.26
+log
+@Release-5-5
+@
+text
+@<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!--NewPage-->
+<HTML>
+<HEAD>
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Apr 25 11:44:39 CEST 2009 -->
+<TITLE>
+ChainsawLogger
+</TITLE>
+
+<META NAME="date" CONTENT="2009-04-25">
+
+<LINK REL ="stylesheet" TYPE="text/css" HREF="../../../stylesheet.css" TITLE="Style">
+
+<SCRIPT type="text/javascript">
+function windowTitle()
+{
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="ChainsawLogger";
+    }
+}
+</SCRIPT>
+<NOSCRIPT>
+</NOSCRIPT>
+
+</HEAD>
+
+<BODY BGCOLOR="white" onload="windowTitle();">
+<HR>
+
+
+<!-- ========= START OF TOP NAVBAR ======= -->
+<A NAME="navbar_top"><!-- --></A>
+<A HREF="#skip-navbar_top" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_top_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/ChainsawLogger.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;<A HREF="../../../php/java/bridge/AppThreadPool.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;<A HREF="../../../php/java/bridge/DynamicClassLoader.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?php/java/bridge/ChainsawLogger.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="ChainsawLogger.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_top"></A>
+<!-- ========= END OF TOP NAVBAR ========= -->
+
+<HR>
+<!-- ======== START OF CLASS DATA ======== -->
+<H2>
+<FONT SIZE="-1">
+php.java.bridge</FONT>
+<BR>
+Class ChainsawLogger</H2>
+<PRE>
+java.lang.Object
+  <IMG SRC="../../../resources/inherit.gif" ALT="extended by "><A HREF="../../../php/java/bridge/SimpleLog4jLogger.html" title="class in php.java.bridge">php.java.bridge.SimpleLog4jLogger</A>
+      <IMG SRC="../../../resources/inherit.gif" ALT="extended by "><B>php.java.bridge.ChainsawLogger</B>
+</PRE>
+<DL>
+<DT><B>All Implemented Interfaces:</B> <DD><A HREF="../../../php/java/bridge/ILogger.html" title="interface in php.java.bridge">ILogger</A></DD>
+</DL>
+<HR>
+<DL>
+<DT><PRE>public class <B>ChainsawLogger</B><DT>extends <A HREF="../../../php/java/bridge/SimpleLog4jLogger.html" title="class in php.java.bridge">SimpleLog4jLogger</A><DT>implements <A HREF="../../../php/java/bridge/ILogger.html" title="interface in php.java.bridge">ILogger</A></DL>
+</PRE>
+
+<P>
+A logger class which connects to chainsaw -- chainsaw is a log4j viewer. Requires that log4j.jar is in the classpath.
+ 
+ Start chainsaw, for example by clicking on Applications -&gt;
+ Programming -&gt; Chainsaw or via:<blockquote><code>java -classpath
+ /usr/share/java/log4j.jar org.apache.log4j.chainsaw.Main</code></blockquote>
+ and then start the PHP/Java Bridge:<br> 
+ <blockquote><code>java -classpath /usr/share/java/log4j.jar:/usr/share/java/JavaBridge.jar php.java.bridge.JavaBridge</code></blockquote>
+ or set the PHP .ini option <blockquote><code>java.log_file=@@127.0.0.1:4445</code></blockquote>.
+<P>
+
+<P>
+<HR>
+
+<P>
+<!-- =========== FIELD SUMMARY =========== -->
+
+<A NAME="field_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Field Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/ChainsawLogger.html#DEFAULT_HOST">DEFAULT_HOST</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The default cainsaw host</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;int</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/ChainsawLogger.html#DEFAULT_PORT">DEFAULT_PORT</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The default chainsaw port</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/ChainsawLogger.html#DEFAULT_PORT_NAME">DEFAULT_PORT_NAME</A></B></CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The default chainsaw port</TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="fields_inherited_from_class_php.java.bridge.ILogger"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Fields inherited from interface php.java.bridge.<A HREF="../../../php/java/bridge/ILogger.html" title="interface in php.java.bridge">ILogger</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../php/java/bridge/ILogger.html#DEBUG">DEBUG</A>, <A HREF="../../../php/java/bridge/ILogger.html#ERROR">ERROR</A>, <A HREF="../../../php/java/bridge/ILogger.html#FATAL">FATAL</A>, <A HREF="../../../php/java/bridge/ILogger.html#INFO">INFO</A></CODE></TD>
+</TR>
+</TABLE>
+&nbsp;
+<!-- ========== METHOD SUMMARY =========== -->
+
+<A NAME="method_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Method Summary</B></FONT></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;void</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/ChainsawLogger.html#configure(java.lang.String, int)">configure</A></B>(java.lang.String&nbsp;defaultHost,
+          int&nbsp;defaultPort)</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;override this method, if you want to connect to a different
+ host or port</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>static&nbsp;<A HREF="../../../php/java/bridge/ChainsawLogger.html" title="class in php.java.bridge">ChainsawLogger</A></CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/ChainsawLogger.html#createChainsawLogger()">createChainsawLogger</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a new chainsaw logger.</TD>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD ALIGN="right" VALIGN="top" WIDTH="1%"><FONT SIZE="-1">
+<CODE>&nbsp;java.lang.String</CODE></FONT></TD>
+<TD><CODE><B><A HREF="../../../php/java/bridge/ChainsawLogger.html#toString()">toString</A></B>()</CODE>
+
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_php.java.bridge.SimpleLog4jLogger"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class php.java.bridge.<A HREF="../../../php/java/bridge/SimpleLog4jLogger.html" title="class in php.java.bridge">SimpleLog4jLogger</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../php/java/bridge/SimpleLog4jLogger.html#log(int, java.lang.String)">log</A>, <A HREF="../../../php/java/bridge/SimpleLog4jLogger.html#printStackTrace(java.lang.Throwable)">printStackTrace</A>, <A HREF="../../../php/java/bridge/SimpleLog4jLogger.html#warn(java.lang.String)">warn</A></CODE></TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_java.lang.Object"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from class java.lang.Object</B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE>equals, getClass, hashCode, notify, notifyAll, wait, wait, wait</CODE></TD>
+</TR>
+</TABLE>
+&nbsp;<A NAME="methods_inherited_from_class_php.java.bridge.ILogger"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#EEEEFF" CLASS="TableSubHeadingColor">
+<TH ALIGN="left"><B>Methods inherited from interface php.java.bridge.<A HREF="../../../php/java/bridge/ILogger.html" title="interface in php.java.bridge">ILogger</A></B></TH>
+</TR>
+<TR BGCOLOR="white" CLASS="TableRowColor">
+<TD><CODE><A HREF="../../../php/java/bridge/ILogger.html#log(int, java.lang.String)">log</A>, <A HREF="../../../php/java/bridge/ILogger.html#printStackTrace(java.lang.Throwable)">printStackTrace</A>, <A HREF="../../../php/java/bridge/ILogger.html#warn(java.lang.String)">warn</A></CODE></TD>
+</TR>
+</TABLE>
+&nbsp;
+<P>
+
+<!-- ============ FIELD DETAIL =========== -->
+
+<A NAME="field_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Field Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="DEFAULT_PORT"><!-- --></A><H3>
+DEFAULT_PORT</H3>
+<PRE>
+public static final int <B>DEFAULT_PORT</B></PRE>
+<DL>
+<DD>The default chainsaw port
+<P>
+<DL>
+<DT><B>See Also:</B><DD><A HREF="../../../constant-values.html#php.java.bridge.ChainsawLogger.DEFAULT_PORT">Constant Field Values</A></DL>
+</DL>
+<HR>
+
+<A NAME="DEFAULT_PORT_NAME"><!-- --></A><H3>
+DEFAULT_PORT_NAME</H3>
+<PRE>
+public static final java.lang.String <B>DEFAULT_PORT_NAME</B></PRE>
+<DL>
+<DD>The default chainsaw port
+<P>
+<DL>
+</DL>
+</DL>
+<HR>
+
+<A NAME="DEFAULT_HOST"><!-- --></A><H3>
+DEFAULT_HOST</H3>
+<PRE>
+public static final java.lang.String <B>DEFAULT_HOST</B></PRE>
+<DL>
+<DD>The default cainsaw host
+<P>
+<DL>
+<DT><B>See Also:</B><DD><A HREF="../../../constant-values.html#php.java.bridge.ChainsawLogger.DEFAULT_HOST">Constant Field Values</A></DL>
+</DL>
+
+<!-- ============ METHOD DETAIL ========== -->
+
+<A NAME="method_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Method Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="configure(java.lang.String, int)"><!-- --></A><H3>
+configure</H3>
+<PRE>
+public void <B>configure</B>(java.lang.String&nbsp;defaultHost,
+                      int&nbsp;defaultPort)
+               throws java.lang.Exception</PRE>
+<DL>
+<DD>override this method, if you want to connect to a different
+ host or port
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+<DT><B>Parameters:</B><DD><CODE>defaultHost</CODE> - The default host<DD><CODE>defaultPort</CODE> - The default port
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.Exception</CODE> - If chainsaw isn't running.</DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="createChainsawLogger()"><!-- --></A><H3>
+createChainsawLogger</H3>
+<PRE>
+public static <A HREF="../../../php/java/bridge/ChainsawLogger.html" title="class in php.java.bridge">ChainsawLogger</A> <B>createChainsawLogger</B>()
+                                           throws java.lang.Exception</PRE>
+<DL>
+<DD>Create a new chainsaw logger.
+<P>
+<DD><DL>
+</DL>
+</DD>
+<DD><DL>
+
+<DT><B>Returns:</B><DD>The chainsaw logger
+<DT><B>Throws:</B>
+<DD><CODE>java.lang.Exception</CODE> - If chainsaw isn't running.<DT><B>See Also:</B><DD><A HREF="../../../php/java/bridge/Util.html#setLogger(php.java.bridge.ILogger)"><CODE>Util.setLogger(ILogger)</CODE></A></DL>
+</DD>
+</DL>
+<HR>
+
+<A NAME="toString()"><!-- --></A><H3>
+toString</H3>
+<PRE>
+public java.lang.String <B>toString</B>()</PRE>
+<DL>
+<DD>
+<P>
+<DD><DL>
+<DT><B>Overrides:</B><DD><CODE>toString</CODE> in class <CODE>java.lang.Object</CODE></DL>
+</DD>
+<DD><DL>
+</DL>
+</DD>
+</DL>
+<!-- ========= END OF CLASS DATA ========= -->
+<HR>
+
+
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<A NAME="navbar_bottom"><!-- --></A>
+<A HREF="#skip-navbar_bottom" title="Skip navigation links"></A>
+<TABLE BORDER="0" WIDTH="100%" CELLPADDING="1" CELLSPACING="0" SUMMARY="">
+<TR>
+<TD COLSPAN=2 BGCOLOR="#EEEEFF" CLASS="NavBarCell1">
+<A NAME="navbar_bottom_firstrow"><!-- --></A>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" SUMMARY="">
+  <TR ALIGN="center" VALIGN="top">
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../overview-summary.html"><FONT CLASS="NavBarFont1"><B>Overview</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-summary.html"><FONT CLASS="NavBarFont1"><B>Package</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#FFFFFF" CLASS="NavBarCell1Rev"> &nbsp;<FONT CLASS="NavBarFont1Rev"><B>Class</B></FONT>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="class-use/ChainsawLogger.html"><FONT CLASS="NavBarFont1"><B>Use</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="package-tree.html"><FONT CLASS="NavBarFont1"><B>Tree</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../deprecated-list.html"><FONT CLASS="NavBarFont1"><B>Deprecated</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../index-files/index-1.html"><FONT CLASS="NavBarFont1"><B>Index</B></FONT></A>&nbsp;</TD>
+  <TD BGCOLOR="#EEEEFF" CLASS="NavBarCell1">    <A HREF="../../../help-doc.html"><FONT CLASS="NavBarFont1"><B>Help</B></FONT></A>&nbsp;</TD>
+  </TR>
+</TABLE>
+</TD>
+<TD ALIGN="right" VALIGN="top" ROWSPAN=3><EM>
+</EM>
+</TD>
+</TR>
+
+<TR>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+&nbsp;<A HREF="../../../php/java/bridge/AppThreadPool.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;<A HREF="../../../php/java/bridge/DynamicClassLoader.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+<TD BGCOLOR="white" CLASS="NavBarCell2"><FONT SIZE="-2">
+  <A HREF="../../../index.html?php/java/bridge/ChainsawLogger.html" target="_top"><B>FRAMES</B></A>  &nbsp;
+&nbsp;<A HREF="ChainsawLogger.html" target="_top"><B>NO FRAMES</B></A>  &nbsp;
+&nbsp;<SCRIPT type="text/javascript">
+  <!--
+  if(window==top) {
+    document.writeln('<A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>');
+  }
+  //-->
+</SCRIPT>
+<NOSCRIPT>
+  <A HREF="../../../allclasses-noframe.html"><B>All Classes</B></A>
+</NOSCRIPT>
+
+
+</FONT></TD>
+</TR>
+<TR>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+<TD VALIGN="top" CLASS="NavBarCell3"><FONT SIZE="-2">
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;CONSTR&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+</TR>
+</TABLE>
+<A NAME="skip-navbar_bottom"></A>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+
+<HR>
+
+</BODY>
+</HTML>
+@
+
+
+1.25
+log
+@Release-5.4.4.2
+@
+text
+@@
+
+
+1.24
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 19 11:35:18 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-19">
+@
+
+
+1.23
+log
+@Release-5-4-4-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Apr 12 09:06:08 CEST 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-04-12">
+@
+
+
+1.22
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 15 11:32:38 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-15">
+@
+
+
+1.21
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Mar 08 18:42:04 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-08">
+@
+
+
+1.20
+log
+@Release-5-4-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Tue Mar 03 19:21:04 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-03-03">
+@
+
+
+1.19
+log
+@Release-5-4-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Mon Jan 05 20:55:05 CET 2009 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2009-01-05">
+@
+
+
+1.18
+log
+@documentation
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sun Nov 30 10:56:57 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-30">
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0_0) on Sat Nov 29 12:39:24 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-29">
+@
+
+
+1.16
+log
+@Release 5.3.4
+@
+text
+@@
+
+
+1.15
+log
+@Release 5.3.3.1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Nov 23 10:26:27 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-23">
+d197 1
+a197 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</TD>
+d301 1
+a301 3
+<DD><CODE>UnknownHostException</CODE> - Cannot happen.
+<DD><CODE>IOException</CODE> - If chainsaw isn't running.
+<DD><CODE>java.lang.Exception</CODE></DL>
+d319 1
+d321 1
+a321 3
+<DD><CODE>UnknownHostException</CODE> - If the host does not exist.
+<DD><CODE>IOException</CODE> - If chainsaw isn't running.
+<DD><CODE>java.lang.Exception</CODE><DT><B>See Also:</B><DD><A HREF="../../../php/java/bridge/Util.html#setLogger(php.java.bridge.ILogger)"><CODE>Util.setLogger(ILogger)</CODE></A></DL>
+d331 2
+@
+
+
+1.14
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:55 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+a101 3
+<DL>
+<DT><B>Direct Known Subclasses:</B> <DD><A HREF="../../../php/java/bridge/Log4jLogger.html" title="class in php.java.bridge">Log4jLogger</A></DD>
+</DL>
+@
+
+
+1.13
+log
+@Apache/IIS and JSR 223 integration
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Oct 26 14:59:18 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-10-26">
+d59 1
+a59 1
+&nbsp;<A HREF="../../../php/java/bridge/ConstructorCache.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+d376 1
+a376 1
+&nbsp;<A HREF="../../../php/java/bridge/ConstructorCache.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+@
+
+
+1.13.2.1
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 13:25:05 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-11-09">
+@
+
+
+1.13.2.2
+log
+@Release 5.3.3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.6.0) on Sun Nov 09 14:01:55 CET 2008 -->
+d59 1
+a59 1
+&nbsp;<A HREF="../../../php/java/bridge/DynamicClassLoader.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+d376 1
+a376 1
+&nbsp;<A HREF="../../../php/java/bridge/DynamicClassLoader.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+@
+
+
+1.12
+log
+@Release-5-2-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Sep 28 12:34:42 CEST 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-09-28">
+@
+
+
+1.11
+log
+@Release-5-2-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.7.0) on Sun Mar 16 21:41:30 CET 2008 -->
+d10 1
+a10 1
+<META NAME="date" CONTENT="2008-03-16">
+@
+
+
+1.10
+log
+@Release-4-1-1
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sat Jun 16 09:41:53 EDT 2007 -->
+d10 1
+a10 1
+<META NAME="keywords" CONTENT="php.java.bridge.ChainsawLogger class">
+d17 3
+a19 1
+    parent.document.title="ChainsawLogger";
+d28 1
+d58 2
+a59 2
+&nbsp;<A HREF="../../../php/java/bridge/BaseThreadPool.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;<A HREF="../../../php/java/bridge/ClassicParserString.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+d96 1
+a96 1
+  <IMG SRC="../../../resources/inherit.gif" ALT="extended by "><A HREF="../../../php/java/bridge/Log4jLogger.html" title="class in php.java.bridge">php.java.bridge.Log4jLogger</A>
+d102 3
+d107 1
+a107 1
+<DT><PRE>public class <B>ChainsawLogger</B><DT>extends <A HREF="../../../php/java/bridge/Log4jLogger.html" title="class in php.java.bridge">Log4jLogger</A><DT>implements <A HREF="../../../php/java/bridge/ILogger.html" title="interface in php.java.bridge">ILogger</A></DL>
+d113 2
+a114 2
+ Start chainsaw, for example by clicking on Applications ->
+ Programming -> Chainsaw or via:<blockquote><code>java -classpath
+d203 1
+a203 1
+&nbsp;<A NAME="methods_inherited_from_class_php.java.bridge.Log4jLogger"><!-- --></A>
+d206 1
+a206 1
+<TH ALIGN="left"><B>Methods inherited from class php.java.bridge.<A HREF="../../../php/java/bridge/Log4jLogger.html" title="class in php.java.bridge">Log4jLogger</A></B></TH>
+d209 1
+a209 1
+<TD><CODE><A HREF="../../../php/java/bridge/Log4jLogger.html#createLog4jLogger()">createLog4jLogger</A>, <A HREF="../../../php/java/bridge/Log4jLogger.html#log(int, java.lang.String)">log</A>, <A HREF="../../../php/java/bridge/Log4jLogger.html#printStackTrace(java.lang.Throwable)">printStackTrace</A>, <A HREF="../../../php/java/bridge/Log4jLogger.html#warn(java.lang.String)">warn</A></CODE></TD>
+d375 2
+a376 2
+&nbsp;<A HREF="../../../php/java/bridge/BaseThreadPool.html" title="class in php.java.bridge"><B>PREV CLASS</B></A>&nbsp;
+&nbsp;<A HREF="../../../php/java/bridge/ClassicParserString.html" title="class in php.java.bridge"><B>NEXT CLASS</B></A></FONT></TD>
+@
+
+
+1.9
+log
+@Release-4-0-2
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Mar 15 07:15:50 CET 2007 -->
+@
+
+
+1.8
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Feb 11 14:44:18 CET 2007 -->
+@
+
+
+1.7
+log
+@Release-3-1-8
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Sep 10 13:03:28 CEST 2006 -->
+@
+
+
+1.6
+log
+@Release-3-1-7
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Thu Aug 03 19:33:56 CEST 2006 -->
+d152 9
+@
+
+
+1.5
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 23 12:18:08 CEST 2006 -->
+@
+
+
+1.4
+log
+@Release-3-1-6
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 16 13:42:15 CEST 2006 -->
+@
+
+
+1.3
+log
+@Release-3-1-4
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jul 02 11:43:21 CEST 2006 -->
+@
+
+
+1.2
+log
+@Release-3-1-3
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 25 13:54:47 CEST 2006 -->
+@
+
+
+1.1
+log
+@Release-3-1-0
+@
+text
+@d5 1
+a5 1
+<!-- Generated by javadoc (build 1.5.0) on Sun Jun 18 11:35:44 CEST 2006 -->
+d76 1
+a76 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d78 1
+a78 1
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+d105 1
+a105 1
+A logger class which connects to chainsaw -- chainsaw is a log4j viewer.
+d108 2
+a109 2
+ Programming -> Chainsaw or via:<br> <code>java -classpath
+ /usr/share/java/log4j.jar org.apache.log4j.chainsaw.Main</code><br>
+d111 2
+a112 1
+ <code>java -classpath /usr/share/java/log4j.jar:/usr/share/java/JavaBridge.jar php.java.bridge.JavaBridge</code>
+d137 1
+a137 1
+<CODE>static&nbsp;java.lang.String</CODE></FONT></TD>
+a142 10
+</TABLE>
+&nbsp;
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
+<A NAME="constructor_summary"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="2"><FONT SIZE="+2">
+<B>Constructor Summary</B></FONT></TH>
+</TR>
+d144 3
+a146 1
+<TD><CODE><B><A HREF="../../../php/java/bridge/ChainsawLogger.html#ChainsawLogger()">ChainsawLogger</A></B>()</CODE>
+d149 1
+a149 1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Create a new chainsaw logger.</TD>
+d173 8
+d194 1
+a194 1
+<TD><CODE><A HREF="../../../php/java/bridge/Log4jLogger.html#log(int, java.lang.String)">log</A>, <A HREF="../../../php/java/bridge/Log4jLogger.html#printStackTrace(java.lang.Throwable)">printStackTrace</A>, <A HREF="../../../php/java/bridge/Log4jLogger.html#warn(java.lang.String)">warn</A></CODE></TD>
+d231 1
+a231 1
+public static final java.lang.String <B>DEFAULT_PORT</B></PRE>
+d240 2
+a241 2
+<A NAME="DEFAULT_HOST"><!-- --></A><H3>
+DEFAULT_HOST</H3>
+d243 1
+a243 1
+public static final java.lang.String <B>DEFAULT_HOST</B></PRE>
+d245 1
+a245 1
+<DD>The default cainsaw host
+a247 1
+<DT><B>See Also:</B><DD><A HREF="../../../constant-values.html#php.java.bridge.ChainsawLogger.DEFAULT_HOST">Constant Field Values</A></DL>
+d249 2
+d252 2
+a253 12
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+
+<A NAME="constructor_detail"><!-- --></A>
+<TABLE BORDER="1" WIDTH="100%" CELLPADDING="3" CELLSPACING="0" SUMMARY="">
+<TR BGCOLOR="#CCCCFF" CLASS="TableHeadingColor">
+<TH ALIGN="left" COLSPAN="1"><FONT SIZE="+2">
+<B>Constructor Detail</B></FONT></TH>
+</TR>
+</TABLE>
+
+<A NAME="ChainsawLogger()"><!-- --></A><H3>
+ChainsawLogger</H3>
+d255 1
+a255 2
+public <B>ChainsawLogger</B>()
+               throws java.lang.Exception</PRE>
+d257 1
+a257 1
+<DD>Create a new chainsaw logger.
+d260 1
+a260 5
+
+<DT><B>Throws:</B>
+<DD><CODE>UnknownHostException</CODE> - If the host does not exist.
+<DD><CODE>IOException</CODE> - If chainsaw isn't running.
+<DD><CODE>java.lang.Exception</CODE><DT><B>See Also:</B><DD><A HREF="../../../php/java/bridge/Util.html#setLogger(php.java.bridge.ILogger)"><CODE>Util.setLogger(ILogger)</CODE></A></DL>
+d296 21
+d381 1
+a381 1
+  SUMMARY:&nbsp;NESTED&nbsp;|&nbsp;<A HREF="#field_summary">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_summary">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_summary">METHOD</A></FONT></TD>
+d383 1
+a383 1
+DETAIL:&nbsp;<A HREF="#field_detail">FIELD</A>&nbsp;|&nbsp;<A HREF="#constructor_detail">CONSTR</A>&nbsp;|&nbsp;<A HREF="#method_detail">METHOD</A></FONT></TD>
+@
+

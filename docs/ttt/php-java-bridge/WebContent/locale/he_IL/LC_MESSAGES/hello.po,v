@@ -1,0 +1,26 @@
+head	1.1;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+expand	@b@;
+
+
+1.1
+date	2017.04.14.13.01.12;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Removed JavaProxy.php
+@
+text
+@msgid "hello"
+msgstr "שלום"
+@

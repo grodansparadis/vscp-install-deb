@@ -1,0 +1,925 @@
+head	1.40;
+access;
+symbols
+	Release-5-5-4-1:1.39.0.24
+	Root_Release-5-5-4-1:1.39
+	Release-5-5-4:1.39.0.22
+	Root_Release-5-5-4:1.39
+	Release-5-5-3:1.39.0.20
+	ROOT_Release-5-5-3:1.39
+	Release-5-5-2:1.39.0.18
+	Root_Release-5-5-2:1.39
+	debian_version_5_5_1-1:1.39
+	Release-5-5-1:1.39.0.14
+	upstream_version_5_5_1:1.39
+	ROOT_Release-5-5-1:1.39
+	debian_version_5_5-1:1.39
+	upstream_version_5_5:1.39
+	ROOT_Release-5-5:1.39
+	Release-5-5:1.39.0.16
+	debian_version_5_4_4_2-3:1.39
+	Release-5-4-4-2-1:1.39.0.10
+	debian_version_5_4_4_2-2:1.39
+	debian_version_5_4_4_2-1:1.39
+	upstream_version_5_4_4_2:1.39
+	debian_version_5_4_4_1-1:1.39
+	upstream_version_5_4_4_1:1.39
+	debian_version_5_4_4-1:1.39
+	upstream_version_5_4_4:1.39
+	Release-5-4-4:1.39.0.12
+	Root_Release-5-4-4:1.39
+	debian_version_5_4_3_2-1:1.39
+	upstream_version_5_4_3_2:1.39
+	Release_5-4-3-2:1.39.0.8
+	Root_Release_5-4-3-2:1.39
+	upstream_version_5_4_3_1:1.39
+	debian_version_5_4_3_1-1:1.39
+	Release-5-4-3:1.39.0.6
+	Root_Release-5-4-3:1.39
+	Root_Release-5-4-1:1.39
+	Release-5-4-1:1.39.0.4
+	Root_Release-5-4:1.39
+	Release-5-4:1.39.0.2
+	upstream_version_5_3_4:1.38
+	debian_version_5_3_4-1:1.38
+	ROOT_Release-5-3-4:1.38
+	Release-5-3-4:1.38.0.10
+	ROOT_Release-5-3-3:1.38
+	Release-5-3-3:1.38.0.6
+	debian_version_5_3_2_1_2-1:1.38
+	upstream_version_5_3_2_1_2:1.38
+	debian_version_5_3_2_1_1-1:1.38
+	debian_version_5_3_2_1_1:1.38
+	upstream_version_5_3_2_1_1:1.38
+	Root_Release-5-3-2-1:1.38
+	Release-5-3-2-1:1.38
+	ROOT_RELEASE-5-3-2-1:1.38
+	RELEASE-5-3-2-1:1.38.0.8
+	Release-5-3-2:1.38.0.4
+	Root_Release-5-3-2:1.38
+	Root_Release-5-3-1:1.38
+	Release-5-3-1:1.38.0.2
+	Release-5-2-3-1:1.37.0.36
+	Root_Release-5-2-3-1:1.37
+	Release-5-2-2-4:1.37.0.34
+	Root_Release-5-2-2-4:1.37
+	Release-5-2-2-1:1.37.0.32
+	Root_Release-5-2-2-1:1.37
+	upstream_version_5_2_2:1.37
+	debian_version_5_2_2-1:1.37
+	Release-5-2-2:1.37.0.30
+	ROOT_Release-5-2-2:1.37
+	ROOT_Release-5-2-1:1.37
+	Release-5-2-1:1.37.0.28
+	Release-5-2-0:1.37.0.26
+	ROOT_Release-5-2-0:1.37
+	ROOT_Release-5-1-2:1.37
+	Release-5-1-2:1.37.0.24
+	Version-5-1-1:1.37.0.22
+	ROOT_Version-5-1-1:1.37
+	debian_version_5_1_0-1:1.37
+	upstream_version_5_1_0:1.37
+	ROOT_Release-5-1-0:1.37
+	Release-5-1-0:1.37.0.20
+	ROOT_Release-5-0-0:1.37
+	Release-5-0-0:1.37.0.18
+	Release-4-3-3:1.37.0.16
+	ROOT_Release-4-3-3:1.37
+	upstream_version_4_3_2:1.37
+	debian_version_4_3_2-1:1.37
+	ROOT_Release-4-3-2:1.37
+	Release-4-3-2:1.37.0.14
+	Release-4-3-1:1.37.0.12
+	ROOT_Release-4-3-1:1.37
+	debian_version_4_3_0-1:1.37
+	upstream_version_4_3_0:1.37
+	ROOT_Release-4-3-0:1.37
+	Release-4-3-0:1.37.0.10
+	debian_version_3_2_1b-2:1.36
+	debian_version_4_2_2-1:1.37
+	upstream_version_4_2_2:1.37
+	debian_version_3_2_1b-1:1.36
+	upstream_version_3_2_1b:1.36
+	Release-4-1-2:1.37.0.8
+	Release-4-0-8:1.37.0.6
+	debian_version_4_0_8a-1:1.37
+	upstream_version_4_0_8a:1.37
+	jostb-debian-ubuntu-patch:1.37.0.4
+	debian_version_4_0_8-1:1.37
+	upstream_version_4_0_8:1.37
+	debian_version_4_0_7-1:1.37
+	upstream_version_4_0_7:1.37
+	debian_version_4_0_6-1:1.37
+	upstream_version_4_0_6:1.37
+	debian_version_4_0_2-1:1.37
+	upstream_version_4_0_2:1.37
+	Release-4-0-2_Root:1.37
+	Release-4-0-2:1.37.0.2
+	upstream_version_4_0_1:1.37
+	debian_version_4_0_1-2:1.37
+	Release-3-2-1:1.36.0.4
+	Release-3-1-8:1.36.0.2
+	Release-3-0-8_root:1.27
+	Release-3-0-8_Root:1.28
+	Release-3-0-8:1.27.0.2
+	Release-2-0-8:1.20.0.4
+	Release-2-0-7_Root:1.14
+	Release-2-0-7:1.14.0.2
+	Release-2-0-6-branch:1.10.0.2
+	Version-1:1.8.0.6
+	Version-2:1.8.0.4
+	Release-2:1.8.0.2
+	PHP-5:1.2.0.6
+	Release-1-0-6:1.2.0.8
+	sparc-64-test:1.2.0.2
+	V-2004-08-28:1.1.1.1
+	PHP-JAVA-BRIDGE:1.1.1;
+locks; strict;
+comment	@ * @;
+expand	@k@;
+
+
+1.40
+date	2010.02.18.17.25.32;	author jost_boekemeier;	state dead;
+branches;
+next	1.39;
+
+1.39
+date	2008.12.11.21.05.45;	author jost_boekemeier;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2008.10.03.15.48.14;	author jost_boekemeier;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2007.03.09.20.28.07;	author andremachado;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2006.09.10.17.31.11;	author jost2345;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2006.08.27.14.40.11;	author jost2345;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2006.08.21.17.41.52;	author jost2345;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2006.08.08.17.20.45;	author jost2345;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2006.07.19.15.25.34;	author jost2345;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2006.07.16.20.29.25;	author jost2345;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2006.06.26.18.43.54;	author jost2345;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2006.06.19.20.37.14;	author jost2345;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2006.04.30.17.01.55;	author jost2345;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.03.12.16.44.39;	author jost2345;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.03.10.18.41.37;	author jost2345;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.01.15.21.05.30;	author jost2345;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.12.19.19.36.40;	author jost2345;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.12.18.18.17.48;	author jost2345;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.12.08.18.41.56;	author jost2345;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.11.26.18.03.59;	author jost2345;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.09.07.21.13.45;	author jost2345;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.08.23.18.20.56;	author jost2345;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.08.21.11.39.39;	author jost2345;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.08.18.18.31.39;	author jost2345;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.08.01.16.56.55;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.07.12.15.23.09;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.06.25.12.16.09;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.06.21.20.17.30;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.06.19.20.45.40;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.06.16.16.10.41;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.03.07.19.36.51;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.02.13.21.43.28;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.01.02.14.02.10;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.11.29.16.14.33;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.11.28.21.12.57;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.11.21.14.44.55;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.11.17.18.31.08;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.11.16.23.28.17;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.08.30.17.30.44;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.08.28.06.04.56;	author jost2345;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2004.08.28.06.04.56;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.40
+log
+@Release-6-0-0
+@
+text
+@/*-*- mode: C; tab-width:4 -*-*/
+
+/** java_bridge.h -- contains utility procedures.
+
+  Copyright (C) 2003-2007 Jost Boekemeier
+
+  This file is part of the PHP/Java Bridge.
+
+  The PHP/Java Bridge ("the library") is free software; you can
+  redistribute it and/or modify it under the terms of the GNU General
+  Public License as published by the Free Software Foundation; either
+  version 2, or (at your option) any later version.
+
+  The library is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with the PHP/Java Bridge; see the file COPYING.  If not, write to the
+  Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA
+  02111-1307 USA.
+
+  Linking this file statically or dynamically with other modules is
+  making a combined work based on this library.  Thus, the terms and
+  conditions of the GNU General Public License cover the whole
+  combination.
+
+  As a special exception, the copyright holders of this library give you
+  permission to link this library with independent modules to produce an
+  executable, regardless of the license terms of these independent
+  modules, and to copy and distribute the resulting executable under
+  terms of your choice, provided that you also meet, for each linked
+  independent module, the terms and conditions of the license of that
+  module.  An independent module is a module which is not derived from
+  or based on this library.  If you modify this library, you may extend
+  this exception to your version of the library, but you are not
+  obligated to do so.  If you do not wish to do so, delete this
+  exception statement from your version. */
+
+
+#ifndef JAVA_BRIDGE_H
+#define JAVA_BRIDGE_H
+
+#include "php_java.h"
+
+#include <unistd.h>
+
+/* PHP Includes */
+#include "php_wrapper.h"
+#include "zend_compile.h"
+#include "php_ini.h"
+#include "php_globals.h"
+
+
+extern short EXT_GLOBAL (option_set_by_user) (short option, int where);
+extern void EXT_GLOBAL(update_hosts)(const char*new_value);
+extern void EXT_GLOBAL(update_servlet)(const char*new_value);
+extern void EXT_GLOBAL(update_socketname)(const char*new_value);
+extern void EXT_GLOBAL (init_cfg) (TSRMLS_D);
+extern void EXT_GLOBAL(destroy_cfg) (int);
+
+#endif
+@
+
+
+1.39
+log
+@java autostart removed
+@
+text
+@@
+
+
+1.38
+log
+@Release-5-3-1
+@
+text
+@a54 1
+#define IS_EXCEPTION 86
+a55 27
+extern void EXT_GLOBAL(result)(pval* arg, short ignoreNonJava, pval*presult TSRMLS_DC);
+extern int EXT_GLOBAL(get_jobject_from_object)(zval *object, long *obj TSRMLS_DC);
+#ifdef ZEND_ENGINE_2
+extern void EXT_GLOBAL(store_jobject)(zval *presult, long id TSRMLS_DC);
+extern zend_object_value EXT_GLOBAL(create_object)(zend_class_entry *class_type TSRMLS_DC);
+extern zend_object_value EXT_GLOBAL(create_exception_object)(zend_class_entry *class_type TSRMLS_DC);
+#endif
+extern short EXT_GLOBAL(invoke)(char*name, long object, int arg_count, zval***arguments, short ignoreNonJava, pval*presult TSRMLS_DC) ;
+enum constructor {CONSTRUCTOR_NONE, CONSTRUCTOR};
+extern short EXT_GLOBAL(call_function_handler)(INTERNAL_FUNCTION_PARAMETERS, char*name, enum constructor constructor, short createInstance, pval *object, int argc, zval***argv);
+extern short EXT_GLOBAL(set_property_handler)(char*name, zval *object, zval *value, zval *return_value);
+extern short EXT_GLOBAL(get_property_handler)(char*name, zval *object, zval *return_value);
+
+extern void EXT_GLOBAL(destructor)(zend_rsrc_list_entry *rsrc TSRMLS_DC);
+
+extern short EXT_GLOBAL(init_environment) (struct proxyenv_ *env, short (*handle_request)(proxyenv *env), short (*handle_cached)(proxyenv *env), short is_local);
+extern proxyenv *EXT_GLOBAL(createSecureEnvironment) (short (*handle_request)(proxyenv *env), short (*handle_cached)(proxyenv *env), short *is_local);
+extern proxyenv *EXT_GLOBAL(createEnvironment) (short (*handle_request)(proxyenv *env), short (*handle_cached)(proxyenv *env), short *is_local);
+
+extern void EXT_GLOBAL(redirect_pipe)(proxyenv*env);
+
+extern void EXT_GLOBAL(unlink_channel)(proxyenv*env);
+extern const char*EXT_GLOBAL(get_channel)(proxyenv*env);
+
+extern short EXT_GLOBAL (begin_async) (proxyenv*env);
+extern void EXT_GLOBAL (end_async) (proxyenv*env);
+extern void EXT_GLOBAL (setResultWith_context) (char*key, char*val, char*path);
+a56 1
+
+a59 3
+extern void EXT_GLOBAL(update_persistent_connections)(const char*new_value);
+extern void EXT_GLOBAL(update_compatibility)(const char*new_value);
+
+a60 1
+extern void EXT_GLOBAL(shutdown_library) (void);
+a61 3
+extern void EXT_GLOBAL(sys_error)(const char *str, int code);
+
+extern unsigned char EXT_GLOBAL (get_mode) (void);
+a62 1
+extern char *EXT_GLOBAL(getDefaultSessionFactory)(TSRMLS_D);
+@
+
+
+1.37
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@a98 3
+extern void EXT_GLOBAL(mktmpdir) ();
+extern void EXT_GLOBAL(rmtmpdir) ();
+
+@
+
+
+1.36
+log
+@Release-3-1-8
+@
+text
+@d5 1
+a5 1
+  Copyright (C) 2006 Jost Boekemeier
+@
+
+
+1.35
+log
+@Release-3-1-8rc
+@
+text
+@d3 1
+a3 1
+/**\file java_bridge.h -- contains utility procedures.
+@
+
+
+1.34
+log
+@Release-3-1-8devel1
+@
+text
+@d72 4
+a75 1
+extern proxyenv *EXT_GLOBAL(createSecureEnvironment) (int peer, short (*handle_request)(proxyenv *env), short (*handle_cached)(proxyenv *env), char*server, short is_local, struct sockaddr*saddr);
+a82 1
+extern void EXT_GLOBAL (check_session) (proxyenv *env TSRMLS_DC);
+@
+
+
+1.33
+log
+@Release-3-1-7
+@
+text
+@d3 37
+a39 4
+/**\file 
+ * This file contains most of the internal function
+ * prototypes. The public API is in api.h and php_java.h.
+ */
+@
+
+
+1.32
+log
+@Release-3-1-6
+@
+text
+@d3 3
+a5 5
+/**\file
+ * Mediates between php and the server.
+ *
+ * Creates the proxyenv structure and handles invoke, get/set
+ * property.
+d12 4
+a21 2
+#include "php_java.h"
+
+d45 1
+a45 1
+extern void EXT_GLOBAL (begin_async) (proxyenv*env);
+@
+
+
+1.31
+log
+@Release-3-1-6
+@
+text
+@d42 1
+a42 1
+extern void EXT_GLOBAL(destroy_channel)(proxyenv*env);
+@
+
+
+1.30
+log
+@Release-3-1-2
+@
+text
+@d40 1
+a40 1
+extern void EXT_GLOBAL(redirect)(proxyenv*env, char*redirect_port, char*channel_in, char*channel_out TSRMLS_DC);
+d42 2
+a43 2
+extern void EXT_GLOBAL(destroy_channel)(TSRMLS_D);
+extern const char*EXT_GLOBAL(get_channel)(TSRMLS_D);
+a60 1
+  
+d64 4
+@
+
+
+1.29
+log
+@Release-3-1-0
+@
+text
+@d39 1
+a39 1
+extern proxyenv *EXT_GLOBAL(createSecureEnvironment) (int peer, void (*handle_request)(proxyenv *env), void (*handle_cached)(proxyenv *env), char*server, short is_local, struct sockaddr*saddr);
+@
+
+
+1.28
+log
+@Release-3-1-0
+@
+text
+@d31 1
+a31 1
+extern void EXT_GLOBAL(invoke)(char*name, long object, int arg_count, zval**arguments, short ignoreNonJava, pval*presult TSRMLS_DC) ;
+d33 1
+a33 1
+extern void EXT_GLOBAL(call_function_handler)(INTERNAL_FUNCTION_PARAMETERS, char*name, enum constructor constructor, short createInstance, pval *object, int argc, zval**argv);
+d50 7
+@
+
+
+1.27
+log
+@Release-3.0.8pre2
+@
+text
+@a41 1
+extern void EXT_GLOBAL(init_channel)(TSRMLS_D);
+a46 1
+extern void EXT_GLOBAL (protocol_end) (proxyenv *env);
+@
+
+
+1.26
+log
+@Release-3.0.8pre2
+@
+text
+@d46 2
+@
+
+
+1.25
+log
+@Release-3.0.6
+@
+text
+@d39 1
+a39 1
+extern proxyenv *EXT_GLOBAL(createSecureEnvironment) (int peer, void (*handle_request)(proxyenv *env), char*server, short is_local, struct sockaddr*saddr);
+@
+
+
+1.24
+log
+@Release-3.0.3
+@
+text
+@d47 1
+a47 1
+extern void EXT_GLOBAL (check_context) (proxyenv *env TSRMLS_DC);
+@
+
+
+1.23
+log
+@Release-3.0.3
+@
+text
+@d40 6
+a45 1
+extern void EXT_GLOBAL(redirect)(proxyenv*env, char*redirect_port TSRMLS_DC);
+@
+
+
+1.22
+log
+@Release-3-0-2
+@
+text
+@d40 1
+@
+
+
+1.21
+log
+@Version-3.0.0pre1
+@
+text
+@d26 5
+@
+
+
+1.20
+log
+@2.0.8RC2 fixes PR1283148 and 1281189.
+@
+text
+@d3 8
+@
+
+
+1.19
+log
+@Release-2.0.8(pre4)
+@
+text
+@d34 1
+@
+
+
+1.18
+log
+@Release-2.0.8(pre3)
+@
+text
+@d30 5
+d36 1
+a36 1
+unsigned char EXT_GLOBAL (get_mode) ();
+@
+
+
+1.17
+log
+@Release-2.0.8-pre3
+@
+text
+@a27 1
+extern void EXT_GLOBAL (send_context) (proxyenv *env);
+d29 1
+@
+
+
+1.16
+log
+@Release-2.0.8(pre)
+@
+text
+@d26 1
+a26 1
+extern proxyenv *EXT_GLOBAL(createSecureEnvironment) (int peer, void (*handle_request)(proxyenv *env), char*server, short is_local);
+d29 1
+@
+
+
+1.15
+log
+@Release-2.0.8pre
+@
+text
+@d28 1
+@
+
+
+1.14
+log
+@Shut down servlet connection
+@
+text
+@d16 1
+@
+
+
+1.13
+log
+@Release-2.0.7pre
+@
+text
+@d26 1
+@
+
+
+1.12
+log
+@Release-2.0.7-pre
+@
+text
+@d25 1
+a25 1
+extern proxyenv *EXT_GLOBAL(createSecureEnvironment) (int peer, void (*handle_request)(proxyenv *env), char*server);
+@
+
+
+1.11
+log
+@Tomcat 5
+@
+text
+@d16 6
+a21 6
+extern int java_get_jobject_from_object(zval *object, long *obj TSRMLS_DC);
+extern void php_java_invoke(char*name, long object, int arg_count, zval**arguments, short ignoreNonJava, pval*presult TSRMLS_DC) ;
+enum constructor {CONSTRUCT_NONE, CONSTRUCT_JAVA, CONSTRUCT_MONO};
+extern void php_java_call_function_handler(INTERNAL_FUNCTION_PARAMETERS, char*name, enum constructor constructor, short createInstance, pval *object, int argc, zval**argv);
+extern short php_java_set_property_handler(char*name, zval *object, zval *value, zval *return_value);
+extern short php_java_get_property_handler(char*name, zval *object, zval *return_value);
+d23 5
+a27 1
+extern void php_java_destructor(zend_rsrc_list_entry *rsrc TSRMLS_DC);
+@
+
+
+1.10
+log
+@Release-2.0.1
+@
+text
+@d18 2
+a19 1
+extern void php_java_call_function_handler(INTERNAL_FUNCTION_PARAMETERS, char*name, short constructor, short createInstance, pval *object, int argc, zval**argv);
+@
+
+
+1.9
+log
+@Replaced JNI with XML protocol
+@
+text
+@d17 1
+a17 1
+extern void php_java_invoke(char*name, long object, int arg_count, zval**arguments, pval*presult TSRMLS_DC) ;
+@
+
+
+1.8
+log
+@ZTS
+@
+text
+@a12 1
+#include "protocol.h"
+d16 2
+a17 2
+extern int java_get_jobject_from_object(zval *object, jobject *obj TSRMLS_DC);
+extern void php_java_invoke(char*name, jobject object, int arg_count, zval**arguments, pval*presult TSRMLS_DC) ;
+@
+
+
+1.7
+log
+@trampoline
+@
+text
+@d17 1
+a17 1
+extern int java_get_jobject_from_object(zval *object, jobject *obj);
+d19 1
+a19 1
+extern void php_java_call_function_handler(INTERNAL_FUNCTION_PARAMETERS, char*name, short constructor, short createInstance, pval *object, int argc, zval**argv TSRMLS_DC);
+@
+
+
+1.6
+log
+@trampoline
+@
+text
+@d7 1
+a7 1
+#include "php.h"
+@
+
+
+1.5
+log
+@php 4/5
+@
+text
+@d17 2
+@
+
+
+1.4
+log
+@php 5
+@
+text
+@d17 1
+a17 1
+extern void php_java_call_function_handler(INTERNAL_FUNCTION_PARAMETERS, char*name, pval *object, int argc, zval**argv TSRMLS_DC);
+@
+
+
+1.3
+log
+@PHP 5 support
+@
+text
+@d18 2
+a19 2
+extern int php_java_set_property_handler(char*name, pval *object, pval *value);
+extern pval php_java_get_property_handler(char*name, pval *object);
+@
+
+
+1.2
+log
+@bugfixes for apache 1.3.x
+@
+text
+@d17 3
+a19 3
+extern void php_java_call_function_handler(INTERNAL_FUNCTION_PARAMETERS, zend_property_reference *property_reference);
+extern pval php_java_get_property_handler(zend_property_reference *property_reference);
+extern int php_java_set_property_handler(zend_property_reference *property_reference, pval *value);
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@a16 1
+
+@
+
+
+1.1.1.1
+log
+@Initial
+@
+text
+@@

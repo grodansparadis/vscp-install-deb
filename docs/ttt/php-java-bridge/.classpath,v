@@ -1,0 +1,801 @@
+head	1.11;
+access;
+symbols
+	Release-7-1-1:1.7.0.2
+	Root_Release-7-1-1:1.7
+	Root_Release_7-0-1:1.3
+	Release_7-0-1:1.3.0.6
+	Release_7-0-0:1.3.0.4
+	Root_Release_7-0-0:1.3
+	Release-6-2-2:1.3.0.2
+	Release-6-1-2-3:1.1
+	Root_Release-6-1-2-3:1.1
+	Release-6-1-2-2:1.1.0.56
+	Root_Release-6-1-2-2:1.1
+	debian_version_6_1_2_1-1:1.1
+	upstream_version_6_1_2_1:1.1
+	Release-6-1-2-1_new:1.1.0.54
+	Root_Release-6-1-2-1_new:1.1
+	Release-6-1-2-1:1.1.0.52
+	Root_Release-6-1-2-1:1.1
+	upstream_version_6_1_2:1.1
+	debian_version_6_1_2-1:1.1
+	Release-6-1-2:1.1.0.50
+	Root_Release-6-1-2:1.1
+	debian_version_6_1_1-2:1.1
+	debian_version_6_1_1-1:1.1
+	upstream_version_6_1_1:1.1
+	Release-6-1-1:1.1.0.48
+	Root_Release-6-1-1:1.1
+	Release-6-0-4:1.1.0.46
+	Root_Release-6-0-4:1.1
+	Release-6-0-3_NEW:1.1.0.42
+	Root_Release-6-0-3_NEW:1.1
+	Release-6-0-3:1.1.0.44
+	Root_Release-6-0-3:1.1
+	Release-6-0-0:1.1.0.40
+	Root_Release-6-0-0:1.1
+	Release-5-5-4-1:1.1.0.38
+	Root_Release-5-5-4-1:1.1
+	Release-5-5-4:1.1.0.36
+	Root_Release-5-5-4:1.1
+	Release-5-5-3:1.1.0.34
+	ROOT_Release-5-5-3:1.1
+	Release-5-5-2:1.1.0.32
+	Root_Release-5-5-2:1.1
+	debian_version_5_5_1-1:1.1
+	Release-5-5-1:1.1.0.28
+	upstream_version_5_5_1:1.1
+	ROOT_Release-5-5-1:1.1
+	debian_version_5_5-1:1.1
+	upstream_version_5_5:1.1
+	ROOT_Release-5-5:1.1
+	Release-5-5:1.1.0.30
+	debian_version_5_4_4_2-3:1.1
+	Release-5-4-4-2-1:1.1.0.24
+	debian_version_5_4_4_2-2:1.1
+	debian_version_5_4_4_2-1:1.1
+	upstream_version_5_4_4_2:1.1
+	debian_version_5_4_4_1-1:1.1
+	upstream_version_5_4_4_1:1.1
+	debian_version_5_4_4-1:1.1
+	upstream_version_5_4_4:1.1
+	Release-5-4-4:1.1.0.26
+	Root_Release-5-4-4:1.1
+	debian_version_5_4_3_2-1:1.1
+	upstream_version_5_4_3_2:1.1
+	Release_5-4-3-2:1.1.0.22
+	Root_Release_5-4-3-2:1.1
+	upstream_version_5_4_3_1:1.1
+	debian_version_5_4_3_1-1:1.1
+	Release-5-4-3:1.1.0.20
+	Root_Release-5-4-3:1.1
+	Root_Release-5-4-1:1.1
+	Release-5-4-1:1.1.0.18
+	Root_Release-5-4:1.1
+	Release-5-4:1.1.0.16
+	upstream_version_5_3_4:1.1
+	debian_version_5_3_4-1:1.1
+	ROOT_Release-5-3-4:1.1
+	Release-5-3-4:1.1.0.14
+	ROOT_Release-5-3-3:1.1
+	Release-5-3-3:1.1.0.10
+	debian_version_5_3_2_1_2-1:1.1
+	upstream_version_5_3_2_1_2:1.1
+	debian_version_5_3_2_1_1-1:1.1
+	debian_version_5_3_2_1_1:1.1
+	upstream_version_5_3_2_1_1:1.1
+	Root_Release-5-3-2-1:1.1
+	Release-5-3-2-1:1.1
+	ROOT_RELEASE-5-3-2-1:1.1
+	RELEASE-5-3-2-1:1.1.0.12
+	Release-5-3-2:1.1.0.8
+	Root_Release-5-3-2:1.1
+	Root_Release-5-3-1:1.1
+	Release-5-3-1:1.1.0.6
+	Release-5-2-3-1:1.1.0.4
+	Root_Release-5-2-3-1:1.1
+	Release-5-2-2-4:1.1.0.2
+	Root_Release-5-2-2-4:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.11
+date	2017.04.15.17.40.02;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2017.04.14.21.29.00;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2017.04.14.16.03.25;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2017.04.14.13.01.13;	author jost_boekemeier;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2017.04.09.13.58.34;	author jost_boekemeier;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2017.03.19.16.15.49;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2017.03.12.21.30.49;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2017.03.11.13.37.50;	author jost_boekemeier;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2010.07.03.17.53.04;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2010.05.31.19.58.24;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2008.09.24.22.26.41;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@Release-7.1.2
+@
+text
+@<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="server"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/com.ibm.icu_56.1.0.v201601250100.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/com.lowagie.text_2.1.7.v201004222200.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/flute.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/javax.wsdl_1.5.1.v201012040544.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/javax.xml_1.3.4.v201005080400.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/javax.xml.stream_1.0.1.v201004272200.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/net.sourceforge.lpg.lpgjavaruntime_1.1.0.v201004271650.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.bridge_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.css_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.dom_1.6.1.v201505192100.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.dom.svg_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.ext.awt_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.parser_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.pdf_1.6.0.v201105071520.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.svggen_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.transcoder_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.util_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.util.gui_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.batik.xml_1.6.0.v201011041432.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.commons.codec_1.6.0.v201305230611.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.commons.logging_1.1.1.v201101211721.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.derby_10.11.1.1_v201605202053.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.lucene.core_3.5.0.v20120725-1805.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.poi_3.9.0.v201405241750.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.xerces_2.9.0.v201101211617.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.xml.resolver_1.2.0.v201005080400.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.apache.xml.serializer_2.7.1.v201005080400.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.birt.runtime_4.6.0-20160607.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.core.contenttype_3.5.100.v20160418-1621.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.core.expressions_3.5.100.v20160418-1621.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.core.filesystem_1.6.0.v20160503-1608.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.core.jobs_3.8.0.v20160509-0411.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.core.resources_3.11.0.v20160503-1608.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.core.runtime_3.12.0.v20160606-1342.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity_1.13.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.apache.derby_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.apache.derby.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.console.profile_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.db.generic_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.dbdefinition.genericJDBC_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.oda_3.5.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.oda.consumer_3.3.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.oda.design_3.4.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.oda.flatfile_3.2.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.oda.profile_3.3.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.connectivity.sqm.core_1.3.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.hsqldb_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.hsqldb.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm.db2_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm.db2.iseries_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm.db2.iseries.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm.db2.luw_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm.db2.luw.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm.db2.zseries_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm.db2.zseries.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm.informix_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.ibm.informix.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.msft.sqlserver_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.msft.sqlserver.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.mysql_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.mysql.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.oda.ws_1.3.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.oda.xml_1.3.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.oracle_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.oracle.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.postgresql_1.2.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.postgresql.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.sap.maxdb_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.enablement.sap.maxdb.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.modelbase.dbdefinition_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.modelbase.derby_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.modelbase.sql_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.modelbase.sql.query_1.2.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.sqltools.data.core_1.3.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.sqltools.parsers.sql_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.sqltools.parsers.sql.lexer_1.1.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.sqltools.parsers.sql.query_1.3.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.datatools.sqltools.result_1.2.0.201603142002.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.emf.common_2.12.0.v20160420-0247.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.emf.ecore_2.12.0.v20160420-0247.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.emf.ecore.change_2.11.0.v20160420-0247.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.emf.ecore.xmi_2.12.0.v20160420-0247.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.equinox.app_1.3.400.v20150715-1528.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.equinox.common_3.8.0.v20160509-1230.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.equinox.preferences_3.6.0.v20160120-1756.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.equinox.registry_3.6.100.v20160223-2218.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.help_3.7.0.v20160602-1307.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.orbit.mongodb_2.10.1.v20130422-1135.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.osgi_3.11.0.v20160603-1336.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.osgi.services_3.5.100.v20160504-1419.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.eclipse.update.configurator_3.3.400.v20160506-0750.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.mozilla.javascript_1.7.5.v201504281450.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.w3c.css.sac_1.3.1.v200903091627.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.w3c.dom.events_3.0.0.draft20060413_v201105210656.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.w3c.dom.smil_1.0.1.v200903091627.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/eclipse.birt.lib/org.w3c.dom.svg_1.1.0.v201011041433.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/birtEngine.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/numberGuess.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="unsupported/servlet-api.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.nondependency" value=""/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
+@
+
+
+1.10
+log
+@refactoring
+@
+text
+@d4 5
+a8 1
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+d512 5
+a516 1
+	<classpathentry kind="lib" path="unsupported/servlet-api.jar"/>
+@
+
+
+1.9
+log
+@Update birt lib to 4.6.0
+Removed obsolete files
+@
+text
+@d508 1
+@
+
+
+1.8
+log
+@Removed JavaProxy.php
+@
+text
+@a3 4
+	<classpathentry kind="lib" path="unsupported/itext.jar"/>
+	<classpathentry kind="lib" path="unsupported/log4j.jar"/>
+	<classpathentry kind="lib" path="unsupported/poi.jar"/>
+	<classpathentry kind="lib" path="unsupported/servlet-api.jar"/>
+a4 1
+	<classpathentry kind="lib" path="unsupported/mockito-all-1.10.19.jar"/>
+d13 495
+a507 2
+	<classpathentry kind="lib" path="unsupported/numberGuess.jar"/>
+	<classpathentry kind="lib" path="unsupported/birtEngine.jar"/>
+@
+
+
+1.7
+log
+@Release-7.1.1
+@
+text
+@a9 1
+	<classpathentry kind="lib" path="examples/php+jsp/numberGuess.jar"/>
+d18 2
+@
+
+
+1.6
+log
+@Temporarily disabled non-working tests
+@
+text
+@a3 1
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+d11 8
+@
+
+
+1.5
+log
+@TestCGI + Mockito added
+@
+text
+@d11 1
+@
+
+
+1.4
+log
+@Renamed PHP_FCGI_CHILDREN to PHP_JAVA_BRIDGE_FCGI_CHILDREN to avoid PHP7 spawning PHP_FCGI_CHILDREN  childs by itself
+@
+text
+@d10 1
+@
+
+
+1.3
+log
+@Release-6-2-1
+@
+text
+@d9 1
+a9 1
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/3"/>
+@
+
+
+1.2
+log
+@Release-6-2-1
+@
+text
+@d9 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a6 1
+	<classpathentry kind="lib" path="unsupported/lucene.jar"/>
+@
+

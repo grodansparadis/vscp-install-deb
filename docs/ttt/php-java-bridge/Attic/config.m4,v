@@ -1,0 +1,1429 @@
+head	1.51;
+access;
+symbols
+	Release-5-5-4-1:1.50.0.10
+	Root_Release-5-5-4-1:1.50
+	Release-5-5-4:1.50.0.8
+	Root_Release-5-5-4:1.50
+	Release-5-5-3:1.50.0.6
+	ROOT_Release-5-5-3:1.50
+	Release-5-5-2:1.50.0.4
+	Root_Release-5-5-2:1.50
+	debian_version_5_5_1-1:1.50
+	Release-5-5-1:1.50.0.2
+	upstream_version_5_5_1:1.50
+	ROOT_Release-5-5-1:1.50
+	debian_version_5_5-1:1.49
+	upstream_version_5_5:1.49
+	ROOT_Release-5-5:1.49
+	Release-5-5:1.49.0.16
+	debian_version_5_4_4_2-3:1.49
+	Release-5-4-4-2-1:1.49.0.10
+	debian_version_5_4_4_2-2:1.49
+	debian_version_5_4_4_2-1:1.49
+	upstream_version_5_4_4_2:1.49
+	debian_version_5_4_4_1-1:1.49
+	upstream_version_5_4_4_1:1.49
+	debian_version_5_4_4-1:1.49
+	upstream_version_5_4_4:1.49
+	Release-5-4-4:1.49.0.12
+	Root_Release-5-4-4:1.49
+	debian_version_5_4_3_2-1:1.49
+	upstream_version_5_4_3_2:1.49
+	Release_5-4-3-2:1.49.0.8
+	Root_Release_5-4-3-2:1.49
+	upstream_version_5_4_3_1:1.49
+	debian_version_5_4_3_1-1:1.49
+	Release-5-4-3:1.49.0.6
+	Root_Release-5-4-3:1.49
+	Root_Release-5-4-1:1.49
+	Release-5-4-1:1.49.0.4
+	Root_Release-5-4:1.49
+	Release-5-4:1.49.0.2
+	upstream_version_5_3_4:1.48
+	debian_version_5_3_4-1:1.48
+	ROOT_Release-5-3-4:1.48
+	Release-5-3-4:1.48.0.2
+	ROOT_Release-5-3-3:1.46
+	Release-5-3-3:1.46.0.28
+	debian_version_5_3_2_1_2-1:1.46
+	upstream_version_5_3_2_1_2:1.46
+	debian_version_5_3_2_1_1-1:1.46
+	debian_version_5_3_2_1_1:1.46
+	upstream_version_5_3_2_1_1:1.46
+	Root_Release-5-3-2-1:1.46
+	Release-5-3-2-1:1.46
+	ROOT_RELEASE-5-3-2-1:1.46
+	RELEASE-5-3-2-1:1.46.0.30
+	Release-5-3-2:1.46.0.26
+	Root_Release-5-3-2:1.46
+	Root_Release-5-3-1:1.46
+	Release-5-3-1:1.46.0.24
+	Release-5-2-3-1:1.46.0.22
+	Root_Release-5-2-3-1:1.46
+	Release-5-2-2-4:1.46.0.20
+	Root_Release-5-2-2-4:1.46
+	Release-5-2-2-1:1.46.0.18
+	Root_Release-5-2-2-1:1.46
+	upstream_version_5_2_2:1.46
+	debian_version_5_2_2-1:1.46
+	Release-5-2-2:1.46.0.16
+	ROOT_Release-5-2-2:1.46
+	ROOT_Release-5-2-1:1.46
+	Release-5-2-1:1.46.0.14
+	Release-5-2-0:1.46.0.12
+	ROOT_Release-5-2-0:1.46
+	ROOT_Release-5-1-2:1.46
+	Release-5-1-2:1.46.0.10
+	Version-5-1-1:1.46.0.8
+	ROOT_Version-5-1-1:1.46
+	debian_version_5_1_0-1:1.46
+	upstream_version_5_1_0:1.46
+	ROOT_Release-5-1-0:1.46
+	Release-5-1-0:1.46.0.6
+	ROOT_Release-5-0-0:1.46
+	Release-5-0-0:1.46.0.4
+	Release-4-3-3:1.46.0.2
+	ROOT_Release-4-3-3:1.46
+	upstream_version_4_3_2:1.45
+	debian_version_4_3_2-1:1.45
+	ROOT_Release-4-3-2:1.45
+	Release-4-3-2:1.45.0.4
+	Release-4-3-1:1.45.0.2
+	ROOT_Release-4-3-1:1.45
+	debian_version_4_3_0-1:1.44
+	upstream_version_4_3_0:1.44
+	ROOT_Release-4-3-0:1.44
+	Release-4-3-0:1.44.0.2
+	debian_version_3_2_1b-2:1.41
+	debian_version_4_2_2-1:1.43
+	upstream_version_4_2_2:1.43
+	debian_version_3_2_1b-1:1.41
+	upstream_version_3_2_1b:1.41
+	Release-4-1-2:1.42.0.8
+	Release-4-0-8:1.42.0.6
+	debian_version_4_0_8a-1:1.42
+	upstream_version_4_0_8a:1.42
+	jostb-debian-ubuntu-patch:1.42.0.4
+	debian_version_4_0_8-1:1.42
+	upstream_version_4_0_8:1.42
+	debian_version_4_0_7-1:1.42
+	upstream_version_4_0_7:1.42
+	debian_version_4_0_6-1:1.42
+	upstream_version_4_0_6:1.42
+	debian_version_4_0_2-1:1.42
+	upstream_version_4_0_2:1.42
+	Release-4-0-2_Root:1.42
+	Release-4-0-2:1.42.0.2
+	upstream_version_4_0_1:1.41
+	debian_version_4_0_1-2:1.41
+	Release-3-2-1:1.41.0.4
+	Release-3-1-8:1.41.0.2
+	Release-3-0-8_root:1.31.2.1
+	Release-3-0-8_Root:1.35
+	Release-3-0-8:1.31.0.2
+	Release-2-0-8:1.23.0.4
+	Release-2-0-7_Root:1.21
+	Release-2-0-7:1.21.0.2
+	Release-2-0-6-branch:1.18.0.2
+	Version-1:1.15.0.6
+	Version-2:1.15.0.4
+	Release-2:1.15.0.2
+	PHP-5:1.8.0.4
+	Release-1-0-6:1.8.0.6
+	sparc-64-test:1.1.1.1.0.2
+	V-2004-08-28:1.1.1.1
+	PHP-JAVA-BRIDGE:1.1.1;
+locks; strict;
+comment	@# @;
+expand	@k@;
+
+
+1.51
+date	2010.02.18.17.25.32;	author jost_boekemeier;	state dead;
+branches;
+next	1.50;
+
+1.50
+date	2009.08.22.16.43.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2008.12.11.21.05.45;	author jost_boekemeier;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2008.11.30.17.08.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2007.12.28.13.56.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2007.12.02.18.05.07;	author jost_boekemeier;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2007.09.30.16.07.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2007.07.09.14.35.06;	author jost_boekemeier;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2007.03.19.13.03.16;	author jost_boekemeier;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2006.08.27.14.40.11;	author jost2345;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2006.08.08.17.20.45;	author jost2345;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2006.07.19.15.25.34;	author jost2345;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2006.07.16.20.29.25;	author jost2345;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2006.06.21.19.53.09;	author jost2345;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2006.06.19.20.37.14;	author jost2345;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2006.04.28.18.15.02;	author jost2345;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2006.04.26.19.09.31;	author jost2345;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2006.04.20.17.16.08;	author jost2345;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2006.04.12.17.46.46;	author jost2345;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2006.03.01.19.31.38;	author jost2345;	state Exp;
+branches
+	1.31.2.1;
+next	1.30;
+
+1.30
+date	2006.02.20.19.09.18;	author jost2345;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2006.02.18.15.42.48;	author jost2345;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2006.02.13.18.34.16;	author jost2345;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.01.30.19.39.53;	author jost2345;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.12.08.18.41.56;	author jost2345;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.11.17.17.24.19;	author jost2345;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.11.05.13.11.19;	author jost2345;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.09.13.16.46.47;	author jost2345;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.09.01.20.58.24;	author jost2345;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.07.08.17.57.22;	author jost2345;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.06.19.20.45.40;	author jost2345;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.06.15.15.18.02;	author jost2345;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.03.27.15.45.45;	author jost2345;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.03.13.13.23.13;	author jost2345;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.02.13.21.43.28;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.02.03.16.56.07;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.01.29.10.09.33;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.01.28.16.32.52;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.01.03.19.50.43;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.01.02.20.46.36;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.12.20.20.04.43;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.12.12.09.57.25;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.10.24.10.58.47;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.10.23.15.57.36;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.10.20.16.16.10;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.10.19.17.28.31;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.10.18.15.39.09;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.10.14.16.32.12;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.10.14.12.52.39;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.08.28.06.05.15;	author jost2345;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2004.08.28.06.05.15;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.31.2.1
+date	2006.04.23.19.09.08;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.51
+log
+@Release-6-0-0
+@
+text
+@m4_include(tests.m4/function_checks.m4)
+m4_include(tests.m4/threads.m4)
+m4_include(tests.m4/java_check_broken_stdio_buffering.m4)
+m4_include(tests.m4/java_check_struct_ucred.m4)
+m4_include(tests.m4/java_check_abstract_namespace.m4)
+m4_include(tests.m4/java_check_jni.m4)
+
+AC_ARG_WITH(java,  [  --with-java[[=JAVA_HOME,[JRE_HOME]]] 
+                          include java support. If JRE_HOME is specified, 
+                          the run-time java location will be compiled into 
+                          the binary. Otherwise the java executable will 
+                          be searched using the PATH environment variable
+                          Example: --with-java=/opt/jdk1.6/bin/java,/usr/java/default], PHP_JAVA="$withval", PHP_JAVA="no")
+AC_ARG_WITH(mono,  [  --with-mono[[=/path/to/mono/exe,[/path/to/dir-containing-ikvmc.exe+dlls]]] 
+                          include mono support
+                          Example: --with-mono=/opt/mono/bin/mono], PHP_MONO="$withval", PHP_MONO="no")
+PHP_ARG_ENABLE(servlet, for java servlet support, [  --enable-servlet[[=JAR]]
+                          include java servlet support. JAR must be the 
+                          location of j2ee.jar or servlet.jar; creates 
+                          JavaBridge.war])
+PHP_ARG_ENABLE(script, for java script support, [  --enable-script[[=JAR]] 
+                          include java script support. If you use a 
+                          JDK < 1.6 JAR must be the location of 
+                          script-api.jar; creates php-script.jar])
+AC_ARG_ENABLE(backend, [  --disable-backend] 
+                          do not create the JavaBridge.jar back-end, PHP_BACKEND="$enableval", PHP_BACKEND="yes")
+
+if test "$PHP_JAVA" = "no" && test "$PHP_MONO" = "no"; then
+PHP_JAVA="yes"
+fi
+
+if test "$PHP_JAVA" != "no" || test "$PHP_MONO" != "no"  ; then
+       JAVA_FUNCTION_CHECKS
+       PTHREADS_CHECK
+       PTHREADS_ASSIGN_VARS
+       PTHREADS_FLAGS
+       JAVA_CHECK_BROKEN_STDIO_BUFFERING
+       JAVA_CHECK_ABSTRACT_NAMESPACE
+       JAVA_CHECK_STRUCT_UCRED
+       AC_CHECK_FUNCS(mkdtemp poll)
+
+# find includes eg. -I/opt/jdk1.4/include -I/opt/jdk1.4/include/linux
+        if test "$PHP_JAVA" != "yes"; then
+         # --with-java=/opt/compiletime/jdk,/usr/runtime/jre
+         PHP_JRE="`echo $PHP_JAVA | LANG=C awk -F, '{print $2}'`"
+         PHP_JAVA="`echo $PHP_JAVA | LANG=C awk -F, '{print $1}'`"
+
+	 JAVA_INCLUDES=`for i in \`find $PHP_JAVA/include -follow -type d -print\`; do echo -n "-I$i "; done`
+	 PHP_EVAL_INCLINE($JAVA_INCLUDES)
+	AC_CHECK_PROG(have_ar, ar, "yes", "no")
+ 	 JAVA_CHECK_JNI
+         AC_CHECK_PROG(have_gcj, gcj, "yes", "no")
+         COND_GCJ=1
+         if test X$PHP_JRE != X || test $jb_cv_have_jni = no || test $have_gcj = no; then
+	   COND_GCJ=0
+         fi
+	else
+	 AC_CHECK_PROG(have_ar, ar, "yes", "no")
+	 JAVA_CHECK_JNI
+	 COND_GCJ=1
+	fi
+
+## JAVA 
+       	if test "$PHP_JAVA" != "no";then 
+# create java.so, compile with -DEXTENSION_DIR="\"$(EXTENSION_DIR)\""
+	PHP_NEW_EXTENSION(java, java.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+          EXTENSION_NAME=JAVA
+	  if test X$PHP_JRE = X; then
+		  PHP_JAVA_BIN="java"
+	  else
+		  PHP_JAVA_BIN="${PHP_JRE}/bin/java"
+          fi
+	  if test "$jb_cv_have_jni" = "yes"; then
+            JAVA_SOCKETNAME="/var/run/.php-java-bridge_socket"
+          else
+            JAVA_SOCKETNAME="9267"
+          fi
+# create init_cfg.c from the template (same as AC_CONFIG_FILES)
+# note: PHP_JAVA is JRE_HOME, PHP_JAVA_SDK is JAVA_HOME and 
+# PHP_JAVA_BIN is ${JRE_HOME}/bin/java
+	BRIDGE_VERSION="`cat $ext_builddir/VERSION`"
+        for i in init_cfg.c init_cfg.h install.sh; do 
+	  sed "s*@@PHP_JAVA@@*${PHP_JRE}*
+	     s*@@JAVA_SOCKETNAME@@*${JAVA_SOCKETNAME}*
+	     s*@@PHP_JAVA_SDK@@*${PHP_JAVA}*
+	     s*@@COND_GCJ@@*${COND_GCJ}*
+             s*@@PHP_JAVA_BIN@@*${PHP_JAVA_BIN}*
+             s*@@EXTENSION@@*${EXTENSION_NAME}*
+             s*@@BRIDGE_VERSION@@*${BRIDGE_VERSION}*" \
+            <$ext_builddir/${i}.in >$ext_builddir/${i}
+        done
+        fi
+
+PHP_ADD_MAKEFILE_FRAGMENT
+if test "$PHP_BACKEND" = "yes" ; then
+# bootstrap the server's configure script
+	if test -d ext/java/server; then
+	    AC_CONFIG_SUBDIRS(ext/java/server)
+        else
+	    AC_CONFIG_SUBDIRS(server)
+        fi
+        for i in ${ext_builddir}/server/configure.gnu ${ext_builddir}/security/php-java-bridge.fc ${ext_builddir}/security/module/php-java-bridge.fc ${ext_builddir}/security/module/php-java-bridge-tomcat.fc ${ext_builddir}/security/update_policy.sh; do
+          sed "s*@@EXTENSION_DIR@@*${EXTENSION_DIR}*
+               s*@@phplibdir@@*`pwd`/modules*" \
+            <${i}.in >${i}
+        done
+
+# an artificial target so that the server/ part gets compiled
+	PHP_SUBST(JAVA_SHARED_LIBADD)
+	PHP_MODULES="$PHP_MODULES \$(phplibdir)/stamp"
+fi
+
+fi
+@
+
+
+1.50
+log
+@Release-5-5-1
+@
+text
+@@
+
+
+1.49
+log
+@java autostart removed
+@
+text
+@a93 32
+## MONO
+        if test "$PHP_MONO" != "no";then 
+# create mono.so, compile with -DEXTENSION_DIR="\"$(EXTENSION_DIR)\""
+         # --with-mono=/path/to/mono.exe,/path/to/ikvmc/dir
+         PHP_JRE="`echo $PHP_MONO | LANG=C awk -F, '{print $1}'`"
+
+	PHP_NEW_EXTENSION(mono, mono_dir/java.c mono_dir/init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\" -Imono_dir])
+          EXTENSION_NAME=MONO
+	  if test "X$PHP_JRE" = "X" || test "X$PHP_JRE" = "Xyes"; then
+		  PHP_JAVA_BIN="mono"
+	  else
+		  PHP_JAVA_BIN="${PHP_JRE}"
+          fi
+	  COND_GCJ=0
+          PHP_JRE=${EXTENSION_DIR} # home dir
+# create init_cfg.c from the template (same as AC_CONFIG_FILES)
+# note: PHP_JAVA is JRE_HOME, PHP_JAVA_SDK is JAVA_HOME and 
+# PHP_JAVA_BIN is ${JRE_HOME}/bin/java
+        mkdir $ext_builddir/mono_dir 2>/dev/null
+	BRIDGE_VERSION="`cat $ext_builddir/VERSION`"
+        for i in init_cfg.c init_cfg.h; do 
+	  sed "s*@@PHP_JAVA@@*${PHP_JRE}*
+	     s*@@PHP_JAVA_SDK@@*${PHP_JAVA}*
+	     s*@@COND_GCJ@@*${COND_GCJ}*
+             s*@@PHP_JAVA_BIN@@*${PHP_JAVA_BIN}*
+             s*@@EXTENSION@@*${EXTENSION_NAME}*
+             s*@@BRIDGE_VERSION@@*${BRIDGE_VERSION}*" \
+            <$ext_builddir/${i}.in >$ext_builddir/mono_dir/${i}
+        done
+        ln java.c php_java.h php_wrapper.h mono_dir
+        fi
+
+@
+
+
+1.48
+log
+@Release 5.3.4
+@
+text
+@d66 1
+a66 1
+	PHP_NEW_EXTENSION(java, java.c parser.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+d100 1
+a100 1
+	PHP_NEW_EXTENSION(mono, mono_dir/java.c mono_dir/bind.c mono_dir/init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\" -Imono_dir])
+d123 1
+a123 1
+        ln java.c bind.c php_java.h php_wrapper.h mono_dir
+@
+
+
+1.47
+log
+@Release 5.3.3.1
+@
+text
+@a5 1
+m4_include(tests.m4/java_check_broken_gcc_installation.m4)
+d54 1
+a54 1
+         if test X$PHP_JRE != X || test $have_jni = no || test $have_gcj = no; then
+d73 1
+a73 1
+	  if test "$have_jni" = "yes"; then
+a125 7
+
+       JAVA_CHECK_BROKEN_GCC_INSTALLATION
+       if test "$have_broken_gcc_installation" = "yes"; then
+         AC_MSG_WARN([Your GCC installation may be broken. It uses two different static libraries but only one dynamic library for -m32 and -m64 builds.])
+	  sleep 10
+       fi
+
+@
+
+
+1.46
+log
+@Release-4-3-3
+@
+text
+@d67 1
+a67 1
+	PHP_NEW_EXTENSION(java, java.c parser.c bind.c init_cfg.c java_inc.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+d101 1
+a101 1
+	PHP_NEW_EXTENSION(mono, mono_dir/java.c mono_dir/bind.c mono_dir/init_cfg.c mono_inc.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\" -Imono_dir])
+@
+
+
+1.45
+log
+@Release-4-3-1
+@
+text
+@d67 1
+a67 1
+	PHP_NEW_EXTENSION(java, php_java_snprintf.c php_java_strtod.c java.c api.c java_bridge.c client.c parser.c sio.c protocol.c secure_protocol.c bind.c init_cfg.c java_inc.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+@
+
+
+1.44
+log
+@Release-4-3-0
+@
+text
+@d29 4
+d64 31
+a126 30
+## JAVA 
+       	if test "$PHP_JAVA" != "no";then 
+# create java.so, compile with -DEXTENSION_DIR="\"$(EXTENSION_DIR)\""
+	PHP_NEW_EXTENSION(java, php_java_snprintf.c php_java_strtod.c java.c api.c java_bridge.c client.c parser.c sio.c protocol.c secure_protocol.c bind.c init_cfg.c java_inc.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+          EXTENSION_NAME=JAVA
+	  if test X$PHP_JRE = X; then
+		  PHP_JAVA_BIN="java"
+	  else
+		  PHP_JAVA_BIN="${PHP_JRE}/bin/java"
+          fi
+	  if test "$have_jni" = "yes"; then
+            JAVA_SOCKETNAME="/var/run/.php-java-bridge_socket"
+          else
+            JAVA_SOCKETNAME="9267"
+          fi
+# create init_cfg.c from the template (same as AC_CONFIG_FILES)
+# note: PHP_JAVA is JRE_HOME, PHP_JAVA_SDK is JAVA_HOME and 
+# PHP_JAVA_BIN is ${JRE_HOME}/bin/java
+	BRIDGE_VERSION="`cat $ext_builddir/VERSION`"
+        for i in init_cfg.c init_cfg.h install.sh; do 
+	  sed "s*@@PHP_JAVA@@*${PHP_JRE}*
+	     s*@@JAVA_SOCKETNAME@@*${JAVA_SOCKETNAME}*
+	     s*@@PHP_JAVA_SDK@@*${PHP_JAVA}*
+	     s*@@COND_GCJ@@*${COND_GCJ}*
+             s*@@PHP_JAVA_BIN@@*${PHP_JAVA_BIN}*
+             s*@@EXTENSION@@*${EXTENSION_NAME}*
+             s*@@BRIDGE_VERSION@@*${BRIDGE_VERSION}*" \
+            <$ext_builddir/${i}.in >$ext_builddir/${i}
+        done
+        fi
+d134 1
+a148 1
+	PHP_ADD_MAKEFILE_FRAGMENT
+@
+
+
+1.43
+log
+@Release-4-1-8
+@
+text
+@d9 1
+a9 2
+PHP_ARG_WITH(java, for java support,
+[  --with-java[[=JAVA_HOME[[,JRE_HOME]]]] 
+d14 1
+a14 1
+                          Example: --with-java=/opt/jdk1.4,/usr/java/jre1.6])
+a28 1
+
+d60 1
+d66 1
+a66 1
+	PHP_NEW_EXTENSION(mono, php_java_snprintf.c java.c api.c java_bridge.c client.c parser.c sio.c protocol.c secure_protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+d78 1
+d87 1
+a87 1
+            <$ext_builddir/${i}.in >$ext_builddir/${i}
+d89 5
+a93 1
+        else 
+@
+
+
+1.42
+log
+@Release-4-0-2
+@
+text
+@d91 1
+a91 1
+	PHP_NEW_EXTENSION(java, php_java_snprintf.c php_java_strtod.c java.c api.c java_bridge.c client.c parser.c sio.c protocol.c secure_protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+@
+
+
+1.41
+log
+@Release-3-1-8rc
+@
+text
+@a26 4
+PHP_ARG_ENABLE(faces, for java server faces support, [  --enable-faces[[=JAR]]
+                          include java server faces support. JAR must be 
+                          the location of jsf-api.jar; creates 
+                          php-faces.jar])
+@
+
+
+1.40
+log
+@Release-3-1-7
+@
+text
+@d71 1
+a71 1
+	PHP_NEW_EXTENSION(mono, php_java_snprintf.c java.c api.c java_bridge.c client.c parser.c sio.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+d95 1
+a95 1
+	PHP_NEW_EXTENSION(java, php_java_snprintf.c php_java_strtod.c java.c api.c java_bridge.c client.c parser.c sio.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+@
+
+
+1.39
+log
+@Release-3-1-6
+@
+text
+@d43 1
+a43 1
+       AC_CHECK_FUNCS(mkdtemp)
+d55 5
+a59 1
+	 COND_GCJ=0
+d71 1
+a71 1
+	PHP_NEW_EXTENSION(mono, php_java_snprintf.c java.c api.c java_bridge.c client.c parser.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+d73 1
+a73 1
+	  if test X$PHP_JRE = X; then
+d95 1
+a95 1
+	PHP_NEW_EXTENSION(java, php_java_snprintf.c php_java_strtod.c java.c api.c java_bridge.c client.c parser.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+d111 1
+a111 1
+        for i in java-standalone.ini init_cfg.c init_cfg.h install.sh; do 
+d136 1
+a136 1
+        for i in ${ext_builddir}/server/configure.gnu security/php-java-bridge.fc security/update_policy.sh; do
+@
+
+
+1.38
+log
+@Release-3-1-6
+@
+text
+@d43 1
+@
+
+
+1.37
+log
+@Release-3-1-2
+@
+text
+@d97 5
+d106 1
+a106 1
+        for i in init_cfg.c init_cfg.h install.sh; do 
+d108 1
+@
+
+
+1.36
+log
+@Release-3-1-0
+@
+text
+@a7 1
+m4_include(tests.m4/fast_tcp_sockets.m4)
+a42 8
+       CHECK_FAST_TCP_SOCKETS
+
+       if test "$have_fast_tcp_sockets" = "no"; then
+           echo "This operating kernel has *very* slow TCP sockets, see unsupported/TestServ.c."
+           echo "Build the back-end with Unix domain sockets instead (requires that your OS supports JNI)."
+           echo "Will continue, but the J2EE back-end will be too slow to be usable."
+	   sleep 15
+        fi
+@
+
+
+1.35
+log
+@Release-3-1-0
+@
+text
+@d17 1
+a17 1
+AC_ARG_WITH(mono,  [  --with-mono[[=/path/to/ikvmc.exe]] 
+d19 1
+a19 1
+                          Example: --with-mono=$HOME/bin/ikvmc.exe], PHP_MONO="$withval", PHP_MONO="no")
+d61 1
+d65 1
+d72 4
+a75 1
+	PHP_NEW_EXTENSION(mono, php_java_snprintf.c java.c java_bridge.c client.c parser.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+d77 5
+a81 1
+	  PHP_JAVA_BIN="/usr/bin/mono"
+d83 14
+a96 2
+          PHP_JAVA=${EXTENSION_DIR}
+          PHP_JRE=${EXTENSION_DIR}
+d99 1
+a99 1
+	PHP_NEW_EXTENSION(java, php_java_snprintf.c php_java_strtod.c java.c java_bridge.c client.c parser.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+a105 8
+        fi
+
+       JAVA_CHECK_BROKEN_GCC_INSTALLATION
+       if test "$have_broken_gcc_installation" = "yes"; then
+         AC_MSG_WARN([Your GCC installation may be broken. It uses two different static libraries but only one dynamic library for -m32 and -m64 builds.])
+	  sleep 10
+       fi
+
+d107 2
+d110 1
+a110 1
+        for i in init_cfg.c init_cfg.h; do 
+d112 1
+d119 7
+d143 1
+a143 1
+	PHP_MODULES="$PHP_MODULES \$(phplibdir)/libnatcJavaBridge.la"
+@
+
+
+1.34
+log
+@Release-3-1-0
+@
+text
+@d46 7
+a120 5
+else 
+        if test "$have_fast_tcp_socket" = "no"; then
+           echo "Fast TCP sockets not available on this OS, J2EE back-end not available."
+           echo "Build the back-end with unix domain sockets instead (requires that your OS supports JNI)."
+        fi
+@
+
+
+1.33
+log
+@3.1-branch
+@
+text
+@d8 1
+d44 1
+d114 5
+@
+
+
+1.32
+log
+@Release-3.0.8
+@
+text
+@d10 23
+a32 9
+[  --with-java[=JAVA_HOME]        Include java support])
+AC_ARG_WITH(mono,  [  --with-mono[[=ikvmc.exe location]]             Include mono support], PHP_MONO="$withval", PHP_MONO="no")
+PHP_ARG_ENABLE(servlet, for java servlet support,
+[  --enable-servlet[=JAR]         Include java servlet support. JAR must be the location of j2ee.jar or servlet.jar; creates JavaBridge.war])
+PHP_ARG_ENABLE(script, for java script support,
+[  --enable-script[=JAR]         Include java script support. If you use a JDK < 1.6 JAR must be the location of script-api.jar; creates php-script.jar])
+PHP_ARG_ENABLE(faces, for java server faces support,
+[  --enable-faces[=JAR]         Include java server faces support. JAR must be the location of jsf-api.jar; creates php-faces.jar])
+AC_ARG_ENABLE(backend, [  --enable-backend         Creates the JavaBridge.jar or MonoBridge.exe backend, may require JDK, gcj and other tools], PHP_BACKEND="$enableval", PHP_BACKEND="yes")
+@
+
+
+1.31
+log
+@Release-3.0.8pre
+@
+text
+@d88 1
+a88 1
+        for i in ${ext_builddir}/server/configure.gnu php-java-bridge.fc update_policy.sh; do
+@
+
+
+1.31.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d10 9
+a18 23
+[  --with-java[[=JAVA_HOME[[,JRE_HOME]]]] 
+                          include java support. If JRE_HOME is specified, 
+                          the run-time java location will be compiled into 
+                          the binary. Otherwise the java executable will 
+                          be searched using the PATH environment variable
+                          Example: --with-java=/opt/jdk1.4,/usr/java/jre1.6])
+AC_ARG_WITH(mono,  [  --with-mono[[=/path/to/ikvmc.exe]] 
+                          include mono support
+                          Example: --with-mono=$HOME/bin/ikvmc.exe], PHP_MONO="$withval", PHP_MONO="no")
+PHP_ARG_ENABLE(servlet, for java servlet support, [  --enable-servlet[[=JAR]]
+                          include java servlet support. JAR must be the 
+                          location of j2ee.jar or servlet.jar; creates 
+                          JavaBridge.war])
+PHP_ARG_ENABLE(script, for java script support, [  --enable-script[[=JAR]] 
+                          include java script support. If you use a 
+                          JDK < 1.6 JAR must be the location of 
+                          script-api.jar; creates php-script.jar])
+PHP_ARG_ENABLE(faces, for java server faces support, [  --enable-faces[[=JAR]]
+                          include java server faces support. JAR must be 
+                          the location of jsf-api.jar; creates 
+                          php-faces.jar])
+AC_ARG_ENABLE(backend, [  --disable-backend] 
+                          do not create the JavaBridge.jar back-end, PHP_BACKEND="$enableval", PHP_BACKEND="yes")
+d88 1
+a88 1
+        for i in ${ext_builddir}/server/configure.gnu security/php-java-bridge.fc security/update_policy.sh; do
+@
+
+
+1.30
+log
+@Release-3.0.7a
+@
+text
+@d33 1
+a34 1
+         PHP_JRE="`echo $PHP_JAVA | LANG=C awk -F, '{print $2}'`"
+@
+
+
+1.29
+log
+@Release-3.0.7a
+@
+text
+@a28 1
+       JAVA_CHECK_JNI
+d38 1
+d41 1
+@
+
+
+1.28
+log
+@Release-3.0.7
+@
+text
+@d29 1
+a38 1
+	 JAVA_CHECK_JNI
+@
+
+
+1.27
+log
+@Release-3.0.7
+@
+text
+@d18 1
+d32 4
+d51 1
+d56 5
+a60 1
+	  PHP_JAVA_BIN="${PHP_JAVA}/bin/java"
+d72 1
+a72 1
+	  sed "s*@@PHP_JAVA@@*${PHP_JAVA}*
+d80 1
+d97 1
+@
+
+
+1.26
+log
+@Release-3-0-2
+@
+text
+@d7 1
+d17 1
+a17 1
+[  --enable-faces[=JAR]         Include java server faces support. JAR must be the location of jsf-api.jar; creates php-script.jar])
+a25 1
+       JAVA_CHECK_BROKEN_GCC_INSTALLATION
+a27 4
+       if test "$have_broken_gcc_installation" = "yes"; then
+         AC_MSG_WARN([Your GCC installation may be broken. It uses two different static libraries but only one dynamic library for -m32 and -m64 builds.])
+	  sleep 30
+       fi
+d31 3
+a33 1
+	 PHP_EVAL_INCLINE(`for i in \`find $PHP_JAVA/include -follow -type d -print\`; do echo -n "-I$i "; done`)
+d53 6
+@
+
+
+1.25
+log
+@Version-3.0.0pre
+@
+text
+@d16 1
+a16 1
+[  --enable-faces[=JAR]         Include java server faces support. JAR must be the location of jsf-api.jar or; creates php-script.jar])
+@
+
+
+1.24
+log
+@Version-3.0(pre)
+@
+text
+@d15 2
+@
+
+
+1.23
+log
+@2.0.8RC3 fixes PR1283154 and 1286139 and 1288025 (partially).
+@
+text
+@d13 2
+@
+
+
+1.22
+log
+@2.0.8RC1 fixes PR1276889, 1275899, 1274526, 1202896
+@
+text
+@d25 1
+a25 1
+         AC_MSG_WARN([YOUR GCC INSTALLATION IS BROKEN. It tries to link with the same library for -m32 and -m64 builds. This may result in a "wrong ELF class" error at runtime. Although you can work around this bug at runtime by changing the LD_LIBRARY_PATH, we recommend to re-install the gcc compiler before you continue to install the PHP/Java Bridge.])
+@
+
+
+1.21
+log
+@Release-2.0.7
+@
+text
+@d46 1
+a46 1
+	PHP_NEW_EXTENSION(java, php_java_snprintf.c java.c java_bridge.c client.c parser.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+@
+
+
+1.20
+log
+@Release-2.0.7-pre
+@
+text
+@d10 1
+a10 1
+AC_ARG_WITH(mono,  [  --with-mono[[=ikvmc.exe location]]             Include mono support], PHP_MONO="$enableval", PHP_MONO="no")
+d41 1
+a41 1
+	  PHP_JAVA_BIN="mono"
+d43 1
+@
+
+
+1.19
+log
+@Tomcat 5 support / multicasts removed
+@
+text
+@d10 3
+d15 1
+a15 1
+if test "$PHP_JAVA" != "no"; then
+d37 7
+d46 4
+d52 2
+a53 2
+	PHP_JAVA_BIN="${PHP_JAVA}/bin/java"
+	sed "s*@@PHP_JAVA@@*${PHP_JAVA}*
+d56 1
+d58 2
+a59 1
+          <$ext_builddir/init_cfg.c.in >$ext_builddir/init_cfg.c
+@
+
+
+1.18
+log
+@mono
+@
+text
+@d35 1
+a35 1
+	PHP_NEW_EXTENSION(java, multicast.c php_java_snprintf.c java.c java_bridge.c client.c parser.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+@
+
+
+1.17
+log
+@LOCALE fixes
+@
+text
+@d35 1
+a35 1
+	PHP_NEW_EXTENSION(java, php_java_snprintf.c java.c java_bridge.c client.c parser.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+@
+
+
+1.16
+log
+@Replaced JNI with XML protocol
+@
+text
+@d35 1
+a35 1
+	PHP_NEW_EXTENSION(java, java.c java_bridge.c client.c parser.c protocol.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+@
+
+
+1.15
+log
+@Release-1.0.8
+@
+text
+@d35 1
+a35 1
+	PHP_NEW_EXTENSION(java, java.c java_bridge.c client.c proxyenv.c bind.c init_cfg.c ,$ext_shared,,[-DEXTENSION_DIR=\"\\\\\"\\\$(EXTENSION_DIR)\\\\\"\"])
+@
+
+
+1.14
+log
+@Release-1.0.8
+@
+text
+@d51 5
+a55 3
+	sed "s*@@EXTENSION_DIR@@*${EXTENSION_DIR}*
+             s*@@phplibdir@@*`pwd`/modules*" \
+          <$ext_builddir/server/configure.gnu.in >$ext_builddir/server/configure.gnu
+@
+
+
+1.13
+log
+@Release-1.0.8
+@
+text
+@d1 6
+a6 6
+sinclude(tests.m4/function_checks.m4)
+sinclude(tests.m4/threads.m4)
+sinclude(tests.m4/java_check_broken_stdio_buffering.m4)
+sinclude(tests.m4/java_check_struct_ucred.m4)
+sinclude(tests.m4/java_check_abstract_namespace.m4)
+sinclude(tests.m4/java_check_broken_gcc_installation.m4)
+d46 5
+a50 1
+	AC_CONFIG_SUBDIRS(server)
+@
+
+
+1.12
+log
+@Release-1.0.8
+@
+text
+@a7 5
+# the server part needs them
+if test -d ext/java/tests.m4/; then
+ln -f acinclude.m4 ext/java/
+fi
+
+d22 1
+a22 1
+         AC_MSG_WARN([YOUR GCC INSTALLATION IS BROKEN. It tries to link with the same library for -m32 and -m64 builds. This will result in a "wrong ELF class" error at runtime. Although you can work around this bug at runtime by changing the LD_LIBRARY_PATH, we recommend to re-install the gcc compiler before you continue to install the PHP/Java Bridge.])
+a25 5
+# the JAVA_HOME directory
+	PHP_JAVA_HOME="${PHP_JAVA}"
+	PHP_SUBST(PHP_JAVA_HOME)
+	PHP_JAVA_BIN="${PHP_JAVA}/bin/java"
+
+d38 1
+d45 6
+d55 1
+@
+
+
+1.11
+log
+@ZTS
+@
+text
+@d38 1
+a38 1
+	 PHP_EVAL_INCLINE(`for i in \`find -follow $PHP_JAVA/include -type d -print\`; do echo -n "-I$i "; done`)
+@
+
+
+1.10
+log
+@use java security instead of dropping the process privileges
+@
+text
+@d38 1
+a38 1
+	 PHP_EVAL_INCLINE(`for i in \`find $PHP_JAVA/include -type d -print\`; do echo -n "-I$i "; done`)
+@
+
+
+1.9
+log
+@secure mode
+@
+text
+@a17 15
+
+        AC_MSG_CHECKING(whether to enable java secure mode)
+	AC_ARG_ENABLE(secure-mode,
+	[  --enable-secure-mode    Enable java secure mode],[
+	  if test "$enableval" = "yes" ; then
+           SECURE=--enable-secure-mode
+	   AC_MSG_RESULT(yes)
+          else
+           SECURE=--disable-secure-mode
+           AC_MSG_RESULT(no)
+          fi
+       ],[
+         AC_MSG_RESULT(no)
+       ])
+
+a56 1
+	PHP_SUBST(SECURE)
+@
+
+
+1.8
+log
+@Load libraries from /usr/share/java or from ext_dir/lib
+@
+text
+@d4 2
+d19 14
+d39 2
+d72 1
+@
+
+
+1.7
+log
+@Solaris and Win98 support
+@
+text
+@d1 4
+a4 11
+# before we start we copy all tests into ./java_tests.m4 and then
+# include this file
+
+syscmd([if test -d tests.m4/; then
+# standalone 
+here=`pwd`; cd tests.m4; cat `echo *.m4` >$here/java_tests.m4; cd $here
+elif test -d ext/java/tests.m4/; then
+# embedded, do not include threads.m4, which was copied from PHP
+ here=`pwd`; cd ext/java/tests.m4; cat `echo *.m4|sed 's*threads.m4**'` >$here/java_tests.m4; cd $here
+fi
+])
+a10 3
+sinclude([java_tests.m4])
+
+
+d36 3
+d46 1
+@
+
+
+1.6
+log
+@check_broken_gcc_installation
+@
+text
+@d1 19
+a19 4
+sinclude(tests.m4/function_checks.m4)
+sinclude(tests.m4/threads.m4)
+sinclude(tests.m4/java_check_broken_stdio_buffering.m4)
+sinclude(tests.m4/java_check_broken_gcc_installation.m4)
+a31 1
+
+d39 2
+a40 1
+	PHP_SUBST(PHP_JAVA)
+a41 1
+	PHP_SUBST(PHP_JAVA_BIN)
+d46 10
+a55 1
+        fi
+d57 1
+a57 2
+# create java.so
+	PHP_NEW_EXTENSION(java, java.c java_bridge.c client.c proxyenv.c bind.c init_cfg.o ,shared)
+d59 2
+a60 10
+
+# create libnatcJavaBridge.so
+        if test "$PHP_JAVA" != "yes"; then
+	 PHP_NEW_EXTENSION(libnatcJavaBridge,server/natcJavaBridge.c ,shared)
+        else
+	 PHP_JAVA="${EXTENSION_DIR}"
+	 PHP_JAVA_BIN="${PHP_JAVA}/java"
+	 PHP_NEW_EXTENSION(libnatcJavaBridge,server/natcJavaBridge.o server/JavaBridge.o ,shared)
+        fi
+	PHP_ADD_BUILD_DIR($ext_builddir/server)
+a61 1
+
+@
+
+
+1.5
+log
+@pthreads
+@
+text
+@d4 1
+d18 6
+d26 3
+d30 4
+a33 1
+	PHP_EVAL_INCLINE(`for i in \`find $PHP_JAVA/include -type d -print\`; do echo -n "-I$i "; done`)
+d37 1
+d39 7
+a45 1
+	PHP_NEW_EXTENSION(libnatcJavaBridge,server/natcJavaBridge.c ,shared)
+@
+
+
+1.4
+log
+@threads check
+@
+text
+@d14 1
+@
+
+
+1.3
+log
+@solaris 64
+@
+text
+@d2 1
+d12 2
+@
+
+
+1.2
+log
+@tests for broken stdio added
+@
+text
+@d2 1
+d11 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d1 2
+d8 3
+d12 1
+a12 1
+    PHP_SUBST(PHP_JAVA)
+@
+
+
+1.1.1.1
+log
+@Initial
+@
+text
+@@

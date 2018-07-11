@@ -1,0 +1,130 @@
+head	1.1;
+access;
+symbols
+	Release-7-1-1:1.1.0.52
+	Root_Release-7-1-1:1.1
+	Root_Release_7-0-1:1.1
+	Release_7-0-1:1.1.0.50
+	Release_7-0-0:1.1.0.48
+	Root_Release_7-0-0:1.1
+	Release-6-2-2:1.1.0.46
+	Release-6-1-2-3:1.1
+	Root_Release-6-1-2-3:1.1
+	Release-6-1-2-2:1.1.0.44
+	Root_Release-6-1-2-2:1.1
+	debian_version_6_1_2_1-1:1.1
+	upstream_version_6_1_2_1:1.1
+	Release-6-1-2-1_new:1.1.0.42
+	Root_Release-6-1-2-1_new:1.1
+	Release-6-1-2-1:1.1.0.40
+	Root_Release-6-1-2-1:1.1
+	upstream_version_6_1_2:1.1
+	debian_version_6_1_2-1:1.1
+	Release-6-1-2:1.1.0.38
+	Root_Release-6-1-2:1.1
+	debian_version_6_1_1-2:1.1
+	debian_version_6_1_1-1:1.1
+	upstream_version_6_1_1:1.1
+	Release-6-1-1:1.1.0.36
+	Root_Release-6-1-1:1.1
+	Release-6-0-4:1.1.0.34
+	Root_Release-6-0-4:1.1
+	Release-6-0-3_NEW:1.1.0.30
+	Root_Release-6-0-3_NEW:1.1
+	Release-6-0-3:1.1.0.32
+	Root_Release-6-0-3:1.1
+	Release-6-0-0:1.1.0.28
+	Root_Release-6-0-0:1.1
+	Release-5-5-4-1:1.1.0.26
+	Root_Release-5-5-4-1:1.1
+	Release-5-5-4:1.1.0.24
+	Root_Release-5-5-4:1.1
+	Release-5-5-3:1.1.0.22
+	ROOT_Release-5-5-3:1.1
+	Release-5-5-2:1.1.0.20
+	Root_Release-5-5-2:1.1
+	debian_version_5_5_1-1:1.1
+	Release-5-5-1:1.1.0.16
+	upstream_version_5_5_1:1.1
+	ROOT_Release-5-5-1:1.1
+	debian_version_5_5-1:1.1
+	upstream_version_5_5:1.1
+	ROOT_Release-5-5:1.1
+	Release-5-5:1.1.0.18
+	debian_version_5_4_4_2-3:1.1
+	Release-5-4-4-2-1:1.1.0.12
+	debian_version_5_4_4_2-2:1.1
+	debian_version_5_4_4_2-1:1.1
+	upstream_version_5_4_4_2:1.1
+	debian_version_5_4_4_1-1:1.1
+	upstream_version_5_4_4_1:1.1
+	debian_version_5_4_4-1:1.1
+	upstream_version_5_4_4:1.1
+	Release-5-4-4:1.1.0.14
+	Root_Release-5-4-4:1.1
+	debian_version_5_4_3_2-1:1.1
+	upstream_version_5_4_3_2:1.1
+	Release_5-4-3-2:1.1.0.10
+	Root_Release_5-4-3-2:1.1
+	upstream_version_5_4_3_1:1.1
+	debian_version_5_4_3_1-1:1.1
+	Release-5-4-3:1.1.0.8
+	Root_Release-5-4-3:1.1
+	Root_Release-5-4-1:1.1
+	Release-5-4-1:1.1.0.6
+	Root_Release-5-4:1.1
+	Release-5-4:1.1.0.4
+	upstream_version_5_3_4:1.1
+	debian_version_5_3_4-1:1.1
+	ROOT_Release-5-3-4:1.1
+	Release-5-3-4:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.1
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Release 5.3.3.1
+@
+text
+@<?php require_once ("java/Java.inc");
+
+java_require("itext.jar");
+
+try {
+  $document = new java("com.lowagie.text.Document");
+  $out = new java("java.io.ByteArrayOutputStream");
+  $pdfWriter = java("com.lowagie.text.pdf.PdfWriter")->getInstance($document, $out);
+
+  $document->open();
+  $font = java("com.lowagie.text.FontFactory")->getFont(
+	      java("com.lowagie.text.FontFactory")->HELVETICA, 
+	      24, 
+	      java("com.lowagie.text.Font")->BOLDITALIC, 
+	      new java("java.awt.Color", 0, 0, 255));
+  
+  $paragraph = new java("com.lowagie.text.Paragraph", "Hello World", $font);
+  $document->add($paragraph);
+
+  $document->close();
+  $pdfWriter->close();
+
+  // print the generated document
+  header("Content-type: application/pdf");
+  header("Content-Disposition: attachment; filename=HelloWorld.pdf");
+  echo java_values($out->toByteArray());
+} catch (JavaException $e) {
+  echo "Exception occured: "; echo $e; echo "<br>\n";
+}
+?>
+@

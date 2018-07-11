@@ -1,0 +1,462 @@
+head	1.10;
+access;
+symbols
+	Release-7-1-1:1.10.0.20
+	Root_Release-7-1-1:1.10
+	Root_Release_7-0-1:1.10
+	Release_7-0-1:1.10.0.18
+	Release_7-0-0:1.10.0.16
+	Root_Release_7-0-0:1.10
+	Release-6-2-2:1.10.0.14
+	Release-6-1-2-3:1.10
+	Root_Release-6-1-2-3:1.10
+	Release-6-1-2-2:1.10.0.12
+	Root_Release-6-1-2-2:1.10
+	debian_version_6_1_2_1-1:1.10
+	upstream_version_6_1_2_1:1.10
+	Release-6-1-2-1_new:1.10.0.10
+	Root_Release-6-1-2-1_new:1.10
+	Release-6-1-2-1:1.10.0.8
+	Root_Release-6-1-2-1:1.10
+	upstream_version_6_1_2:1.10
+	debian_version_6_1_2-1:1.10
+	Release-6-1-2:1.10.0.6
+	Root_Release-6-1-2:1.10
+	debian_version_6_1_1-2:1.10
+	debian_version_6_1_1-1:1.10
+	upstream_version_6_1_1:1.10
+	Release-6-1-1:1.10.0.4
+	Root_Release-6-1-1:1.10
+	Release-6-0-4:1.10.0.2
+	Root_Release-6-0-4:1.10
+	Release-6-0-3_NEW:1.9.0.20
+	Root_Release-6-0-3_NEW:1.9
+	Release-6-0-3:1.9.0.22
+	Root_Release-6-0-3:1.9
+	Release-6-0-0:1.9.0.18
+	Root_Release-6-0-0:1.9
+	Release-5-5-4-1:1.9.0.16
+	Root_Release-5-5-4-1:1.9
+	Release-5-5-4:1.9.0.14
+	Root_Release-5-5-4:1.9
+	Release-5-5-3:1.9.0.12
+	ROOT_Release-5-5-3:1.9
+	Release-5-5-2:1.9.0.10
+	Root_Release-5-5-2:1.9
+	debian_version_5_5_1-1:1.9
+	Release-5-5-1:1.9.0.6
+	upstream_version_5_5_1:1.9
+	ROOT_Release-5-5-1:1.9
+	debian_version_5_5-1:1.9
+	upstream_version_5_5:1.9
+	ROOT_Release-5-5:1.9
+	Release-5-5:1.9.0.8
+	debian_version_5_4_4_2-3:1.9
+	Release-5-4-4-2-1:1.9.0.2
+	debian_version_5_4_4_2-2:1.9
+	debian_version_5_4_4_2-1:1.9
+	upstream_version_5_4_4_2:1.9
+	debian_version_5_4_4_1-1:1.9
+	upstream_version_5_4_4_1:1.9
+	debian_version_5_4_4-1:1.9
+	upstream_version_5_4_4:1.9
+	Release-5-4-4:1.9.0.4
+	Root_Release-5-4-4:1.9
+	debian_version_5_4_3_2-1:1.8
+	upstream_version_5_4_3_2:1.8
+	Release_5-4-3-2:1.8.0.2
+	Root_Release_5-4-3-2:1.8
+	upstream_version_5_4_3_1:1.8
+	debian_version_5_4_3_1-1:1.8
+	Release-5-4-3:1.7.0.12
+	Root_Release-5-4-3:1.7
+	Root_Release-5-4-1:1.7
+	Release-5-4-1:1.7.0.10
+	Root_Release-5-4:1.7
+	Release-5-4:1.7.0.8
+	upstream_version_5_3_4:1.7
+	debian_version_5_3_4-1:1.7
+	ROOT_Release-5-3-4:1.7
+	Release-5-3-4:1.7.0.6
+	ROOT_Release-5-3-3:1.7
+	Release-5-3-3:1.7.0.2
+	debian_version_5_3_2_1_2-1:1.7
+	upstream_version_5_3_2_1_2:1.7
+	debian_version_5_3_2_1_1-1:1.7
+	debian_version_5_3_2_1_1:1.7
+	upstream_version_5_3_2_1_1:1.7
+	Root_Release-5-3-2-1:1.7
+	Release-5-3-2-1:1.7
+	ROOT_RELEASE-5-3-2-1:1.7
+	RELEASE-5-3-2-1:1.7.0.4
+	Release-5-3-2:1.6.0.6
+	Root_Release-5-3-2:1.6
+	Root_Release-5-3-1:1.6
+	Release-5-3-1:1.6.0.4
+	Release-5-2-3-1:1.6.0.2
+	Root_Release-5-2-3-1:1.6
+	Release-5-2-2-4:1.5.0.8
+	Root_Release-5-2-2-4:1.5
+	Release-5-2-2-1:1.5.0.6
+	Root_Release-5-2-2-1:1.5
+	upstream_version_5_2_2:1.5
+	debian_version_5_2_2-1:1.5
+	Release-5-2-2:1.5.0.4
+	ROOT_Release-5-2-2:1.5
+	ROOT_Release-5-2-1:1.5
+	Release-5-2-1:1.5.0.2
+	Release-5-2-0:1.4.0.2
+	ROOT_Release-5-2-0:1.4
+	ROOT_Release-5-1-2:1.3
+	Release-5-1-2:1.3.0.10
+	Version-5-1-1:1.3.0.8
+	ROOT_Version-5-1-1:1.3
+	debian_version_5_1_0-1:1.3
+	upstream_version_5_1_0:1.3
+	ROOT_Release-5-1-0:1.3
+	Release-5-1-0:1.3.0.6
+	ROOT_Release-5-0-0:1.3
+	Release-5-0-0:1.3.0.4
+	Release-4-3-3:1.3.0.2
+	ROOT_Release-4-3-3:1.3
+	upstream_version_4_3_2:1.2
+	debian_version_4_3_2-1:1.2
+	ROOT_Release-4-3-2:1.2
+	Release-4-3-2:1.2.0.6
+	Release-4-3-1:1.2.0.4
+	ROOT_Release-4-3-1:1.2
+	debian_version_4_3_0-1:1.2
+	upstream_version_4_3_0:1.2
+	ROOT_Release-4-3-0:1.2
+	Release-4-3-0:1.2.0.2
+	debian_version_4_2_2-1:1.1
+	upstream_version_4_2_2:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.10
+date	2010.03.06.11.12.45;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2009.03.08.14.34.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2009.01.10.16.50.04;	author jost_boekemeier;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2008.10.06.20.01.35;	author jost_boekemeier;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2008.09.29.16.32.20;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2008.03.22.12.04.54;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2008.02.10.15.38.20;	author jost_boekemeier;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2007.12.28.13.56.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2007.09.19.10.12.27;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.08.04.17.34.23;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@Release-6-0-4
+@
+text
+@Overview
+--------
+
+The standalone JavaBridge.jar associates PHP scripts with Java
+applications.
+
+This document describes how to call non-JEE ("desktop") application
+Java methods. Please see the INSTALL.J2SE document for details how to
+call PHP methods from Java. Please see the INSTALL.JEE document for
+details how to embed PHP into a pure JEE application server or how to
+call Java/JEE methods from PHP.
+
+Installation
+------------
+
+Add the PHP/Java Bridge to your Java application(s):
+
+* Extract the JavaBridge.jar library from JavaBridge.war, for example
+  with the command:
+
+   java -classpath JavaBridge.war TestInstallation
+   
+* Add JavaBridge.jar to the main library of you non-JEE
+  application. This can be done by adding the following line to your
+  application's META-INF/MANIFEST.MF:
+  
+    Class-Path: JavaBridge.jar
+
+  It is also possible to simply merge all files into your non-JEE
+  application.
+
+* Add the following 3 lines to the main class of your non-JEE
+  application:
+
+     public static final String JAVABRIDGE_PORT="8087";
+     static final php.java.bridge.JavaBridgeRunner runner = 
+       php.java.bridge.JavaBridgeRunner.getInstance(JAVABRIDGE_PORT);
+     
+
+Call your Java methods from PHP
+-------------------------------
+
+* Start your Java application.
+
+* Use the following code to call methods of your running(!) Java application:
+
+    <?php require_once("http://localhost:8087/JavaBridge/java/Java.inc");
+
+    $myClass = new java("com.my.non.j2ee.application.MyClass");
+    $myClass->myMethod(...);
+    ?>
+
+
+Logging
+-------
+
+* Download and copy log4j.jar to java.ext.dirs. Example for JDK 1.6 on
+  Linux:
+
+  mkdir -p /usr/java/packages/lib/ext
+  cp log4j.jar /usr/java/packages/lib/ext
+
+* Start the log4j viewer. For example with the command:
+
+  /usr/java/default/bin/java org.apache.log4j.chainsaw.Main
+
+* Restart the standalone application. The log appears in the log4j
+  window.
+
+
+* Please report bugs/problems to the mailing list:
+
+    php-java-bridge-users@@lists.sourceforge.net
+@
+
+
+1.9
+log
+@Release-5-4-4
+@
+text
+@d4 2
+a5 2
+The standalone JavaBridge.jar associates Java applications with PHP
+scripts.
+d7 5
+a11 5
+This document describes how to call a non-J2EE application. Please see
+the INSTALL.J2SE document for details how to call PHP methods from
+Java. Please see the INSTALL.J2EE document for details how to embed
+PHP into a pure J2EE application server or how to call Java/J2EE
+methods from PHP.
+d13 2
+a14 32
+Development
+-----------
+
+Test the PHP/Java Bridge functionality:
+
+* Download and extract the php-java-bridge*_j2ee.zip archive into a
+  folder and type: java -classpath JavaBridge.war TestInstallation.
+
+* Right-click on ext/JavaBridge.jar and select "open with Java ...". 
+  In the "Starting ..." dialog select SERVLET_LOCAL:8080.
+
+* Run your PHP scripts. For example browse to http://127.0.0.1:8080
+  and click on test.php.
+
+* Link Java.inc and your Java libraries into PHP at run-time. Example:
+  
+   <?php
+    require_once("java/Java.inc");
+
+    // call Java libraries using the provided Java class...
+    java_require("myLibs/myLib.jar;dependentLib1.jar;...);
+
+    $SystemClazz =     Java("java.lang.System"); 
+    echo $SystemClazz->getProperties();
+
+    $myInstance  = NEW Java("myPackage.MyClass", ...); 
+    $myInstance->callSomething(...);
+   ?>
+
+
+Deployment
+----------
+d23 3
+a25 3
+* Add JavaBridge.jar to the main library of you non-J2EE
+application. This can be done by adding the following line to your
+application's META-INF/MANIFEST.MF:
+d29 2
+a30 2
+It is also possible to simply merge all files into your non-J2EE
+application..
+d32 2
+a33 2
+* Add the following 3 lines to the main class of your non-J2EE
+application:
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d18 2
+a19 2
+* Download and extract the php-java-bridge*_j2ee.zip file into a
+  folder.
+d21 2
+a22 6
+* Navigate to the created JAVA.STANDALONE folder.
+
+* Right-click on log4j.jar and select "open with Java ..."
+
+* Right-click on JavaBridge.jar and select "open with Java ...". In
+  the "Starting ..." dialog select SERVLET_LOCAL:8080.
+@
+
+
+1.7
+log
+@Release-5-3-2-1
+@
+text
+@d31 15
+@
+
+
+1.6
+log
+@Release-5-2-3-1
+@
+text
+@d56 1
+a56 1
+       php.java.bridge.JavaBridgeRunner.getRequiredInstance(JAVABRIDGE_PORT);
+@
+
+
+1.5
+log
+@Release-5-2-1
+@
+text
+@d18 5
+@
+
+
+1.4
+log
+@Version-5-1-2
+@
+text
+@d16 2
+d30 2
+a36 7
+* Add the following 3 lines to the main class of your non-J2EE
+application:
+
+     public static final String JAVABRIDGE_PORT="8087";
+     static final php.java.bridge.JavaBridgeRunner runner = 
+       php.java.bridge.JavaBridgeRunner.getRequiredInstance(JAVABRIDGE_PORT);
+     
+a44 2
+  
+* Start your non-J2EE application.
+d46 7
+d57 3
+a59 1
+* Use the following code to call methods:
+@
+
+
+1.3
+log
+@Release-4-3-3
+@
+text
+@d4 3
+@
+
+
+1.2
+log
+@Release-4-3-0
+@
+text
+@d4 5
+a8 5
+This document describes how to call out to a non-J2EE
+application. Please see the INSTALL.J2SE document for details how to
+call PHP methods from Java. Please see the INSTALL.J2EE document for
+details how to embed PHP into a pure J2EE application server or how to
+call Java/J2EE methods from PHP.
+d10 2
+a11 2
+Install the back end into your non-J2EE application
+---------------------------------------------------
+d13 1
+a13 1
+* Extract the JavaBridge.jar library, for example with the command:
+d15 14
+a28 1
+   java -jar JavaBridge.war
+d61 17
+@
+
+
+1.1
+log
+@Release-4-2-2
+@
+text
+@d4 5
+a8 5
+This document describes how to call into a non-J2EE application.
+Please see the INSTALL.J2SE document for details how to call PHP
+methods from Java. Please see the INSTALL.J2EE document for details
+how to embed PHP into a pure J2EE application server or how to call
+Java/J2EE methods from PHP.
+@
+

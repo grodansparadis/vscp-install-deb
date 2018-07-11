@@ -1,0 +1,1248 @@
+head	1.39;
+access;
+symbols
+	Release-7-1-1:1.38.0.2
+	Root_Release-7-1-1:1.38
+	Root_Release_7-0-1:1.37
+	Release_7-0-1:1.37.0.40
+	Release_7-0-0:1.37.0.38
+	Root_Release_7-0-0:1.37
+	Release-6-2-2:1.37.0.36
+	Release-6-1-2-3:1.37
+	Root_Release-6-1-2-3:1.37
+	Release-6-1-2-2:1.37.0.34
+	Root_Release-6-1-2-2:1.37
+	debian_version_6_1_2_1-1:1.37
+	upstream_version_6_1_2_1:1.37
+	Release-6-1-2-1_new:1.37.0.32
+	Root_Release-6-1-2-1_new:1.37
+	Release-6-1-2-1:1.37.0.30
+	Root_Release-6-1-2-1:1.37
+	upstream_version_6_1_2:1.37
+	debian_version_6_1_2-1:1.37
+	Release-6-1-2:1.37.0.28
+	Root_Release-6-1-2:1.37
+	debian_version_6_1_1-2:1.37
+	debian_version_6_1_1-1:1.37
+	upstream_version_6_1_1:1.37
+	Release-6-1-1:1.37.0.26
+	Root_Release-6-1-1:1.37
+	Release-6-0-4:1.37.0.24
+	Root_Release-6-0-4:1.37
+	Release-6-0-3_NEW:1.37.0.20
+	Root_Release-6-0-3_NEW:1.37
+	Release-6-0-3:1.37.0.22
+	Root_Release-6-0-3:1.37
+	Release-6-0-0:1.37.0.18
+	Root_Release-6-0-0:1.37
+	Release-5-5-4-1:1.37.0.16
+	Root_Release-5-5-4-1:1.37
+	Release-5-5-4:1.37.0.14
+	Root_Release-5-5-4:1.37
+	Release-5-5-3:1.37.0.12
+	ROOT_Release-5-5-3:1.37
+	Release-5-5-2:1.37.0.10
+	Root_Release-5-5-2:1.37
+	debian_version_5_5_1-1:1.37
+	Release-5-5-1:1.37.0.6
+	upstream_version_5_5_1:1.37
+	ROOT_Release-5-5-1:1.37
+	debian_version_5_5-1:1.37
+	upstream_version_5_5:1.37
+	ROOT_Release-5-5:1.37
+	Release-5-5:1.37.0.8
+	debian_version_5_4_4_2-3:1.37
+	Release-5-4-4-2-1:1.37.0.2
+	debian_version_5_4_4_2-2:1.37
+	debian_version_5_4_4_2-1:1.37
+	upstream_version_5_4_4_2:1.37
+	debian_version_5_4_4_1-1:1.37
+	upstream_version_5_4_4_1:1.37
+	debian_version_5_4_4-1:1.37
+	upstream_version_5_4_4:1.37
+	Release-5-4-4:1.37.0.4
+	Root_Release-5-4-4:1.37
+	debian_version_5_4_3_2-1:1.36
+	upstream_version_5_4_3_2:1.36
+	Release_5-4-3-2:1.36.0.30
+	Root_Release_5-4-3-2:1.36
+	upstream_version_5_4_3_1:1.36
+	debian_version_5_4_3_1-1:1.36
+	Release-5-4-3:1.36.0.28
+	Root_Release-5-4-3:1.36
+	Root_Release-5-4-1:1.36
+	Release-5-4-1:1.36.0.26
+	Root_Release-5-4:1.36
+	Release-5-4:1.36.0.24
+	upstream_version_5_3_4:1.36
+	debian_version_5_3_4-1:1.36
+	ROOT_Release-5-3-4:1.36
+	Release-5-3-4:1.36.0.22
+	ROOT_Release-5-3-3:1.36
+	Release-5-3-3:1.36.0.18
+	debian_version_5_3_2_1_2-1:1.36
+	upstream_version_5_3_2_1_2:1.36
+	debian_version_5_3_2_1_1-1:1.36
+	debian_version_5_3_2_1_1:1.36
+	upstream_version_5_3_2_1_1:1.36
+	Root_Release-5-3-2-1:1.36
+	Release-5-3-2-1:1.36
+	ROOT_RELEASE-5-3-2-1:1.36
+	RELEASE-5-3-2-1:1.36.0.20
+	Release-5-3-2:1.36.0.16
+	Root_Release-5-3-2:1.36
+	Root_Release-5-3-1:1.36
+	Release-5-3-1:1.36.0.14
+	Release-5-2-3-1:1.36.0.12
+	Root_Release-5-2-3-1:1.36
+	Release-5-2-2-4:1.36.0.10
+	Root_Release-5-2-2-4:1.36
+	Release-5-2-2-1:1.36.0.8
+	Root_Release-5-2-2-1:1.36
+	upstream_version_5_2_2:1.36
+	debian_version_5_2_2-1:1.36
+	Release-5-2-2:1.36.0.6
+	ROOT_Release-5-2-2:1.36
+	ROOT_Release-5-2-1:1.36
+	Release-5-2-1:1.36.0.4
+	Release-5-2-0:1.36.0.2
+	ROOT_Release-5-2-0:1.36
+	ROOT_Release-5-1-2:1.35
+	Release-5-1-2:1.35.0.10
+	Version-5-1-1:1.35.0.8
+	ROOT_Version-5-1-1:1.35
+	debian_version_5_1_0-1:1.35
+	upstream_version_5_1_0:1.35
+	ROOT_Release-5-1-0:1.35
+	Release-5-1-0:1.35.0.6
+	ROOT_Release-5-0-0:1.35
+	Release-5-0-0:1.35.0.4
+	Release-4-3-3:1.35.0.2
+	ROOT_Release-4-3-3:1.35
+	upstream_version_4_3_2:1.34
+	debian_version_4_3_2-1:1.34
+	ROOT_Release-4-3-2:1.34
+	Release-4-3-2:1.34.0.6
+	Release-4-3-1:1.34.0.4
+	ROOT_Release-4-3-1:1.34
+	debian_version_4_3_0-1:1.34
+	upstream_version_4_3_0:1.34
+	ROOT_Release-4-3-0:1.34
+	Release-4-3-0:1.34.0.2
+	debian_version_3_2_1b-2:1.31
+	debian_version_4_2_2-1:1.33
+	upstream_version_4_2_2:1.33
+	debian_version_3_2_1b-1:1.31
+	upstream_version_3_2_1b:1.31
+	Release-4-1-2:1.33.0.8
+	Release-4-0-8:1.33.0.6
+	debian_version_4_0_8a-1:1.33
+	upstream_version_4_0_8a:1.33
+	jostb-debian-ubuntu-patch:1.33.0.4
+	debian_version_4_0_8-1:1.33
+	upstream_version_4_0_8:1.33
+	debian_version_4_0_7-1:1.33
+	upstream_version_4_0_7:1.33
+	debian_version_4_0_6-1:1.33
+	upstream_version_4_0_6:1.33
+	debian_version_4_0_2-1:1.33
+	upstream_version_4_0_2:1.33
+	Release-4-0-2_Root:1.33
+	Release-4-0-2:1.33.0.2
+	upstream_version_4_0_1:1.32
+	debian_version_4_0_1-2:1.32
+	Release-3-2-1:1.31.0.4
+	Release-3-1-8:1.31.0.2
+	Release-3-0-8_root:1.23
+	Release-3-0-8_Root:1.23
+	Release-3-0-8:1.23.0.2
+	Release-2-0-8:1.13.0.4
+	Release-2-0-7_Root:1.11
+	Release-2-0-7:1.11.0.4
+	Release-2-0-6-branch:1.11.0.2
+	Version-1:1.7.0.6
+	Version-2:1.7.0.4
+	Release-2:1.7.0.2
+	PHP-5:1.5.0.6
+	Release-1-0-6:1.5.0.8
+	sparc-64-test:1.5.0.2
+	V-2004-08-28:1.1.1.1
+	PHP-JAVA-BRIDGE:1.1.1;
+locks; strict;
+comment	@# @;
+expand	@k@;
+
+
+1.39
+date	2017.04.14.16.03.25;	author jost_boekemeier;	state dead;
+branches;
+next	1.38;
+
+1.38
+date	2017.04.09.13.58.34;	author jost_boekemeier;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2009.03.08.14.34.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2008.03.02.21.36.49;	author jost_boekemeier;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2007.12.28.13.56.41;	author jost_boekemeier;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2007.09.30.16.07.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2007.03.19.13.03.16;	author jost_boekemeier;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2007.03.09.20.28.07;	author andremachado;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2006.09.10.17.31.11;	author jost2345;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2006.09.05.20.40.32;	author jost2345;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2006.08.27.14.40.11;	author jost2345;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2006.08.21.17.41.52;	author jost2345;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.08.19.12.34.00;	author jost2345;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.08.13.21.48.35;	author jost2345;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.08.08.17.20.45;	author jost2345;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2006.06.19.20.37.14;	author jost2345;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2006.03.16.20.27.00;	author jost2345;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2006.02.03.17.41.36;	author jost2345;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2006.01.30.19.39.53;	author jost2345;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2006.01.15.21.05.31;	author jost2345;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2006.01.08.23.44.40;	author jost2345;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2006.01.04.19.35.07;	author jost2345;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.12.21.19.28.15;	author jost2345;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.12.18.18.17.48;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.12.08.18.41.57;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.11.17.17.24.19;	author jost2345;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.07.28.17.00.43;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.07.25.20.42.27;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.05.16.17.50.38;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.04.14.18.05.59;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.04.14.18.05.23;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.03.07.19.36.51;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.01.28.16.32.52;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.11.27.13.45.48;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.10.07.11.19.46;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.10.06.16.38.08;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.09.26.13.32.42;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.09.23.13.12.45;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.08.28.06.05.06;	author jost2345;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2004.08.28.06.05.06;	author jost2345;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.39
+log
+@Update birt lib to 4.6.0
+Removed obsolete files
+@
+text
+@<?php include_once("java/Java.inc");
+
+
+echo (string)new java("java.lang.String", "hello from java");@
+
+
+1.38
+log
+@Release-7.1.1
+@
+text
+@@
+
+
+1.37
+log
+@Release-5-4-4
+@
+text
+@d1 1
+a1 1
+<?php require_once("java/Java.inc");
+a2 7
+  /* 
+   * Use the new style which works with PHP 5 and above only. This
+   * code makes use of the new PHP 5 features try/catch, the PHP
+   * standard library and the automatic __toString() conversion. 
+   *
+   * See the test.php4 if you still use PHP 4.
+   */
+d4 1
+a4 32
+phpinfo();
+
+try {
+
+  /* invoke java.lang.System.getProperties() */
+  $props = java("java.lang.System")->getProperties();
+  
+  /* convert the result object into a PHP array */
+  $array = java_values($props);
+  foreach($array as $k=>$v) {
+    echo "$k=>$v"; echo "<br>\n";
+  }
+  echo "<br>\n";
+  
+  /* create a PHP class which implements the Java toString() method */
+  class MyClass {
+    function toString() { return "hello PHP from Java!"; }
+  }
+  
+  /* create a Java object from the PHP object */
+  $javaObject = java_closure(new MyClass());
+  echo "PHP says that Java says: "; echo $javaObject;  echo "<br>\n";
+  echo "<br>\n";
+  
+
+  echo java("php.java.bridge.Util")->VERSION; echo "<br>\n";
+
+} catch (JavaException $ex) {
+  echo "An exception occured: "; echo $ex; echo "<br>\n";
+}
+
+?>
+@
+
+
+1.36
+log
+@Release-5-2-0
+@
+text
+@a10 3
+/* autoload NAME.jar from include_path/NAME/NAME.jar or ~/lib/NAME.jar */
+java_autoload(/*"myLib1.jar;myLib2.jar;..."*/);
+
+d16 1
+a16 1
+  $props = java_lang_System::type()->getProperties();
+d36 1
+a36 1
+  echo php_java_bridge_Util::type()->VERSION; echo "<br>\n";
+@
+
+
+1.35
+log
+@Release-4-3-3
+@
+text
+@d1 1
+a1 9
+<?php 
+if(!extension_loaded("java")) {
+  $n = php_sapi_name();
+  if($n=="cgi"||$n=="cgi-fcgi"||$n=="cli") @@dl("java.so")||@@dl('php_java.dll');
+ }
+if(!extension_loaded("java")) {
+  $port= (isset($_SERVER['SERVER_PORT']) && (($_SERVER['SERVER_PORT'])>1024)) ? $_SERVER['SERVER_PORT'] : '8080';
+  require_once("http://127.0.0.1:${port}/JavaBridge/java/Java.inc");
+ }
+@
+
+
+1.34
+log
+@Release-4-3-0
+@
+text
+@d8 1
+a8 1
+  require_once("http://localhost:${port}/JavaBridge/java/Java.inc");
+@
+
+
+1.33
+log
+@Release-4-0-2
+@
+text
+@d1 16
+a16 8
+#!/bin/env php
+<?php
+
+  /**
+   * require_once("http://localhost:8080/JavaBridge/java/Java.inc");
+   * $System = new Java("java.lang.System");
+   * phpinfo();
+   * echo $System->getProperties();
+d19 2
+d22 1
+a22 24
+   /*
+    * Don't try to understand the code below ...
+    */
+
+/* load extension and check it */
+function check_extension() {
+  if(!extension_loaded('java')) {
+    $sapi_type = php_sapi_name();
+    $port= (isset($_SERVER['SERVER_PORT']) && (($_SERVER['SERVER_PORT'])>1024)) ? $_SERVER['SERVER_PORT'] : '8080';
+    if ($sapi_type == "cgi" || $sapi_type == "cgi-fcgi" || $sapi_type == "cli") {
+      if(!(PHP_SHLIB_SUFFIX=="so" && @@dl('java.so'))&&!(PHP_SHLIB_SUFFIX=="dll" && @@dl('php_java.dll'))&&!(@@include_once("java/Java.inc"))&&!(require_once("http://127.0.0.1:$port/JavaBridge/java/Java.inc"))) {
+	echo "java extension not installed.";
+	exit(2);
+      }
+    } else {
+      if(!(@@include_once("java/Java.inc")))
+	require_once("http://127.0.0.1:$port/JavaBridge/java/Java.inc");
+    }
+  }
+  if(!function_exists("java_get_server_name")) {
+    echo "Fatal: The loaded java extension is not the PHP/Java Bridge";
+    exit(7);
+  }
+}
+d24 1
+a24 2
+check_extension();
+if(java_get_server_name()!=null){
+d26 2
+a27 2
+  phpinfo();
+  print "\n\n";
+d29 4
+a32 7
+  $v = new JavaClass("java.lang.System");
+  $p = @@$v->getProperties();
+  if($ex=java_last_exception_get()) {
+    $trace = new Java("java.io.ByteArrayOutputStream");
+    $ex->printStackTrace(new java("java.io.PrintStream", $trace));
+    echo "Exception $ex occured:<br>\n" . $trace . "\n";
+    exit(1);
+d34 5
+a38 3
+  $arr=java_values($p);
+  foreach ($arr as $key => $value) {
+    print $key . " -> " .  $value . "<br>\n";
+d40 4
+d45 1
+a45 3
+  $Util = new JavaClass("php.java.bridge.Util");
+  echo "JavaBridge back-end version: ".java_values($Util->VERSION)."<br>\n";
+  echo "<br>\n";
+d47 1
+a47 4
+ } else {
+  
+  phpinfo();
+  print "\n\n";
+d49 2
+a50 23
+  /* java_get_server_name() == null means that the back-end is not
+   running */
+  if(PHP_SHLIB_SUFFIX=="so") $ext_name="java.so";
+  else if(PHP_SHLIB_SUFFIX=="dll") $ext_name="php_java.dll";
+  else $ext_name="unknown suffix: ".PHP_SHLIB_SUFFIX;
+
+  echo "Error: The PHP/Java Bridge back-end is not running.\n";
+  echo "\n";
+  echo "Please start it and/or check if the directory\n";
+  echo "\n\t".ini_get("extension_dir")."\n\n";
+  echo "contains \"$ext_name\" and \"JavaBridge.jar\".\n";
+  echo "\n";
+  echo " Check if the following values are correct:\n\n";
+  echo "\tjava.java_home = ".ini_get("java.java_home")."\n";
+  echo "\tjava.java = ".ini_get("java.java")."\n\n";
+  echo "If you want to start the back-end automatically, disable:\n\n";
+  echo "\tjava.socketname = ".ini_get("java.socketname")."\n";
+  echo "\tjava.hosts = ".ini_get("java.hosts")."\n";
+  echo "\tjava.servlet = ".ini_get("java.servlet")."\n";
+  echo "\n";
+  echo "If that still doesn't work, please check the \"java command\" above and\n";
+  echo "report this problem to:\n\n";
+  echo "\tphp-java-bridge-users@@lists.sourceforge.net.\n";
+d52 1
+@
+
+
+1.32
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d11 5
+d22 1
+a22 1
+      if(!(PHP_SHLIB_SUFFIX=="so" && @@dl('java.so'))&&!(PHP_SHLIB_SUFFIX=="dll" && @@dl('php_java.dll'))&&!(require_once("http://127.0.0.1:$port/JavaBridge/java/Java.inc"))) {
+d27 2
+a28 1
+      require_once("http://127.0.0.1:$port/JavaBridge/java/Java.inc");
+@
+
+
+1.31
+log
+@Release-3-1-8
+@
+text
+@d4 7
+d15 1
+d17 1
+a17 1
+      if(!(PHP_SHLIB_SUFFIX=="so" && @@dl('java.so'))&&!(PHP_SHLIB_SUFFIX=="dll" && @@dl('php_java.dll'))&&!(include_once("java/Java.php"))) {
+d22 1
+a22 1
+      require_once("java/Java.php");
+@
+
+
+1.30
+log
+@Release-3-1-8rc3
+@
+text
+@d8 1
+a8 1
+    if ($sapi_type == "cgi" || $sapi_type == "cli") {
+d53 3
+a56 1
+  $ext_name=java_get_server_name();
+@
+
+
+1.29
+log
+@Release-3-1-8rc
+@
+text
+@d6 11
+a16 1
+  require_once("java/Java.php");
+@
+
+
+1.28
+log
+@Release-3-1-8devel1
+@
+text
+@d33 1
+a33 1
+  echo "JavaBridge back-end version: {$Util->VERSION}<br>\n";
+d44 1
+a44 1
+  $ext_name=java_get_ext_name();
+@
+
+
+1.27
+log
+@Release-3-2-0devel
+@
+text
+@a3 56
+/**
+ * Check the standard name, java.so or php_java.dll
+ */
+function java_get_simple_ext_name() {
+  static $ext_name=null;
+  if($ext_name!=null) return $ext_name;
+  $ext_name="java.so";
+  if(PHP_SHLIB_SUFFIX != "so") $ext_name="php_java.dll";
+  return $ext_name;
+}
+function check($name) {
+  $len = strlen($name);
+  return strncasecmp(php_uname(), $name, $len) == 0;
+}
+/**
+ * Check if the user has copied the pre-compiled binaries from the
+ * javabridge_JavaBridge.war to c:/php. We currently have binaries for Linux
+ * (php5.1), Solaris (php5.1) and Windows (php5.1 and php5.0).
+ */
+function java_get_servlet_ext_name() {
+  static $ext_name=null;
+  if($ext_name!=null) return $ext_name;
+  if(check("sunos")) $ext_name="java-x86-sunos.so";
+  else if(check("linux")) $ext_name="java-i86-linux.so";
+  else if(check("windows")) {
+    $ext_name="java-x86-windows.dll";
+    if ((version_compare("5.0.0", phpversion(), "<=")) && (version_compare("5.1.0", phpversion(), ">")))
+      $ext_name="php-5.0-java-x86-windows.dll";
+  }
+  return $ext_name;
+}
+function java_get_ext_name() {
+  $current_ext_name = java_get_simple_ext_name();
+  if(!$current_ext_name) $current_ext_name = java_get_servlet_ext_name();
+  return $current_ext_name;
+}
+function java_dl($ext) {
+  echo "Please permanently activate the extension. Loading java extension $ext now...\n";
+  return dl("$ext");
+}
+function java_load_extension() {
+  if(extension_loaded('java')) return java_get_ext_name();
+  $ext = java_get_ext_name();
+  $ext_servlet = java_get_servlet_ext_name();
+  $success = java_dl($current=$ext);
+  if(!$success) $success = java_dl($current=$ext_servlet);
+  if (!$success) {
+    echo "Please permanently activate the extension. Loading java extension $ext now...\n";
+    echo "\n<br><strong>Error: Either the java extension is not installed <br>\n";
+    echo "or it was compiled against an older or newer php version.<br>\n";
+    echo "See the HTTP (IIS or Apache) server log for details.</strong><br>\n";
+    echo "Will use the pure PHP PHP/Java Bridge implementation<br>\n";
+    require_once("java/Java.php");
+  }
+  return $current;
+} 
+d6 1
+a6 1
+  $current_ext_name = java_load_extension();
+a10 8
+
+  if (!extension_loaded('java')) {
+    if ((version_compare("5.0.0", phpversion(), "<=")) && (version_compare("5.0.4", phpversion(), ">"))) {
+      echo "This PHP version does not support dl().\n";
+      echo "Please add an extension=java.so or extension=php_java.dll entry to your php.ini file.\n";
+      exit(1);
+    }
+  }
+d45 18
+a62 29
+  if(isset($_SERVER['HTTPS'])) {
+    echo "Error: Could not connect to " . ini_get("java.hosts") ."<br>\n";
+    echo "Please add the following entry marked with a + to your<br>\n";
+    echo "conf/server.xml (example for Tomcat):<br>\n";
+    echo "  &lt;Service name=\"Catalina\"&gt;<br>\n";
+    echo "  [...]<br>\n";
+    echo "+  &lt;Connector port=\"9157\" address=\"127.0.0.1\"  /&gt;<br>\n";
+    echo "  [...]<br>\n";
+    echo " &lt;/Service&gt;<br>\n";
+  } else {
+    echo "Error: The PHP/Java Bridge back-end is not running.\n";
+    echo "\n";
+    echo "Please start it and/or check if the directory\n";
+    echo "\n\t".ini_get("extension_dir")."\n\n";
+    echo "contains \"$ext_name\" and \"JavaBridge.jar\".\n";
+    echo "\n";
+    echo " Check if the following values are correct:\n\n";
+    echo "\tjava.java_home = ".ini_get("java.java_home")."\n";
+    echo "\tjava.java = ".ini_get("java.java")."\n\n";
+    echo "If you want to start the back-end automatically, disable:\n\n";
+    echo "\tjava.socketname = ".ini_get("java.socketname")."\n";
+    echo "\tjava.hosts = ".ini_get("java.hosts")."\n";
+    echo "\tjava.servlet = ".ini_get("java.servlet")."\n";
+    echo "\n";
+    echo "If that still doesn't work, please check the \"java command\" above and\n";
+    echo "report this problem to:\n\n";
+    echo "\tphp-java-bridge-users@@lists.sourceforge.net.\n";
+  }
+ }
+@
+
+
+1.26
+log
+@Release-3-1-8devel
+@
+text
+@d55 2
+a56 2
+    echo "Will use pure PHP implementation<br>\n";
+    require_once("javabridge/Java.php");
+@
+
+
+1.25
+log
+@Release-3-1-7
+@
+text
+@d20 1
+a20 1
+ * JavaBridge.war to c:/php. We currently have binaries for Linux
+d55 2
+a56 1
+    exit(2);
+@
+
+
+1.24
+log
+@Release-3-1-0
+@
+text
+@d4 3
+a6 3
+   /**
+    * Check the standard name, java.so or php_java.dll
+    */
+d52 3
+a54 3
+    echo "Error: Either the java extension is not installed \n";
+    echo "or it was compiled against an older or newer php version.\n";
+    echo "See the HTTP (IIS or Apache) server log for details.\n";
+@
+
+
+1.23
+log
+@Release-3.0.8test1
+@
+text
+@d1 1
+a1 1
+#!/usr/bin/php
+d3 29
+a31 5
+if (!extension_loaded('java')) {
+  if ((version_compare("5.0.0", phpversion(), "<=")) && (version_compare("5.0.4", phpversion(), ">"))) {
+    echo "This PHP version does not support dl().\n";
+    echo "Please add an extension=java.so or extension=php_java.dll entry to your php.ini file.\n";
+    exit(1);
+d33 19
+a51 3
+
+  echo "Please permanently activate the extension. Loading java extension now...\n";
+  if (!@@dl('java.so')&&!@@dl('php_java.dll')) {
+a54 1
+    !dl('java.so')&&!dl('php_java.dll');
+d57 9
+a65 2
+ }
+if(@@java_get_server_name() != null) {
+d67 5
+a71 8
+  try {
+    phpinfo();
+    print "\n\n";
+    
+    $v = new JavaClass("java.lang.System");
+    $arr=java_values($v->getProperties());
+    foreach ($arr as $key => $value) {
+      print $key . " -> " .  $value . "<br>\n";
+d73 12
+a84 1
+  } catch (JavaException $ex) {
+d87 6
+a92 1
+    echo "Exception $ex occured:<br>\n" . $trace . "<br>\n";
+d96 1
+a96 1
+  echo "JavaBridge backend version: {$Util->VERSION}<br>\n";
+d100 1
+a100 1
+
+d104 1
+a104 1
+  /* java_get_server_name() == null means that the backend is not
+d107 29
+a135 21
+  $ext_name="java.so";
+  if(PHP_SHLIB_SUFFIX != "so") $ext_name="php_java.dll";
+
+  echo "Error: The PHP/Java Bridge backend is not running.\n";
+  echo "\n";
+  echo "Please start it and/or check if the directory\n";
+  echo "\n\t".ini_get("extension_dir")."\n\n";
+  echo "contains \"$ext_name\" and \"JavaBridge.jar\".\n";
+  echo "\n";
+  echo "Check if the following values are correct:\n\n";
+  echo "\tjava.java_home = ".ini_get("java.java_home")."\n";
+  echo "\tjava.java = ".ini_get("java.java")."\n\n";
+  echo "If you want to start the backend automatically, disable:\n\n";
+  echo "\tjava.socketname = ".ini_get("java.socketname")."\n";
+  echo "\tjava.hosts = ".ini_get("java.hosts")."\n";
+  echo "\tjava.servlet = ".ini_get("java.servlet")."\n";
+  echo "\n";
+  echo "If that still doesn't work, please check the \"java command\" above and\n";
+  echo "report this problem to:\n\n";
+  echo "\tphp-java-bridge-users@@lists.sourceforge.net.\n";
+
+@
+
+
+1.22
+log
+@Release-3.0.7
+@
+text
+@d33 1
+a33 2
+    echo "Exception $ex occured:<br>\n" . $trace . "\n";
+    
+d36 3
+@
+
+
+1.21
+log
+@Release-3.0.7
+@
+text
+@d12 5
+a16 1
+    echo "Error: The java extension is not installed.\n";
+a68 1
+
+@
+
+
+1.20
+log
+@Release-3.0.6
+@
+text
+@d11 1
+a11 1
+  if (!dl('java.so')&&!dl('php_java.dll')) {
+d15 1
+a15 1
+if(java_get_server_name() != null) {
+d21 1
+a21 1
+    $v = new java("java.lang.System");
+d27 1
+a27 1
+    $trace = new java("java.io.ByteArrayOutputStream");
+d51 1
+a51 3
+  echo "Please check that $ext_name is indeed the PHP/Java Bridge and not its\n";
+  echo "predecessor, the ext/java extension (check the file size).\n";
+  echo "Also check if the following values are correct:\n\n";
+d53 2
+a54 2
+  echo "\tjava.java = ".ini_get("java.java")."\n";
+  echo "If you want to start the backend automatically, disable:\n";
+@
+
+
+1.19
+log
+@Release-3.0.5
+@
+text
+@d26 1
+a26 1
+  } catch (Exception $ex) {
+@
+
+
+1.18
+log
+@Release-3.0.5(pre)
+@
+text
+@d17 10
+a26 6
+  phpinfo();
+  print "\n\n";
+  
+  $v = new java("java.lang.System");
+  $p = @@$v->getProperties();
+  if($ex=java_last_exception_get()) {
+d30 1
+a30 5
+    exit(1);
+  }
+  $arr=java_values($p);
+  foreach ($arr as $key => $value) {
+    print $key . " -> " .  $value . "<br>\n";
+d35 1
+a35 1
+  
+@
+
+
+1.17
+log
+@Release-3.0.4
+@
+text
+@d17 6
+a22 10
+  try {
+    phpinfo();
+    print "\n\n";
+    
+    $v = new java("java.lang.System");
+    $arr=java_values($v->getProperties());
+    foreach ($arr as $key => $value) {
+      print $key . " -> " .  $value . "<br>\n";
+    }
+  } catch (Exception $ex) {
+d26 5
+a30 1
+    
+d35 1
+a35 1
+
+@
+
+
+1.16
+log
+@Release-3.0.3
+@
+text
+@d14 1
+a14 1
+}
+d17 14
+a30 7
+  phpinfo();
+  print "\n\n";
+  
+  $v = new java("java.lang.System");
+  $arr=java_values($v->getProperties());
+  foreach ($arr as $key => $value) {
+    print $key . " -> " .  $value . "<br>\n";
+d32 1
+a33 1
+echo "<br>\n";
+@
+
+
+1.15
+log
+@Release-3-0-2
+@
+text
+@d50 3
+a52 3
+  echo "\tjava.java.socketname = ".ini_get("java.socketname")."\n";
+  echo "\tjava.java.hosts = ".ini_get("java.hosts")."\n";
+  echo "\tjava.java.servlet = ".ini_get("java.servlet")."\n";
+@
+
+
+1.14
+log
+@Version-3.0.0pre
+@
+text
+@d26 1
+d40 1
+a40 1
+  echo "Please check that the directory\n";
+d49 4
+@
+
+
+1.13
+log
+@PHP/JSP session sharing
+@
+text
+@d12 1
+a12 2
+    echo "java extension not installed.";
+    exit(2);
+d15 1
+a15 2
+phpinfo();
+print "\n\n";
+d17 37
+a53 5
+$v = new java("java.lang.System");
+$arr=java_values($v->getProperties());
+foreach ($arr as $key => $value) {
+  print $key . " -> " .  $value . "<br>\n";
+}
+@
+
+
+1.12
+log
+@PR1243638: Running php and jsp side by side
+@
+text
+@d20 1
+a20 1
+$arr=java_get_values($v->getProperties());
+@
+
+
+1.11
+log
+@Release-2.0.6 branch
+@
+text
+@d20 1
+a20 1
+$arr=$v->getProperties();
+@
+
+
+1.10
+log
+@use a real stack instead of a 5 element array
+@
+text
+@d4 1
+a4 1
+  if (version_compare("5.0.0", phpversion(), "<=")) {
+@
+
+
+1.9
+log
+@use a real stack instead of a 5 element array
+@
+text
+@d16 2
+a17 2
+//phpinfo();
+//print "\n\n";
+@
+
+
+1.8
+log
+@Release-2.0.1
+@
+text
+@d16 2
+a17 2
+phpinfo();
+print "\n\n";
+@
+
+
+1.7
+log
+@Release-1.0.8
+@
+text
+@d4 6
+d11 1
+a11 1
+  if (!dl('java.so')&&!dl('java.dll')) {
+d13 1
+a13 1
+    exit;
+d25 1
+@
+
+
+1.6
+log
+@PHP5
+@
+text
+@d10 2
+@
+
+
+1.5
+log
+@gcc2
+@
+text
+@d14 1
+a14 1
+  print $key . " -> " .  $value . "\n";
+@
+
+
+1.4
+log
+@The client receives the bridge instance as the first element.  This fixes the classpath bug.
+@
+text
+@d2 1
+d4 1
+a4 1
+  echo "Please permanently activate the extension. Loading java extension now... ";
+@
+
+
+1.3
+log
+@java_set_jar_library_path added
+@
+text
+@a1 2
+
+<?php
+d3 1
+a3 2
+  // extension not activated in global php.ini
+  // file, try to load it now
+d5 1
+a9 3
+// were to load libraries from (example):
+java_set_jar_library_path("http://somewhere.org/lib1.jar;file:c:/lib2.jar");
+
+@
+
+
+1.2
+log
+@The server now tracks resources
+@
+text
+@d12 3
+d18 1
+a18 1
+		print $key . " -> " .  $value . "\n";
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d4 8
+@
+
+
+1.1.1.1
+log
+@Initial
+@
+text
+@@

@@ -1,0 +1,1374 @@
+head	1.46;
+access;
+symbols
+	Root_Release_7-0-1:1.45
+	Release_7-0-1:1.45.0.6
+	Release_7-0-0:1.45.0.4
+	Root_Release_7-0-0:1.45
+	Release-6-2-2:1.45.0.2
+	Release-6-1-2-3:1.42
+	Root_Release-6-1-2-3:1.42
+	Release-6-1-2-2:1.42.0.6
+	Root_Release-6-1-2-2:1.42
+	debian_version_6_1_2_1-1:1.42
+	upstream_version_6_1_2_1:1.42
+	Release-6-1-2-1_new:1.42.0.4
+	Root_Release-6-1-2-1_new:1.42
+	Release-6-1-2-1:1.42.0.2
+	Root_Release-6-1-2-1:1.42
+	upstream_version_6_1_2:1.41
+	debian_version_6_1_2-1:1.41
+	Release-6-1-2:1.41.0.4
+	Root_Release-6-1-2:1.41
+	debian_version_6_1_1-2:1.41
+	debian_version_6_1_1-1:1.41
+	upstream_version_6_1_1:1.41
+	Release-6-1-1:1.41.0.2
+	Root_Release-6-1-1:1.41
+	Release-6-0-4:1.40.0.6
+	Root_Release-6-0-4:1.40
+	Release-6-0-3_NEW:1.40.0.2
+	Root_Release-6-0-3_NEW:1.40
+	Release-6-0-3:1.40.0.4
+	Root_Release-6-0-3:1.40
+	Release-6-0-0:1.39.0.2
+	Root_Release-6-0-0:1.40
+	Release-5-5-4-1:1.37.0.4
+	Root_Release-5-5-4-1:1.37
+	Release-5-5-4:1.37.0.2
+	Root_Release-5-5-4:1.37
+	Release-5-5-3:1.36.0.10
+	ROOT_Release-5-5-3:1.36
+	Release-5-5-2:1.36.0.8
+	Root_Release-5-5-2:1.36
+	debian_version_5_5_1-1:1.36
+	Release-5-5-1:1.36.0.4
+	upstream_version_5_5_1:1.36
+	ROOT_Release-5-5-1:1.36
+	debian_version_5_5-1:1.36
+	upstream_version_5_5:1.36
+	ROOT_Release-5-5:1.36
+	Release-5-5:1.36.0.6
+	debian_version_5_4_4_2-3:1.36
+	Release-5-4-4-2-1:1.36.0.2
+	debian_version_5_4_4_2-2:1.36
+	debian_version_5_4_4_2-1:1.36
+	upstream_version_5_4_4_2:1.36
+	debian_version_5_4_4_1-1:1.33
+	upstream_version_5_4_4_1:1.33
+	debian_version_5_4_4-1:1.33
+	upstream_version_5_4_4:1.33
+	Release-5-4-4:1.33.0.6
+	Root_Release-5-4-4:1.33
+	debian_version_5_4_3_2-1:1.33
+	upstream_version_5_4_3_2:1.33
+	Release_5-4-3-2:1.33.0.2
+	Root_Release_5-4-3-2:1.33
+	upstream_version_5_4_3_1:1.32
+	debian_version_5_4_3_1-1:1.32
+	Release-5-4-3:1.32.0.6
+	Root_Release-5-4-3:1.32
+	Root_Release-5-4-1:1.32
+	Release-5-4-1:1.32.0.4
+	Root_Release-5-4:1.32
+	Release-5-4:1.32.0.2
+	upstream_version_5_3_4:1.31
+	debian_version_5_3_4-1:1.31
+	ROOT_Release-5-3-4:1.31
+	Release-5-3-4:1.31.0.2
+	ROOT_Release-5-3-3:1.29
+	Release-5-3-3:1.29.0.6
+	debian_version_5_3_2_1_2-1:1.29
+	upstream_version_5_3_2_1_2:1.29
+	debian_version_5_3_2_1_1-1:1.29
+	debian_version_5_3_2_1_1:1.29
+	upstream_version_5_3_2_1_1:1.29
+	Root_Release-5-3-2-1:1.29
+	Release-5-3-2-1:1.29
+	ROOT_RELEASE-5-3-2-1:1.29
+	RELEASE-5-3-2-1:1.29.0.8
+	Release-5-3-2:1.29.0.4
+	Root_Release-5-3-2:1.29
+	Root_Release-5-3-1:1.29
+	Release-5-3-1:1.29.0.2
+	Release-5-2-3-1:1.28.0.12
+	Root_Release-5-2-3-1:1.28
+	Release-5-2-2-4:1.28.0.10
+	Root_Release-5-2-2-4:1.28
+	Release-5-2-2-1:1.28.0.8
+	Root_Release-5-2-2-1:1.28
+	upstream_version_5_2_2:1.28
+	debian_version_5_2_2-1:1.28
+	Release-5-2-2:1.28.0.6
+	ROOT_Release-5-2-2:1.28
+	ROOT_Release-5-2-1:1.28
+	Release-5-2-1:1.28.0.4
+	Release-5-2-0:1.28.0.2
+	ROOT_Release-5-2-0:1.28
+	ROOT_Release-5-1-2:1.27
+	Release-5-1-2:1.27.0.10
+	Version-5-1-1:1.27.0.8
+	ROOT_Version-5-1-1:1.27
+	debian_version_5_1_0-1:1.27
+	upstream_version_5_1_0:1.27
+	ROOT_Release-5-1-0:1.27
+	Release-5-1-0:1.27.0.6
+	ROOT_Release-5-0-0:1.27
+	Release-5-0-0:1.27.0.4
+	Release-4-3-3:1.27.0.2
+	ROOT_Release-4-3-3:1.27
+	upstream_version_4_3_2:1.26
+	debian_version_4_3_2-1:1.26
+	ROOT_Release-4-3-2:1.26
+	Release-4-3-2:1.26.0.4
+	Release-4-3-1:1.26.0.2
+	ROOT_Release-4-3-1:1.26
+	debian_version_4_3_0-1:1.25
+	upstream_version_4_3_0:1.25
+	ROOT_Release-4-3-0:1.25
+	Release-4-3-0:1.25.0.2
+	debian_version_3_2_1b-2:1.21
+	debian_version_4_2_2-1:1.25
+	upstream_version_4_2_2:1.25
+	debian_version_3_2_1b-1:1.21
+	upstream_version_3_2_1b:1.21
+	Release-4-1-2:1.24.0.6
+	Release-4-0-8:1.24.0.4
+	debian_version_4_0_8a-1:1.24
+	upstream_version_4_0_8a:1.24
+	jostb-debian-ubuntu-patch:1.24.0.2
+	debian_version_4_0_8-1:1.23
+	upstream_version_4_0_8:1.23
+	debian_version_4_0_7-1:1.23
+	upstream_version_4_0_7:1.23
+	debian_version_4_0_6-1:1.23
+	upstream_version_4_0_6:1.23
+	debian_version_4_0_2-1:1.23
+	upstream_version_4_0_2:1.23
+	Release-4-0-2_Root:1.23
+	Release-4-0-2:1.23.0.2
+	upstream_version_4_0_1:1.22
+	debian_version_4_0_1-2:1.22
+	Release-3-2-1:1.21.0.2
+	Release-3-1-8:1.20.0.2
+	Release-3-0-8_root:1.14.2.1
+	Release-3-0-8_Root:1.16
+	Release-3-0-8:1.14.0.2
+	Release-2-0-8:1.6.0.4
+	Release-2-0-7_Root:1.1
+	Release-2-0-7:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.46
+date	2017.04.09.14.35.28;	author jost_boekemeier;	state dead;
+branches;
+next	1.45;
+
+1.45
+date	2010.07.17.11.38.16;	author jost_boekemeier;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2010.07.11.18.08.30;	author jost_boekemeier;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2010.06.10.08.53.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2010.05.02.11.49.36;	author jost_boekemeier;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2010.03.16.16.46.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2010.02.28.15.20.45;	author jost_boekemeier;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2010.02.21.16.14.59;	author jost_boekemeier;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2010.01.23.10.09.35;	author jost_boekemeier;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2009.10.17.17.40.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2009.04.13.11.32.02;	author jost_boekemeier;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2009.04.12.12.10.23;	author jost_boekemeier;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2009.04.11.14.23.19;	author jost_boekemeier;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2009.02.15.22.15.46;	author jost_boekemeier;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2008.12.09.12.55.03;	author jost_boekemeier;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2008.11.27.21.00.26;	author jost_boekemeier;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2008.10.03.15.48.14;	author jost_boekemeier;	state Exp;
+branches
+	1.29.6.1;
+next	1.28;
+
+1.28
+date	2008.03.02.21.36.53;	author jost_boekemeier;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2007.12.28.13.56.42;	author jost_boekemeier;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2007.12.02.18.05.08;	author jost_boekemeier;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2007.06.28.18.10.49;	author jost_boekemeier;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2007.04.10.13.30.48;	author jost_boekemeier;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2007.03.19.13.03.17;	author jost_boekemeier;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2007.03.09.20.28.12;	author andremachado;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2006.12.13.14.04.24;	author jost2345;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2006.08.21.17.41.52;	author jost2345;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2006.08.13.21.48.35;	author jost2345;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2006.07.16.20.29.26;	author jost2345;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2006.06.19.20.37.20;	author jost2345;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2006.04.28.18.15.07;	author jost2345;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2006.04.12.17.46.47;	author jost2345;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2006.03.21.18.11.22;	author jost2345;	state Exp;
+branches
+	1.14.2.1;
+next	1.13;
+
+1.13
+date	2006.03.01.19.31.38;	author jost2345;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2006.02.18.15.42.49;	author jost2345;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.02.05.18.47.01;	author jost2345;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.12.28.22.44.33;	author jost2345;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.12.11.22.24.41;	author jost2345;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.12.08.18.42.16;	author jost2345;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.11.23.19.09.42;	author jost2345;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.08.27.10.50.46;	author jost2345;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.08.24.20.58.31;	author jost2345;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.08.21.11.39.41;	author jost2345;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.08.11.18.08.19;	author jost2345;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.07.25.20.42.29;	author jost2345;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.06.15.20.44.11;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.14.2.1
+date	2006.04.23.19.09.08;	author jost2345;	state Exp;
+branches;
+next	;
+
+1.29.6.1
+date	2008.11.13.21.31.51;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.46
+log
+@*** empty log message ***
+@
+text
+@<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+    <!-- support for JEE cluster, remove this line if you want to put non-serializable objects into the java_session() -->
+    <distributable/>
+
+    <!-- Your system PHP executable. Default is /usr/bin/php-cgi or c:/Program Files/PHP/php-cgi.exe -->  
+    <!--<context-param><param-name>php_exec</param-name><param-value>php-cgi</param-value></context-param>-->
+    <!-- Prefer a system PHP executable, if available. Otherwise use the PHP from the .war file. Default is Off -->
+    <context-param><param-name>prefer_system_php_exec</param-name><param-value>On</param-value></context-param>
+
+    <!-- Handle PHP urls which cannot be expressed using a standard servlet spec 2.2 url-pattern, 
+         e.g.: *.php/delete/from?what=that You may remove this and the filter-mapping below -->
+    <filter><filter-name>PhpCGIFilter</filter-name><filter-class>php.java.servlet.PhpCGIFilter</filter-class></filter>
+    <filter-mapping><filter-name>PhpCGIFilter</filter-name><url-pattern>/*</url-pattern></filter-mapping>
+
+    <!-- Attach the JSR223 script factory to the servlet context -->
+    <listener><listener-class>php.java.servlet.ContextLoaderListener</listener-class></listener>
+
+    <!-- PHP Servlet: back-end for Apache or IIS -->
+    <servlet><servlet-name>PhpJavaServlet</servlet-name><servlet-class>php.java.servlet.PhpJavaServlet</servlet-class></servlet>
+
+    <!-- PHP CGI servlet: when IIS or Apache are not available -->
+    <servlet><servlet-name>PhpCGIServlet</servlet-name><servlet-class>php.java.servlet.fastcgi.FastCGIServlet</servlet-class></servlet>
+
+    <!-- PHP Servlet Mapping -->
+    <servlet-mapping><servlet-name>PhpJavaServlet</servlet-name><url-pattern>*.phpjavabridge</url-pattern></servlet-mapping>
+
+    <!-- PHP CGI Servlet Mapping -->
+    <servlet-mapping><servlet-name>PhpCGIServlet</servlet-name><url-pattern>*.php</url-pattern></servlet-mapping>
+
+    <!-- Welcome files -->
+    <welcome-file-list>
+        <welcome-file>index.php</welcome-file>
+    </welcome-file-list>
+
+</web-app>
+@
+
+
+1.45
+log
+@Release-6-2-1
+@
+text
+@@
+
+
+1.44
+log
+@Release-6-2-1
+@
+text
+@d5 1
+a5 2
+
+    <!-- support for JEE cluster -->
+a6 12
+    
+    <!-- Handle PHP urls which cannot be expressed using a standard
+	 servlet spec 2.2 url-pattern, e.g.: *.php/delete/from?what=that 
+         You may remove this and the filter-mapping below -->
+    <filter>
+        <filter-name>PhpCGIFilter</filter-name>
+        <filter-class>php.java.servlet.PhpCGIFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>PhpCGIFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+d8 9
+d19 1
+a19 3
+    <listener>
+        <listener-class>php.java.servlet.ContextLoaderListener</listener-class>
+    </listener>
+d22 1
+a22 6
+    <servlet>
+        <servlet-name>PhpJavaServlet</servlet-name>
+        <servlet-class>php.java.servlet.PhpJavaServlet</servlet-class>
+
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+d25 1
+a25 5
+    <servlet>
+        <servlet-name>PhpCGIServlet</servlet-name>
+        <servlet-class>php.java.servlet.fastcgi.FastCGIServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+d28 1
+a28 4
+    <servlet-mapping>
+        <servlet-name>PhpJavaServlet</servlet-name>
+        <url-pattern>*.phpjavabridge</url-pattern>
+    </servlet-mapping>
+d31 1
+a31 4
+    <servlet-mapping>
+        <servlet-name>PhpCGIServlet</servlet-name>
+        <url-pattern>*.php</url-pattern>
+    </servlet-mapping>
+@
+
+
+1.43
+log
+@changed defaults
+@
+text
+@a38 41
+
+         <!-- Your php binary. Default is /usr/bin/php-cgi or -->
+         <!-- c:/Program Files/PHP/php-cgi.exe  or a binary from the system PATH -->
+        <!-- 
+         <init-param>
+           <param-name>php_exec</param-name>
+           <param-value>php-cgi</param-value>
+         </init-param>
+        -->
+        
+        <!-- the following line conveniently adds require_once("java/Java.inc") -->
+        <!-- to each PHP script. Remove the line, if you don't need this feature. -->
+        <init-param><param-name>php_include_java</param-name><param-value>On</param-value></init-param>
+
+         <!-- Prefer the system php-cgi executable (see DEFAULT_CGI_LOCATIONS) -->
+         <!-- over a local WEB-INF/cgi/php-cgi-xxx-yyy[.sh|.exe]? -->
+         <!-- Default is to try a local php-cgi executable first. -->
+         <init-param>
+           <param-name>prefer_system_php_exec</param-name>
+           <param-value>On</param-value>
+         </init-param>
+
+        <!-- The number of PHP processes waiting in the FastCGI pool -->
+        <!-- Default is 5. -->
+        <!-- 
+         <init-param>
+           <param-name>php_fcgi_children</param-name>
+           <param-value>5</param-value>
+         </init-param>
+        -->
+
+        <!-- Automatically include java/JavaProxy.php  -->
+        <!-- Switch this off if you don't use Java in all of your scripts -->
+        <!-- Default is Off. -->
+        <!-- 
+         <init-param>
+           <param-name>php_include_java</param-name>
+           <param-value>On</param-value>
+         </init-param>
+        -->
+
+@
+
+
+1.42
+log
+@Release-6-1-2-1
+@
+text
+@d48 4
+@
+
+
+1.41
+log
+@Release-6-1-0
+@
+text
+@d41 1
+a41 1
+         <!-- c:/Program Files/PHP/php-cgi.exe -->
+@
+
+
+1.40
+log
+@Release-6-0-3
+@
+text
+@d68 2
+a69 1
+        <!-- Default is On. -->
+d72 1
+a72 1
+           <param-value>Off</param-value>
+d74 1
+@
+
+
+1.39
+log
+@Release-6-0-0
+@
+text
+@d37 1
+a37 1
+        <servlet-name>PhpFastCGIServlet</servlet-name>
+d85 1
+a85 1
+        <servlet-name>PhpFastCGIServlet</servlet-name>
+@
+
+
+1.38
+log
+@Release-5-5-5
+@
+text
+@a8 5
+    <!-- Attach the JSR223 script factory to the servlet context -->
+    <listener>
+        <listener-class>php.java.servlet.ContextLoaderListener</listener-class>
+    </listener>
+
+d16 10
+d37 2
+a38 2
+        <servlet-name>PhpCGIServlet</servlet-name>
+        <servlet-class>php.java.servlet.PhpCGIServlet</servlet-class>
+d85 1
+a85 1
+        <servlet-name>PhpCGIServlet</servlet-name>
+a88 6
+   <!-- PHP CGI Filter Mapping -->
+    <filter-mapping>
+        <filter-name>PhpCGIFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+@
+
+
+1.37
+log
+@Release-5-5-4
+@
+text
+@d14 8
+d84 6
+@
+
+
+1.36
+log
+@Release-5-4-4-2
+@
+text
+@d6 1
+a6 1
+    <!-- support for J2EE cluster -->
+d8 1
+a8 1
+
+a18 9
+         <!-- Allow non-local PHP clients.  Default is Off. -->
+         <!-- Leave this off if your server is connected to the internet. --> 
+       <!--
+         <init-param>
+           <param-name>promiscuous</param-name>
+           <param-value>On</param-value>
+         </init-param>
+        -->
+
+@
+
+
+1.35
+log
+@Release-5-4-4-2
+@
+text
+@a64 1
+        <!-- 
+a68 1
+        -->
+@
+
+
+1.34
+log
+@*** empty log message ***
+@
+text
+@a8 8
+    <!-- Override the define ("JAVA_HOSTS", "127.0.0.1:8080"); -->
+    <!-- setting from your PHP script, Config.inc or Java.inc or -->
+    <!-- JavaProxy.php, so that PHP connects back to the current VM. -->
+    <context-param>
+        <param-name>override_hosts</param-name>
+        <param-value>On</param-value>
+    </context-param>
+
+d10 1
+a10 1
+   <listener>
+@
+
+
+1.33
+log
+@eclipse birt integration
+@
+text
+@d70 10
+@
+
+
+1.32
+log
+@Backward compatibility with BEA WL 8.1
+@
+text
+@a20 5
+    <!-- Automatically terminate scripts when the JSP/framework request finishes -->
+    <!-- Remove this listener line for J2EE <= 1.4 to avoid a NoClassDefFoundError -->
+   <listener>
+        <listener-class>php.java.servlet.RequestListener</listener-class>
+    </listener>
+@
+
+
+1.31
+log
+@Release 5.3.3.1
+@
+text
+@d21 2
+a22 1
+    <!-- Terminate invocable scripts when the JSP/framework request finishes -->
+@
+
+
+1.30
+log
+@Release 5.3.3
+@
+text
+@a39 9
+         <!-- Default is the java.log_level from the php.ini. -->
+         <!-- See also the system property php.java.bridge.default_log_level -->
+        <!--
+         <init-param>
+           <param-name>servlet_log_level</param-name>
+           <param-value>2</param-value>
+         </init-param>
+        -->
+
+@
+
+
+1.29
+log
+@Release-5-3-1
+@
+text
+@d9 8
+d50 1
+a50 1
+  </servlet>
+d58 1
+a58 1
+         <!-- c:/php/php-cgi.exe -->
+d84 1
+a84 1
+  </servlet>
+@
+
+
+1.29.6.1
+log
+@Release 5.3.3
+@
+text
+@a8 8
+    <!-- Override the define ("JAVA_HOSTS", "127.0.0.1:8080"); -->
+    <!-- setting from your PHP script, Config.inc or Java.inc or -->
+    <!-- JavaProxy.php, so that PHP connects back to the current VM. -->
+    <context-param>
+        <param-name>override_hosts</param-name>
+        <param-value>On</param-value>
+    </context-param>
+
+d42 1
+a42 1
+    </servlet>
+d50 1
+a50 1
+         <!-- c:/Program Files/PHP/php-cgi.exe -->
+d76 1
+a76 1
+    </servlet>
+@
+
+
+1.28
+log
+@Release-5-2-0
+@
+text
+@d13 4
+a48 11
+         <!-- Allow us to override the java.hosts, java.servlet and -->
+         <!-- java.socketname settings from your php.ini so that we can -->
+         <!-- use the current VM (see X_JAVABRIDGE_OVERRIDE_HOSTS). -->
+         <!-- Default is On. -->
+        <!-- 
+         <init-param>
+           <param-name>override_hosts</param-name>
+           <param-value>Off</param-value>
+         </init-param>
+        -->
+
+d66 2
+a67 35
+         <!-- The number of concurrent cgi requests -->
+         <!-- Note that this value should be 1/2 of the servlet engine's -->
+         <!-- thread pool size because each PhpCGIServlet instance also -->
+         <!-- consumes one PhpJavaServlet instance -->
+        <!-- 
+         <init-param>
+           <param-name>max_requests</param-name>
+           <param-value>19</param-value>
+         </init-param>
+        -->
+
+         <!-- Use the fast cgi interface instead of cgi when running -->
+         <!-- php as a CGI sub component (when php is not installed as an -->
+         <!-- Apache or IIS module). Values: Off, On, Autostart. -->
+         <!-- Default is Autostart. -->
+        <!-- 
+         <init-param>
+           <param-name>use_fast_cgi</param-name>
+           <param-value>Off</param-value>
+         </init-param>
+        -->
+
+         <!-- Share the FastCGI server from the global PHP/Java Bridge -->
+         <!-- with the PHP/Java Bridge  from the JavaBridge web context. -->
+         <!-- WARNING: If you copy the PHP/Java Bridge library into the global -->
+         <!-- classpath of the servlet engine and you do not disable the JavaBridge -->
+         <!-- web context, make sure that these options match. -->
+         <!-- If both bridges access the same FastCGI server, and these options do not -->
+         <!-- match (see global web.xml and WEB-INF/web.xml), either the connection -->
+         <!-- pool from the "JavaBridge" web context or the connection pool from the -->
+         <!-- global PHP/Java Bridge library will hang. - Since both bridges are -->
+         <!-- loaded via two separate classloaders, we don't have the chance to check -->
+         <!-- this configuration error. -->
+         <!-- Default is Off. -->
+         <!-- See http://php-java-bridge.sf.net#global-servlet for details. -->
+d70 2
+a71 2
+           <param-name>shared_fast_cgi_pool</param-name>
+           <param-value>On</param-value>
+@
+
+
+1.27
+log
+@Release-4-3-3
+@
+text
+@d6 1
+a6 1
+    <!-- support for tomcat cluster -->
+@
+
+
+1.26
+log
+@Release-4-3-1
+@
+text
+@d8 5
+a12 4
+    <!-- TODO --> 
+   <listener>
+        <listener-class>php.java.servlet.ContextLoaderListener</listener-class>
+    </listener>
+d80 1
+a80 1
+           <param-value>50</param-value>
+@
+
+
+1.25
+log
+@Release-4-1-5
+@
+text
+@d8 4
+@
+
+
+1.24
+log
+@Release-3-0-8
+@
+text
+@d6 3
+@
+
+
+1.23
+log
+@Release-4-0-2
+@
+text
+@a5 9
+    <!-- Faces Servlet -->
+  <!--
+    <servlet>
+        <servlet-name>PhpFacesServlet</servlet-name>
+        <servlet-class>php.java.faces.FacesServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+   -->
+
+d57 8
+a109 9
+
+    <!-- Faces Servlet Mapping -->
+   <!--
+    <servlet-mapping>
+        <servlet-name>PhpFacesServlet</servlet-name>
+        <url-pattern>*.jsf</url-pattern>
+    </servlet-mapping>
+   -->
+
+@
+
+
+1.22
+log
+@Files update 3.2.2 to 4.0.1. Extracted from the src.tar.gz downloaded from sf.net, uploaded by Jost Boekemeier. Update to repository by Andre Felipe Machado.
+@
+text
+@d20 1
+a20 2
+         <!-- Allow non-local clients. These clients connect to the -->
+         <!-- back-end using a HTTP tunnel. Default is Off. -->
+d24 1
+a24 1
+           <param-name>allow_http_tunnel</param-name>
+d29 1
+a29 1
+         <!-- Default it the java.log_level from the php.ini. -->
+d88 11
+a98 4
+         <!-- Share the FastCGI pool from the JavaBridge PhpCGIServlet with -->
+         <!-- the GlobalPhpCGIServlet used by all other web apps. -->
+         <!-- Set this to On in both, the JavaBridge/WEB-INF/web.xml and -->
+         <!-- in the global conf/web.xml. -->
+@
+
+
+1.21
+log
+@Release-3-2-1
+@
+text
+@d7 1
+d13 1
+d107 1
+d112 1
+@
+
+
+1.20
+log
+@Release-3-1-8devel1
+@
+text
+@d57 1
+a57 1
+         <!-- c:/php/php-cgi. -->
+@
+
+
+1.19
+log
+@Release-3-1-8devel
+@
+text
+@d28 9
+@
+
+
+1.18
+log
+@Release-3-1-6
+@
+text
+@a27 8
+         <!-- Default log_level is 2, java.log_level from php.ini overrides.-->
+        <!--
+         <init-param>
+           <param-name>servlet_log_level</param-name>
+           <param-value>2</param-value>
+         </init-param>
+        -->
+
+@
+
+
+1.17
+log
+@Release-3-1-0
+@
+text
+@d8 1
+a8 1
+        <servlet-name>Faces Servlet</servlet-name>
+d78 1
+a78 2
+         <!-- Default is Autostart, if the web application is "JavaBridge" -->
+         <!-- and On otherwise -->
+d86 13
+d105 1
+a105 1
+        <servlet-name>Faces Servlet</servlet-name>
+@
+
+
+1.16
+log
+@Release-3-1-0
+@
+text
+@d13 1
+a13 1
+    <!-- PHP Servlet: backend for Apache or IIS -->
+d19 1
+a19 1
+         <!-- backend using a HTTP tunnel. Default is Off. -->
+d55 2
+a56 2
+         <!-- Your php binary. Default is /usr/bin/php-cgi, /usr/bin/php or -->
+         <!-- c:/php5/php-cgi. -->
+d79 1
+a79 1
+         <!-- and Off othewise -->
+d83 1
+a83 1
+           <param-value>On</param-value>
+@
+
+
+1.15
+log
+@Release-3.0.8
+@
+text
+@a86 8
+         <!-- Default log_level is 2, java.log_level from php.ini overrides.-->
+        <!--
+         <init-param>
+           <param-name>servlet_log_level</param-name>
+           <param-value>2</param-value>
+         </init-param>
+        -->
+
+@
+
+
+1.14
+log
+@Release-3.0.8rc
+@
+text
+@d78 3
+a80 2
+         <!-- Default is true. -->
+       <!--
+d83 1
+a83 1
+           <param-value>Autostart</param-value>
+@
+
+
+1.14.2.1
+log
+@Release-3-0-8-1
+@
+text
+@d78 2
+a79 3
+         <!-- Default is Autostart, if the web application is "JavaBridge" -->
+         <!-- and Off othewise -->
+        <!-- 
+d82 1
+a82 1
+           <param-value>On</param-value>
+@
+
+
+1.13
+log
+@Release-3.0.8pre
+@
+text
+@d9 1
+a9 1
+        <servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+d42 1
+a42 1
+        <servlet-class>php.java.servlet.PhpJavaServlet</servlet-class>
+d64 11
+@
+
+
+1.12
+log
+@Release-3.0.7a
+@
+text
+@d13 1
+a13 1
+    <!-- PHP Servlet -->
+d18 26
+a74 10
+         <!-- Allow non-local clients. These clients connect to the -->
+         <!-- backend using a HTTP tunnel. Default is Off. -->
+         <!-- Leave this off if your server is connected to the internet. --> 
+       <!--
+         <init-param>
+           <param-name>allow_http_tunnel</param-name>
+           <param-value>On</param-value>
+         </init-param>
+        -->
+
+d96 6
+@
+
+
+1.11
+log
+@Release-3.0.7
+@
+text
+@a16 1
+        <load-on-startup>0</load-on-startup>
+d66 2
+@
+
+
+1.10
+log
+@Release-3.0.4
+@
+text
+@d82 5
+@
+
+
+1.9
+log
+@Release-3-0-2
+@
+text
+@d21 2
+a22 1
+         <!-- use the current VM. Default is On. -->
+d41 2
+a42 1
+         <!-- Apache or IIS module). Default is true. --> 
+d46 1
+a46 1
+           <param-value>false</param-value>
+d50 11
+a60 1
+         <!-- Default log_level is 2, java.log_level from your php.ini overrides. -->
+@
+
+
+1.8
+log
+@Release-3-0-2
+@
+text
+@d10 1
+a10 1
+        <load-on-startup>1</load-on-startup>
+d17 1
+a17 1
+        <load-on-startup>1</load-on-startup>
+d34 1
+a34 1
+           <param-value>php</param-value>
+@
+
+
+1.7
+log
+@Release-3.0.0pre1
+@
+text
+@d49 1
+a49 1
+        <!-- 
+a69 6
+    <!-- Welcome files -->
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
+@
+
+
+1.6
+log
+@Documentation for Oracle 10g AS and WebSphere 6 AS added
+@
+text
+@d5 9
+a13 1
+<!-- our servlet -->
+d15 40
+a54 38
+        <servlet-name>
+		PhpJavaServlet
+        </servlet-name>
+        <servlet-class>
+		php.java.servlet.PhpJavaServlet
+        </servlet-class>
+    <init-param>
+      <param-name>clientInputTimeout</param-name>
+      <param-value>100</param-value>
+    </init-param>
+    <init-param>
+      <param-name>debug</param-name>
+      <param-value>0</param-value>
+    </init-param>
+    <init-param>
+      <param-name>cgiPathPrefix</param-name>
+      <param-value>WEB-INF/cgi</param-value>
+    </init-param>
+
+    <!-- Allow us to override the java.hosts, java.servlet and -->
+    <!-- java.socketname settings from your php.ini so that we can -->
+    <!-- use the current VM. -->
+    <init-param>
+      <param-name>override_hosts</param-name>
+      <param-value>On</param-value>
+    </init-param>
+
+    <!-- Your php binary, for example c:/php5/php.exe, php or /usr/bin/php. -->
+    <init-param>
+      <param-name>php_exec</param-name>
+      <param-value>php</param-value>
+    </init-param>
+
+    <!-- Default log_level is 2, java.log_level from your php.ini overrides. -->
+    <init-param>
+      <param-name>servlet_log_level</param-name>
+      <param-value>2</param-value>
+    </init-param>
+d57 2
+a58 1
+<!-- URL -->
+d60 2
+a61 2
+        <servlet-name>PhpJavaServlet</servlet-name> 
+        <url-pattern>/PhpJavaServlet</url-pattern>
+d63 2
+d67 1
+a67 3
+        <url-pattern>
+		*.php
+        </url-pattern>
+d69 7
+@
+
+
+1.5
+log
+@Release-2.0.8(pre4)
+@
+text
+@d1 2
+a2 5
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/j2ee/dtds/web-app_2_3.dtd">
+@
+
+
+1.4
+log
+@Release-2.0.8(pre3)
+@
+text
+@d37 1
+a37 1
+    <!-- Your php binary, for example php.exe, php or /usr/bin/php. -->
+@
+
+
+1.3
+log
+@Release-2.0.8-preview
+@
+text
+@a35 1
+    </servlet>
+d48 1
+a60 1
+
+@
+
+
+1.2
+log
+@PR1243638: Running php and jsp side by side
+@
+text
+@d28 4
+d33 4
+d39 1
+a42 1
+    <init-param>
+d45 1
+a48 10
+    <init-param>
+
+    <!-- Allow us to override the java.hosts, java.servlet and -->
+    <!-- java.socketname settings from your php.ini so that we can -->
+    <!-- use the current VM.  Switch this to Off if you want to -->
+    <!-- use the "standard" local VM, which is usually much faster. -->
+      <param-name>override_hosts</param-name>
+      <param-value>On</param-value>
+    </init-param>
+    </servlet>
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d16 33
+d56 7
+a62 8
+<!--     <servlet-mapping> -->
+<!--         <servlet-name> -->
+<!-- 		PhpJavaServlet -->
+<!--         </servlet-name> -->
+<!--         <url-pattern> -->
+<!-- 		*.php -->
+<!--         </url-pattern> -->
+<!--     </servlet-mapping> -->
+@
+

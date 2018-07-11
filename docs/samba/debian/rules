@@ -1,0 +1,202 @@
+#!/usr/bin/make -f
+# By Jelmer Vernooij <jelmer@samba.org>
+#
+DESTDIR = $(CURDIR)/debian/tmp
+
+export DEB_LDFLAGS_MAINT_APPEND = -Wl,--as-needed
+
+# Work-around gcc-4.8 issue (LP: #1585174)
+ifneq ($(filter $(DEB_HOST_ARCH),arm64),)
+export DEB_CFLAGS_MAINT_APPEND  := -fno-if-conversion
+endif
+
+PYVERS=$(shell pyversions -vr)
+
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+LDB_VERSION = $(shell pkg-config --modversion ldb)
+LDB_EPOCH = $(shell dpkg-query -f '$${Version}' -W libldb-dev | sed 's/:.*//')
+LDB_NEXT_VERSION = $(shell python -c "x = '$(LDB_VERSION)'.split('.'); x[-1] = str(int(x[-1])+1); print '.'.join(x)")
+# samba ships ldb modules, which are specific to the ldb version, so we need a
+# strict dependency on the upstream ldb version
+# this also mean samba needs a rebuild when the upstream ldb version changes
+LDB_DEPENDS = "libldb1 (<< $(LDB_EPOCH):$(LDB_NEXT_VERSION)~), libldb1 (>> $(LDB_EPOCH):$(LDB_VERSION)~)"
+export PYSHORT=$(shell pyversions -d)
+export PYTHON=$(shell which $(PYSHORT))
+export PYTHON_CONFIG="$(PYTHON)-config"
+WAF = $(PYTHON) ./buildtools/bin/waf -v
+
+# turn DEB_BUILD_OPTIONS='foo,bar' into DEB_BUILD_OPT_FOO and DEB_BUILD_OPT_BAR
+d_b_o:=$(shell echo "$$DEB_BUILD_OPTIONS"|sed 's/[^-[:alnum:]]/ /g'|tr a-z A-Z)
+$(foreach o, $(d_b_o), $(eval DEB_BUILD_OPT_$o := 1))
+
+# for xsltproc wrapper
+export PATH:=$(CURDIR)/debian/bin:$(PATH)
+export SOURCE_DATE=$(shell debian/get_source_changedate.pl)
+
+ifneq (,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+WAF += -j $(patsubst parallel=%,%,$(filter parallel=%,$(DEB_BUILD_OPTIONS)))
+endif
+
+conf_args = \
+		--prefix=/usr \
+		--enable-fhs \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--with-privatedir=/var/lib/samba/private \
+		--with-smbpasswd-file=/etc/samba/smbpasswd \
+		--with-piddir=/var/run/samba \
+		--with-pammodulesdir=/lib/$(DEB_HOST_MULTIARCH)/security \
+		--with-pam \
+		--with-syslog \
+		--with-utmp \
+		--with-pam_smbpass \
+		--with-winbind \
+		--with-shared-modules=idmap_rid,idmap_ad,idmap_adex,idmap_hash,idmap_ldap,vfs_dfs_samba4,auth_samba4 \
+		--with-automount \
+		--with-ldap \
+		--with-ads \
+		--with-dnsupdate \
+		--libdir=/usr/lib/$(DEB_HOST_MULTIARCH) \
+		--with-modulesdir=/usr/lib/$(DEB_HOST_MULTIARCH)/samba \
+		--datadir=/usr/share \
+		--with-lockdir=/var/run/samba \
+		--with-statedir=/var/lib/samba \
+		--with-cachedir=/var/cache/samba \
+		--disable-avahi \
+		--disable-rpath \
+		--disable-rpath-install \
+		--bundled-libraries=NONE,pytevent,iniparser,roken,wind,hx509,asn1,heimbase,hcrypto,krb5,gssapi,heimntlm,hdb,kdc,com_err,compile_et,asn1_compile \
+		--builtin-libraries=replace,ccan,samba-cluster-support \
+		--minimum-library-version="$(shell ./debian/autodeps.py --minimum-library-version)"
+
+%:
+	dh $* --with python2
+
+override_dh_auto_configure:
+	$(shell dpkg-buildflags --export=configure) $(WAF) configure \
+		$(conf_args)
+
+override_dh_auto_clean:
+	-$(WAF) clean
+	find . -name "*.pyc" | xargs rm -f
+	rm -rf buildtools/bin/.waf-*
+	rm -rf bin
+	rm -f .lock-wscript
+
+override_dh_auto_install:
+	DESTDIR="$(DESTDIR)" $(WAF) install
+
+override_dh_auto_build:
+	ulimit -s unlimited; DESTDIR="$(DESTDIR)" $(WAF)
+
+override_dh_auto_test:
+	# Running make test requires configuration with --enable-selftest, which
+	# we don't want to do for production systems.
+
+override_dh_install:
+	# get list of files in build log
+	find ${DESTDIR}
+	# Included in python-tevent
+	rm $(DESTDIR)/usr/lib/python*/*-packages/_tevent.so
+	rm $(DESTDIR)/usr/lib/python*/*-packages/tevent.py
+	# Already documented in debian/copyright
+	-rm $(DESTDIR)/usr/share/samba/setup/ad-schema/licence.txt
+	# System ldb loads its modules from a different path
+	mkdir -p $(DESTDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/ldb/modules/ldb
+	ln -sf ../../../samba/ldb $(DESTDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/ldb/modules/ldb/samba
+	# pam stuff
+	mkdir -p $(DESTDIR)/usr/share/pam-configs
+	install -m 0644 debian/libpam-smbpass.pam-config $(DESTDIR)/usr/share/pam-configs/smbpasswd-migrate
+	install -m 0644 debian/winbind.pam-config $(DESTDIR)/usr/share/pam-configs/winbind
+	mv $(DESTDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/libnss_* $(DESTDIR)/lib/$(DEB_HOST_MULTIARCH)/
+	# we don't ship the symlinks
+	rm $(DESTDIR)/lib/$(DEB_HOST_MULTIARCH)/libnss_*.so
+	#Remove unused ldb share configuration plugin
+	rm $(DESTDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/samba/share/ldb.so
+	#Remove unused vfstest manpage as there is no more vfstest apparently
+	rm $(DESTDIR)/usr/share/man/man1/vfstest.1
+	mkdir -p $(DESTDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/plugin/krb5
+	mv $(DESTDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/winbind_krb5_locator.so \
+	   $(DESTDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/plugin/krb5
+	install -m 0755 debian/setoption.py $(DESTDIR)/usr/share/samba
+	install -m 0755 debian/addshare.py $(DESTDIR)/usr/share/samba
+	mkdir -p $(DESTDIR)/usr/lib/tmpfiles.d
+	echo "d /run/samba 0755 root root -" > $(DESTDIR)/usr/lib/tmpfiles.d/samba.conf
+	# Install samba-common's conffiles - they'll get moved later to their
+	# correct place by dh_install
+	cp debian/smb.conf* $(DESTDIR)/usr/share/samba/
+	install -m755 debian/panic-action $(DESTDIR)/usr/share/samba/panic-action
+	cp debian/gdbcommands $(DESTDIR)/etc/samba/
+	mkdir -p $(DESTDIR)/etc/dhcp/dhclient-enter-hooks.d
+	install -m755 debian/samba-common.dhcp $(DESTDIR)/etc/dhcp/dhclient-enter-hooks.d/samba
+	# Ubuntu things
+	mkdir -p $(DESTDIR)/etc/ufw/applications.d
+	install -m644 debian/samba.ufw.profile $(DESTDIR)/etc/ufw/applications.d/samba
+	mkdir -p $(DESTDIR)/usr/share/apport/package-hooks
+	install -D -m 644 debian/source_samba.py $(DESTDIR)/usr/share/apport/package-hooks/source_samba.py
+	# Install other stuff not installed by "make install"
+	install -m 0755 debian/mksmbpasswd.awk $(DESTDIR)/usr/sbin/mksmbpasswd
+	mkdir -p debian/samba/usr/lib/$(PYSHORT)/dist-packages/samba
+	mv $(DESTDIR)/usr/lib/$(PYSHORT)/dist-packages/samba/dckeytab.so \
+	   debian/samba/usr/lib/$(PYSHORT)/dist-packages/samba/dckeytab.so
+	# use upstream version of smb.conf.5 if there is no built version
+	# this is a temporary workaround for #750593 in xsltproc
+	[ -e $(DESTIDR)/usr/share/man/man5/smb.conf.5 ] || \
+	   cp docs/manpages/smb.conf.5 $(DESTDIR)/usr/share/man/man5/smb.conf.5
+	# Tests that shouldn't be installed
+	rm -f $(DESTDIR)/usr/bin/async_connect_send_test
+	dh_install --sourcedir=$(DESTDIR) --list-missing --fail-missing
+
+override_dh_python2:
+	dh_python2 --no-guessing-versions
+
+override_dh_installpam:
+	dh_installpam --name=samba
+
+get-packaged-orig-source:
+	./debian/build-orig.sh
+
+override_dh_installchangelogs:
+	dh_installchangelogs -Nlibpam-smbpass
+ifneq (,$(filter libpam-smbpass, $(shell dh_listpackages)))
+	dh_installchangelogs -plibpam-smbpass source3/pam_smbpass/CHANGELOG
+endif
+
+override_dh_installinit:
+ifneq (,$(filter samba, $(shell dh_listpackages)))
+	dh_installinit -psamba --name smbd
+	dh_installinit -psamba --name nmbd
+	dh_installinit -psamba --name samba-ad-dc
+	dh_installinit -psamba --noscripts
+	dh_installinit -psamba --no-start --name reload-smbd
+endif
+ifneq (,$(filter winbind, $(shell dh_listpackages)))
+	dh_installinit -pwinbind
+endif
+
+override_dh_shlibdeps:
+	LD_LIBRARY_PATH=$(DESTDIR)/usr/lib/$(DEB_HOST_MULTIARCH)/samba:$$LD_LIBRARY_PATH dh_shlibdeps -a
+
+override_dh_gencontrol:
+	dh_gencontrol -- -Vldb:Depends=$(LDB_DEPENDS)
+
+override_dh_makeshlibs:
+	# create symbols and shlibs files in separate wrapper script to deal with
+	# private libraries
+	debian/make_shlibs
+
+override_dh_strip:
+	# add debug symbols for all samba packages to the same debug package
+	dh_strip -a --dbg-package=samba-dbg
+
+override_dh_fixperms:
+	dh_fixperms
+ifneq (,$(filter samba-common, $(shell dh_listpackages)))
+	chmod a+x debian/samba-common/usr/share/samba/panic-action
+	# Set some reasonable default perms for the samba logdir.
+	chmod 0750 debian/samba-common/var/log/samba/
+	chown root:adm debian/samba-common/var/log/samba/
+endif
+ifneq (,$(filter samba, $(shell dh_listpackages)))
+	chmod 1777 debian/samba/var/spool/samba/
+endif

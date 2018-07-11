@@ -1,0 +1,610 @@
+head	1.15;
+access;
+symbols
+	Release-7-1-1:1.14.0.8
+	Root_Release-7-1-1:1.14
+	Root_Release_7-0-1:1.14
+	Release_7-0-1:1.14.0.6
+	Release_7-0-0:1.14.0.4
+	Root_Release_7-0-0:1.14
+	Release-6-2-2:1.14.0.2
+	Release-6-1-2-3:1.13
+	Root_Release-6-1-2-3:1.13
+	Release-6-1-2-2:1.13.0.12
+	Root_Release-6-1-2-2:1.13
+	debian_version_6_1_2_1-1:1.13
+	upstream_version_6_1_2_1:1.13
+	Release-6-1-2-1_new:1.13.0.10
+	Root_Release-6-1-2-1_new:1.13
+	Release-6-1-2-1:1.13.0.8
+	Root_Release-6-1-2-1:1.13
+	upstream_version_6_1_2:1.13
+	debian_version_6_1_2-1:1.13
+	Release-6-1-2:1.13.0.6
+	Root_Release-6-1-2:1.13
+	debian_version_6_1_1-2:1.13
+	debian_version_6_1_1-1:1.13
+	upstream_version_6_1_1:1.13
+	Release-6-1-1:1.13.0.4
+	Root_Release-6-1-1:1.13
+	Release-6-0-4:1.13.0.2
+	Root_Release-6-0-4:1.13
+	Release-6-0-3_NEW:1.12.0.4
+	Root_Release-6-0-3_NEW:1.12
+	Release-6-0-3:1.12.0.6
+	Root_Release-6-0-3:1.12
+	Release-6-0-0:1.12.0.2
+	Root_Release-6-0-0:1.12
+	Release-5-5-4-1:1.10.0.4
+	Root_Release-5-5-4-1:1.10
+	Release-5-5-4:1.10.0.2
+	Root_Release-5-5-4:1.10
+	Release-5-5-3:1.9.0.14
+	ROOT_Release-5-5-3:1.9
+	Release-5-5-2:1.9.0.12
+	Root_Release-5-5-2:1.9
+	debian_version_5_5_1-1:1.9
+	Release-5-5-1:1.9.0.8
+	upstream_version_5_5_1:1.9
+	ROOT_Release-5-5-1:1.9
+	debian_version_5_5-1:1.9
+	upstream_version_5_5:1.9
+	ROOT_Release-5-5:1.9
+	Release-5-5:1.9.0.10
+	debian_version_5_4_4_2-3:1.9
+	Release-5-4-4-2-1:1.9.0.4
+	debian_version_5_4_4_2-2:1.9
+	debian_version_5_4_4_2-1:1.9
+	upstream_version_5_4_4_2:1.9
+	debian_version_5_4_4_1-1:1.9
+	upstream_version_5_4_4_1:1.9
+	debian_version_5_4_4-1:1.9
+	upstream_version_5_4_4:1.9
+	Release-5-4-4:1.9.0.6
+	Root_Release-5-4-4:1.9
+	debian_version_5_4_3_2-1:1.9
+	upstream_version_5_4_3_2:1.9
+	Release_5-4-3-2:1.9.0.2
+	Root_Release_5-4-3-2:1.9
+	upstream_version_5_4_3_1:1.9
+	debian_version_5_4_3_1-1:1.9
+	Release-5-4-3:1.8.0.8
+	Root_Release-5-4-3:1.8
+	Root_Release-5-4-1:1.8
+	Release-5-4-1:1.8.0.6
+	Root_Release-5-4:1.8
+	Release-5-4:1.8.0.4
+	upstream_version_5_3_4:1.8
+	debian_version_5_3_4-1:1.8
+	ROOT_Release-5-3-4:1.8
+	Release-5-3-4:1.8.0.2
+	ROOT_Release-5-3-3:1.7
+	Release-5-3-3:1.7.0.4
+	debian_version_5_3_2_1_2-1:1.7
+	upstream_version_5_3_2_1_2:1.7
+	debian_version_5_3_2_1_1-1:1.7
+	debian_version_5_3_2_1_1:1.7
+	upstream_version_5_3_2_1_1:1.7
+	Root_Release-5-3-2-1:1.7
+	Release-5-3-2-1:1.7
+	ROOT_RELEASE-5-3-2-1:1.7
+	RELEASE-5-3-2-1:1.7.0.2
+	Release-5-3-2:1.6.0.16
+	Root_Release-5-3-2:1.6
+	Root_Release-5-3-1:1.6
+	Release-5-3-1:1.6.0.14
+	Release-5-2-3-1:1.6.0.12
+	Root_Release-5-2-3-1:1.6
+	Release-5-2-2-4:1.6.0.10
+	Root_Release-5-2-2-4:1.6
+	Release-5-2-2-1:1.6.0.8
+	Root_Release-5-2-2-1:1.6
+	upstream_version_5_2_2:1.6
+	debian_version_5_2_2-1:1.6
+	Release-5-2-2:1.6.0.6
+	ROOT_Release-5-2-2:1.6
+	ROOT_Release-5-2-1:1.6
+	Release-5-2-1:1.6.0.4
+	Release-5-2-0:1.6.0.2
+	ROOT_Release-5-2-0:1.6
+	ROOT_Release-5-1-2:1.5
+	Release-5-1-2:1.5.0.8
+	Version-5-1-1:1.5.0.6
+	ROOT_Version-5-1-1:1.5
+	debian_version_5_1_0-1:1.5
+	upstream_version_5_1_0:1.5
+	ROOT_Release-5-1-0:1.5
+	Release-5-1-0:1.5.0.4
+	ROOT_Release-5-0-0:1.5
+	Release-5-0-0:1.5.0.2
+	Release-4-3-3:1.4.0.2
+	ROOT_Release-4-3-3:1.4
+	upstream_version_4_3_2:1.3
+	debian_version_4_3_2-1:1.3
+	ROOT_Release-4-3-2:1.3
+	Release-4-3-2:1.3.0.6
+	Release-4-3-1:1.3.0.4
+	ROOT_Release-4-3-1:1.3
+	debian_version_4_3_0-1:1.3
+	upstream_version_4_3_0:1.3
+	ROOT_Release-4-3-0:1.3
+	Release-4-3-0:1.3.0.2
+	debian_version_4_2_2-1:1.2
+	upstream_version_4_2_2:1.2
+	Release-4-1-2:1.2.0.6
+	Release-4-0-8:1.2.0.4
+	debian_version_4_0_8a-1:1.2
+	upstream_version_4_0_8a:1.2
+	jostb-debian-ubuntu-patch:1.2.0.2
+	debian_version_4_0_8-1:1.1
+	upstream_version_4_0_8:1.1
+	debian_version_4_0_7-1:1.1
+	upstream_version_4_0_7:1.1
+	debian_version_4_0_6-1:1.1
+	upstream_version_4_0_6:1.1
+	debian_version_4_0_2-1:1.1
+	upstream_version_4_0_2:1.1
+	Release-4-0-2_Root:1.1
+	Release-4-0-2:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.15
+date	2017.04.14.13.01.10;	author jost_boekemeier;	state dead;
+branches;
+next	1.14;
+
+1.14
+date	2010.07.17.11.38.16;	author jost_boekemeier;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2010.03.06.11.12.45;	author jost_boekemeier;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2010.02.21.16.24.10;	author jost_boekemeier;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2010.01.23.10.09.35;	author jost_boekemeier;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2009.10.17.17.40.22;	author jost_boekemeier;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2009.01.10.16.50.04;	author jost_boekemeier;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2008.11.15.14.27.51;	author jost_boekemeier;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2008.10.06.20.10.55;	author jost_boekemeier;	state Exp;
+branches
+	1.7.4.1;
+next	1.6;
+
+1.6
+date	2008.03.02.21.36.52;	author jost_boekemeier;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2008.01.06.20.59.20;	author jost_boekemeier;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2007.12.28.13.56.42;	author jost_boekemeier;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2007.09.19.10.12.27;	author jost_boekemeier;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2007.04.10.13.30.47;	author jost_boekemeier;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2007.03.19.13.03.17;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+1.7.4.1
+date	2008.11.15.14.22.31;	author jost_boekemeier;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.15
+log
+@Removed JavaProxy.php
+@
+text
+@<html>
+<?php 
+require_once ("java/Java.inc");
+$Util = java("php.java.bridge.Util");
+$ctx = java_context();
+/* get the current instance of the JavaBridge, ServletConfig and Context */
+$bridge = $ctx->getAttribute(  "php.java.bridge.JavaBridge",      100);
+$config = $ctx->getAttribute ( "php.java.servlet.ServletConfig",  100);
+$context = $ctx->getAttribute( "php.java.servlet.ServletContext", 100);
+$servlet = $ctx->getAttribute( "php.java.servlet.Servlet", 100);
+?>
+<head>
+   <title>PHP/Java Bridge settings</title>
+</head>
+<body bgcolor="#FFFFFF">
+<H1>PHP/Java Bridge settings</H1>
+<p>
+The PHP/Java Bridge web application contains two servlets. The <code>PhpJavaServlet</code> handles requests from remote PHP scripts running in Apache/IIS or from the command line. 
+The second servlet <code>PhpCGIServlet</code> can handle requests from internet clients directly. 
+<p>
+The following shows the settings of the <code>PhpJavaServlet</code> and the <code>PhpCGIServlet</code>.
+</p>
+<H2>PhpJavaServlet</H2>
+<p>
+The <code>PhpJavaServlet</code> handles requests from PHP clients.
+<blockquote>
+<code>
+Apache/IIS/console::PHP &lt;--&gt; PhpJavaServlet
+</code>
+</blockquote>
+
+It listens for PHP/Java Bridge protocol requests on the local interface or on all available network interfaces and invokes Java methods or procedures. The following example accesses the bridge listening on the <strong>local</strong> interface:
+<blockquote>
+<code>
+&lt;?php <br>
+require_once("http://localhost:8080/JavaBridge/java/Java.inc");<br>
+$System = java("java.lang.System");<br>
+echo $System->getProperties();<br>
+?&gt;
+</code>
+</blockquote>
+
+</p>
+<table BORDER=1 CELLSPACING=5 WIDTH="85%" >
+<tr VALIGN=TOP>
+<th>Option</th>
+<th>Value</th>
+<th WIDTH="60%">Description</th>
+</tr>
+<tr>
+<td>servlet_log_level</td>
+<td><?php echo java_values($bridge->getlogLevel());?></td>
+<td>The request log level.</td>
+</tr>
+</table>
+</p>
+<p>
+<?php if (java_instanceof ($servlet, java('php.java.servlet.fastcgi.FastCGIServlet'))) { ?>
+<H2>PhpCGIServlet</H2>
+<p>
+The <code>PhpCGIServlet</code> runs PHP scripts within the J2EE/Servlet engine.
+</p>
+<blockquote>
+<code>
+internet browser &lt;--&gt; PhpCGIServlet &lt;--&gt; php-cgi &lt;--&gt; PhpJavaServlet
+</code>
+</blockquote>
+<p>
+It starts a PHP FastCGI server, if possible and necessary. Requests for PHP scripts are delegated to the FastCGI server. If the PHP code contains Java calls, the PHP/Java Bridge protocol requests are delegated back to the current VM, to an instance of the <code>PhpJavaServlet</code>.
+</p>
+<table BORDER=1 CELLSPACING=5 WIDTH="85%" >
+<tr VALIGN=TOP>
+<th>Option</th>
+<th>Value</th>
+<th WIDTH="60%">Description</th>
+</tr>
+
+<tr>
+<td>php_exec</td>
+<td><?php $val=java_values($context->getInitParameter("php_exec")); echo $val?$val:"php-cgi"?></td>
+<td>The name and location of your system_php_exec. For example <code>/opt/PHP/bin/php-cgi</code>. Default is <code>/usr/bin/php-cgi</code> or <code>c:/Program Files/PHP/php-cgi.exe</code> or a <code>php-cgi</code> from the PATH.</td>
+</tr>
+
+<tr>
+<td>prefer_system_php_exec</td>
+<td><?php $val=java_values($context->getInitParameter("prefer_system_php_exec")); echo $val?$val:"Off"?></td>
+<td>Ignore a local <code>WEB-INF/cgi/php-cgi-ARCH-OS</code> executable from the web archive and use the specified <code>php_exec</code>. Default is Off.</td>
+</tr>
+
+<tr>
+<td>php_include_java</td>
+<td><?php $val=java_values($context->getInitParameter("php_include_java")); echo $val?$val:"Off"?></td>
+<td>Shall the server add <code>&lt?php include_once("java/Java.inc");?&gt;</code> at the top of each PHP script? Default is Off.</td>
+</tr>
+
+</table>
+</p>
+
+<?php /* current sevlet is PhpCGIServlet */ } ?>
+
+The settings were taken from the <a href="file://<?php 
+echo java_values(java('php.java.servlet.ServletUtil')->getRealPath($context, '/WEB-INF/web.xml'))
+?>">WEB-INF/web.xml</a>.
+</body>
+</html>
+@
+
+
+1.14
+log
+@Release-6-2-1
+@
+text
+@@
+
+
+1.13
+log
+@Release-6-0-4
+@
+text
+@d80 1
+a80 1
+<td><?php $val=java_values($config->getInitParameter("php_exec")); echo $val?$val:"php-cgi"?></td>
+d86 1
+a86 1
+<td><?php $val=java_values($config->getInitParameter("prefer_system_php_exec")); echo $val?$val:"Off"?></td>
+d92 1
+a92 1
+<td><?php $val=java_values($config->getInitParameter("php_include_java")); echo $val?$val:"Off"?></td>
+@
+
+
+1.12
+log
+@Release-6-0-0
+@
+text
+@d19 1
+a19 1
+The second servlet <code>PhpFastCGIServlet</code> can handle requests from internet clients directly. 
+d21 1
+a21 1
+The following shows the settings of the <code>PhpJavaServlet</code> and the <code>PhpFastCGIServlet</code>.
+d59 1
+a59 1
+<H2>PhpFastCGIServlet</H2>
+d61 1
+a61 1
+The <code>PhpFastCGIServlet</code> runs PHP scripts within the J2EE/Servlet engine.
+d65 1
+a65 1
+internet browser &lt;--&gt; PhpFastCGIServlet &lt;--&gt; php-cgi &lt;--&gt; PhpJavaServlet
+d99 1
+a99 1
+<?php /* current sevlet is PhpFastCGIServlet */ } ?>
+@
+
+
+1.11
+log
+@Release-5-5-5
+@
+text
+@a9 1
+$CGIServlet = java("php.java.servlet.PhpCGIServlet");
+d19 1
+a19 1
+The second servlet <code>PhpCGIServlet</code> can handle requests from internet clients directly. 
+d21 1
+a21 1
+The following shows the settings of the <code>PhpJavaServlet</code> and the <code>PhpCGIServlet</code>.
+d58 2
+a59 2
+<?php if (java_instanceof ($servlet, $CGIServlet)) { ?>
+<H2>PhpCGIServlet</H2>
+d61 1
+a61 1
+The <code>PhpCGIServlet</code> runs PHP scripts within the J2EE/Servlet engine.
+d65 1
+a65 1
+internet browser &lt;--&gt; PhpCGIServlet &lt;--&gt; php-cgi &lt;--&gt; PhpJavaServlet
+a95 8
+<tr>
+<td>thread pool size</td>
+<td><?php $val=java_values($servlet->getServletPoolSize()); echo $val?$val:"unknown"?></td>
+<td>The servlet thread pool size, taken from <code>Util.getMBeanProperty("*:type=ThreadPool,name=http*", "maxThreads")</code> or 
+      <code>Util.getMBeanProperty("*:ServiceModule=*,J2EEServer=*,name=JettyWebConnector,j2eeType=*", "maxThreads");</code> or 
+     from the system property <code>php.java.bridge.threads</code>.</td>
+</tr>
+
+d99 1
+a99 1
+<?php /* current sevlet is CGIServlet */ } ?>
+d102 1
+a102 1
+echo java_values($CGIServlet->getRealPath($context, '/WEB-INF/web.xml'))
+@
+
+
+1.10
+log
+@Release-5-5-4
+@
+text
+@a55 5
+<tr>
+<td>promiscuous</td>
+<td><?php $val=java_values($context->getInitParameter("promiscuous")); echo $val?$val:"Off"?></td>
+<td>Shall the bridge accept requests from <strong>non-local</strong> PHP scripts?</td>
+</tr>
+d92 6
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d58 1
+a58 1
+<td><?php echo java_values($Util->JAVABRIDGE_PROMISCUOUS) ? "On" : "Off" ?></td>
+@
+
+
+1.8
+log
+@Release 5.3.3
+@
+text
+@d75 1
+a75 1
+It starts a PHP FastCGI server, if possible and neccessary. Requests for PHP scripts are delegated to the FastCGI server. If the PHP code contains Java calls, the PHP/Java Bridge protocol requests are delegated back to the current VM, to an instance of the <code>PhpJavaServlet</code>.
+@
+
+
+1.7
+log
+@Release-5-3-2-1
+@
+text
+@d87 1
+a87 1
+<td>The PHP FastCGI or CGI binary.</td>
+d93 1
+a93 1
+<td>May we use /usr/bin/php-cgi or c:/php/php-cgi.exe if a local WEB-INF/cgi/php-cgi-ARCH-OS executable is available?</td>
+@
+
+
+1.7.4.1
+log
+@Release 5.3.3
+@
+text
+@d87 1
+a87 1
+<td>The name and location of your system_php_exec. For example <code>/opt/PHP/bin/php-cgi</code>. Default is <code>/usr/bin/php-cgi</code> or <code>c:/Program Files/PHP/php-cgi.exe</code> or a <code>php-cgi</code> from the PATH.</td>
+d93 1
+a93 1
+<td>Ignore a local <code>WEB-INF/cgi/php-cgi-ARCH-OS</code> executable from the web archive and use the specified <code>php_exec</code>. Default is Off.</td>
+@
+
+
+1.6
+log
+@Release-5-2-0
+@
+text
+@d75 1
+a75 1
+It starts a PHP FastCGI server, if possible and necessary. Requests for PHP scripts are delegated to the FastCGI server. If the PHP code contains Java calls, the PHP/Java Bridge protocol requests are delegated back to the current VM, to an instance of the <code>PhpJavaServlet</code>.
+a82 5
+<tr>
+<td>override_hosts</td>
+<td><?php $val=java_values($config->getInitParameter("override_hosts")); echo $val?$val:"On"?></td>
+<td>Should the servlet engine delegate protocol requests back to the current VM?</td>
+</tr>
+d97 5
+a101 16
+<td>max_requests</td>
+<td><?php $val=java_values($servlet->getCGIMaxRequests()); echo $val?$val:"20"?></td>
+<td>How many parallel requests should the servlet engine handle?</td>
+</tr>
+
+
+<tr>
+<td>use_fast_cgi</td>
+<td><?php $val=java_values($config->getInitParameter("use_fast_cgi")); echo $val?$val:"Autostart"?></td>
+<td>Shall the bridge start an internal, or use an external or no PHP FastCGI server?</td>
+</tr>
+
+<tr>
+<td>shared_fast_cgi_pool</td>
+<td><?php $val=java_values($config->getInitParameter("shared_fast_cgi_pool")); echo $val?$val:"Off"?></td>
+<td>Are there two bridges accessing the same FastCGI pool? Set this to On in <strong>both</strong>, the global web.xml and in the WEB-INF/web.xml of the JavaBridge context.</td>
+@
+
+
+1.5
+log
+@Release-5-0-0
+@
+text
+@d3 1
+a3 1
+if(!extension_loaded('java')) require_once("java/Java.inc");
+@
+
+
+1.4
+log
+@Release-4-3-3
+@
+text
+@d53 1
+a53 1
+<td><?php echo $bridge->getlogLevel();?></td>
+d58 1
+a58 1
+<td><?php echo $Util->JAVABRIDGE_PROMISCUOUS ? "On" : "Off" ?></td>
+d85 1
+a85 1
+<td><?php $val=$config->getInitParameter("override_hosts"); echo $val?$val:"On"?></td>
+@
+
+
+1.3
+log
+@Release-4-3-0
+@
+text
+@a3 1
+$CGIServlet = java("php.java.servlet.CGIServlet");
+d10 2
+d64 1
+d103 1
+a103 1
+<td><?php $val=java_values($config->getInitParameter("max_requests")); echo $val?$val:"50"?></td>
+d123 2
+@
+
+
+1.2
+log
+@Release-3-0-8
+@
+text
+@d4 2
+a5 2
+$CGIServlet = new JavaClass("php.java.servlet.CGIServlet");
+$Util = new JavaClass("php.java.bridge.Util");
+d37 1
+a37 1
+$System = new JavaClass("java.lang.System");<br>
+@
+
+
+1.1
+log
+@Release-4-0-2
+@
+text
+@d94 6
+@
+
