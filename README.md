@@ -1,6 +1,6 @@
 # VSCP Debian installation scripts
 
-![VSCP logo](./images/logo_100.png)
+![VSCP logo](https://www.vscp.org/images/logo_100.png)
 
 This folder contains some helpers to help the build of VSCP Debian packages (https://wwws.vscp.org).
 
