@@ -1,10 +1,22 @@
 usr/bin/vscpd
 usr/bin/vscpcmd
 usr/bin/vscp-mkpasswd
-config_examples/unix/vscpd.conf  /etc/vscp
+install_files/unix/vscpd.conf  /etc/vscp
 database/vscp_events.sqlite3 /srv/vscp/
-config_examples/unix/variables.xml /srv/vscp/
-config_examples/unix/dm.xml /srv/vscp/
-config_examples/simulation/simtempdata.txt /srv/vscp/
-config_examples/certs/server.pem /srv/vscp/certs/
-config_examples/certs/client.pem /srv/vscp/certs/
+install_files/variables/variables.xml /srv/vscp/
+install_files/DM/dm.xml /srv/vscp/
+install_files/simulation/simtempdata.txt /srv/vscp/
+install_files/certs/server.pem /srv/vscp/certs/
+install_files/certs/client.pem /srv/vscp/certs/
+src/vscp/drivers/level1/can4vscp/linux/vscpl1drv-can4vscp.so /srv/vscp/drivers/level1
+src/vscp/drivers/level1/can232/linux/vscpl1drv-can232.so /srv/vscp/drivers/level1
+src/vscp/drivers/level1/logger/linux/vscpl1drv-logger.so /srv/vscp/drivers/level1
+src/vscp/drivers/level1/socketcan/linux/vscpl1drv-socketcan.so /srv/vscp/drivers/level1
+src/vscp/drivers/level2/lmsensors/linux/vscpl2drv-lmsensors.so /srv/vscp/drivers/level2
+src/vscp/drivers/level2/logger/linux/vscpl2drv-logger.so /srv/vscp/drivers/level2
+src/vscp/drivers/level2/mqtt/linux/vscpl2drv-mqtt.so /srv/vscp/drivers/level2
+src/vscp/drivers/level2/rawethernet/linux/vscpl2drv-raweth.so /srv/vscp/drivers/level2
+src/vscp/drivers/level2/sim/linux/vscpl2drv-sim.so /srv/vscp/drivers/level2
+src/vscp/drivers/level2/socketcan/linux/vscpl2drv-socketcan.so /srv/vscp/drivers/level2
+src/vscp/drivers/level2/tcpdrv/linux/vscpl2drv-tcpiplink.so /srv/vscp/drivers/level2
+src/vscp/drivers/level2/wire1/linux/vscpl2drv-wire1.so /srv/vscp/drivers/level2
