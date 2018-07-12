@@ -1,6 +1,8 @@
-/usr/bin/vscpd
+usr/bin/vscpd
+usr/bin/vscpcmd
+usr/bin/vscp-mkpasswd
 config_examples/unix/vscpd.conf  /etc/vscp
-database/vscp_data.sqlite3 /srv/vscp/
+database/vscp_events.sqlite3 /srv/vscp/
 config_examples/unix/variables.xml /srv/vscp/
 config_examples/unix/dm.xml /srv/vscp/
 config_examples/simulation/simtempdata.txt /srv/vscp/

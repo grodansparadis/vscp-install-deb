@@ -35,10 +35,11 @@ Depends: ${misc:Depends}, libc6,
 Description: The VSCP helper library
  The helper library is a 
 
-Package: linuxvscpl1
+Package: libvscphelper-dev
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libc6, 
+Depends: ${misc:Depends}, libc6, 
 	libwxbase3.0-dev (>=3.0~) | libwxgtk3.0-dev (>=3.0~) | libwxbase3.1-dev (>=3.1~) | libwxgtk3.1-dev (>=3.1~), 
 	libssl1.1.0 | libssl1.0.0 | libssl1.0.1 | libssl1.0.2
 Description: The VSCP helper library
- The VSCP helper library is a 
+ The helper library is a
+
