@@ -1,13 +1,14 @@
 usr/bin/vscpd
 usr/bin/vscpcmd
 usr/bin/vscp-mkpasswd
-install_files/unix/vscpd.conf  /etc/vscp
 database/vscp_events.sqlite3 /srv/vscp/
 install_files/variables/variables.xml /srv/vscp/
 install_files/DM/dm.xml /srv/vscp/
 install_files/simulation/simtempdata.txt /srv/vscp/
 install_files/certs/server.pem /srv/vscp/certs/
 install_files/certs/client.pem /srv/vscp/certs/
+install_files/certs/tcpip_server.pem /srv/vscp/certs/
+install_files/certs/tcpip_client.pem /srv/vscp/certs/
 src/vscp/drivers/level1/can4vscp/linux/vscpl1drv-can4vscp.so /srv/vscp/drivers/level1
 src/vscp/drivers/level1/can232/linux/vscpl1drv-can232.so /srv/vscp/drivers/level1
 src/vscp/drivers/level1/logger/linux/vscpl1drv-logger.so /srv/vscp/drivers/level1
