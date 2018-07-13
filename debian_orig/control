@@ -10,7 +10,7 @@ Vcs-Browser: https://github.com/grodansparadis/vscp
 
 Package: vscpd
 Architecture: any
-Depends: ${misc:Depends}, libc6, 
+Depends: ${misc:Depends}, ${shlibs:Depends}, ${misc:Depends},
 	libwxbase3.0-dev (>=3.0~) | libwxgtk3.0-dev (>=3.0~) | libwxbase3.1-dev (>=3.1~) | libwxgtk3.1-dev (>=3.1~), 
 	libssl1.1.0 | libssl1.0.0 | libssl1.0.1 | libssl1.0.2
 Description: The VSCP daemon
@@ -18,7 +18,7 @@ Description: The VSCP daemon
 
 Package: vscpworks
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libc6, 
+Depends: ${shlibs:Depends}, ${misc:Depends},  
 	libwxgtk3.0-dev (>=3.0~) | libwxgtk3.1-dev (>=3.1~), 
 	libssl1.1.0 | libssl1.0.0 | libssl1.0.1 | libssl1.0.2
 Description: VSCP toolbox

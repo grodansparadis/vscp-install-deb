@@ -16,7 +16,6 @@ set -e
 
 case "$1" in
     install|upgrade)
-    mkdir -p /srv/vscp3
     ;;
 
     abort-upgrade)
