@@ -2,6 +2,7 @@ usr/bin/vscpd
 usr/bin/vscpcmd
 usr/bin/vscp-mkpasswd
 etc/vscp/vscpd.conf
+install_files/unix/vscpd.startup_script_debian /etc/init.d/vscpd
 database/vscp_events.sqlite3 /srv/vscp/
 install_files/variables/variables.xml /srv/vscp/
 install_files/DM/dm.xml /srv/vscp/
