@@ -1,6 +1,7 @@
 usr/bin/vscpd
 usr/bin/vscpcmd
 usr/bin/vscp-mkpasswd
+etc/vscp/vscpd.conf
 database/vscp_events.sqlite3 /srv/vscp/
 install_files/variables/variables.xml /srv/vscp/
 install_files/DM/dm.xml /srv/vscp/

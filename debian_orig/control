@@ -30,7 +30,7 @@ Description: VSCP toolbox
 Package: libvscphelper
 Architecture: any
 Depends: ${misc:Depends}, libc6, 
-	libwxbase3.0-dev (>=3.0~) | libwxbase3.1-dev (>=3.1~), 
+	libwxbase3.0-dev (>=3.0~) | libwxgtk3.0-dev (>=3.0~) | libwxbase3.1-dev (>=3.1~) | libwxgtk3.1-dev (>=3.1~), 
 	libssl1.1.0 | libssl1.0.0 | libssl1.0.1 | libssl1.0.2
 Description: The VSCP helper library
  The VSCP helper library contains routines for remote node manipulation
