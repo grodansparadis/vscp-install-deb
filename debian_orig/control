@@ -13,7 +13,7 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}, ${misc:Depends},
 	libwxbase3.0-dev (>=3.0~) | libwxgtk3.0-dev (>=3.0~) | libwxbase3.1-dev (>=3.1~) | libwxgtk3.1-dev (>=3.1~), 
 	libssl1.1.0 | libssl1.0.0 | libssl1.0.1 | libssl1.0.2
-Description: The VSCP daemon
+Description: VSCP daemon
  vscpd is a daemon for the VSCP & Friends m2m/IoT package.
 
 Package: vscpworks
@@ -32,7 +32,7 @@ Architecture: any
 Depends: ${misc:Depends}, libc6, 
 	libwxbase3.0-dev (>=3.0~) | libwxgtk3.0-dev (>=3.0~) | libwxbase3.1-dev (>=3.1~) | libwxgtk3.1-dev (>=3.1~), 
 	libssl1.1.0 | libssl1.0.0 | libssl1.0.1 | libssl1.0.2
-Description: The VSCP helper library
+Description: VSCP helper library
  The VSCP helper library contains routines for remote node manipulation
  and control.
 
@@ -41,7 +41,7 @@ Architecture: any
 Depends: ${misc:Depends}, libc6, libvscphelper,
 	libwxbase3.0-dev (>=3.0~) | libwxbase3.1-dev (>=3.1~), 
 	libssl1.1.0 | libssl1.0.0 | libssl1.0.1 | libssl1.0.2
-Description: The VSCP helper library
+Description: VSCP helper library development package
  The VSCP helper library contains routines for remote node manipulation
  and control.
 
