@@ -24,8 +24,9 @@ include /usr/share/dpkg/default.mk
 	dh $@ --with autoreconf
 
 # If installing an upstream init.d script:
-override_dh_installinit:
-	dh_installinit --name=vscpd --onlyscripts
+#override_dh_installinit:
+#	dh_installinit --name=vscpd --onlyscripts
+#	dh_installinit --name=vscpd
 
 configure:
 	dh_autoreconf
