@@ -3,12 +3,12 @@ Upstream-Name: vscp
 Source: https://github.com/grodansparadis/vscp
 
 Files: *
-Copyright: 2000-2018 Ake Hedman <akhe@grodansparadis.com>
+Copyright: 2000-2019 Ake Hedman <akhe@grodansparadis.com>
 
 License: MIT
 
 Files: debian/*
-Copyright: 2018-2018 Ake Hedman <akhe@grodansparadis.com>
+Copyright: 2018-2019 Ake Hedman <akhe@grodansparadis.com>
 License: MIT
 
 License: MIT
